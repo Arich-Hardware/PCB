@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Arich SiPM Board Parts")(type Legacy)(uri "${KIPRJMOD}/Arich SiPM Board Parts.lib")(options "")(descr ""))
+)
