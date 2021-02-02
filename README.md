@@ -1,4 +1,3 @@
-# Arich_Hardware
+# PCB
 
-
-# For PCBs and other
+For Arich PCBs and other
