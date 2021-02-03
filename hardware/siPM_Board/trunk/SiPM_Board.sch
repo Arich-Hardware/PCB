@@ -1,0 +1,740 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "SiPM Schematic"
+Date "2021-02-01"
+Rev ""
+Comp "Electronics Design Facility"
+Comment1 "Initial Schematic"
+Comment2 "Dimensions are true"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Arich~SiPM~Board~Parts:S14161-6050HS-04 U?
+U 1 1 601E0DC4
+P 15750 6500
+F 0 "U?" H 15800 7750 50  0000 R CNN
+F 1 "S14161-6050HS-04" H 16150 7800 50  0000 R CNN
+F 2 "" H 14650 6500 50  0001 C CNN
+F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.pdf" H 14650 6500 50  0001 C CNN
+	1    15750 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 602B7C38
+P 10700 5200
+F 0 "C?" H 10815 5246 50  0000 L CNN
+F 1 "C" H 10815 5155 50  0000 L CNN
+F 2 "" H 10738 5050 50  0001 C CNN
+F 3 "~" H 10700 5200 50  0001 C CNN
+	1    10700 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 602B99C3
+P 11000 5200
+F 0 "C?" H 11115 5246 50  0000 L CNN
+F 1 "C" H 11115 5155 50  0000 L CNN
+F 2 "" H 11038 5050 50  0001 C CNN
+F 3 "~" H 11000 5200 50  0001 C CNN
+	1    11000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 602BA04F
+P 11300 5200
+F 0 "C?" H 11415 5246 50  0000 L CNN
+F 1 "C" H 11415 5155 50  0000 L CNN
+F 2 "" H 11338 5050 50  0001 C CNN
+F 3 "~" H 11300 5200 50  0001 C CNN
+	1    11300 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 602BA067
+P 11600 5200
+F 0 "C?" H 11715 5246 50  0000 L CNN
+F 1 "C" H 11715 5155 50  0000 L CNN
+F 2 "" H 11638 5050 50  0001 C CNN
+F 3 "~" H 11600 5200 50  0001 C CNN
+	1    11600 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 5050 10700 5000
+Wire Wire Line
+	10700 5000 11000 5000
+Wire Wire Line
+	11600 5000 11600 5050
+Wire Wire Line
+	11300 5000 11300 5050
+Connection ~ 11300 5000
+Wire Wire Line
+	11300 5000 11600 5000
+Wire Wire Line
+	11000 5000 11000 5050
+Connection ~ 11000 5000
+Wire Wire Line
+	11000 5000 11300 5000
+Wire Wire Line
+	10700 5350 10700 5400
+Wire Wire Line
+	10700 5400 11000 5400
+Wire Wire Line
+	11600 5400 11600 5350
+Wire Wire Line
+	11000 5350 11000 5400
+Connection ~ 11000 5400
+Wire Wire Line
+	11000 5400 11200 5400
+Wire Wire Line
+	11300 5350 11300 5400
+Connection ~ 11300 5400
+Wire Wire Line
+	11300 5400 11600 5400
+Wire Wire Line
+	11200 5400 11200 5500
+Connection ~ 11200 5400
+Wire Wire Line
+	11200 5400 11300 5400
+$Comp
+L power:GND #PWR?
+U 1 1 602BE4BE
+P 11200 5500
+F 0 "#PWR?" H 11200 5250 50  0001 C CNN
+F 1 "GND" H 11205 5327 50  0000 C CNN
+F 2 "" H 11200 5500 50  0001 C CNN
+F 3 "" H 11200 5500 50  0001 C CNN
+	1    11200 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16250 5400 16100 5400
+Connection ~ 11600 5000
+Wire Wire Line
+	16250 5550 16100 5550
+Wire Wire Line
+	16250 5700 16100 5700
+Wire Wire Line
+	16250 5850 16100 5850
+Wire Wire Line
+	16250 6000 16100 6000
+Wire Wire Line
+	16250 6150 16100 6150
+Wire Wire Line
+	16250 6300 16100 6300
+Wire Wire Line
+	16250 6450 16100 6450
+Wire Wire Line
+	16250 6600 16100 6600
+Wire Wire Line
+	16250 6750 16100 6750
+Wire Wire Line
+	16250 6900 16100 6900
+Wire Wire Line
+	16250 7050 16100 7050
+Wire Wire Line
+	16250 7200 16100 7200
+Wire Wire Line
+	16250 7350 16100 7350
+Wire Wire Line
+	16250 7500 16100 7500
+Wire Wire Line
+	16250 7650 16100 7650
+Wire Wire Line
+	15450 5400 15250 5400
+Wire Wire Line
+	15250 5550 15450 5550
+Wire Wire Line
+	15450 5700 15250 5700
+Wire Wire Line
+	15250 5850 15450 5850
+Wire Wire Line
+	15450 6000 15250 6000
+Wire Wire Line
+	15250 6150 15450 6150
+Wire Wire Line
+	15450 6300 15250 6300
+Wire Wire Line
+	15250 6450 15450 6450
+Wire Wire Line
+	15450 6600 15250 6600
+Wire Wire Line
+	15250 6750 15450 6750
+Wire Wire Line
+	15450 6900 15250 6900
+Wire Wire Line
+	15250 7050 15450 7050
+Wire Wire Line
+	15450 7200 15250 7200
+Wire Wire Line
+	15250 7350 15450 7350
+Wire Wire Line
+	15450 7500 15250 7500
+Wire Wire Line
+	15250 7650 15450 7650
+Text Label 15250 5400 2    50   ~ 0
+SiPM1_A1
+Text Label 15250 5550 2    50   ~ 0
+SiPM1_B1
+Text Label 15250 5700 2    50   ~ 0
+SiPM1_C1
+Text Label 15250 5850 2    50   ~ 0
+SiPM1_D1
+Text Label 15250 6000 2    50   ~ 0
+SiPM1_A2
+Text Label 15250 6150 2    50   ~ 0
+SiPM1_B2
+Text Label 15250 6300 2    50   ~ 0
+SiPM1_C2
+Text Label 15250 6450 2    50   ~ 0
+SiPM1_D2
+Text Label 15250 6600 2    50   ~ 0
+SiPM1_A3
+Text Label 15250 6750 2    50   ~ 0
+SiPM1_B3
+Text Label 15250 6900 2    50   ~ 0
+SiPM1_C3
+Text Label 15250 7050 2    50   ~ 0
+SiPM1_D3
+Text Label 15250 7200 2    50   ~ 0
+SiPM1_A4
+Text Label 15250 7350 2    50   ~ 0
+SiPM1_B4
+Text Label 15250 7500 2    50   ~ 0
+SiPM1_C4
+Text Label 15250 7650 2    50   ~ 0
+SiPM1_D4
+$Comp
+L power:GND #PWR?
+U 1 1 603E3F9A
+P 12800 10450
+F 0 "#PWR?" H 12800 10200 50  0001 C CNN
+F 1 "GND" H 12805 10277 50  0000 C CNN
+F 2 "" H 12800 10450 50  0001 C CNN
+F 3 "" H 12800 10450 50  0001 C CNN
+	1    12800 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x34_Odd_Even J?
+U 1 1 601F94DF
+P 10950 9950
+F 0 "J?" V 10954 8163 50  0000 R CNN
+F 1 "Conn_02x34_Odd_Even" V 11045 8163 50  0000 R CNN
+F 2 "" H 10950 9950 50  0001 C CNN
+F 3 "~" H 10950 9950 50  0001 C CNN
+	1    10950 9950
+	0    1    1    0   
+$EndComp
+Text Label 9450 9650 1    50   ~ 0
+SiPM2_D4
+Text Label 9550 9650 1    50   ~ 0
+SiPM2_C4
+Text Label 9650 9650 1    50   ~ 0
+SiPM2_B4
+Text Label 9750 9650 1    50   ~ 0
+SiPM2_A4
+Text Label 9850 9650 1    50   ~ 0
+SiPM2_D3
+Text Label 9950 9650 1    50   ~ 0
+SiPM2_C3
+Text Label 10050 9650 1    50   ~ 0
+SiPM2_B3
+Text Label 10150 9650 1    50   ~ 0
+SiPM2_A3
+Text Label 10250 9650 1    50   ~ 0
+SiPM2_D2
+Text Label 10350 9650 1    50   ~ 0
+SiPM2_C2
+Text Label 10450 9650 1    50   ~ 0
+SiPM2_B2
+Text Label 10550 9650 1    50   ~ 0
+SiPM2_A2
+Text Label 10650 9650 1    50   ~ 0
+SiPM2_D1
+Text Label 10750 9650 1    50   ~ 0
+SiPM2_C1
+Text Label 10850 9650 1    50   ~ 0
+SiPM2_B1
+Text Label 10950 9650 1    50   ~ 0
+SiPM2_A1
+Text Label 11050 9650 1    50   ~ 0
+SiPM1_D4
+Text Label 11150 9650 1    50   ~ 0
+SiPM1_C4
+Text Label 11250 9650 1    50   ~ 0
+SiPM1_B4
+Text Label 11350 9650 1    50   ~ 0
+SiPM1_A4
+Text Label 11450 9650 1    50   ~ 0
+SiPM1_D3
+Text Label 11550 9650 1    50   ~ 0
+SiPM1_C3
+Text Label 11650 9650 1    50   ~ 0
+SiPM1_B3
+Text Label 11750 9650 1    50   ~ 0
+SiPM1_A3
+Text Label 11850 9650 1    50   ~ 0
+SiPM1_D2
+Text Label 11950 9650 1    50   ~ 0
+SiPM1_C2
+Text Label 12050 9650 1    50   ~ 0
+SiPM1_B2
+Text Label 12150 9650 1    50   ~ 0
+SiPM1_A2
+Text Label 12250 9650 1    50   ~ 0
+SiPM1_D1
+Text Label 12350 9650 1    50   ~ 0
+SiPM1_C1
+Text Label 12450 9650 1    50   ~ 0
+SiPM1_B1
+Text Label 12550 9650 1    50   ~ 0
+SiPM1_A1
+Wire Wire Line
+	12550 9750 12550 9650
+Wire Wire Line
+	12450 9750 12450 9650
+Wire Wire Line
+	12350 9750 12350 9650
+Wire Wire Line
+	12250 9750 12250 9650
+Wire Wire Line
+	12150 9750 12150 9650
+Wire Wire Line
+	12050 9750 12050 9650
+Wire Wire Line
+	11950 9750 11950 9650
+Wire Wire Line
+	11850 9750 11850 9650
+Wire Wire Line
+	11750 9750 11750 9650
+Wire Wire Line
+	11650 9750 11650 9650
+Wire Wire Line
+	11550 9750 11550 9650
+Wire Wire Line
+	11450 9750 11450 9650
+Wire Wire Line
+	11350 9750 11350 9650
+Wire Wire Line
+	11250 9750 11250 9650
+Wire Wire Line
+	11150 9750 11150 9650
+Wire Wire Line
+	11050 9750 11050 9650
+Wire Wire Line
+	10950 9750 10950 9650
+Wire Wire Line
+	10850 9750 10850 9650
+Wire Wire Line
+	10750 9750 10750 9650
+Wire Wire Line
+	10650 9750 10650 9650
+Wire Wire Line
+	10550 9750 10550 9650
+Wire Wire Line
+	10450 9750 10450 9650
+Wire Wire Line
+	10350 9750 10350 9650
+Wire Wire Line
+	10250 9750 10250 9650
+Wire Wire Line
+	10150 9750 10150 9650
+Wire Wire Line
+	10050 9750 10050 9650
+Wire Wire Line
+	9950 9750 9950 9650
+Wire Wire Line
+	9850 9750 9850 9650
+Wire Wire Line
+	9750 9750 9750 9650
+Wire Wire Line
+	9650 9750 9650 9650
+Wire Wire Line
+	9550 9750 9550 9650
+Wire Wire Line
+	9450 9750 9450 9650
+Wire Wire Line
+	12550 10450 12800 10450
+Connection ~ 12550 10450
+Wire Wire Line
+	12550 10250 12550 10450
+Wire Wire Line
+	12450 10450 12550 10450
+Connection ~ 12450 10450
+Wire Wire Line
+	12450 10250 12450 10450
+Wire Wire Line
+	12350 10450 12450 10450
+Connection ~ 12350 10450
+Wire Wire Line
+	12350 10250 12350 10450
+Wire Wire Line
+	12250 10450 12350 10450
+Connection ~ 12250 10450
+Wire Wire Line
+	12250 10250 12250 10450
+Wire Wire Line
+	12150 10450 12250 10450
+Connection ~ 12150 10450
+Wire Wire Line
+	12150 10250 12150 10450
+Wire Wire Line
+	12050 10450 12150 10450
+Connection ~ 12050 10450
+Wire Wire Line
+	12050 10250 12050 10450
+Wire Wire Line
+	11950 10450 12050 10450
+Connection ~ 11950 10450
+Wire Wire Line
+	11950 10250 11950 10450
+Wire Wire Line
+	11850 10450 11950 10450
+Connection ~ 11850 10450
+Wire Wire Line
+	11850 10250 11850 10450
+Wire Wire Line
+	11750 10450 11850 10450
+Connection ~ 11750 10450
+Wire Wire Line
+	11750 10250 11750 10450
+Wire Wire Line
+	11650 10450 11750 10450
+Connection ~ 11650 10450
+Wire Wire Line
+	11650 10250 11650 10450
+Wire Wire Line
+	11550 10450 11650 10450
+Connection ~ 11550 10450
+Wire Wire Line
+	11550 10250 11550 10450
+Wire Wire Line
+	11450 10450 11550 10450
+Connection ~ 11450 10450
+Wire Wire Line
+	11450 10250 11450 10450
+Wire Wire Line
+	11350 10450 11450 10450
+Connection ~ 11350 10450
+Wire Wire Line
+	11350 10250 11350 10450
+Wire Wire Line
+	11250 10450 11350 10450
+Connection ~ 11250 10450
+Wire Wire Line
+	11250 10250 11250 10450
+Wire Wire Line
+	11150 10450 11250 10450
+Connection ~ 11150 10450
+Wire Wire Line
+	11150 10250 11150 10450
+Wire Wire Line
+	11050 10450 11150 10450
+Connection ~ 11050 10450
+Wire Wire Line
+	11050 10250 11050 10450
+Wire Wire Line
+	10950 10450 11050 10450
+Connection ~ 10950 10450
+Wire Wire Line
+	10950 10250 10950 10450
+Wire Wire Line
+	10850 10450 10950 10450
+Connection ~ 10850 10450
+Wire Wire Line
+	10850 10250 10850 10450
+Wire Wire Line
+	10750 10450 10850 10450
+Connection ~ 10750 10450
+Wire Wire Line
+	10750 10250 10750 10450
+Wire Wire Line
+	10650 10450 10750 10450
+Connection ~ 10650 10450
+Wire Wire Line
+	10650 10250 10650 10450
+Wire Wire Line
+	10550 10450 10650 10450
+Connection ~ 10550 10450
+Wire Wire Line
+	10550 10250 10550 10450
+Wire Wire Line
+	10450 10450 10550 10450
+Connection ~ 10450 10450
+Wire Wire Line
+	10450 10250 10450 10450
+Wire Wire Line
+	10350 10450 10450 10450
+Connection ~ 10350 10450
+Wire Wire Line
+	10350 10250 10350 10450
+Wire Wire Line
+	10250 10450 10350 10450
+Connection ~ 10250 10450
+Wire Wire Line
+	10250 10250 10250 10450
+Wire Wire Line
+	10150 10450 10250 10450
+Connection ~ 10150 10450
+Wire Wire Line
+	10150 10250 10150 10450
+Wire Wire Line
+	10050 10450 10150 10450
+Connection ~ 10050 10450
+Wire Wire Line
+	10050 10250 10050 10450
+Wire Wire Line
+	9950 10450 10050 10450
+Connection ~ 9950 10450
+Wire Wire Line
+	9950 10250 9950 10450
+Wire Wire Line
+	9850 10450 9950 10450
+Connection ~ 9850 10450
+Wire Wire Line
+	9850 10250 9850 10450
+Wire Wire Line
+	9750 10450 9850 10450
+Connection ~ 9750 10450
+Wire Wire Line
+	9750 10250 9750 10450
+Wire Wire Line
+	9650 10450 9750 10450
+Connection ~ 9650 10450
+Wire Wire Line
+	9650 10250 9650 10450
+Wire Wire Line
+	9550 10450 9650 10450
+Connection ~ 9550 10450
+Wire Wire Line
+	9550 10250 9550 10450
+Wire Wire Line
+	9450 10450 9550 10450
+Wire Wire Line
+	9450 10250 9450 10450
+Wire Wire Line
+	11600 5000 16250 5000
+Wire Wire Line
+	16250 5000 16250 5400
+Connection ~ 16250 5400
+Wire Wire Line
+	16250 5400 16250 5550
+Connection ~ 16250 5550
+Wire Wire Line
+	16250 5550 16250 5700
+Connection ~ 16250 5700
+Wire Wire Line
+	16250 5700 16250 5850
+Connection ~ 16250 5850
+Wire Wire Line
+	16250 5850 16250 6000
+Connection ~ 16250 6000
+Wire Wire Line
+	16250 6000 16250 6150
+Connection ~ 16250 6150
+Wire Wire Line
+	16250 6150 16250 6300
+Connection ~ 16250 6300
+Wire Wire Line
+	16250 6300 16250 6450
+Connection ~ 16250 6450
+Wire Wire Line
+	16250 6450 16250 6600
+Connection ~ 16250 6600
+Wire Wire Line
+	16250 6600 16250 6750
+Connection ~ 16250 6750
+Wire Wire Line
+	16250 6750 16250 6900
+Connection ~ 16250 6900
+Wire Wire Line
+	16250 6900 16250 7050
+Connection ~ 16250 7050
+Wire Wire Line
+	16250 7050 16250 7200
+Connection ~ 16250 7200
+Wire Wire Line
+	16250 7200 16250 7350
+Connection ~ 16250 7350
+Wire Wire Line
+	16250 7350 16250 7500
+Connection ~ 16250 7500
+Wire Wire Line
+	16250 7500 16250 7650
+Connection ~ 16250 7650
+Wire Wire Line
+	16250 10450 16250 10600
+Connection ~ 16250 10450
+Wire Wire Line
+	16250 10300 16250 10450
+Connection ~ 16250 10300
+Wire Wire Line
+	16250 10150 16250 10300
+Connection ~ 16250 10150
+Wire Wire Line
+	16250 10000 16250 10150
+Connection ~ 16250 10000
+Wire Wire Line
+	16250 9850 16250 10000
+Connection ~ 16250 9850
+Wire Wire Line
+	16250 9700 16250 9850
+Connection ~ 16250 9700
+Wire Wire Line
+	16250 9550 16250 9700
+Connection ~ 16250 9550
+Wire Wire Line
+	16250 9400 16250 9550
+Connection ~ 16250 9400
+Wire Wire Line
+	16250 9250 16250 9400
+Connection ~ 16250 9250
+Wire Wire Line
+	16250 9100 16250 9250
+Connection ~ 16250 9100
+Wire Wire Line
+	16250 8950 16250 9100
+Connection ~ 16250 8950
+Wire Wire Line
+	16250 8800 16250 8950
+Connection ~ 16250 8800
+Wire Wire Line
+	16250 8650 16250 8800
+Connection ~ 16250 8650
+Wire Wire Line
+	16250 8500 16250 8650
+Connection ~ 16250 8500
+Wire Wire Line
+	16250 8350 16250 8500
+Connection ~ 16250 8350
+Text Label 15250 10600 2    50   ~ 0
+SiPM2_D4
+Text Label 15250 10450 2    50   ~ 0
+SiPM2_C4
+Text Label 15250 10300 2    50   ~ 0
+SiPM2_B4
+Text Label 15250 10150 2    50   ~ 0
+SiPM2_A4
+Text Label 15250 10000 2    50   ~ 0
+SiPM2_D3
+Text Label 15250 9850 2    50   ~ 0
+SiPM2_C3
+Text Label 15250 9700 2    50   ~ 0
+SiPM2_B3
+Text Label 15250 9550 2    50   ~ 0
+SiPM2_A3
+Text Label 15250 9400 2    50   ~ 0
+SiPM2_D2
+Text Label 15250 9250 2    50   ~ 0
+SiPM2_C2
+Text Label 15250 9100 2    50   ~ 0
+SiPM2_B2
+Text Label 15250 8950 2    50   ~ 0
+SiPM2_A2
+Text Label 15250 8800 2    50   ~ 0
+SiPM2_D1
+Text Label 15250 8650 2    50   ~ 0
+SiPM2_C1
+Text Label 15250 8500 2    50   ~ 0
+SiPM2_B1
+Text Label 15250 8350 2    50   ~ 0
+SiPM2_A1
+Wire Wire Line
+	15250 10600 15450 10600
+Wire Wire Line
+	15450 10450 15250 10450
+Wire Wire Line
+	15250 10300 15450 10300
+Wire Wire Line
+	15450 10150 15250 10150
+Wire Wire Line
+	15250 10000 15450 10000
+Wire Wire Line
+	15450 9850 15250 9850
+Wire Wire Line
+	15250 9700 15450 9700
+Wire Wire Line
+	15450 9550 15250 9550
+Wire Wire Line
+	15250 9400 15450 9400
+Wire Wire Line
+	15450 9250 15250 9250
+Wire Wire Line
+	15250 9100 15450 9100
+Wire Wire Line
+	15450 8950 15250 8950
+Wire Wire Line
+	15250 8800 15450 8800
+Wire Wire Line
+	15450 8650 15250 8650
+Wire Wire Line
+	15250 8500 15450 8500
+Wire Wire Line
+	15450 8350 15250 8350
+$Comp
+L Arich~SiPM~Board~Parts:S14161-6050HS-04 U?
+U 1 1 601E74D6
+P 15750 9450
+F 0 "U?" H 15800 10700 50  0000 R CNN
+F 1 "S14161-6050HS-04" H 16150 10750 50  0000 R CNN
+F 2 "" H 14650 9450 50  0001 C CNN
+F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.pdf" H 14650 9450 50  0001 C CNN
+	1    15750 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16250 10600 16100 10600
+Wire Wire Line
+	16250 10450 16100 10450
+Wire Wire Line
+	16250 10300 16100 10300
+Wire Wire Line
+	16250 10150 16100 10150
+Wire Wire Line
+	16250 10000 16100 10000
+Wire Wire Line
+	16250 9850 16100 9850
+Wire Wire Line
+	16250 9700 16100 9700
+Wire Wire Line
+	16250 9550 16100 9550
+Wire Wire Line
+	16250 9400 16100 9400
+Wire Wire Line
+	16250 9250 16100 9250
+Wire Wire Line
+	16250 9100 16100 9100
+Wire Wire Line
+	16250 8950 16100 8950
+Wire Wire Line
+	16250 8800 16100 8800
+Wire Wire Line
+	16250 8650 16100 8650
+Wire Wire Line
+	16250 8500 16100 8500
+Wire Wire Line
+	16250 8350 16100 8350
+Wire Wire Line
+	16250 7650 16250 8350
+$Comp
+L Arich~SiPM~Board~Parts:LM94021 U?
+U 1 1 605FE49C
+P 8400 8250
+F 0 "U?" V 8454 7821 50  0000 R CNN
+F 1 "LM94021" V 8363 7821 50  0000 R CNN
+F 2 "" H 8445 8073 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/lm94021.pdf?ts=1612369710364&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM94021" H 8445 8073 50  0001 C CNN
+	1    8400 8250
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
