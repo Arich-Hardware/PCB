@@ -1,3 +1,7 @@
 (sym_lib_table
   (lib (name "Arich SiPM Board Parts")(type Legacy)(uri "${KIPRJMOD}/Arich SiPM Board Parts.lib")(options "")(descr ""))
+  (lib (name SiPM-Board-rescue)(type Legacy)(uri "${KIPRJMOD}/SiPM Board-rescue.lib")(options "")(descr ""))
+  (lib (name Arich_SiPM_Board_Parts)(type Legacy)(uri ${KIPRJMOD}/Arich_SiPM_Board_Parts.lib)(options "")(descr ""))
+  (lib (name s14161-6050hs-04)(type Legacy)(uri ${KIPRJMOD}/s14161-6050hs-04.lib)(options "")(descr ""))
+  (lib (name lm94021)(type Legacy)(uri ${KIPRJMOD}/lm94021.lib)(options "")(descr ""))
 )
