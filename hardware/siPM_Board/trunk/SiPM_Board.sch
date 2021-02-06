@@ -772,7 +772,7 @@ $Comp
 L Connector_Generic:Conn_02x34_Odd_Even J?
 U 1 1 601F94DF
 P 6000 3550
-F 0 "J?" H 6004 1763 50  0000 R CNN
+F 0 "J?" H 5650 1525 50  0000 R CNN
 F 1 "Conn_02x34_Odd_Even" H 6400 1650 50  0000 R CNN
 F 2 "" H 6000 3550 50  0001 C CNN
 F 3 "~" H 6000 3550 50  0001 C CNN
@@ -1103,17 +1103,6 @@ Wire Wire Line
 	7000 3900 7000 4050
 Wire Wire Line
 	7000 1750 7150 1750
-$Comp
-L Arich_SiPM_Board_Parts:S14161-6050HS-04 U?
-U 1 1 6120799D
-P 7500 1950
-F 0 "U?" H 7500 3150 50  0000 C CNN
-F 1 "S14161-6050HS-04" H 7500 3050 50  0000 C CNN
-F 2 "" V 7500 3050 50  0001 C CNN
-F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.pdf" V 7500 3050 50  0001 C CNN
-	1    7500 1950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 3100 7000 3250
 Connection ~ 7000 3100
@@ -1323,7 +1312,7 @@ $Comp
 L Connector_Generic:Conn_02x34_Odd_Even J?
 U 1 1 61207A16
 P 9350 3550
-F 0 "J?" H 9354 1763 50  0000 R CNN
+F 0 "J?" H 8975 1525 50  0000 R CNN
 F 1 "Conn_02x34_Odd_Even" H 9750 1650 50  0000 R CNN
 F 2 "" H 9350 3550 50  0001 C CNN
 F 3 "~" H 9350 3550 50  0001 C CNN
@@ -1567,64 +1556,67 @@ Text Label 5750 5150 2    50   ~ 0
 VDD
 Text Label 1700 4250 2    50   ~ 0
 VDD
-$Comp
-L power:VCC #PWR?
-U 1 1 6147E9FF
-P 2100 2000
-F 0 "#PWR?" H 2100 1850 50  0001 C CNN
-F 1 "VCC" H 2115 2173 50  0000 C CNN
-F 2 "" H 2100 2000 50  0001 C CNN
-F 3 "" H 2100 2000 50  0001 C CNN
-	1    2100 2000
-	1    0    0    -1  
-$EndComp
 Connection ~ 2100 2050
 Wire Wire Line
 	2100 2050 2250 2050
-$Comp
-L power:VCC #PWR?
-U 1 1 6147EDAF
-P 2100 950
-F 0 "#PWR?" H 2100 800 50  0001 C CNN
-F 1 "VCC" H 2115 1123 50  0000 C CNN
-F 2 "" H 2100 950 50  0001 C CNN
-F 3 "" H 2100 950 50  0001 C CNN
-	1    2100 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 2000 2100 2050
-Wire Wire Line
-	2100 950  2100 1000
 Connection ~ 2100 1000
 Wire Wire Line
 	2100 1000 2250 1000
-$Comp
-L power:VCC #PWR?
-U 1 1 614FE3F2
-P 3650 950
-F 0 "#PWR?" H 3650 800 50  0001 C CNN
-F 1 "VCC" H 3665 1123 50  0000 C CNN
-F 2 "" H 3650 950 50  0001 C CNN
-F 3 "" H 3650 950 50  0001 C CNN
-	1    3650 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
-U 1 1 614FEED6
-P 7000 950
-F 0 "#PWR?" H 7000 800 50  0001 C CNN
-F 1 "VCC" H 7015 1123 50  0000 C CNN
-F 2 "" H 7000 950 50  0001 C CNN
-F 3 "" H 7000 950 50  0001 C CNN
-	1    7000 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7000 950  7000 1000
 Connection ~ 7000 1000
-Wire Wire Line
-	3650 950  3650 1000
 Connection ~ 3650 1000
+Wire Wire Line
+	2100 750  2100 1000
+Wire Wire Line
+	2100 1900 2300 1900
+Wire Wire Line
+	2100 1900 2100 2050
+Wire Wire Line
+	3650 750  3650 1000
+$Comp
+L Arich_SiPM_Board_Parts:S14161-6050HS-04 U?
+U 1 1 6120799D
+P 7500 1950
+F 0 "U?" H 7500 3150 50  0000 C CNN
+F 1 "S14161-6050HS-04" H 7500 3050 50  0000 C CNN
+F 2 "" V 7500 3050 50  0001 C CNN
+F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.pdf" V 7500 3050 50  0001 C CNN
+	1    7500 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 750  6750 750 
+Wire Wire Line
+	7000 750  7000 1000
+Text Label 2100 750  0    50   ~ 0
+BIAS1
+Wire Wire Line
+	2100 750  3650 750 
+Text Label 2100 1900 0    50   ~ 0
+BIAS2
+Text Label 6750 750  0    50   ~ 0
+BIAS2
+Wire Wire Line
+	5800 5250 5500 5250
+Wire Wire Line
+	6300 5250 6300 5350
+Wire Wire Line
+	6300 5350 5800 5350
+Wire Wire Line
+	5800 5350 5800 5250
+Connection ~ 5800 5250
+Text Label 5500 5250 0    50   ~ 0
+BIAS1
+Wire Wire Line
+	9150 5250 8800 5250
+Wire Wire Line
+	9150 5250 9175 5250
+Wire Wire Line
+	9175 5250 9175 5375
+Wire Wire Line
+	9175 5375 9650 5375
+Wire Wire Line
+	9650 5375 9650 5250
+Connection ~ 9150 5250
+Text Label 8800 5250 0    50   ~ 0
+BIAS2
 $EndSCHEMATC
