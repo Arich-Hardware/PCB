@@ -1,0 +1,8 @@
+(module LM94021 (layer F.Cu) (tedit 60218761)
+  (fp_text reference REF** (at 8.4 -10.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LM94021 (at 0 -9.3) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)

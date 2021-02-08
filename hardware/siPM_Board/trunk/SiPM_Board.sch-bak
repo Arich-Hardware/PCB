@@ -91,7 +91,7 @@ U 1 1 6020AC1E
 P 4150 4700
 F 0 "U3" H 4150 5900 50  0000 C CNN
 F 1 "S14161-6050HS-04" H 4150 5800 50  0000 C CNN
-F 2 "Arich_SiPM_Footprints:S14161-6050HS-04" V 4150 5800 50  0001 C CNN
+F 2 "" V 4150 5800 50  0001 C CNN
 F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.pdf" V 4150 5800 50  0001 C CNN
 	1    4150 4700
 	1    0    0    -1  
@@ -864,7 +864,7 @@ U 1 1 6120798C
 P 7500 4700
 F 0 "U5" H 7500 5900 50  0000 C CNN
 F 1 "S14161-6050HS-04" H 7500 5800 50  0000 C CNN
-F 2 "Arich_SiPM_Footprints:S14161-6050HS-04" V 7500 5800 50  0001 C CNN
+F 2 "" V 7500 5800 50  0001 C CNN
 F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.pdf" V 7500 5800 50  0001 C CNN
 	1    7500 4700
 	1    0    0    -1  
@@ -1358,7 +1358,7 @@ U 1 1 6120799D
 P 7500 1950
 F 0 "U4" H 7500 3150 50  0000 C CNN
 F 1 "S14161-6050HS-04" H 7500 3050 50  0000 C CNN
-F 2 "Arich_SiPM_Footprints:S14161-6050HS-04" V 7500 3050 50  0001 C CNN
+F 2 "" V 7500 3050 50  0001 C CNN
 F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.pdf" V 7500 3050 50  0001 C CNN
 	1    7500 1950
 	1    0    0    -1  
@@ -1510,7 +1510,7 @@ U 1 1 60211135
 P 4150 1950
 F 0 "U2" H 4150 3150 50  0000 C CNN
 F 1 "S14161-6050HS-04" H 4150 3050 50  0000 C CNN
-F 2 "Arich_SiPM_Footprints:S14161-6050HS-04" V 4150 3050 50  0001 C CNN
+F 2 "" V 4150 3050 50  0001 C CNN
 F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.pdf" V 4150 3050 50  0001 C CNN
 	1    4150 1950
 	1    0    0    -1  
