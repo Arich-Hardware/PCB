@@ -1,4 +1,18 @@
-19083337934832096
+19262364721307817
+Arich_SiPM_Footprints
+LM94021
+
+
+0
+0
+0
+Arich_SiPM_Footprints
+MW-34-03-G-D-245-065-ES
+
+
+0
+68
+68
 Arich_SiPM_Footprints
 S14161-6050HS-04
 
@@ -6,6 +20,13 @@ S14161-6050HS-04
 0
 32
 32
+Arich_SiPM_Footprints
+Texas_R-PDSO-G6
+R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf
+R-PDSO-G6 SC-70-6
+0
+6
+6
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -77727,6 +77748,762 @@ Logo WEEE
 0
 0
 0
+TO_SOT_Packages_SMD
+ATPAK-2
+ATPAK SMD package, http://www.onsemi.com/pub/Collateral/ENA2192-D.PDF
+ATPAK 
+0
+7
+3
+TO_SOT_Packages_SMD
+Analog_KS-4
+Analog Devices KS-4, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sc70ks/ks_4.pdf
+Analog Devices KS-4 (like EIAJ SC-82)
+0
+4
+4
+TO_SOT_Packages_SMD
+HVSOF5
+HVSOF5, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof5_1-e.pdf
+HVSOF5
+0
+9
+5
+TO_SOT_Packages_SMD
+HVSOF6
+HVSOF6, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof6_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/audio_video/video_amplifier/bh76106hfv-e.pdf
+HVSOF6
+0
+7
+7
+TO_SOT_Packages_SMD
+Infineon_PG-HSOF-8-1
+Infineon HSOF-8-1 power mosfet http://www.infineon.com/cms/en/product/packages/PG-HSOF/PG-HSOF-8-1/
+mosfet hsof
+0
+54
+3
+TO_SOT_Packages_SMD
+Infineon_PG-HSOF-8-1_ThermalVias
+HSOF-8-1 power mosfet http://www.infineon.com/cms/en/product/packages/PG-HSOF/PG-HSOF-8-1/
+mosfet hsof thermal vias
+0
+57
+3
+TO_SOT_Packages_SMD
+Infineon_PG-TO-220-7Lead_TabPin8
+Infineon PG-TO-220-7, Tab as Pin 8, see e.g. https://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9
+Infineon PG-TO-220-7
+0
+12
+8
+TO_SOT_Packages_SMD
+PQFN_8x8
+Low profile 8x8mm PQFN package e.g. https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
+pqfn vdfn mosfet
+0
+16
+3
+TO_SOT_Packages_SMD
+PowerMacro_M234_NoHole
+TO-50-4 Power Macro Package Style M234
+TO-50-4 Power Macro Package Style M234
+0
+4
+4
+TO_SOT_Packages_SMD
+PowerMacro_M234_WithHole
+TO-50-4 Power Macro Package Style M234
+TO-50-4 Power Macro Package Style M234
+0
+4
+4
+TO_SOT_Packages_SMD
+Rohm_HRP7
+Rohm HRP7 SMD package, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hrp7_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd621x-e.pdf
+Rohm HRP7 SMD
+0
+69
+7
+TO_SOT_Packages_SMD
+SC-59
+SC-59, https://lib.chipdip.ru/images/import_diod/original/SOT-23_SC-59.jpg
+SC-59
+0
+3
+3
+TO_SOT_Packages_SMD
+SC-59_Handsoldering
+SC-59, hand-soldering varaint, https://lib.chipdip.ru/images/import_diod/original/SOT-23_SC-59.jpg
+SC-59 hand-soldering
+0
+3
+3
+TO_SOT_Packages_SMD
+SC-70-8
+SC70-8
+SC70-8
+0
+8
+8
+TO_SOT_Packages_SMD
+SC-70-8_Handsoldering
+SC70-8, Handsoldering
+SC70-8 Handsoldering
+0
+8
+8
+TO_SOT_Packages_SMD
+SC-82AA
+SC-82AA
+SC-82AA
+0
+4
+4
+TO_SOT_Packages_SMD
+SC-82AA_Handsoldering
+SC-82AA
+SC-82AA
+0
+4
+4
+TO_SOT_Packages_SMD
+SC-82AB
+SC-82AB
+SC-82AB
+0
+4
+4
+TO_SOT_Packages_SMD
+SC-82AB_Handsoldering
+SC-82AB
+SC-82AB
+0
+4
+4
+TO_SOT_Packages_SMD
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+TO_SOT_Packages_SMD
+SOT-23-5
+5-pin SOT23 package
+SOT-23-5
+0
+5
+5
+TO_SOT_Packages_SMD
+SOT-23-5_HandSoldering
+5-pin SOT23 package
+SOT-23-5 hand-soldering
+0
+5
+5
+TO_SOT_Packages_SMD
+SOT-23-6
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
+TO_SOT_Packages_SMD
+SOT-23-6_Handsoldering
+6-pin SOT-23 package, Handsoldering
+SOT-23-6 Handsoldering
+0
+6
+6
+TO_SOT_Packages_SMD
+SOT-23-8
+8-pin SOT-23 package, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
+SOT-23-8
+0
+8
+8
+TO_SOT_Packages_SMD
+SOT-23-8_Handsoldering
+8-pin SOT-23 package, Handsoldering, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
+SOT-23-8 Handsoldering
+0
+8
+8
+TO_SOT_Packages_SMD
+SOT-23W
+SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3
+SOT-23W
+0
+3
+3
+TO_SOT_Packages_SMD
+SOT-23W_Handsoldering
+SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3
+SOT-23W for handsoldering
+0
+3
+3
+TO_SOT_Packages_SMD
+SOT-23_Handsoldering
+SOT-23, Handsoldering
+SOT-23
+0
+3
+3
+TO_SOT_Packages_SMD
+SOT-89-3
+SOT-89-3
+SOT-89-3
+0
+6
+3
+TO_SOT_Packages_SMD
+SOT-89-3_Handsoldering
+SOT-89-3 Handsoldering
+SOT-89-3 Handsoldering
+0
+5
+3
+TO_SOT_Packages_SMD
+SOT-89-5_Housing
+SOT-89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
+SOT-89-5 Housing 
+0
+9
+5
+TO_SOT_Packages_SMD
+SOT-89-5_Housing_Handsoldering
+SOT89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
+SOT89-5 Housing 
+0
+9
+5
+TO_SOT_Packages_SMD
+SOT-143
+SOT-143
+SOT-143
+0
+4
+4
+TO_SOT_Packages_SMD
+SOT-143R_Reverse
+SOT-143R Reverse
+SOT-143R Reverse
+0
+4
+4
+TO_SOT_Packages_SMD
+SOT-143R_Reverse_Handsoldering
+SOT-143R Reverse Handsoldering
+SOT-143 Reverse Handsoldering
+0
+4
+4
+TO_SOT_Packages_SMD
+SOT-143_Handsoldering
+SOT-143 Handsoldering
+SOT-143 Handsoldering
+0
+4
+4
+TO_SOT_Packages_SMD
+SOT-223
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+4
+TO_SOT_Packages_SMD
+SOT-223-3_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+TO_SOT_Packages_SMD
+SOT-223-5
+module CMS SOT223 5 pins, http://ww1.microchip.com/downloads/en/DeviceDoc/51751a.pdf
+CMS SOT
+0
+5
+5
+TO_SOT_Packages_SMD
+SOT-223-6
+module CMS SOT223 6 pins, http://www.ti.com/lit/ds/symlink/tps737.pdf
+CMS SOT
+0
+6
+6
+TO_SOT_Packages_SMD
+SOT-223-6_TabPin3
+module CMS SOT223 6 pins, http://www.ti.com/lit/ds/symlink/tps737.pdf
+CMS SOT
+0
+6
+5
+TO_SOT_Packages_SMD
+SOT-223-8
+module CMS SOT223 8 pins, https://www.diodes.com/assets/Datasheets/ZXSBMR16PT8.pdf
+CMS SOT
+0
+8
+8
+TO_SOT_Packages_SMD
+SOT-323_SC-70
+SOT-323, SC-70
+SOT-323 SC-70
+0
+3
+3
+TO_SOT_Packages_SMD
+SOT-323_SC-70_Handsoldering
+SOT-323, SC-70 Handsoldering
+SOT-323 SC-70 Handsoldering
+0
+3
+3
+TO_SOT_Packages_SMD
+SOT-343_SC-70-4
+SOT-343, SC-70-4
+SOT-343 SC-70-4
+0
+4
+4
+TO_SOT_Packages_SMD
+SOT-343_SC-70-4_Handsoldering
+SOT-343, SC-70-4, Handsoldering
+SOT-343 SC-70-4 Handsoldering
+0
+4
+4
+TO_SOT_Packages_SMD
+SOT-353_SC-70-5
+SOT-353, SC-70-5
+SOT-353 SC-70-5
+0
+5
+5
+TO_SOT_Packages_SMD
+SOT-353_SC-70-5_Handsoldering
+SOT-353, SC-70-5, Handsoldering
+SOT-353 SC-70-5 Handsoldering
+0
+5
+5
+TO_SOT_Packages_SMD
+SOT-363_SC-70-6
+SOT-363, SC-70-6
+SOT-363 SC-70-6
+0
+6
+6
+TO_SOT_Packages_SMD
+SOT-363_SC-70-6_Handsoldering
+SOT-363, SC-70-6, Handsoldering
+SOT-363 SC-70-6 Handsoldering
+0
+6
+6
+TO_SOT_Packages_SMD
+SOT-383F
+8-pin SOT-383F, http://www.mouser.com/ds/2/80/CPDVR085V0C-HF-RevB-10783.pdf
+SOT-383F
+0
+9
+9
+TO_SOT_Packages_SMD
+SOT-383FL
+8-pin SOT-383FL package, http://www.onsemi.com/pub_link/Collateral/ENA2267-D.PDF
+SOT-383FL
+0
+8
+8
+TO_SOT_Packages_SMD
+SOT-543
+SOT-543 4 lead surface package
+SOT-543 SC-107A EMD4
+0
+4
+4
+TO_SOT_Packages_SMD
+SOT-553
+SOT553
+SOT-553
+0
+5
+5
+TO_SOT_Packages_SMD
+SOT-665
+SOT665
+SOT-665
+0
+5
+5
+TO_SOT_Packages_SMD
+SOT-666
+SOT666
+SOT-666
+0
+6
+6
+TO_SOT_Packages_SMD
+SOT-669_LFPAK
+LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
+LFPAK SOT-669 Power-SO8
+0
+19
+5
+TO_SOT_Packages_SMD
+SOT-669_LFPAK_ThermalVias-1
+LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
+LFPAK SOT669 Thermal Vias 0.4mm Power-SO8
+0
+65
+5
+TO_SOT_Packages_SMD
+SOT-669_LFPAK_ThermalVias-2
+LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
+LFPAK SOT669 Thermical Vias Power-SO8
+0
+30
+5
+TO_SOT_Packages_SMD
+SOT-886
+SOT-886
+SOT-886
+0
+6
+6
+TO_SOT_Packages_SMD
+SOT-963
+SOT 963 6 pins package 1x0.8mm pitch 0.35mm
+SOT 963 6 pins package 1x0.8mm pitch 0.35mm
+0
+6
+6
+TO_SOT_Packages_SMD
+SOT-1333-1
+SOT-1333-1 
+SOT-1333-1 
+0
+9
+9
+TO_SOT_Packages_SMD
+SOT-1334-1
+SOT-1334-1
+SOT-1334-1
+0
+14
+14
+TO_SOT_Packages_SMD
+SuperSOT-3
+3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf
+SuperSOT-3 SSOT-3
+0
+3
+3
+TO_SOT_Packages_SMD
+SuperSOT-6
+6-pin SuperSOT package http://www.mouser.com/ds/2/149/FMB5551-889214.pdf
+SuperSOT-6 SSOT-6
+0
+6
+6
+TO_SOT_Packages_SMD
+SuperSOT-8
+8-pin SuperSOT package, http://www.icbank.com/icbank_data/semi_package/ssot8_dim.pdf
+SuperSOT-8 SSOT-8
+0
+8
+8
+TO_SOT_Packages_SMD
+TDSON-8-1
+Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
+tdson 
+0
+13
+5
+TO_SOT_Packages_SMD
+TDSON-8-1_HandSoldering
+Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
+tdson 
+0
+13
+5
+TO_SOT_Packages_SMD
+TO-50-3_LongPad-NoHole_Housing
+TO-50-3 Macro T Package Style M236
+TO-50-3 Macro T Package Style M236
+0
+3
+3
+TO_SOT_Packages_SMD
+TO-50-3_LongPad-WithHole_Housing
+TO-50-3 Macro T Package Style M236
+TO-50-3 Macro T Package Style M236
+0
+3
+3
+TO_SOT_Packages_SMD
+TO-50-3_ShortPad-NoHole_Housing
+TO-50-3 Macro T Package Style M236
+TO-50-3 Macro T Package Style M236
+0
+3
+3
+TO_SOT_Packages_SMD
+TO-50-3_ShortPad-WithHole_Housing
+TO-50-3 Macro T Package Style M236
+TO-50-3 Macro T Package Style M236
+0
+3
+3
+TO_SOT_Packages_SMD
+TO-50-4_LongPad-NoHole_Housing
+TO-50-4 Macro X Package Style M238
+TO-50-4 Macro X Package Style M238
+0
+4
+4
+TO_SOT_Packages_SMD
+TO-50-4_LongPad-WithHole_Housing
+TO-50-4 Macro X Package Style M238
+TO-50-4 Macro X Package Style M238
+0
+4
+4
+TO_SOT_Packages_SMD
+TO-50-4_ShortPad-NoHole_Housing
+TO-50-4 Macro X Package Style M238
+TO-50-4 Macro X Package Style M238
+0
+4
+4
+TO_SOT_Packages_SMD
+TO-50-4_ShortPad-WithHole_Housing
+TO-50-4 Macro X Package Style M238
+TO-50-4 Macro X Package Style M238
+0
+4
+4
+TO_SOT_Packages_SMD
+TO-252-2
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+7
+3
+TO_SOT_Packages_SMD
+TO-252-2_Rectifier
+TO-252-2
+TO-252-2 Rectifier
+0
+3
+3
+TO_SOT_Packages_SMD
+TO-252-3_TabPin2
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+8
+3
+TO_SOT_Packages_SMD
+TO-252-3_TabPin4
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
+DPAK TO-252 DPAK-3 TO-252-3 SOT-428
+0
+8
+4
+TO_SOT_Packages_SMD
+TO-252-4
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
+DPAK TO-252 DPAK-5 TO-252-5
+0
+9
+5
+TO_SOT_Packages_SMD
+TO-252-5_TabPin3
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
+DPAK TO-252 DPAK-5 TO-252-5
+0
+10
+5
+TO_SOT_Packages_SMD
+TO-252-5_TabPin6
+TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
+DPAK TO-252 DPAK-5 TO-252-5
+0
+10
+6
+TO_SOT_Packages_SMD
+TO-263-2
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+7
+3
+TO_SOT_Packages_SMD
+TO-263-3_TabPin2
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+8
+3
+TO_SOT_Packages_SMD
+TO-263-3_TabPin4
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
+D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
+0
+8
+4
+TO_SOT_Packages_SMD
+TO-263-4
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
+D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
+0
+9
+5
+TO_SOT_Packages_SMD
+TO-263-5_TabPin3
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
+D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
+0
+10
+5
+TO_SOT_Packages_SMD
+TO-263-5_TabPin6
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
+D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
+0
+10
+6
+TO_SOT_Packages_SMD
+TO-263-6
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
+0
+11
+7
+TO_SOT_Packages_SMD
+TO-263-7_TabPin4
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
+0
+12
+7
+TO_SOT_Packages_SMD
+TO-263-7_TabPin8
+TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
+D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
+0
+12
+8
+TO_SOT_Packages_SMD
+TO-263-9_TabPin5
+TO-263 / D2PAK / DDPAK SMD package, http://www.ti.com/lit/ds/symlink/lm4755.pdf
+D2PAK DDPAK TO-263 D2PAK-9 TO-263-9
+0
+14
+9
+TO_SOT_Packages_SMD
+TO-263-9_TabPin10
+TO-263 / D2PAK / DDPAK SMD package, http://www.ti.com/lit/ds/symlink/lm4755.pdf
+D2PAK DDPAK TO-263 D2PAK-9 TO-263-9
+0
+14
+10
+TO_SOT_Packages_SMD
+TO-268-2
+TO-268/D3PAK SMD package, http://www.icbank.com/icbank_data/semi_package/to268aa_dim.pdf
+D3PAK TO-268 D3PAK-3 TO-268-3
+0
+7
+3
+TO_SOT_Packages_SMD
+TO-277A
+Thermal enhanced ultra thin SMD package; 3 leads; body: 5.8 x 4.3 x 0.78 mm
+TO-277A SOT-1289
+0
+3
+3
+TO_SOT_Packages_SMD
+TSOT-23
+3-pin TSOT23 package, http://www.analog.com.tw/pdf/All_In_One.pdf
+TSOT-23
+0
+3
+3
+TO_SOT_Packages_SMD
+TSOT-23-5
+5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
+TSOT-23-5
+0
+5
+5
+TO_SOT_Packages_SMD
+TSOT-23-5_HandSoldering
+5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
+TSOT-23-5 Hand-soldering
+0
+5
+5
+TO_SOT_Packages_SMD
+TSOT-23-6
+6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
+TSOT-23-6 MK06A TSOT-6
+0
+6
+6
+TO_SOT_Packages_SMD
+TSOT-23-6_HandSoldering
+6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
+TSOT-23-6 MK06A TSOT-6 Hand-soldering
+0
+6
+6
+TO_SOT_Packages_SMD
+TSOT-23-8
+8-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_8_05-08-1637.pdf
+TSOT-23-8
+0
+8
+8
+TO_SOT_Packages_SMD
+TSOT-23-8_HandSoldering
+8-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_8_05-08-1637.pdf
+TSOT-23-8 Hand-soldering
+0
+8
+8
+TO_SOT_Packages_SMD
+TSOT-23_HandSoldering
+5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
+TSOT-23 Hand-soldering
+0
+3
+3
+TO_SOT_Packages_SMD
+Texas_DRT-3
+Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
+DRT-3 1x0.8mm Pitch 0.7mm
+0
+3
+3
+TO_SOT_Packages_SMD
+Texas_R-PDSO-G6
+R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf
+R-PDSO-G6 SC-70-6
+0
+6
+6
+TO_SOT_Packages_SMD
+VSOF5
+VSOF5
+VSOF5
+0
+5
+5
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
