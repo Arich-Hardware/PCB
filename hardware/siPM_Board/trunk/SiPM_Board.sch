@@ -323,12 +323,12 @@ U 1 1 609AF413
 P 1050 1200
 F 0 "C1" H 1165 1246 50  0000 L CNN
 F 1 "100nF" H 1050 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1088 1050 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 1050 1200 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 1050 1200 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1088 1050 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1050 1200 50  0001 C CNN
+F 4 "0603B104K101CT" H 1050 1200 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 1050 1200 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 1050 1200 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 1050 1200 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 1050 1200 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1050 1200 50  0001 C CNN "Item Cost"
 	1    1050 1200
 	1    0    0    -1  
 $EndComp
@@ -1400,111 +1400,6 @@ Connection ~ 9150 5250
 Text Label 8800 5250 0    50   ~ 0
 BIAS2
 $Comp
-L Device:C C2
-U 1 1 602A5295
-P 1350 1200
-F 0 "C2" H 1465 1246 50  0000 L CNN
-F 1 "100nF" H 1350 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1388 1050 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 1350 1200 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 1350 1200 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 1350 1200 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 1350 1200 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 1350 1200 50  0001 C CNN "Item Cost"
-	1    1350 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 602E8FAC
-P 1650 1200
-F 0 "C3" H 1765 1246 50  0000 L CNN
-F 1 "100nF" H 1650 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1688 1050 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 1650 1200 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 1650 1200 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 1650 1200 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 1650 1200 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 1650 1200 50  0001 C CNN "Item Cost"
-	1    1650 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 602E8FBA
-P 1950 1200
-F 0 "C4" H 2065 1246 50  0000 L CNN
-F 1 "100nF" H 1950 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1988 1050 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 1950 1200 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 1950 1200 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 1950 1200 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 1950 1200 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 1950 1200 50  0001 C CNN "Item Cost"
-	1    1950 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 6032DB18
-P 2250 1200
-F 0 "C5" H 2365 1246 50  0000 L CNN
-F 1 "100nF" H 2250 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2288 1050 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 2250 1200 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 2250 1200 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 2250 1200 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 2250 1200 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 2250 1200 50  0001 C CNN "Item Cost"
-	1    2250 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 6032DB26
-P 2550 1200
-F 0 "C6" H 2665 1246 50  0000 L CNN
-F 1 "100nF" H 2550 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2588 1050 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 2550 1200 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 2550 1200 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 2550 1200 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 2550 1200 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 2550 1200 50  0001 C CNN "Item Cost"
-	1    2550 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 6032DB34
-P 2850 1200
-F 0 "C7" H 2965 1246 50  0000 L CNN
-F 1 "100nF" H 2850 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2888 1050 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 2850 1200 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 2850 1200 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 2850 1200 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 2850 1200 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 2850 1200 50  0001 C CNN "Item Cost"
-	1    2850 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C8
-U 1 1 6032DB42
-P 3150 1200
-F 0 "C8" H 3265 1246 50  0000 L CNN
-F 1 "100nF" H 3150 1100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3188 1050 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 3150 1200 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 3150 1200 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 3150 1200 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 3150 1200 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 3150 1200 50  0001 C CNN "Item Cost"
-	1    3150 1200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Arich_SiPM_Board_Parts:S14161-6050HS-04 U2
 U 1 1 60211135
 P 4150 1950
@@ -1531,163 +1426,268 @@ Wire Wire Line
 	3150 2050 3150 2100
 Wire Wire Line
 	2850 2050 2850 2100
+Wire Wire Line
+	1700 4750 1700 5050
+Wire Wire Line
+	2650 4750 2650 5050
+$Comp
+L Device:C C2
+U 1 1 604086D7
+P 1350 1200
+F 0 "C2" H 1465 1246 50  0000 L CNN
+F 1 "100nF" H 1350 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1388 1050 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1350 1200 50  0001 C CNN
+F 4 "0603B104K101CT" H 1350 1200 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 1350 1200 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 1350 1200 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1350 1200 50  0001 C CNN "Item Cost"
+	1    1350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 6044DC63
+P 1650 1200
+F 0 "C3" H 1765 1246 50  0000 L CNN
+F 1 "100nF" H 1650 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1688 1050 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1650 1200 50  0001 C CNN
+F 4 "0603B104K101CT" H 1650 1200 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 1650 1200 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 1650 1200 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1650 1200 50  0001 C CNN "Item Cost"
+	1    1650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 6044DC7F
+P 1950 1200
+F 0 "C4" H 2065 1246 50  0000 L CNN
+F 1 "100nF" H 1950 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1988 1050 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1950 1200 50  0001 C CNN
+F 4 "0603B104K101CT" H 1950 1200 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 1950 1200 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 1950 1200 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1950 1200 50  0001 C CNN "Item Cost"
+	1    1950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 60493A2D
+P 2250 1200
+F 0 "C5" H 2365 1246 50  0000 L CNN
+F 1 "100nF" H 2250 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2288 1050 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2250 1200 50  0001 C CNN
+F 4 "0603B104K101CT" H 2250 1200 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 2250 1200 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 2250 1200 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 2250 1200 50  0001 C CNN "Item Cost"
+	1    2250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 60493A49
+P 2550 1200
+F 0 "C6" H 2665 1246 50  0000 L CNN
+F 1 "100nF" H 2550 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2588 1050 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2550 1200 50  0001 C CNN
+F 4 "0603B104K101CT" H 2550 1200 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 2550 1200 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 2550 1200 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 2550 1200 50  0001 C CNN "Item Cost"
+	1    2550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 60493A57
+P 2850 1200
+F 0 "C7" H 2965 1246 50  0000 L CNN
+F 1 "100nF" H 2850 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2888 1050 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2850 1200 50  0001 C CNN
+F 4 "0603B104K101CT" H 2850 1200 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 2850 1200 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 2850 1200 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 2850 1200 50  0001 C CNN "Item Cost"
+	1    2850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 60493A65
+P 3150 1200
+F 0 "C8" H 3265 1246 50  0000 L CNN
+F 1 "100nF" H 3150 1100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3188 1050 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 3150 1200 50  0001 C CNN
+F 4 "0603B104K101CT" H 3150 1200 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 3150 1200 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 3150 1200 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 3150 1200 50  0001 C CNN "Item Cost"
+	1    3150 1200
+	1    0    0    -1  
+$EndComp
 $Comp
 L Device:C C9
-U 1 1 6049C1C6
+U 1 1 604DBA2B
 P 1050 2250
 F 0 "C9" H 1165 2296 50  0000 L CNN
 F 1 "100nF" H 1050 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1088 2100 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 1050 2250 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 1050 2250 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1088 2100 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1050 2250 50  0001 C CNN
+F 4 "0603B104K101CT" H 1050 2250 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 1050 2250 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 1050 2250 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 1050 2250 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 1050 2250 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1050 2250 50  0001 C CNN "Item Cost"
 	1    1050 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C10
-U 1 1 6049C1E2
+U 1 1 604DBA47
 P 1350 2250
 F 0 "C10" H 1465 2296 50  0000 L CNN
 F 1 "100nF" H 1350 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1388 2100 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 1350 2250 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 1350 2250 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1388 2100 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1350 2250 50  0001 C CNN
+F 4 "0603B104K101CT" H 1350 2250 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 1350 2250 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 1350 2250 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 1350 2250 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 1350 2250 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1350 2250 50  0001 C CNN "Item Cost"
 	1    1350 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C11
-U 1 1 6049C1F0
+U 1 1 604DBA55
 P 1650 2250
 F 0 "C11" H 1765 2296 50  0000 L CNN
 F 1 "100nF" H 1650 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1688 2100 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 1650 2250 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 1650 2250 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1688 2100 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1650 2250 50  0001 C CNN
+F 4 "0603B104K101CT" H 1650 2250 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 1650 2250 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 1650 2250 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 1650 2250 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 1650 2250 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1650 2250 50  0001 C CNN "Item Cost"
 	1    1650 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C12
-U 1 1 6049C1FE
+U 1 1 604DBA63
 P 1950 2250
 F 0 "C12" H 2065 2296 50  0000 L CNN
 F 1 "100nF" H 1950 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1988 2100 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 1950 2250 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 1950 2250 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1988 2100 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1950 2250 50  0001 C CNN
+F 4 "0603B104K101CT" H 1950 2250 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 1950 2250 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 1950 2250 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 1950 2250 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 1950 2250 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1950 2250 50  0001 C CNN "Item Cost"
 	1    1950 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C13
-U 1 1 6049C20C
+U 1 1 604DBA71
 P 2250 2250
 F 0 "C13" H 2365 2296 50  0000 L CNN
 F 1 "100nF" H 2250 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2288 2100 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 2250 2250 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 2250 2250 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2288 2100 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2250 2250 50  0001 C CNN
+F 4 "0603B104K101CT" H 2250 2250 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 2250 2250 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 2250 2250 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 2250 2250 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 2250 2250 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 2250 2250 50  0001 C CNN "Item Cost"
 	1    2250 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C14
-U 1 1 6049C21A
+U 1 1 604DBA7F
 P 2550 2250
 F 0 "C14" H 2665 2296 50  0000 L CNN
 F 1 "100nF" H 2550 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2588 2100 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 2550 2250 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 2550 2250 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2588 2100 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2550 2250 50  0001 C CNN
+F 4 "0603B104K101CT" H 2550 2250 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 2550 2250 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 2550 2250 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 2550 2250 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 2550 2250 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 2550 2250 50  0001 C CNN "Item Cost"
 	1    2550 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C15
-U 1 1 6049C228
+U 1 1 604DBA8D
 P 2850 2250
 F 0 "C15" H 2965 2296 50  0000 L CNN
 F 1 "100nF" H 2850 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2888 2100 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 2850 2250 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 2850 2250 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2888 2100 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2850 2250 50  0001 C CNN
+F 4 "0603B104K101CT" H 2850 2250 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 2850 2250 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 2850 2250 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 2850 2250 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 2850 2250 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 2850 2250 50  0001 C CNN "Item Cost"
 	1    2850 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C16
-U 1 1 6049C236
+U 1 1 604DBA9B
 P 3150 2250
 F 0 "C16" H 3265 2296 50  0000 L CNN
 F 1 "100nF" H 3150 2150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 3188 2100 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 3150 2250 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 3150 2250 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3188 2100 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 3150 2250 50  0001 C CNN
+F 4 "0603B104K101CT" H 3150 2250 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 3150 2250 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 3150 2250 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 3150 2250 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 3150 2250 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 3150 2250 50  0001 C CNN "Item Cost"
 	1    3150 2250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C17
-U 1 1 6056EE72
+U 1 1 6056E72C
 P 1700 4600
 F 0 "C17" H 1815 4646 50  0000 L CNN
 F 1 "100nF" H 1700 4500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 1738 4450 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 1700 4600 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 1700 4600 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1738 4450 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1700 4600 50  0001 C CNN
+F 4 "0603B104K101CT" H 1700 4600 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 1700 4600 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 1700 4600 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 1700 4600 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 1700 4600 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1700 4600 50  0001 C CNN "Item Cost"
 	1    1700 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1700 4750 1700 5050
 Connection ~ 1700 4450
+Wire Wire Line
+	2500 4450 2650 4450
 $Comp
 L Device:C C18
-U 1 1 606026A3
+U 1 1 605FAF8B
 P 2650 4600
 F 0 "C18" H 2765 4646 50  0000 L CNN
 F 1 "100nF" H 2650 4500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 2688 4450 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 2650 4600 50  0001 C CNN
-F 4 "C3216C0G2A104J160AC" H 2650 4600 50  0001 C CNN "MFN"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2688 4450 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2650 4600 50  0001 C CNN
+F 4 "0603B104K101CT" H 2650 4600 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 2650 4600 50  0001 C CNN "Supplier"
-F 6 "445-172677-1-ND" H 2650 4600 50  0001 C CNN "Supplier P/N"
-F 7 "$0.85" H 2650 4600 50  0001 C CNN "Item Cost"
+F 6 "1292-1392-1-ND" H 2650 4600 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 2650 4600 50  0001 C CNN "Item Cost"
 	1    2650 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2650 4750 2650 5050
-Wire Wire Line
-	2500 4450 2650 4450
 Connection ~ 2650 4450
 Wire Wire Line
 	2650 4450 2950 4450
