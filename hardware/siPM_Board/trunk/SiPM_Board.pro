@@ -1,4 +1,4 @@
-update=Wednesday, February 10, 2021 at 01:36:28 PM
+update=Friday, February 12, 2021 at 02:32:41 PM
 version=1
 last_client=pcbnew
 [general]
@@ -39,8 +39,11 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
+TrackWidth2=0.29464
 ViaDiameter1=0.8
 ViaDrill1=0.4
+ViaDiameter2=0.635
+ViaDrill2=0.381
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -67,7 +70,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
