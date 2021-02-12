@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name readout)(type Legacy)(uri /home/kremerme/work/PCB/hardware/readout_slice/trunk/libraries/readout.lib)(options "")(descr ""))
+)
