@@ -1044,7 +1044,7 @@ F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.
 	1    3150 1850
 	1    0    0    -1  
 $EndComp
-Text Label 6550 800  0    50   ~ 0
+Text Label 6250 800  0    50   ~ 0
 BIAS3
 Wire Wire Line
 	2650 5900 2800 5900
@@ -1089,13 +1089,13 @@ F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.
 	1    3150 4600
 	1    0    0    -1  
 $EndComp
-Text Label 3900 6700 0    50   ~ 0
+Text Label 3550 6700 0    50   ~ 0
 OUT
 $Comp
-L Device:C C17
+L Device:C C16
 U 1 1 604DBA71
 P 6700 1100
-F 0 "C17" H 6815 1146 50  0000 L CNN
+F 0 "C16" H 6815 1146 50  0000 L CNN
 F 1 "100nF" H 6700 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6738 950 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 6700 1100 50  0001 C CNN
@@ -1107,10 +1107,10 @@ F 7 "$0.12" H 6700 1100 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C15
+L Device:C C14
 U 1 1 604DBA63
 P 6400 1100
-F 0 "C15" H 6515 1146 50  0000 L CNN
+F 0 "C14" H 6515 1146 50  0000 L CNN
 F 1 "100nF" H 6400 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6438 950 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 6400 1100 50  0001 C CNN
@@ -1126,23 +1126,16 @@ Wire Wire Line
 Wire Wire Line
 	6400 900  6400 950 
 Wire Wire Line
-	6550 1300 6700 1300
-Connection ~ 6550 1300
-Wire Wire Line
-	6550 1400 6550 1300
-Wire Wire Line
-	6400 1300 6550 1300
-Wire Wire Line
 	6400 1300 6400 1250
 $Comp
 L power:GND #PWR05
 U 1 1 6023C2FA
-P 6550 1400
-F 0 "#PWR05" H 6550 1150 50  0001 C CNN
-F 1 "GND" H 6555 1227 50  0000 C CNN
-F 2 "" H 6550 1400 50  0001 C CNN
-F 3 "" H 6550 1400 50  0001 C CNN
-	1    6550 1400
+P 6250 1400
+F 0 "#PWR05" H 6250 1150 50  0001 C CNN
+F 1 "GND" H 6255 1227 50  0000 C CNN
+F 2 "" H 6250 1400 50  0001 C CNN
+F 3 "" H 6250 1400 50  0001 C CNN
+	1    6250 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1189,18 +1182,9 @@ F 3 "https://www.hamamatsu.com/resources/pdf/ssd/s14160_s14161_series_kapd1064e.
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6550 800  7000 800 
-Wire Wire Line
-	6400 900  6550 900 
-Wire Wire Line
-	6550 800  6550 900 
-Connection ~ 6550 900 
-Wire Wire Line
-	6550 900  6700 900 
-Wire Wire Line
 	7000 800  7000 900 
 Connection ~ 7000 900 
-Text Label 2200 3500 0    50   ~ 0
+Text Label 1900 3500 0    50   ~ 0
 BIAS2
 $Comp
 L Device:C C8
@@ -1237,80 +1221,46 @@ Wire Wire Line
 Wire Wire Line
 	2050 3600 2050 3650
 Wire Wire Line
-	2200 4000 2350 4000
-Connection ~ 2200 4000
-Wire Wire Line
-	2200 4100 2200 4000
-Wire Wire Line
-	2050 4000 2200 4000
-Wire Wire Line
 	2050 4000 2050 3950
 $Comp
 L power:GND #PWR02
 U 1 1 60DAF09E
-P 2200 4100
-F 0 "#PWR02" H 2200 3850 50  0001 C CNN
-F 1 "GND" H 2205 3927 50  0000 C CNN
-F 2 "" H 2200 4100 50  0001 C CNN
-F 3 "" H 2200 4100 50  0001 C CNN
-	1    2200 4100
+P 1900 4100
+F 0 "#PWR02" H 1900 3850 50  0001 C CNN
+F 1 "GND" H 1905 3927 50  0000 C CNN
+F 2 "" H 1900 4100 50  0001 C CNN
+F 3 "" H 1900 4100 50  0001 C CNN
+	1    1900 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 3950 2350 4000
 Wire Wire Line
-	2200 3500 2650 3500
-Wire Wire Line
-	2050 3600 2200 3600
-Wire Wire Line
-	2200 3500 2200 3600
-Connection ~ 2200 3600
-Wire Wire Line
-	2200 3600 2350 3600
-Text Label 2200 800  0    50   ~ 0
-BIAS1
-Wire Wire Line
 	2350 950  2350 900 
 Wire Wire Line
 	2050 900  2050 950 
-Wire Wire Line
-	2200 1300 2350 1300
-Connection ~ 2200 1300
-Wire Wire Line
-	2200 1400 2200 1300
-Wire Wire Line
-	2050 1300 2200 1300
 Wire Wire Line
 	2050 1300 2050 1250
 $Comp
 L power:GND #PWR01
 U 1 1 60F1D723
-P 2200 1400
-F 0 "#PWR01" H 2200 1150 50  0001 C CNN
-F 1 "GND" H 2205 1227 50  0000 C CNN
-F 2 "" H 2200 1400 50  0001 C CNN
-F 3 "" H 2200 1400 50  0001 C CNN
-	1    2200 1400
+P 1900 1400
+F 0 "#PWR01" H 1900 1150 50  0001 C CNN
+F 1 "GND" H 1905 1227 50  0000 C CNN
+F 2 "" H 1900 1400 50  0001 C CNN
+F 3 "" H 1900 1400 50  0001 C CNN
+	1    1900 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2350 1250 2350 1300
-Wire Wire Line
-	2200 800  2650 800 
-Wire Wire Line
-	2050 900  2200 900 
-Wire Wire Line
-	2200 800  2200 900 
-Connection ~ 2200 900 
-Wire Wire Line
-	2200 900  2350 900 
-Text Label 6550 3550 0    50   ~ 0
+Text Label 6250 3550 0    50   ~ 0
 BIAS4
 $Comp
-L Device:C C18
+L Device:C C17
 U 1 1 60F797D1
 P 6700 3850
-F 0 "C18" H 6815 3896 50  0000 L CNN
+F 0 "C17" H 6815 3896 50  0000 L CNN
 F 1 "100nF" H 6700 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6738 3700 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 6700 3850 50  0001 C CNN
@@ -1322,10 +1272,10 @@ F 7 "$0.12" H 6700 3850 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C16
+L Device:C C15
 U 1 1 60F797DF
 P 6400 3850
-F 0 "C16" H 6515 3896 50  0000 L CNN
+F 0 "C15" H 6515 3896 50  0000 L CNN
 F 1 "100nF" H 6400 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6438 3700 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 6400 3850 50  0001 C CNN
@@ -1341,51 +1291,15 @@ Wire Wire Line
 Wire Wire Line
 	6400 3650 6400 3700
 Wire Wire Line
-	6550 4050 6700 4050
-Connection ~ 6550 4050
-Wire Wire Line
-	6550 4150 6550 4050
-Wire Wire Line
-	6400 4050 6550 4050
-Wire Wire Line
 	6400 4050 6400 4000
 Wire Wire Line
 	6700 4000 6700 4050
-Wire Wire Line
-	6550 3550 7000 3550
-Wire Wire Line
-	6400 3650 6550 3650
-Wire Wire Line
-	6550 3550 6550 3650
-Connection ~ 6550 3650
-Wire Wire Line
-	6550 3650 6700 3650
 Wire Wire Line
 	2650 3500 2650 3650
 Connection ~ 2650 3650
 Wire Wire Line
 	2650 800  2650 900 
 Connection ~ 2650 900 
-Wire Wire Line
-	3600 6700 3900 6700
-Connection ~ 3600 6700
-$Comp
-L Device:C C10
-U 1 1 605FAF8B
-P 3600 6850
-F 0 "C10" H 3715 6896 50  0000 L CNN
-F 1 "100nF" H 3600 6750 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3638 6700 50  0001 C CNN
-F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 3600 6850 50  0001 C CNN
-F 4 "0603B104K101CT" H 3600 6850 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 3600 6850 50  0001 C CNN "Supplier"
-F 6 "1292-1392-1-ND" H 3600 6850 50  0001 C CNN "Supplier P/N"
-F 7 "$0.12" H 3600 6850 50  0001 C CNN "Item Cost"
-	1    3600 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 6700 3600 6700
 Connection ~ 2650 6700
 $Comp
 L Device:C C9
@@ -1402,8 +1316,6 @@ F 7 "$0.12" H 2650 6850 50  0001 C CNN "Item Cost"
 	1    2650 6850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3600 7000 3600 7300
 Wire Wire Line
 	2650 7000 2650 7300
 Text Label 2650 6500 2    50   ~ 0
@@ -1434,16 +1346,9 @@ Connection ~ 2700 7300
 Wire Wire Line
 	2650 7300 2700 7300
 Wire Wire Line
-	3500 7300 3500 7400
-Connection ~ 3500 7300
-Wire Wire Line
-	3600 7300 3500 7300
-Wire Wire Line
 	2650 6700 2650 6500
 Wire Wire Line
 	2650 6700 2750 6700
-Wire Wire Line
-	3500 7100 3500 7300
 Connection ~ 3500 7100
 Wire Wire Line
 	3450 7100 3500 7100
@@ -1480,12 +1385,12 @@ BIAS3
 $Comp
 L power:GND #PWR06
 U 1 1 602B2E79
-P 6550 4150
-F 0 "#PWR06" H 6550 3900 50  0001 C CNN
-F 1 "GND" H 6555 3977 50  0000 C CNN
-F 2 "" H 6550 4150 50  0001 C CNN
-F 3 "" H 6550 4150 50  0001 C CNN
-	1    6550 4150
+P 6250 4150
+F 0 "#PWR06" H 6250 3900 50  0001 C CNN
+F 1 "GND" H 6255 3977 50  0000 C CNN
+F 2 "" H 6250 4150 50  0001 C CNN
+F 3 "" H 6250 4150 50  0001 C CNN
+	1    6250 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1551,10 +1456,10 @@ F 7 "$0.12" H 1450 3800 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C14
+L Device:C C13
 U 1 1 603C9FC8
 P 6100 3850
-F 0 "C14" H 6215 3896 50  0000 L CNN
+F 0 "C13" H 6215 3896 50  0000 L CNN
 F 1 "100nF" H 6100 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 3700 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 6100 3850 50  0001 C CNN
@@ -1566,10 +1471,10 @@ F 7 "$0.12" H 6100 3850 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C12
+L Device:C C11
 U 1 1 603C9FE4
 P 5800 3850
-F 0 "C12" H 5915 3896 50  0000 L CNN
+F 0 "C11" H 5915 3896 50  0000 L CNN
 F 1 "100nF" H 5800 3750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5838 3700 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 5800 3850 50  0001 C CNN
@@ -1581,10 +1486,10 @@ F 7 "$0.12" H 5800 3850 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L Device:C C12
 U 1 1 60413ED0
 P 6100 1100
-F 0 "C13" H 6215 1146 50  0000 L CNN
+F 0 "C12" H 6215 1146 50  0000 L CNN
 F 1 "100nF" H 6100 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 950 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 6100 1100 50  0001 C CNN
@@ -1596,10 +1501,10 @@ F 7 "$0.12" H 6100 1100 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L Device:C C10
 U 1 1 60413EDE
 P 5800 1100
-F 0 "C11" H 5915 1146 50  0000 L CNN
+F 0 "C10" H 5915 1146 50  0000 L CNN
 F 1 "100nF" H 5800 1000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5838 950 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 5800 1100 50  0001 C CNN
@@ -1644,12 +1549,9 @@ Wire Wire Line
 	1450 950  1450 900 
 Wire Wire Line
 	1450 900  1750 900 
-Connection ~ 2050 900 
 Wire Wire Line
 	1750 950  1750 900 
 Connection ~ 1750 900 
-Wire Wire Line
-	1750 900  2050 900 
 Wire Wire Line
 	1450 1250 1450 1300
 Wire Wire Line
@@ -1659,7 +1561,7 @@ Wire Wire Line
 	1750 1250 1750 1300
 Connection ~ 1750 1300
 Wire Wire Line
-	1750 1300 2050 1300
+	1750 1300 1900 1300
 Wire Wire Line
 	1450 3650 1450 3600
 Wire Wire Line
@@ -1669,7 +1571,7 @@ Wire Wire Line
 	1750 3650 1750 3600
 Connection ~ 1750 3600
 Wire Wire Line
-	1750 3600 2050 3600
+	1750 3600 1900 3600
 Wire Wire Line
 	1450 3950 1450 4000
 Wire Wire Line
@@ -1679,7 +1581,7 @@ Wire Wire Line
 	1750 3950 1750 4000
 Connection ~ 1750 4000
 Wire Wire Line
-	1750 4000 2050 4000
+	1750 4000 1900 4000
 Wire Wire Line
 	5800 950  5800 900 
 Wire Wire Line
@@ -1689,7 +1591,7 @@ Wire Wire Line
 	6100 950  6100 900 
 Connection ~ 6100 900 
 Wire Wire Line
-	6100 900  6400 900 
+	6100 900  6250 900 
 Wire Wire Line
 	5800 1250 5800 1300
 Wire Wire Line
@@ -1699,7 +1601,7 @@ Wire Wire Line
 	6100 1250 6100 1300
 Connection ~ 6100 1300
 Wire Wire Line
-	6100 1300 6400 1300
+	6100 1300 6250 1300
 Wire Wire Line
 	5800 3700 5800 3650
 Wire Wire Line
@@ -1709,7 +1611,7 @@ Wire Wire Line
 	6100 3700 6100 3650
 Connection ~ 6100 3650
 Wire Wire Line
-	6100 3650 6400 3650
+	6100 3650 6250 3650
 Wire Wire Line
 	5800 4000 5800 4050
 Wire Wire Line
@@ -1719,5 +1621,78 @@ Wire Wire Line
 	6100 4050 6100 4000
 Connection ~ 6100 4050
 Wire Wire Line
-	6100 4050 6400 4050
+	6100 4050 6250 4050
+Wire Wire Line
+	3500 7100 3500 7400
+Wire Wire Line
+	3450 6700 3550 6700
+Wire Wire Line
+	2050 3600 2350 3600
+Wire Wire Line
+	2050 4000 2350 4000
+Wire Wire Line
+	1900 4000 1900 4100
+Connection ~ 1900 4000
+Wire Wire Line
+	1900 4000 2050 4000
+Wire Wire Line
+	1900 3600 1900 3500
+Connection ~ 1900 3600
+Wire Wire Line
+	1900 3600 2050 3600
+Wire Wire Line
+	1900 3500 2650 3500
+Wire Wire Line
+	2050 1300 2350 1300
+Wire Wire Line
+	1750 900  1900 900 
+Text Label 1900 800  0    50   ~ 0
+BIAS1
+Wire Wire Line
+	2350 900  2050 900 
+Connection ~ 2050 900 
+Wire Wire Line
+	1900 900  1900 800 
+Wire Wire Line
+	1900 800  2650 800 
+Connection ~ 1900 900 
+Wire Wire Line
+	1900 900  2050 900 
+Wire Wire Line
+	1900 1300 1900 1400
+Connection ~ 1900 1300
+Wire Wire Line
+	1900 1300 2050 1300
+Wire Wire Line
+	6400 1300 6700 1300
+Wire Wire Line
+	6400 900  6700 900 
+Wire Wire Line
+	6250 900  6250 800 
+Connection ~ 6250 900 
+Wire Wire Line
+	6250 900  6400 900 
+Wire Wire Line
+	6250 800  7000 800 
+Wire Wire Line
+	6250 1300 6250 1400
+Connection ~ 6250 1300
+Wire Wire Line
+	6250 1300 6400 1300
+Wire Wire Line
+	6400 4050 6700 4050
+Wire Wire Line
+	6400 3650 6700 3650
+Wire Wire Line
+	6250 3650 6250 3550
+Connection ~ 6250 3650
+Wire Wire Line
+	6250 3650 6400 3650
+Wire Wire Line
+	6250 3550 7000 3550
+Wire Wire Line
+	6250 4050 6250 4150
+Connection ~ 6250 4050
+Wire Wire Line
+	6250 4050 6400 4050
 $EndSCHEMATC
