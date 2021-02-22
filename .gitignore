@@ -1,3 +1,4 @@
 *.bck
 *.dcm
 *.bak
+*.DS_Store
