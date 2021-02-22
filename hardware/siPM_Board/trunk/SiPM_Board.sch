@@ -1269,36 +1269,6 @@ Wire Wire Line
 	2200 3600 2350 3600
 Text Label 2200 800  0    50   ~ 0
 BIAS1
-$Comp
-L Device:C C2
-U 1 1 60F1D704
-P 2350 1100
-F 0 "C2" H 2465 1146 50  0000 L CNN
-F 1 "100nF" H 2350 1000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2388 950 50  0001 C CNN
-F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2350 1100 50  0001 C CNN
-F 4 "0603B104K101CT" H 2350 1100 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 2350 1100 50  0001 C CNN "Supplier"
-F 6 "1292-1392-1-ND" H 2350 1100 50  0001 C CNN "Supplier P/N"
-F 7 "$0.12" H 2350 1100 50  0001 C CNN "Item Cost"
-	1    2350 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 60F1D712
-P 2050 1100
-F 0 "C1" H 2165 1146 50  0000 L CNN
-F 1 "100nF" H 2050 1000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2088 950 50  0001 C CNN
-F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2050 1100 50  0001 C CNN
-F 4 "0603B104K101CT" H 2050 1100 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 2050 1100 50  0001 C CNN "Supplier"
-F 6 "1292-1392-1-ND" H 2050 1100 50  0001 C CNN "Supplier P/N"
-F 7 "$0.12" H 2050 1100 50  0001 C CNN "Item Cost"
-	1    2050 1100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 950  2350 900 
 Wire Wire Line
@@ -1520,4 +1490,234 @@ F 3 "" H 6550 4150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4800 5150 4750 5150
+$Comp
+L Device:C C#2
+U 1 1 60372068
+P 1750 1100
+F 0 "C#2" H 1865 1146 50  0000 L CNN
+F 1 "100nF" H 1750 1000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1788 950 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1750 1100 50  0001 C CNN
+F 4 "0603B104K101CT" H 1750 1100 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 1750 1100 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 1750 1100 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1750 1100 50  0001 C CNN "Item Cost"
+	1    1750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C#1
+U 1 1 6037BC42
+P 1450 1100
+F 0 "C#1" H 1565 1146 50  0000 L CNN
+F 1 "100nF" H 1450 1000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1488 950 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1450 1100 50  0001 C CNN
+F 4 "0603B104K101CT" H 1450 1100 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 1450 1100 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 1450 1100 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1450 1100 50  0001 C CNN "Item Cost"
+	1    1450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C#4
+U 1 1 6037EBF4
+P 1750 3800
+F 0 "C#4" H 1865 3846 50  0000 L CNN
+F 1 "100nF" H 1750 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1788 3650 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1750 3800 50  0001 C CNN
+F 4 "0603B104K101CT" H 1750 3800 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 1750 3800 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 1750 3800 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1750 3800 50  0001 C CNN "Item Cost"
+	1    1750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C#3
+U 1 1 6037EC10
+P 1450 3800
+F 0 "C#3" H 1565 3846 50  0000 L CNN
+F 1 "100nF" H 1450 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 1488 3650 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 1450 3800 50  0001 C CNN
+F 4 "0603B104K101CT" H 1450 3800 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 1450 3800 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 1450 3800 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 1450 3800 50  0001 C CNN "Item Cost"
+	1    1450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C#8
+U 1 1 603C9FC8
+P 6100 3850
+F 0 "C#8" H 6215 3896 50  0000 L CNN
+F 1 "100nF" H 6100 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 3700 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 6100 3850 50  0001 C CNN
+F 4 "0603B104K101CT" H 6100 3850 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 6100 3850 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 6100 3850 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 6100 3850 50  0001 C CNN "Item Cost"
+	1    6100 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C#7
+U 1 1 603C9FE4
+P 5800 3850
+F 0 "C#7" H 5915 3896 50  0000 L CNN
+F 1 "100nF" H 5800 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5838 3700 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 5800 3850 50  0001 C CNN
+F 4 "0603B104K101CT" H 5800 3850 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 5800 3850 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 5800 3850 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 5800 3850 50  0001 C CNN "Item Cost"
+	1    5800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C#6
+U 1 1 60413ED0
+P 6100 1100
+F 0 "C#6" H 6215 1146 50  0000 L CNN
+F 1 "100nF" H 6100 1000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6138 950 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 6100 1100 50  0001 C CNN
+F 4 "0603B104K101CT" H 6100 1100 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 6100 1100 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 6100 1100 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 6100 1100 50  0001 C CNN "Item Cost"
+	1    6100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C#5
+U 1 1 60413EDE
+P 5800 1100
+F 0 "C#5" H 5915 1146 50  0000 L CNN
+F 1 "100nF" H 5800 1000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5838 950 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 5800 1100 50  0001 C CNN
+F 4 "0603B104K101CT" H 5800 1100 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 5800 1100 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 5800 1100 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 5800 1100 50  0001 C CNN "Item Cost"
+	1    5800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60F1D712
+P 2050 1100
+F 0 "C1" H 2165 1146 50  0000 L CNN
+F 1 "100nF" H 2050 1000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2088 950 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2050 1100 50  0001 C CNN
+F 4 "0603B104K101CT" H 2050 1100 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 2050 1100 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 2050 1100 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 2050 1100 50  0001 C CNN "Item Cost"
+	1    2050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60F1D704
+P 2350 1100
+F 0 "C2" H 2465 1146 50  0000 L CNN
+F 1 "100nF" H 2350 1000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2388 950 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/2018/10/MLCC.pdf" H 2350 1100 50  0001 C CNN
+F 4 "0603B104K101CT" H 2350 1100 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 2350 1100 50  0001 C CNN "Supplier"
+F 6 "1292-1392-1-ND" H 2350 1100 50  0001 C CNN "Supplier P/N"
+F 7 "$0.12" H 2350 1100 50  0001 C CNN "Item Cost"
+	1    2350 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 950  1450 900 
+Wire Wire Line
+	1450 900  1750 900 
+Connection ~ 2050 900 
+Wire Wire Line
+	1750 950  1750 900 
+Connection ~ 1750 900 
+Wire Wire Line
+	1750 900  2050 900 
+Wire Wire Line
+	1450 1250 1450 1300
+Wire Wire Line
+	1450 1300 1750 1300
+Connection ~ 2050 1300
+Wire Wire Line
+	1750 1250 1750 1300
+Connection ~ 1750 1300
+Wire Wire Line
+	1750 1300 2050 1300
+Wire Wire Line
+	1450 3650 1450 3600
+Wire Wire Line
+	1450 3600 1750 3600
+Connection ~ 2050 3600
+Wire Wire Line
+	1750 3650 1750 3600
+Connection ~ 1750 3600
+Wire Wire Line
+	1750 3600 2050 3600
+Wire Wire Line
+	1450 3950 1450 4000
+Wire Wire Line
+	1450 4000 1750 4000
+Connection ~ 2050 4000
+Wire Wire Line
+	1750 3950 1750 4000
+Connection ~ 1750 4000
+Wire Wire Line
+	1750 4000 2050 4000
+Wire Wire Line
+	5800 950  5800 900 
+Wire Wire Line
+	5800 900  6100 900 
+Connection ~ 6400 900 
+Wire Wire Line
+	6100 950  6100 900 
+Connection ~ 6100 900 
+Wire Wire Line
+	6100 900  6400 900 
+Wire Wire Line
+	5800 1250 5800 1300
+Wire Wire Line
+	5800 1300 6100 1300
+Connection ~ 6400 1300
+Wire Wire Line
+	6100 1250 6100 1300
+Connection ~ 6100 1300
+Wire Wire Line
+	6100 1300 6400 1300
+Wire Wire Line
+	5800 3700 5800 3650
+Wire Wire Line
+	5800 3650 6100 3650
+Connection ~ 6400 3650
+Wire Wire Line
+	6100 3700 6100 3650
+Connection ~ 6100 3650
+Wire Wire Line
+	6100 3650 6400 3650
+Wire Wire Line
+	5800 4000 5800 4050
+Wire Wire Line
+	5800 4050 6100 4050
+Connection ~ 6400 4050
+Wire Wire Line
+	6100 4050 6100 4000
+Connection ~ 6100 4050
+Wire Wire Line
+	6100 4050 6400 4050
 $EndSCHEMATC
