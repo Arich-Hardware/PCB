@@ -1,0 +1,10 @@
+### Module positions - created on Tue Feb 23 10:48:04 2021 ###
+### Printed by Pcbnew version kicad 5.1.9-73d0e3b20d~88~ubuntu20.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val               Package                PosX       PosY       Rot  Side
+U2        S14161-6050HS-04  S14161-6050HS-04   -12.7500    12.7500    0.0000  top
+U3        S14161-6050HS-04  S14161-6050HS-04   -12.7500   -12.7500    0.0000  top
+U4        S14161-6050HS-04  S14161-6050HS-04    12.7500    12.7500    0.0000  top
+U5        S14161-6050HS-04  S14161-6050HS-04    12.7500   -12.7500    0.0000  top
+## End

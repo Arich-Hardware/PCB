@@ -1,0 +1,26 @@
+### Module positions - created on Tue Feb 23 10:48:04 2021 ###
+### Printed by Pcbnew version kicad 5.1.9-73d0e3b20d~88~ubuntu20.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                  Package                                           PosX       PosY       Rot  Side
+C1        100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   -18.9400     6.3100  270.0000  bottom
+C2        100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   -18.9400    -6.3100  270.0000  bottom
+C3        100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    -6.1300     6.3100  270.0000  bottom
+C4        100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    -6.1300    -6.3100  270.0000  bottom
+C5        100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   -18.9400    12.6300  270.0000  bottom
+C6        100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   -18.9400   -12.6300  270.0000  bottom
+C7        100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    -6.1300    12.6300  270.0000  bottom
+C8        100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    -6.1800   -12.6300  270.0000  bottom
+C9        100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     0.0000    -3.1800  270.0000  bottom
+C10       100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     6.3100     6.3100  270.0000  bottom
+C11       100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     6.3100    -6.3100  270.0000  bottom
+C12       100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    18.9400     6.3100  270.0000  bottom
+C13       100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    18.9400    -6.3100  270.0000  bottom
+C14       100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     6.3100    12.6300  270.0000  bottom
+C15       100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder     6.3100   -12.6300  270.0000  bottom
+C16       100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    18.9400    12.6300  270.0000  bottom
+C17       100nF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder    18.9400   -12.6300  270.0000  bottom
+J1        Conn_02x34_Odd_Even  MW-34-03-G-D-245-065-ES                       -12.6300     0.0000  270.0000  bottom
+J2        Conn_02x34_Odd_Even  MW-34-03-G-D-245-065-ES                        12.6300     0.0000  270.0000  bottom
+U1        LM94021              Texas_R-PDSO-G6                                 0.0000     0.0000  180.0000  bottom
+## End
