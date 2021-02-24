@@ -5,10 +5,10 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "SiPM Schematic"
-Date "2021-02-01"
+Date "2021-02-24"
 Rev ""
 Comp "Electronics Design Facility"
-Comment1 "Initial Schematic"
+Comment1 "Final Draft"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -275,7 +275,11 @@ P 5000 3450
 F 0 "J1" H 4650 1425 50  0000 R CNN
 F 1 "Conn_02x34_Odd_Even" H 5400 1550 50  0000 R CNN
 F 2 "Arich_SiPM_Footprints:MW-34-03-G-D-245-065-ES" H 5000 3450 50  0001 C CNN
-F 3 "~" H 5000 3450 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/prints/mw-xx-03-x-d-xxx-xxx-xx-footprint.pdf" H 5000 3450 50  0001 C CNN
+F 4 "MW-34-03-G-D-245-065-ES" H 5000 3450 50  0001 C CNN "MFN"
+F 5 "Samtec" H 5000 3450 50  0001 C CNN "Supplier"
+F 6 "MW-34-03-G-D-245-065-ES" H 5000 3450 50  0001 C CNN "Supplier P/N"
+F 7 "$0" H 5000 3450 50  0001 C CNN "Item Cost"
 	1    5000 3450
 	1    0    0    -1  
 $EndComp
@@ -809,7 +813,11 @@ P 9350 3450
 F 0 "J2" H 8975 1425 50  0000 R CNN
 F 1 "Conn_02x34_Odd_Even" H 9750 1550 50  0000 R CNN
 F 2 "Arich_SiPM_Footprints:MW-34-03-G-D-245-065-ES" H 9350 3450 50  0001 C CNN
-F 3 "~" H 9350 3450 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/prints/mw-xx-03-x-d-xxx-xxx-xx-footprint.pdf" H 9350 3450 50  0001 C CNN
+F 4 "MW-34-03-G-D-245-065-ES" H 9350 3450 50  0001 C CNN "MFN"
+F 5 "Samtec" H 9350 3450 50  0001 C CNN "Supplier"
+F 6 "MW-34-03-G-D-245-065-ES" H 9350 3450 50  0001 C CNN "Supplier P/N"
+F 7 "$0" H 9350 3450 50  0001 C CNN "Item Cost"
 	1    9350 3450
 	1    0    0    -1  
 $EndComp
@@ -1330,6 +1338,10 @@ F 0 "U1" H 3100 6335 50  0000 C CNN
 F 1 "LM94021" H 3100 6426 50  0000 C CNN
 F 2 "Arich_SiPM_Footprints:Texas_R-PDSO-G6" H 3145 6723 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm94021.pdf?ts=1612369710364&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLM94021" H 3145 6723 50  0001 C CNN
+F 4 "LM94021BIMG/NOPB" H 3100 6900 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 3100 6900 50  0001 C CNN "Supplier"
+F 6 "LM94021BIMG/NOPBCT-ND" H 3100 6900 50  0001 C CNN "Supplier P/N"
+F 7 "$1.28" H 3100 6900 50  0001 C CNN "Item Cost"
 	1    3100 6900
 	-1   0    0    1   
 $EndComp
