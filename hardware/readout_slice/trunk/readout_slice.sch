@@ -1,4 +1,49 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L readout:CITIROC1A U?
+U 1 1 603B01A9
+P 3350 2100
+F 0 "U?" H 5678 1596 50  0000 L CNN
+F 1 "CITIROC1A" H 5678 1505 50  0000 L CNN
+F 2 "" H 2750 2250 50  0001 C CNN
+F 3 "" H 2750 2250 50  0001 C CNN
+	1    3350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:CITIROC1A U?
+U 2 1 603B2690
+P 2700 3850
+F 0 "U?" H 2625 -373 50  0000 C CNN
+F 1 "CITIROC1A" H 2625 -464 50  0000 C CNN
+F 2 "" H 2100 4000 50  0001 C CNN
+F 3 "" H 2100 4000 50  0001 C CNN
+	2    2700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:CITIROC1A U?
+U 3 1 603B641D
+P 4950 3850
+F 0 "U?" H 4950 -673 50  0000 C CNN
+F 1 "CITIROC1A" H 4950 -764 50  0000 C CNN
+F 2 "" H 4350 4000 50  0001 C CNN
+F 3 "" H 4350 4000 50  0001 C CNN
+	3    4950 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
