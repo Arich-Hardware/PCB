@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr C 22000 17000
 encoding utf-8
 Sheet 1 2
 Title "readout_slice"
@@ -16,27 +16,27 @@ $EndDescr
 $Comp
 L readout:CITIROC1A U?
 U 2 1 603B2690
-P 2450 700
-F 0 "U?" H 2375 -3523 50  0000 C CNN
-F 1 "CITIROC1A" H 2375 -3614 50  0000 C CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 1850 850 50  0001 C CNN
-F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 1850 850 50  0001 C CNN
-	2    2450 700 
+P 13950 3850
+F 0 "U?" H 13875 -373 50  0000 C CNN
+F 1 "CITIROC1A" H 13875 -464 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 13350 4000 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 13350 4000 50  0001 C CNN
+	2    13950 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout:CITIROC1A U?
 U 3 1 603B641D
-P 9700 1000
-F 0 "U?" H 9700 -3523 50  0000 C CNN
-F 1 "CITIROC1A" H 9700 -3614 50  0000 C CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 9100 1150 50  0001 C CNN
-F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 9100 1150 50  0001 C CNN
-	3    9700 1000
+P 10950 3650
+F 0 "U?" H 10950 -873 50  0000 C CNN
+F 1 "CITIROC1A" H 10950 -964 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 10350 3800 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 10350 3800 50  0001 C CNN
+	3    10950 3650
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 5350 6700 1250 450 
+S 7550 5900 1250 450 
 U 603D0C5A
 F0 "Sheet_power" 50
 F1 "power.sch" 50
@@ -44,23 +44,411 @@ $EndSheet
 $Comp
 L Connector:SODIMM-200 J?
 U 1 1 6036AFE7
-P 5200 3050
-F 0 "J?" H 5200 4215 50  0000 C CNN
-F 1 "SODIMM-200" H 5200 4124 50  0000 C CNN
-F 2 "" H 6600 6900 50  0001 C CNN
-F 3 "~" H 6600 6900 50  0001 C CNN
-	1    5200 3050
+P 3300 4100
+F 0 "J?" H 3300 5265 50  0000 C CNN
+F 1 "SODIMM-200" H 3300 5174 50  0000 C CNN
+F 2 "" H 4700 7950 50  0001 C CNN
+F 3 "~" H 4700 7950 50  0001 C CNN
+	1    3300 4100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:SODIMM-200 J?
 U 2 1 6036B147
-P 7550 3950
-F 0 "J?" H 7550 8115 50  0000 C CNN
-F 1 "SODIMM-200" H 7550 8024 50  0000 C CNN
-F 2 "" H 8950 7800 50  0001 C CNN
-F 3 "~" H 8950 7800 50  0001 C CNN
-	2    7550 3950
+P 3300 9500
+F 0 "J?" H 3300 13665 50  0000 C CNN
+F 1 "SODIMM-200" H 3300 13574 50  0000 C CNN
+F 2 "" H 4700 13350 50  0001 C CNN
+F 3 "~" H 4700 13350 50  0001 C CNN
+	2    3300 9500
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2500 5100 2600 5100
+Wire Wire Line
+	2600 4800 2500 4800
+Wire Wire Line
+	2500 4800 2500 5100
+Connection ~ 2500 5100
+Wire Wire Line
+	2600 4500 2500 4500
+Wire Wire Line
+	2500 4500 2500 4800
+Connection ~ 2500 4800
+Wire Wire Line
+	2600 3900 2500 3900
+Wire Wire Line
+	2500 3900 2500 4500
+Connection ~ 2500 4500
+Wire Wire Line
+	4000 4700 4100 4700
+Wire Wire Line
+	4100 4700 4100 5000
+Wire Wire Line
+	4000 5000 4100 5000
+Connection ~ 4100 5000
+Wire Wire Line
+	4000 4400 4100 4400
+Wire Wire Line
+	4100 4400 4100 4700
+Connection ~ 4100 4700
+Wire Wire Line
+	4000 4100 4100 4100
+Wire Wire Line
+	4100 4100 4100 4400
+Connection ~ 4100 4400
+Wire Wire Line
+	4000 3800 4100 3800
+Wire Wire Line
+	4100 3800 4100 4100
+Connection ~ 4100 4100
+Wire Wire Line
+	4000 3500 4100 3500
+Wire Wire Line
+	4100 3500 4100 3800
+Connection ~ 4100 3800
+Wire Wire Line
+	4000 3200 4100 3200
+Wire Wire Line
+	4100 3200 4100 3500
+Connection ~ 4100 3500
+Wire Wire Line
+	2600 3700 2500 3700
+Wire Wire Line
+	2500 3700 2500 3600
+Wire Wire Line
+	2600 3200 2500 3200
+Connection ~ 2500 3200
+Wire Wire Line
+	2500 3200 2500 2950
+Wire Wire Line
+	2600 3300 2500 3300
+Connection ~ 2500 3300
+Wire Wire Line
+	2500 3300 2500 3200
+Wire Wire Line
+	2600 3400 2500 3400
+Connection ~ 2500 3400
+Wire Wire Line
+	2500 3400 2500 3300
+Wire Wire Line
+	2600 3500 2500 3500
+Connection ~ 2500 3500
+Wire Wire Line
+	2500 3500 2500 3400
+Wire Wire Line
+	2600 3600 2500 3600
+Connection ~ 2500 3600
+Wire Wire Line
+	2500 3600 2500 3500
+Wire Wire Line
+	2600 13300 2500 13300
+Wire Wire Line
+	2500 13300 2500 13600
+$Comp
+L power:GNDD #PWR?
+U 1 1 603CF606
+P 2500 13600
+F 0 "#PWR?" H 2500 13350 50  0001 C CNN
+F 1 "GNDD" H 2504 13445 50  0000 C CNN
+F 2 "" H 2500 13600 50  0001 C CNN
+F 3 "" H 2500 13600 50  0001 C CNN
+	1    2500 13600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 11900 2500 11900
+Connection ~ 2500 13300
+Wire Wire Line
+	2600 11400 2500 11400
+Wire Wire Line
+	2500 11400 2500 11900
+Connection ~ 2500 11900
+Wire Wire Line
+	2500 11900 2500 13300
+Wire Wire Line
+	2600 10900 2500 10900
+Wire Wire Line
+	2500 10900 2500 11400
+Connection ~ 2500 11400
+Wire Wire Line
+	2600 9900 2500 9900
+Wire Wire Line
+	2500 9900 2500 10900
+Connection ~ 2500 10900
+Wire Wire Line
+	2600 8900 2500 8900
+Wire Wire Line
+	2500 8900 2500 9900
+Connection ~ 2500 9900
+Wire Wire Line
+	2600 8300 2500 8300
+Wire Wire Line
+	2500 8300 2500 8900
+Connection ~ 2500 8900
+Wire Wire Line
+	2600 7700 2500 7700
+Wire Wire Line
+	2500 7700 2500 8300
+Connection ~ 2500 8300
+Wire Wire Line
+	2600 6700 2500 6700
+Wire Wire Line
+	2500 6700 2500 7700
+Connection ~ 2500 7700
+Wire Wire Line
+	2600 5900 2500 5900
+Wire Wire Line
+	2500 5900 2500 6700
+Connection ~ 2500 6700
+$Comp
+L power:GNDD #PWR?
+U 1 1 603DB049
+P 4100 13600
+F 0 "#PWR?" H 4100 13350 50  0001 C CNN
+F 1 "GNDD" H 4104 13445 50  0000 C CNN
+F 2 "" H 4100 13600 50  0001 C CNN
+F 3 "" H 4100 13600 50  0001 C CNN
+	1    4100 13600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 12500 4100 12500
+Wire Wire Line
+	4100 12500 4100 13600
+Wire Wire Line
+	4000 12100 4100 12100
+Wire Wire Line
+	4100 12100 4100 12500
+Connection ~ 4100 12500
+Wire Wire Line
+	4000 11300 4100 11300
+Wire Wire Line
+	4100 11300 4100 12100
+Connection ~ 4100 12100
+Wire Wire Line
+	4000 10300 4100 10300
+Wire Wire Line
+	4100 10300 4100 11300
+Connection ~ 4100 11300
+Wire Wire Line
+	4000 9300 4100 9300
+Wire Wire Line
+	4100 9300 4100 10300
+Connection ~ 4100 10300
+Wire Wire Line
+	4000 8500 4100 8500
+Wire Wire Line
+	4100 8500 4100 9300
+Connection ~ 4100 9300
+Wire Wire Line
+	4000 7900 4100 7900
+Wire Wire Line
+	4100 7900 4100 8500
+Connection ~ 4100 8500
+Wire Wire Line
+	4000 7100 4100 7100
+Wire Wire Line
+	4100 7100 4100 7900
+Connection ~ 4100 7900
+Wire Wire Line
+	4000 6100 4100 6100
+Wire Wire Line
+	4100 6100 4100 7100
+Connection ~ 4100 7100
+Wire Wire Line
+	4100 5000 4100 6100
+Connection ~ 4100 6100
+Wire Wire Line
+	2500 5100 2500 5900
+Connection ~ 2500 5900
+Wire Wire Line
+	2200 13400 2550 13400
+Wire Wire Line
+	2600 13500 2550 13500
+Wire Wire Line
+	2550 13500 2550 13400
+Connection ~ 2550 13400
+Wire Wire Line
+	2550 13400 2600 13400
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60445E33
+P 2200 13350
+F 0 "#PWR?" H 2200 13200 50  0001 C CNN
+F 1 "+3V3" H 2215 13523 50  0000 C CNN
+F 2 "" H 2200 13350 50  0001 C CNN
+F 3 "" H 2200 13350 50  0001 C CNN
+	1    2200 13350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 13400 2200 13350
+Text Notes 2150 13400 0    50   ~ 10
+caps?
+Wire Wire Line
+	4000 11400 4500 11400
+Wire Wire Line
+	4000 11500 4500 11500
+Wire Wire Line
+	4000 11700 4500 11700
+Wire Wire Line
+	4000 11600 4500 11600
+Text Label 4500 11400 2    50   ~ 0
+JTAG_TCK
+Text Label 4500 11500 2    50   ~ 0
+JTAG_TDI
+Text Label 4500 11600 2    50   ~ 0
+JTAG_TMS
+Text Label 4500 11700 2    50   ~ 0
+JTAG_TDO
+Text Notes 4500 11700 0    50   ~ 0
+- \n | Diligent JTAG plug here?\n | g-2 adc board for refrence\n |\n-
+Wire Wire Line
+	2600 3800 2150 3800
+Text Label 2150 3800 0    50   ~ 0
+PWR_EN
+Text Notes 1650 3800 0    50   ~ 0
+from FPGA?
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J?
+U 1 1 604691CB
+P 5950 11600
+F 0 "J?" H 6000 12117 50  0000 C CNN
+F 1 "Digilent JTAG header" H 6000 12026 50  0000 C CNN
+F 2 "" H 5950 11600 50  0001 C CNN
+F 3 "~" H 5950 11600 50  0001 C CNN
+	1    5950 11600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6046E24F
+P 4350 5100
+F 0 "R?" V 4250 5050 50  0000 L CNN
+F 1 "100" V 4350 5050 50  0000 L CNN
+F 2 "" V 4280 5100 50  0001 C CNN
+F 3 "~" H 4350 5100 50  0001 C CNN
+	1    4350 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6046ED86
+P 4650 5100
+F 0 "D?" H 4650 5200 50  0000 C CNN
+F 1 "GREEN" H 4700 5000 50  0000 C CNN
+F 2 "" H 4650 5100 50  0001 C CNN
+F 3 "~" H 4650 5100 50  0001 C CNN
+	1    4650 5100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5100 4000 5100
+Wire Wire Line
+	4800 5100 4950 5100
+Wire Wire Line
+	4950 5100 4950 5300
+$Comp
+L power:GNDD #PWR?
+U 1 1 6047D06A
+P 4950 5300
+F 0 "#PWR?" H 4950 5050 50  0001 C CNN
+F 1 "GNDD" H 4954 5145 50  0000 C CNN
+F 2 "" H 4950 5300 50  0001 C CNN
+F 3 "" H 4950 5300 50  0001 C CNN
+	1    4950 5300
+	1    0    0    -1  
+$EndComp
+Text Notes 4750 5100 0    39   ~ 0
+PWR_GOOD
+$Comp
+L power:+5V #PWR?
+U 1 1 604806EA
+P 2500 2950
+F 0 "#PWR?" H 2500 2800 50  0001 C CNN
+F 1 "+5V" H 2515 3123 50  0000 C CNN
+F 2 "" H 2500 2950 50  0001 C CNN
+F 3 "" H 2500 2950 50  0001 C CNN
+	1    2500 2950
+	1    0    0    -1  
+$EndComp
+Text Notes 2200 3000 0    39   ~ 0
+VCC_MOD
+Text Notes 2250 3300 0    50   ~ 10
+caps?
+Text Notes 4200 13600 0    50   ~ 10
+caps?
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60483452
+P 4200 12550
+F 0 "#PWR?" H 4200 12400 50  0001 C CNN
+F 1 "+3V3" H 4350 12600 50  0000 C CNN
+F 2 "" H 4200 12550 50  0001 C CNN
+F 3 "" H 4200 12550 50  0001 C CNN
+	1    4200 12550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 13500 4200 13500
+Wire Wire Line
+	4200 13500 4200 12550
+$Comp
+L Connector:TestPoint_2Pole TP?
+U 1 1 6048FDE2
+P 4550 13400
+F 0 "TP?" H 4550 13300 50  0000 C CNN
+F 1 "1.2V_monitor" H 4550 13504 50  0000 C CNN
+F 2 "" H 4550 13400 50  0001 C CNN
+F 3 "~" H 4550 13400 50  0001 C CNN
+	1    4550 13400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 13400 4000 13400
+$Comp
+L power:GNDD #PWR?
+U 1 1 6049313F
+P 4850 13600
+F 0 "#PWR?" H 4850 13350 50  0001 C CNN
+F 1 "GNDD" H 4854 13445 50  0000 C CNN
+F 2 "" H 4850 13600 50  0001 C CNN
+F 3 "" H 4850 13600 50  0001 C CNN
+	1    4850 13600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 13600 4850 13400
+Wire Wire Line
+	4850 13400 4750 13400
+Text Notes 5700 12050 0    39   ~ 0
+one column is gnd\n
+NoConn ~ 2600 12900
+NoConn ~ 2600 13000
+NoConn ~ 4000 12000
+Text Notes 4000 11900 0    39   ~ 8
+?
+Wire Wire Line
+	2600 11500 1950 11500
+Wire Wire Line
+	2600 11600 1950 11600
+Wire Wire Line
+	2600 11700 1950 11700
+Wire Wire Line
+	2600 11800 1950 11800
+Text Label 1950 11500 0    50   ~ 0
+USB_D_P
+Text Label 1950 11600 0    50   ~ 0
+USB_D_N
+Text Label 1950 11700 0    50   ~ 0
+USB_VBUS
+Text Label 1950 11800 0    50   ~ 0
+USB_ID
+Text Notes 1950 11800 2    50   ~ 0
+-\nTo USB conn? |\n|\n|\n-
+Wire Wire Line
+	4000 11800 4500 11800
+Text Label 4500 11800 2    50   ~ 0
+USB_CPEN
 $EndSCHEMATC
