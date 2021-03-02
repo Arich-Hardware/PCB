@@ -14,6 +14,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+L Connector_Generic:Conn_02x34_Odd_Even J1
+U 1 1 603C8614
+P 4875 3025
+F 0 "J1" H 4925 4842 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even" H 4925 4751 50  0000 C CNN
+F 2 "Arich_SiPM_Footprints:MW-34-03-G-D-245-065-ES" H 4875 3025 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 4875 3025 50  0001 C CNN
+F 4 "CLM-134-02-F-D" H 4875 3025 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 4875 3025 50  0001 C CNN "Supplier"
+F 6 "CLM-134-02-F-D-ND" H 4875 3025 50  0001 C CNN "Supplier P/N"
+F 7 "$9.02" H 4875 3025 50  0001 C CNN "Item Cost"
+	1    4875 3025
+	1    0    0    -1  
+$EndComp
+$Comp
 L Connector_Generic:Conn_02x04_Top_Bottom J5
 U 1 1 6044BD27
 P 1750 7100
@@ -657,6 +672,21 @@ F 1 "GND" H 3755 902 50  0000 C CNN
 F 2 "" H 3750 1075 50  0001 C CNN
 F 3 "" H 3750 1075 50  0001 C CNN
 	1    3750 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x34_Odd_Even J2
+U 1 1 609B4CC1
+P 9325 3025
+F 0 "J2" H 9375 4842 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even" H 9375 4751 50  0000 C CNN
+F 2 "Arich_SiPM_Footprints:MW-34-03-G-D-245-065-ES" H 9325 3025 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 9325 3025 50  0001 C CNN
+F 4 "CLM-134-02-F-D" H 9325 3025 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 9325 3025 50  0001 C CNN "Supplier"
+F 6 "CLM-134-02-F-D-ND" H 9325 3025 50  0001 C CNN "Supplier P/N"
+F 7 "$9.02" H 9325 3025 50  0001 C CNN "Item Cost"
+	1    9325 3025
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1402,34 +1432,4 @@ Wire Wire Line
 	7825 1525 9125 1525
 Wire Wire Line
 	8250 1425 9125 1425
-$Comp
-L Connector_Generic:Conn_02x34_Odd_Even J1
-U 1 1 603C8614
-P 4875 3025
-F 0 "J1" H 4925 4842 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even" H 4925 4751 50  0000 C CNN
-F 2 "Breakout_Board_Parts:SAMTEC_CLM-134-02-F-D" H 4875 3025 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 4875 3025 50  0001 C CNN
-F 4 "CLM-134-02-F-D" H 4875 3025 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 4875 3025 50  0001 C CNN "Supplier"
-F 6 "CLM-134-02-F-D-ND" H 4875 3025 50  0001 C CNN "Supplier P/N"
-F 7 "$9.02" H 4875 3025 50  0001 C CNN "Item Cost"
-	1    4875 3025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x34_Odd_Even J2
-U 1 1 609B4CC1
-P 9325 3025
-F 0 "J2" H 9375 4842 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even" H 9375 4751 50  0000 C CNN
-F 2 "Breakout_Board_Parts:SAMTEC_CLM-134-02-F-D" H 9325 3025 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 9325 3025 50  0001 C CNN
-F 4 "CLM-134-02-F-D" H 9325 3025 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 9325 3025 50  0001 C CNN "Supplier"
-F 6 "CLM-134-02-F-D-ND" H 9325 3025 50  0001 C CNN "Supplier P/N"
-F 7 "$9.02" H 9325 3025 50  0001 C CNN "Item Cost"
-	1    9325 3025
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
