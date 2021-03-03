@@ -834,69 +834,69 @@ Wire Wire Line
 Text Label 10100 1425 0    50   ~ 0
 BIAS3
 Text Label 9400 1425 2    50   ~ 0
-CH0
+BCH0
 Text Label 9400 1525 2    50   ~ 0
-CH1
+BCH1
 Text Label 9400 1625 2    50   ~ 0
-CH2
+BCH2
 Text Label 9400 1725 2    50   ~ 0
-CH3
+BCH3
 Text Label 9400 1825 2    50   ~ 0
-CH4
+BCH4
 Text Label 9400 1925 2    50   ~ 0
-CH5
+BCH5
 Text Label 9400 2025 2    50   ~ 0
-CH6
+BCH6
 Text Label 9400 2125 2    50   ~ 0
-CH7
+BCH7
 Text Label 9400 2225 2    50   ~ 0
-CH8
+BCH8
 Text Label 9400 2325 2    50   ~ 0
-CH9
+BCH9
 Text Label 9400 2425 2    50   ~ 0
-CH10
+BCH10
 Text Label 9400 2525 2    50   ~ 0
-CH11
+BCH11
 Text Label 9400 2625 2    50   ~ 0
-CH12
+BCH12
 Text Label 9400 2725 2    50   ~ 0
-CH13
+BCH13
 Text Label 9400 2825 2    50   ~ 0
-CH14
+BCH14
 Text Label 9400 2925 2    50   ~ 0
-CH15
+BCH15
 Text Label 9400 3025 2    50   ~ 0
-CH16
+BCH16
 Text Label 9400 3125 2    50   ~ 0
-CH17
+BCH17
 Text Label 9400 3225 2    50   ~ 0
-CH18
+BCH18
 Text Label 9400 3325 2    50   ~ 0
-CH19
+BCH19
 Text Label 9400 3425 2    50   ~ 0
-CH20
+BCH20
 Text Label 9400 3525 2    50   ~ 0
-CH21
+BCH21
 Text Label 9400 3625 2    50   ~ 0
-CH22
+BCH22
 Text Label 9400 3725 2    50   ~ 0
-CH23
+BCH23
 Text Label 9400 3825 2    50   ~ 0
-CH24
+BCH24
 Text Label 9400 3925 2    50   ~ 0
-CH25
+BCH25
 Text Label 9400 4025 2    50   ~ 0
-CH26
+BCH26
 Text Label 9400 4125 2    50   ~ 0
-CH27
+BCH27
 Text Label 9400 4225 2    50   ~ 0
-CH28
+BCH28
 Text Label 9400 4325 2    50   ~ 0
-CH29
+BCH29
 Text Label 9400 4425 2    50   ~ 0
-CH30
+BCH30
 Text Label 9400 4525 2    50   ~ 0
-CH31
+BCH31
 Wire Wire Line
 	9300 4525 9300 5200
 Wire Wire Line
@@ -1423,10 +1423,10 @@ F 7 "$9.02" H 9700 3025 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Network08_US RN?
+L Device:R_Network08_US RN1
 U 1 1 604566C8
 P 1200 1825
-F 0 "RN?" V 583 1825 50  0000 C CNN
+F 0 "RN1" V 583 1825 50  0000 C CNN
 F 1 "R_Network08_US" V 674 1825 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 1675 1825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 1825 50  0001 C CNN
@@ -1458,10 +1458,10 @@ Wire Wire Line
 	1400 2125 2075 2125
 Connection ~ 2075 2125
 $Comp
-L Device:R_Network08_US RN?
+L Device:R_Network08_US RN2
 U 1 1 605AD6EF
 P 1200 2850
-F 0 "RN?" V 583 2850 50  0000 C CNN
+F 0 "RN2" V 583 2850 50  0000 C CNN
 F 1 "R_Network08_US" V 674 2850 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 1675 2850 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 2850 50  0001 C CNN
@@ -1469,10 +1469,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 2850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Network08_US RN?
+L Device:R_Network08_US RN3
 U 1 1 605AE173
 P 1200 3875
-F 0 "RN?" V 583 3875 50  0000 C CNN
+F 0 "RN3" V 583 3875 50  0000 C CNN
 F 1 "R_Network08_US" V 674 3875 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 1675 3875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 3875 50  0001 C CNN
@@ -1480,10 +1480,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 3875 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Network08_US RN?
+L Device:R_Network08_US RN4
 U 1 1 605AEBE8
 P 1200 4900
-F 0 "RN?" V 583 4900 50  0000 C CNN
+F 0 "RN4" V 583 4900 50  0000 C CNN
 F 1 "R_Network08_US" V 674 4900 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 1675 4900 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 4900 50  0001 C CNN
@@ -1611,10 +1611,10 @@ Connection ~ 4375 5100
 Wire Wire Line
 	4375 5100 4375 5625
 $Comp
-L Device:R_Network08_US RN?
+L Device:R_Network08_US RN5
 U 1 1 60AE94F4
 P 5975 1825
-F 0 "RN?" V 5358 1825 50  0000 C CNN
+F 0 "RN5" V 5358 1825 50  0000 C CNN
 F 1 "R_Network08_US" V 5449 1825 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 6450 1825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 1825 50  0001 C CNN
@@ -1630,10 +1630,10 @@ Wire Wire Line
 Wire Wire Line
 	6175 2125 6900 2125
 $Comp
-L Device:R_Network08_US RN?
+L Device:R_Network08_US RN6
 U 1 1 60AE9C38
 P 5975 2850
-F 0 "RN?" V 5358 2850 50  0000 C CNN
+F 0 "RN6" V 5358 2850 50  0000 C CNN
 F 1 "R_Network08_US" V 5449 2850 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 6450 2850 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 2850 50  0001 C CNN
@@ -1641,10 +1641,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 2850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Network08_US RN?
+L Device:R_Network08_US RN7
 U 1 1 60AE9C42
 P 5975 3875
-F 0 "RN?" V 5358 3875 50  0000 C CNN
+F 0 "RN7" V 5358 3875 50  0000 C CNN
 F 1 "R_Network08_US" V 5449 3875 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 6450 3875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 3875 50  0001 C CNN
@@ -1652,10 +1652,10 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 3875 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_Network08_US RN?
+L Device:R_Network08_US RN8
 U 1 1 60AE9C4C
 P 5975 4900
-F 0 "RN?" V 5358 4900 50  0000 C CNN
+F 0 "RN8" V 5358 4900 50  0000 C CNN
 F 1 "R_Network08_US" V 5449 4900 50  0000 C CNN
 F 2 "Resistor_THT:R_Array_SIP9" V 6450 4900 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 4900 50  0001 C CNN
@@ -1820,10 +1820,10 @@ Wire Wire Line
 	1000 4600 950  4600
 Connection ~ 1000 4500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR015
 U 1 1 605AB3F5
 P 950 4600
-F 0 "#PWR?" H 950 4350 50  0001 C CNN
+F 0 "#PWR015" H 950 4350 50  0001 C CNN
 F 1 "GND" H 955 4427 50  0000 C CNN
 F 2 "" H 950 4600 50  0001 C CNN
 F 3 "" H 950 4600 50  0001 C CNN
@@ -1844,10 +1844,10 @@ Wire Wire Line
 	5725 4500 5725 4575
 Connection ~ 5775 4500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 605B915C
 P 5725 4575
-F 0 "#PWR?" H 5725 4325 50  0001 C CNN
+F 0 "#PWR016" H 5725 4325 50  0001 C CNN
 F 1 "GND" H 5730 4402 50  0000 C CNN
 F 2 "" H 5725 4575 50  0001 C CNN
 F 3 "" H 5725 4575 50  0001 C CNN
