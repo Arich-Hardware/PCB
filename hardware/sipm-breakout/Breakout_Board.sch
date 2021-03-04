@@ -471,181 +471,6 @@ Wire Wire Line
 	1775 1825 4675 1825
 Wire Wire Line
 	1775 1825 1775 5625
-Wire Wire Line
-	1775 6225 1775 6125
-Wire Wire Line
-	1875 6225 1875 6125
-Wire Wire Line
-	4675 6225 4675 6125
-Wire Wire Line
-	4575 6225 4575 6125
-Wire Wire Line
-	4475 6225 4475 6125
-Wire Wire Line
-	4375 6225 4375 6125
-Wire Wire Line
-	4275 6225 4275 6125
-Wire Wire Line
-	4175 6225 4175 6125
-Wire Wire Line
-	4075 6225 4075 6125
-Wire Wire Line
-	3975 6225 3975 6125
-Wire Wire Line
-	3875 6225 3875 6125
-Wire Wire Line
-	3775 6225 3775 6125
-Wire Wire Line
-	3675 6225 3675 6125
-Wire Wire Line
-	3575 6225 3575 6125
-Wire Wire Line
-	3475 6225 3475 6125
-Wire Wire Line
-	3375 6225 3375 6125
-Wire Wire Line
-	3275 6225 3275 6125
-Wire Wire Line
-	3175 6225 3175 6125
-Wire Wire Line
-	3075 6225 3075 6125
-Wire Wire Line
-	2975 6225 2975 6125
-Wire Wire Line
-	2875 6225 2875 6125
-Wire Wire Line
-	2775 6225 2775 6125
-Wire Wire Line
-	2675 6225 2675 6125
-Wire Wire Line
-	2575 6225 2575 6125
-Wire Wire Line
-	2475 6225 2475 6125
-Wire Wire Line
-	2375 6225 2375 6125
-Wire Wire Line
-	2275 6225 2275 6125
-Wire Wire Line
-	2175 6225 2175 6125
-Wire Wire Line
-	2075 6225 2075 6125
-Wire Wire Line
-	1975 6225 1975 6125
-$Comp
-L Connector_Generic:Conn_02x30_Odd_Even J3
-U 1 1 6040A710
-P 3175 5825
-F 0 "J3" V 3271 7304 50  0000 L CNN
-F 1 "Conn_02x30_Odd_Even" V 3180 7304 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical" H 3175 5825 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 3175 5825 50  0001 C CNN
-F 4 "75869-309LF" V 3175 5825 50  0001 C CNN "MFN"
-F 5 "Digi-Key" V 3175 5825 50  0001 C CNN "Supplier"
-F 6 "609-75869-309LF-ND" V 3175 5825 50  0001 C CNN "Supplier P/N"
-F 7 "$2.96" V 3175 5825 50  0001 C CNN "Item Cost"
-	1    3175 5825
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	1775 6225 1875 6225
-Connection ~ 1875 6225
-Wire Wire Line
-	1875 6225 1975 6225
-Connection ~ 1975 6225
-Wire Wire Line
-	1975 6225 2075 6225
-Connection ~ 2075 6225
-Wire Wire Line
-	2075 6225 2175 6225
-Connection ~ 2175 6225
-Wire Wire Line
-	2175 6225 2275 6225
-Connection ~ 2275 6225
-Wire Wire Line
-	2275 6225 2375 6225
-Connection ~ 2375 6225
-Wire Wire Line
-	2375 6225 2475 6225
-Connection ~ 2475 6225
-Wire Wire Line
-	2475 6225 2575 6225
-Connection ~ 2575 6225
-Wire Wire Line
-	2575 6225 2675 6225
-Connection ~ 2675 6225
-Wire Wire Line
-	2675 6225 2775 6225
-Connection ~ 2775 6225
-Wire Wire Line
-	2775 6225 2875 6225
-Connection ~ 2875 6225
-Wire Wire Line
-	2875 6225 2975 6225
-Connection ~ 2975 6225
-Wire Wire Line
-	2975 6225 3075 6225
-Connection ~ 3075 6225
-Wire Wire Line
-	3075 6225 3175 6225
-Connection ~ 3175 6225
-Wire Wire Line
-	3175 6225 3275 6225
-Connection ~ 3275 6225
-Wire Wire Line
-	3275 6225 3375 6225
-Connection ~ 3375 6225
-Wire Wire Line
-	3375 6225 3475 6225
-Connection ~ 3475 6225
-Wire Wire Line
-	3475 6225 3575 6225
-Connection ~ 3575 6225
-Wire Wire Line
-	3575 6225 3675 6225
-Connection ~ 3675 6225
-Wire Wire Line
-	3675 6225 3775 6225
-Connection ~ 3775 6225
-Wire Wire Line
-	3775 6225 3875 6225
-Connection ~ 3875 6225
-Wire Wire Line
-	3875 6225 3975 6225
-Connection ~ 3975 6225
-Wire Wire Line
-	3975 6225 4075 6225
-Connection ~ 4075 6225
-Wire Wire Line
-	4075 6225 4175 6225
-Connection ~ 4175 6225
-Wire Wire Line
-	4175 6225 4275 6225
-Connection ~ 4275 6225
-Wire Wire Line
-	4275 6225 4375 6225
-Connection ~ 4375 6225
-Wire Wire Line
-	4375 6225 4475 6225
-Connection ~ 4475 6225
-Wire Wire Line
-	4475 6225 4575 6225
-Connection ~ 4575 6225
-Wire Wire Line
-	4575 6225 4675 6225
-Connection ~ 4675 6225
-Wire Wire Line
-	4675 6225 4725 6225
-$Comp
-L power:GND #PWR07
-U 1 1 60898BEE
-P 4725 6225
-F 0 "#PWR07" H 4725 5975 50  0001 C CNN
-F 1 "GND" H 4730 6052 50  0000 C CNN
-F 2 "" H 4725 6225 50  0001 C CNN
-F 3 "" H 4725 6225 50  0001 C CNN
-	1    4725 6225
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR05
 U 1 1 609130E2
@@ -723,8 +548,6 @@ Wire Wire Line
 	10000 4525 10100 4525
 Wire Wire Line
 	10000 4625 10100 4625
-Wire Wire Line
-	10050 4975 10150 4975
 Connection ~ 10100 1625
 Wire Wire Line
 	10100 1625 10100 1725
@@ -1010,181 +833,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 1825 6600 5625
 Wire Wire Line
-	6600 6225 6600 6125
-Wire Wire Line
-	6700 6225 6700 6125
-Wire Wire Line
-	9500 6225 9500 6125
-Wire Wire Line
-	9400 6225 9400 6125
-Wire Wire Line
-	9300 6225 9300 6125
-Wire Wire Line
-	9200 6225 9200 6125
-Wire Wire Line
-	9100 6225 9100 6125
-Wire Wire Line
-	9000 6225 9000 6125
-Wire Wire Line
-	8900 6225 8900 6125
-Wire Wire Line
-	8800 6225 8800 6125
-Wire Wire Line
-	8700 6225 8700 6125
-Wire Wire Line
-	8600 6225 8600 6125
-Wire Wire Line
-	8500 6225 8500 6125
-Wire Wire Line
-	8400 6225 8400 6125
-Wire Wire Line
-	8300 6225 8300 6125
-Wire Wire Line
-	8200 6225 8200 6125
-Wire Wire Line
-	8100 6225 8100 6125
-Wire Wire Line
-	8000 6225 8000 6125
-Wire Wire Line
-	7900 6225 7900 6125
-Wire Wire Line
-	7800 6225 7800 6125
-Wire Wire Line
-	7700 6225 7700 6125
-Wire Wire Line
-	7600 6225 7600 6125
-Wire Wire Line
-	7500 6225 7500 6125
-Wire Wire Line
-	7400 6225 7400 6125
-Wire Wire Line
-	7300 6225 7300 6125
-Wire Wire Line
-	7200 6225 7200 6125
-Wire Wire Line
-	7100 6225 7100 6125
-Wire Wire Line
-	7000 6225 7000 6125
-Wire Wire Line
-	6900 6225 6900 6125
-Wire Wire Line
-	6800 6225 6800 6125
-$Comp
-L Connector_Generic:Conn_02x30_Odd_Even J4
-U 1 1 609B4ECB
-P 8000 5825
-F 0 "J4" V 8096 7304 50  0000 L CNN
-F 1 "Conn_02x30_Odd_Even" V 8005 7304 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical" H 8000 5825 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/75869.pdf" H 8000 5825 50  0001 C CNN
-F 4 "75869-309LF" V 8000 5825 50  0001 C CNN "MFN"
-F 5 "Digi-Key" V 8000 5825 50  0001 C CNN "Supplier"
-F 6 "609-75869-309LF-ND" V 8000 5825 50  0001 C CNN "Supplier P/N"
-F 7 "$2.96" V 8000 5825 50  0001 C CNN "Item Cost"
-	1    8000 5825
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	6600 6225 6700 6225
-Connection ~ 6700 6225
-Wire Wire Line
-	6700 6225 6800 6225
-Connection ~ 6800 6225
-Wire Wire Line
-	6800 6225 6900 6225
-Connection ~ 6900 6225
-Wire Wire Line
-	6900 6225 7000 6225
-Connection ~ 7000 6225
-Wire Wire Line
-	7000 6225 7100 6225
-Connection ~ 7100 6225
-Wire Wire Line
-	7100 6225 7200 6225
-Connection ~ 7200 6225
-Wire Wire Line
-	7200 6225 7300 6225
-Connection ~ 7300 6225
-Wire Wire Line
-	7300 6225 7400 6225
-Connection ~ 7400 6225
-Wire Wire Line
-	7400 6225 7500 6225
-Connection ~ 7500 6225
-Wire Wire Line
-	7500 6225 7600 6225
-Connection ~ 7600 6225
-Wire Wire Line
-	7600 6225 7700 6225
-Connection ~ 7700 6225
-Wire Wire Line
-	7700 6225 7800 6225
-Connection ~ 7800 6225
-Wire Wire Line
-	7800 6225 7900 6225
-Connection ~ 7900 6225
-Wire Wire Line
-	7900 6225 8000 6225
-Connection ~ 8000 6225
-Wire Wire Line
-	8000 6225 8100 6225
-Connection ~ 8100 6225
-Wire Wire Line
-	8100 6225 8200 6225
-Connection ~ 8200 6225
-Wire Wire Line
-	8200 6225 8300 6225
-Connection ~ 8300 6225
-Wire Wire Line
-	8300 6225 8400 6225
-Connection ~ 8400 6225
-Wire Wire Line
-	8400 6225 8500 6225
-Connection ~ 8500 6225
-Wire Wire Line
-	8500 6225 8600 6225
-Connection ~ 8600 6225
-Wire Wire Line
-	8600 6225 8700 6225
-Connection ~ 8700 6225
-Wire Wire Line
-	8700 6225 8800 6225
-Connection ~ 8800 6225
-Wire Wire Line
-	8800 6225 8900 6225
-Connection ~ 8900 6225
-Wire Wire Line
-	8900 6225 9000 6225
-Connection ~ 9000 6225
-Wire Wire Line
-	9000 6225 9100 6225
-Connection ~ 9100 6225
-Wire Wire Line
-	9100 6225 9200 6225
-Connection ~ 9200 6225
-Wire Wire Line
-	9200 6225 9300 6225
-Connection ~ 9300 6225
-Wire Wire Line
-	9300 6225 9400 6225
-Connection ~ 9400 6225
-Wire Wire Line
-	9400 6225 9500 6225
-Connection ~ 9500 6225
-Wire Wire Line
-	9500 6225 9550 6225
-$Comp
-L power:GND #PWR013
-U 1 1 609B4F10
-P 9550 6225
-F 0 "#PWR013" H 9550 5975 50  0001 C CNN
-F 1 "GND" H 9555 6052 50  0000 C CNN
-F 2 "" H 9550 6225 50  0001 C CNN
-F 3 "" H 9550 6225 50  0001 C CNN
-	1    9550 6225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	10000 4725 10000 4825
 Wire Wire Line
 	10000 4825 9500 4825
@@ -1209,8 +857,9 @@ U 1 1 6040085F
 P 2425 875
 F 0 "J7" H 2353 1113 50  0000 C CNN
 F 1 "Conn_Coaxial" H 2353 1022 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 2425 875 50  0001 C CNN
+F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 2425 875 50  0001 C CNN
 F 3 " ~" H 2425 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 2425 875 50  0001 C CNN "CatNo"
 	1    2425 875 
 	-1   0    0    -1  
 $EndComp
@@ -1220,8 +869,9 @@ U 1 1 60445465
 P 2875 875
 F 0 "J8" H 2803 1113 50  0000 C CNN
 F 1 "Conn_Coaxial" H 2803 1022 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 2875 875 50  0001 C CNN
+F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 2875 875 50  0001 C CNN
 F 3 " ~" H 2875 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 2875 875 50  0001 C CNN "CatNo"
 	1    2875 875 
 	-1   0    0    -1  
 $EndComp
@@ -1231,8 +881,9 @@ U 1 1 60445BB6
 P 3325 875
 F 0 "J9" H 3253 1113 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3253 1022 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 3325 875 50  0001 C CNN
+F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 3325 875 50  0001 C CNN
 F 3 " ~" H 3325 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 3325 875 50  0001 C CNN "CatNo"
 	1    3325 875 
 	-1   0    0    -1  
 $EndComp
@@ -1242,8 +893,9 @@ U 1 1 60446437
 P 3750 875
 F 0 "J10" H 3678 1113 50  0000 C CNN
 F 1 "Conn_Coaxial" H 3678 1022 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 3750 875 50  0001 C CNN
+F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 3750 875 50  0001 C CNN
 F 3 " ~" H 3750 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 3175 875 50  0000 C CNN "CatNo"
 	1    3750 875 
 	-1   0    0    -1  
 $EndComp
@@ -1313,8 +965,9 @@ U 1 1 604EBCA7
 P 7100 875
 F 0 "J11" H 7028 1113 50  0000 C CNN
 F 1 "Conn_Coaxial" H 7028 1022 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 7100 875 50  0001 C CNN
+F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 7100 875 50  0001 C CNN
 F 3 " ~" H 7100 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 7100 875 50  0001 C CNN "CatNo"
 	1    7100 875 
 	-1   0    0    -1  
 $EndComp
@@ -1324,8 +977,9 @@ U 1 1 604EBCB1
 P 7550 875
 F 0 "J12" H 7478 1113 50  0000 C CNN
 F 1 "Conn_Coaxial" H 7478 1022 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 7550 875 50  0001 C CNN
+F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 7550 875 50  0001 C CNN
 F 3 " ~" H 7550 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 7550 875 50  0001 C CNN "CatNo"
 	1    7550 875 
 	-1   0    0    -1  
 $EndComp
@@ -1335,8 +989,9 @@ U 1 1 604EBCBB
 P 8000 875
 F 0 "J13" H 7928 1113 50  0000 C CNN
 F 1 "Conn_Coaxial" H 7928 1022 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 8000 875 50  0001 C CNN
+F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 8000 875 50  0001 C CNN
 F 3 " ~" H 8000 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 8000 875 50  0001 C CNN "CatNo"
 	1    8000 875 
 	-1   0    0    -1  
 $EndComp
@@ -1346,8 +1001,9 @@ U 1 1 604EBCC5
 P 8425 875
 F 0 "J14" H 8353 1113 50  0000 C CNN
 F 1 "Conn_Coaxial" H 8353 1022 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132134_Vertical" H 8425 875 50  0001 C CNN
+F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 8425 875 50  0001 C CNN
 F 3 " ~" H 8425 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 8425 875 50  0001 C CNN "CatNo"
 	1    8425 875 
 	-1   0    0    -1  
 $EndComp
@@ -1425,291 +1081,299 @@ $EndComp
 $Comp
 L Device:R_Network08_US RN1
 U 1 1 604566C8
-P 1200 1825
-F 0 "RN1" V 583 1825 50  0000 C CNN
-F 1 "R_Network08_US" V 674 1825 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 1675 1825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 1825 50  0001 C CNN
-	1    1200 1825
+P 875 1825
+F 0 "RN1" V 258 1825 50  0000 C CNN
+F 1 "R_Network08_US" V 349 1825 50  0000 C CNN
+F 2 "Breakout_Board_Parts:RPKG-9" V 1350 1825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 875 1825 50  0001 C CNN
+F 4 "752091103GP-ND" V 150 1775 50  0000 C CNN "CatNo"
+	1    875  1825
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	3950 1425 1400 1425
+	3950 1425 1375 1425
 Connection ~ 3950 1425
 Wire Wire Line
-	3525 1525 1400 1525
+	3525 1525 1475 1525
 Connection ~ 3525 1525
 Wire Wire Line
-	3075 1625 1400 1625
+	3075 1625 1575 1625
 Connection ~ 3075 1625
 Wire Wire Line
-	2625 1725 1400 1725
+	2625 1725 1675 1725
 Connection ~ 2625 1725
 Wire Wire Line
-	1775 1825 1400 1825
+	1775 1825 1075 1825
 Connection ~ 1775 1825
 Wire Wire Line
-	1400 1925 1875 1925
+	1075 1925 1875 1925
 Connection ~ 1875 1925
 Wire Wire Line
-	1400 2025 1975 2025
+	1075 2025 1975 2025
 Connection ~ 1975 2025
 Wire Wire Line
-	1400 2125 2075 2125
+	1075 2125 2075 2125
 Connection ~ 2075 2125
 $Comp
 L Device:R_Network08_US RN2
 U 1 1 605AD6EF
-P 1200 2850
-F 0 "RN2" V 583 2850 50  0000 C CNN
-F 1 "R_Network08_US" V 674 2850 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 1675 2850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 2850 50  0001 C CNN
-	1    1200 2850
+P 875 2850
+F 0 "RN2" V 258 2850 50  0000 C CNN
+F 1 "R_Network08_US" V 349 2850 50  0000 C CNN
+F 2 "Breakout_Board_Parts:RPKG-9" V 1350 2850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 875 2850 50  0001 C CNN
+F 4 "752091103GP-ND" H 875 2850 50  0001 C CNN "CatNo"
+	1    875  2850
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_Network08_US RN3
 U 1 1 605AE173
-P 1200 3875
-F 0 "RN3" V 583 3875 50  0000 C CNN
-F 1 "R_Network08_US" V 674 3875 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 1675 3875 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 3875 50  0001 C CNN
-	1    1200 3875
+P 875 3875
+F 0 "RN3" V 258 3875 50  0000 C CNN
+F 1 "R_Network08_US" V 349 3875 50  0000 C CNN
+F 2 "Breakout_Board_Parts:RPKG-9" V 1350 3875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 875 3875 50  0001 C CNN
+F 4 "752091103GP-ND" H 875 3875 50  0001 C CNN "CatNo"
+	1    875  3875
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_Network08_US RN4
 U 1 1 605AEBE8
-P 1200 4900
-F 0 "RN4" V 583 4900 50  0000 C CNN
-F 1 "R_Network08_US" V 674 4900 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 1675 4900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1200 4900 50  0001 C CNN
-	1    1200 4900
+P 875 4900
+F 0 "RN4" V 258 4900 50  0000 C CNN
+F 1 "R_Network08_US" V 349 4900 50  0000 C CNN
+F 2 "Breakout_Board_Parts:RPKG-9" V 1350 4900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 875 4900 50  0001 C CNN
+F 4 "752091103GP-ND" H 875 4900 50  0001 C CNN "CatNo"
+	1    875  4900
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	1400 2450 2175 2450
+	1075 2450 2175 2450
 Connection ~ 2175 2450
 Wire Wire Line
 	2175 2450 2175 5625
 Wire Wire Line
-	1400 2550 2275 2550
+	1075 2550 2275 2550
 Connection ~ 2275 2550
 Wire Wire Line
 	2275 2550 2275 5625
 Wire Wire Line
-	1400 2650 2375 2650
+	1075 2650 2375 2650
 Connection ~ 2375 2650
 Wire Wire Line
 	2375 2650 2375 5625
 Wire Wire Line
-	1400 2750 2475 2750
+	1075 2750 2475 2750
 Connection ~ 2475 2750
 Wire Wire Line
 	2475 2750 2475 5625
 Wire Wire Line
-	1400 2850 2575 2850
+	1075 2850 2575 2850
 Connection ~ 2575 2850
 Wire Wire Line
 	2575 2850 2575 5625
 Wire Wire Line
-	1400 2950 2675 2950
+	1075 2950 2675 2950
 Connection ~ 2675 2950
 Wire Wire Line
-	1400 3150 2875 3150
+	1075 3150 2875 3150
 Connection ~ 2875 3150
 Wire Wire Line
 	2875 3150 2875 5625
 Wire Wire Line
 	2675 2950 2675 5625
 Wire Wire Line
-	1400 3050 2775 3050
+	1075 3050 2775 3050
 Connection ~ 2775 3050
 Wire Wire Line
 	2775 3050 2775 5625
 Wire Wire Line
-	1400 3475 2975 3475
+	1075 3475 2975 3475
 Connection ~ 2975 3475
 Wire Wire Line
 	2975 3475 2975 5625
 Wire Wire Line
-	1400 3575 3075 3575
+	1075 3575 3075 3575
 Connection ~ 3075 3575
 Wire Wire Line
 	3075 3575 3075 5625
 Wire Wire Line
-	1400 3675 3175 3675
+	1075 3675 3175 3675
 Connection ~ 3175 3675
 Wire Wire Line
 	3175 3675 3175 5625
 Wire Wire Line
-	1400 3775 3275 3775
+	1075 3775 3275 3775
 Connection ~ 3275 3775
 Wire Wire Line
 	3275 3775 3275 5625
 Wire Wire Line
-	1400 3875 3375 3875
+	1075 3875 3375 3875
 Connection ~ 3375 3875
 Wire Wire Line
 	3375 3875 3375 5625
 Wire Wire Line
-	1400 3975 3475 3975
+	1075 3975 3475 3975
 Connection ~ 3475 3975
 Wire Wire Line
 	3475 3975 3475 5625
 Wire Wire Line
-	1400 4075 3575 4075
+	1075 4075 3575 4075
 Connection ~ 3575 4075
 Wire Wire Line
 	3575 4075 3575 5625
 Wire Wire Line
-	1400 4175 3675 4175
+	1075 4175 3675 4175
 Connection ~ 3675 4175
 Wire Wire Line
 	3675 4175 3675 5625
 Wire Wire Line
-	1400 5200 4475 5200
+	1075 5200 4475 5200
 Connection ~ 4475 5200
 Wire Wire Line
 	4475 5200 4475 5625
 Wire Wire Line
-	1400 4500 3775 4500
+	1075 4500 3775 4500
 Connection ~ 3775 4500
 Wire Wire Line
 	3775 4500 3775 5625
 Wire Wire Line
-	1400 4600 3875 4600
+	1075 4600 3875 4600
 Connection ~ 3875 4600
 Wire Wire Line
 	3875 4600 3875 5625
 Wire Wire Line
-	1400 4700 3975 4700
+	1075 4700 3975 4700
 Connection ~ 3975 4700
 Wire Wire Line
 	3975 4700 3975 5625
 Wire Wire Line
-	1400 4800 4075 4800
+	1075 4800 4075 4800
 Connection ~ 4075 4800
 Wire Wire Line
 	4075 4800 4075 5625
 Wire Wire Line
-	1400 4900 4175 4900
+	1075 4900 4175 4900
 Connection ~ 4175 4900
 Wire Wire Line
 	4175 4900 4175 5625
 Wire Wire Line
-	1400 5000 4275 5000
+	1075 5000 4275 5000
 Connection ~ 4275 5000
 Wire Wire Line
 	4275 5000 4275 5625
 Wire Wire Line
-	1400 5100 4375 5100
+	1075 5100 4375 5100
 Connection ~ 4375 5100
 Wire Wire Line
 	4375 5100 4375 5625
 $Comp
 L Device:R_Network08_US RN5
 U 1 1 60AE94F4
-P 5975 1825
-F 0 "RN5" V 5358 1825 50  0000 C CNN
-F 1 "R_Network08_US" V 5449 1825 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6450 1825 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 1825 50  0001 C CNN
-	1    5975 1825
+P 5800 1825
+F 0 "RN5" V 5183 1825 50  0000 C CNN
+F 1 "R_Network08_US" V 5274 1825 50  0000 C CNN
+F 2 "Breakout_Board_Parts:RPKG-9" V 6275 1825 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 1825 50  0001 C CNN
+F 4 "752091103GP-ND" H 5800 1825 50  0001 C CNN "CatNo"
+	1    5800 1825
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6600 1825 6175 1825
+	6600 1825 6000 1825
 Wire Wire Line
-	6175 1925 6700 1925
+	6000 1925 6700 1925
 Wire Wire Line
-	6175 2025 6800 2025
+	6000 2025 6800 2025
 Wire Wire Line
-	6175 2125 6900 2125
+	6000 2125 6900 2125
 $Comp
 L Device:R_Network08_US RN6
 U 1 1 60AE9C38
-P 5975 2850
-F 0 "RN6" V 5358 2850 50  0000 C CNN
-F 1 "R_Network08_US" V 5449 2850 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6450 2850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 2850 50  0001 C CNN
-	1    5975 2850
+P 5800 2850
+F 0 "RN6" V 5183 2850 50  0000 C CNN
+F 1 "R_Network08_US" V 5274 2850 50  0000 C CNN
+F 2 "Breakout_Board_Parts:RPKG-9" V 6275 2850 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 2850 50  0001 C CNN
+F 4 "752091103GP-ND" H 5800 2850 50  0001 C CNN "CatNo"
+	1    5800 2850
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_Network08_US RN7
 U 1 1 60AE9C42
-P 5975 3875
-F 0 "RN7" V 5358 3875 50  0000 C CNN
-F 1 "R_Network08_US" V 5449 3875 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6450 3875 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 3875 50  0001 C CNN
-	1    5975 3875
+P 5800 3875
+F 0 "RN7" V 5183 3875 50  0000 C CNN
+F 1 "R_Network08_US" V 5274 3875 50  0000 C CNN
+F 2 "Breakout_Board_Parts:RPKG-9" V 6275 3875 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 3875 50  0001 C CNN
+F 4 "752091103GP-ND" H 5800 3875 50  0001 C CNN "CatNo"
+	1    5800 3875
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R_Network08_US RN8
 U 1 1 60AE9C4C
-P 5975 4900
-F 0 "RN8" V 5358 4900 50  0000 C CNN
-F 1 "R_Network08_US" V 5449 4900 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" V 6450 4900 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5975 4900 50  0001 C CNN
-	1    5975 4900
+P 5800 4900
+F 0 "RN8" V 5183 4900 50  0000 C CNN
+F 1 "R_Network08_US" V 5274 4900 50  0000 C CNN
+F 2 "Breakout_Board_Parts:RPKG-9" V 6275 4900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 4900 50  0001 C CNN
+F 4 "752091103GP-ND" H 5800 4900 50  0001 C CNN "CatNo"
+	1    5800 4900
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	6175 2450 7000 2450
+	6000 2450 7000 2450
 Wire Wire Line
-	6175 2550 7100 2550
+	6000 2550 7100 2550
 Wire Wire Line
-	6175 2650 7200 2650
+	6000 2650 7200 2650
 Wire Wire Line
-	6175 2750 7300 2750
+	6000 2750 7300 2750
 Wire Wire Line
-	6175 2850 7400 2850
+	6000 2850 7400 2850
 Wire Wire Line
-	6175 2950 7500 2950
+	6000 2950 7500 2950
 Wire Wire Line
-	6175 3150 7700 3150
+	6000 3150 7700 3150
 Wire Wire Line
-	6175 3050 7600 3050
+	6000 3050 7600 3050
 Wire Wire Line
-	6175 3475 7800 3475
+	6000 3475 7800 3475
 Wire Wire Line
-	6175 3575 7900 3575
+	6000 3575 7900 3575
 Wire Wire Line
-	6175 3675 8000 3675
+	6000 3675 8000 3675
 Wire Wire Line
-	6175 3775 8100 3775
+	6000 3775 8100 3775
 Wire Wire Line
-	6175 3875 8200 3875
+	6000 3875 8200 3875
 Wire Wire Line
-	6175 3975 8300 3975
+	6000 3975 8300 3975
 Wire Wire Line
-	6175 4075 8400 4075
+	6000 4075 8400 4075
 Wire Wire Line
-	6175 4175 8500 4175
+	6000 4175 8500 4175
 Wire Wire Line
-	6175 5200 9300 5200
+	6000 5200 9300 5200
 Wire Wire Line
-	6175 4500 8600 4500
+	6000 4500 8600 4500
 Wire Wire Line
-	6175 4600 8700 4600
+	6000 4600 8700 4600
 Wire Wire Line
-	6175 4700 8800 4700
+	6000 4700 8800 4700
 Wire Wire Line
-	6175 4800 8900 4800
+	6000 4800 8900 4800
 Wire Wire Line
-	6175 4900 9000 4900
+	6000 4900 9000 4900
 Wire Wire Line
-	6175 5000 9100 5000
+	6000 5000 9100 5000
 Wire Wire Line
-	6175 5100 9200 5100
+	6000 5100 9200 5100
 Connection ~ 6600 1825
 Connection ~ 6700 1925
 Connection ~ 6800 2025
@@ -1725,7 +1389,7 @@ Wire Wire Line
 	7200 2650 7200 5625
 Connection ~ 7300 1725
 Wire Wire Line
-	7300 1725 6175 1725
+	7300 1725 6500 1725
 Connection ~ 7300 2750
 Wire Wire Line
 	7300 2750 7300 5625
@@ -1743,7 +1407,7 @@ Wire Wire Line
 	7700 3150 7700 5625
 Connection ~ 7750 1625
 Wire Wire Line
-	7750 1625 6175 1625
+	7750 1625 6400 1625
 Connection ~ 7800 3475
 Wire Wire Line
 	7800 3475 7800 5625
@@ -1758,7 +1422,7 @@ Wire Wire Line
 	8100 3775 8100 5625
 Connection ~ 8200 1525
 Wire Wire Line
-	8200 1525 6175 1525
+	8200 1525 6300 1525
 Connection ~ 8200 3875
 Wire Wire Line
 	8200 3875 8200 5625
@@ -1776,7 +1440,7 @@ Wire Wire Line
 	8600 4500 8600 5625
 Connection ~ 8625 1425
 Wire Wire Line
-	8625 1425 6175 1425
+	8625 1425 6200 1425
 Connection ~ 8700 4600
 Wire Wire Line
 	8700 4600 8700 5625
@@ -1807,51 +1471,387 @@ Wire Wire Line
 Wire Wire Line
 	8625 1425 9500 1425
 Wire Wire Line
-	1000 1425 1000 2450
+	675  1425 675  2450
 Wire Wire Line
-	1000 2450 1000 3475
-Connection ~ 1000 2450
-Connection ~ 1000 3475
+	675  2450 675  3475
+Connection ~ 675  2450
+Connection ~ 675  3475
 Wire Wire Line
-	1000 3475 1000 4500
+	675  3475 675  4500
 Wire Wire Line
-	1000 4500 1000 4600
+	675  4500 675  4600
 Wire Wire Line
-	1000 4600 950  4600
-Connection ~ 1000 4500
+	675  4600 625  4600
+Connection ~ 675  4500
 $Comp
 L power:GND #PWR015
 U 1 1 605AB3F5
-P 950 4600
-F 0 "#PWR015" H 950 4350 50  0001 C CNN
-F 1 "GND" H 955 4427 50  0000 C CNN
-F 2 "" H 950 4600 50  0001 C CNN
-F 3 "" H 950 4600 50  0001 C CNN
-	1    950  4600
+P 625 4600
+F 0 "#PWR015" H 625 4350 50  0001 C CNN
+F 1 "GND" H 630 4427 50  0000 C CNN
+F 2 "" H 625 4600 50  0001 C CNN
+F 3 "" H 625 4600 50  0001 C CNN
+	1    625  4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5775 1425 5775 2450
+	5600 1425 5600 2450
 Wire Wire Line
-	5775 2450 5775 3475
-Connection ~ 5775 2450
+	5600 2450 5600 3475
+Connection ~ 5600 2450
 Wire Wire Line
-	5775 3475 5775 4500
-Connection ~ 5775 3475
+	5600 3475 5600 4500
+Connection ~ 5600 3475
 Wire Wire Line
-	5775 4500 5725 4500
+	5600 4500 5550 4500
 Wire Wire Line
-	5725 4500 5725 4575
-Connection ~ 5775 4500
+	5550 4500 5550 4575
+Connection ~ 5600 4500
 $Comp
 L power:GND #PWR016
 U 1 1 605B915C
-P 5725 4575
-F 0 "#PWR016" H 5725 4325 50  0001 C CNN
-F 1 "GND" H 5730 4402 50  0000 C CNN
-F 2 "" H 5725 4575 50  0001 C CNN
-F 3 "" H 5725 4575 50  0001 C CNN
-	1    5725 4575
+P 5550 4575
+F 0 "#PWR016" H 5550 4325 50  0001 C CNN
+F 1 "GND" H 5555 4402 50  0000 C CNN
+F 2 "" H 5550 4575 50  0001 C CNN
+F 3 "" H 5550 4575 50  0001 C CNN
+	1    5550 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x32_Odd_Even J3
+U 1 1 604C1F78
+P 2875 5825
+F 0 "J3" V 2879 7404 50  0000 L CNN
+F 1 "Conn_02x32_Odd_Even" V 2970 7404 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical_SMD" H 2875 5825 50  0001 C CNN
+F 3 "~" H 2875 5825 50  0001 C CNN
+	1    2875 5825
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	1675 5625 1675 1725
+Connection ~ 1675 1725
+Wire Wire Line
+	1675 1725 1075 1725
+Wire Wire Line
+	1575 5625 1575 1625
+Connection ~ 1575 1625
+Wire Wire Line
+	1575 1625 1075 1625
+Wire Wire Line
+	1475 5625 1475 1525
+Connection ~ 1475 1525
+Wire Wire Line
+	1475 1525 1075 1525
+Wire Wire Line
+	1375 5625 1375 1425
+Connection ~ 1375 1425
+Wire Wire Line
+	1375 1425 1075 1425
+Wire Wire Line
+	1375 6125 1475 6125
+Connection ~ 1475 6125
+Wire Wire Line
+	1475 6125 1575 6125
+Connection ~ 1575 6125
+Wire Wire Line
+	1575 6125 1675 6125
+Connection ~ 1675 6125
+Wire Wire Line
+	1675 6125 1775 6125
+Connection ~ 1775 6125
+Wire Wire Line
+	1775 6125 1875 6125
+Connection ~ 1875 6125
+Wire Wire Line
+	1875 6125 1975 6125
+Connection ~ 1975 6125
+Wire Wire Line
+	1975 6125 2075 6125
+Connection ~ 2075 6125
+Wire Wire Line
+	2075 6125 2175 6125
+Connection ~ 2175 6125
+Wire Wire Line
+	2175 6125 2275 6125
+Connection ~ 2275 6125
+Wire Wire Line
+	2275 6125 2375 6125
+Connection ~ 2375 6125
+Wire Wire Line
+	2375 6125 2475 6125
+Connection ~ 2475 6125
+Wire Wire Line
+	2475 6125 2575 6125
+Connection ~ 2575 6125
+Wire Wire Line
+	2575 6125 2675 6125
+Connection ~ 2675 6125
+Wire Wire Line
+	2675 6125 2775 6125
+Connection ~ 2775 6125
+Wire Wire Line
+	2775 6125 2875 6125
+Connection ~ 2875 6125
+Wire Wire Line
+	2875 6125 2975 6125
+Connection ~ 2975 6125
+Wire Wire Line
+	2975 6125 3075 6125
+Connection ~ 3075 6125
+Wire Wire Line
+	3075 6125 3175 6125
+Connection ~ 3175 6125
+Wire Wire Line
+	3175 6125 3275 6125
+Connection ~ 3275 6125
+Wire Wire Line
+	3275 6125 3375 6125
+Connection ~ 3375 6125
+Wire Wire Line
+	3375 6125 3475 6125
+Connection ~ 3475 6125
+Wire Wire Line
+	3475 6125 3575 6125
+Connection ~ 3575 6125
+Wire Wire Line
+	3575 6125 3675 6125
+Connection ~ 3675 6125
+Wire Wire Line
+	3675 6125 3775 6125
+Connection ~ 3775 6125
+Wire Wire Line
+	3775 6125 3875 6125
+Connection ~ 3875 6125
+Wire Wire Line
+	3875 6125 3975 6125
+Connection ~ 3975 6125
+Wire Wire Line
+	3975 6125 4075 6125
+Connection ~ 4075 6125
+Wire Wire Line
+	4075 6125 4175 6125
+Connection ~ 4175 6125
+Wire Wire Line
+	4175 6125 4275 6125
+Connection ~ 4275 6125
+Wire Wire Line
+	4275 6125 4375 6125
+Connection ~ 4375 6125
+Wire Wire Line
+	4375 6125 4475 6125
+$Comp
+L power:GND #PWR07
+U 1 1 6063D5F0
+P 4475 6125
+F 0 "#PWR07" H 4475 5875 50  0001 C CNN
+F 1 "GND" H 4480 5952 50  0000 C CNN
+F 2 "" H 4475 6125 50  0001 C CNN
+F 3 "" H 4475 6125 50  0001 C CNN
+	1    4475 6125
+	1    0    0    -1  
+$EndComp
+Connection ~ 4475 6125
+$Comp
+L Connector_Generic:Conn_02x32_Odd_Even J4
+U 1 1 606B380B
+P 7700 5825
+F 0 "J4" V 7704 7404 50  0000 L CNN
+F 1 "Conn_02x32_Odd_Even" V 7795 7404 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical_SMD" H 7700 5825 50  0001 C CNN
+F 3 "~" H 7700 5825 50  0001 C CNN
+	1    7700 5825
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	6500 5625 6500 1725
+Connection ~ 6500 1725
+Wire Wire Line
+	6500 1725 6000 1725
+Wire Wire Line
+	6400 5625 6400 1625
+Connection ~ 6400 1625
+Wire Wire Line
+	6400 1625 6000 1625
+Wire Wire Line
+	6300 5625 6300 1525
+Connection ~ 6300 1525
+Wire Wire Line
+	6300 1525 6000 1525
+Wire Wire Line
+	6200 5625 6200 1425
+Connection ~ 6200 1425
+Wire Wire Line
+	6200 1425 6000 1425
+Wire Wire Line
+	6200 6125 6300 6125
+Connection ~ 6300 6125
+Wire Wire Line
+	6300 6125 6400 6125
+Connection ~ 6400 6125
+Wire Wire Line
+	6400 6125 6500 6125
+Connection ~ 6500 6125
+Wire Wire Line
+	6500 6125 6600 6125
+Connection ~ 6600 6125
+Wire Wire Line
+	6600 6125 6700 6125
+Connection ~ 6700 6125
+Wire Wire Line
+	6700 6125 6800 6125
+Connection ~ 6800 6125
+Wire Wire Line
+	6800 6125 6900 6125
+Connection ~ 6900 6125
+Wire Wire Line
+	6900 6125 7000 6125
+Connection ~ 7000 6125
+Wire Wire Line
+	7000 6125 7100 6125
+Connection ~ 7100 6125
+Wire Wire Line
+	7100 6125 7200 6125
+Connection ~ 7200 6125
+Wire Wire Line
+	7200 6125 7300 6125
+Connection ~ 7300 6125
+Wire Wire Line
+	7300 6125 7400 6125
+Connection ~ 7400 6125
+Wire Wire Line
+	7400 6125 7500 6125
+Connection ~ 7500 6125
+Wire Wire Line
+	7500 6125 7600 6125
+Connection ~ 7600 6125
+Wire Wire Line
+	7600 6125 7700 6125
+Connection ~ 7700 6125
+Wire Wire Line
+	7700 6125 7800 6125
+Connection ~ 7800 6125
+Wire Wire Line
+	7800 6125 7900 6125
+Connection ~ 7900 6125
+Wire Wire Line
+	7900 6125 8000 6125
+Connection ~ 8000 6125
+Wire Wire Line
+	8000 6125 8100 6125
+Connection ~ 8100 6125
+Wire Wire Line
+	8100 6125 8200 6125
+Connection ~ 8200 6125
+Wire Wire Line
+	8200 6125 8300 6125
+Connection ~ 8300 6125
+Wire Wire Line
+	8300 6125 8400 6125
+Connection ~ 8400 6125
+Wire Wire Line
+	8400 6125 8500 6125
+Connection ~ 8500 6125
+Wire Wire Line
+	8500 6125 8600 6125
+Connection ~ 8600 6125
+Wire Wire Line
+	8600 6125 8700 6125
+Connection ~ 8700 6125
+Wire Wire Line
+	8700 6125 8800 6125
+Connection ~ 8800 6125
+Wire Wire Line
+	8800 6125 8900 6125
+Connection ~ 8900 6125
+Wire Wire Line
+	8900 6125 9000 6125
+Connection ~ 9000 6125
+Wire Wire Line
+	9000 6125 9100 6125
+Connection ~ 9100 6125
+Wire Wire Line
+	9100 6125 9200 6125
+Connection ~ 9200 6125
+Wire Wire Line
+	9200 6125 9300 6125
+$Comp
+L power:GND #PWR013
+U 1 1 608157A3
+P 9300 6125
+F 0 "#PWR013" H 9300 5875 50  0001 C CNN
+F 1 "GND" H 9305 5952 50  0000 C CNN
+F 2 "" H 9300 6125 50  0001 C CNN
+F 3 "" H 9300 6125 50  0001 C CNN
+	1    9300 6125
+	1    0    0    -1  
+$EndComp
+Connection ~ 9300 6125
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 604E5537
+P 5000 6775
+F 0 "H1" H 5100 6824 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5100 6733 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5000 6775 50  0001 C CNN
+F 3 "~" H 5000 6775 50  0001 C CNN
+	1    5000 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 604E5AE8
+P 5250 6775
+F 0 "H2" H 5350 6824 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5350 6733 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5250 6775 50  0001 C CNN
+F 3 "~" H 5250 6775 50  0001 C CNN
+	1    5250 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 604E5E9D
+P 5500 6775
+F 0 "H3" H 5600 6824 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5600 6733 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5500 6775 50  0001 C CNN
+F 3 "~" H 5500 6775 50  0001 C CNN
+	1    5500 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 604E6101
+P 5750 6775
+F 0 "H4" H 5850 6824 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5850 6733 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5750 6775 50  0001 C CNN
+F 3 "~" H 5750 6775 50  0001 C CNN
+	1    5750 6775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 6875 5500 6875
+Connection ~ 5250 6875
+Wire Wire Line
+	5250 6875 5000 6875
+Connection ~ 5500 6875
+Wire Wire Line
+	5500 6875 5250 6875
+Wire Wire Line
+	5000 6875 5000 7025
+Connection ~ 5000 6875
+$Comp
+L power:GND #PWR0101
+U 1 1 6056B334
+P 5000 7025
+F 0 "#PWR0101" H 5000 6775 50  0001 C CNN
+F 1 "GND" H 5005 6852 50  0000 C CNN
+F 2 "" H 5000 7025 50  0001 C CNN
+F 3 "" H 5000 7025 50  0001 C CNN
+	1    5000 7025
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
