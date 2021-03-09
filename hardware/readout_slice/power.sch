@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -1170,6 +1170,6 @@ Wire Wire Line
 	7400 950  7300 950 
 Wire Wire Line
 	7400 1000 7400 950 
-Text Notes 7550 5400 0    50   ~ 10
+Text Notes 1900 1300 0    50   ~ 10
 Minifit Jr for external power
 $EndSCHEMATC
