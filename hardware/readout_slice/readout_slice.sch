@@ -25,7 +25,7 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 4600 7050 1250 450 
+S 3600 6750 1250 450 
 U 603D0C5A
 F0 "power" 50
 F1 "power.sch" 50
@@ -53,7 +53,7 @@ F 3 "" H 7250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1400 7100 950  550 
+S 1050 6700 950  550 
 U 608B2FC0
 F0 "connectivity" 50
 F1 "connectivity.sch" 50
@@ -70,31 +70,9 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 3150 6400 1000 500 
+S 2250 6700 1000 500 
 U 605605C8
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
 $EndSheet
-$Comp
-L readout:XC7A35T-1FGG484 U?
-U 1 1 6047B697
-P -2550 2700
-F 0 "U?" H -2700 2981 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H -2700 2890 50  0000 C CNN
-F 2 "" H -3650 2850 50  0001 C CNN
-F 3 "" H -3650 2850 50  0001 C CNN
-	1    -2550 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:XC7A35T-1FGG484 U?
-U 2 1 6047B957
-P -2900 -200
-F 0 "U?" H -3737 -1129 50  0000 R CNN
-F 1 "XC7A35T-1FGG484" H -3737 -1220 50  0000 R CNN
-F 2 "" H -4000 -50 50  0001 C CNN
-F 3 "" H -4000 -50 50  0001 C CNN
-	2    -2900 -200
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
