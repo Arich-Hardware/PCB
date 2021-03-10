@@ -25,7 +25,7 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 3100 7400 1250 450 
+S 3600 6750 1250 450 
 U 603D0C5A
 F0 "power" 50
 F1 "power.sch" 50
@@ -53,7 +53,7 @@ F 3 "" H 7250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 550  7350 950  550 
+S 1050 6700 950  550 
 U 608B2FC0
 F0 "connectivity" 50
 F1 "connectivity.sch" 50
@@ -70,7 +70,7 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1750 7350 1000 500 
+S 2250 6700 1000 500 
 U 605605C8
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
