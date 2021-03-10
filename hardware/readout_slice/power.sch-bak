@@ -729,11 +729,6 @@ F 3 "" H 1100 800 50  0001 C CNN
 	1    1100 800 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 1250 4800 1350
-Wire Wire Line
-	4800 1350 4800 1700
-Connection ~ 4800 1350
 Text Notes 7550 900  0    50   ~ 10
 caps?
 Wire Wire Line
@@ -961,87 +956,14 @@ F 3 "~" H 6250 1600 50  0001 C CNN
 	1    6250 1600
 	-1   0    0    -1  
 $EndComp
-Connection ~ 4850 1900
-Wire Wire Line
-	4850 1550 4850 1900
-Text Label 5550 1450 2    50   ~ 0
-PS_SRST
-Text Label 5550 1800 2    50   ~ 0
-PS_POR
-Wire Wire Line
-	5300 1800 5550 1800
-Wire Wire Line
-	5550 1450 5300 1450
 Wire Wire Line
 	6350 2000 6700 2000
-$Comp
-L Switch:SW_Push_SPDT SW?
-U 1 1 6084A0CC
-P 5100 1450
-AR Path="/6084A0CC" Ref="SW?"  Part="1" 
-AR Path="/603D0C5A/6084A0CC" Ref="SW?"  Part="1" 
-F 0 "SW?" H 5500 1550 50  0000 C CNN
-F 1 "SW_Push_SPDT" H 5700 1450 50  0000 C CNN
-F 2 "" H 5100 1450 50  0001 C CNN
-F 3 "~" H 5100 1450 50  0001 C CNN
-	1    5100 1450
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 1350 4800 1350
 Text Label 6350 2000 0    50   ~ 0
 PS_SRST
 Text Label 6350 2100 0    50   ~ 0
 PS_POR
-$Comp
-L power:GNDD #PWR?
-U 1 1 6084A0C3
-P 4850 2000
-AR Path="/6084A0C3" Ref="#PWR?"  Part="1" 
-AR Path="/603D0C5A/6084A0C3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4850 1750 50  0001 C CNN
-F 1 "GNDD" H 4854 1845 50  0000 C CNN
-F 2 "" H 4850 2000 50  0001 C CNN
-F 3 "" H 4850 2000 50  0001 C CNN
-	1    4850 2000
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 1900 4850 2000
-Wire Wire Line
-	4850 1900 4900 1900
-Wire Wire Line
-	4900 1550 4850 1550
 Wire Wire Line
 	6700 2100 6350 2100
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6084A0B9
-P 4800 1250
-AR Path="/6084A0B9" Ref="#PWR?"  Part="1" 
-AR Path="/603D0C5A/6084A0B9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4800 1100 50  0001 C CNN
-F 1 "+3V3" H 4950 1300 50  0000 C CNN
-F 2 "" H 4800 1250 50  0001 C CNN
-F 3 "" H 4800 1250 50  0001 C CNN
-	1    4800 1250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 1700 4800 1700
-$Comp
-L Switch:SW_Push_SPDT SW?
-U 1 1 6084A0B1
-P 5100 1800
-AR Path="/6084A0B1" Ref="SW?"  Part="1" 
-AR Path="/603D0C5A/6084A0B1" Ref="SW?"  Part="1" 
-F 0 "SW?" H 5500 1900 50  0000 C CNN
-F 1 "SW_Push_SPDT" H 5700 1800 50  0000 C CNN
-F 2 "" H 5100 1800 50  0001 C CNN
-F 3 "~" H 5100 1800 50  0001 C CNN
-	1    5100 1800
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 6084A0AB
@@ -1172,4 +1094,176 @@ Wire Wire Line
 	7400 1000 7400 950 
 Text Notes 1900 1300 0    50   ~ 10
 Minifit Jr for external power
+$Comp
+L readout:BS3 U?
+U 1 1 6060B62D
+P 6950 3200
+F 0 "U?" H 6950 3315 50  0000 C CNN
+F 1 "BS3" H 6950 3224 50  0000 C CNN
+F 2 "" H 6950 3200 50  0001 C CNN
+F 3 "" H 6950 3200 50  0001 C CNN
+	1    6950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:BS3 U?
+U 1 1 6060BB36
+P 5300 3200
+F 0 "U?" H 5300 3315 50  0000 C CNN
+F 1 "BS3" H 5300 3224 50  0000 C CNN
+F 2 "" H 5300 3200 50  0001 C CNN
+F 3 "" H 5300 3200 50  0001 C CNN
+	1    5300 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60616F0A
+P 4900 3600
+F 0 "C?" H 4808 3646 50  0000 R CNN
+F 1 "10n" H 4808 3555 50  0000 R CNN
+F 2 "" H 4900 3600 50  0001 C CNN
+F 3 "~" H 4900 3600 50  0001 C CNN
+	1    4900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 60629225
+P 4900 3700
+AR Path="/60629225" Ref="#PWR?"  Part="1" 
+AR Path="/603D0C5A/60629225" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 3450 50  0001 C CNN
+F 1 "GNDD" H 4904 3545 50  0000 C CNN
+F 2 "" H 4900 3700 50  0001 C CNN
+F 3 "" H 4900 3700 50  0001 C CNN
+	1    4900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 60629D66
+P 5550 3700
+AR Path="/60629D66" Ref="#PWR?"  Part="1" 
+AR Path="/603D0C5A/60629D66" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5550 3450 50  0001 C CNN
+F 1 "GNDD" H 5554 3545 50  0000 C CNN
+F 2 "" H 5550 3700 50  0001 C CNN
+F 3 "" H 5550 3700 50  0001 C CNN
+	1    5550 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 60629ECF
+P 6550 3700
+AR Path="/60629ECF" Ref="#PWR?"  Part="1" 
+AR Path="/603D0C5A/60629ECF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6550 3450 50  0001 C CNN
+F 1 "GNDD" H 6554 3545 50  0000 C CNN
+F 2 "" H 6550 3700 50  0001 C CNN
+F 3 "" H 6550 3700 50  0001 C CNN
+	1    6550 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 6062A205
+P 7200 3700
+AR Path="/6062A205" Ref="#PWR?"  Part="1" 
+AR Path="/603D0C5A/6062A205" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7200 3450 50  0001 C CNN
+F 1 "GNDD" H 7204 3545 50  0000 C CNN
+F 2 "" H 7200 3700 50  0001 C CNN
+F 3 "" H 7200 3700 50  0001 C CNN
+	1    7200 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60632C5C
+P 6550 3600
+F 0 "C?" H 6458 3646 50  0000 R CNN
+F 1 "10n" H 6458 3555 50  0000 R CNN
+F 2 "" H 6550 3600 50  0001 C CNN
+F 3 "~" H 6550 3600 50  0001 C CNN
+	1    6550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3700 5550 3450
+Wire Wire Line
+	5550 3350 5500 3350
+Wire Wire Line
+	5500 3450 5550 3450
+Connection ~ 5550 3450
+Wire Wire Line
+	5550 3450 5550 3350
+Wire Wire Line
+	6750 3450 6700 3450
+Wire Wire Line
+	6700 3450 6700 3350
+Wire Wire Line
+	6700 3350 6750 3350
+Wire Wire Line
+	6700 3350 6550 3350
+Wire Wire Line
+	6550 3350 6550 3500
+Connection ~ 6700 3350
+Wire Wire Line
+	7200 3700 7200 3450
+Wire Wire Line
+	7200 3350 7150 3350
+Wire Wire Line
+	7150 3450 7200 3450
+Connection ~ 7200 3450
+Wire Wire Line
+	7200 3450 7200 3350
+Wire Wire Line
+	5100 3450 5050 3450
+Wire Wire Line
+	5050 3450 5050 3350
+Wire Wire Line
+	5050 3350 5100 3350
+Wire Wire Line
+	5050 3350 4900 3350
+Wire Wire Line
+	4900 3350 4900 3500
+Connection ~ 5050 3350
+$Comp
+L Device:R R?
+U 1 1 606927D5
+P 4900 3100
+F 0 "R?" H 4970 3146 50  0000 L CNN
+F 1 "10k" V 4900 3050 50  0000 L CNN
+F 2 "" V 4830 3100 50  0001 C CNN
+F 3 "~" H 4900 3100 50  0001 C CNN
+	1    4900 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3350 4900 3250
+Connection ~ 4900 3350
+$Comp
+L power:+3V3 #PWR?
+U 1 1 606A7150
+P 4900 2950
+AR Path="/606A7150" Ref="#PWR?"  Part="1" 
+AR Path="/603D0C5A/606A7150" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4900 2800 50  0001 C CNN
+F 1 "+3V3" H 4950 3100 50  0000 C CNB
+F 2 "" H 4900 2950 50  0001 C CNN
+F 3 "" H 4900 2950 50  0001 C CNN
+	1    4900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3350 4550 3350
+Wire Wire Line
+	6550 3350 6200 3350
+Connection ~ 6550 3350
+Text Label 6200 3350 0    50   ~ 0
+PS_POR
+Text Label 4550 3350 0    50   ~ 0
+PS_SRST
 $EndSCHEMATC
