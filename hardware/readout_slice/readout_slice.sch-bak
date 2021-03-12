@@ -75,4 +75,10 @@ U 605605C8
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
 $EndSheet
+Wire Wire Line
+	6100 2800 5300 2800
+Text Notes 5000 2750 0    50   ~ 10
+make this global
+Text Label 5300 2800 0    50   ~ 10
+SD_io_CD#
 $EndSCHEMATC

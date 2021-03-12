@@ -1268,4 +1268,55 @@ Text Label 4550 3350 0    50   ~ 0
 PS_SRST
 Text Notes 5700 1600 0    50   ~ 10
 ???
+Wire Wire Line
+	6700 1800 5150 1800
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 604C32B5
+P 4950 1800
+F 0 "J?" H 4868 2117 50  0000 C CNN
+F 1 "3 pin Jumper" H 5300 1800 50  0000 C CNN
+F 2 "" H 4950 1800 50  0001 C CNN
+F 3 "~" H 4950 1800 50  0001 C CNN
+	1    4950 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 604C39FA
+P 5250 2000
+AR Path="/604C39FA" Ref="#PWR?"  Part="1" 
+AR Path="/603D0C5A/604C39FA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5250 1750 50  0001 C CNN
+F 1 "GNDD" H 5254 1845 50  0000 C CNN
+F 2 "" H 5250 2000 50  0001 C CNN
+F 3 "" H 5250 2000 50  0001 C CNN
+	1    5250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2000 5250 1900
+Wire Wire Line
+	5250 1900 5150 1900
+$Comp
+L power:+3V3 #PWR?
+U 1 1 604CDC11
+P 5250 1600
+AR Path="/604CDC11" Ref="#PWR?"  Part="1" 
+AR Path="/603D0C5A/604CDC11" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5250 1450 50  0001 C CNN
+F 1 "+3V3" H 5300 1750 50  0000 C CNB
+F 2 "" H 5250 1600 50  0001 C CNN
+F 3 "" H 5250 1600 50  0001 C CNN
+	1    5250 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 1600 5250 1700
+Wire Wire Line
+	5250 1700 5150 1700
+Text Notes 5300 2000 0    50   ~ 0
+QSPI?
+Text Notes 5300 1700 0    50   ~ 0
+SD Card?\n
 $EndSCHEMATC
