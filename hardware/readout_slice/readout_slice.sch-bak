@@ -25,10 +25,11 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 3600 6750 1250 450 
+S 2750 7050 1250 450 
 U 603D0C5A
 F0 "power" 50
 F1 "power.sch" 50
+F2 "PS_SRST" I L 2750 7400 50 
 $EndSheet
 $Comp
 L readout:Mars_ZX2 U?
@@ -53,10 +54,12 @@ F 3 "" H 7250 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 1050 6700 950  550 
+S 850  7150 950  550 
 U 608B2FC0
 F0 "connectivity" 50
 F1 "connectivity.sch" 50
+F2 "PS_SRST" I R 1800 7650 50 
+F3 "SD_id_CD#" I R 1800 7550 50 
 $EndSheet
 $Comp
 L readout_slice-rescue:CITIROC1A-readout U?
@@ -70,7 +73,7 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 2250 6700 1000 500 
+S 1850 6100 1000 500 
 U 605605C8
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
@@ -78,7 +81,7 @@ $EndSheet
 Wire Wire Line
 	6100 2800 5300 2800
 Text Notes 5000 2750 0    50   ~ 10
-make this global
+goes global
 Text Label 5300 2800 0    50   ~ 10
 SD_io_CD#
 $EndSCHEMATC
