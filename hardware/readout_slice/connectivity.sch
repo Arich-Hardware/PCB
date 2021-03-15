@@ -13,127 +13,127 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 7750 3700 0    50   ~ 10
+Text Label 7600 2100 0    50   ~ 10
 JTAG_TCK
-Text Label 7750 3800 0    50   ~ 10
+Text Label 7600 2200 0    50   ~ 10
 JTAG_TDI
-Text Label 7750 3900 0    50   ~ 10
+Text Label 7600 2300 0    50   ~ 10
 JTAG_TMS
-Text Label 7750 4000 0    50   ~ 10
+Text Label 7600 2400 0    50   ~ 10
 JTAG_TDO
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J?
 U 1 1 608B92E4
-P 6550 4450
+P 5800 2300
 AR Path="/608B92E4" Ref="J?"  Part="1" 
 AR Path="/608B2FC0/608B92E4" Ref="J?"  Part="1" 
-F 0 "J?" H 6600 3950 50  0000 C CNN
-F 1 "Digilent JTAG header" H 6850 4050 50  0000 C CNN
-F 2 "readout_slice:87832-1420" H 6550 4450 50  0001 C CNN
-F 3 "~" H 6550 4450 50  0001 C CNN
-	1    6550 4450
+F 0 "J?" H 5850 1800 50  0000 C CNN
+F 1 "Digilent JTAG header" H 6100 1900 50  0000 C CNN
+F 2 "readout_slice:87832-1420" H 5800 2300 50  0001 C CNN
+F 3 "~" H 5800 2300 50  0001 C CNN
+	1    5800 2300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:RJ45 J?
 U 1 1 608B92EA
-P 10500 3050
+P 10600 1400
 AR Path="/608B92EA" Ref="J?"  Part="1" 
 AR Path="/608B2FC0/608B92EA" Ref="J?"  Part="1" 
-F 0 "J?" H 10557 3717 50  0000 C CNN
-F 1 "RJ45" H 10557 3626 50  0000 C CNN
-F 2 "" V 10500 3075 50  0001 C CNN
-F 3 "~" V 10500 3075 50  0001 C CNN
-	1    10500 3050
+F 0 "J?" H 10657 2067 50  0000 C CNN
+F 1 "RJ45" H 10657 1976 50  0000 C CNN
+F 2 "" V 10600 1425 50  0001 C CNN
+F 3 "~" V 10600 1425 50  0001 C CNN
+	1    10600 1400
 	-1   0    0    1   
 $EndComp
-Text Notes 9600 3300 0    50   ~ 0
+Text Notes 9450 1700 0    50   ~ 0
 Hmmmm?
 Wire Wire Line
-	6300 4850 6300 4750
+	5550 2700 5550 2600
 Wire Wire Line
-	6300 4150 6350 4150
+	5550 2000 5600 2000
 Wire Wire Line
-	6350 4250 6300 4250
-Connection ~ 6300 4250
+	5600 2100 5550 2100
+Connection ~ 5550 2100
 Wire Wire Line
-	6300 4250 6300 4150
+	5550 2100 5550 2000
 Wire Wire Line
-	6350 4350 6300 4350
-Connection ~ 6300 4350
+	5600 2200 5550 2200
+Connection ~ 5550 2200
 Wire Wire Line
-	6300 4350 6300 4250
+	5550 2200 5550 2100
 Wire Wire Line
-	6350 4450 6300 4450
-Connection ~ 6300 4450
+	5600 2300 5550 2300
+Connection ~ 5550 2300
 Wire Wire Line
-	6300 4450 6300 4350
+	5550 2300 5550 2200
 Wire Wire Line
-	6350 4550 6300 4550
-Connection ~ 6300 4550
+	5600 2400 5550 2400
+Connection ~ 5550 2400
 Wire Wire Line
-	6300 4550 6300 4450
+	5550 2400 5550 2300
 Wire Wire Line
-	6350 4650 6300 4650
-Connection ~ 6300 4650
+	5600 2500 5550 2500
+Connection ~ 5550 2500
 Wire Wire Line
-	6300 4650 6300 4550
+	5550 2500 5550 2400
 Wire Wire Line
-	6350 4750 6300 4750
-Connection ~ 6300 4750
+	5600 2600 5550 2600
+Connection ~ 5550 2600
 Wire Wire Line
-	6300 4750 6300 4650
+	5550 2600 5550 2500
 Wire Wire Line
-	6850 4150 6950 4150
+	6100 2000 6200 2000
 $Comp
 L power:+3V3 #PWR?
 U 1 1 608B930D
-P 6950 3800
+P 6200 1650
 AR Path="/608B930D" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/608B930D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6950 3650 50  0001 C CNN
-F 1 "+3V3" H 6950 3950 50  0000 C CNN
-F 2 "" H 6950 3800 50  0001 C CNN
-F 3 "" H 6950 3800 50  0001 C CNN
-	1    6950 3800
+F 0 "#PWR?" H 6200 1500 50  0001 C CNN
+F 1 "+3V3" H 6200 1800 50  0000 C CNN
+F 2 "" H 6200 1650 50  0001 C CNN
+F 3 "" H 6200 1650 50  0001 C CNN
+	1    6200 1650
 	-1   0    0    -1  
 $EndComp
-Text Label 7300 4250 2    50   ~ 10
+Text Label 6550 2100 2    50   ~ 10
 JTAG_TMS
-Text Label 7300 4350 2    50   ~ 10
+Text Label 6550 2200 2    50   ~ 10
 JTAG_TCK
-Text Label 7300 4550 2    50   ~ 10
+Text Label 6550 2400 2    50   ~ 10
 JTAG_TDI
-Text Label 7300 4450 2    50   ~ 10
+Text Label 6550 2300 2    50   ~ 10
 JTAG_TDO
-NoConn ~ 6850 4650
+NoConn ~ 6100 2500
 Wire Wire Line
-	6850 4550 7300 4550
+	6100 2400 6550 2400
 Wire Wire Line
-	6850 4450 7300 4450
+	6100 2300 6550 2300
 Wire Wire Line
-	6850 4250 7300 4250
+	6100 2100 6550 2100
 $Comp
 L readout:Mars_ZX2 U?
 U 2 1 608B9327
-P 8850 2550
+P 8700 950
 AR Path="/608B9327" Ref="U?"  Part="2" 
 AR Path="/608B2FC0/608B9327" Ref="U?"  Part="2" 
-F 0 "U?" H 8825 2725 50  0000 C CNN
-F 1 "Mars_ZX2" H 8825 2634 50  0000 C CNN
-F 2 "" H 8900 2900 50  0001 C CNN
-F 3 "" H 8900 2900 50  0001 C CNN
-	2    8850 2550
+F 0 "U?" H 8675 1125 50  0000 C CNN
+F 1 "Mars_ZX2" H 8675 1034 50  0000 C CNN
+F 2 "" H 8750 1300 50  0001 C CNN
+F 3 "" H 8750 1300 50  0001 C CNN
+	2    8700 950 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8150 3700 7750 3700
+	8000 2100 7600 2100
 Wire Wire Line
-	8150 4000 7750 4000
+	8000 2400 7600 2400
 Wire Wire Line
-	8150 3900 7750 3900
+	8000 2300 7600 2300
 Wire Wire Line
-	8150 3800 7750 3800
+	8000 2200 7600 2200
 Wire Wire Line
 	5200 6250 4700 6250
 Wire Wire Line
@@ -210,262 +210,62 @@ U 3 1 608C0AEC
 P 5700 6100
 AR Path="/608C0AEC" Ref="U?"  Part="3" 
 AR Path="/608B2FC0/608C0AEC" Ref="U?"  Part="3" 
-F 0 "U?" H 5537 6265 50  0000 C CNN
-F 1 "Mars_ZX2" H 5537 6174 50  0000 C CNN
+F 0 "U?" H 5700 6200 50  0000 C CNN
+F 1 "Mars_ZX2" H 5700 6100 50  0000 C CNN
 F 2 "" H 5750 6450 50  0001 C CNN
 F 3 "" H 5750 6450 50  0001 C CNN
 	3    5700 6100
 	-1   0    0    -1  
 $EndComp
-$Comp
-L readout:S25FL52 U?
-U 1 1 6051A773
-P 1650 4250
-F 0 "U?" H 1350 4400 50  0000 C CNN
-F 1 "S25FL52" H 1350 4300 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 1650 4250 50  0001 C CNN
-F 3 "https://www.cypress.com/file/177971/download" H 1650 4250 50  0001 C CNN
-F 4 "Mouser" H 1650 4250 50  0001 C CNN "Supplier"
-F 5 "727-S25FL512SSMFM010" H 1650 4250 50  0001 C CNN "Supplier P/N"
-F 6 "S25FL512SDSMFM010" H 1650 4250 50  0001 C CNN "MFN"
-F 7 "10.63" H 1650 4250 50  0001 C CNN "Item Cost"
-	1    1650 4250
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 1250 4400
-NoConn ~ 1250 4500
-NoConn ~ 1250 4600
-NoConn ~ 1250 4700
-$Comp
-L power:GNDD #PWR?
-U 1 1 6051FCEF
-P 1650 5250
-AR Path="/6051FCEF" Ref="#PWR?"  Part="1" 
-AR Path="/608B2FC0/6051FCEF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1650 5000 50  0001 C CNN
-F 1 "GNDD" H 1654 5095 50  0000 C CNN
-F 2 "" H 1650 5250 50  0001 C CNN
-F 3 "" H 1650 5250 50  0001 C CNN
-	1    1650 5250
-	1    0    0    -1  
-$EndComp
-Text Label 2650 5000 0    50   ~ 0
-VCC_CFG_MIO_B13
-Wire Wire Line
-	1650 4150 1650 3900
-Text Notes 1500 4050 0    50   ~ 10
-CAPS?
-Text Label 7850 3500 0    50   ~ 10
+Text Label 7700 1900 0    50   ~ 10
 F_CS#
-Text Label 7850 3400 0    50   ~ 10
+Text Label 7700 1800 0    50   ~ 10
 F_DI
-Text Label 7850 3300 0    50   ~ 10
+Text Label 7700 1700 0    50   ~ 10
 F_DO
-Text Label 7850 3200 0    50   ~ 10
+Text Label 7700 1600 0    50   ~ 10
 F_CLK
 Wire Wire Line
-	8150 3200 7850 3200
+	8000 1600 7700 1600
 Wire Wire Line
-	8150 3300 7850 3300
+	8000 1700 7700 1700
 Wire Wire Line
-	8150 3400 7850 3400
+	8000 1800 7700 1800
 Wire Wire Line
-	8150 3500 7850 3500
-Text Label 2700 5100 2    50   ~ 10
-F_CLK
-Wire Wire Line
-	2700 5100 2400 5100
-Text Label 2700 4700 2    50   ~ 10
-F_DO
-Wire Wire Line
-	2700 4700 2400 4700
-Text Label 2700 4900 2    50   ~ 10
-F_DI
-Wire Wire Line
-	2700 4900 2400 4900
-Text Label 2700 4600 2    50   ~ 10
-F_CS#
-Wire Wire Line
-	2700 4600 2400 4600
-Wire Wire Line
-	2400 5000 2650 5000
-Text Notes 700  1000 0    118  ~ 24
-VCC_CFG_MIO_B13 needs to be global
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60537605
-P 1650 3900
-AR Path="/60537605" Ref="#PWR?"  Part="1" 
-AR Path="/608B2FC0/60537605" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1650 3750 50  0001 C CNN
-F 1 "+3V3" H 1650 4050 50  0000 C CNN
-F 2 "" H 1650 3900 50  0001 C CNN
-F 3 "" H 1650 3900 50  0001 C CNN
-	1    1650 3900
-	-1   0    0    -1  
-$EndComp
-Text Notes 2900 4400 2    50   ~ 10
-to PS_POR#
-Text Notes 2950 4800 2    50   ~ 10
-to FLASH_IO2
-NoConn ~ 2400 4500
-Text Notes 2950 4300 2    50   ~ 10
-to FLASH_IO3
-Text Notes 700  4950 0    50   ~ 10
-check package on this\n
-$Comp
-L readout:USB3320-EZK U?
-U 1 1 6056B80B
-P 4450 1650
-F 0 "U?" H 4900 1800 50  0000 C CNN
-F 1 "USB3320-EZK" H 4900 1700 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 5800 -550 50  0001 C CNN
-F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/00001792E.pdf" H 4500 700 50  0001 C CNN
-	1    4450 1650
-	1    0    0    -1  
-$EndComp
-Text Label 7700 2600 0    50   ~ 10
+	8000 1900 7700 1900
+Text Label 7550 1000 0    50   ~ 10
 USB_D_N
-Text Label 7700 2700 0    50   ~ 10
+Text Label 7550 1100 0    50   ~ 10
 USB_D_P
-Text Label 7700 2800 0    50   ~ 10
+Text Label 7550 1200 0    50   ~ 10
 USB_VBUS
-Text Label 7700 2900 0    50   ~ 10
+Text Label 7550 1300 0    50   ~ 10
 USB_ID
-Text Label 7700 3000 0    50   ~ 10
+Text Label 7550 1400 0    50   ~ 10
 USB_CPEN
 Wire Wire Line
-	8150 3000 7700 3000
+	8000 1400 7550 1400
 Wire Wire Line
-	7700 2900 8150 2900
+	7550 1300 8000 1300
 Wire Wire Line
-	8150 2800 7700 2800
+	8000 1200 7550 1200
 Wire Wire Line
-	7700 2700 8150 2700
+	7550 1100 8000 1100
 Wire Wire Line
-	8150 2600 7700 2600
-Text Label 6200 1700 2    50   ~ 10
-USB_D_N
-Text Label 6200 1900 2    50   ~ 10
-USB_D_P
-Text Label 6200 2100 2    50   ~ 10
-USB_ID
-$Comp
-L Device:R R?
-U 1 1 605B1A86
-P 5600 2300
-F 0 "R?" V 5500 2300 50  0000 C CNN
-F 1 "1K" V 5600 2300 50  0000 C CNN
-F 2 "" V 5530 2300 50  0001 C CNN
-F 3 "~" H 5600 2300 50  0001 C CNN
-	1    5600 2300
-	0    1    1    0   
-$EndComp
-Text Label 6200 2300 2    50   ~ 10
-USB_VBUS
-Wire Wire Line
-	6200 2300 5750 2300
-$Comp
-L power:+3V3 #PWR?
-U 1 1 605B7F6F
-P 5350 1500
-AR Path="/605B7F6F" Ref="#PWR?"  Part="1" 
-AR Path="/608B2FC0/605B7F6F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5350 1350 50  0001 C CNN
-F 1 "+3V3" H 5350 1650 50  0000 C CNN
-F 2 "" H 5350 1500 50  0001 C CNN
-F 3 "" H 5350 1500 50  0001 C CNN
-	1    5350 1500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 1700 6200 1700
-Wire Wire Line
-	5250 1900 6200 1900
-Wire Wire Line
-	5250 2100 6200 2100
-Wire Wire Line
-	5250 2300 5450 2300
-Wire Wire Line
-	5250 2500 5350 2500
-Wire Wire Line
-	5350 2500 5350 1500
-Text Label 5700 3000 2    50   ~ 10
-USB_CPEN
-Wire Wire Line
-	5700 3000 5250 3000
-NoConn ~ 5250 2800
-NoConn ~ 5250 2700
-$Comp
-L Device:R R?
-U 1 1 605D83AA
-P 5350 3450
-F 0 "R?" H 5250 3400 50  0000 C CNN
-F 1 "3k3" V 5350 3450 50  0000 C CNN
-F 2 "" V 5280 3450 50  0001 C CNN
-F 3 "~" H 5350 3450 50  0001 C CNN
-F 4 "5%" H 5250 3500 50  0000 C CNN "Precision"
-	1    5350 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 605D89C9
-P 5350 3750
-F 0 "R?" H 5250 3700 50  0000 C CNN
-F 1 "4k7" V 5350 3750 50  0000 C CNN
-F 2 "" V 5280 3750 50  0001 C CNN
-F 3 "~" H 5350 3750 50  0001 C CNN
-	1    5350 3750
-	-1   0    0    1   
-$EndComp
+	8000 1000 7550 1000
 $Comp
 L power:GNDD #PWR?
 U 1 1 608B92F1
-P 6300 4850
+P 5550 2700
 AR Path="/608B92F1" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/608B92F1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6300 4600 50  0001 C CNN
-F 1 "GNDD" H 6304 4695 50  0000 C CNN
-F 2 "" H 6300 4850 50  0001 C CNN
-F 3 "" H 6300 4850 50  0001 C CNN
-	1    6300 4850
+F 0 "#PWR?" H 5550 2450 50  0001 C CNN
+F 1 "GNDD" H 5554 2545 50  0000 C CNN
+F 2 "" H 5550 2700 50  0001 C CNN
+F 3 "" H 5550 2700 50  0001 C CNN
+	1    5550 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GNDD #PWR?
-U 1 1 605E02AF
-P 4450 4100
-AR Path="/605E02AF" Ref="#PWR?"  Part="1" 
-AR Path="/608B2FC0/605E02AF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4450 3850 50  0001 C CNN
-F 1 "GNDD" H 4454 3945 50  0000 C CNN
-F 2 "" H 4450 4100 50  0001 C CNN
-F 3 "" H 4450 4100 50  0001 C CNN
-	1    4450 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4450 4100 4450 4000
-$Comp
-L power:GNDD #PWR?
-U 1 1 605E26CB
-P 5350 4100
-AR Path="/605E26CB" Ref="#PWR?"  Part="1" 
-AR Path="/608B2FC0/605E26CB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5350 3850 50  0001 C CNN
-F 1 "GNDD" H 5354 3945 50  0000 C CNN
-F 2 "" H 5350 4100 50  0001 C CNN
-F 3 "" H 5350 4100 50  0001 C CNN
-	1    5350 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 4100 5350 3900
-Wire Wire Line
-	5350 3300 5350 3200
-Wire Wire Line
-	5350 3200 5250 3200
 Wire Wire Line
 	5200 7150 4850 7150
 Wire Wire Line
@@ -618,39 +418,326 @@ F 3 "~" H 10350 5950 50  0001 C CNN
 	1    10350 5950
 	-1   0    0    1   
 $EndComp
-Text Notes 6900 4750 0    50   ~ 0
+Text Notes 6150 2600 0    50   ~ 0
 Not sure?
 Wire Wire Line
-	7300 4750 6850 4750
+	6550 2600 6100 2600
 $Comp
 L Device:C_Small C?
 U 1 1 604EB839
-P 6600 3900
-F 0 "C?" V 6400 3900 50  0000 C CNN
-F 1 ".1u" V 6500 3900 50  0000 C CNN
-F 2 "" H 6600 3900 50  0001 C CNN
-F 3 "~" H 6600 3900 50  0001 C CNN
-	1    6600 3900
+P 5850 1750
+F 0 "C?" V 5650 1750 50  0000 C CNN
+F 1 ".1u" V 5750 1750 50  0000 C CNN
+F 2 "" H 5850 1750 50  0001 C CNN
+F 3 "~" H 5850 1750 50  0001 C CNN
+	1    5850 1750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6950 3800 6950 3900
+	6200 1650 6200 1750
 Wire Wire Line
-	6700 3900 6950 3900
-Connection ~ 6950 3900
+	5950 1750 6200 1750
+Connection ~ 6200 1750
 Wire Wire Line
-	6950 3900 6950 4150
+	6200 1750 6200 2000
 Wire Wire Line
-	6500 3900 6300 3900
+	5750 1750 5550 1750
 Wire Wire Line
-	6300 3900 6300 4150
-Connection ~ 6300 4150
-Text Notes 7350 5000 0    50   ~ 0
+	5550 1750 5550 2000
+Connection ~ 5550 2000
+Text Notes 6100 2950 0    50   ~ 0
 ESD diode chip here\nref antmicro
-Text HLabel 7300 4750 2    50   Input ~ 0
+Text HLabel 6550 2600 2    50   Input ~ 0
 PS_SRST
 Text HLabel 1300 6950 0    50   Input ~ 10
 SD_id_CD#
 Text Notes 3350 6800 0    79   ~ 16
 Maybe need level shifter here?
+$Comp
+L Device:LED D?
+U 1 1 61905C3D
+P 7500 2750
+AR Path="/61905C3D" Ref="D?"  Part="1" 
+AR Path="/603D0C5A/61905C3D" Ref="D?"  Part="1" 
+AR Path="/608B2FC0/61905C3D" Ref="D?"  Part="1" 
+F 0 "D?" V 7550 2600 50  0000 C CNN
+F 1 "GREEN" V 7450 2550 50  0000 C CNN
+F 2 "" H 7500 2750 50  0001 C CNN
+F 3 "~" H 7500 2750 50  0001 C CNN
+	1    7500 2750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61905C43
+P 7750 2500
+AR Path="/61905C43" Ref="R?"  Part="1" 
+AR Path="/603D0C5A/61905C43" Ref="R?"  Part="1" 
+AR Path="/608B2FC0/61905C43" Ref="R?"  Part="1" 
+F 0 "R?" V 7650 2450 50  0000 L CNN
+F 1 "100" V 7750 2450 50  0000 L CNN
+F 2 "" V 7680 2500 50  0001 C CNN
+F 3 "~" H 7750 2500 50  0001 C CNN
+	1    7750 2500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8000 2500 7900 2500
+Wire Wire Line
+	7600 2500 7500 2500
+Wire Wire Line
+	7500 2500 7500 2600
+$Comp
+L power:GNDD #PWR?
+U 1 1 61919E41
+P 7500 2900
+AR Path="/61919E41" Ref="#PWR?"  Part="1" 
+AR Path="/608B2FC0/61919E41" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7500 2650 50  0001 C CNN
+F 1 "GNDD" H 7504 2745 50  0000 C CNN
+F 2 "" H 7500 2900 50  0001 C CNN
+F 3 "" H 7500 2900 50  0001 C CNN
+	1    7500 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 2200 6100 2200
+$Comp
+L readout:XC7A35T-1FGG484 U?
+U 2 1 63276E8C
+P 2900 1450
+AR Path="/605605C8/63276E8C" Ref="U?"  Part="2" 
+AR Path="/608B2FC0/63276E8C" Ref="U?"  Part="2" 
+F 0 "U?" H 1900 1050 50  0000 R CNN
+F 1 "XC7A35T-1FGG484" H 2050 850 50  0000 R CNN
+F 2 "" H 1800 1600 50  0001 C CNN
+F 3 "" H 1800 1600 50  0001 C CNN
+	2    2900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63276E92
+P 1850 1350
+AR Path="/605605C8/63276E92" Ref="C?"  Part="1" 
+AR Path="/608B2FC0/63276E92" Ref="C?"  Part="1" 
+F 0 "C?" H 1758 1396 50  0000 R CNN
+F 1 "47u" H 1758 1305 50  0000 R CNB
+F 2 "" H 1850 1350 50  0001 C CNN
+F 3 "~" H 1850 1350 50  0001 C CNN
+	1    1850 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 1350 2150 1150
+Wire Wire Line
+	2150 1150 1850 1150
+Wire Wire Line
+	1850 1150 1850 1250
+Wire Wire Line
+	2250 1350 2250 1150
+Wire Wire Line
+	2250 1150 2150 1150
+Connection ~ 2150 1150
+Wire Wire Line
+	2250 1150 2250 850 
+Connection ~ 2250 1150
+Text Notes 1400 650  0    50   ~ 10
+Need to create this
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J?
+U 1 1 632905DE
+P 1350 2650
+AR Path="/632905DE" Ref="J?"  Part="1" 
+AR Path="/608B2FC0/632905DE" Ref="J?"  Part="1" 
+F 0 "J?" H 1400 2150 50  0000 C CNN
+F 1 "Digilent JTAG header" H 1650 2250 50  0000 C CNN
+F 2 "readout_slice:87832-1420" H 1350 2650 50  0001 C CNN
+F 3 "~" H 1350 2650 50  0001 C CNN
+	1    1350 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2350 1100 2350
+Wire Wire Line
+	1100 2350 1100 2450
+$Comp
+L power:GNDD #PWR?
+U 1 1 632A51DF
+P 1100 3050
+AR Path="/632A51DF" Ref="#PWR?"  Part="1" 
+AR Path="/608B2FC0/632A51DF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1100 2800 50  0001 C CNN
+F 1 "GNDD" H 1104 2895 50  0000 C CNN
+F 2 "" H 1100 3050 50  0001 C CNN
+F 3 "" H 1100 3050 50  0001 C CNN
+	1    1100 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2950 1100 2950
+Connection ~ 1100 2950
+Wire Wire Line
+	1100 2950 1100 3050
+Wire Wire Line
+	1100 2850 1150 2850
+Connection ~ 1100 2850
+Wire Wire Line
+	1100 2850 1100 2950
+Wire Wire Line
+	1150 2750 1100 2750
+Connection ~ 1100 2750
+Wire Wire Line
+	1100 2750 1100 2850
+Wire Wire Line
+	1100 2650 1150 2650
+Connection ~ 1100 2650
+Wire Wire Line
+	1100 2650 1100 2750
+Wire Wire Line
+	1150 2550 1100 2550
+Connection ~ 1100 2550
+Wire Wire Line
+	1100 2550 1100 2650
+Wire Wire Line
+	1100 2450 1150 2450
+Connection ~ 1100 2450
+Wire Wire Line
+	1100 2450 1100 2550
+NoConn ~ 1650 2950
+NoConn ~ 1650 2850
+Text Notes 1600 2250 2    50   ~ 10
+Vref here
+Text HLabel 2250 850  1    50   Input ~ 10
+Vcc_0
+Wire Wire Line
+	2250 3500 2250 3550
+Wire Wire Line
+	2250 3550 2150 3550
+Wire Wire Line
+	2150 3550 2150 3500
+Wire Wire Line
+	2150 3550 2150 3650
+Connection ~ 2150 3550
+$Comp
+L power:GNDD #PWR?
+U 1 1 633791BC
+P 2150 3650
+AR Path="/633791BC" Ref="#PWR?"  Part="1" 
+AR Path="/608B2FC0/633791BC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2150 3400 50  0001 C CNN
+F 1 "GNDD" H 2150 3500 50  0000 C CNN
+F 2 "" H 2150 3650 50  0001 C CNN
+F 3 "" H 2150 3650 50  0001 C CNN
+	1    2150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 6337EE44
+P 1850 1450
+AR Path="/6337EE44" Ref="#PWR?"  Part="1" 
+AR Path="/608B2FC0/6337EE44" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 1200 50  0001 C CNN
+F 1 "GNDD" H 1850 1300 50  0000 C CNN
+F 2 "" H 1850 1450 50  0001 C CNN
+F 3 "" H 1850 1450 50  0001 C CNN
+	1    1850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 2450 1650 2450
+Wire Wire Line
+	2000 2550 1650 2550
+Wire Wire Line
+	1650 2650 2000 2650
+Wire Wire Line
+	2000 2750 1650 2750
+$Comp
+L Device:R R?
+U 1 1 633C8AC2
+P 3650 2550
+F 0 "R?" V 3550 2550 50  0000 C CNN
+F 1 "330" V 3650 2550 50  0000 C CNN
+F 2 "" V 3580 2550 50  0001 C CNN
+F 3 "~" H 3650 2550 50  0001 C CNN
+	1    3650 2550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 2550 3400 2550
+$Comp
+L Device:R R?
+U 1 1 633DA705
+P 3850 2750
+F 0 "R?" H 3950 2750 50  0000 C CNN
+F 1 "4.7k" V 3850 2750 50  0000 C CNN
+F 2 "" V 3780 2750 50  0001 C CNN
+F 3 "~" H 3850 2750 50  0001 C CNN
+	1    3850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2600 3850 2550
+Wire Wire Line
+	3850 2550 3800 2550
+Wire Wire Line
+	3850 2900 3850 2950
+Wire Wire Line
+	3850 2950 3400 2950
+Wire Wire Line
+	3850 2950 4000 2950
+Connection ~ 3850 2950
+Text Notes 4000 2900 0    50   ~ 10
+goes global?
+Text HLabel 4000 2550 2    50   Input ~ 10
+Vcc_0
+Wire Wire Line
+	4000 2550 3850 2550
+Connection ~ 3850 2550
+Text HLabel 3550 3150 2    50   Input ~ 10
+Vcc_0
+Wire Wire Line
+	3550 3150 3400 3150
+Wire Wire Line
+	3400 3250 3450 3250
+Wire Wire Line
+	3450 3250 3450 3350
+Wire Wire Line
+	3400 3350 3450 3350
+Connection ~ 3450 3350
+Wire Wire Line
+	3450 3350 3450 3650
+$Comp
+L power:GNDD #PWR?
+U 1 1 63403719
+P 3450 3650
+AR Path="/63403719" Ref="#PWR?"  Part="1" 
+AR Path="/608B2FC0/63403719" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3450 3400 50  0001 C CNN
+F 1 "GNDD" H 3450 3500 50  0000 C CNN
+F 2 "" H 3450 3650 50  0001 C CNN
+F 3 "" H 3450 3650 50  0001 C CNN
+	1    3450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6340C47A
+P 3650 2350
+F 0 "R?" V 3750 2350 50  0000 C CNN
+F 1 "4.7k" V 3650 2350 50  0000 C CNN
+F 2 "" V 3580 2350 50  0001 C CNN
+F 3 "~" H 3650 2350 50  0001 C CNN
+	1    3650 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 2350 3400 2350
+Wire Wire Line
+	3800 2350 4000 2350
+Text HLabel 4000 2350 2    50   Input ~ 10
+Vcc_0
+Text Notes 4000 6450 0    50   ~ 10
+and pullups?\n
 $EndSCHEMATC

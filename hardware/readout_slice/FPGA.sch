@@ -15,90 +15,765 @@ Comment4 ""
 $EndDescr
 $Comp
 L readout:XC7A35T-1FGG484 U?
-U 2 1 604B4183
-P 4350 1100
-F 0 "U?" H 3513 171 50  0000 R CNN
-F 1 "XC7A35T-1FGG484" H 3513 80  50  0000 R CNN
-F 2 "" H 3250 1250 50  0001 C CNN
-F 3 "" H 3250 1250 50  0001 C CNN
-	2    4350 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:XC7A35T-1FGG484 U?
 U 3 1 604BC08F
-P 5700 1050
-F 0 "U?" H 5978 879 50  0000 L CNN
-F 1 "XC7A35T-1FGG484" H 5978 788 50  0000 L CNN
-F 2 "" H 4600 1200 50  0001 C CNN
-F 3 "" H 4600 1200 50  0001 C CNN
-	3    5700 1050
+P 10000 4800
+F 0 "U?" H 10278 4629 50  0000 L CNN
+F 1 "XC7A35T-1FGG484" H 10278 4538 50  0000 L CNN
+F 2 "" H 8900 4950 50  0001 C CNN
+F 3 "" H 8900 4950 50  0001 C CNN
+	3    10000 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout:XC7A35T-1FGG484 U?
 U 4 1 604C5353
-P 8800 1000
-F 0 "U?" H 8850 -2773 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 8850 -2864 50  0000 C CNN
-F 2 "" H 7700 1150 50  0001 C CNN
-F 3 "" H 7700 1150 50  0001 C CNN
-	4    8800 1000
+P 5000 -300
+F 0 "U?" H 5050 -4073 50  0000 C CNN
+F 1 "XC7A35T-1FGG484" H 5050 -4164 50  0000 C CNN
+F 2 "" H 3900 -150 50  0001 C CNN
+F 3 "" H 3900 -150 50  0001 C CNN
+	4    5000 -300
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout:XC7A35T-1FGG484 U?
 U 5 1 604CE9F8
-P 5650 3700
-F 0 "U?" H 5325 -73 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 5325 -164 50  0000 C CNN
-F 2 "" H 4550 3850 50  0001 C CNN
-F 3 "" H 4550 3850 50  0001 C CNN
-	5    5650 3700
+P 5200 5950
+F 0 "U?" H 4875 2177 50  0000 C CNN
+F 1 "XC7A35T-1FGG484" H 4875 2086 50  0000 C CNN
+F 2 "" H 4100 6100 50  0001 C CNN
+F 3 "" H 4100 6100 50  0001 C CNN
+	5    5200 5950
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout:XC7A35T-1FGG484 U?
 U 6 1 604D9845
-P 2150 5300
-F 0 "U?" H 2025 1527 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 2025 1436 50  0000 C CNN
-F 2 "" H 1050 5450 50  0001 C CNN
-F 3 "" H 1050 5450 50  0001 C CNN
-	6    2150 5300
+P 1900 6150
+F 0 "U?" H 1775 2377 50  0000 C CNN
+F 1 "XC7A35T-1FGG484" H 1775 2286 50  0000 C CNN
+F 2 "" H 800 6300 50  0001 C CNN
+F 3 "" H 800 6300 50  0001 C CNN
+	6    1900 6150
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout:XC7A35T-1FGG484 U?
 U 7 1 604E2EDB
-P 8500 5150
-F 0 "U?" H 8375 1377 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 8375 1286 50  0000 C CNN
-F 2 "" H 7400 5300 50  0001 C CNN
-F 3 "" H 7400 5300 50  0001 C CNN
-	7    8500 5150
+P 9850 -800
+F 0 "U?" H 9725 -4573 50  0000 C CNN
+F 1 "XC7A35T-1FGG484" H 9725 -4664 50  0000 C CNN
+F 2 "" H 8750 -650 50  0001 C CNN
+F 3 "" H 8750 -650 50  0001 C CNN
+	7    9850 -800
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout:XC7A35T-1FGG484 U?
 U 8 1 604EB97A
-P 4550 -2950
-F 0 "U?" H 4175 -6723 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 4175 -6814 50  0000 C CNN
-F 2 "" H 3450 -2800 50  0001 C CNN
-F 3 "" H 3450 -2800 50  0001 C CNN
-	8    4550 -2950
+P 2350 -300
+F 0 "U?" H 1975 -4073 50  0000 C CNN
+F 1 "XC7A35T-1FGG484" H 1975 -4164 50  0000 C CNN
+F 2 "" H 1250 -150 50  0001 C CNN
+F 3 "" H 1250 -150 50  0001 C CNN
+	8    2350 -300
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout:XC7A35T-1FGG484 U?
 U 9 1 6050DA52
-P 7350 -1650
-F 0 "U?" H 7275 -1475 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 7275 -1566 50  0000 C CNN
-F 2 "" H 6250 -1500 50  0001 C CNN
-F 3 "" H 6250 -1500 50  0001 C CNN
-	9    7350 -1650
+P 7450 3850
+F 0 "U?" H 7375 4025 50  0000 C CNN
+F 1 "XC7A35T-1FGG484" H 7375 3934 50  0000 C CNN
+F 2 "" H 6350 4000 50  0001 C CNN
+F 3 "" H 6350 4000 50  0001 C CNN
+	9    7450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AA06DE
+P 9400 -1150
+F 0 "C?" H 9308 -1104 50  0000 R CNN
+F 1 "47u" H 9308 -1195 50  0000 R CNB
+F 2 "" H 9400 -1150 50  0001 C CNN
+F 3 "~" H 9400 -1150 50  0001 C CNN
+	1    9400 -1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AA1072
+P 9400 -1450
+F 0 "C?" H 9492 -1404 50  0000 L CNN
+F 1 "4.7u" H 9492 -1495 50  0000 L CNB
+F 2 "" H 9400 -1450 50  0001 C CNN
+F 3 "~" H 9400 -1450 50  0001 C CNN
+	1    9400 -1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AA1251
+P 9050 -1450
+F 0 "C?" H 9142 -1404 50  0000 L CNN
+F 1 "4.7u" H 9142 -1495 50  0000 L CNB
+F 2 "" H 9050 -1450 50  0001 C CNN
+F 3 "~" H 9050 -1450 50  0001 C CNN
+	1    9050 -1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AA1864
+P 8700 -1800
+F 0 "C?" H 8792 -1754 50  0000 L CNN
+F 1 ".47u" H 8792 -1845 50  0000 L CNB
+F 2 "" H 8700 -1800 50  0001 C CNN
+F 3 "~" H 8700 -1800 50  0001 C CNN
+	1    8700 -1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AA1AD6
+P 9050 -1800
+F 0 "C?" H 9142 -1754 50  0000 L CNN
+F 1 ".47u" H 9142 -1845 50  0000 L CNB
+F 2 "" H 9050 -1800 50  0001 C CNN
+F 3 "~" H 9050 -1800 50  0001 C CNN
+	1    9050 -1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AA1CF9
+P 9400 -1800
+F 0 "C?" H 9492 -1754 50  0000 L CNN
+F 1 ".47u" H 9492 -1845 50  0000 L CNB
+F 2 "" H 9400 -1800 50  0001 C CNN
+F 3 "~" H 9400 -1800 50  0001 C CNN
+	1    9400 -1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AA1F1C
+P 9750 -1800
+F 0 "C?" H 9842 -1754 50  0000 L CNN
+F 1 ".47u" H 9842 -1845 50  0000 L CNB
+F 2 "" H 9750 -1800 50  0001 C CNN
+F 3 "~" H 9750 -1800 50  0001 C CNN
+	1    9750 -1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AAA1AC
+P 4050 -750
+F 0 "C?" H 4142 -704 50  0000 L CNN
+F 1 "47u" H 4100 -800 50  0000 L CNB
+F 2 "" H 4050 -750 50  0001 C CNN
+F 3 "~" H 4050 -750 50  0001 C CNN
+	1    4050 -750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AAA1B2
+P 4350 -750
+F 0 "C?" H 4442 -704 50  0000 L CNN
+F 1 "4.7u" H 4400 -800 50  0000 L CNB
+F 2 "" H 4350 -750 50  0001 C CNN
+F 3 "~" H 4350 -750 50  0001 C CNN
+	1    4350 -750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AAA1B8
+P 3800 -750
+F 0 "C?" H 3892 -704 50  0000 L CNN
+F 1 "4.7u" H 3850 -800 50  0000 L CNB
+F 2 "" H 3800 -750 50  0001 C CNN
+F 3 "~" H 3800 -750 50  0001 C CNN
+	1    3800 -750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AAA1BE
+P 5350 -750
+F 0 "C?" H 5450 -700 50  0000 L CNN
+F 1 ".47u" H 5400 -800 50  0000 L CNB
+F 2 "" H 5350 -750 50  0001 C CNN
+F 3 "~" H 5350 -750 50  0001 C CNN
+	1    5350 -750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AAA1C4
+P 5100 -750
+F 0 "C?" H 5192 -704 50  0000 L CNN
+F 1 ".47u" H 5150 -800 50  0000 L CNB
+F 2 "" H 5100 -750 50  0001 C CNN
+F 3 "~" H 5100 -750 50  0001 C CNN
+	1    5100 -750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AAA1CA
+P 4850 -750
+F 0 "C?" H 4942 -704 50  0000 L CNN
+F 1 ".47u" H 4900 -800 50  0000 L CNB
+F 2 "" H 4850 -750 50  0001 C CNN
+F 3 "~" H 4850 -750 50  0001 C CNN
+	1    4850 -750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AAA1D0
+P 4600 -750
+F 0 "C?" H 4692 -704 50  0000 L CNN
+F 1 ".47u" H 4650 -800 50  0000 L CNB
+F 2 "" H 4600 -750 50  0001 C CNN
+F 3 "~" H 4600 -750 50  0001 C CNN
+	1    4600 -750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AABEA1
+P 1550 5450
+F 0 "C?" H 1458 5496 50  0000 R CNN
+F 1 "47u" H 1458 5405 50  0000 R CNB
+F 2 "" H 1550 5450 50  0001 C CNN
+F 3 "~" H 1550 5450 50  0001 C CNN
+	1    1550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AABEA7
+P 1550 5150
+F 0 "C?" H 1642 5196 50  0000 L CNN
+F 1 "4.7u" H 1642 5105 50  0000 L CNB
+F 2 "" H 1550 5150 50  0001 C CNN
+F 3 "~" H 1550 5150 50  0001 C CNN
+	1    1550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AABEAD
+P 1200 5150
+F 0 "C?" H 1292 5196 50  0000 L CNN
+F 1 "4.7u" H 1292 5105 50  0000 L CNB
+F 2 "" H 1200 5150 50  0001 C CNN
+F 3 "~" H 1200 5150 50  0001 C CNN
+	1    1200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AABEB3
+P 850 4800
+F 0 "C?" H 942 4846 50  0000 L CNN
+F 1 ".47u" H 942 4755 50  0000 L CNB
+F 2 "" H 850 4800 50  0001 C CNN
+F 3 "~" H 850 4800 50  0001 C CNN
+	1    850  4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AABEB9
+P 1200 4800
+F 0 "C?" H 1292 4846 50  0000 L CNN
+F 1 ".47u" H 1292 4755 50  0000 L CNB
+F 2 "" H 1200 4800 50  0001 C CNN
+F 3 "~" H 1200 4800 50  0001 C CNN
+	1    1200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AABEBF
+P 1550 4800
+F 0 "C?" H 1642 4846 50  0000 L CNN
+F 1 ".47u" H 1642 4755 50  0000 L CNB
+F 2 "" H 1550 4800 50  0001 C CNN
+F 3 "~" H 1550 4800 50  0001 C CNN
+	1    1550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61AABEC5
+P 1900 4800
+F 0 "C?" H 1992 4846 50  0000 L CNN
+F 1 ".47u" H 1992 4755 50  0000 L CNB
+F 2 "" H 1900 4800 50  0001 C CNN
+F 3 "~" H 1900 4800 50  0001 C CNN
+	1    1900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61ABC05B
+P 5050 5450
+F 0 "C?" H 4958 5496 50  0000 R CNN
+F 1 "47u" H 4958 5405 50  0000 R CNB
+F 2 "" H 5050 5450 50  0001 C CNN
+F 3 "~" H 5050 5450 50  0001 C CNN
+	1    5050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61ABC061
+P 5050 5150
+F 0 "C?" H 5142 5196 50  0000 L CNN
+F 1 "4.7u" H 5142 5105 50  0000 L CNB
+F 2 "" H 5050 5150 50  0001 C CNN
+F 3 "~" H 5050 5150 50  0001 C CNN
+	1    5050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61ABC067
+P 4700 5150
+F 0 "C?" H 4792 5196 50  0000 L CNN
+F 1 "4.7u" H 4792 5105 50  0000 L CNB
+F 2 "" H 4700 5150 50  0001 C CNN
+F 3 "~" H 4700 5150 50  0001 C CNN
+	1    4700 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61ABC06D
+P 4350 4800
+F 0 "C?" H 4442 4846 50  0000 L CNN
+F 1 ".47u" H 4442 4755 50  0000 L CNB
+F 2 "" H 4350 4800 50  0001 C CNN
+F 3 "~" H 4350 4800 50  0001 C CNN
+	1    4350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61ABC073
+P 4700 4800
+F 0 "C?" H 4792 4846 50  0000 L CNN
+F 1 ".47u" H 4792 4755 50  0000 L CNB
+F 2 "" H 4700 4800 50  0001 C CNN
+F 3 "~" H 4700 4800 50  0001 C CNN
+	1    4700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61ABC079
+P 5050 4800
+F 0 "C?" H 5142 4846 50  0000 L CNN
+F 1 ".47u" H 5142 4755 50  0000 L CNB
+F 2 "" H 5050 4800 50  0001 C CNN
+F 3 "~" H 5050 4800 50  0001 C CNN
+	1    5050 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61ABC07F
+P 5400 4800
+F 0 "C?" H 5492 4846 50  0000 L CNN
+F 1 ".47u" H 5492 4755 50  0000 L CNB
+F 2 "" H 5400 4800 50  0001 C CNN
+F 3 "~" H 5400 4800 50  0001 C CNN
+	1    5400 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 -400 5500 -450
+Wire Wire Line
+	5500 -450 5400 -450
+Wire Wire Line
+	5000 -400 5000 -450
+Wire Wire Line
+	5100 -450 5100 -400
+Connection ~ 5100 -450
+Wire Wire Line
+	5100 -450 5000 -450
+Wire Wire Line
+	5200 -400 5200 -450
+Connection ~ 5200 -450
+Wire Wire Line
+	5200 -450 5100 -450
+Wire Wire Line
+	5300 -400 5300 -450
+Connection ~ 5300 -450
+Wire Wire Line
+	5300 -450 5200 -450
+Wire Wire Line
+	5400 -400 5400 -450
+Connection ~ 5400 -450
+Wire Wire Line
+	5400 -450 5300 -450
+$Comp
+L power:GNDD #PWR?
+U 1 1 63318AB6
+P 3800 -550
+F 0 "#PWR?" H 3800 -800 50  0001 C CNN
+F 1 "GNDD" H 3800 -700 50  0000 C CNB
+F 2 "" H 3800 -550 50  0001 C CNN
+F 3 "" H 3800 -550 50  0001 C CNN
+	1    3800 -550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 -900 5350 -900
+Wire Wire Line
+	3800 -900 3800 -850
+Wire Wire Line
+	3800 -650 3800 -600
+Wire Wire Line
+	3800 -600 4050 -600
+Wire Wire Line
+	5350 -600 5350 -650
+Wire Wire Line
+	5350 -850 5350 -900
+Connection ~ 5350 -900
+Wire Wire Line
+	5350 -900 5100 -900
+Wire Wire Line
+	3800 -550 3800 -600
+Connection ~ 3800 -600
+Wire Wire Line
+	4050 -650 4050 -600
+Connection ~ 4050 -600
+Wire Wire Line
+	4050 -600 4350 -600
+Wire Wire Line
+	4050 -850 4050 -900
+Connection ~ 4050 -900
+Wire Wire Line
+	4050 -900 3800 -900
+Wire Wire Line
+	4350 -850 4350 -900
+Connection ~ 4350 -900
+Wire Wire Line
+	4350 -900 4050 -900
+Wire Wire Line
+	4600 -850 4600 -900
+Connection ~ 4600 -900
+Wire Wire Line
+	4600 -900 4350 -900
+Wire Wire Line
+	4850 -850 4850 -900
+Connection ~ 4850 -900
+Wire Wire Line
+	4850 -900 4600 -900
+Wire Wire Line
+	5100 -850 5100 -900
+Connection ~ 5100 -900
+Wire Wire Line
+	5100 -900 4850 -900
+Wire Wire Line
+	5100 -650 5100 -600
+Connection ~ 5100 -600
+Wire Wire Line
+	5100 -600 5350 -600
+Wire Wire Line
+	4850 -650 4850 -600
+Connection ~ 4850 -600
+Wire Wire Line
+	4850 -600 5100 -600
+Wire Wire Line
+	4600 -650 4600 -600
+Connection ~ 4600 -600
+Wire Wire Line
+	4600 -600 4850 -600
+Wire Wire Line
+	4350 -650 4350 -600
+Connection ~ 4350 -600
+Wire Wire Line
+	4350 -600 4600 -600
+Wire Wire Line
+	5500 -900 5500 -1000
+Connection ~ 5500 -900
+Text HLabel 5500 -1000 1    50   Input ~ 10
+Vcc_0
+Wire Wire Line
+	5500 -900 5500 -450
+Connection ~ 5500 -450
+$Comp
+L Device:C_Small C?
+U 1 1 6342744B
+P 850 -700
+F 0 "C?" H 942 -654 50  0000 L CNN
+F 1 "47u" H 900 -750 50  0000 L CNB
+F 2 "" H 850 -700 50  0001 C CNN
+F 3 "~" H 850 -700 50  0001 C CNN
+	1    850  -700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63427451
+P 1150 -700
+F 0 "C?" H 1242 -654 50  0000 L CNN
+F 1 "4.7u" H 1200 -750 50  0000 L CNB
+F 2 "" H 1150 -700 50  0001 C CNN
+F 3 "~" H 1150 -700 50  0001 C CNN
+	1    1150 -700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63427457
+P 600 -700
+F 0 "C?" H 692 -654 50  0000 L CNN
+F 1 "4.7u" H 650 -750 50  0000 L CNB
+F 2 "" H 600 -700 50  0001 C CNN
+F 3 "~" H 600 -700 50  0001 C CNN
+	1    600  -700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6342745D
+P 2150 -700
+F 0 "C?" H 2250 -650 50  0000 L CNN
+F 1 ".47u" H 2200 -750 50  0000 L CNB
+F 2 "" H 2150 -700 50  0001 C CNN
+F 3 "~" H 2150 -700 50  0001 C CNN
+	1    2150 -700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63427463
+P 1900 -700
+F 0 "C?" H 1992 -654 50  0000 L CNN
+F 1 ".47u" H 1950 -750 50  0000 L CNB
+F 2 "" H 1900 -700 50  0001 C CNN
+F 3 "~" H 1900 -700 50  0001 C CNN
+	1    1900 -700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 63427469
+P 1650 -700
+F 0 "C?" H 1742 -654 50  0000 L CNN
+F 1 ".47u" H 1700 -750 50  0000 L CNB
+F 2 "" H 1650 -700 50  0001 C CNN
+F 3 "~" H 1650 -700 50  0001 C CNN
+	1    1650 -700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6342746F
+P 1400 -700
+F 0 "C?" H 1492 -654 50  0000 L CNN
+F 1 ".47u" H 1450 -750 50  0000 L CNB
+F 2 "" H 1400 -700 50  0001 C CNN
+F 3 "~" H 1400 -700 50  0001 C CNN
+	1    1400 -700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 63427475
+P 600 -500
+F 0 "#PWR?" H 600 -750 50  0001 C CNN
+F 1 "GNDD" H 600 -650 50  0000 C CNB
+F 2 "" H 600 -500 50  0001 C CNN
+F 3 "" H 600 -500 50  0001 C CNN
+	1    600  -500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 -850 2150 -850
+Wire Wire Line
+	600  -850 600  -800
+Wire Wire Line
+	600  -600 600  -550
+Wire Wire Line
+	600  -550 850  -550
+Wire Wire Line
+	2150 -550 2150 -600
+Wire Wire Line
+	2150 -800 2150 -850
+Connection ~ 2150 -850
+Wire Wire Line
+	2150 -850 1900 -850
+Wire Wire Line
+	600  -500 600  -550
+Connection ~ 600  -550
+Wire Wire Line
+	850  -600 850  -550
+Connection ~ 850  -550
+Wire Wire Line
+	850  -550 1150 -550
+Wire Wire Line
+	850  -800 850  -850
+Connection ~ 850  -850
+Wire Wire Line
+	850  -850 600  -850
+Wire Wire Line
+	1150 -800 1150 -850
+Connection ~ 1150 -850
+Wire Wire Line
+	1150 -850 850  -850
+Wire Wire Line
+	1400 -800 1400 -850
+Connection ~ 1400 -850
+Wire Wire Line
+	1400 -850 1150 -850
+Wire Wire Line
+	1650 -800 1650 -850
+Connection ~ 1650 -850
+Wire Wire Line
+	1650 -850 1400 -850
+Wire Wire Line
+	1900 -800 1900 -850
+Connection ~ 1900 -850
+Wire Wire Line
+	1900 -850 1650 -850
+Wire Wire Line
+	1900 -600 1900 -550
+Connection ~ 1900 -550
+Wire Wire Line
+	1900 -550 2150 -550
+Wire Wire Line
+	1650 -600 1650 -550
+Connection ~ 1650 -550
+Wire Wire Line
+	1650 -550 1900 -550
+Wire Wire Line
+	1400 -600 1400 -550
+Connection ~ 1400 -550
+Wire Wire Line
+	1400 -550 1650 -550
+Wire Wire Line
+	1150 -600 1150 -550
+Connection ~ 1150 -550
+Wire Wire Line
+	1150 -550 1400 -550
+Wire Wire Line
+	2300 -400 2300 -450
+Connection ~ 2300 -850
+Wire Wire Line
+	2300 -850 2300 -950
+Wire Wire Line
+	2200 -400 2200 -450
+Wire Wire Line
+	2200 -450 2300 -450
+Connection ~ 2300 -450
+Wire Wire Line
+	2300 -450 2300 -850
+Wire Wire Line
+	2100 -400 2100 -450
+Wire Wire Line
+	2100 -450 2200 -450
+Connection ~ 2200 -450
+Wire Wire Line
+	2000 -400 2000 -450
+Connection ~ 2100 -450
+Wire Wire Line
+	1900 -400 1900 -450
+Wire Wire Line
+	1900 -450 2000 -450
+Connection ~ 2000 -450
+Wire Wire Line
+	2000 -450 2100 -450
+Wire Wire Line
+	1800 -400 1800 -450
+Wire Wire Line
+	1800 -450 1900 -450
+Connection ~ 1900 -450
+$Comp
+L Device:C_Small C?
+U 1 1 6050AA4C
+P 10500 4600
+F 0 "C?" H 10408 4646 50  0000 R CNN
+F 1 "47u" H 10408 4555 50  0000 R CNB
+F 2 "" H 10500 4600 50  0001 C CNN
+F 3 "~" H 10500 4600 50  0001 C CNN
+	1    10500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6050AA52
+P 10500 4300
+F 0 "C?" H 10592 4346 50  0000 L CNN
+F 1 "4.7u" H 10592 4255 50  0000 L CNB
+F 2 "" H 10500 4300 50  0001 C CNN
+F 3 "~" H 10500 4300 50  0001 C CNN
+	1    10500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6050AA58
+P 10150 4300
+F 0 "C?" H 10242 4346 50  0000 L CNN
+F 1 "4.7u" H 10242 4255 50  0000 L CNB
+F 2 "" H 10150 4300 50  0001 C CNN
+F 3 "~" H 10150 4300 50  0001 C CNN
+	1    10150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6050AA5E
+P 9800 3950
+F 0 "C?" H 9892 3996 50  0000 L CNN
+F 1 ".47u" H 9892 3905 50  0000 L CNB
+F 2 "" H 9800 3950 50  0001 C CNN
+F 3 "~" H 9800 3950 50  0001 C CNN
+	1    9800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6050AA64
+P 10150 3950
+F 0 "C?" H 10242 3996 50  0000 L CNN
+F 1 ".47u" H 10242 3905 50  0000 L CNB
+F 2 "" H 10150 3950 50  0001 C CNN
+F 3 "~" H 10150 3950 50  0001 C CNN
+	1    10150 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6050AA6A
+P 10500 3950
+F 0 "C?" H 10592 3996 50  0000 L CNN
+F 1 ".47u" H 10592 3905 50  0000 L CNB
+F 2 "" H 10500 3950 50  0001 C CNN
+F 3 "~" H 10500 3950 50  0001 C CNN
+	1    10500 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6050AA70
+P 10850 3950
+F 0 "C?" H 10942 3996 50  0000 L CNN
+F 1 ".47u" H 10942 3905 50  0000 L CNB
+F 2 "" H 10850 3950 50  0001 C CNN
+F 3 "~" H 10850 3950 50  0001 C CNN
+	1    10850 3950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

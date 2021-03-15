@@ -30,15 +30,19 @@ U 603D0C5A
 F0 "power" 50
 F1 "power.sch" 50
 F2 "PS_SRST" I L 2750 7400 50 
+F3 "+3V3" I R 4000 7100 50 
+F4 "+5V" I R 4000 7200 50 
+F5 "GNDA" I R 4000 7300 50 
+F6 "GNDD" I R 4000 7400 50 
 $EndSheet
 $Comp
 L readout:Mars_ZX2 U?
 U 4 1 604A93B2
 P 7300 850
 F 0 "U?" H 7275 1025 50  0000 C CNN
-F 1 "Mars_ZX2" H 7275 934 50  0000 C CNN
-F 2 "" H 7350 1200 50  0001 C CNN
-F 3 "" H 7350 1200 50  0001 C CNN
+F 1 "CITIROC1A" H 7275 934 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 7350 1200 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 7350 1200 50  0001 C CNN
 	4    7300 850 
 	1    0    0    -1  
 $EndComp
@@ -47,9 +51,9 @@ L readout:Mars_ZX2 U?
 U 5 1 604ACDAE
 P 7200 3900
 F 0 "U?" H 7250 4075 50  0000 C CNN
-F 1 "Mars_ZX2" H 7250 3984 50  0000 C CNN
-F 2 "" H 7250 4250 50  0001 C CNN
-F 3 "" H 7250 4250 50  0001 C CNN
+F 1 "CITIROC1A" H 7250 3984 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 7250 4250 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 7250 4250 50  0001 C CNN
 	5    7200 3900
 	1    0    0    -1  
 $EndComp
@@ -60,6 +64,7 @@ F0 "connectivity" 50
 F1 "connectivity.sch" 50
 F2 "PS_SRST" I R 1800 7650 50 
 F3 "SD_id_CD#" I R 1800 7550 50 
+F4 "Vcc_0" I R 1800 7450 50 
 $EndSheet
 $Comp
 L readout_slice-rescue:CITIROC1A-readout U?
@@ -77,6 +82,7 @@ S 1850 6100 1000 500
 U 605605C8
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
+F2 "Vcc_0" I R 2850 6450 50 
 $EndSheet
 Wire Wire Line
 	6100 2800 5300 2800
