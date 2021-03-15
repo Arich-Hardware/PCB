@@ -2173,4 +2173,6 @@ Text Notes 15800 1950 0    50   ~ 10
 don’t drive load\nlook at antmicro
 Text Notes 11450 1600 0    50   ~ 10
 do i use this?
+Text Notes 5600 3200 0    50   ~ 0
+to voltage regulators ->
 $EndSCHEMATC
