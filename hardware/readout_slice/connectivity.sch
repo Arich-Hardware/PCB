@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -135,86 +135,86 @@ Wire Wire Line
 Wire Wire Line
 	8000 2200 7600 2200
 Wire Wire Line
-	5200 6250 4700 6250
+	4900 6450 4400 6450
 Wire Wire Line
-	4700 6350 5200 6350
+	4400 6550 4900 6550
 Wire Wire Line
-	4700 6450 5200 6450
+	4400 6650 4900 6650
 Wire Wire Line
-	4700 6550 5200 6550
+	4400 6750 4900 6750
 Wire Wire Line
-	4700 6750 5200 6750
+	4400 6950 4900 6950
 Wire Wire Line
-	4700 6950 5200 6950
-Text Notes 4450 5950 2    50   ~ 0
+	4400 7150 4900 7150
+Text Notes 4150 6150 2    50   ~ 0
 MIO 40-45 to SD Card
-Text Notes 3550 5750 0    50   ~ 10
+Text Notes 3250 5950 0    50   ~ 10
 MIo 1-6, 8 for QSPI flash??\n
 $Comp
 L Connector:SD_Card J?
 U 1 1 608C0AD2
-P 2400 6750
+P 2100 6950
 AR Path="/608C0AD2" Ref="J?"  Part="1" 
 AR Path="/608B2FC0/608C0AD2" Ref="J?"  Part="1" 
-F 0 "J?" H 2400 6085 50  0000 C CNN
-F 1 "SD_Card" H 2400 6176 50  0000 C CNN
-F 2 "" H 2400 6750 50  0001 C CNN
-F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 2400 6750 50  0001 C CNN
-	1    2400 6750
+F 0 "J?" H 2100 6285 50  0000 C CNN
+F 1 "SD_Card" H 2100 6376 50  0000 C CNN
+F 2 "" H 2100 6950 50  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/10067847.pdf" H 2100 6950 50  0001 C CNN
+	1    2100 6950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3300 6550 3400 6550
+	3000 6750 3100 6750
 Wire Wire Line
-	3400 6550 3400 6850
+	3100 6750 3100 7050
 Wire Wire Line
-	3300 6850 3400 6850
-Connection ~ 3400 6850
+	3000 7050 3100 7050
+Connection ~ 3100 7050
 Wire Wire Line
-	3400 6850 3400 7300
+	3100 7050 3100 7500
 $Comp
 L power:GNDD #PWR?
 U 1 1 608C0ADD
-P 3400 7300
+P 3100 7500
 AR Path="/608C0ADD" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/608C0ADD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3400 7050 50  0001 C CNN
-F 1 "GNDD" H 3404 7145 50  0000 C CNN
-F 2 "" H 3400 7300 50  0001 C CNN
-F 3 "" H 3400 7300 50  0001 C CNN
-	1    3400 7300
+F 0 "#PWR?" H 3100 7250 50  0001 C CNN
+F 1 "GNDD" H 3104 7345 50  0000 C CNN
+F 2 "" H 3100 7500 50  0001 C CNN
+F 3 "" H 3100 7500 50  0001 C CNN
+	1    3100 7500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 6750 3350 6750
+	3000 6950 3050 6950
 Wire Wire Line
-	3350 6750 3350 6150
+	3050 6950 3050 6350
 $Comp
 L power:+3V3 #PWR?
 U 1 1 608C0AE5
-P 3350 6150
+P 3050 6350
 AR Path="/608C0AE5" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/608C0AE5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3350 6000 50  0001 C CNN
-F 1 "+3V3" H 3350 6300 50  0000 C CNN
-F 2 "" H 3350 6150 50  0001 C CNN
-F 3 "" H 3350 6150 50  0001 C CNN
-	1    3350 6150
+F 0 "#PWR?" H 3050 6200 50  0001 C CNN
+F 1 "+3V3" H 3050 6500 50  0000 C CNN
+F 2 "" H 3050 6350 50  0001 C CNN
+F 3 "" H 3050 6350 50  0001 C CNN
+	1    3050 6350
 	1    0    0    -1  
 $EndComp
-Text Notes 3150 6100 0    50   ~ 10
+Text Notes 2850 6300 0    50   ~ 10
 caps?
 $Comp
 L readout:Mars_ZX2 U?
 U 3 1 608C0AEC
-P 5700 6100
+P 5400 6300
 AR Path="/608C0AEC" Ref="U?"  Part="3" 
 AR Path="/608B2FC0/608C0AEC" Ref="U?"  Part="3" 
-F 0 "U?" H 5700 6200 50  0000 C CNN
-F 1 "Mars_ZX2" H 5700 6100 50  0000 C CNN
-F 2 "" H 5750 6450 50  0001 C CNN
-F 3 "" H 5750 6450 50  0001 C CNN
-	3    5700 6100
+F 0 "U?" H 5400 6400 50  0000 C CNN
+F 1 "Mars_ZX2" H 5400 6300 50  0000 C CNN
+F 2 "" H 5450 6650 50  0001 C CNN
+F 3 "" H 5450 6650 50  0001 C CNN
+	3    5400 6300
 	-1   0    0    -1  
 $EndComp
 Text Label 7700 1900 0    50   ~ 10
@@ -267,12 +267,12 @@ F 3 "" H 5550 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 7150 4850 7150
+	4900 7350 4550 7350
 Wire Wire Line
-	5200 7350 4850 7350
-Text Label 4850 7150 0    50   ~ 10
+	4900 7550 4550 7550
+Text Label 4550 7350 0    50   ~ 10
 uart_rx
-Text Label 4850 7350 0    50   ~ 10
+Text Label 4550 7550 0    50   ~ 10
 uart_tx
 $Comp
 L Connector_Generic:Conn_01x04 J?
@@ -340,55 +340,55 @@ F 3 "~" H 10850 5950 50  0001 C CNN
 	1    10850 5950
 	-1   0    0    1   
 $EndComp
-Text Label 6650 5900 0    50   ~ 10
+Text Label 6350 6100 0    50   ~ 10
 VCC_CFG_MIO_B13
 Wire Wire Line
-	6650 5900 6650 6050
+	6350 6100 6350 6250
 Wire Wire Line
-	6650 6050 6550 6050
+	6350 6250 6250 6250
 Wire Wire Line
-	6550 6050 6550 6100
-Connection ~ 6650 6050
+	6250 6250 6250 6300
+Connection ~ 6350 6250
 Wire Wire Line
-	6650 6050 6650 6100
-Text Label 4700 6250 0    50   ~ 10
+	6350 6250 6350 6300
+Text Label 4400 6450 0    50   ~ 10
 SD_io_clk
-Text Label 4700 6350 0    50   ~ 10
+Text Label 4400 6550 0    50   ~ 10
 SD_io_cmd
-Text Label 4700 6450 0    50   ~ 10
+Text Label 4400 6650 0    50   ~ 10
 SD_io_D0
-Text Label 4700 6550 0    50   ~ 10
+Text Label 4400 6750 0    50   ~ 10
 SD_io_D1
-Text Label 4700 6750 0    50   ~ 10
+Text Label 4400 6950 0    50   ~ 10
 SD_io_D2
-Text Label 4700 6950 0    50   ~ 10
+Text Label 4400 7150 0    50   ~ 10
 SD_io_D3
-Text Label 3850 7150 2    50   ~ 10
+Text Label 3550 7350 2    50   ~ 10
 SD_io_D2
 Wire Wire Line
-	3850 7150 3300 7150
-Text Label 3850 7050 2    50   ~ 10
+	3550 7350 3000 7350
+Text Label 3550 7250 2    50   ~ 10
 SD_io_D3
 Wire Wire Line
-	3850 7050 3300 7050
-Text Label 3850 6950 2    50   ~ 10
+	3550 7250 3000 7250
+Text Label 3550 7150 2    50   ~ 10
 SD_io_cmd
 Wire Wire Line
-	3850 6950 3300 6950
-Text Label 3850 6650 2    50   ~ 10
+	3550 7150 3000 7150
+Text Label 3550 6850 2    50   ~ 10
 SD_io_clk
 Wire Wire Line
-	3850 6650 3300 6650
-Text Label 3850 6450 2    50   ~ 10
+	3550 6850 3000 6850
+Text Label 3550 6650 2    50   ~ 10
 SD_io_D0
 Wire Wire Line
-	3850 6450 3300 6450
-Text Label 3850 6350 2    50   ~ 10
+	3550 6650 3000 6650
+Text Label 3550 6550 2    50   ~ 10
 SD_io_D1
 Wire Wire Line
-	3850 6350 3300 6350
+	3550 6550 3000 6550
 Wire Wire Line
-	1300 6950 1500 6950
+	1000 7150 1200 7150
 NoConn ~ 11050 6350
 NoConn ~ 11050 6250
 NoConn ~ 11050 6150
@@ -449,9 +449,9 @@ Text Notes 6100 2950 0    50   ~ 0
 ESD diode chip here\nref antmicro
 Text HLabel 6550 2600 2    50   Input ~ 0
 PS_SRST
-Text HLabel 1300 6950 0    50   Input ~ 10
+Text HLabel 1000 7150 0    50   Input ~ 10
 SD_id_CD#
-Text Notes 3350 6800 0    79   ~ 16
+Text Notes 3050 7000 0    79   ~ 16
 Maybe need level shifter here?
 $Comp
 L Device:LED D?
@@ -738,6 +738,6 @@ Wire Wire Line
 	3800 2350 4000 2350
 Text HLabel 4000 2350 2    50   Input ~ 10
 Vcc_0
-Text Notes 4000 6450 0    50   ~ 10
+Text Notes 3700 6650 0    50   ~ 10
 and pullups?\n
 $EndSCHEMATC
