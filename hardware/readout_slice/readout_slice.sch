@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 6
+Sheet 1 10
 Title "readout_slice"
 Date "2021-02-24"
 Rev "RevA"
@@ -13,39 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 10000 2550 1250 450 
-U 603D0C5A
-F0 "power" 50
-F1 "power.sch" 50
-F2 "PS_SRST" I L 10000 2900 50 
-F3 "+3V3" I R 11250 2600 50 
-F4 "+5V" I R 11250 2700 50 
-F5 "GNDA" I R 11250 2800 50 
-F6 "GNDD" I R 11250 2900 50 
-$EndSheet
-$Comp
-L readout:Mars_ZX2 U?
-U 4 1 604A93B2
-P 15150 1000
-F 0 "U?" H 15125 1175 50  0000 C CNN
-F 1 "Mars_ZX2" H 15125 1084 50  0000 C CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 15200 1350 50  0001 C CNN
-F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 15200 1350 50  0001 C CNN
-	4    15150 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:Mars_ZX2 U?
-U 5 1 604ACDAE
-P 14300 4900
-F 0 "U?" H 14350 5075 50  0000 C CNN
-F 1 "Mars_ZX2" H 14350 4984 50  0000 C CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 14350 5250 50  0001 C CNN
-F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 14350 5250 50  0001 C CNN
-	5    14300 4900
-	1    0    0    -1  
-$EndComp
 $Comp
 L readout_slice-rescue:CITIROC1A-readout U?
 U 3 1 60433BA0
@@ -64,12 +31,6 @@ F0 "FPGA" 50
 F1 "FPGA.sch" 50
 F2 "Vcc_0" I R 11100 4850 50 
 $EndSheet
-Wire Wire Line
-	13950 2950 13150 2950
-Text Notes 12850 2900 0    50   ~ 10
-goes global
-Text Label 13150 2950 0    50   ~ 10
-SD_io_CD#
 $Comp
 L readout:ADM6-40 U?
 U 1 1 605D6B57
@@ -923,18 +884,15 @@ F0 "Citiroc-FPGA" 50
 F1 "Citiroc-FPGA.sch" 50
 $EndSheet
 $Sheet
-S 9850 3450 2100 700 
-U 6099D1B7
-F0 "FPGA-Connectivity" 79
-F1 "FPGA-Connectivity.sch" 79
+S 10050 6500 900  450 
+U 6086954E
+F0 "power" 50
+F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 10100 5300 950  550 
-U 608B2FC0
-F0 "ZX2-connectivity" 50
-F1 "ZX2-connectivity.sch" 50
-F2 "PS_SRST" I R 11050 5800 50 
-F3 "SD_id_CD#" I R 11050 5700 50 
-F4 "Vcc_0" I R 11050 5600 50 
+S 10000 5400 1300 650 
+U 60AD0200
+F0 "connectivity" 50
+F1 "connectivity.sch" 50
 $EndSheet
 $EndSCHEMATC
