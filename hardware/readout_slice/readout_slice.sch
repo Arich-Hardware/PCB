@@ -878,7 +878,7 @@ Resistor arrays for inputs here
 Text Notes 3050 2050 0    59   ~ 12
 Resistor arrays for inputs here
 $Sheet
-S 9950 1400 1700 850 
+S 10650 1500 1700 850 
 U 60548503
 F0 "Citiroc-FPGA" 50
 F1 "Citiroc-FPGA.sch" 50

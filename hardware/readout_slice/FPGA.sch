@@ -422,6 +422,8 @@ $Comp
 L readout:Mars_ZX2 U?
 U 5 1 60BC92AD
 P 400 1300
+AR Path="/60BC92AD" Ref="U?"  Part="5" 
+AR Path="/605605C8/60BC92AD" Ref="U?"  Part="5" 
 F 0 "U?" H 450 1475 50  0000 C CNN
 F 1 "Mars_ZX2" H 450 1384 50  0000 C CNN
 F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 450 1650 50  0001 C CNN
