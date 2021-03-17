@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 9 10
 Title ""
 Date ""
 Rev ""
@@ -19,6 +19,8 @@ U 2 1 609D4741
 P 4350 3200
 AR Path="/605605C8/609D4741" Ref="U?"  Part="2" 
 AR Path="/608B2FC0/609D4741" Ref="U?"  Part="2" 
+AR Path="/6099D1B7/609D4741" Ref="U?"  Part="2" 
+AR Path="/60AD0200/60AFD3C0/609D4741" Ref="U?"  Part="2" 
 F 0 "U?" H 3350 2800 50  0000 R CNN
 F 1 "XC7A35T-1FGG484" H 3500 2600 50  0000 R CNN
 F 2 "" H 3250 3350 50  0001 C CNN
@@ -32,6 +34,8 @@ U 1 1 609D4747
 P 3300 3100
 AR Path="/605605C8/609D4747" Ref="C?"  Part="1" 
 AR Path="/608B2FC0/609D4747" Ref="C?"  Part="1" 
+AR Path="/6099D1B7/609D4747" Ref="C?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/609D4747" Ref="C?"  Part="1" 
 F 0 "C?" H 3208 3146 50  0000 R CNN
 F 1 "47u" H 3208 3055 50  0000 R CNB
 F 2 "" H 3300 3100 50  0001 C CNN
@@ -61,6 +65,8 @@ U 1 1 609D4756
 P 2800 4400
 AR Path="/609D4756" Ref="J?"  Part="1" 
 AR Path="/608B2FC0/609D4756" Ref="J?"  Part="1" 
+AR Path="/6099D1B7/609D4756" Ref="J?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/609D4756" Ref="J?"  Part="1" 
 F 0 "J?" H 2850 3900 50  0000 C CNN
 F 1 "Digilent JTAG header" H 3100 4000 50  0000 C CNN
 F 2 "readout_slice:87832-1420" H 2800 4400 50  0001 C CNN
@@ -78,6 +84,8 @@ U 1 1 609D475E
 P 2550 4800
 AR Path="/609D475E" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/609D475E" Ref="#PWR?"  Part="1" 
+AR Path="/6099D1B7/609D475E" Ref="#PWR?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/609D475E" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 2550 4550 50  0001 C CNN
 F 1 "GNDD" H 2554 4645 50  0000 C CNN
 F 2 "" H 2550 4800 50  0001 C CNN
@@ -136,6 +144,8 @@ U 1 1 609D477F
 P 3600 5400
 AR Path="/609D477F" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/609D477F" Ref="#PWR?"  Part="1" 
+AR Path="/6099D1B7/609D477F" Ref="#PWR?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/609D477F" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3600 5150 50  0001 C CNN
 F 1 "GNDD" H 3600 5250 50  0000 C CNN
 F 2 "" H 3600 5400 50  0001 C CNN
@@ -149,6 +159,8 @@ U 1 1 609D4785
 P 3300 3200
 AR Path="/609D4785" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/609D4785" Ref="#PWR?"  Part="1" 
+AR Path="/6099D1B7/609D4785" Ref="#PWR?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/609D4785" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3300 2950 50  0001 C CNN
 F 1 "GNDD" H 3300 3050 50  0000 C CNN
 F 2 "" H 3300 3200 50  0001 C CNN
@@ -168,6 +180,8 @@ $Comp
 L Device:R R?
 U 1 1 609D478F
 P 5100 4300
+AR Path="/6099D1B7/609D478F" Ref="R?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/609D478F" Ref="R?"  Part="1" 
 F 0 "R?" V 5000 4300 50  0000 C CNN
 F 1 "330" V 5100 4300 50  0000 C CNN
 F 2 "" V 5030 4300 50  0001 C CNN
@@ -181,6 +195,8 @@ $Comp
 L Device:R R?
 U 1 1 609D4796
 P 5300 4500
+AR Path="/6099D1B7/609D4796" Ref="R?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/609D4796" Ref="R?"  Part="1" 
 F 0 "R?" H 5400 4500 50  0000 C CNN
 F 1 "4.7k" V 5300 4500 50  0000 C CNN
 F 2 "" V 5230 4500 50  0001 C CNN
@@ -199,7 +215,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4700 5450 4700
 Connection ~ 5300 4700
-Text Notes 5450 4650 0    50   ~ 10
+Text Notes 5500 4750 0    50   ~ 10
 goes global?
 Text HLabel 5450 4300 2    50   Input ~ 10
 Vcc_0
@@ -225,6 +241,8 @@ U 1 1 609D47AD
 P 4900 5400
 AR Path="/609D47AD" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/609D47AD" Ref="#PWR?"  Part="1" 
+AR Path="/6099D1B7/609D47AD" Ref="#PWR?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/609D47AD" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4900 5150 50  0001 C CNN
 F 1 "GNDD" H 4900 5250 50  0000 C CNN
 F 2 "" H 4900 5400 50  0001 C CNN
@@ -236,6 +254,8 @@ $Comp
 L Device:R R?
 U 1 1 609D47B3
 P 5100 4100
+AR Path="/6099D1B7/609D47B3" Ref="R?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/609D47B3" Ref="R?"  Part="1" 
 F 0 "R?" V 5200 4100 50  0000 C CNN
 F 1 "4.7k" V 5100 4100 50  0000 C CNN
 F 2 "" V 5030 4100 50  0001 C CNN
@@ -249,4 +269,12 @@ Wire Wire Line
 	5250 4100 5450 4100
 Text HLabel 5450 4100 2    50   Input ~ 10
 Vcc_0
+Text Notes 4900 3900 0    50   ~ 0
+configure
+Text Notes 7250 4150 0    50   ~ 10
+need to pick SPI Flash module
+Text Notes 4900 3650 0    50   ~ 0
+is this just cclk?
+Text Notes 4900 3300 0    50   ~ 0
+is this DOUT
 $EndSCHEMATC

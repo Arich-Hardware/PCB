@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -13,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L readout:XC7A35T-1FGG484 U?
-U 3 1 604BC08F
-P 10000 4800
-F 0 "U?" H 10278 4629 50  0000 L CNN
-F 1 "XC7A35T-1FGG484" H 10278 4538 50  0000 L CNN
-F 2 "" H 8900 4950 50  0001 C CNN
-F 3 "" H 8900 4950 50  0001 C CNN
-	3    10000 4800
-	1    0    0    -1  
-$EndComp
 $Comp
 L readout:XC7A35T-1FGG484 U?
 U 4 1 604C5353
@@ -412,81 +401,34 @@ Vcc_0
 Wire Wire Line
 	5500 -900 5500 -450
 Connection ~ 5500 -450
+Text HLabel 9000 2650 0    50   Input ~ 10
+SD_i0_CD#
 $Comp
-L Device:C_Small C?
-U 1 1 6050AA4C
-P 10500 4600
-F 0 "C?" H 10408 4646 50  0000 R CNN
-F 1 "47u" H 10408 4555 50  0000 R CNB
-F 2 "" H 10500 4600 50  0001 C CNN
-F 3 "~" H 10500 4600 50  0001 C CNN
-	1    10500 4600
+L readout:Mars_ZX2 U?
+U 4 1 6067D954
+P 11000 700
+AR Path="/6067D954" Ref="U?"  Part="4" 
+AR Path="/605605C8/6067D954" Ref="U?"  Part="4" 
+F 0 "U?" H 10975 875 50  0000 C CNN
+F 1 "Mars_ZX2" H 10975 784 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 11050 1050 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 11050 1050 50  0001 C CNN
+	4    11000 700 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9800 2650 9000 2650
 $Comp
-L Device:C_Small C?
-U 1 1 6050AA52
-P 10500 4300
-F 0 "C?" H 10592 4346 50  0000 L CNN
-F 1 "4.7u" H 10592 4255 50  0000 L CNB
-F 2 "" H 10500 4300 50  0001 C CNN
-F 3 "~" H 10500 4300 50  0001 C CNN
-	1    10500 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6050AA58
-P 10150 4300
-F 0 "C?" H 10242 4346 50  0000 L CNN
-F 1 "4.7u" H 10242 4255 50  0000 L CNB
-F 2 "" H 10150 4300 50  0001 C CNN
-F 3 "~" H 10150 4300 50  0001 C CNN
-	1    10150 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6050AA5E
-P 9800 3950
-F 0 "C?" H 9892 3996 50  0000 L CNN
-F 1 ".47u" H 9892 3905 50  0000 L CNB
-F 2 "" H 9800 3950 50  0001 C CNN
-F 3 "~" H 9800 3950 50  0001 C CNN
-	1    9800 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6050AA64
-P 10150 3950
-F 0 "C?" H 10242 3996 50  0000 L CNN
-F 1 ".47u" H 10242 3905 50  0000 L CNB
-F 2 "" H 10150 3950 50  0001 C CNN
-F 3 "~" H 10150 3950 50  0001 C CNN
-	1    10150 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6050AA6A
-P 10500 3950
-F 0 "C?" H 10592 3996 50  0000 L CNN
-F 1 ".47u" H 10592 3905 50  0000 L CNB
-F 2 "" H 10500 3950 50  0001 C CNN
-F 3 "~" H 10500 3950 50  0001 C CNN
-	1    10500 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 6050AA70
-P 10850 3950
-F 0 "C?" H 10942 3996 50  0000 L CNN
-F 1 ".47u" H 10942 3905 50  0000 L CNB
-F 2 "" H 10850 3950 50  0001 C CNN
-F 3 "~" H 10850 3950 50  0001 C CNN
-	1    10850 3950
+L readout:Mars_ZX2 U?
+U 5 1 60BC92AD
+P 400 1300
+AR Path="/60BC92AD" Ref="U?"  Part="5" 
+AR Path="/605605C8/60BC92AD" Ref="U?"  Part="5" 
+F 0 "U?" H 450 1475 50  0000 C CNN
+F 1 "Mars_ZX2" H 450 1384 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 450 1650 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 450 1650 50  0001 C CNN
+	5    400  1300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
