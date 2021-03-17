@@ -534,4 +534,8 @@ Wire Wire Line
 	9300 4600 9150 4600
 Text HLabel 9300 4600 2    50   Input ~ 10
 Vcc_cfg_MIO_B13
+Text Notes 8550 2850 0    157  ~ 31
+magjack for eth rj45 connector with transformer modled into it\n
+Text Notes 8550 3100 0    157  ~ 31
+still need some caps\n
 $EndSCHEMATC

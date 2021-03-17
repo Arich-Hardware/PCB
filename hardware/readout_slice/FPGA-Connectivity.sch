@@ -125,7 +125,7 @@ Wire Wire Line
 	2550 4200 2550 4300
 NoConn ~ 3100 4700
 NoConn ~ 3100 4600
-Text Notes 3050 4000 2    50   ~ 10
+Text Notes 3300 4000 2    50   ~ 10
 Vref here
 Text HLabel 3700 2600 1    50   Input ~ 10
 Vcc_0
@@ -277,4 +277,8 @@ Text Notes 4900 3650 0    50   ~ 0
 is this just cclk?
 Text Notes 4900 3300 0    50   ~ 0
 is this DOUT
+Text Notes 5050 5250 0    50   ~ 10
+make all of these Jumpers\nor 0ohm resistor\nwe want GND and Vcc\n
+Text Notes 6050 2900 0    157  ~ 31
+pick pins for serial usb to sparkfun, \nfrom a 3.3V bank
 $EndSCHEMATC

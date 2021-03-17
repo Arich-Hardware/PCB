@@ -25,11 +25,11 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 10100 4500 1000 500 
+S 12700 3050 1000 500 
 U 605605C8
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
-F2 "Vcc_0" I R 11100 4850 50 
+F2 "Vcc_0" I R 13700 3400 50 
 $EndSheet
 $Comp
 L readout:ADM6-40 U?
@@ -878,19 +878,19 @@ Resistor arrays for inputs here
 Text Notes 3050 2050 0    59   ~ 12
 Resistor arrays for inputs here
 $Sheet
-S 10650 1500 1700 850 
+S 11950 1600 1700 850 
 U 60548503
 F0 "Citiroc-FPGA" 50
 F1 "Citiroc-FPGA.sch" 50
 $EndSheet
 $Sheet
-S 10050 6500 900  450 
+S 12650 5050 900  450 
 U 6086954E
 F0 "power" 50
 F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 10000 5400 1300 650 
+S 12600 3950 1300 650 
 U 60AD0200
 F0 "connectivity" 50
 F1 "connectivity.sch" 50

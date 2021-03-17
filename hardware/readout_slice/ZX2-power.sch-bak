@@ -846,4 +846,6 @@ Wire Wire Line
 Connection ~ 4400 2000
 Wire Wire Line
 	4400 2000 4400 1950
+Text Notes 3550 1650 0    50   ~ 10
+caps here are best guess,\nmake sure supply has caps
 $EndSCHEMATC

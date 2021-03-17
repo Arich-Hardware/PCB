@@ -848,4 +848,8 @@ Wire Wire Line
 	4400 2000 4400 1950
 Text Notes 3550 1650 0    50   ~ 10
 caps here are best guess,\nmake sure supply has caps
+Text Notes 8250 3850 0    157  ~ 31
+should have lvds bank on zynq
+Text Notes 6400 2150 0    39   ~ 0
+connect to normal supply
 $EndSCHEMATC
