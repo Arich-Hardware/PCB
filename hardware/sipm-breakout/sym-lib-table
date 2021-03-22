@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name adc-rescue)(type Legacy)(uri ${KIPRJMOD}/../libraries/adc-rescue.lib)(options "")(descr ""))
   (lib (name Arich_SiPM_Board_Parts)(type Legacy)(uri ${KIPRJMOD}/../libraries/Arich_SiPM_Board_Parts.lib)(options "")(descr ""))
   (lib (name ERF8-060-XX.X-X-DV)(type Legacy)(uri ${KIPRJMOD}/../libraries/ERF8-060-XX.X-X-DV.lib)(options "")(descr ""))
   (lib (name readout)(type Legacy)(uri ${KIPRJMOD}/../libraries/readout.lib)(options "")(descr ""))
