@@ -5,4 +5,5 @@
   (lib (name Arich_SiPM_Board_Parts)(type Legacy)(uri ${KIPRJMOD}/../libraries/Arich_SiPM_Board_Parts.lib)(options "")(descr ""))
   (lib (name ERF8-060-XX.X-X-DV)(type Legacy)(uri ${KIPRJMOD}/../libraries/ERF8-060-XX.X-X-DV.lib)(options "")(descr ""))
   (lib (name SiPM_Board-cache)(type Legacy)(uri ${KIPRJMOD}/../libraries/SiPM_Board-cache.lib)(options "")(descr ""))
+  (lib (name readout_slice-rescue)(type Legacy)(uri ${KIPRJMOD}/readout_slice-rescue.lib)(options "")(descr ""))
 )

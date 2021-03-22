@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 16
+Sheet 7 16
 Title ""
 Date ""
 Rev ""
@@ -29,7 +29,7 @@ Resistor arrays for inputs here
 Text Notes 3750 -950 0    50   ~ 0
 bias 2 & bias 4
 $Comp
-L readout_slice-rescue:CITIROC1A-readout U?
+L readout_slice-rescue:CITIROC1A-readout-readout_slice-rescue U?
 U 3 1 60DE5703
 P 10100 850
 AR Path="/60DE5703" Ref="U?"  Part="3" 

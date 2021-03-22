@@ -14,11 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L readout_slice-rescue:CITIROC1A-readout U?
+L readout_slice-rescue:CITIROC1A-readout-readout_slice-rescue U?
 U 2 1 606347B4
 P 2250 2300
 AR Path="/60548503/606347B4" Ref="U?"  Part="2" 
 AR Path="/605DF89A/606347B4" Ref="U?"  Part="2" 
+AR Path="/606347B4" Ref="U?"  Part="2" 
 F 0 "U?" H 2175 -1923 50  0000 C CNN
 F 1 "CITIROC1A" H 2175 -2014 50  0000 C CNN
 F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 1650 2450 50  0001 C CNN

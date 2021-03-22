@@ -1548,11 +1548,11 @@ X MGTRREF_216 F8 -900 -650 100 R 50 50 9 0 I
 ENDDRAW
 ENDDEF
 #
-# readout_slice-rescue_CITIROC1A-readout
+# readout_slice-rescue_CITIROC1A-readout-readout_slice-rescue
 #
-DEF readout_slice-rescue_CITIROC1A-readout U 0 40 Y Y 3 L N
+DEF readout_slice-rescue_CITIROC1A-readout-readout_slice-rescue U 0 40 Y Y 3 L N
 F0 "U" -200 600 50 H V C CNN
-F1 "readout_slice-rescue_CITIROC1A-readout" -200 500 50 H V C CNN
+F1 "readout_slice-rescue_CITIROC1A-readout-readout_slice-rescue" -200 500 50 H V C CNN
 F2 "" -600 150 50 H I C CNN
 F3 "" -600 150 50 H I C CNN
 DRAW

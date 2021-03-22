@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 16
+Sheet 6 16
 Title ""
 Date ""
 Rev ""
@@ -603,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 1600 3800 1600
 $Comp
-L readout_slice-rescue:CITIROC1A-readout U?
+L readout_slice-rescue:CITIROC1A-readout-readout_slice-rescue U?
 U 3 1 60AFA4EB
 P 10100 900
 AR Path="/60AFA4EB" Ref="U?"  Part="3" 
