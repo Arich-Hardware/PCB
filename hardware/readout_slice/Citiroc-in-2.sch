@@ -29,7 +29,7 @@ Resistor arrays for inputs here
 Text Notes 3750 -950 0    50   ~ 0
 bias 2 & bias 4
 $Comp
-L readout_slice-rescue:CITIROC1A-readout-readout_slice-rescue U?
+L readout:CITIROC1A U?
 U 3 1 60DE5703
 P 10100 850
 AR Path="/60DE5703" Ref="U?"  Part="3" 

@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L readout_slice-rescue:CITIROC1A-readout-readout_slice-rescue U?
+L readout:CITIROC1A U?
 U 2 1 606347B4
 P 2250 2300
 AR Path="/60548503/606347B4" Ref="U?"  Part="2" 
@@ -35,9 +35,9 @@ AR Path="/605605C8/606347BA" Ref="U?"  Part="8"
 AR Path="/60548503/606347BA" Ref="U?"  Part="8" 
 AR Path="/605DF89A/606347BA" Ref="U?"  Part="8" 
 F 0 "U?" H 5775 -1873 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 5775 -1964 50  0000 C CNN
-F 2 "" H 5050 2050 50  0001 C CNN
-F 3 "" H 5050 2050 50  0001 C CNN
+F 1 "CITIROC1A" H 5775 -1964 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 5050 2050 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 5050 2050 50  0001 C CNN
 	8    6150 1900
 	1    0    0    -1  
 $EndComp

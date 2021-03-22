@@ -161,7 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2400 2450 2400
 $Comp
-L readout_slice-rescue:CITIROC1A-readout-readout_slice-rescue U?
+L readout:CITIROC1A U?
 U 1 1 608076C8
 P 3650 4150
 AR Path="/608076C8" Ref="U?"  Part="1" 
@@ -469,7 +469,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 1800 6950 1800
 $Comp
-L readout_slice-rescue:CITIROC1A-readout-readout_slice-rescue U?
+L readout:CITIROC1A U?
 U 1 1 61187713
 P 8150 3550
 AR Path="/61187713" Ref="U?"  Part="1" 
