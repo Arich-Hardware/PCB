@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 3 16
 Title ""
 Date ""
 Rev ""
@@ -13,29 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 8750 3750 1050 450 
-U 608F2656
-F0 "ZX2-power" 50
-F1 "ZX2-power.sch" 50
-$EndSheet
-$Sheet
-S 5200 3850 1250 450 
-U 6091AEFD
-F0 "FPGA-power" 50
-F1 "FPGA-power.sch" 50
-F2 "PS_SRST" I L 5200 4200 50 
-F3 "+3V3" I R 6450 3900 50 
-F4 "+5V" I R 6450 4000 50 
-F5 "GNDA" I R 6450 4100 50 
-F6 "GNDD" I R 6450 4200 50 
-$EndSheet
-$Sheet
-S 7100 3750 1150 550 
-U 60943779
-F0 "Citiroc-power" 50
-F1 "Citiroc-power.sch" 50
-$EndSheet
 $Comp
 L Switch:SW_SPDT SW?
 U 1 1 6097AB01

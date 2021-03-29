@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 15 16
 Title ""
 Date ""
 Rev ""
@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L readout_slice-rescue:CITIROC1A-readout U?
+L readout:CITIROC1A U?
 U 2 1 60572F47
 P 3200 2100
+AR Path="/60572F47" Ref="U?"  Part="2" 
+AR Path="/60548503/60572F47" Ref="U?"  Part="2" 
 F 0 "U?" H 3125 -2123 50  0000 C CNN
 F 1 "CITIROC1A" H 3125 -2214 50  0000 C CNN
 F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 2600 2250 50  0001 C CNN
@@ -31,9 +33,9 @@ P 6000 2550
 AR Path="/605605C8/605F79B7" Ref="U?"  Part="7" 
 AR Path="/60548503/605F79B7" Ref="U?"  Part="7" 
 F 0 "U?" H 5875 -1223 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 5875 -1314 50  0000 C CNN
-F 2 "" H 4900 2700 50  0001 C CNN
-F 3 "" H 4900 2700 50  0001 C CNN
+F 1 "CITIROC1A" H 5875 -1314 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 4900 2700 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 4900 2700 50  0001 C CNN
 	7    6000 2550
 	1    0    0    -1  
 $EndComp
