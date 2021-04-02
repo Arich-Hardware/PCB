@@ -56,19 +56,19 @@ F0 "Citiroc-in-2" 50
 F1 "Citiroc-in-2.sch" 50
 $EndSheet
 $Sheet
-S 8300 4200 1050 500 
+S 7700 5050 1050 500 
 U 60767BB3
 F0 "ADC_LVDS" 50
 F1 "ADC_LVDS.sch" 50
 $EndSheet
 $Sheet
-S 9500 4200 1100 500 
+S 9450 4700 1100 500 
 U 60768143
 F0 "AXI-C2C" 50
 F1 "AXI-C2C.sch" 50
 $EndSheet
 $Sheet
-S 9500 3450 1100 550 
+S 8150 3900 1100 550 
 U 607686E6
 F0 "FPGA-misc" 50
 F1 "FPGA-misc.sch" 50
@@ -102,9 +102,9 @@ Text Notes 1100 3300 0    157  ~ 31
 CITIROC-FPGA
 Text Notes 5500 1100 0    157  ~ 31
 CONNECTIVITY
-Text Notes 6350 3950 0    157  ~ 31
+Text Notes 5650 3700 0    157  ~ 31
 Work in Progress
-Text Notes 8500 3900 0    157  ~ 31
+Text Notes 7800 3650 0    157  ~ 31
 ???? — ????
 NoConn ~ 6000 950 
 $Sheet
@@ -120,7 +120,7 @@ F0 "FPGA-Connectivity" 79
 F1 "FPGA-Connectivity.sch" 79
 $EndSheet
 $Sheet
-S 4900 4500 1050 550 
+S 4250 4750 1050 550 
 U 60767640
 F0 "FPGA-3V3-Bank" 50
 F1 "FPGA-3V3-Bank.sch" 50
