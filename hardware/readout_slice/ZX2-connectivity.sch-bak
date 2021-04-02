@@ -539,7 +539,7 @@ Text HLabel 9300 4600 2    50   Input ~ 10
 Vcc_cfg_MIO_B13
 Text Notes 4850 150  0    157  ~ 31
 magjack for eth rj45 connector with transformer modled into it\n
-Text Notes 7550 450  0    157  ~ 31
+Text Notes 7550 650  0    157  ~ 31
 still need some caps\n
 $Comp
 L Connector:RJ45_Amphenol_RJMG1BD3B8K1ANR J?

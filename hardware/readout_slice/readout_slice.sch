@@ -14,11 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5950 5650 1000 500 
+S 6450 4250 1000 500 
 U 605605C8
 F0 "FPGA" 50
 F1 "FPGA.sch" 50
-F2 "Vcc_0" I R 6950 6000 50 
+F2 "Vcc_0" I R 7450 4600 50 
 $EndSheet
 Text Notes 800  1100 0    157  ~ 31
 CITIROC INPUTS
@@ -54,12 +54,6 @@ S 1900 1300 950  400
 U 60764AEF
 F0 "Citiroc-in-2" 50
 F1 "Citiroc-in-2.sch" 50
-$EndSheet
-$Sheet
-S 8300 3450 1050 550 
-U 60767640
-F0 "Citiroc3V3" 50
-F1 "Citiroc3V3.sch" 50
 $EndSheet
 $Sheet
 S 8300 4200 1050 500 
@@ -108,9 +102,9 @@ Text Notes 1100 3300 0    157  ~ 31
 CITIROC-FPGA
 Text Notes 5500 1100 0    157  ~ 31
 CONNECTIVITY
-Text Notes 5550 5500 0    157  ~ 31
+Text Notes 6350 3950 0    157  ~ 31
 Work in Progress
-Text Notes 8650 3250 0    157  ~ 31
+Text Notes 8500 3900 0    157  ~ 31
 ???? — ????
 NoConn ~ 6000 950 
 $Sheet
@@ -124,5 +118,11 @@ S 4750 1350 2100 700
 U 606EBC4D
 F0 "FPGA-Connectivity" 79
 F1 "FPGA-Connectivity.sch" 79
+$EndSheet
+$Sheet
+S 4900 4500 1050 550 
+U 60767640
+F0 "FPGA-3V3-Bank" 50
+F1 "FPGA-3V3-Bank.sch" 50
 $EndSheet
 $EndSCHEMATC
