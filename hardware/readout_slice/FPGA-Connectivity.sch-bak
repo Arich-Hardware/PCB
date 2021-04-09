@@ -917,4 +917,6 @@ Wire Wire Line
 Connection ~ 4900 2800
 Wire Wire Line
 	4300 2800 4900 2800
+Text Notes 7250 1150 0    157  ~ 31
+ADC does not go on this SPI bus
 $EndSCHEMATC

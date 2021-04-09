@@ -135,4 +135,6 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 $EndComp
 Wire Wire Line
 	2300 4600 1500 4600
+Text Notes 5950 2150 0    157  ~ 31
+Make this a 2.5V LVDS Bank
 $EndSCHEMATC

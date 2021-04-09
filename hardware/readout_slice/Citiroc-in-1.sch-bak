@@ -1919,4 +1919,8 @@ Text HLabel 10400 2650 2    50   Input ~ 0
 FPGA_CCLK_0
 Text HLabel 9950 2350 2    50   Input ~ 0
 ADC_SCLK_1
+Text Notes 9700 800  0    50   ~ 10
+could also be 2.5V,\nmust match bank voltage of FPGA
+Text Notes 11050 2700 0    157  ~ 31
+as long as bank voltages match\nthis will work fine, just send to LVDS bank
 $EndSCHEMATC
