@@ -117,12 +117,6 @@ U 606EBC4D
 F0 "FPGA-Connectivity" 79
 F1 "FPGA-Connectivity.sch" 79
 $EndSheet
-$Sheet
-S 850  3300 1050 550 
-U 60767640
-F0 "FPGA-3V3-Bank" 50
-F1 "FPGA-3V3-Bank.sch" 50
-$EndSheet
 Text Notes 4350 3000 0    118  ~ 24
 16pin header: from FPGA\n4 3v3 signals 4 1v8
 Text Notes 9850 3300 0    79   ~ 16
@@ -163,5 +157,48 @@ S 6550 4100 1100 500
 U 608F6DFA
 F0 "Misc" 50
 F1 "Misc.sch" 50
+$EndSheet
+$Sheet
+S 3900 3750 1750 3450
+U 60767640
+F0 "FPGA-3V3-Bank" 50
+F1 "FPGA-3V3-Bank.sch" 50
+F2 "FPGA_tx" I R 5650 3800 50 
+F3 "FPGA_rx" I R 5650 3900 50 
+F4 "resetb_pa" I L 3900 3900 50 
+F5 "rstb_PSC" I L 3900 4000 50 
+F6 "pwr_on" I L 3900 3800 50 
+F7 "PS_global_trig" I L 3900 4500 50 
+F8 "PS_modeb_ext" I L 3900 4600 50 
+F9 "load_sc_1" I L 3900 4800 50 
+F10 "select_1" I L 3900 4200 50 
+F11 "hold_lg" I L 3900 5100 50 
+F12 "hold_hg" I L 3900 5200 50 
+F13 "srin_read_1" I L 3900 5400 50 
+F14 "clk_read_1" I L 3900 5500 50 
+F15 "resetb_read_1" I L 3900 5600 50 
+F16 "srin_sc_1" I L 3900 5800 50 
+F17 "clk_sr_1" I L 3900 5900 50 
+F18 "rstb_sr_1" I L 3900 6000 50 
+F19 "load_sc_2" I L 3900 4900 50 
+F20 "select_2" I L 3900 4300 50 
+F21 "srin_read_2" I L 3900 6200 50 
+F22 "clk_read_2" I L 3900 6300 50 
+F23 "resetb_read_2" I L 3900 6400 50 
+F24 "srin_sc_2" I L 3900 6600 50 
+F25 "clk_sr_2" I L 3900 6700 50 
+F26 "rstb_sr_2" I L 3900 6800 50 
+F27 "srout_read_1" I R 5650 5400 50 
+F28 "srout_sc_1" I R 5650 5800 50 
+F29 "dig_out_1" I R 5650 5600 50 
+F30 "srout_read_2" I R 5650 6200 50 
+F31 "srout_sc_2" I R 5650 6600 50 
+F32 "dig_out_2" I R 5650 6400 50 
+F33 "NOR32T_oc_1" I R 5650 4800 50 
+F34 "NOR32_oc_1" I R 5650 4700 50 
+F35 "OR32_1" I R 5650 4600 50 
+F36 "NOR32T_oc_2" I R 5650 5000 50 
+F37 "NOR32_oc_2" I R 5650 5100 50 
+F38 "OR32_2" I R 5650 5200 50 
 $EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 15
+Sheet 15 15
 Title ""
 Date ""
 Rev ""
@@ -383,4 +383,16 @@ Text HLabel 3550 4750 0    50   Input ~ 0
 NOR32_oc_1
 Text HLabel 3550 4650 0    50   Input ~ 0
 OR32_1
+Wire Wire Line
+	3700 6450 3550 6450
+Wire Wire Line
+	3700 6350 3550 6350
+Wire Wire Line
+	3700 6250 3550 6250
+Text HLabel 3550 6450 0    50   Input ~ 0
+NOR32T_oc_2
+Text HLabel 3550 6350 0    50   Input ~ 0
+NOR32_oc_2
+Text HLabel 3550 6250 0    50   Input ~ 0
+OR32_2
 $EndSCHEMATC

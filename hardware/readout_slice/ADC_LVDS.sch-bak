@@ -57,12 +57,4 @@ Text Notes 2900 2100 0    50   ~ 0
 2.5V
 Text Notes 2950 2200 0    50   ~ 0
 should be FPGA
-Text HLabel 6800 2050 0    50   Input ~ 0
-Raz_Chn_p
-Text HLabel 6800 2150 0    50   Input ~ 0
-Raz_Chn_n
-Text HLabel 6800 2250 0    50   Input ~ 0
-Val_Evt_p
-Text HLabel 6800 2350 0    50   Input ~ 0
-Val_Evt_n
 $EndSCHEMATC
