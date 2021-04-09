@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 16
+Sheet 4 15
 Title ""
 Date ""
 Rev ""
@@ -559,16 +559,16 @@ $EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 60EE4CD2
-P 9650 2700
+P 9650 2800
 AR Path="/60EE4CD2" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/60EE4CD2" Ref="#PWR?"  Part="1" 
 AR Path="/60AD0200/60B2D848/60EE4CD2" Ref="#PWR?"  Part="1" 
 AR Path="/607155C8/60EE4CD2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9650 2450 50  0001 C CNN
-F 1 "GNDD" H 9654 2545 50  0000 C CNN
-F 2 "" H 9650 2700 50  0001 C CNN
-F 3 "" H 9650 2700 50  0001 C CNN
-	1    9650 2700
+F 0 "#PWR?" H 9650 2550 50  0001 C CNN
+F 1 "GNDD" H 9654 2645 50  0000 C CNN
+F 2 "" H 9650 2800 50  0001 C CNN
+F 3 "" H 9650 2800 50  0001 C CNN
+	1    9650 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -641,4 +641,15 @@ Wire Wire Line
 	8150 2500 8750 2500
 Wire Wire Line
 	8150 2300 8750 2300
+Wire Wire Line
+	9650 2800 9650 2750
+Wire Wire Line
+	9650 2750 10600 2750
+Wire Wire Line
+	10600 2750 10600 2400
+Wire Wire Line
+	10600 2400 10550 2400
+Connection ~ 9650 2750
+Wire Wire Line
+	9650 2750 9650 2700
 $EndSCHEMATC

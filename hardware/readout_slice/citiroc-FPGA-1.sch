@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 16
+Sheet 14 15
 Title ""
 Date ""
 Rev ""
@@ -274,99 +274,19 @@ Text HLabel 2700 3500 0    50   Input ~ 0
 PS_modeb_ext
 Text HLabel 2700 3700 0    50   Input ~ 0
 load_sc_1
-NoConn ~ 4200 5900
-NoConn ~ 4200 6100
-NoConn ~ 4200 6000
-Text Notes 4250 6000 0    50   ~ 0
-Not Needed
-Text Notes 1700 2650 0    50   ~ 0
-LVDS Logic 0
 $Comp
 L Device:R R?
 U 1 1 608CECB3
 P 2500 2900
-F 0 "R?" V 2600 2850 50  0000 L CNN
+F 0 "R?" V 2550 3000 50  0000 L CNN
 F 1 "100" V 2500 2800 50  0000 L CNN
 F 2 "" V 2430 2900 50  0001 C CNN
 F 3 "~" H 2500 2900 50  0001 C CNN
 	1    2500 2900
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 608D2690
-P 2500 2700
-F 0 "R?" V 2650 2650 50  0000 L CNN
-F 1 "100" V 2500 2600 50  0000 L CNN
-F 2 "" V 2430 2700 50  0001 C CNN
-F 3 "~" H 2500 2700 50  0001 C CNN
-	1    2500 2700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 608D5CA2
-P 2750 2000
-F 0 "#PWR?" H 2750 1850 50  0001 C CNN
-F 1 "+3V3" H 2750 2150 50  0000 C CNN
-F 2 "" H 2750 2000 50  0001 C CNN
-F 3 "" H 2750 2000 50  0001 C CNN
-	1    2750 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 2900 2750 2900
-Wire Wire Line
-	2750 2900 2750 2700
-Wire Wire Line
-	2850 2700 2750 2700
-Connection ~ 2750 2700
-Wire Wire Line
-	2750 2700 2750 2000
-Wire Wire Line
-	2750 2900 2650 2900
-Connection ~ 2750 2900
-Wire Wire Line
-	2750 2700 2650 2700
-Wire Wire Line
-	2850 2600 2250 2600
-Wire Wire Line
-	2250 2600 2250 2700
-Wire Wire Line
-	2250 2700 2350 2700
-Wire Wire Line
-	2850 3000 2250 3000
-Wire Wire Line
-	2250 3000 2250 2900
-Wire Wire Line
-	2250 2900 2350 2900
-Wire Wire Line
-	2250 2900 2250 2700
-Connection ~ 2250 2900
-Connection ~ 2250 2700
-Wire Wire Line
-	2250 3000 2250 3100
-Connection ~ 2250 3000
-$Comp
-L power:GNDD #PWR?
-U 1 1 608E1AE4
-P 2250 3100
-AR Path="/605605C8/608E1AE4" Ref="#PWR?"  Part="1" 
-AR Path="/60548503/608E1AE4" Ref="#PWR?"  Part="1" 
-AR Path="/605DF89A/608E1AE4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2250 2850 50  0001 C CNN
-F 1 "GNDD" H 2250 2950 50  0000 C CNB
-F 2 "" H 2250 3100 50  0001 C CNN
-F 3 "" H 2250 3100 50  0001 C CNN
-	1    2250 3100
-	1    0    0    -1  
-$EndComp
 Text HLabel 2750 3200 0    50   Input ~ 0
 select_1
-Text Notes 1700 2900 0    50   ~ 0
-LVDS Logic 1
-Text Notes 1450 2850 2    50   ~ 0
-page 13 of\nCitiroc1A\ndatasheet
 Wire Wire Line
 	7850 2000 7850 2100
 $Comp
@@ -699,10 +619,6 @@ Text Label 9100 5300 2    50   ~ 0
 T2
 Wire Wire Line
 	8900 5300 9100 5300
-NoConn ~ 6150 4100
-NoConn ~ 6150 4200
-NoConn ~ 6150 4700
-NoConn ~ 6150 4800
 NoConn ~ 6150 5000
 NoConn ~ 6150 5100
 NoConn ~ 6150 5300
@@ -750,4 +666,95 @@ F 3 "" H 4250 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3650 1700 3650 2000
+Text Notes 1000 2200 0    50   ~ 0
+make sure signals don’t just disapper\nmake accessable on outer layer\n
+Text Notes 4400 6550 0    50   ~ 0
+note open collectors from data sheet
+Text Notes 3800 7000 0    157  ~ 31
+LEDS!!!
+Text Notes 1750 7000 0    157  ~ 31
+and GPIOs\n
+Wire Wire Line
+	4200 5900 4350 5900
+Wire Wire Line
+	4200 6000 4350 6000
+Wire Wire Line
+	4200 6100 4350 6100
+Text HLabel 4350 5900 2    50   Input ~ 0
+NOR32T_oc_1
+Text HLabel 4350 6000 2    50   Input ~ 0
+NOR32_oc_1
+Text HLabel 4350 6100 2    50   Input ~ 0
+OR32_1
+$Comp
+L Device:R R?
+U 1 1 608D2690
+P 2500 2600
+F 0 "R?" V 2550 2700 50  0000 L CNN
+F 1 "100" V 2500 2500 50  0000 L CNN
+F 2 "" V 2430 2600 50  0001 C CNN
+F 3 "~" H 2500 2600 50  0001 C CNN
+	1    2500 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 2600 2750 2600
+Wire Wire Line
+	2850 2900 2750 2900
+Wire Wire Line
+	2750 2600 2750 2500
+Wire Wire Line
+	2750 2500 2200 2500
+Connection ~ 2750 2600
+Wire Wire Line
+	2750 2600 2650 2600
+Wire Wire Line
+	2750 2900 2750 2800
+Wire Wire Line
+	2750 2800 2200 2800
+Connection ~ 2750 2900
+Wire Wire Line
+	2750 2900 2650 2900
+Wire Wire Line
+	2350 2900 2300 2900
+Wire Wire Line
+	2300 2900 2300 3000
+Wire Wire Line
+	2300 3000 2850 3000
+Wire Wire Line
+	2300 3000 2200 3000
+Connection ~ 2300 3000
+Wire Wire Line
+	2200 2700 2300 2700
+Wire Wire Line
+	2350 2600 2300 2600
+Wire Wire Line
+	2300 2600 2300 2700
+Connection ~ 2300 2700
+Wire Wire Line
+	2300 2700 2850 2700
+Text Label 2200 2500 2    50   ~ 0
+Raz_Chn_p
+Text Label 2200 2700 2    50   ~ 0
+Raz_Chn_n
+Text Label 2200 2800 2    50   ~ 0
+Val_Ext_p
+Text Label 2200 3000 2    50   ~ 0
+Val_Ext_n
+Text Label 5650 4100 0    50   ~ 0
+Raz_Chn_p
+Text Label 5650 4200 0    50   ~ 0
+Raz_Chn_n
+Wire Wire Line
+	6150 4100 5650 4100
+Wire Wire Line
+	5650 4200 6150 4200
+Text Label 5700 4700 0    50   ~ 0
+Val_Ext_p
+Text Label 5700 4800 0    50   ~ 0
+Val_Ext_n
+Wire Wire Line
+	6150 4700 5700 4700
+Wire Wire Line
+	5700 4800 6150 4800
 $EndSCHEMATC

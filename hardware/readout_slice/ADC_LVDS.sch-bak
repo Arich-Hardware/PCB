@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 16
+Sheet 6 15
 Title ""
 Date ""
 Rev ""
@@ -33,9 +33,8 @@ Wire Wire Line
 	3000 2300 3100 2300
 Wire Wire Line
 	3200 2300 3200 2400
-Connection ~ 3000 2300
 Wire Wire Line
-	3000 2300 3000 2150
+	3250 1500 3250 1350
 Wire Wire Line
 	3100 2400 3100 2300
 Connection ~ 3100 2300
@@ -44,14 +43,26 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR?
 U 1 1 606D8143
-P 3000 2150
-F 0 "#PWR?" H 3000 2000 50  0001 C CNN
-F 1 "+3V3" H 3015 2323 50  0000 C CNN
-F 2 "" H 3000 2150 50  0001 C CNN
-F 3 "" H 3000 2150 50  0001 C CNN
-	1    3000 2150
+P 3250 1350
+F 0 "#PWR?" H 3250 1200 50  0001 C CNN
+F 1 "+3V3" H 3265 1523 50  0000 C CNN
+F 2 "" H 3250 1350 50  0001 C CNN
+F 3 "" H 3250 1350 50  0001 C CNN
+	1    3250 1350
 	1    0    0    -1  
 $EndComp
 Text Notes 3300 2050 0    50   ~ 0
 LVDS Bank
+Text Notes 2900 2100 0    50   ~ 0
+2.5V
+Text Notes 2950 2200 0    50   ~ 0
+should be FPGA
+Text HLabel 6800 2050 0    50   Input ~ 0
+Raz_Chn_p
+Text HLabel 6800 2150 0    50   Input ~ 0
+Raz_Chn_n
+Text HLabel 6800 2250 0    50   Input ~ 0
+Val_Evt_p
+Text HLabel 6800 2350 0    50   Input ~ 0
+Val_Evt_n
 $EndSCHEMATC
