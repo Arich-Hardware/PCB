@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 15
+Sheet 14 15
 Title ""
 Date ""
 Rev ""
@@ -19,6 +19,7 @@ U 9 1 608F9D82
 P 5150 2900
 AR Path="/605605C8/608F9D82" Ref="U?"  Part="9" 
 AR Path="/608F9D82" Ref="U?"  Part="9" 
+AR Path="/608F6DFA/608F9D82" Ref="U?"  Part="9" 
 F 0 "U?" H 5075 3075 50  0000 C CNN
 F 1 "XC7A35T-1FGG484" H 5075 2984 50  0000 C CNN
 F 2 "" H 4050 3050 50  0001 C CNN
