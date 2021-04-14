@@ -251,10 +251,18 @@ Wire Wire Line
 	4400 2500 4300 2500
 Text HLabel 1650 3250 0    50   Input ~ 0
 Raz_Chn_p
-Text HLabel 1650 3450 0    50   Input ~ 0
+Text HLabel 1650 3350 0    50   Input ~ 0
 Raz_chn_n
 Text HLabel 1650 3550 0    50   Input ~ 0
 Val_Ext_p
-Text HLabel 1650 3750 0    50   Input ~ 0
+Text HLabel 1650 3650 0    50   Input ~ 0
 Val_Ext_n
+Wire Wire Line
+	1650 3250 1800 3250
+Wire Wire Line
+	1650 3350 1800 3350
+Wire Wire Line
+	1650 3550 1800 3550
+Wire Wire Line
+	1650 3650 1800 3650
 $EndSCHEMATC
