@@ -2404,4 +2404,6 @@ Wire Wire Line
 	3500 5100 3650 5100
 Wire Wire Line
 	3500 5150 3500 5100
+Text Notes 3500 6600 0    50   ~ 0
+simple solution in parallel
 $EndSCHEMATC

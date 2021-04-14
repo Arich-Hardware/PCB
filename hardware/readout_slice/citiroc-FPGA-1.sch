@@ -30,15 +30,15 @@ $EndComp
 $Comp
 L readout:XC7A35T-1FGG484 U?
 U 8 1 606347BA
-P 9550 2500
+P 8550 2350
 AR Path="/605605C8/606347BA" Ref="U?"  Part="8" 
 AR Path="/60548503/606347BA" Ref="U?"  Part="8" 
 AR Path="/605DF89A/606347BA" Ref="U?"  Part="8" 
-F 0 "U?" H 9175 -1273 50  0000 C CNN
-F 1 "CITIROC1A" H 9175 -1364 50  0000 C CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 8450 2650 50  0001 C CNN
-F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 8450 2650 50  0001 C CNN
-	8    9550 2500
+F 0 "U?" H 8175 -1423 50  0000 C CNN
+F 1 "CITIROC1A" H 8175 -1514 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 7450 2500 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 7450 2500 50  0001 C CNN
+	8    8550 2350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -219,47 +219,47 @@ Connection ~ 10050 1200
 Wire Wire Line
 	10050 1200 10300 1200
 Wire Wire Line
-	9500 2400 9500 2350
+	8500 2250 8500 2200
 Wire Wire Line
-	9400 2400 9400 2350
+	8400 2250 8400 2200
 Wire Wire Line
-	9400 2350 9500 2350
+	8400 2200 8500 2200
 Wire Wire Line
-	9300 2400 9300 2350
+	8300 2250 8300 2200
 Wire Wire Line
-	9300 2350 9400 2350
-Connection ~ 9400 2350
+	8300 2200 8400 2200
+Connection ~ 8400 2200
 Wire Wire Line
-	9200 2400 9200 2350
-Connection ~ 9300 2350
+	8200 2250 8200 2200
+Connection ~ 8300 2200
 Wire Wire Line
-	9100 2400 9100 2350
+	8100 2250 8100 2200
 Wire Wire Line
-	9100 2350 9200 2350
-Connection ~ 9200 2350
+	8100 2200 8200 2200
+Connection ~ 8200 2200
 Wire Wire Line
-	9200 2350 9300 2350
+	8200 2200 8300 2200
 Wire Wire Line
-	9000 2400 9000 2350
+	8000 2250 8000 2200
 Wire Wire Line
-	9000 2350 9100 2350
-Connection ~ 9100 2350
+	8000 2200 8100 2200
+Connection ~ 8100 2200
 $Comp
 L power:+1V8 #PWR?
 U 1 1 6063482B
-P 9500 2250
+P 8500 2100
 AR Path="/60548503/6063482B" Ref="#PWR?"  Part="1" 
 AR Path="/605DF89A/6063482B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9500 2100 50  0001 C CNN
-F 1 "+1V8" H 9500 2400 50  0000 C CNB
-F 2 "" H 9500 2250 50  0001 C CNN
-F 3 "" H 9500 2250 50  0001 C CNN
-	1    9500 2250
+F 0 "#PWR?" H 8500 1950 50  0001 C CNN
+F 1 "+1V8" H 8500 2250 50  0000 C CNB
+F 2 "" H 8500 2100 50  0001 C CNN
+F 3 "" H 8500 2100 50  0001 C CNN
+	1    8500 2100
 	1    0    0    -1  
 $EndComp
 Text Notes 700  850  0    157  ~ 31
 3V3 controls?
-Connection ~ 9500 2350
+Connection ~ 8500 2200
 Text Notes 2700 1800 0    50   ~ 0
 from bank?
 Text HLabel 2450 2200 0    50   Input ~ 0
@@ -288,7 +288,7 @@ $EndComp
 Text HLabel 2600 3200 0    50   Input ~ 0
 select_1
 Wire Wire Line
-	9500 2250 9500 2350
+	8500 2100 8500 2200
 $Comp
 L power:+1V8 #PWR?
 U 1 1 60A0AA14
@@ -492,147 +492,145 @@ Wire Wire Line
 Wire Wire Line
 	4250 5200 4050 5200
 Wire Wire Line
-	10550 5450 10750 5450
-Text Label 10750 5450 2    50   ~ 0
+	9550 5300 9750 5300
+Text Label 9750 5300 2    50   ~ 0
 T0
-Text Label 7600 2650 0    50   ~ 0
+Text Label 6600 2500 0    50   ~ 0
 T31
 Wire Wire Line
-	7600 2650 7800 2650
-Text Label 7600 2550 0    50   ~ 0
+	6600 2500 6800 2500
+Text Label 6600 2400 0    50   ~ 0
 T30
-Text Label 10750 2850 2    50   ~ 0
+Text Label 9750 2700 2    50   ~ 0
 T29
-Text Label 10750 2750 2    50   ~ 0
+Text Label 9750 2600 2    50   ~ 0
 T28
-Text Label 7600 2950 0    50   ~ 0
+Text Label 6600 2800 0    50   ~ 0
 T27
-Text Label 10750 3150 2    50   ~ 0
+Text Label 9750 3000 2    50   ~ 0
 T26
-Text Label 7600 2850 0    50   ~ 0
+Text Label 6600 2700 0    50   ~ 0
 T25
-Text Label 10750 3050 2    50   ~ 0
+Text Label 9750 2900 2    50   ~ 0
 T24
-Text Label 7600 3250 0    50   ~ 0
+Text Label 6600 3100 0    50   ~ 0
 T23
-Text Label 10750 3350 2    50   ~ 0
+Text Label 9750 3200 2    50   ~ 0
 T22
-Text Label 10750 2550 2    50   ~ 0
+Text Label 9750 2400 2    50   ~ 0
 T21
-Text Label 7600 3150 0    50   ~ 0
+Text Label 6600 3000 0    50   ~ 0
 T20
-Text Label 10750 3750 2    50   ~ 0
+Text Label 9750 3600 2    50   ~ 0
 T19
-Text Label 7600 4150 0    50   ~ 0
+Text Label 6600 4000 0    50   ~ 0
 T18
-Text Label 10750 4350 2    50   ~ 0
+Text Label 9750 4200 2    50   ~ 0
 T17
-Text Label 10750 3650 2    50   ~ 0
+Text Label 9750 3500 2    50   ~ 0
 T16
-Text Label 7600 4050 0    50   ~ 0
+Text Label 6600 3900 0    50   ~ 0
 T15
-Text Label 10750 4250 2    50   ~ 0
+Text Label 9750 4100 2    50   ~ 0
 T14
-Text Label 7600 3550 0    50   ~ 0
+Text Label 6600 3400 0    50   ~ 0
 T13
-Text Label 7600 3850 0    50   ~ 0
+Text Label 6600 3700 0    50   ~ 0
 T12
-Text Label 7600 3450 0    50   ~ 0
+Text Label 6600 3300 0    50   ~ 0
 T11
-Text Label 7600 3750 0    50   ~ 0
+Text Label 6600 3600 0    50   ~ 0
 T10
-Text Label 10750 4650 2    50   ~ 0
+Text Label 9750 4500 2    50   ~ 0
 T9
-Text Label 7600 4750 0    50   ~ 0
+Text Label 6600 4600 0    50   ~ 0
 T8
-Text Label 10750 4550 2    50   ~ 0
+Text Label 9750 4400 2    50   ~ 0
 T7
-Text Label 7600 4650 0    50   ~ 0
+Text Label 6600 4500 0    50   ~ 0
 T6
-Text Label 10750 4950 2    50   ~ 0
+Text Label 9750 4800 2    50   ~ 0
 T5
-Text Label 10750 4850 2    50   ~ 0
+Text Label 9750 4700 2    50   ~ 0
 T4
-Text Label 10750 5850 2    50   ~ 0
+Text Label 9750 5700 2    50   ~ 0
 T3
-Text Label 10750 5750 2    50   ~ 0
+Text Label 9750 5600 2    50   ~ 0
 T1
 Wire Wire Line
-	10750 5750 10550 5750
+	9750 5600 9550 5600
 Wire Wire Line
-	10750 5850 10550 5850
+	9750 5700 9550 5700
 Wire Wire Line
-	10550 4850 10750 4850
+	9550 4700 9750 4700
 Wire Wire Line
-	10750 4950 10550 4950
+	9750 4800 9550 4800
 Wire Wire Line
-	7800 4650 7600 4650
+	6800 4500 6600 4500
 Wire Wire Line
-	10750 4550 10550 4550
+	9750 4400 9550 4400
 Wire Wire Line
-	7800 4750 7600 4750
+	6800 4600 6600 4600
 Wire Wire Line
-	10750 4650 10550 4650
+	9750 4500 9550 4500
 Wire Wire Line
-	7800 3750 7600 3750
+	6800 3600 6600 3600
 Wire Wire Line
-	7600 3450 7800 3450
+	6600 3300 6800 3300
 Wire Wire Line
-	7800 3850 7600 3850
+	6800 3700 6600 3700
 Wire Wire Line
-	7600 3550 7800 3550
+	6600 3400 6800 3400
 Wire Wire Line
-	10550 4250 10750 4250
+	9550 4100 9750 4100
 Wire Wire Line
-	7600 4050 7800 4050
+	6600 3900 6800 3900
 Wire Wire Line
-	10750 3650 10550 3650
+	9750 3500 9550 3500
 Wire Wire Line
-	10550 4350 10750 4350
+	9550 4200 9750 4200
 Wire Wire Line
-	7600 4150 7800 4150
+	6600 4000 6800 4000
 Wire Wire Line
-	10550 3750 10750 3750
+	9550 3600 9750 3600
 Wire Wire Line
-	7600 3150 7800 3150
+	6600 3000 6800 3000
 Wire Wire Line
-	10550 2550 10750 2550
+	9550 2400 9750 2400
 Wire Wire Line
-	10750 3350 10550 3350
+	9750 3200 9550 3200
 Wire Wire Line
-	7800 3250 7600 3250
+	6800 3100 6600 3100
 Wire Wire Line
-	10750 3050 10550 3050
+	9750 2900 9550 2900
 Wire Wire Line
-	7800 2850 7600 2850
+	6800 2700 6600 2700
 Wire Wire Line
-	10750 3150 10550 3150
+	9750 3000 9550 3000
 Wire Wire Line
-	7800 2950 7600 2950
+	6800 2800 6600 2800
 Wire Wire Line
-	10750 2750 10550 2750
+	9750 2600 9550 2600
 Wire Wire Line
-	10550 2850 10750 2850
+	9550 2700 9750 2700
 Wire Wire Line
-	7600 2550 7800 2550
-Text Label 10750 5550 2    50   ~ 0
+	6600 2400 6800 2400
+Text Label 9750 5400 2    50   ~ 0
 T2
 Wire Wire Line
-	10550 5550 10750 5550
-NoConn ~ 7800 5250
-NoConn ~ 7800 5350
-NoConn ~ 7800 5550
-NoConn ~ 7800 5650
-NoConn ~ 7800 5850
-NoConn ~ 7800 5950
-NoConn ~ 7800 6150
-NoConn ~ 10550 6150
-NoConn ~ 10550 6050
-NoConn ~ 10550 5250
-NoConn ~ 10550 5150
-NoConn ~ 10550 4050
-NoConn ~ 10550 3950
-NoConn ~ 10550 3450
+	9550 5400 9750 5400
+NoConn ~ 6800 5100
+NoConn ~ 6800 5200
+NoConn ~ 6800 5400
+NoConn ~ 6800 5500
+NoConn ~ 6800 5700
+NoConn ~ 6800 5800
+NoConn ~ 6800 6000
+NoConn ~ 9550 6000
+NoConn ~ 9550 5900
+NoConn ~ 9550 3900
+NoConn ~ 9550 3800
+NoConn ~ 9550 3300
 $Comp
 L Connector:TestPoint_2Pole TP?
 U 1 1 60D6A41E
@@ -733,22 +731,22 @@ Wire Wire Line
 Connection ~ 2150 2700
 Wire Wire Line
 	2150 2700 2700 2700
-Text Label 7300 4350 0    50   ~ 0
+Text Label 6300 4200 0    50   ~ 0
 Raz_Chn_p
-Text Label 7300 4450 0    50   ~ 0
+Text Label 6300 4300 0    50   ~ 0
 Raz_Chn_n
 Wire Wire Line
-	7800 4350 7300 4350
+	6800 4200 6300 4200
 Wire Wire Line
-	7300 4450 7800 4450
-Text Label 7350 4950 0    50   ~ 0
+	6300 4300 6800 4300
+Text Label 6350 4800 0    50   ~ 0
 Val_Ext_p
-Text Label 7350 5050 0    50   ~ 0
+Text Label 6350 4900 0    50   ~ 0
 Val_Ext_n
 Wire Wire Line
-	7800 4950 7350 4950
+	6800 4800 6350 4800
 Wire Wire Line
-	7350 5050 7800 5050
+	6350 4900 6800 4900
 Text Notes 550  2850 0    50   ~ 10
 Parrallel w/ other chip,\ndoes that change 100R?
 Text HLabel 2050 2500 0    50   Input ~ 0
@@ -1306,4 +1304,12 @@ Wire Wire Line
 Connection ~ 4150 6100
 Wire Wire Line
 	4150 6100 4200 6100
+Text HLabel 9750 5000 2    50   Input ~ 0
+1v8_GPIO1
+Text HLabel 9750 5100 2    50   Input ~ 0
+1v8_GPIO2
+Wire Wire Line
+	9750 5000 9550 5000
+Wire Wire Line
+	9550 5100 9750 5100
 $EndSCHEMATC

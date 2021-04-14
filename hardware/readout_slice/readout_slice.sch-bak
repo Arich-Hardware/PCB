@@ -43,7 +43,7 @@ F0 "Citiroc-in-2" 50
 F1 "Citiroc-in-2.sch" 50
 $EndSheet
 $Sheet
-S 6650 5100 1100 500 
+S 6150 4900 1100 500 
 U 60768143
 F0 "FPGA-LVDS" 50
 F1 "FPGA-LVDS.sch" 50
@@ -108,6 +108,8 @@ F23 "Raz_Chn_p" I L 2250 4800 50
 F24 "Raz_chn_n" I L 2250 4900 50 
 F25 "Val_Ext_p" I L 2250 5100 50 
 F26 "Val_Ext_n" I L 2250 5200 50 
+F27 "1v8_GPIO3" I R 3400 5000 50 
+F28 "1v8_GPIO4" I R 3400 5100 50 
 $EndSheet
 $Sheet
 S 4750 1350 2100 700 
@@ -115,11 +117,11 @@ U 606EBC4D
 F0 "FPGA-Connectivity" 79
 F1 "FPGA-Connectivity.sch" 79
 $EndSheet
-Text Notes 4350 3000 0    118  ~ 24
+Text Notes 8500 3750 0    118  ~ 24
 16pin header: from FPGA\n4 3v3 signals 4 1v8
-Text Notes 9850 3300 0    79   ~ 16
+Text Notes 9950 -200 0    79   ~ 16
 leds on all supplies
-Text Notes 9750 4000 0    79   ~ 16
+Text Notes 9850 500  0    79   ~ 16
 48V for bulk power,\ndon’t fight too much,\n12V is fine if no choice
 $Sheet
 S 850  4350 1150 2650
@@ -151,11 +153,13 @@ F23 "Raz_Chn_p" I L 850 4800 50
 F24 "Raz_chn_n" I L 850 4900 50 
 F25 "Val_Ext_p" I L 850 5100 50 
 F26 "Val_Ext_n" I L 850 5200 50 
+F27 "1v8_GPIO1" I R 2000 5000 50 
+F28 "1v8_GPIO2" I R 2000 5100 50 
 $EndSheet
 Text Notes 1400 7650 0    79   ~ 16
 GPIO, LEDs, & collectors
 $Sheet
-S 9700 4650 1100 500 
+S 9800 5800 1100 500 
 U 608F6DFA
 F0 "Misc" 50
 F1 "Misc.sch" 50
@@ -202,13 +206,78 @@ F35 "OR32_1" I R 5500 5100 50
 F36 "NOR32T_oc_2" I R 5500 5500 50 
 F37 "NOR32_oc_2" I R 5500 5600 50 
 F38 "OR32_2" I R 5500 5700 50 
+F39 "3v3_GPIO1" I R 5500 4600 50 
+F40 "3v3_GPIO2" I R 5500 4700 50 
+F41 "3v3_GPIO3" I R 5500 4800 50 
+F42 "3v3_GPIO4" I R 5500 4900 50 
 $EndSheet
 Text Notes 550  3300 0    157  ~ 31
 oscilator of 100MHz on\nboard - 4pin sq device\npwr, gnd out, en(jumper this)\nto MRCC pin - p pin
 Text Notes 850  3550 0    79   ~ 16
 double check footprints,\nosc datasheets can be strange
-Text Notes 7600 3700 0    79   ~ 16
+Text Notes 7700 200  0    79   ~ 16
 its okay to bulk 48V \nto 5V for any specific \npower supply — specifically support artix-7 \nw/ ref design
-Text Notes 9200 6500 0    118  ~ 24
+Text Notes 9200 5950 0    118  ~ 24
 if zynq goes away,\nsfp to serdes
+$Comp
+L Connector_Generic:Conn_02x08_Counter_Clockwise J?
+U 1 1 62158B62
+P 10050 4350
+F 0 "J?" H 10100 4867 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 10100 4776 50  0000 C CNN
+F 2 "" H 10050 4350 50  0001 C CNN
+F 3 "~" H 10050 4350 50  0001 C CNN
+	1    10050 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 4050 10400 4050
+Wire Wire Line
+	10400 4050 10400 4150
+Wire Wire Line
+	10400 4750 10350 4750
+Connection ~ 10400 4750
+Wire Wire Line
+	10400 4750 10400 4900
+Wire Wire Line
+	10350 4650 10400 4650
+Connection ~ 10400 4650
+Wire Wire Line
+	10400 4650 10400 4750
+Wire Wire Line
+	10400 4550 10350 4550
+Connection ~ 10400 4550
+Wire Wire Line
+	10400 4550 10400 4650
+Wire Wire Line
+	10350 4450 10400 4450
+Connection ~ 10400 4450
+Wire Wire Line
+	10400 4450 10400 4550
+Wire Wire Line
+	10400 4350 10350 4350
+Connection ~ 10400 4350
+Wire Wire Line
+	10400 4350 10400 4450
+Wire Wire Line
+	10350 4250 10400 4250
+Connection ~ 10400 4250
+Wire Wire Line
+	10400 4250 10400 4350
+Wire Wire Line
+	10400 4150 10350 4150
+Connection ~ 10400 4150
+Wire Wire Line
+	10400 4150 10400 4250
+$Comp
+L power:GNDD #PWR?
+U 1 1 62161E30
+P 10400 4900
+F 0 "#PWR?" H 10400 4650 50  0001 C CNN
+F 1 "GNDD" H 10404 4745 50  0000 C CNN
+F 2 "" H 10400 4900 50  0001 C CNN
+F 3 "" H 10400 4900 50  0001 C CNN
+	1    10400 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

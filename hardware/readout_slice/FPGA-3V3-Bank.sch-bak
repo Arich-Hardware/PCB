@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 14
+Sheet 14 14
 Title ""
 Date ""
 Rev ""
@@ -395,4 +395,22 @@ Text HLabel 3550 6350 0    50   Input ~ 0
 NOR32_oc_2
 Text HLabel 3550 6250 0    50   Input ~ 0
 OR32_2
+Text HLabel 8900 4350 2    50   Input ~ 0
+3v3_GPIO1
+Text HLabel 8900 4450 2    50   Input ~ 0
+3v3_GPIO2
+Text HLabel 8900 4550 2    50   Input ~ 0
+3v3_GPIO3
+Text HLabel 8900 4650 2    50   Input ~ 0
+3v3_GPIO4
+Wire Wire Line
+	8900 4350 8750 4350
+Wire Wire Line
+	8900 4450 8750 4450
+Wire Wire Line
+	8900 4550 8750 4550
+Wire Wire Line
+	8900 4650 8750 4650
+Text Notes 8700 4300 0    50   ~ 0
+to GPIO
 $EndSCHEMATC

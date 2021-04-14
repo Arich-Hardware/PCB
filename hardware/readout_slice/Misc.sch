@@ -72,6 +72,7 @@ P 3350 4700
 AR Path="/6077706D" Ref="U?"  Part="4" 
 AR Path="/605605C8/6077706D" Ref="U?"  Part="4" 
 AR Path="/60768143/6077706D" Ref="U?"  Part="4" 
+AR Path="/608F6DFA/6077706D" Ref="U?"  Part="4" 
 F 0 "U?" H 3500 4900 50  0000 C CNN
 F 1 "Mars_ZX2" H 3550 4800 50  0000 C CNN
 F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 3400 5050 50  0001 C CNN
