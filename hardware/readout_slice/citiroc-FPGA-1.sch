@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 15
+Sheet 12 14
 Title ""
 Date ""
 Rev ""
@@ -733,14 +733,6 @@ Wire Wire Line
 Connection ~ 2300 2700
 Wire Wire Line
 	2300 2700 2850 2700
-Text Label 2200 2500 2    50   ~ 0
-Raz_Chn_p
-Text Label 2200 2700 2    50   ~ 0
-Raz_Chn_n
-Text Label 2200 2800 2    50   ~ 0
-Val_Ext_p
-Text Label 2200 3000 2    50   ~ 0
-Val_Ext_n
 Text Label 5650 4100 0    50   ~ 0
 Raz_Chn_p
 Text Label 5650 4200 0    50   ~ 0
@@ -757,6 +749,14 @@ Wire Wire Line
 	6150 4700 5700 4700
 Wire Wire Line
 	5700 4800 6150 4800
-Text Notes 1150 2700 0    50   ~ 0
-should be 2.5V
+Text Notes 750  2800 0    50   ~ 10
+Parrallel w/ other chip,\ndoes that change 100R?
+Text HLabel 2200 2500 0    50   Input ~ 0
+Raz_Chn_p
+Text HLabel 2200 2700 0    50   Input ~ 0
+Raz_chn_n
+Text HLabel 2200 2800 0    50   Input ~ 0
+Val_Ext_p
+Text HLabel 2200 3000 0    50   Input ~ 0
+Val_Ext_n
 $EndSCHEMATC

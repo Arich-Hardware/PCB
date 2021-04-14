@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 15
+Sheet 11 14
 Title ""
 Date ""
 Rev ""
@@ -129,8 +129,6 @@ Wire Wire Line
 	1650 3350 1650 3450
 NoConn ~ 2200 3850
 NoConn ~ 2200 3750
-Text HLabel 2300 3150 1    50   Input ~ 10
-Vcc_0
 Wire Wire Line
 	3150 4400 3150 4450
 Wire Wire Line
@@ -213,13 +211,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 3850 4900 3850
 Connection ~ 4750 3850
-Text HLabel 4900 3450 2    50   Input ~ 10
-Vcc_0
 Wire Wire Line
 	4900 3450 4750 3450
 Connection ~ 4750 3450
-Text HLabel 3750 6750 1    50   Input ~ 10
-Vcc_0
 $Comp
 L power:GNDD #PWR?
 U 1 1 609D47AD
@@ -254,8 +248,6 @@ Wire Wire Line
 	4400 3250 4300 3250
 Wire Wire Line
 	4700 3250 4900 3250
-Text HLabel 4900 3250 2    50   Input ~ 10
-Vcc_0
 Text Notes 4300 3050 0    50   ~ 0
 ug470 page 24
 $Comp
@@ -303,8 +295,6 @@ Wire Wire Line
 	2300 3150 2300 3250
 Wire Wire Line
 	2300 3250 2200 3250
-Text HLabel 3150 1750 1    50   Input ~ 10
-Vcc_0
 Text Notes 4150 1050 0    50   ~ 0
 Does power all sort out if vcc0 = 3v3
 $Comp
@@ -503,27 +493,7 @@ Wire Wire Line
 Wire Notes Line width 39
 	6950 6300 6950 7800
 Wire Wire Line
-	3150 1900 3350 1900
-Wire Wire Line
-	3350 1900 3350 1750
-Connection ~ 3150 1900
-Wire Wire Line
-	3150 1900 3150 1750
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6070E178
-P 3350 1750
-F 0 "#PWR?" H 3350 1600 50  0001 C CNN
-F 1 "+3V3" H 3350 1900 50  0000 C CNN
-F 2 "" H 3350 1750 50  0001 C CNN
-F 3 "" H 3350 1750 50  0001 C CNN
-	1    3350 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	4300 3050 4900 3050
-Text HLabel 4900 3050 2    50   Input ~ 10
-Vcc_0
 $Comp
 L readout:XC7A35T-1FGG484 U?
 U 4 1 60741F74
@@ -738,8 +708,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 1650 9450 1550
 Connection ~ 9450 1650
-Text HLabel 9450 1550 1    50   Input ~ 10
-Vcc_0
 Wire Wire Line
 	9450 1650 9450 2100
 Connection ~ 9450 2100
@@ -755,17 +723,6 @@ Text Label 4900 2600 0    50   ~ 0
 D[03]
 Text Notes 6400 2650 0    50   ~ 10
 128Mb
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6094400A
-P 6200 2000
-F 0 "#PWR?" H 6200 1850 50  0001 C CNN
-F 1 "+3V3" H 6200 2150 50  0000 C CNN
-F 2 "" H 6200 2000 50  0001 C CNN
-F 3 "" H 6200 2000 50  0001 C CNN
-	1    6200 2000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5300 1700 5500 1700
 Connection ~ 5300 1700
@@ -778,11 +735,7 @@ Wire Wire Line
 	5500 1800 5500 1700
 Wire Wire Line
 	5700 1700 5700 1800
-Wire Wire Line
-	5200 1700 5300 1700
-Text HLabel 5200 1700 0    50   Input ~ 10
-Vcc_0
-Text Notes 5050 1600 0    50   ~ 0
+Text Notes 4000 1850 0    50   ~ 0
 Look at xapp586 page 7\nshould S, W, HOLD all be ‘nots’
 Wire Wire Line
 	5700 2600 4900 2600
@@ -906,8 +859,6 @@ Wire Wire Line
 	10750 3100 10450 3100
 NoConn ~ 4300 2400
 NoConn ~ 4300 2500
-Text HLabel 7100 2300 0    50   Input ~ 0
-FPGA_MOSI
 Text HLabel 5000 2700 2    50   Input ~ 0
 FPGA_CCLK_0
 Wire Wire Line
@@ -917,6 +868,105 @@ Wire Wire Line
 Connection ~ 4900 2800
 Wire Wire Line
 	4300 2800 4900 2800
-Text Notes 7250 1150 0    157  ~ 31
-ADC does not go on this SPI bus
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60894F31
+P 9450 1550
+F 0 "#PWR?" H 9450 1400 50  0001 C CNN
+F 1 "+3V3" H 9450 1700 50  0000 C CNB
+F 2 "" H 9450 1550 50  0001 C CNN
+F 3 "" H 9450 1550 50  0001 C CNN
+	1    9450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6089A00F
+P 5300 1600
+F 0 "#PWR?" H 5300 1450 50  0001 C CNN
+F 1 "+3V3" H 5300 1750 50  0000 C CNB
+F 2 "" H 5300 1600 50  0001 C CNN
+F 3 "" H 5300 1600 50  0001 C CNN
+	1    5300 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1700 5300 1600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6089FEE0
+P 6200 2000
+F 0 "#PWR?" H 6200 1850 50  0001 C CNN
+F 1 "+3V3" H 6200 2150 50  0000 C CNB
+F 2 "" H 6200 2000 50  0001 C CNN
+F 3 "" H 6200 2000 50  0001 C CNN
+	1    6200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 608A04F6
+P 3150 1900
+F 0 "#PWR?" H 3150 1750 50  0001 C CNN
+F 1 "+3V3" H 3150 2050 50  0000 C CNB
+F 2 "" H 3150 1900 50  0001 C CNN
+F 3 "" H 3150 1900 50  0001 C CNN
+	1    3150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 608A0A7D
+P 2300 3150
+F 0 "#PWR?" H 2300 3000 50  0001 C CNN
+F 1 "+3V3" H 2300 3300 50  0000 C CNB
+F 2 "" H 2300 3150 50  0001 C CNN
+F 3 "" H 2300 3150 50  0001 C CNN
+	1    2300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 608A330A
+P 4900 3450
+F 0 "#PWR?" H 4900 3300 50  0001 C CNN
+F 1 "+3V3" V 4900 3650 50  0000 C CNB
+F 2 "" H 4900 3450 50  0001 C CNN
+F 3 "" H 4900 3450 50  0001 C CNN
+	1    4900 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 608A5046
+P 4900 3250
+F 0 "#PWR?" H 4900 3100 50  0001 C CNN
+F 1 "+3V3" V 4900 3450 50  0000 C CNB
+F 2 "" H 4900 3250 50  0001 C CNN
+F 3 "" H 4900 3250 50  0001 C CNN
+	1    4900 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 608A52D9
+P 4900 3050
+F 0 "#PWR?" H 4900 2900 50  0001 C CNN
+F 1 "+3V3" V 4900 3250 50  0000 C CNB
+F 2 "" H 4900 3050 50  0001 C CNN
+F 3 "" H 4900 3050 50  0001 C CNN
+	1    4900 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 608A795D
+P 3750 6750
+F 0 "#PWR?" H 3750 6600 50  0001 C CNN
+F 1 "+3V3" H 3750 6900 50  0000 C CNB
+F 2 "" H 3750 6750 50  0001 C CNN
+F 3 "" H 3750 6750 50  0001 C CNN
+	1    3750 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

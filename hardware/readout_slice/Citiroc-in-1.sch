@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 15
+Sheet 4 14
 Title ""
 Date ""
 Rev ""
@@ -1628,8 +1628,6 @@ Wire Wire Line
 Connection ~ 10800 1950
 Wire Wire Line
 	10800 1950 10800 2050
-Text Notes 8750 1300 0    50   ~ 0
-should these\nbe different?
 Wire Wire Line
 	8800 1450 8800 1350
 Wire Wire Line
@@ -1650,11 +1648,6 @@ $EndComp
 Wire Wire Line
 	8700 1250 8700 1350
 Connection ~ 8700 1350
-Wire Wire Line
-	8800 1350 9100 1350
-Wire Wire Line
-	9100 1350 9100 1450
-Connection ~ 8800 1350
 Wire Wire Line
 	8250 2750 8200 2750
 Wire Wire Line
@@ -1870,17 +1863,6 @@ F 3 "" H 9500 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 617357E4
-P 9500 800
-F 0 "#PWR?" H 9500 650 50  0001 C CNN
-F 1 "+3V3" H 9500 950 50  0000 C CNN
-F 2 "" H 9500 800 50  0001 C CNN
-F 3 "" H 9500 800 50  0001 C CNN
-	1    9500 800 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 61751800
 P 7900 900
@@ -1915,12 +1897,32 @@ F 3 "" H 7900 800 50  0001 C CNN
 $EndComp
 Text Notes 8750 2400 0    79   ~ 16
 Check\nPackage
-Text HLabel 10400 2650 2    50   Input ~ 0
-FPGA_CCLK_0
 Text HLabel 9950 2350 2    50   Input ~ 0
 ADC_SCLK_1
-Text Notes 9700 800  0    50   ~ 10
-could also be 2.5V,\nmust match bank voltage of FPGA
-Text Notes 11050 2700 0    157  ~ 31
-as long as bank voltages match\nthis will work fine, just send to LVDS bank
+$Comp
+L power:+2V5 #PWR?
+U 1 1 6083A712
+P 9100 1350
+F 0 "#PWR?" H 9100 1200 50  0001 C CNN
+F 1 "+2V5" H 9100 1500 50  0000 C CNB
+F 2 "" H 9100 1350 50  0001 C CNN
+F 3 "" H 9100 1350 50  0001 C CNN
+	1    9100 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1350 9100 1450
+$Comp
+L power:+2V5 #PWR?
+U 1 1 6086BC85
+P 9500 800
+F 0 "#PWR?" H 9500 650 50  0001 C CNN
+F 1 "+2V5" H 9500 950 50  0000 C CNB
+F 2 "" H 9500 800 50  0001 C CNN
+F 3 "" H 9500 800 50  0001 C CNN
+	1    9500 800 
+	1    0    0    -1  
+$EndComp
+Text Notes 10500 2600 0    50   ~ 0
+SPI to LVDS bank
 $EndSCHEMATC
