@@ -1312,4 +1312,6 @@ Wire Wire Line
 	9750 5000 9550 5000
 Wire Wire Line
 	9550 5100 9750 5100
+Text Notes 4700 6100 0    50   ~ 0
+only pullups on OR signals
 $EndSCHEMATC

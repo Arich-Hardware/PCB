@@ -1925,4 +1925,8 @@ F 3 "" H 9500 800 50  0001 C CNN
 $EndComp
 Text Notes 10500 2600 0    50   ~ 0
 SPI to LVDS bank
+Text Notes 7050 2100 0    50   ~ 0
+this is lg
+Text Notes 7100 2600 0    50   ~ 0
+look for citiroc output \nbuffer\n
 $EndSCHEMATC

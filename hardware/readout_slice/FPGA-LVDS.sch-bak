@@ -265,4 +265,6 @@ Wire Wire Line
 	1650 3550 1800 3550
 Wire Wire Line
 	1650 3650 1800 3650
+Text Notes 750  3550 0    50   ~ 0
+always point to point\n2 chips -> 2 sets of signals
 $EndSCHEMATC

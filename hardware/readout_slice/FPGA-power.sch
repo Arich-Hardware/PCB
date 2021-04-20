@@ -2406,4 +2406,12 @@ Wire Wire Line
 	3500 5150 3500 5100
 Text Notes 3500 6600 0    50   ~ 0
 simple solution in parallel
+Text Notes 3150 2250 0    50   ~ 0
+finish this schematic\n
+Text Notes 3850 5950 0    50   ~ 0
+header to all power supplies w/\nseperate gnd pin
+Text Notes 4700 3450 0    50   ~ 0
+label very clearly what\neach supply is
+Text Notes 5050 3750 0    50   ~ 0
+also indicate current capability
 $EndSCHEMATC

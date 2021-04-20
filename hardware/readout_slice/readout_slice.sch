@@ -280,4 +280,6 @@ F 3 "" H 10400 4900 50  0001 C CNN
 	1    10400 4900
 	1    0    0    -1  
 $EndComp
+Text Notes 8250 6500 0    157  ~ 31
+refrence this:\nhttp://gauss.bu.edu/redmine/projects/cms-ecal-vfe-adapter/repository
 $EndSCHEMATC

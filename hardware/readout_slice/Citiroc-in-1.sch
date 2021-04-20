@@ -1497,7 +1497,7 @@ $EndComp
 Wire Wire Line
 	7200 3250 7000 3250
 Text Notes 7150 1600 0    50   ~ 0
-May need RF circuit here\npage 48 of ADC datasheet
+May need RF circuit here\npage 48 of ADC datasheet\n- go ahead and do it, assume\nwe meet impedance\ndo resistor and cap
 $Comp
 L power:GNDA #PWR?
 U 1 1 61165CA5
@@ -1925,4 +1925,8 @@ F 3 "" H 9500 800 50  0001 C CNN
 $EndComp
 Text Notes 10500 2600 0    50   ~ 0
 SPI to LVDS bank
+Text Notes 7050 2100 0    50   ~ 0
+this is lg
+Text Notes 7100 2600 0    50   ~ 0
+look for citiroc output \nbuffer\n
 $EndSCHEMATC
