@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 14
+Sheet 9 14
 Title ""
 Date ""
 Rev ""
@@ -13,41 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L readout:XC7A35T-1FGG484 U?
-U 9 1 608F9D82
-P 6600 2450
-AR Path="/605605C8/608F9D82" Ref="U?"  Part="9" 
-AR Path="/608F9D82" Ref="U?"  Part="9" 
-AR Path="/608F6DFA/608F9D82" Ref="U?"  Part="9" 
-F 0 "U?" H 6525 2625 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 6525 2534 50  0000 C CNN
-F 2 "" H 5500 2600 50  0001 C CNN
-F 3 "" H 5500 2600 50  0001 C CNN
-	9    6600 2450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5700 3100
-NoConn ~ 5700 2900
-NoConn ~ 5700 2800
-NoConn ~ 5700 2600
-NoConn ~ 5700 2500
-NoConn ~ 7350 2500
-NoConn ~ 7350 2600
-NoConn ~ 7350 2800
-NoConn ~ 7350 2900
-NoConn ~ 7350 3100
-NoConn ~ 7350 3200
-NoConn ~ 7350 3400
-NoConn ~ 7350 3500
-NoConn ~ 7350 3700
-NoConn ~ 7350 3800
-NoConn ~ 7350 4000
-NoConn ~ 7350 4100
-NoConn ~ 7350 4300
-NoConn ~ 7350 4400
-NoConn ~ 7350 4600
-NoConn ~ 7350 4700
 $Comp
 L readout:Mars_ZX2 U?
 U 5 1 60768B75
