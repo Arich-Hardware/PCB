@@ -2685,4 +2685,12 @@ Wire Wire Line
 Wire Wire Line
 	2700 7100 2700 7000
 Connection ~ 2800 7100
+Text Notes 5750 3850 0    50   ~ 10
+1.2v to 5V to 4A
+Text Notes 5800 4900 0    50   ~ 10
+1.2v to 5V to 4A
+Text Notes 5100 5550 0    50   ~ 10
+1.2v to 5V to 1.2A
+Text Notes 4900 6150 0    50   ~ 10
+1.2v to 5V to 1.2A
 $EndSCHEMATC
