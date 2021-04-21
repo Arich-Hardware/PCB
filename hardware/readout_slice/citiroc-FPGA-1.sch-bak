@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 14
+Sheet 11 14
 Title ""
 Date ""
 Rev ""
@@ -359,10 +359,8 @@ Wire Wire Line
 	2700 3700 2550 3700
 Wire Wire Line
 	2600 3200 2700 3200
-Text HLabel 4200 6200 2    50   Input ~ 0
-dig_out_1
 Wire Wire Line
-	4200 6200 4050 6200
+	4350 6200 4050 6200
 Wire Wire Line
 	4050 2200 4250 2200
 Text Label 4250 2200 2    50   ~ 0
@@ -619,7 +617,6 @@ Text Label 9750 5400 2    50   ~ 0
 T2
 Wire Wire Line
 	9550 5400 9750 5400
-NoConn ~ 6800 5100
 NoConn ~ 6800 5200
 NoConn ~ 6800 5400
 NoConn ~ 6800 5500
@@ -666,21 +663,17 @@ Wire Wire Line
 	3500 1700 3500 2000
 Text Notes 850  2200 0    50   ~ 0
 make sure signals don’t just disapper\nmake accessable on outer layer\n
-Text Notes 4250 6550 0    50   ~ 0
-note open collectors from data sheet
 Text Notes 3650 7000 0    157  ~ 31
 LEDS!!!
 Text Notes 1600 7000 0    157  ~ 31
 and GPIOs\n
 Wire Wire Line
-	4050 5900 4200 5900
+	4050 5900 5100 5900
 Wire Wire Line
-	4050 6000 4200 6000
-Wire Wire Line
-	4050 6100 4150 6100
-Text HLabel 4200 5900 2    50   Input ~ 0
+	4050 6000 5000 6000
+Text HLabel 5200 5900 2    50   Input ~ 0
 NOR32T_oc_1
-Text HLabel 4200 6000 2    50   Input ~ 0
+Text HLabel 5200 6000 2    50   Input ~ 0
 NOR32_oc_1
 Text HLabel 4200 6100 2    50   Input ~ 0
 OR32_1
@@ -750,560 +743,26 @@ Wire Wire Line
 Text Notes 550  2850 0    50   ~ 10
 Parrallel w/ other chip,\ndoes that change 100R?
 Text HLabel 2050 2500 0    50   Input ~ 0
-Raz_Chn_p
+Raz_Chn_p1
 Text HLabel 2050 2700 0    50   Input ~ 0
-Raz_chn_n
+Raz_chn_n1
 Text HLabel 2050 2800 0    50   Input ~ 0
-Val_Ext_p
+Val_Ext_p1
 Text HLabel 2050 3000 0    50   Input ~ 0
-Val_Ext_n
-$Comp
-L Device:R R?
-U 1 1 61F0B466
-P 4400 2200
-F 0 "R?" V 4193 2200 50  0001 C CNN
-F 1 "R" V 4400 2200 50  0000 C CNN
-F 2 "" V 4330 2200 50  0001 C CNN
-F 3 "~" H 4400 2200 50  0001 C CNN
-	1    4400 2200
-	0    1    1    0   
-$EndComp
+Val_Ext_n1
 Text Notes 4600 1700 0    50   ~ 0
 r in range 1k to 10k \ndepending on \nspeed of recovery
 $Comp
-L Device:R R?
-U 1 1 61F165A8
-P 4400 2300
-F 0 "R?" V 4193 2300 50  0001 C CNN
-F 1 "R" V 4400 2300 50  0000 C CNN
-F 2 "" V 4330 2300 50  0001 C CNN
-F 3 "~" H 4400 2300 50  0001 C CNN
-	1    4400 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F1674F
-P 4400 2400
-F 0 "R?" V 4193 2400 50  0001 C CNN
-F 1 "R" V 4400 2400 50  0000 C CNN
-F 2 "" V 4330 2400 50  0001 C CNN
-F 3 "~" H 4400 2400 50  0001 C CNN
-	1    4400 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F16948
-P 4400 2500
-F 0 "R?" V 4193 2500 50  0001 C CNN
-F 1 "R" V 4400 2500 50  0000 C CNN
-F 2 "" V 4330 2500 50  0001 C CNN
-F 3 "~" H 4400 2500 50  0001 C CNN
-	1    4400 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F16AAC
-P 4400 2600
-F 0 "R?" V 4193 2600 50  0001 C CNN
-F 1 "R" V 4400 2600 50  0000 C CNN
-F 2 "" V 4330 2600 50  0001 C CNN
-F 3 "~" H 4400 2600 50  0001 C CNN
-	1    4400 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F16C3B
-P 4400 2700
-F 0 "R?" V 4193 2700 50  0001 C CNN
-F 1 "R" V 4400 2700 50  0000 C CNN
-F 2 "" V 4330 2700 50  0001 C CNN
-F 3 "~" H 4400 2700 50  0001 C CNN
-	1    4400 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F16D87
-P 4400 2800
-F 0 "R?" V 4193 2800 50  0001 C CNN
-F 1 "R" V 4400 2800 50  0000 C CNN
-F 2 "" V 4330 2800 50  0001 C CNN
-F 3 "~" H 4400 2800 50  0001 C CNN
-	1    4400 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F16F71
-P 4400 2900
-F 0 "R?" V 4193 2900 50  0001 C CNN
-F 1 "R" V 4400 2900 50  0000 C CNN
-F 2 "" V 4330 2900 50  0001 C CNN
-F 3 "~" H 4400 2900 50  0001 C CNN
-	1    4400 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F170AA
-P 4400 3000
-F 0 "R?" V 4193 3000 50  0001 C CNN
-F 1 "R" V 4400 3000 50  0000 C CNN
-F 2 "" V 4330 3000 50  0001 C CNN
-F 3 "~" H 4400 3000 50  0001 C CNN
-	1    4400 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F17239
-P 4400 3100
-F 0 "R?" V 4193 3100 50  0001 C CNN
-F 1 "R" V 4400 3100 50  0000 C CNN
-F 2 "" V 4330 3100 50  0001 C CNN
-F 3 "~" H 4400 3100 50  0001 C CNN
-	1    4400 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F173DC
-P 4400 3200
-F 0 "R?" V 4193 3200 50  0001 C CNN
-F 1 "R" V 4400 3200 50  0000 C CNN
-F 2 "" V 4330 3200 50  0001 C CNN
-F 3 "~" H 4400 3200 50  0001 C CNN
-	1    4400 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F1760F
-P 4400 3300
-F 0 "R?" V 4193 3300 50  0001 C CNN
-F 1 "R" V 4400 3300 50  0000 C CNN
-F 2 "" V 4330 3300 50  0001 C CNN
-F 3 "~" H 4400 3300 50  0001 C CNN
-	1    4400 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F17802
-P 4400 3400
-F 0 "R?" V 4193 3400 50  0001 C CNN
-F 1 "R" V 4400 3400 50  0000 C CNN
-F 2 "" V 4330 3400 50  0001 C CNN
-F 3 "~" H 4400 3400 50  0001 C CNN
-	1    4400 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F17A4A
-P 4400 3500
-F 0 "R?" V 4193 3500 50  0001 C CNN
-F 1 "R" V 4400 3500 50  0000 C CNN
-F 2 "" V 4330 3500 50  0001 C CNN
-F 3 "~" H 4400 3500 50  0001 C CNN
-	1    4400 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F17B88
-P 4400 3600
-F 0 "R?" V 4193 3600 50  0001 C CNN
-F 1 "R" V 4400 3600 50  0000 C CNN
-F 2 "" V 4330 3600 50  0001 C CNN
-F 3 "~" H 4400 3600 50  0001 C CNN
-	1    4400 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F17D99
-P 4400 3700
-F 0 "R?" V 4193 3700 50  0001 C CNN
-F 1 "R" V 4400 3700 50  0000 C CNN
-F 2 "" V 4330 3700 50  0001 C CNN
-F 3 "~" H 4400 3700 50  0001 C CNN
-	1    4400 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20406
-P 4400 3800
-F 0 "R?" V 4193 3800 50  0001 C CNN
-F 1 "R" V 4400 3800 50  0000 C CNN
-F 2 "" V 4330 3800 50  0001 C CNN
-F 3 "~" H 4400 3800 50  0001 C CNN
-	1    4400 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F2040C
-P 4400 3900
-F 0 "R?" V 4193 3900 50  0001 C CNN
-F 1 "R" V 4400 3900 50  0000 C CNN
-F 2 "" V 4330 3900 50  0001 C CNN
-F 3 "~" H 4400 3900 50  0001 C CNN
-	1    4400 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20412
-P 4400 4000
-F 0 "R?" V 4193 4000 50  0001 C CNN
-F 1 "R" V 4400 4000 50  0000 C CNN
-F 2 "" V 4330 4000 50  0001 C CNN
-F 3 "~" H 4400 4000 50  0001 C CNN
-	1    4400 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20418
-P 4400 4100
-F 0 "R?" V 4193 4100 50  0001 C CNN
-F 1 "R" V 4400 4100 50  0000 C CNN
-F 2 "" V 4330 4100 50  0001 C CNN
-F 3 "~" H 4400 4100 50  0001 C CNN
-	1    4400 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F2041E
-P 4400 4200
-F 0 "R?" V 4193 4200 50  0001 C CNN
-F 1 "R" V 4400 4200 50  0000 C CNN
-F 2 "" V 4330 4200 50  0001 C CNN
-F 3 "~" H 4400 4200 50  0001 C CNN
-	1    4400 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20424
-P 4400 4300
-F 0 "R?" V 4193 4300 50  0001 C CNN
-F 1 "R" V 4400 4300 50  0000 C CNN
-F 2 "" V 4330 4300 50  0001 C CNN
-F 3 "~" H 4400 4300 50  0001 C CNN
-	1    4400 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F2042A
-P 4400 4400
-F 0 "R?" V 4193 4400 50  0001 C CNN
-F 1 "R" V 4400 4400 50  0000 C CNN
-F 2 "" V 4330 4400 50  0001 C CNN
-F 3 "~" H 4400 4400 50  0001 C CNN
-	1    4400 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20430
-P 4400 4500
-F 0 "R?" V 4193 4500 50  0001 C CNN
-F 1 "R" V 4400 4500 50  0000 C CNN
-F 2 "" V 4330 4500 50  0001 C CNN
-F 3 "~" H 4400 4500 50  0001 C CNN
-	1    4400 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20436
-P 4400 4600
-F 0 "R?" V 4193 4600 50  0001 C CNN
-F 1 "R" V 4400 4600 50  0000 C CNN
-F 2 "" V 4330 4600 50  0001 C CNN
-F 3 "~" H 4400 4600 50  0001 C CNN
-	1    4400 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F2043C
-P 4400 4700
-F 0 "R?" V 4193 4700 50  0001 C CNN
-F 1 "R" V 4400 4700 50  0000 C CNN
-F 2 "" V 4330 4700 50  0001 C CNN
-F 3 "~" H 4400 4700 50  0001 C CNN
-	1    4400 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20442
-P 4400 4800
-F 0 "R?" V 4193 4800 50  0001 C CNN
-F 1 "R" V 4400 4800 50  0000 C CNN
-F 2 "" V 4330 4800 50  0001 C CNN
-F 3 "~" H 4400 4800 50  0001 C CNN
-	1    4400 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20448
-P 4400 4900
-F 0 "R?" V 4193 4900 50  0001 C CNN
-F 1 "R" V 4400 4900 50  0000 C CNN
-F 2 "" V 4330 4900 50  0001 C CNN
-F 3 "~" H 4400 4900 50  0001 C CNN
-	1    4400 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F2044E
-P 4400 5000
-F 0 "R?" V 4193 5000 50  0001 C CNN
-F 1 "R" V 4400 5000 50  0000 C CNN
-F 2 "" V 4330 5000 50  0001 C CNN
-F 3 "~" H 4400 5000 50  0001 C CNN
-	1    4400 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20454
-P 4400 5100
-F 0 "R?" V 4193 5100 50  0001 C CNN
-F 1 "R" V 4400 5100 50  0000 C CNN
-F 2 "" V 4330 5100 50  0001 C CNN
-F 3 "~" H 4400 5100 50  0001 C CNN
-	1    4400 5100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F2045A
-P 4400 5200
-F 0 "R?" V 4193 5200 50  0001 C CNN
-F 1 "R" V 4400 5200 50  0000 C CNN
-F 2 "" V 4330 5200 50  0001 C CNN
-F 3 "~" H 4400 5200 50  0001 C CNN
-	1    4400 5200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61F20460
-P 4400 5300
-F 0 "R?" V 4193 5300 50  0001 C CNN
-F 1 "R" V 4400 5300 50  0000 C CNN
-F 2 "" V 4330 5300 50  0001 C CNN
-F 3 "~" H 4400 5300 50  0001 C CNN
-	1    4400 5300
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+1V8 #PWR?
 U 1 1 61F3F790
-P 4650 2050
-F 0 "#PWR?" H 4650 1900 50  0001 C CNN
-F 1 "+1V8" H 4650 2200 50  0000 C CNN
-F 2 "" H 4650 2050 50  0001 C CNN
-F 3 "" H 4650 2050 50  0001 C CNN
-	1    4650 2050
+P 5000 5400
+F 0 "#PWR?" H 5000 5250 50  0001 C CNN
+F 1 "+1V8" H 5000 5550 50  0000 C CNN
+F 2 "" H 5000 5400 50  0001 C CNN
+F 3 "" H 5000 5400 50  0001 C CNN
+	1    5000 5400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4650 2050 4650 2200
-Wire Wire Line
-	4650 5300 4550 5300
-Wire Wire Line
-	4650 2200 4550 2200
-Connection ~ 4650 2200
-Wire Wire Line
-	4650 2200 4650 2300
-Wire Wire Line
-	4550 2300 4650 2300
-Connection ~ 4650 2300
-Wire Wire Line
-	4650 2300 4650 2400
-Wire Wire Line
-	4650 2400 4550 2400
-Connection ~ 4650 2400
-Wire Wire Line
-	4650 2400 4650 2500
-Wire Wire Line
-	4550 2500 4650 2500
-Connection ~ 4650 2500
-Wire Wire Line
-	4650 2500 4650 2600
-Wire Wire Line
-	4650 2600 4550 2600
-Connection ~ 4650 2600
-Wire Wire Line
-	4650 2600 4650 2700
-Connection ~ 4650 2700
-Wire Wire Line
-	4650 2700 4650 2800
-Wire Wire Line
-	4550 2700 4650 2700
-Wire Wire Line
-	4550 2800 4650 2800
-Connection ~ 4650 2800
-Wire Wire Line
-	4650 2800 4650 2900
-Wire Wire Line
-	4650 2900 4550 2900
-Connection ~ 4650 2900
-Wire Wire Line
-	4650 2900 4650 3000
-Wire Wire Line
-	4550 3000 4650 3000
-Connection ~ 4650 3000
-Wire Wire Line
-	4650 3000 4650 3100
-Wire Wire Line
-	4650 3100 4550 3100
-Connection ~ 4650 3100
-Wire Wire Line
-	4650 3100 4650 3200
-Wire Wire Line
-	4550 3200 4650 3200
-Connection ~ 4650 3200
-Wire Wire Line
-	4650 3200 4650 3300
-Wire Wire Line
-	4650 3300 4550 3300
-Connection ~ 4650 3300
-Wire Wire Line
-	4650 3300 4650 3400
-Wire Wire Line
-	4550 3400 4650 3400
-Connection ~ 4650 3400
-Wire Wire Line
-	4650 3400 4650 3500
-Wire Wire Line
-	4650 3500 4550 3500
-Connection ~ 4650 3500
-Wire Wire Line
-	4650 3500 4650 3600
-Wire Wire Line
-	4550 3600 4650 3600
-Connection ~ 4650 3600
-Wire Wire Line
-	4650 3600 4650 3700
-Wire Wire Line
-	4650 3700 4550 3700
-Connection ~ 4650 3700
-Wire Wire Line
-	4650 3700 4650 3800
-Wire Wire Line
-	4550 3800 4650 3800
-Connection ~ 4650 3800
-Wire Wire Line
-	4650 3800 4650 3900
-Wire Wire Line
-	4650 3900 4550 3900
-Connection ~ 4650 3900
-Wire Wire Line
-	4650 3900 4650 4000
-Wire Wire Line
-	4550 4000 4650 4000
-Connection ~ 4650 4000
-Wire Wire Line
-	4650 4000 4650 4100
-Wire Wire Line
-	4650 4100 4550 4100
-Connection ~ 4650 4100
-Wire Wire Line
-	4650 4100 4650 4200
-Wire Wire Line
-	4550 4200 4650 4200
-Connection ~ 4650 4200
-Wire Wire Line
-	4650 4200 4650 4300
-Wire Wire Line
-	4650 4300 4550 4300
-Connection ~ 4650 4300
-Wire Wire Line
-	4650 4300 4650 4400
-Wire Wire Line
-	4550 4400 4650 4400
-Connection ~ 4650 4400
-Wire Wire Line
-	4650 4400 4650 4500
-Wire Wire Line
-	4650 4500 4550 4500
-Connection ~ 4650 4500
-Wire Wire Line
-	4650 4500 4650 4600
-Wire Wire Line
-	4550 4600 4650 4600
-Connection ~ 4650 4600
-Wire Wire Line
-	4650 4600 4650 4700
-Wire Wire Line
-	4650 4700 4550 4700
-Connection ~ 4650 4700
-Wire Wire Line
-	4650 4700 4650 4800
-Wire Wire Line
-	4550 4800 4650 4800
-Connection ~ 4650 4800
-Wire Wire Line
-	4650 4800 4650 4900
-Wire Wire Line
-	4650 4900 4550 4900
-Connection ~ 4650 4900
-Wire Wire Line
-	4650 4900 4650 5000
-Wire Wire Line
-	4550 5000 4650 5000
-Connection ~ 4650 5000
-Wire Wire Line
-	4650 5000 4650 5100
-Wire Wire Line
-	4650 5100 4550 5100
-Connection ~ 4650 5100
-Wire Wire Line
-	4650 5100 4650 5200
-Wire Wire Line
-	4550 5200 4650 5200
-Connection ~ 4650 5200
-Wire Wire Line
-	4650 5200 4650 5300
-$Comp
-L Device:R R?
-U 1 1 6212A20F
-P 4400 5400
-F 0 "R?" V 4193 5400 50  0001 C CNN
-F 1 "R" V 4400 5400 50  0000 C CNN
-F 2 "" V 4330 5400 50  0001 C CNN
-F 3 "~" H 4400 5400 50  0001 C CNN
-	1    4400 5400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4550 5400 4650 5400
-Wire Wire Line
-	4650 5400 4650 5300
-Connection ~ 4650 5300
-Wire Wire Line
-	4250 5400 4150 5400
-Wire Wire Line
-	4150 5400 4150 6100
-Connection ~ 4150 6100
-Wire Wire Line
-	4150 6100 4200 6100
 Text HLabel 9750 5000 2    50   Input ~ 0
 1v8_GPIO1
 Text HLabel 9750 5100 2    50   Input ~ 0
@@ -1312,6 +771,53 @@ Wire Wire Line
 	9750 5000 9550 5000
 Wire Wire Line
 	9550 5100 9750 5100
-Text Notes 4700 6100 0    50   ~ 0
-only pullups on OR signals
+Wire Wire Line
+	4050 6100 4200 6100
+$Comp
+L Device:R R?
+U 1 1 60CED0B7
+P 5000 5650
+F 0 "R?" H 5070 5696 50  0000 L CNN
+F 1 "1k" V 5000 5600 50  0000 L CNN
+F 2 "" V 4930 5650 50  0001 C CNN
+F 3 "~" H 5000 5650 50  0001 C CNN
+	1    5000 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60CED89A
+P 5100 5650
+F 0 "R?" H 5170 5696 50  0000 L CNN
+F 1 "1k" V 5100 5600 50  0000 L CNN
+F 2 "" V 5030 5650 50  0001 C CNN
+F 3 "~" H 5100 5650 50  0001 C CNN
+	1    5100 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5500 5000 5450
+Wire Wire Line
+	5000 5450 5100 5450
+Wire Wire Line
+	5100 5450 5100 5500
+Connection ~ 5000 5450
+Wire Wire Line
+	5000 5450 5000 5400
+Wire Wire Line
+	5100 5800 5100 5900
+Connection ~ 5100 5900
+Wire Wire Line
+	5100 5900 5200 5900
+Wire Wire Line
+	5000 5800 5000 6000
+Connection ~ 5000 6000
+Wire Wire Line
+	5000 6000 5200 6000
+Text Label 4350 6200 2    50   ~ 0
+dig_out
+Text Label 6450 5100 0    50   ~ 0
+dig_out
+Wire Wire Line
+	6800 5100 6450 5100
 $EndSCHEMATC

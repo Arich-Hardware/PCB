@@ -237,91 +237,85 @@ $EndComp
 $Comp
 L readout:CITIROC1A U?
 U 2 1 60AF6A87
-P 4050 1900
+P 2950 2000
 AR Path="/60548503/60AF6A87" Ref="U?"  Part="2" 
 AR Path="/605DF89A/60AF6A87" Ref="U?"  Part="2" 
 AR Path="/60AF6A87" Ref="U?"  Part="2" 
-F 0 "U?" H 3975 -2323 50  0000 C CNN
-F 1 "CITIROC1A" H 3975 -2414 50  0000 C CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 3450 2050 50  0001 C CNN
-F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 3450 2050 50  0001 C CNN
-	2    4050 1900
+F 0 "U?" H 2875 -2223 50  0000 C CNN
+F 1 "CITIROC1A" H 2875 -2314 50  0000 C CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 2350 2150 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 2350 2150 50  0001 C CNN
+	2    2950 2000
 	1    0    0    -1  
 $EndComp
-Text Notes 3300 1600 0    50   ~ 0
-from bank?
-Text HLabel 3050 2000 0    50   Input ~ 0
+Text HLabel 1950 2100 0    50   Input ~ 0
 resetb_pa
-Text HLabel 3050 2100 0    50   Input ~ 0
+Text HLabel 1950 2200 0    50   Input ~ 0
 rstb_PSC
-Text HLabel 3050 2200 0    50   Input ~ 0
+Text HLabel 1950 2300 0    50   Input ~ 0
 pwr_on
-Text HLabel 3150 3200 0    50   Input ~ 0
+Text HLabel 2050 3300 0    50   Input ~ 0
 PS_global_trig
-Text HLabel 3150 3300 0    50   Input ~ 0
+Text HLabel 2050 3400 0    50   Input ~ 0
 PS_modeb_ext
-Text HLabel 3150 3500 0    50   Input ~ 0
+Text HLabel 2050 3600 0    50   Input ~ 0
 load_sc_2
-Text HLabel 3200 3000 0    50   Input ~ 0
+Text HLabel 2100 3100 0    50   Input ~ 0
 select_2
 Wire Wire Line
-	3300 2200 3050 2200
+	2200 2300 1950 2300
 Wire Wire Line
-	3300 2100 3050 2100
+	2200 2200 1950 2200
 Wire Wire Line
-	3300 2000 3050 2000
-Text HLabel 3150 3700 0    50   Input ~ 0
+	2200 2100 1950 2100
+Text HLabel 2050 3800 0    50   Input ~ 0
 hold_lg
-Text HLabel 3150 3800 0    50   Input ~ 0
+Text HLabel 2050 3900 0    50   Input ~ 0
 hold_hg
-Text HLabel 3150 5100 0    50   Input ~ 0
+Text HLabel 2050 5200 0    50   Input ~ 0
 srin_read_2
-Text HLabel 3150 5200 0    50   Input ~ 0
+Text HLabel 2050 5300 0    50   Input ~ 0
 clk_read_2
-Text HLabel 3150 5300 0    50   Input ~ 0
+Text HLabel 2050 5400 0    50   Input ~ 0
 resetb_read_2
-Text HLabel 3150 5500 0    50   Input ~ 0
+Text HLabel 2050 5600 0    50   Input ~ 0
 srin_sc_2
-Text HLabel 3150 5600 0    50   Input ~ 0
+Text HLabel 2050 5700 0    50   Input ~ 0
 clk_sr_2
-Text HLabel 3150 5700 0    50   Input ~ 0
+Text HLabel 2050 5800 0    50   Input ~ 0
 rstb_sr_2
-Text HLabel 4800 5300 2    50   Input ~ 0
+Text HLabel 3700 5400 2    50   Input ~ 0
 srout_read_2
-Text HLabel 4800 5500 2    50   Input ~ 0
+Text HLabel 3700 5600 2    50   Input ~ 0
 srout_sc_2
 Wire Wire Line
-	3300 5100 3150 5100
+	2200 5200 2050 5200
 Wire Wire Line
-	3300 5200 3150 5200
+	2200 5300 2050 5300
 Wire Wire Line
-	3150 5300 3300 5300
+	2050 5400 2200 5400
 Wire Wire Line
-	3300 5500 3150 5500
+	2200 5600 2050 5600
 Wire Wire Line
-	3150 5600 3300 5600
+	2050 5700 2200 5700
 Wire Wire Line
-	3300 5700 3150 5700
+	2200 5800 2050 5800
 Wire Wire Line
-	3150 3200 3300 3200
+	2050 3300 2200 3300
 Wire Wire Line
-	3300 3300 3150 3300
+	2200 3400 2050 3400
 Wire Wire Line
-	3150 3700 3300 3700
+	2050 3800 2200 3800
 Wire Wire Line
-	3300 3800 3150 3800
+	2200 3900 2050 3900
 Wire Wire Line
-	4800 5300 4650 5300
+	3700 5400 3550 5400
 Wire Wire Line
-	4800 5500 4650 5500
+	3700 5600 3550 5600
 Wire Wire Line
-	3300 3500 3150 3500
+	2200 3600 2050 3600
 Wire Wire Line
-	3200 3000 3300 3000
-Text HLabel 4800 6000 2    50   Input ~ 0
-dig_out_2
-Wire Wire Line
-	4800 6000 4650 6000
+	2100 3100 2200 3100
 Connection ~ 9500 900 
 $Comp
 L power:+1V8 #PWR?
@@ -338,133 +332,133 @@ Wire Wire Line
 	8150 1850 8150 2000
 Connection ~ 8150 2000
 Wire Wire Line
-	4650 2000 4850 2000
-Text Label 4850 2000 2    50   ~ 0
+	3550 2100 3750 2100
+Text Label 3750 2100 2    50   ~ 0
 T0
-Text Label 4850 5100 2    50   ~ 0
+Text Label 3750 5200 2    50   ~ 0
 T31
 Wire Wire Line
-	4850 5100 4650 5100
-Text Label 4850 5000 2    50   ~ 0
+	3750 5200 3550 5200
+Text Label 3750 5100 2    50   ~ 0
 T30
-Text Label 4850 4900 2    50   ~ 0
+Text Label 3750 5000 2    50   ~ 0
 T29
-Text Label 4850 4800 2    50   ~ 0
+Text Label 3750 4900 2    50   ~ 0
 T28
-Text Label 4850 4700 2    50   ~ 0
+Text Label 3750 4800 2    50   ~ 0
 T27
-Text Label 4850 4600 2    50   ~ 0
+Text Label 3750 4700 2    50   ~ 0
 T26
-Text Label 4850 4500 2    50   ~ 0
+Text Label 3750 4600 2    50   ~ 0
 T25
-Text Label 4850 4400 2    50   ~ 0
+Text Label 3750 4500 2    50   ~ 0
 T24
-Text Label 4850 4300 2    50   ~ 0
+Text Label 3750 4400 2    50   ~ 0
 T23
-Text Label 4850 4200 2    50   ~ 0
+Text Label 3750 4300 2    50   ~ 0
 T22
-Text Label 4850 4100 2    50   ~ 0
+Text Label 3750 4200 2    50   ~ 0
 T21
-Text Label 4850 4000 2    50   ~ 0
+Text Label 3750 4100 2    50   ~ 0
 T20
-Text Label 4850 3900 2    50   ~ 0
+Text Label 3750 4000 2    50   ~ 0
 T19
-Text Label 4850 3800 2    50   ~ 0
+Text Label 3750 3900 2    50   ~ 0
 T18
-Text Label 4850 3700 2    50   ~ 0
+Text Label 3750 3800 2    50   ~ 0
 T17
-Text Label 4850 3600 2    50   ~ 0
+Text Label 3750 3700 2    50   ~ 0
 T16
-Text Label 4850 3500 2    50   ~ 0
+Text Label 3750 3600 2    50   ~ 0
 T15
-Text Label 4850 3400 2    50   ~ 0
+Text Label 3750 3500 2    50   ~ 0
 T14
-Text Label 4850 3300 2    50   ~ 0
+Text Label 3750 3400 2    50   ~ 0
 T13
-Text Label 4850 3200 2    50   ~ 0
+Text Label 3750 3300 2    50   ~ 0
 T12
-Text Label 4850 3100 2    50   ~ 0
+Text Label 3750 3200 2    50   ~ 0
 T11
-Text Label 4850 3000 2    50   ~ 0
+Text Label 3750 3100 2    50   ~ 0
 T10
-Text Label 4850 2900 2    50   ~ 0
+Text Label 3750 3000 2    50   ~ 0
 T9
-Text Label 4850 2800 2    50   ~ 0
+Text Label 3750 2900 2    50   ~ 0
 T8
-Text Label 4850 2700 2    50   ~ 0
+Text Label 3750 2800 2    50   ~ 0
 T7
-Text Label 4850 2600 2    50   ~ 0
+Text Label 3750 2700 2    50   ~ 0
 T6
-Text Label 4850 2500 2    50   ~ 0
+Text Label 3750 2600 2    50   ~ 0
 T5
-Text Label 4850 2400 2    50   ~ 0
+Text Label 3750 2500 2    50   ~ 0
 T4
-Text Label 4850 2300 2    50   ~ 0
+Text Label 3750 2400 2    50   ~ 0
 T3
-Text Label 4850 2200 2    50   ~ 0
+Text Label 3750 2300 2    50   ~ 0
 T2
-Text Label 4850 2100 2    50   ~ 0
+Text Label 3750 2200 2    50   ~ 0
 T1
 Wire Wire Line
-	4850 2100 4650 2100
+	3750 2200 3550 2200
 Wire Wire Line
-	4650 2200 4850 2200
+	3550 2300 3750 2300
 Wire Wire Line
-	4850 2300 4650 2300
+	3750 2400 3550 2400
 Wire Wire Line
-	4650 2400 4850 2400
+	3550 2500 3750 2500
 Wire Wire Line
-	4850 2500 4650 2500
+	3750 2600 3550 2600
 Wire Wire Line
-	4650 2600 4850 2600
+	3550 2700 3750 2700
 Wire Wire Line
-	4850 2700 4650 2700
+	3750 2800 3550 2800
 Wire Wire Line
-	4650 2800 4850 2800
+	3550 2900 3750 2900
 Wire Wire Line
-	4850 2900 4650 2900
+	3750 3000 3550 3000
 Wire Wire Line
-	4650 3000 4850 3000
+	3550 3100 3750 3100
 Wire Wire Line
-	4850 3100 4650 3100
+	3750 3200 3550 3200
 Wire Wire Line
-	4650 3200 4850 3200
+	3550 3300 3750 3300
 Wire Wire Line
-	4850 3300 4650 3300
+	3750 3400 3550 3400
 Wire Wire Line
-	4650 3400 4850 3400
+	3550 3500 3750 3500
 Wire Wire Line
-	4850 3500 4650 3500
+	3750 3600 3550 3600
 Wire Wire Line
-	4850 3600 4650 3600
+	3750 3700 3550 3700
 Wire Wire Line
-	4650 3700 4850 3700
+	3550 3800 3750 3800
 Wire Wire Line
-	4850 3800 4650 3800
+	3750 3900 3550 3900
 Wire Wire Line
-	4650 3900 4850 3900
+	3550 4000 3750 4000
 Wire Wire Line
-	4850 4000 4650 4000
+	3750 4100 3550 4100
 Wire Wire Line
-	4650 4100 4850 4100
+	3550 4200 3750 4200
 Wire Wire Line
-	4850 4200 4650 4200
+	3750 4300 3550 4300
 Wire Wire Line
-	4650 4300 4850 4300
+	3550 4400 3750 4400
 Wire Wire Line
-	4850 4400 4650 4400
+	3750 4500 3550 4500
 Wire Wire Line
-	4650 4500 4850 4500
+	3550 4600 3750 4600
 Wire Wire Line
-	4850 4600 4650 4600
+	3750 4700 3550 4700
 Wire Wire Line
-	4650 4700 4850 4700
+	3550 4800 3750 4800
 Wire Wire Line
-	4850 4800 4650 4800
+	3750 4900 3550 4900
 Wire Wire Line
-	4650 4900 4850 4900
+	3550 5000 3750 5000
 Wire Wire Line
-	4850 5000 4650 5000
+	3750 5100 3550 5100
 Text Label 6500 2600 0    50   ~ 0
 T31
 Wire Wire Line
@@ -590,38 +584,38 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint_2Pole TP?
 U 1 1 60D8C16C
-P 4400 1500
+P 3300 1600
 AR Path="/605DF89A/60D8C16C" Ref="TP?"  Part="1" 
 AR Path="/60548503/60D8C16C" Ref="TP?"  Part="1" 
-F 0 "TP?" H 4400 1695 50  0000 C CNN
-F 1 "probe" H 4400 1604 50  0000 C CNN
-F 2 "" H 4400 1500 50  0001 C CNN
-F 3 "~" H 4400 1500 50  0001 C CNN
-	1    4400 1500
+F 0 "TP?" H 3300 1795 50  0000 C CNN
+F 1 "probe" H 3300 1704 50  0000 C CNN
+F 2 "" H 3300 1600 50  0001 C CNN
+F 3 "~" H 3300 1600 50  0001 C CNN
+	1    3300 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 1500 4100 1500
+	3100 1600 3000 1600
 Wire Wire Line
-	4600 1500 4700 1500
+	3500 1600 3600 1600
 Wire Wire Line
-	4700 1500 4700 1600
+	3600 1600 3600 1700
 $Comp
 L power:GNDD #PWR?
 U 1 1 60D8C175
-P 4700 1600
+P 3600 1700
 AR Path="/605605C8/60D8C175" Ref="#PWR?"  Part="1" 
 AR Path="/60548503/60D8C175" Ref="#PWR?"  Part="1" 
 AR Path="/605DF89A/60D8C175" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4700 1350 50  0001 C CNN
-F 1 "GNDD" H 4700 1450 50  0000 C CNB
-F 2 "" H 4700 1600 50  0001 C CNN
-F 3 "" H 4700 1600 50  0001 C CNN
-	1    4700 1600
+F 0 "#PWR?" H 3600 1450 50  0001 C CNN
+F 1 "GNDD" H 3600 1550 50  0000 C CNB
+F 2 "" H 3600 1700 50  0001 C CNN
+F 3 "" H 3600 1700 50  0001 C CNN
+	1    3600 1700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4100 1500 4100 1800
+	3000 1600 3000 1900
 Text Label 9150 5700 2    50   ~ 0
 T1
 Text Label 9150 5800 2    50   ~ 0
@@ -633,87 +627,76 @@ NoConn ~ 8950 4500
 NoConn ~ 8950 4300
 NoConn ~ 8950 4200
 NoConn ~ 8950 3100
-NoConn ~ 6700 4600
 NoConn ~ 6700 4700
 NoConn ~ 6700 4900
 NoConn ~ 6700 5000
 NoConn ~ 6700 5200
 NoConn ~ 6700 5300
 NoConn ~ 6700 5800
-Wire Wire Line
-	4650 5700 4800 5700
-Wire Wire Line
-	4650 5800 4800 5800
-Wire Wire Line
-	4650 5900 4750 5900
-Text HLabel 4800 5700 2    50   Input ~ 0
-NOR32T_oc_2
-Text HLabel 4800 5800 2    50   Input ~ 0
-NOR32_oc_2
-Text HLabel 4800 5900 2    50   Input ~ 0
+Text HLabel 3700 6000 2    50   Input ~ 0
 OR32_2
 $Comp
 L Device:R R?
 U 1 1 6073792E
-P 2950 2700
+P 1850 2800
 AR Path="/605DF89A/6073792E" Ref="R?"  Part="1" 
 AR Path="/60548503/6073792E" Ref="R?"  Part="1" 
-F 0 "R?" V 3000 2800 50  0000 L CNN
-F 1 "100" V 2950 2600 50  0000 L CNN
-F 2 "" V 2880 2700 50  0001 C CNN
-F 3 "~" H 2950 2700 50  0001 C CNN
-	1    2950 2700
+F 0 "R?" V 1900 2900 50  0000 L CNN
+F 1 "100" V 1850 2700 50  0000 L CNN
+F 2 "" V 1780 2800 50  0001 C CNN
+F 3 "~" H 1850 2800 50  0001 C CNN
+	1    1850 2800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 60737935
-P 2950 2400
+P 1850 2500
 AR Path="/605DF89A/60737935" Ref="R?"  Part="1" 
 AR Path="/60548503/60737935" Ref="R?"  Part="1" 
-F 0 "R?" V 3000 2500 50  0000 L CNN
-F 1 "100" V 2950 2300 50  0000 L CNN
-F 2 "" V 2880 2400 50  0001 C CNN
-F 3 "~" H 2950 2400 50  0001 C CNN
-	1    2950 2400
+F 0 "R?" V 1900 2600 50  0000 L CNN
+F 1 "100" V 1850 2400 50  0000 L CNN
+F 2 "" V 1780 2500 50  0001 C CNN
+F 3 "~" H 1850 2500 50  0001 C CNN
+	1    1850 2500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3300 2400 3200 2400
+	2200 2500 2100 2500
 Wire Wire Line
-	3300 2700 3200 2700
+	2200 2800 2100 2800
 Wire Wire Line
-	3200 2400 3200 2300
+	2100 2500 2100 2400
 Wire Wire Line
-	3200 2300 2650 2300
-Connection ~ 3200 2400
+	2100 2400 1550 2400
+Connection ~ 2100 2500
 Wire Wire Line
-	3200 2400 3100 2400
+	2100 2500 2000 2500
 Wire Wire Line
-	3200 2700 3200 2600
+	2100 2800 2100 2700
 Wire Wire Line
-	3200 2600 2650 2600
-Connection ~ 3200 2700
+	2100 2700 1550 2700
+Connection ~ 2100 2800
 Wire Wire Line
-	3200 2700 3100 2700
+	2100 2800 2000 2800
 Wire Wire Line
-	2800 2700 2750 2700
+	1700 2800 1650 2800
 Wire Wire Line
-	2750 2700 2750 2800
+	1650 2800 1650 2900
 Wire Wire Line
-	2750 2800 3300 2800
+	1650 2900 2200 2900
 Wire Wire Line
-	2750 2800 2650 2800
-Connection ~ 2750 2800
+	1650 2900 1550 2900
+Connection ~ 1650 2900
 Wire Wire Line
-	2650 2500 2750 2500
+	1550 2600 1650 2600
 Wire Wire Line
-	2800 2400 2750 2400
+	1700 2500 1650 2500
 Wire Wire Line
-	2750 2400 2750 2500
-Connection ~ 2750 2500
+	1650 2500 1650 2600
+Connection ~ 1650 2600
 Wire Wire Line
-	2750 2500 3300 2500
+	1650 2600 2200 2600
 Text Label 6250 4000 0    50   ~ 0
 Raz_Chn_p
 Text Label 6250 4100 0    50   ~ 0
@@ -730,627 +713,14 @@ Wire Wire Line
 	6700 4300 6250 4300
 Wire Wire Line
 	6250 4400 6700 4400
-Text HLabel 2650 2300 0    50   Input ~ 0
-Raz_Chn_p
-Text HLabel 2650 2500 0    50   Input ~ 0
-Raz_chn_n
-Text HLabel 2650 2600 0    50   Input ~ 0
-Val_Ext_p
-Text HLabel 2650 2800 0    50   Input ~ 0
-Val_Ext_n
-$Comp
-L Device:R R?
-U 1 1 620F530E
-P 5000 2000
-AR Path="/605DF89A/620F530E" Ref="R?"  Part="1" 
-AR Path="/60548503/620F530E" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2000 50  0001 C CNN
-F 1 "R" V 5000 2000 50  0000 C CNN
-F 2 "" V 4930 2000 50  0001 C CNN
-F 3 "~" H 5000 2000 50  0001 C CNN
-	1    5000 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5314
-P 5000 2100
-AR Path="/605DF89A/620F5314" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5314" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2100 50  0001 C CNN
-F 1 "R" V 5000 2100 50  0000 C CNN
-F 2 "" V 4930 2100 50  0001 C CNN
-F 3 "~" H 5000 2100 50  0001 C CNN
-	1    5000 2100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F531A
-P 5000 2200
-AR Path="/605DF89A/620F531A" Ref="R?"  Part="1" 
-AR Path="/60548503/620F531A" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2200 50  0001 C CNN
-F 1 "R" V 5000 2200 50  0000 C CNN
-F 2 "" V 4930 2200 50  0001 C CNN
-F 3 "~" H 5000 2200 50  0001 C CNN
-	1    5000 2200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5320
-P 5000 2300
-AR Path="/605DF89A/620F5320" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5320" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2300 50  0001 C CNN
-F 1 "R" V 5000 2300 50  0000 C CNN
-F 2 "" V 4930 2300 50  0001 C CNN
-F 3 "~" H 5000 2300 50  0001 C CNN
-	1    5000 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5326
-P 5000 2400
-AR Path="/605DF89A/620F5326" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5326" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2400 50  0001 C CNN
-F 1 "R" V 5000 2400 50  0000 C CNN
-F 2 "" V 4930 2400 50  0001 C CNN
-F 3 "~" H 5000 2400 50  0001 C CNN
-	1    5000 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F532C
-P 5000 2500
-AR Path="/605DF89A/620F532C" Ref="R?"  Part="1" 
-AR Path="/60548503/620F532C" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2500 50  0001 C CNN
-F 1 "R" V 5000 2500 50  0000 C CNN
-F 2 "" V 4930 2500 50  0001 C CNN
-F 3 "~" H 5000 2500 50  0001 C CNN
-	1    5000 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5332
-P 5000 2600
-AR Path="/605DF89A/620F5332" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5332" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2600 50  0001 C CNN
-F 1 "R" V 5000 2600 50  0000 C CNN
-F 2 "" V 4930 2600 50  0001 C CNN
-F 3 "~" H 5000 2600 50  0001 C CNN
-	1    5000 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5338
-P 5000 2700
-AR Path="/605DF89A/620F5338" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5338" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2700 50  0001 C CNN
-F 1 "R" V 5000 2700 50  0000 C CNN
-F 2 "" V 4930 2700 50  0001 C CNN
-F 3 "~" H 5000 2700 50  0001 C CNN
-	1    5000 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F533E
-P 5000 2800
-AR Path="/605DF89A/620F533E" Ref="R?"  Part="1" 
-AR Path="/60548503/620F533E" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2800 50  0001 C CNN
-F 1 "R" V 5000 2800 50  0000 C CNN
-F 2 "" V 4930 2800 50  0001 C CNN
-F 3 "~" H 5000 2800 50  0001 C CNN
-	1    5000 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5344
-P 5000 2900
-AR Path="/605DF89A/620F5344" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5344" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 2900 50  0001 C CNN
-F 1 "R" V 5000 2900 50  0000 C CNN
-F 2 "" V 4930 2900 50  0001 C CNN
-F 3 "~" H 5000 2900 50  0001 C CNN
-	1    5000 2900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F534A
-P 5000 3000
-AR Path="/605DF89A/620F534A" Ref="R?"  Part="1" 
-AR Path="/60548503/620F534A" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3000 50  0001 C CNN
-F 1 "R" V 5000 3000 50  0000 C CNN
-F 2 "" V 4930 3000 50  0001 C CNN
-F 3 "~" H 5000 3000 50  0001 C CNN
-	1    5000 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5350
-P 5000 3100
-AR Path="/605DF89A/620F5350" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5350" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3100 50  0001 C CNN
-F 1 "R" V 5000 3100 50  0000 C CNN
-F 2 "" V 4930 3100 50  0001 C CNN
-F 3 "~" H 5000 3100 50  0001 C CNN
-	1    5000 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5356
-P 5000 3200
-AR Path="/605DF89A/620F5356" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5356" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3200 50  0001 C CNN
-F 1 "R" V 5000 3200 50  0000 C CNN
-F 2 "" V 4930 3200 50  0001 C CNN
-F 3 "~" H 5000 3200 50  0001 C CNN
-	1    5000 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F535C
-P 5000 3300
-AR Path="/605DF89A/620F535C" Ref="R?"  Part="1" 
-AR Path="/60548503/620F535C" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3300 50  0001 C CNN
-F 1 "R" V 5000 3300 50  0000 C CNN
-F 2 "" V 4930 3300 50  0001 C CNN
-F 3 "~" H 5000 3300 50  0001 C CNN
-	1    5000 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5362
-P 5000 3400
-AR Path="/605DF89A/620F5362" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5362" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3400 50  0001 C CNN
-F 1 "R" V 5000 3400 50  0000 C CNN
-F 2 "" V 4930 3400 50  0001 C CNN
-F 3 "~" H 5000 3400 50  0001 C CNN
-	1    5000 3400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5368
-P 5000 3500
-AR Path="/605DF89A/620F5368" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5368" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3500 50  0001 C CNN
-F 1 "R" V 5000 3500 50  0000 C CNN
-F 2 "" V 4930 3500 50  0001 C CNN
-F 3 "~" H 5000 3500 50  0001 C CNN
-	1    5000 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F536E
-P 5000 3600
-AR Path="/605DF89A/620F536E" Ref="R?"  Part="1" 
-AR Path="/60548503/620F536E" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3600 50  0001 C CNN
-F 1 "R" V 5000 3600 50  0000 C CNN
-F 2 "" V 4930 3600 50  0001 C CNN
-F 3 "~" H 5000 3600 50  0001 C CNN
-	1    5000 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5374
-P 5000 3700
-AR Path="/605DF89A/620F5374" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5374" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3700 50  0001 C CNN
-F 1 "R" V 5000 3700 50  0000 C CNN
-F 2 "" V 4930 3700 50  0001 C CNN
-F 3 "~" H 5000 3700 50  0001 C CNN
-	1    5000 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F537A
-P 5000 3800
-AR Path="/605DF89A/620F537A" Ref="R?"  Part="1" 
-AR Path="/60548503/620F537A" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3800 50  0001 C CNN
-F 1 "R" V 5000 3800 50  0000 C CNN
-F 2 "" V 4930 3800 50  0001 C CNN
-F 3 "~" H 5000 3800 50  0001 C CNN
-	1    5000 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5380
-P 5000 3900
-AR Path="/605DF89A/620F5380" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5380" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 3900 50  0001 C CNN
-F 1 "R" V 5000 3900 50  0000 C CNN
-F 2 "" V 4930 3900 50  0001 C CNN
-F 3 "~" H 5000 3900 50  0001 C CNN
-	1    5000 3900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5386
-P 5000 4000
-AR Path="/605DF89A/620F5386" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5386" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4000 50  0001 C CNN
-F 1 "R" V 5000 4000 50  0000 C CNN
-F 2 "" V 4930 4000 50  0001 C CNN
-F 3 "~" H 5000 4000 50  0001 C CNN
-	1    5000 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F538C
-P 5000 4100
-AR Path="/605DF89A/620F538C" Ref="R?"  Part="1" 
-AR Path="/60548503/620F538C" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4100 50  0001 C CNN
-F 1 "R" V 5000 4100 50  0000 C CNN
-F 2 "" V 4930 4100 50  0001 C CNN
-F 3 "~" H 5000 4100 50  0001 C CNN
-	1    5000 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5392
-P 5000 4200
-AR Path="/605DF89A/620F5392" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5392" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4200 50  0001 C CNN
-F 1 "R" V 5000 4200 50  0000 C CNN
-F 2 "" V 4930 4200 50  0001 C CNN
-F 3 "~" H 5000 4200 50  0001 C CNN
-	1    5000 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F5398
-P 5000 4300
-AR Path="/605DF89A/620F5398" Ref="R?"  Part="1" 
-AR Path="/60548503/620F5398" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4300 50  0001 C CNN
-F 1 "R" V 5000 4300 50  0000 C CNN
-F 2 "" V 4930 4300 50  0001 C CNN
-F 3 "~" H 5000 4300 50  0001 C CNN
-	1    5000 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F539E
-P 5000 4400
-AR Path="/605DF89A/620F539E" Ref="R?"  Part="1" 
-AR Path="/60548503/620F539E" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4400 50  0001 C CNN
-F 1 "R" V 5000 4400 50  0000 C CNN
-F 2 "" V 4930 4400 50  0001 C CNN
-F 3 "~" H 5000 4400 50  0001 C CNN
-	1    5000 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F53A4
-P 5000 4500
-AR Path="/605DF89A/620F53A4" Ref="R?"  Part="1" 
-AR Path="/60548503/620F53A4" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4500 50  0001 C CNN
-F 1 "R" V 5000 4500 50  0000 C CNN
-F 2 "" V 4930 4500 50  0001 C CNN
-F 3 "~" H 5000 4500 50  0001 C CNN
-	1    5000 4500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F53AA
-P 5000 4600
-AR Path="/605DF89A/620F53AA" Ref="R?"  Part="1" 
-AR Path="/60548503/620F53AA" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4600 50  0001 C CNN
-F 1 "R" V 5000 4600 50  0000 C CNN
-F 2 "" V 4930 4600 50  0001 C CNN
-F 3 "~" H 5000 4600 50  0001 C CNN
-	1    5000 4600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F53B0
-P 5000 4700
-AR Path="/605DF89A/620F53B0" Ref="R?"  Part="1" 
-AR Path="/60548503/620F53B0" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4700 50  0001 C CNN
-F 1 "R" V 5000 4700 50  0000 C CNN
-F 2 "" V 4930 4700 50  0001 C CNN
-F 3 "~" H 5000 4700 50  0001 C CNN
-	1    5000 4700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F53B6
-P 5000 4800
-AR Path="/605DF89A/620F53B6" Ref="R?"  Part="1" 
-AR Path="/60548503/620F53B6" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4800 50  0001 C CNN
-F 1 "R" V 5000 4800 50  0000 C CNN
-F 2 "" V 4930 4800 50  0001 C CNN
-F 3 "~" H 5000 4800 50  0001 C CNN
-	1    5000 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F53BC
-P 5000 4900
-AR Path="/605DF89A/620F53BC" Ref="R?"  Part="1" 
-AR Path="/60548503/620F53BC" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 4900 50  0001 C CNN
-F 1 "R" V 5000 4900 50  0000 C CNN
-F 2 "" V 4930 4900 50  0001 C CNN
-F 3 "~" H 5000 4900 50  0001 C CNN
-	1    5000 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F53C2
-P 5000 5000
-AR Path="/605DF89A/620F53C2" Ref="R?"  Part="1" 
-AR Path="/60548503/620F53C2" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 5000 50  0001 C CNN
-F 1 "R" V 5000 5000 50  0000 C CNN
-F 2 "" V 4930 5000 50  0001 C CNN
-F 3 "~" H 5000 5000 50  0001 C CNN
-	1    5000 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 620F53C8
-P 5000 5100
-AR Path="/605DF89A/620F53C8" Ref="R?"  Part="1" 
-AR Path="/60548503/620F53C8" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 5100 50  0001 C CNN
-F 1 "R" V 5000 5100 50  0000 C CNN
-F 2 "" V 4930 5100 50  0001 C CNN
-F 3 "~" H 5000 5100 50  0001 C CNN
-	1    5000 5100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+1V8 #PWR?
-U 1 1 620F53CE
-P 5250 1850
-AR Path="/605DF89A/620F53CE" Ref="#PWR?"  Part="1" 
-AR Path="/60548503/620F53CE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5250 1700 50  0001 C CNN
-F 1 "+1V8" H 5250 2000 50  0000 C CNN
-F 2 "" H 5250 1850 50  0001 C CNN
-F 3 "" H 5250 1850 50  0001 C CNN
-	1    5250 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5250 1850 5250 2000
-Wire Wire Line
-	5250 5100 5150 5100
-Wire Wire Line
-	5250 2000 5150 2000
-Connection ~ 5250 2000
-Wire Wire Line
-	5250 2000 5250 2100
-Wire Wire Line
-	5150 2100 5250 2100
-Connection ~ 5250 2100
-Wire Wire Line
-	5250 2100 5250 2200
-Wire Wire Line
-	5250 2200 5150 2200
-Connection ~ 5250 2200
-Wire Wire Line
-	5250 2200 5250 2300
-Wire Wire Line
-	5150 2300 5250 2300
-Connection ~ 5250 2300
-Wire Wire Line
-	5250 2300 5250 2400
-Wire Wire Line
-	5250 2400 5150 2400
-Connection ~ 5250 2400
-Wire Wire Line
-	5250 2400 5250 2500
-Connection ~ 5250 2500
-Wire Wire Line
-	5250 2500 5250 2600
-Wire Wire Line
-	5150 2500 5250 2500
-Wire Wire Line
-	5150 2600 5250 2600
-Connection ~ 5250 2600
-Wire Wire Line
-	5250 2600 5250 2700
-Wire Wire Line
-	5250 2700 5150 2700
-Connection ~ 5250 2700
-Wire Wire Line
-	5250 2700 5250 2800
-Wire Wire Line
-	5150 2800 5250 2800
-Connection ~ 5250 2800
-Wire Wire Line
-	5250 2800 5250 2900
-Wire Wire Line
-	5250 2900 5150 2900
-Connection ~ 5250 2900
-Wire Wire Line
-	5250 2900 5250 3000
-Wire Wire Line
-	5150 3000 5250 3000
-Connection ~ 5250 3000
-Wire Wire Line
-	5250 3000 5250 3100
-Wire Wire Line
-	5250 3100 5150 3100
-Connection ~ 5250 3100
-Wire Wire Line
-	5250 3100 5250 3200
-Wire Wire Line
-	5150 3200 5250 3200
-Connection ~ 5250 3200
-Wire Wire Line
-	5250 3200 5250 3300
-Wire Wire Line
-	5250 3300 5150 3300
-Connection ~ 5250 3300
-Wire Wire Line
-	5250 3300 5250 3400
-Wire Wire Line
-	5150 3400 5250 3400
-Connection ~ 5250 3400
-Wire Wire Line
-	5250 3400 5250 3500
-Wire Wire Line
-	5250 3500 5150 3500
-Connection ~ 5250 3500
-Wire Wire Line
-	5250 3500 5250 3600
-Wire Wire Line
-	5150 3600 5250 3600
-Connection ~ 5250 3600
-Wire Wire Line
-	5250 3600 5250 3700
-Wire Wire Line
-	5250 3700 5150 3700
-Connection ~ 5250 3700
-Wire Wire Line
-	5250 3700 5250 3800
-Wire Wire Line
-	5150 3800 5250 3800
-Connection ~ 5250 3800
-Wire Wire Line
-	5250 3800 5250 3900
-Wire Wire Line
-	5250 3900 5150 3900
-Connection ~ 5250 3900
-Wire Wire Line
-	5250 3900 5250 4000
-Wire Wire Line
-	5150 4000 5250 4000
-Connection ~ 5250 4000
-Wire Wire Line
-	5250 4000 5250 4100
-Wire Wire Line
-	5250 4100 5150 4100
-Connection ~ 5250 4100
-Wire Wire Line
-	5250 4100 5250 4200
-Wire Wire Line
-	5150 4200 5250 4200
-Connection ~ 5250 4200
-Wire Wire Line
-	5250 4200 5250 4300
-Wire Wire Line
-	5250 4300 5150 4300
-Connection ~ 5250 4300
-Wire Wire Line
-	5250 4300 5250 4400
-Wire Wire Line
-	5150 4400 5250 4400
-Connection ~ 5250 4400
-Wire Wire Line
-	5250 4400 5250 4500
-Wire Wire Line
-	5250 4500 5150 4500
-Connection ~ 5250 4500
-Wire Wire Line
-	5250 4500 5250 4600
-Wire Wire Line
-	5150 4600 5250 4600
-Connection ~ 5250 4600
-Wire Wire Line
-	5250 4600 5250 4700
-Wire Wire Line
-	5250 4700 5150 4700
-Connection ~ 5250 4700
-Wire Wire Line
-	5250 4700 5250 4800
-Wire Wire Line
-	5150 4800 5250 4800
-Connection ~ 5250 4800
-Wire Wire Line
-	5250 4800 5250 4900
-Wire Wire Line
-	5250 4900 5150 4900
-Connection ~ 5250 4900
-Wire Wire Line
-	5250 4900 5250 5000
-Wire Wire Line
-	5150 5000 5250 5000
-Connection ~ 5250 5000
-Wire Wire Line
-	5250 5000 5250 5100
-$Comp
-L Device:R R?
-U 1 1 62107814
-P 5000 5200
-AR Path="/605DF89A/62107814" Ref="R?"  Part="1" 
-AR Path="/60548503/62107814" Ref="R?"  Part="1" 
-F 0 "R?" V 4793 5200 50  0001 C CNN
-F 1 "R" V 5000 5200 50  0000 C CNN
-F 2 "" V 4930 5200 50  0001 C CNN
-F 3 "~" H 5000 5200 50  0001 C CNN
-	1    5000 5200
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4750 5900 4750 5200
-Wire Wire Line
-	4750 5200 4850 5200
-Connection ~ 4750 5900
-Wire Wire Line
-	4750 5900 4800 5900
-Wire Wire Line
-	5150 5200 5250 5200
-Wire Wire Line
-	5250 5200 5250 5100
-Connection ~ 5250 5100
+Text HLabel 1550 2400 0    50   Input ~ 0
+Raz_Chn_p2
+Text HLabel 1550 2600 0    50   Input ~ 0
+Raz_chn_n2
+Text HLabel 1550 2700 0    50   Input ~ 0
+Val_Ext_p2
+Text HLabel 1550 2900 0    50   Input ~ 0
+Val_Ext_n2
 Text HLabel 9150 3900 2    50   Input ~ 0
 1v8_GPIO3
 Text HLabel 9150 4000 2    50   Input ~ 0
@@ -1359,4 +729,80 @@ Wire Wire Line
 	9150 3900 8950 3900
 Wire Wire Line
 	8950 4000 9150 4000
+Wire Wire Line
+	3550 5800 4600 5800
+Wire Wire Line
+	3550 5900 4500 5900
+Text HLabel 4700 5800 2    50   Input ~ 0
+NOR32T_oc_2
+Text HLabel 4700 5900 2    50   Input ~ 0
+NOR32_oc_2
+$Comp
+L power:+1V8 #PWR?
+U 1 1 60D28E9C
+P 4500 5300
+AR Path="/605DF89A/60D28E9C" Ref="#PWR?"  Part="1" 
+AR Path="/60548503/60D28E9C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4500 5150 50  0001 C CNN
+F 1 "+1V8" H 4500 5450 50  0000 C CNN
+F 2 "" H 4500 5300 50  0001 C CNN
+F 3 "" H 4500 5300 50  0001 C CNN
+	1    4500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60D28EA2
+P 4500 5550
+AR Path="/605DF89A/60D28EA2" Ref="R?"  Part="1" 
+AR Path="/60548503/60D28EA2" Ref="R?"  Part="1" 
+F 0 "R?" H 4570 5596 50  0000 L CNN
+F 1 "1k" V 4500 5500 50  0000 L CNN
+F 2 "" V 4430 5550 50  0001 C CNN
+F 3 "~" H 4500 5550 50  0001 C CNN
+	1    4500 5550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60D28EA8
+P 4600 5550
+AR Path="/605DF89A/60D28EA8" Ref="R?"  Part="1" 
+AR Path="/60548503/60D28EA8" Ref="R?"  Part="1" 
+F 0 "R?" H 4670 5596 50  0000 L CNN
+F 1 "1k" V 4600 5500 50  0000 L CNN
+F 2 "" V 4530 5550 50  0001 C CNN
+F 3 "~" H 4600 5550 50  0001 C CNN
+	1    4600 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5400 4500 5350
+Wire Wire Line
+	4500 5350 4600 5350
+Wire Wire Line
+	4600 5350 4600 5400
+Connection ~ 4500 5350
+Wire Wire Line
+	4500 5350 4500 5300
+Wire Wire Line
+	4600 5700 4600 5800
+Connection ~ 4600 5800
+Wire Wire Line
+	4600 5800 4700 5800
+Wire Wire Line
+	4500 5700 4500 5900
+Connection ~ 4500 5900
+Wire Wire Line
+	4500 5900 4700 5900
+Wire Wire Line
+	3550 6000 3700 6000
+Text Label 6350 4600 0    50   ~ 0
+dig_out
+Wire Wire Line
+	6700 4600 6350 4600
+Text Label 3900 6100 2    50   ~ 0
+dig_out
+Wire Wire Line
+	3550 6100 3900 6100
 $EndSCHEMATC

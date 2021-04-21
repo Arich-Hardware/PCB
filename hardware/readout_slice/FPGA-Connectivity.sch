@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 14
+Sheet 14 14
 Title ""
 Date ""
 Rev ""
@@ -835,8 +835,6 @@ F 7 "2.99" H 6150 2100 50  0001 C CNN "Item Cost"
 	1    6150 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 2800 4900 2800
 Text Label 7100 2400 0    50   ~ 0
 DIN\D[01]
 Wire Wire Line
@@ -859,15 +857,6 @@ Wire Wire Line
 	10750 3100 10450 3100
 NoConn ~ 4300 2400
 NoConn ~ 4300 2500
-Text HLabel 5000 2700 2    50   Input ~ 0
-FPGA_CCLK_0
-Wire Wire Line
-	4900 2800 4900 2700
-Wire Wire Line
-	4900 2700 5000 2700
-Connection ~ 4900 2800
-Wire Wire Line
-	4300 2800 4900 2800
 $Comp
 L power:+3V3 #PWR?
 U 1 1 60894F31
@@ -969,4 +958,6 @@ F 3 "" H 3750 6750 50  0001 C CNN
 	1    3750 6750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4300 2800 5800 2800
 $EndSCHEMATC

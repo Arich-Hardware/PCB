@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 14
+Sheet 13 14
 Title ""
 Date ""
 Rev ""
@@ -231,138 +231,130 @@ F 3 "" H 600 1200 50  0001 C CNN
 	1    600  1200
 	1    0    0    -1  
 $EndComp
-Text HLabel 8850 3950 2    50   Input ~ 0
+Text HLabel 7150 2600 2    50   Input ~ 0
 FPGA_tx
-Text HLabel 8850 4050 2    50   Input ~ 0
+Text HLabel 7150 2700 2    50   Input ~ 0
 FPGA_rx
 Wire Wire Line
-	8850 3950 8750 3950
+	7150 2600 7050 2600
 Wire Wire Line
-	8750 4050 8850 4050
-Text Notes 8700 3850 0    50   ~ 0
+	7050 2700 7150 2700
+Text Notes 7000 2500 0    50   ~ 0
 to sparkfun
-Text HLabel 3550 2650 0    50   Input ~ 0
+Text HLabel 4250 2400 0    50   Input ~ 0
 resetb_pa
-Text HLabel 3550 2750 0    50   Input ~ 0
+Text HLabel 4250 2500 0    50   Input ~ 0
 rstb_PSC
-Text HLabel 3550 2850 0    50   Input ~ 0
+Text HLabel 4250 2700 0    50   Input ~ 0
 pwr_on
 Wire Wire Line
-	3700 2850 3550 2850
+	4400 2700 4250 2700
 Wire Wire Line
-	3700 2750 3550 2750
+	4400 2500 4250 2500
 Wire Wire Line
-	3700 2650 3550 2650
-Text HLabel 3550 2950 0    50   Input ~ 0
+	4400 2400 4250 2400
+Text HLabel 4250 2800 0    50   Input ~ 0
 PS_global_trig
-Text HLabel 3550 3050 0    50   Input ~ 0
+Text HLabel 4250 3000 0    50   Input ~ 0
 PS_modeb_ext
-Text HLabel 3550 3650 0    50   Input ~ 0
+Text HLabel 4250 3600 0    50   Input ~ 0
 load_sc_1
-Text HLabel 3550 3550 0    50   Input ~ 0
+Text HLabel 4250 3400 0    50   Input ~ 0
 select_1
-Text HLabel 3550 3150 0    50   Input ~ 0
+Text HLabel 4250 3100 0    50   Input ~ 0
 hold_lg
-Text HLabel 3550 3250 0    50   Input ~ 0
+Text HLabel 4250 3300 0    50   Input ~ 0
 hold_hg
-Text HLabel 3550 3750 0    50   Input ~ 0
+Text HLabel 4250 3700 0    50   Input ~ 0
 srin_read_1
-Text HLabel 3550 3850 0    50   Input ~ 0
+Text HLabel 4250 3900 0    50   Input ~ 0
 clk_read_1
-Text HLabel 3550 3950 0    50   Input ~ 0
+Text HLabel 4250 4000 0    50   Input ~ 0
 resetb_read_1
-Text HLabel 3550 4050 0    50   Input ~ 0
+Text HLabel 4250 4200 0    50   Input ~ 0
 srin_sc_1
-Text HLabel 3550 4150 0    50   Input ~ 0
+Text HLabel 4250 4300 0    50   Input ~ 0
 clk_sr_1
-Text HLabel 3550 4250 0    50   Input ~ 0
+Text HLabel 4250 4500 0    50   Input ~ 0
 rstb_sr_1
 Wire Wire Line
-	3700 3750 3550 3750
+	4400 3700 4250 3700
 Wire Wire Line
-	3700 3850 3550 3850
+	4400 3900 4250 3900
 Wire Wire Line
-	3550 3950 3700 3950
+	4250 4000 4400 4000
 Wire Wire Line
-	3700 4050 3550 4050
+	4400 4200 4250 4200
 Wire Wire Line
-	3550 4150 3700 4150
+	4250 4300 4400 4300
 Wire Wire Line
-	3700 4250 3550 4250
+	4400 4500 4250 4500
 Wire Wire Line
-	3550 2950 3700 2950
+	4250 2800 4400 2800
 Wire Wire Line
-	3700 3050 3550 3050
+	4400 3000 4250 3000
 Wire Wire Line
-	3550 3150 3700 3150
+	4250 3100 4400 3100
 Wire Wire Line
-	3700 3250 3550 3250
+	4400 3300 4250 3300
 Wire Wire Line
-	3700 3650 3550 3650
+	4400 3600 4250 3600
 Wire Wire Line
-	3550 3550 3700 3550
-Text Notes 2900 2550 0    50   ~ 0
+	4250 3400 4400 3400
+Text Notes 3600 2300 0    50   ~ 0
 Shared Citiroc Controls
-Text Notes 3100 3450 0    50   ~ 0
+Text Notes 3250 3400 0    50   ~ 0
 Citiroc 1 Controls
-Text HLabel 3550 5250 0    50   Input ~ 0
+Text HLabel 4250 5500 0    50   Input ~ 0
 load_sc_2
-Text HLabel 3550 5150 0    50   Input ~ 0
+Text HLabel 4250 5400 0    50   Input ~ 0
 select_2
-Text HLabel 3550 5350 0    50   Input ~ 0
+Text HLabel 4250 5700 0    50   Input ~ 0
 srin_read_2
-Text HLabel 3550 5450 0    50   Input ~ 0
+Text HLabel 4250 5800 0    50   Input ~ 0
 clk_read_2
-Text HLabel 3550 5550 0    50   Input ~ 0
+Text HLabel 7200 6000 2    50   Input ~ 0
 resetb_read_2
-Text HLabel 3550 5650 0    50   Input ~ 0
+Text HLabel 7200 5700 2    50   Input ~ 0
 srin_sc_2
-Text HLabel 3550 5750 0    50   Input ~ 0
+Text HLabel 7200 5900 2    50   Input ~ 0
 clk_sr_2
-Text HLabel 3550 5850 0    50   Input ~ 0
+Text HLabel 7200 5600 2    50   Input ~ 0
 rstb_sr_2
 Wire Wire Line
-	3700 5350 3550 5350
+	4400 5700 4250 5700
 Wire Wire Line
-	3700 5450 3550 5450
+	4400 5800 4250 5800
 Wire Wire Line
-	3550 5550 3700 5550
+	7200 6000 7050 6000
 Wire Wire Line
-	3700 5650 3550 5650
+	7050 5700 7200 5700
 Wire Wire Line
-	3550 5750 3700 5750
+	7200 5900 7050 5900
 Wire Wire Line
-	3700 5850 3550 5850
+	7050 5600 7200 5600
 Wire Wire Line
-	3700 5250 3550 5250
+	4400 5500 4250 5500
 Wire Wire Line
-	3550 5150 3700 5150
-Text Notes 3100 5050 0    50   ~ 0
+	4250 5400 4400 5400
+Text Notes 3450 5350 0    50   ~ 0
 Citiroc 2 Controls
-Text HLabel 3550 4350 0    50   Input ~ 0
+Text HLabel 4250 4600 0    50   Input ~ 0
 srout_read_1
-Text HLabel 3550 4450 0    50   Input ~ 0
+Text HLabel 4250 4800 0    50   Input ~ 0
 srout_sc_1
 Wire Wire Line
-	3550 4350 3700 4350
+	4250 4600 4400 4600
 Wire Wire Line
-	3550 4450 3700 4450
-Text HLabel 3550 4550 0    50   Input ~ 0
-dig_out_1
-Wire Wire Line
-	3550 4550 3700 4550
-Text HLabel 3550 5950 0    50   Input ~ 0
+	4250 4800 4400 4800
+Text HLabel 7200 5300 2    50   Input ~ 0
 srout_read_2
-Text HLabel 3550 6050 0    50   Input ~ 0
+Text HLabel 7200 5400 2    50   Input ~ 0
 srout_sc_2
 Wire Wire Line
-	3550 5950 3700 5950
+	7200 5300 7050 5300
 Wire Wire Line
-	3550 6050 3700 6050
-Text HLabel 3550 6150 0    50   Input ~ 0
-dig_out_2
-Wire Wire Line
-	3550 6150 3700 6150
+	7200 5400 7050 5400
 Text Notes 5000 1150 0    157  ~ 31
 regular LEDS in a few colors - red, green. orange
 Text Notes 5950 1500 0    157  ~ 31
@@ -372,45 +364,45 @@ think 1mA
 Text Notes 7900 2150 0    79   ~ 16
 note colors have different Vf
 Wire Wire Line
-	3700 4850 3550 4850
+	4400 5200 4250 5200
 Wire Wire Line
-	3700 4750 3550 4750
+	4400 5100 4250 5100
 Wire Wire Line
-	3700 4650 3550 4650
-Text HLabel 3550 4850 0    50   Input ~ 0
+	4400 4900 4250 4900
+Text HLabel 4250 5200 0    50   Input ~ 0
 NOR32T_oc_1
-Text HLabel 3550 4750 0    50   Input ~ 0
+Text HLabel 4250 5100 0    50   Input ~ 0
 NOR32_oc_1
-Text HLabel 3550 4650 0    50   Input ~ 0
+Text HLabel 4250 4900 0    50   Input ~ 0
 OR32_1
 Wire Wire Line
-	3700 6450 3550 6450
+	7050 5000 7200 5000
 Wire Wire Line
-	3700 6350 3550 6350
+	7050 4800 7200 4800
 Wire Wire Line
-	3700 6250 3550 6250
-Text HLabel 3550 6450 0    50   Input ~ 0
+	7050 5100 7200 5100
+Text HLabel 7200 5000 2    50   Input ~ 0
 NOR32T_oc_2
-Text HLabel 3550 6350 0    50   Input ~ 0
+Text HLabel 7200 4800 2    50   Input ~ 0
 NOR32_oc_2
-Text HLabel 3550 6250 0    50   Input ~ 0
+Text HLabel 7200 5100 2    50   Input ~ 0
 OR32_2
-Text HLabel 8900 4350 2    50   Input ~ 0
+Text HLabel 7200 2850 2    50   Input ~ 0
 3v3_GPIO1
-Text HLabel 8900 4450 2    50   Input ~ 0
+Text HLabel 7200 2950 2    50   Input ~ 0
 3v3_GPIO2
-Text HLabel 8900 4550 2    50   Input ~ 0
+Text HLabel 7200 3200 2    50   Input ~ 0
 3v3_GPIO3
-Text HLabel 8900 4650 2    50   Input ~ 0
+Text HLabel 7200 3300 2    50   Input ~ 0
 3v3_GPIO4
 Wire Wire Line
-	8900 4350 8750 4350
+	7200 2850 7050 2850
 Wire Wire Line
-	8900 4450 8750 4450
+	7200 2950 7050 2950
 Wire Wire Line
-	8900 4550 8750 4550
+	7200 3200 7050 3200
 Wire Wire Line
-	8900 4650 8750 4650
-Text Notes 8700 4300 0    50   ~ 0
+	7200 3300 7050 3300
+Text Notes 7000 2800 0    50   ~ 0
 to GPIO
 $EndSCHEMATC
