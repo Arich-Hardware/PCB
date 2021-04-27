@@ -1021,10 +1021,10 @@ Wire Wire Line
 	5850 4700 5850 5100
 Connection ~ 5850 4700
 $Comp
-L backplane-prototype-rescue:GND-power #PWR?
+L backplane-prototype-rescue:GND-power #PWR0101
 U 1 1 60A3E3A6
 P 4650 5100
-F 0 "#PWR?" H 4650 4850 50  0001 C CNN
+F 0 "#PWR0101" H 4650 4850 50  0001 C CNN
 F 1 "GND" H 4655 4927 50  0000 C CNN
 F 2 "" H 4650 5100 50  0001 C CNN
 F 3 "" H 4650 5100 50  0001 C CNN
@@ -1072,14 +1072,88 @@ NoConn ~ 4750 5300
 NoConn ~ 4750 5200
 NoConn ~ 4750 5100
 $Comp
-L backplane-prototype-rescue:GND-power #PWR?
+L backplane-prototype-rescue:GND-power #PWR0102
 U 1 1 60F14AE5
 P 5850 5100
-F 0 "#PWR?" H 5850 4850 50  0001 C CNN
+F 0 "#PWR0102" H 5850 4850 50  0001 C CNN
 F 1 "GND" H 5855 4927 50  0000 C CNN
 F 2 "" H 5850 5100 50  0001 C CNN
 F 3 "" H 5850 5100 50  0001 C CNN
 	1    5850 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L backplane-prototype-rescue:MountingHole H1
+U 1 1 60939541
+P 2150 5600
+F 0 "H1" H 2244 5646 50  0000 L CNN
+F 1 "MountingHole" H 2244 5555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 2150 5700 50  0001 C CNN
+F 3 "" H 2150 5700 50  0001 C CNN
+	1    2150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L backplane-prototype-rescue:MountingHole H2
+U 1 1 60958BEC
+P 2150 5900
+F 0 "H2" H 2245 5946 50  0000 L CNN
+F 1 "MountingHole" H 2245 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 2150 6000 50  0001 C CNN
+F 3 "" H 2150 6000 50  0001 C CNN
+	1    2150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L backplane-prototype-rescue:MountingHole H3
+U 1 1 60977813
+P 2150 6200
+F 0 "H3" H 2245 6246 50  0000 L CNN
+F 1 "MountingHole" H 2245 6155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 2150 6300 50  0001 C CNN
+F 3 "" H 2150 6300 50  0001 C CNN
+	1    2150 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L backplane-prototype-rescue:MountingHole H4
+U 1 1 60977825
+P 2150 6500
+F 0 "H4" H 2245 6546 50  0000 L CNN
+F 1 "MountingHole" H 2245 6455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 2150 6600 50  0001 C CNN
+F 3 "" H 2150 6600 50  0001 C CNN
+	1    2150 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5600 1800 5600
+Wire Wire Line
+	1800 5600 1800 5900
+Wire Wire Line
+	2000 5900 1800 5900
+Connection ~ 1800 5900
+Wire Wire Line
+	1800 5900 1800 6200
+Wire Wire Line
+	2000 6200 1800 6200
+Connection ~ 1800 6200
+Wire Wire Line
+	1800 6200 1800 6500
+Wire Wire Line
+	2000 6500 1800 6500
+Connection ~ 1800 6500
+Wire Wire Line
+	1800 6500 1800 6700
+$Comp
+L backplane-prototype-rescue:GND-power #PWR02
+U 1 1 60AB1346
+P 1800 6700
+F 0 "#PWR02" H 1800 6450 50  0001 C CNN
+F 1 "GND" H 1805 6527 50  0000 C CNN
+F 2 "" H 1800 6700 50  0001 C CNN
+F 3 "" H 1800 6700 50  0001 C CNN
+	1    1800 6700
 	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

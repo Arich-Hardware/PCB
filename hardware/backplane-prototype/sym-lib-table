@@ -1,4 +1,7 @@
 (sym_lib_table
   (lib (name ERF8-060-XX.X-X-DV)(type Legacy)(uri ${KIPRJMOD}/Symbol/ERF8-060-XX.X-X-DV.lib)(options "")(descr ""))
   (lib (name backplane-prototype-rescue)(type Legacy)(uri ${KIPRJMOD}/backplane-prototype-rescue.lib)(options "")(descr ""))
+  (lib (name Breakout_Board-rescue)(type Legacy)(uri /Users/tejasva/PCB/hardware/sipm-breakout/Breakout_Board-rescue.lib)(options "")(descr ""))
+  (lib (name Breakout_Board-cache)(type Legacy)(uri /Users/tejasva/PCB/hardware/sipm-breakout/Breakout_Board-cache.lib)(options "")(descr ""))
+  (lib (name Arich_SiPM_Board_Parts)(type Legacy)(uri /Users/tejasva/PCB/hardware/libraries/Arich_SiPM_Board_Parts.lib)(options "")(descr ""))
 )

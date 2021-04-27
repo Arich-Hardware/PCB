@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Backplane-prototype)(type KiCad)(uri C:/Users/Asus/Desktop/PCB-main/PCB-main/hardware/mod)(options "")(descr ""))
+  (lib (name Arich_SiPM_Footprints)(type KiCad)(uri /Users/tejasva/PCB/hardware/mod/Arich_SiPM_Footprints.pretty)(options "")(descr ""))
 )
