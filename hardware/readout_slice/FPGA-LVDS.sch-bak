@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 14
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -388,8 +388,6 @@ Wire Wire Line
 	2500 4650 2750 4650
 Wire Wire Line
 	1500 4450 1000 4450
-Text Notes 2100 4950 0    50   ~ 10
-replace\n
 NoConn ~ 1500 4550
 Text HLabel 3050 5050 0    50   Input ~ 0
 ADC_SDO_1
@@ -423,7 +421,7 @@ Wire Wire Line
 	3200 5650 3050 5650
 Text HLabel 3050 5950 0    50   Input ~ 0
 ADC_SCLK_2
-Text Notes 200  3900 0    79   ~ 16
+Text Notes 300  3900 0    79   ~ 16
 double check footprints,\nosc datasheets can be strange
 $Comp
 L Connector_Generic:Conn_01x03 J?

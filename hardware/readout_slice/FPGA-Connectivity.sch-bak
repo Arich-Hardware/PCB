@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 14
+Sheet 8 11
 Title ""
 Date ""
 Rev ""
@@ -960,39 +960,26 @@ F 3 "" H 3750 6750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4050 2050 5550 2050
-$Comp
-L readout:XC7A35T-1FGG484 U?
-U 9 1 639D3E9A
-P 6450 3650
-AR Path="/605605C8/639D3E9A" Ref="U?"  Part="9" 
-AR Path="/639D3E9A" Ref="U?"  Part="9" 
-AR Path="/608F6DFA/639D3E9A" Ref="U?"  Part="9" 
-F 0 "U?" H 6375 3825 50  0000 C CNN
-F 1 "XC7A35T-1FGG484" H 6375 3734 50  0000 C CNN
-F 2 "" H 5350 3800 50  0001 C CNN
-F 3 "" H 5350 3800 50  0001 C CNN
-	9    6450 3650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 5550 4300
-NoConn ~ 5550 4100
-NoConn ~ 5550 4000
-NoConn ~ 5550 3800
-NoConn ~ 5550 3700
-NoConn ~ 7200 3700
-NoConn ~ 7200 3800
-NoConn ~ 7200 4000
-NoConn ~ 7200 4100
-NoConn ~ 7200 4300
-NoConn ~ 7200 4400
-NoConn ~ 7200 4600
-NoConn ~ 7200 4700
-NoConn ~ 7200 4900
-NoConn ~ 7200 5000
-NoConn ~ 7200 5200
-NoConn ~ 7200 5300
-NoConn ~ 7200 5500
-NoConn ~ 7200 5600
-NoConn ~ 7200 5800
-NoConn ~ 7200 5900
+Text HLabel 7700 1850 0    50   Input ~ 0
+SFP_Present
+Text HLabel 7700 1950 0    50   Input ~ 0
+SFP_LOS
+Text HLabel 7700 2450 0    50   Input ~ 0
+SFP_Tx_Fault
+Text HLabel 7700 2150 0    50   Input ~ 0
+SFP_SCL
+Text HLabel 7700 2250 0    50   Input ~ 0
+SFP_SDA
+Wire Wire Line
+	7950 1850 7700 1850
+Wire Wire Line
+	7700 1950 7950 1950
+Wire Wire Line
+	7950 2150 7700 2150
+Wire Wire Line
+	7700 2250 7950 2250
+Wire Wire Line
+	7950 2450 7700 2450
+Text Notes 6650 2650 0    50   ~ 10
+Double check that\nthese can be any pin
 $EndSCHEMATC

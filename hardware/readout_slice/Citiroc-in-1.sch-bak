@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 14
+Sheet 14 11
 Title ""
 Date ""
 Rev ""
@@ -2225,4 +2225,12 @@ Text Notes 7600 2350 0    50   ~ 10
 page 48 of DS\n
 Text Notes 7100 1650 0    50   ~ 10
 page 34 of DS\n
+Text Notes 7250 1500 0    50   ~ 10
+series resistors 0 ohm
+Text Notes 7850 4500 0    50   ~ 10
+may not need gnd for all\nif space issue
+Text Notes 6050 5550 0    118  ~ 24
+page34 100nf decoup for every pin on table\nno need for connector
+Text Notes 7300 5650 0    50   ~ 10
+differend than table on page 33, which can go to conn
 $EndSCHEMATC
