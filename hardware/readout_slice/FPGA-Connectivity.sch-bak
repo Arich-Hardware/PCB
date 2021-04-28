@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -857,52 +857,8 @@ Wire Wire Line
 	11150 2350 10850 2350
 NoConn ~ 4050 1650
 NoConn ~ 4050 1750
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60894F31
-P 9850 800
-F 0 "#PWR?" H 9850 650 50  0001 C CNN
-F 1 "+3V3" H 9850 950 50  0000 C CNB
-F 2 "" H 9850 800 50  0001 C CNN
-F 3 "" H 9850 800 50  0001 C CNN
-	1    9850 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6089A00F
-P 5050 850
-F 0 "#PWR?" H 5050 700 50  0001 C CNN
-F 1 "+3V3" H 5050 1000 50  0000 C CNB
-F 2 "" H 5050 850 50  0001 C CNN
-F 3 "" H 5050 850 50  0001 C CNN
-	1    5050 850 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5050 950  5050 850 
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6089FEE0
-P 5950 1250
-F 0 "#PWR?" H 5950 1100 50  0001 C CNN
-F 1 "+3V3" H 5950 1400 50  0000 C CNB
-F 2 "" H 5950 1250 50  0001 C CNN
-F 3 "" H 5950 1250 50  0001 C CNN
-	1    5950 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 608A04F6
-P 2900 1150
-F 0 "#PWR?" H 2900 1000 50  0001 C CNN
-F 1 "+3V3" H 2900 1300 50  0000 C CNB
-F 2 "" H 2900 1150 50  0001 C CNN
-F 3 "" H 2900 1150 50  0001 C CNN
-	1    2900 1150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 608A0A7D
@@ -913,39 +869,6 @@ F 2 "" H 2050 2400 50  0001 C CNN
 F 3 "" H 2050 2400 50  0001 C CNN
 	1    2050 2400
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 608A330A
-P 4650 2700
-F 0 "#PWR?" H 4650 2550 50  0001 C CNN
-F 1 "+3V3" V 4650 2900 50  0000 C CNB
-F 2 "" H 4650 2700 50  0001 C CNN
-F 3 "" H 4650 2700 50  0001 C CNN
-	1    4650 2700
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 608A5046
-P 4650 2500
-F 0 "#PWR?" H 4650 2350 50  0001 C CNN
-F 1 "+3V3" V 4650 2700 50  0000 C CNB
-F 2 "" H 4650 2500 50  0001 C CNN
-F 3 "" H 4650 2500 50  0001 C CNN
-	1    4650 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 608A52D9
-P 4650 2300
-F 0 "#PWR?" H 4650 2150 50  0001 C CNN
-F 1 "+3V3" V 4650 2500 50  0000 C CNB
-F 2 "" H 4650 2300 50  0001 C CNN
-F 3 "" H 4650 2300 50  0001 C CNN
-	1    4650 2300
-	0    1    1    0   
 $EndComp
 $Comp
 L power:+3V3 #PWR?
@@ -982,4 +905,81 @@ Wire Wire Line
 	7950 2450 7700 2450
 Text Notes 6650 2650 0    50   ~ 10
 Double check that\nSFP can be any pin
+$Comp
+L readout:Vcc0 U?
+U 1 1 62C96DDE
+P 2900 1050
+F 0 "U?" H 2900 1050 79  0001 C CNN
+F 1 "Vcc0" H 2800 1100 47  0000 L CNB
+F 2 "" H 2900 1050 79  0001 C CNN
+F 3 "" H 2900 1050 79  0001 C CNN
+	1    2900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 62C97174
+P 5050 750
+F 0 "U?" H 5050 750 79  0001 C CNN
+F 1 "Vcc0" H 4950 800 47  0000 L CNB
+F 2 "" H 5050 750 79  0001 C CNN
+F 3 "" H 5050 750 79  0001 C CNN
+	1    5050 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 62C98336
+P 5950 1150
+F 0 "U?" H 5950 1150 79  0001 C CNN
+F 1 "Vcc0" H 5850 1200 47  0000 L CNB
+F 2 "" H 5950 1150 79  0001 C CNN
+F 3 "" H 5950 1150 79  0001 C CNN
+	1    5950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 62C9F6A2
+P 9850 700
+F 0 "U?" H 9850 700 79  0001 C CNN
+F 1 "Vcc0" H 9750 750 47  0000 L CNB
+F 2 "" H 9850 700 79  0001 C CNN
+F 3 "" H 9850 700 79  0001 C CNN
+	1    9850 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 62CAB47F
+P 4750 2300
+F 0 "U?" H 4750 2300 79  0001 C CNN
+F 1 "Vcc0" V 4700 2300 47  0000 L CNB
+F 2 "" H 4750 2300 79  0001 C CNN
+F 3 "" H 4750 2300 79  0001 C CNN
+	1    4750 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 62CBA584
+P 4750 2500
+F 0 "U?" H 4750 2500 79  0001 C CNN
+F 1 "Vcc0" V 4700 2500 47  0000 L CNB
+F 2 "" H 4750 2500 79  0001 C CNN
+F 3 "" H 4750 2500 79  0001 C CNN
+	1    4750 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 62CBA7D3
+P 4750 2700
+F 0 "U?" H 4750 2700 79  0001 C CNN
+F 1 "Vcc0" V 4700 2700 47  0000 L CNB
+F 2 "" H 4750 2700 79  0001 C CNN
+F 3 "" H 4750 2700 79  0001 C CNN
+	1    4750 2700
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

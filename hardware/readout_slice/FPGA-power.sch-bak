@@ -1256,17 +1256,6 @@ Text Notes 7900 5750 0    50   ~ 0
 not sure about this bank
 Text Notes 4150 -650 0    79   ~ 16
 use trans circ to light\nLEDs for low voltage\nsupplies
-$Comp
-L power:+1V0 #PWR?
-U 1 1 6077C5BB
-P 7100 950
-F 0 "#PWR?" H 7100 800 50  0001 C CNN
-F 1 "+1V0" H 7100 1100 50  0000 C CNB
-F 2 "" H 7100 950 50  0001 C CNN
-F 3 "" H 7100 950 50  0001 C CNN
-	1    7100 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7100 950  7100 1050
 Connection ~ 7100 1050
@@ -3039,6 +3028,17 @@ F 1 "VccAux" H 6500 2500 39  0000 L CNB
 F 2 "" H 6600 2450 79  0001 C CNN
 F 3 "" H 6600 2450 79  0001 C CNN
 	1    6600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccInt U?
+U 1 1 62C1008F
+P 7100 850
+F 0 "U?" H 7100 850 79  0001 C CNN
+F 1 "VccInt" H 7000 900 39  0000 L CNB
+F 2 "" H 7100 850 79  0001 C CNN
+F 3 "" H 7100 850 79  0001 C CNN
+	1    7100 850 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

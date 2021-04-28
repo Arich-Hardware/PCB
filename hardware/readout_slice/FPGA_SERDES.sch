@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -323,8 +323,6 @@ Wire Wire Line
 Wire Wire Line
 	7450 2900 7450 2600
 Connection ~ 7450 2900
-Text Notes 7600 2600 2    118  ~ 0
-VCC_0
 $Comp
 L Device:L L?
 U 1 1 60A42AC0
@@ -418,8 +416,6 @@ Wire Wire Line
 Connection ~ 8250 2450
 Wire Wire Line
 	8250 2450 8450 2450
-Text Notes 7900 2350 0    118  ~ 0
-VCCSFP
 Wire Wire Line
 	8150 2450 8150 2350
 Connection ~ 8150 2450
@@ -493,7 +489,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 3250 7750 3250
 Connection ~ 7950 3250
-Text Notes 9050 3850 0    118  ~ 24
+Text Notes 9000 3950 0    118  ~ 24
 NEED to do cage
 Wire Wire Line
 	3650 2650 3650 2500
@@ -646,4 +642,27 @@ Text Notes 2300 3200 0    50   ~ 10
 si is out of stock
 Text Notes 6550 4950 0    50   ~ 10
 to vcco bank
+$Comp
+L readout:Vcc0 U?
+U 1 1 62C7AC21
+P 7450 2500
+F 0 "U?" H 7450 2500 79  0001 C CNN
+F 1 "Vcc0" H 7350 2550 47  0000 L CNB
+F 2 "" H 7450 2500 79  0001 C CNN
+F 3 "" H 7450 2500 79  0001 C CNN
+	1    7450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccSFP U?
+U 1 1 62C7E003
+P 8150 2250
+F 0 "U?" H 8150 2250 79  0001 C CNN
+F 1 "VccSFP" H 8050 2300 47  0000 L CNB
+F 2 "" H 8150 2250 79  0001 C CNN
+F 3 "" H 8150 2250 79  0001 C CNN
+	1    8150 2250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6000 2450
 $EndSCHEMATC
