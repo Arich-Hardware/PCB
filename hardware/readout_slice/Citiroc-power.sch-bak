@@ -701,4 +701,104 @@ Wire Wire Line
 	7850 2950 8200 2950
 Wire Wire Line
 	3950 950  3950 1500
+NoConn ~ 3000 1300
+NoConn ~ 7000 1250
+NoConn ~ 3200 1300
+NoConn ~ 7200 1250
+$Comp
+L Device:C_Small C?
+U 1 1 61D8408D
+P 3100 1050
+F 0 "C?" H 2900 1100 50  0000 L CNN
+F 1 "100n" H 2850 1000 50  0000 L CNN
+F 2 "" H 3100 1050 50  0001 C CNN
+F 3 "~" H 3100 1050 50  0001 C CNN
+	1    3100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61D8465B
+P 3300 1050
+F 0 "C?" H 3100 1100 50  0000 L CNN
+F 1 "100n" H 3050 1000 50  0000 L CNN
+F 2 "" H 3300 1050 50  0001 C CNN
+F 3 "~" H 3300 1050 50  0001 C CNN
+	1    3300 1050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1300 3100 1150
+Wire Wire Line
+	3300 1300 3300 1150
+Wire Wire Line
+	3300 950  3300 800 
+Wire Wire Line
+	3300 800  3100 800 
+Wire Wire Line
+	2650 800  2650 950 
+Wire Wire Line
+	3100 950  3100 800 
+Connection ~ 3100 800 
+Wire Wire Line
+	3100 800  2650 800 
+$Comp
+L power:GNDA #PWR?
+U 1 1 61DA710A
+P 2650 950
+F 0 "#PWR?" H 2650 700 50  0001 C CNN
+F 1 "GNDA" H 2655 777 50  0000 C CNN
+F 2 "" H 2650 950 50  0001 C CNN
+F 3 "" H 2650 950 50  0001 C CNN
+	1    2650 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61DAB491
+P 7100 1000
+F 0 "C?" H 6900 1050 50  0000 L CNN
+F 1 "100n" H 6850 950 50  0000 L CNN
+F 2 "" H 7100 1000 50  0001 C CNN
+F 3 "~" H 7100 1000 50  0001 C CNN
+	1    7100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61DAB497
+P 7300 1000
+F 0 "C?" H 7100 1050 50  0000 L CNN
+F 1 "100n" H 7050 950 50  0000 L CNN
+F 2 "" H 7300 1000 50  0001 C CNN
+F 3 "~" H 7300 1000 50  0001 C CNN
+	1    7300 1000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 1250 7100 1100
+Wire Wire Line
+	7300 1250 7300 1100
+Wire Wire Line
+	7300 900  7300 750 
+Wire Wire Line
+	7300 750  7100 750 
+Wire Wire Line
+	6650 750  6650 900 
+Wire Wire Line
+	7100 900  7100 750 
+Connection ~ 7100 750 
+Wire Wire Line
+	7100 750  6650 750 
+$Comp
+L power:GNDA #PWR?
+U 1 1 61DAB4A5
+P 6650 900
+F 0 "#PWR?" H 6650 650 50  0001 C CNN
+F 1 "GNDA" H 6655 727 50  0000 C CNN
+F 2 "" H 6650 900 50  0001 C CNN
+F 3 "" H 6650 900 50  0001 C CNN
+	1    6650 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

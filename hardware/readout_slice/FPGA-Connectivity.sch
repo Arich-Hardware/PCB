@@ -981,5 +981,5 @@ Wire Wire Line
 Wire Wire Line
 	7950 2450 7700 2450
 Text Notes 6650 2650 0    50   ~ 10
-Double check that\nthese can be any pin
+Double check that\nSFP can be any pin
 $EndSCHEMATC

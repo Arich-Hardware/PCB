@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 11
+Sheet 7 11
 Title ""
 Date ""
 Rev ""
@@ -260,7 +260,7 @@ $EndComp
 Text Notes 700  850  0    157  ~ 31
 3V3 controls?
 Connection ~ 8500 2200
-Text Notes 2700 1800 0    50   ~ 0
+Text Notes 2800 1800 0    50   ~ 0
 from bank?
 Text HLabel 2450 2200 0    50   Input ~ 0
 resetb_pa
@@ -661,12 +661,10 @@ F 3 "" H 4100 1800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3500 1700 3500 2000
-Text Notes 850  2200 0    50   ~ 0
-make sure signals don’t just disapper\nmake accessable on outer layer\n
+Text Notes 1350 2200 0    79   ~ 16
+Layout note:\nMake accessable on \nouter layer\n
 Text Notes 3650 7000 0    157  ~ 31
 LEDS!!!
-Text Notes 1600 7000 0    157  ~ 31
-and GPIOs\n
 Wire Wire Line
 	4050 5900 5100 5900
 Wire Wire Line
@@ -740,8 +738,6 @@ Wire Wire Line
 	6800 4800 6350 4800
 Wire Wire Line
 	6350 4900 6800 4900
-Text Notes 550  2850 0    50   ~ 10
-Parrallel w/ other chip,\ndoes that change 100R?
 Text HLabel 2050 2500 0    50   Input ~ 0
 Raz_Chn_p1
 Text HLabel 2050 2700 0    50   Input ~ 0
@@ -750,8 +746,6 @@ Text HLabel 2050 2800 0    50   Input ~ 0
 Val_Ext_p1
 Text HLabel 2050 3000 0    50   Input ~ 0
 Val_Ext_n1
-Text Notes 4600 1700 0    50   ~ 0
-r in range 1k to 10k \ndepending on \nspeed of recovery
 $Comp
 L power:+1V8 #PWR?
 U 1 1 61F3F790
