@@ -642,28 +642,6 @@ Text Notes 2300 3200 0    50   ~ 10
 si is out of stock
 Text Notes 6550 4950 0    50   ~ 10
 to vcco bank
-$Comp
-L readout:Vcc0 U?
-U 1 1 62C7AC21
-P 7450 2500
-F 0 "U?" H 7450 2500 79  0001 C CNN
-F 1 "Vcc0" H 7350 2550 47  0000 L CNB
-F 2 "" H 7450 2500 79  0001 C CNN
-F 3 "" H 7450 2500 79  0001 C CNN
-	1    7450 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:VccSFP U?
-U 1 1 62C7E003
-P 8150 2250
-F 0 "U?" H 8150 2250 79  0001 C CNN
-F 1 "VccSFP" H 8050 2300 47  0000 L CNB
-F 2 "" H 8150 2250 79  0001 C CNN
-F 3 "" H 8150 2250 79  0001 C CNN
-	1    8150 2250
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6000 2450
 Text Notes 1000 2650 0    79   ~ 16
 have to confirm frequency b4 ordering
@@ -790,4 +768,26 @@ $EndComp
 Wire Wire Line
 	9600 5300 9600 5150
 Connection ~ 9600 5150
+$Comp
+L readout:Vcc0 U?
+U 1 1 62C7AC21
+P 7450 2500
+F 0 "U?" H 7450 2500 79  0001 C CNN
+F 1 "Vcc0" H 7350 2550 47  0000 L CNB
+F 2 "" H 7450 2500 79  0001 C CNN
+F 3 "" H 7450 2500 79  0001 C CNN
+	1    7450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccSFP U?
+U 1 1 62C7E003
+P 8150 2250
+F 0 "U?" H 8150 2250 79  0001 C CNN
+F 1 "VccSFP" H 8050 2300 47  0000 L CNB
+F 2 "" H 8150 2250 79  0001 C CNN
+F 3 "" H 8150 2250 79  0001 C CNN
+	1    8150 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
