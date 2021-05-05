@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 11
+Sheet 1 12
 Title "readout_slice"
 Date "2021-02-24"
 Rev "RevA"
@@ -772,6 +772,12 @@ Wire Wire Line
 	8450 3100 8450 3450
 Text Notes 3600 1800 0    157  ~ 31
 CONNECTIVITY
-Text Notes 4700 -150 0    79   ~ 16
+Text Notes 1600 750  0    79   ~ 16
 loose ends,
+$Sheet
+S 4250 4350 1050 450 
+U 62251D77
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
 $EndSCHEMATC
