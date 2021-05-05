@@ -73,8 +73,6 @@ Text Notes 1750 3500 0    157  ~ 31
 POWER
 Text Notes 7750 800  0    157  ~ 31
 CITIROC-FPGA
-Text Notes 3600 1800 0    157  ~ 31
-CONNECTIVITY
 Text Notes 1950 3200 0    79   ~ 16
 leds on all supplies
 Text Notes 1000 2050 0    79   ~ 16
@@ -772,4 +770,8 @@ Wire Wire Line
 	8500 3350 8500 3000
 Wire Wire Line
 	8450 3100 8450 3450
+Text Notes 3600 1800 0    157  ~ 31
+CONNECTIVITY
+Text Notes 4700 -150 0    79   ~ 16
+loose ends,
 $EndSCHEMATC

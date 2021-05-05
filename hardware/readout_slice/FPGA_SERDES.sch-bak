@@ -489,8 +489,8 @@ Wire Wire Line
 Wire Wire Line
 	7950 3250 7750 3250
 Connection ~ 7950 3250
-Text Notes 9000 3950 0    118  ~ 24
-NEED to do cage
+Text Notes 10200 3800 0    118  ~ 24
+get part num\nfrom BoM
 Wire Wire Line
 	3650 2650 3650 2500
 Wire Wire Line
@@ -636,7 +636,7 @@ Wire Wire Line
 	2900 2700 2900 2900
 Wire Wire Line
 	2900 2900 3350 2900
-Text Notes 1850 3900 0    118  ~ 24
+Text Notes 1700 4100 0    118  ~ 24
 IM GUESSING DAN’S \ndesign here
 Text Notes 2300 3200 0    50   ~ 10
 si is out of stock
@@ -665,4 +665,129 @@ F 3 "" H 8150 2250 79  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6000 2450
+Text Notes 1000 2650 0    79   ~ 16
+have to confirm frequency b4 ordering
+$Comp
+L readout:SFP+cage U?
+U 1 1 60AA3CBE
+P 9800 3200
+F 0 "U?" H 10028 2251 50  0000 L CNN
+F 1 "SFP+cage" H 10028 2160 50  0000 L CNN
+F 2 "" H 9850 3300 50  0001 C CNN
+F 3 "" H 9850 3300 50  0001 C CNN
+	1    9800 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4150 9600 4150
+Wire Wire Line
+	9600 3250 9700 3250
+Connection ~ 9600 4150
+Wire Wire Line
+	9600 4150 9700 4150
+Wire Wire Line
+	9700 3350 9600 3350
+Wire Wire Line
+	9600 3250 9600 3350
+Connection ~ 9600 3350
+Wire Wire Line
+	9600 3350 9600 3450
+Wire Wire Line
+	9600 3450 9700 3450
+Connection ~ 9600 3450
+Wire Wire Line
+	9600 3450 9600 3550
+Wire Wire Line
+	9700 3550 9600 3550
+Connection ~ 9600 3550
+Wire Wire Line
+	9600 3550 9600 3650
+Wire Wire Line
+	9700 3650 9600 3650
+Connection ~ 9600 3650
+Wire Wire Line
+	9600 3650 9600 3750
+Wire Wire Line
+	9700 3750 9600 3750
+Connection ~ 9600 3750
+Wire Wire Line
+	9600 3750 9600 3850
+Wire Wire Line
+	9700 3850 9600 3850
+Connection ~ 9600 3850
+Wire Wire Line
+	9600 3850 9600 3950
+Wire Wire Line
+	9700 3950 9600 3950
+Connection ~ 9600 3950
+Wire Wire Line
+	9600 3950 9600 4050
+Wire Wire Line
+	9700 4050 9600 4050
+Connection ~ 9600 4050
+Wire Wire Line
+	9600 4050 9600 4150
+Wire Wire Line
+	9700 4250 9600 4250
+Wire Wire Line
+	9600 5150 9700 5150
+Wire Wire Line
+	9600 4150 9600 4250
+Connection ~ 9600 4250
+Wire Wire Line
+	9600 4250 9600 4350
+Wire Wire Line
+	9700 5050 9600 5050
+Connection ~ 9600 5050
+Wire Wire Line
+	9600 5050 9600 5150
+Wire Wire Line
+	9600 4950 9700 4950
+Connection ~ 9600 4950
+Wire Wire Line
+	9600 4950 9600 5050
+Wire Wire Line
+	9700 4850 9600 4850
+Connection ~ 9600 4850
+Wire Wire Line
+	9600 4850 9600 4950
+Wire Wire Line
+	9600 4750 9700 4750
+Connection ~ 9600 4750
+Wire Wire Line
+	9600 4750 9600 4850
+Wire Wire Line
+	9700 4650 9600 4650
+Connection ~ 9600 4650
+Wire Wire Line
+	9600 4650 9600 4750
+Wire Wire Line
+	9600 4550 9700 4550
+Connection ~ 9600 4550
+Wire Wire Line
+	9600 4550 9600 4650
+Wire Wire Line
+	9700 4450 9600 4450
+Connection ~ 9600 4450
+Wire Wire Line
+	9600 4450 9600 4550
+Wire Wire Line
+	9600 4350 9700 4350
+Connection ~ 9600 4350
+Wire Wire Line
+	9600 4350 9600 4450
+$Comp
+L power:GNDD #PWR?
+U 1 1 60B02076
+P 9600 5300
+F 0 "#PWR?" H 9600 5050 50  0001 C CNN
+F 1 "GNDD" H 9604 5145 50  0000 C CNN
+F 2 "" H 9600 5300 50  0001 C CNN
+F 3 "" H 9600 5300 50  0001 C CNN
+	1    9600 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 5300 9600 5150
+Connection ~ 9600 5150
 $EndSCHEMATC
