@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name backplane-prototype-rescue)(type Legacy)(uri /Users/tejasva/PCB/hardware/backplane-prototype/backplane-prototype-rescue.lib)(options "")(descr ""))
+)
