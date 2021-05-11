@@ -1304,9 +1304,9 @@ F 3 "" H 9100 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9100 3050 9100 2900
-Text Notes 9200 450  0    50   ~ 0
+Text Notes 9650 650  0    50   ~ 0
 digital i/o supply
-Text Notes 8550 400  2    50   ~ 0
+Text Notes 8400 600  2    50   ~ 0
 analog I/O supply
 Wire Wire Line
 	8900 3000 9300 3000
@@ -1388,19 +1388,6 @@ Wire Wire Line
 	8800 1200 8700 1200
 Wire Wire Line
 	8700 1200 8700 1300
-$Comp
-L power:+3V3 #PWR?
-U 1 1 615C1028
-P 8700 1100
-AR Path="/6076454A/615C1028" Ref="#PWR?"  Part="1" 
-AR Path="/60764AEF/615C1028" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8700 950 50  0001 C CNN
-F 1 "+3V3" H 8700 1250 50  0000 C CNB
-F 2 "" H 8700 1100 50  0001 C CNN
-F 3 "" H 8700 1100 50  0001 C CNN
-	1    8700 1100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8700 1100 8700 1200
 Connection ~ 8700 1200
@@ -1523,19 +1510,6 @@ Wire Wire Line
 	9400 3150 9650 3150
 NoConn ~ 10900 3250
 $Comp
-L power:+3V3 #PWR?
-U 1 1 615C106B
-P 10600 2950
-AR Path="/6076454A/615C106B" Ref="#PWR?"  Part="1" 
-AR Path="/60764AEF/615C106B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10600 2800 50  0001 C CNN
-F 1 "+3V3" H 10600 3100 50  0000 C CNN
-F 2 "" H 10600 2950 50  0001 C CNN
-F 3 "" H 10600 2950 50  0001 C CNN
-	1    10600 2950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 615C1071
 P 10150 3950
@@ -1562,19 +1536,6 @@ F 3 "" H 10150 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 615C107D
-P 10150 3850
-AR Path="/6076454A/615C107D" Ref="#PWR?"  Part="1" 
-AR Path="/60764AEF/615C107D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10150 3700 50  0001 C CNN
-F 1 "+3V3" H 10150 4000 50  0000 C CNN
-F 2 "" H 10150 3850 50  0001 C CNN
-F 3 "" H 10150 3850 50  0001 C CNN
-	1    10150 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDA #PWR?
 U 1 1 615C1083
 P 10600 3550
@@ -1590,40 +1551,27 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 615C1089
-P 8350 700
+P 8200 900
 AR Path="/6076454A/615C1089" Ref="C?"  Part="1" 
 AR Path="/60764AEF/615C1089" Ref="C?"  Part="1" 
-F 0 "C?" H 8442 746 50  0000 L CNN
-F 1 "1u" H 8442 655 50  0000 L CNN
-F 2 "" H 8350 700 50  0001 C CNN
-F 3 "~" H 8350 700 50  0001 C CNN
-	1    8350 700 
+F 0 "C?" H 8292 946 50  0000 L CNN
+F 1 "1u" H 8292 855 50  0000 L CNN
+F 2 "" H 8200 900 50  0001 C CNN
+F 3 "~" H 8200 900 50  0001 C CNN
+	1    8200 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 615C108F
-P 8350 800
+P 8200 1000
 AR Path="/6076454A/615C108F" Ref="#PWR?"  Part="1" 
 AR Path="/60764AEF/615C108F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8350 550 50  0001 C CNN
-F 1 "GNDA" H 8350 650 50  0000 C CNB
-F 2 "" H 8350 800 50  0001 C CNN
-F 3 "" H 8350 800 50  0001 C CNN
-	1    8350 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 615C1095
-P 8350 600
-AR Path="/6076454A/615C1095" Ref="#PWR?"  Part="1" 
-AR Path="/60764AEF/615C1095" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8350 450 50  0001 C CNN
-F 1 "+3V3" H 8350 750 50  0000 C CNN
-F 2 "" H 8350 600 50  0001 C CNN
-F 3 "" H 8350 600 50  0001 C CNN
-	1    8350 600 
+F 0 "#PWR?" H 8200 750 50  0001 C CNN
+F 1 "GNDA" H 8200 850 50  0000 C CNB
+F 2 "" H 8200 1000 50  0001 C CNN
+F 3 "" H 8200 1000 50  0001 C CNN
+	1    8200 1000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1655,74 +1603,35 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 615C10A7
-P 8050 700
+P 7850 900
 AR Path="/6076454A/615C10A7" Ref="C?"  Part="1" 
 AR Path="/60764AEF/615C10A7" Ref="C?"  Part="1" 
-F 0 "C?" H 8142 746 50  0000 L CNN
-F 1 "1u" H 8142 655 50  0000 L CNN
-F 2 "" H 8050 700 50  0001 C CNN
-F 3 "~" H 8050 700 50  0001 C CNN
-	1    8050 700 
+F 0 "C?" H 7942 946 50  0000 L CNN
+F 1 "1u" H 7942 855 50  0000 L CNN
+F 2 "" H 7850 900 50  0001 C CNN
+F 3 "~" H 7850 900 50  0001 C CNN
+	1    7850 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 615C10AD
-P 8050 800
+P 7850 1000
 AR Path="/6076454A/615C10AD" Ref="#PWR?"  Part="1" 
 AR Path="/60764AEF/615C10AD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8050 550 50  0001 C CNN
-F 1 "GNDA" H 8050 650 50  0000 C CNB
-F 2 "" H 8050 800 50  0001 C CNN
-F 3 "" H 8050 800 50  0001 C CNN
-	1    8050 800 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 615C10B3
-P 8050 600
-AR Path="/6076454A/615C10B3" Ref="#PWR?"  Part="1" 
-AR Path="/60764AEF/615C10B3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8050 450 50  0001 C CNN
-F 1 "+3V3" H 8050 750 50  0000 C CNN
-F 2 "" H 8050 600 50  0001 C CNN
-F 3 "" H 8050 600 50  0001 C CNN
-	1    8050 600 
+F 0 "#PWR?" H 7850 750 50  0001 C CNN
+F 1 "GNDA" H 7850 850 50  0000 C CNB
+F 2 "" H 7850 1000 50  0001 C CNN
+F 3 "" H 7850 1000 50  0001 C CNN
+	1    7850 1000
 	1    0    0    -1  
 $EndComp
 Text Notes 8750 2250 0    79   ~ 16
 Check\nPackage
 Text HLabel 9950 2200 2    50   Input ~ 0
 ADC_SCLK_2
-$Comp
-L power:+2V5 #PWR?
-U 1 1 615C10BB
-P 9100 1100
-AR Path="/6076454A/615C10BB" Ref="#PWR?"  Part="1" 
-AR Path="/60764AEF/615C10BB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9100 950 50  0001 C CNN
-F 1 "+2V5" H 9100 1250 50  0000 C CNB
-F 2 "" H 9100 1100 50  0001 C CNN
-F 3 "" H 9100 1100 50  0001 C CNN
-	1    9100 1100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9100 1100 9100 1300
-$Comp
-L power:+2V5 #PWR?
-U 1 1 615C10C2
-P 9500 650
-AR Path="/6076454A/615C10C2" Ref="#PWR?"  Part="1" 
-AR Path="/60764AEF/615C10C2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9500 500 50  0001 C CNN
-F 1 "+2V5" H 9500 800 50  0000 C CNB
-F 2 "" H 9500 650 50  0001 C CNN
-F 3 "" H 9500 650 50  0001 C CNN
-	1    9500 650 
-	1    0    0    -1  
-$EndComp
 Text Notes 10500 2450 0    50   ~ 0
 SPI to LVDS bank
 Wire Wire Line
@@ -2453,4 +2362,103 @@ Wire Wire Line
 	8100 1600 8250 1600
 Wire Wire Line
 	8250 1500 7550 1500
+$Comp
+L readout:VccSFP U?
+U 1 1 60B33794
+P 9500 550
+AR Path="/62251D77/60B33794" Ref="U?"  Part="1" 
+AR Path="/60764AEF/60B33794" Ref="U?"  Part="1" 
+F 0 "U?" H 9500 550 79  0001 C CNN
+F 1 "Vcc0_2v5" H 9350 600 47  0000 L CNB
+F 2 "" H 9500 550 79  0001 C CNN
+F 3 "" H 9500 550 79  0001 C CNN
+	1    9500 550 
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccSFP U?
+U 1 1 60B56D52
+P 9100 1000
+AR Path="/62251D77/60B56D52" Ref="U?"  Part="1" 
+AR Path="/60764AEF/60B56D52" Ref="U?"  Part="1" 
+F 0 "U?" H 9100 1000 79  0001 C CNN
+F 1 "Vcc0_2v5" H 8950 1050 47  0000 L CNB
+F 2 "" H 9100 1000 79  0001 C CNN
+F 3 "" H 9100 1000 79  0001 C CNN
+	1    9100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60C2B212
+P 10150 3750
+AR Path="/6076C700/60C2B212" Ref="U?"  Part="1" 
+AR Path="/62251D77/60C2B212" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60C2B212" Ref="U?"  Part="1" 
+F 0 "U?" H 10150 3750 79  0001 C CNN
+F 1 "Vcc0_3v3" H 10000 3800 47  0000 L CNB
+F 2 "" H 10150 3750 79  0001 C CNN
+F 3 "" H 10150 3750 79  0001 C CNN
+	1    10150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60C4EB26
+P 10600 2850
+AR Path="/6076C700/60C4EB26" Ref="U?"  Part="1" 
+AR Path="/62251D77/60C4EB26" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60C4EB26" Ref="U?"  Part="1" 
+F 0 "U?" H 10600 2850 79  0001 C CNN
+F 1 "Vcc0_3v3" H 10450 2900 47  0000 L CNB
+F 2 "" H 10600 2850 79  0001 C CNN
+F 3 "" H 10600 2850 79  0001 C CNN
+	1    10600 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60C72464
+P 8700 1000
+AR Path="/6076C700/60C72464" Ref="U?"  Part="1" 
+AR Path="/62251D77/60C72464" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60C72464" Ref="U?"  Part="1" 
+AR Path="/60764AEF/60C72464" Ref="U?"  Part="1" 
+F 0 "U?" H 8700 1000 79  0001 C CNN
+F 1 "Vcc0_3v3" H 8550 1050 47  0000 L CNB
+F 2 "" H 8700 1000 79  0001 C CNN
+F 3 "" H 8700 1000 79  0001 C CNN
+	1    8700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60C95B44
+P 7850 700
+AR Path="/6076C700/60C95B44" Ref="U?"  Part="1" 
+AR Path="/62251D77/60C95B44" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60C95B44" Ref="U?"  Part="1" 
+AR Path="/60764AEF/60C95B44" Ref="U?"  Part="1" 
+F 0 "U?" H 7850 700 79  0001 C CNN
+F 1 "Vcc0_3v3" H 7700 750 47  0000 L CNB
+F 2 "" H 7850 700 79  0001 C CNN
+F 3 "" H 7850 700 79  0001 C CNN
+	1    7850 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60CB9232
+P 8200 700
+AR Path="/6076C700/60CB9232" Ref="U?"  Part="1" 
+AR Path="/62251D77/60CB9232" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60CB9232" Ref="U?"  Part="1" 
+AR Path="/60764AEF/60CB9232" Ref="U?"  Part="1" 
+F 0 "U?" H 8200 700 79  0001 C CNN
+F 1 "Vcc0_3v3" H 8050 750 47  0000 L CNB
+F 2 "" H 8200 700 79  0001 C CNN
+F 3 "" H 8200 700 79  0001 C CNN
+	1    8200 700 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

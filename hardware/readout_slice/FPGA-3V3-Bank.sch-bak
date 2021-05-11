@@ -101,17 +101,6 @@ F 3 "~" H 1650 900 50  0001 C CNN
 	1    1650 900 
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6088F651
-P 5550 2050
-F 0 "#PWR?" H 5550 1900 50  0001 C CNN
-F 1 "+3V3" H 5550 2200 50  0000 C CNN
-F 2 "" H 5550 2050 50  0001 C CNN
-F 3 "" H 5550 2050 50  0001 C CNN
-	1    5550 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 2250 5550 2150
 Wire Wire Line
@@ -141,17 +130,6 @@ Wire Wire Line
 Wire Wire Line
 	6050 2150 6050 2250
 Connection ~ 5950 2150
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60893C4C
-P 600 700
-F 0 "#PWR?" H 600 550 50  0001 C CNN
-F 1 "+3V3" H 600 850 50  0000 C CNN
-F 2 "" H 600 700 50  0001 C CNN
-F 3 "" H 600 700 50  0001 C CNN
-	1    600  700 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2700 800  2700 750 
 Wire Wire Line
@@ -405,4 +383,34 @@ Wire Wire Line
 	7000 3300 6850 3300
 Text Notes 6800 2850 0    50   ~ 0
 to GPIO
+$Comp
+L readout:Vcc0 U?
+U 1 1 60D7D6DC
+P 5550 1950
+AR Path="/6076C700/60D7D6DC" Ref="U?"  Part="1" 
+AR Path="/62251D77/60D7D6DC" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60D7D6DC" Ref="U?"  Part="1" 
+AR Path="/60767640/60D7D6DC" Ref="U?"  Part="1" 
+F 0 "U?" H 5550 1950 79  0001 C CNN
+F 1 "Vcc0_3v3" H 5400 2000 47  0000 L CNB
+F 2 "" H 5550 1950 79  0001 C CNN
+F 3 "" H 5550 1950 79  0001 C CNN
+	1    5550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60D8358F
+P 600 600
+AR Path="/6076C700/60D8358F" Ref="U?"  Part="1" 
+AR Path="/62251D77/60D8358F" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60D8358F" Ref="U?"  Part="1" 
+AR Path="/60767640/60D8358F" Ref="U?"  Part="1" 
+F 0 "U?" H 600 600 79  0001 C CNN
+F 1 "Vcc0_3v3" H 450 650 47  0000 L CNB
+F 2 "" H 600 600 79  0001 C CNN
+F 3 "" H 600 600 79  0001 C CNN
+	1    600  600 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

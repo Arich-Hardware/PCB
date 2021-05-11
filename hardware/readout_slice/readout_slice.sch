@@ -780,4 +780,8 @@ U 62251D77
 F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
+Text Notes 700  5350 0    118  ~ 24
+use netnames for banks\nw/ bank & voltage\nie Vcc0_25
+Text Notes -2250 150  0    118  ~ 24
+get pin assignments into xilinx\ncontrainst, low priority\n
 $EndSCHEMATC

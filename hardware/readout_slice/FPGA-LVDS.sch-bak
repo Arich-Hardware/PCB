@@ -119,17 +119,6 @@ F 3 "~" H 11000 900 50  0001 C CNN
 $EndComp
 Text Notes 3450 1700 0    157  ~ 31
 LVDS Bank
-$Comp
-L power:+2V5 #PWR?
-U 1 1 607849FE
-P 11000 700
-F 0 "#PWR?" H 11000 550 50  0001 C CNN
-F 1 "+2V5" H 11000 850 50  0000 C CNB
-F 2 "" H 11000 700 50  0001 C CNN
-F 3 "" H 11000 700 50  0001 C CNN
-	1    11000 700 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11000 800  11000 750 
 Wire Wire Line
@@ -209,17 +198,6 @@ $EndComp
 Wire Wire Line
 	11000 1150 11000 1050
 Connection ~ 11000 1050
-$Comp
-L power:+2V5 #PWR?
-U 1 1 6079C1E3
-P 6900 1750
-F 0 "#PWR?" H 6900 1600 50  0001 C CNN
-F 1 "+2V5" H 6900 1900 50  0000 C CNB
-F 2 "" H 6900 1750 50  0001 C CNN
-F 3 "" H 6900 1750 50  0001 C CNN
-	1    6900 1750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 1950 6900 1900
 Wire Wire Line
@@ -351,17 +329,6 @@ Wire Wire Line
 	3450 4300 3450 4200
 Connection ~ 3450 4200
 $Comp
-L power:+3V3 #PWR?
-U 1 1 6091AF5E
-P 3450 3650
-F 0 "#PWR?" H 3450 3500 50  0001 C CNN
-F 1 "+3V3" H 3465 3823 50  0000 C CNN
-F 2 "" H 3450 3650 50  0001 C CNN
-F 3 "" H 3450 3650 50  0001 C CNN
-	1    3450 3650
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R?
 U 1 1 609246AE
 P 4550 4000
@@ -443,4 +410,45 @@ Wire Wire Line
 Connection ~ 3450 3800
 Wire Wire Line
 	3450 3800 3450 3650
+$Comp
+L readout:VccSFP U?
+U 1 1 60AB36FC
+P 6900 1650
+AR Path="/62251D77/60AB36FC" Ref="U?"  Part="1" 
+AR Path="/60768143/60AB36FC" Ref="U?"  Part="1" 
+F 0 "U?" H 6900 1650 79  0001 C CNN
+F 1 "Vcc0_2v5" H 6750 1700 47  0000 L CNB
+F 2 "" H 6900 1650 79  0001 C CNN
+F 3 "" H 6900 1650 79  0001 C CNN
+	1    6900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccSFP U?
+U 1 1 60AB9DC8
+P 11000 600
+AR Path="/62251D77/60AB9DC8" Ref="U?"  Part="1" 
+AR Path="/60768143/60AB9DC8" Ref="U?"  Part="1" 
+F 0 "U?" H 11000 600 79  0001 C CNN
+F 1 "Vcc0_2v5" H 10850 650 47  0000 L CNB
+F 2 "" H 11000 600 79  0001 C CNN
+F 3 "" H 11000 600 79  0001 C CNN
+	1    11000 600 
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60D73E04
+P 3450 3550
+AR Path="/6076C700/60D73E04" Ref="U?"  Part="1" 
+AR Path="/62251D77/60D73E04" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60D73E04" Ref="U?"  Part="1" 
+AR Path="/60768143/60D73E04" Ref="U?"  Part="1" 
+F 0 "U?" H 3450 3550 79  0001 C CNN
+F 1 "Vcc0_3v3" H 3300 3600 47  0000 L CNB
+F 2 "" H 3450 3550 79  0001 C CNN
+F 3 "" H 3450 3550 79  0001 C CNN
+	1    3450 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

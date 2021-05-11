@@ -570,19 +570,6 @@ Wire Wire Line
 	1550 2900 1550 2800
 Connection ~ 1550 2800
 $Comp
-L power:+3V3 #PWR?
-U 1 1 60C8459E
-P 1550 2250
-AR Path="/60768143/60C8459E" Ref="#PWR?"  Part="1" 
-AR Path="/608CAA95/60C8459E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1550 2100 50  0001 C CNN
-F 1 "+3V3" H 1565 2423 50  0000 C CNN
-F 2 "" H 1550 2250 50  0001 C CNN
-F 3 "" H 1550 2250 50  0001 C CNN
-	1    1550 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R?
 U 1 1 60C845A4
 P 2650 2600
@@ -770,24 +757,45 @@ Wire Wire Line
 Connection ~ 9600 5150
 $Comp
 L readout:Vcc0 U?
-U 1 1 62C7AC21
+U 1 1 609FAAE7
+P 8150 2250
+AR Path="/6076C700/609FAAE7" Ref="U?"  Part="1" 
+AR Path="/62251D77/609FAAE7" Ref="U?"  Part="1" 
+AR Path="/608CAA95/609FAAE7" Ref="U?"  Part="1" 
+F 0 "U?" H 8150 2250 79  0001 C CNN
+F 1 "Vcc0_3v3" H 8000 2300 47  0000 L CNB
+F 2 "" H 8150 2250 79  0001 C CNN
+F 3 "" H 8150 2250 79  0001 C CNN
+	1    8150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccSFP U?
+U 1 1 609FAAED
 P 7450 2500
+AR Path="/62251D77/609FAAED" Ref="U?"  Part="1" 
+AR Path="/608CAA95/609FAAED" Ref="U?"  Part="1" 
 F 0 "U?" H 7450 2500 79  0001 C CNN
-F 1 "Vcc0" H 7350 2550 47  0000 L CNB
+F 1 "Vcc0_2v5" H 7300 2550 47  0000 L CNB
 F 2 "" H 7450 2500 79  0001 C CNN
 F 3 "" H 7450 2500 79  0001 C CNN
 	1    7450 2500
 	1    0    0    -1  
 $EndComp
+Text Notes 8150 1900 0    50   ~ 0
+for dan vcc0 is 2v5\nand vvcsfp is 3v3
 $Comp
-L readout:VccSFP U?
-U 1 1 62C7E003
-P 8150 2250
-F 0 "U?" H 8150 2250 79  0001 C CNN
-F 1 "VccSFP" H 8050 2300 47  0000 L CNB
-F 2 "" H 8150 2250 79  0001 C CNN
-F 3 "" H 8150 2250 79  0001 C CNN
-	1    8150 2250
+L readout:Vcc0 U?
+U 1 1 60B6AA60
+P 1550 2150
+AR Path="/6076C700/60B6AA60" Ref="U?"  Part="1" 
+AR Path="/62251D77/60B6AA60" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60B6AA60" Ref="U?"  Part="1" 
+F 0 "U?" H 1550 2150 79  0001 C CNN
+F 1 "Vcc0_3v3" H 1400 2200 47  0000 L CNB
+F 2 "" H 1550 2150 79  0001 C CNN
+F 3 "" H 1550 2150 79  0001 C CNN
+	1    1550 2150
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

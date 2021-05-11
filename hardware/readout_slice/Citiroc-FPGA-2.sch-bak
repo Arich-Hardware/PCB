@@ -224,17 +224,6 @@ Wire Wire Line
 	7650 2000 7750 2000
 Connection ~ 7750 2000
 $Comp
-L power:+1V8 #PWR?
-U 1 1 606FBA42
-P 9500 800
-F 0 "#PWR?" H 9500 650 50  0001 C CNN
-F 1 "+1V8" H 9500 950 50  0000 C CNB
-F 2 "" H 9500 800 50  0001 C CNN
-F 3 "" H 9500 800 50  0001 C CNN
-	1    9500 800 
-	1    0    0    -1  
-$EndComp
-$Comp
 L readout:CITIROC1A U?
 U 2 1 60AF6A87
 P 2950 2000
@@ -317,17 +306,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 3100 2200 3100
 Connection ~ 9500 900 
-$Comp
-L power:+1V8 #PWR?
-U 1 1 60B11732
-P 8150 1850
-F 0 "#PWR?" H 8150 1700 50  0001 C CNN
-F 1 "+1V8" H 8150 2000 50  0000 C CNB
-F 2 "" H 8150 1850 50  0001 C CNN
-F 3 "" H 8150 1850 50  0001 C CNN
-	1    8150 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8150 1850 8150 2000
 Connection ~ 8150 2000
@@ -738,19 +716,6 @@ NOR32T_oc_2
 Text HLabel 4700 5900 2    50   Input ~ 0
 NOR32_oc_2
 $Comp
-L power:+1V8 #PWR?
-U 1 1 60D28E9C
-P 4500 5300
-AR Path="/605DF89A/60D28E9C" Ref="#PWR?"  Part="1" 
-AR Path="/60548503/60D28E9C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4500 5150 50  0001 C CNN
-F 1 "+1V8" H 4500 5450 50  0000 C CNN
-F 2 "" H 4500 5300 50  0001 C CNN
-F 3 "" H 4500 5300 50  0001 C CNN
-	1    4500 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 60D28EA2
 P 4500 5550
@@ -805,4 +770,43 @@ Text Label 3900 6100 2    50   ~ 0
 dig_out
 Wire Wire Line
 	3550 6100 3900 6100
+$Comp
+L readout:VccAux U?
+U 1 1 60DDF837
+P 8150 1750
+AR Path="/62251D77/60DDF837" Ref="U?"  Part="1" 
+AR Path="/60548503/60DDF837" Ref="U?"  Part="1" 
+F 0 "U?" H 8150 1750 79  0001 C CNN
+F 1 "Vcc0_1v8" H 8000 1800 47  0000 L CNB
+F 2 "" H 8150 1750 79  0001 C CNN
+F 3 "" H 8150 1750 79  0001 C CNN
+	1    8150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccAux U?
+U 1 1 60DE8EFA
+P 9500 700
+AR Path="/62251D77/60DE8EFA" Ref="U?"  Part="1" 
+AR Path="/60548503/60DE8EFA" Ref="U?"  Part="1" 
+F 0 "U?" H 9500 700 79  0001 C CNN
+F 1 "Vcc0_1v8" H 9350 750 47  0000 L CNB
+F 2 "" H 9500 700 79  0001 C CNN
+F 3 "" H 9500 700 79  0001 C CNN
+	1    9500 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccAux U?
+U 1 1 60DF330E
+P 4500 5200
+AR Path="/62251D77/60DF330E" Ref="U?"  Part="1" 
+AR Path="/60548503/60DF330E" Ref="U?"  Part="1" 
+F 0 "U?" H 4500 5200 79  0001 C CNN
+F 1 "Vcc0_1v8" H 4350 5250 47  0000 L CNB
+F 2 "" H 4500 5200 79  0001 C CNN
+F 3 "" H 4500 5200 79  0001 C CNN
+	1    4500 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

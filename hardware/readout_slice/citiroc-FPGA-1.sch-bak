@@ -244,19 +244,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 2200 8100 2200
 Connection ~ 8100 2200
-$Comp
-L power:+1V8 #PWR?
-U 1 1 6063482B
-P 8500 2100
-AR Path="/60548503/6063482B" Ref="#PWR?"  Part="1" 
-AR Path="/605DF89A/6063482B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8500 1950 50  0001 C CNN
-F 1 "+1V8" H 8500 2250 50  0000 C CNB
-F 2 "" H 8500 2100 50  0001 C CNN
-F 3 "" H 8500 2100 50  0001 C CNN
-	1    8500 2100
-	1    0    0    -1  
-$EndComp
 Text Notes 700  850  0    157  ~ 31
 3V3 controls?
 Connection ~ 8500 2200
@@ -289,19 +276,6 @@ Text HLabel 2600 3200 0    50   Input ~ 0
 select_1
 Wire Wire Line
 	8500 2100 8500 2200
-$Comp
-L power:+1V8 #PWR?
-U 1 1 60A0AA14
-P 9500 800
-AR Path="/60548503/60A0AA14" Ref="#PWR?"  Part="1" 
-AR Path="/605DF89A/60A0AA14" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9500 650 50  0001 C CNN
-F 1 "+1V8" H 9500 950 50  0000 C CNB
-F 2 "" H 9500 800 50  0001 C CNN
-F 3 "" H 9500 800 50  0001 C CNN
-	1    9500 800 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9500 800  9500 900 
 Connection ~ 9500 900 
@@ -746,17 +720,6 @@ Text HLabel 2050 2800 0    50   Input ~ 0
 Val_Ext_p1
 Text HLabel 2050 3000 0    50   Input ~ 0
 Val_Ext_n1
-$Comp
-L power:+1V8 #PWR?
-U 1 1 61F3F790
-P 5000 5400
-F 0 "#PWR?" H 5000 5250 50  0001 C CNN
-F 1 "+1V8" H 5000 5550 50  0000 C CNN
-F 2 "" H 5000 5400 50  0001 C CNN
-F 3 "" H 5000 5400 50  0001 C CNN
-	1    5000 5400
-	1    0    0    -1  
-$EndComp
 Text HLabel 9750 5000 2    50   Input ~ 0
 1v8_GPIO1
 Text HLabel 9750 5100 2    50   Input ~ 0
@@ -814,4 +777,37 @@ Text Label 6450 5100 0    50   ~ 0
 dig_out
 Wire Wire Line
 	6800 5100 6450 5100
+$Comp
+L readout:VccAux U?
+U 1 1 60E0098C
+P 5000 5300
+F 0 "U?" H 5000 5300 79  0001 C CNN
+F 1 "Vcc0_1v8" H 4850 5350 47  0000 L CNB
+F 2 "" H 5000 5300 79  0001 C CNN
+F 3 "" H 5000 5300 79  0001 C CNN
+	1    5000 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccAux U?
+U 1 1 60E0A350
+P 8500 2000
+F 0 "U?" H 8500 2000 79  0001 C CNN
+F 1 "Vcc0_1v8" H 8350 2050 47  0000 L CNB
+F 2 "" H 8500 2000 79  0001 C CNN
+F 3 "" H 8500 2000 79  0001 C CNN
+	1    8500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:VccAux U?
+U 1 1 60E13D1D
+P 9500 700
+F 0 "U?" H 9500 700 79  0001 C CNN
+F 1 "Vcc0_1v8" H 9350 750 47  0000 L CNB
+F 2 "" H 9500 700 79  0001 C CNN
+F 3 "" H 9500 700 79  0001 C CNN
+	1    9500 700 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

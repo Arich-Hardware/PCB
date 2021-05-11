@@ -59,8 +59,6 @@ Connection ~ 2800 1300
 Wire Wire Line
 	2900 1300 2900 1150
 Connection ~ 2900 1300
-Text Notes 2050 800  0    50   ~ 10
-Need to create this
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J?
 U 1 1 609D4756
@@ -295,8 +293,6 @@ Wire Wire Line
 	2050 2400 2050 2500
 Wire Wire Line
 	2050 2500 1950 2500
-Text Notes 3900 650  0    50   ~ 0
-Does power all sort out if vcc0 = 3v3
 $Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 60964C43
@@ -336,22 +332,6 @@ Wire Wire Line
 	800  7150 1050 7150
 Wire Wire Line
 	1050 7150 1050 7050
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60964C57
-P 1050 7050
-AR Path="/60964C57" Ref="#PWR?"  Part="1" 
-AR Path="/608B2FC0/60964C57" Ref="#PWR?"  Part="1" 
-AR Path="/60AD0200/60B2D848/60964C57" Ref="#PWR?"  Part="1" 
-AR Path="/607155C8/60964C57" Ref="#PWR?"  Part="1" 
-AR Path="/606EBC4D/60964C57" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1050 6900 50  0001 C CNN
-F 1 "+3V3" H 1050 7200 50  0000 C CNN
-F 2 "" H 1050 7050 50  0001 C CNN
-F 3 "" H 1050 7050 50  0001 C CNN
-	1    1050 7050
-	1    0    0    -1  
-$EndComp
 Text Notes 500  6600 0    157  ~ 31
 To sparkfun FT232RL
 $Comp
@@ -859,17 +839,6 @@ NoConn ~ 4050 1650
 NoConn ~ 4050 1750
 Wire Wire Line
 	5050 950  5050 850 
-$Comp
-L power:+3V3 #PWR?
-U 1 1 608A0A7D
-P 2050 2400
-F 0 "#PWR?" H 2050 2250 50  0001 C CNN
-F 1 "+3V3" H 2050 2550 50  0000 C CNB
-F 2 "" H 2050 2400 50  0001 C CNN
-F 3 "" H 2050 2400 50  0001 C CNN
-	1    2050 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4050 2050 5550 2050
 Text HLabel 7700 1850 0    50   Input ~ 0
@@ -892,47 +861,16 @@ Wire Wire Line
 	7700 2250 7950 2250
 Wire Wire Line
 	7950 2450 7700 2450
-Text Notes 6650 2650 0    50   ~ 10
-Double check that\nSFP can be any pin
 $Comp
 L readout:Vcc0 U?
-U 1 1 62C96DDE
-P 2900 1050
-F 0 "U?" H 2900 1050 79  0001 C CNN
-F 1 "Vcc0" H 2800 1100 47  0000 L CNB
-F 2 "" H 2900 1050 79  0001 C CNN
-F 3 "" H 2900 1050 79  0001 C CNN
-	1    2900 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:Vcc0 U?
-U 1 1 62C97174
-P 5050 750
-F 0 "U?" H 5050 750 79  0001 C CNN
-F 1 "Vcc0" H 4950 800 47  0000 L CNB
-F 2 "" H 5050 750 79  0001 C CNN
-F 3 "" H 5050 750 79  0001 C CNN
-	1    5050 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:Vcc0 U?
-U 1 1 62C98336
-P 5950 1150
-F 0 "U?" H 5950 1150 79  0001 C CNN
-F 1 "Vcc0" H 5850 1200 47  0000 L CNB
-F 2 "" H 5950 1150 79  0001 C CNN
-F 3 "" H 5950 1150 79  0001 C CNN
-	1    5950 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:Vcc0 U?
-U 1 1 62C9F6A2
+U 1 1 60A35DCA
 P 9850 700
+AR Path="/6076C700/60A35DCA" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A35DCA" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A35DCA" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A35DCA" Ref="U?"  Part="1" 
 F 0 "U?" H 9850 700 79  0001 C CNN
-F 1 "Vcc0" H 9750 750 47  0000 L CNB
+F 1 "Vcc0_3v3" H 9700 750 47  0000 L CNB
 F 2 "" H 9850 700 79  0001 C CNN
 F 3 "" H 9850 700 79  0001 C CNN
 	1    9850 700 
@@ -940,10 +878,44 @@ F 3 "" H 9850 700 79  0001 C CNN
 $EndComp
 $Comp
 L readout:Vcc0 U?
-U 1 1 62CAB47F
+U 1 1 60A3AA86
+P 5950 1150
+AR Path="/6076C700/60A3AA86" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A3AA86" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A3AA86" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A3AA86" Ref="U?"  Part="1" 
+F 0 "U?" H 5950 1150 79  0001 C CNN
+F 1 "Vcc0_3v3" H 5800 1200 47  0000 L CNB
+F 2 "" H 5950 1150 79  0001 C CNN
+F 3 "" H 5950 1150 79  0001 C CNN
+	1    5950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60A3F55C
+P 5050 750
+AR Path="/6076C700/60A3F55C" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A3F55C" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A3F55C" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A3F55C" Ref="U?"  Part="1" 
+F 0 "U?" H 5050 750 79  0001 C CNN
+F 1 "Vcc0_3v3" H 4900 800 47  0000 L CNB
+F 2 "" H 5050 750 79  0001 C CNN
+F 3 "" H 5050 750 79  0001 C CNN
+	1    5050 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60A43E3A
 P 4750 2300
+AR Path="/6076C700/60A43E3A" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A43E3A" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A43E3A" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A43E3A" Ref="U?"  Part="1" 
 F 0 "U?" H 4750 2300 79  0001 C CNN
-F 1 "Vcc0" V 4700 2300 47  0000 L CNB
+F 1 "Vcc0_3v3" V 4750 2350 47  0000 L CNB
 F 2 "" H 4750 2300 79  0001 C CNN
 F 3 "" H 4750 2300 79  0001 C CNN
 	1    4750 2300
@@ -951,10 +923,14 @@ F 3 "" H 4750 2300 79  0001 C CNN
 $EndComp
 $Comp
 L readout:Vcc0 U?
-U 1 1 62CBA584
+U 1 1 60A4874C
 P 4750 2500
+AR Path="/6076C700/60A4874C" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A4874C" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A4874C" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A4874C" Ref="U?"  Part="1" 
 F 0 "U?" H 4750 2500 79  0001 C CNN
-F 1 "Vcc0" V 4700 2500 47  0000 L CNB
+F 1 "Vcc0_3v3" V 4750 2550 47  0000 L CNB
 F 2 "" H 4750 2500 79  0001 C CNN
 F 3 "" H 4750 2500 79  0001 C CNN
 	1    4750 2500
@@ -962,10 +938,14 @@ F 3 "" H 4750 2500 79  0001 C CNN
 $EndComp
 $Comp
 L readout:Vcc0 U?
-U 1 1 62CBA7D3
+U 1 1 60A4D191
 P 4750 2700
+AR Path="/6076C700/60A4D191" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A4D191" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A4D191" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A4D191" Ref="U?"  Part="1" 
 F 0 "U?" H 4750 2700 79  0001 C CNN
-F 1 "Vcc0" V 4700 2700 47  0000 L CNB
+F 1 "Vcc0_3v3" V 4750 2750 47  0000 L CNB
 F 2 "" H 4750 2700 79  0001 C CNN
 F 3 "" H 4750 2700 79  0001 C CNN
 	1    4750 2700
@@ -973,13 +953,62 @@ F 3 "" H 4750 2700 79  0001 C CNN
 $EndComp
 $Comp
 L readout:Vcc0 U?
-U 1 1 62CBD301
+U 1 1 60A51D7E
+P 2900 1050
+AR Path="/6076C700/60A51D7E" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A51D7E" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A51D7E" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A51D7E" Ref="U?"  Part="1" 
+F 0 "U?" H 2900 1050 79  0001 C CNN
+F 1 "Vcc0_3v3" H 2750 1100 47  0000 L CNB
+F 2 "" H 2900 1050 79  0001 C CNN
+F 3 "" H 2900 1050 79  0001 C CNN
+	1    2900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60A5672C
+P 2050 2300
+AR Path="/6076C700/60A5672C" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A5672C" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A5672C" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A5672C" Ref="U?"  Part="1" 
+F 0 "U?" H 2050 2300 79  0001 C CNN
+F 1 "Vcc0_3v3" H 1900 2350 47  0000 L CNB
+F 2 "" H 2050 2300 79  0001 C CNN
+F 3 "" H 2050 2300 79  0001 C CNN
+	1    2050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60A5AF69
 P 3750 6650
+AR Path="/6076C700/60A5AF69" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A5AF69" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A5AF69" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A5AF69" Ref="U?"  Part="1" 
 F 0 "U?" H 3750 6650 79  0001 C CNN
-F 1 "Vcc0" H 3650 6700 47  0000 L CNB
+F 1 "Vcc0_3v3" H 3600 6700 47  0000 L CNB
 F 2 "" H 3750 6650 79  0001 C CNN
 F 3 "" H 3750 6650 79  0001 C CNN
 	1    3750 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Vcc0 U?
+U 1 1 60A62B0D
+P 1050 6950
+AR Path="/6076C700/60A62B0D" Ref="U?"  Part="1" 
+AR Path="/62251D77/60A62B0D" Ref="U?"  Part="1" 
+AR Path="/608CAA95/60A62B0D" Ref="U?"  Part="1" 
+AR Path="/606EBC4D/60A62B0D" Ref="U?"  Part="1" 
+F 0 "U?" H 1050 6950 79  0001 C CNN
+F 1 "Vcc0_3v3" H 900 7000 47  0000 L CNB
+F 2 "" H 1050 6950 79  0001 C CNN
+F 3 "" H 1050 6950 79  0001 C CNN
+	1    1050 6950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
