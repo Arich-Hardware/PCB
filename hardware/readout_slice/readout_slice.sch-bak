@@ -772,8 +772,6 @@ Wire Wire Line
 	8450 3100 8450 3450
 Text Notes 3600 1800 0    157  ~ 31
 CONNECTIVITY
-Text Notes 1600 750  0    79   ~ 16
-loose ends,
 $Sheet
 S 4250 4350 1050 450 
 U 62251D77
