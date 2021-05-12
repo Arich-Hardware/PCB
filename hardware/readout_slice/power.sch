@@ -1781,9 +1781,9 @@ PWRUP_2
 Wire Wire Line
 	2300 2650 2300 2850
 Wire Wire Line
-	1750 2650 2300 2650
+	1750 2650 2050 2650
 Wire Wire Line
-	2050 2750 2050 2550
+	2050 2750 2050 2650
 $Comp
 L power:GNDA #PWR?
 U 1 1 60FC6725
@@ -1825,4 +1825,13 @@ to therm pad
 Text Notes 2850 3400 0    47   ~ 9
 to therm pad
 NoConn ~ 2800 3400
+Text Notes 10000 6000 0    50   ~ 0
+always 5v
+Text Notes 50   3200 0    118  ~ 24
+have eric check this
+Connection ~ 2050 2650
+Wire Wire Line
+	2050 2650 2300 2650
+Wire Wire Line
+	2050 2650 2050 2550
 $EndSCHEMATC

@@ -715,7 +715,7 @@ Wire Wire Line
 	5250 1050 5250 950 
 Wire Wire Line
 	5450 950  5450 1050
-Text Notes 3750 1100 0    50   ~ 0
+Text Notes 3400 1350 0    50   ~ 0
 Look at xapp586 page 7\nshould S, W, HOLD all be ‘nots’
 Wire Wire Line
 	5450 1850 4650 1850
