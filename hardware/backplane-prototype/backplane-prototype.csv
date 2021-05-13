@@ -1,0 +1,8 @@
+Source:,/Users/tejasva/PCB/hardware/backplane-prototype/backplane-prototype.sch,,,,,,
+Date:,"Wednesday, May 12, 2021 at 02:38:03 PM",,,,,,
+Tool:,Eeschema (5.1.9-0-10_14),,,,,,
+Component Count:,3,,,,,,
+Ref,Value,Manufacturer,MFN,Supplier,Supplier P/N,Quantity,Unit Price
+J1,Conn_02x34_Odd_Even,Samtec,CLM-134-02-F-D,Samtec,CLM-134-02-F-D,5,$8.49 
+J2,ERF8-060-05.0-L-DV,Samtec,ERF8-060-05.0-L-DV-L-K-TR,Samtec,ERF8-060-05.0-L-DV-L-K-TR,5,$8.16 
+J3,Conn_02x34_Odd_Even,Samtec,CLM-134-02-F-D,Samtec,CLM-134-02-F-D,5,$8.49 
