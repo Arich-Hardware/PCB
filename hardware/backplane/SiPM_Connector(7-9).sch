@@ -173,10 +173,10 @@ Connection ~ 2050 4150
 Wire Wire Line
 	2050 4150 2050 4350
 $Comp
-L backplane-prototype-rescue:GND-power #PWR01
+L backplane-prototype-rescue:GND-power #PWR0115
 U 1 1 63C65F00
 P 2050 4350
-F 0 "#PWR01" H 2050 4100 50  0001 C CNN
+F 0 "#PWR0115" H 2050 4100 50  0001 C CNN
 F 1 "GND" H 2055 4177 50  0000 C CNN
 F 2 "" H 2050 4350 50  0001 C CNN
 F 3 "" H 2050 4350 50  0001 C CNN
@@ -664,10 +664,10 @@ Connection ~ 8950 4150
 Wire Wire Line
 	8950 4150 8950 4350
 $Comp
-L backplane-prototype-rescue:GND-power #PWR06
+L backplane-prototype-rescue:GND-power #PWR0116
 U 1 1 63C65F02
 P 8950 4350
-F 0 "#PWR06" H 8950 4100 50  0001 C CNN
+F 0 "#PWR0116" H 8950 4100 50  0001 C CNN
 F 1 "GND" H 8955 4177 50  0000 C CNN
 F 2 "" H 8950 4350 50  0001 C CNN
 F 3 "" H 8950 4350 50  0001 C CNN
@@ -827,10 +827,10 @@ Wire Wire Line
 	6100 4600 6100 5000
 Connection ~ 6100 4600
 $Comp
-L backplane-prototype-rescue:GND-power #PWR0101
+L backplane-prototype-rescue:GND-power #PWR0117
 U 1 1 63C65F04
 P 4900 13500
-F 0 "#PWR0101" H 4900 13250 50  0001 C CNN
+F 0 "#PWR0117" H 4900 13250 50  0001 C CNN
 F 1 "GND" H 4905 13327 50  0000 C CNN
 F 2 "" H 4900 13500 50  0001 C CNN
 F 3 "" H 4900 13500 50  0001 C CNN
@@ -838,10 +838,10 @@ F 3 "" H 4900 13500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-prototype-rescue:GND-power #PWR0102
+L backplane-prototype-rescue:GND-power #PWR0118
 U 1 1 60B6FC34
 P 6100 13500
-F 0 "#PWR0102" H 6100 13250 50  0001 C CNN
+F 0 "#PWR0118" H 6100 13250 50  0001 C CNN
 F 1 "GND" H 6105 13327 50  0000 C CNN
 F 2 "" H 6100 13500 50  0001 C CNN
 F 3 "" H 6100 13500 50  0001 C CNN
@@ -2249,10 +2249,10 @@ Connection ~ 2050 8700
 Wire Wire Line
 	2050 8700 2050 8900
 $Comp
-L backplane-prototype-rescue:GND-power #PWR?
+L backplane-prototype-rescue:GND-power #PWR0119
 U 1 1 62D0026B
 P 2050 8900
-F 0 "#PWR?" H 2050 8650 50  0001 C CNN
+F 0 "#PWR0119" H 2050 8650 50  0001 C CNN
 F 1 "GND" H 2055 8727 50  0000 C CNN
 F 2 "" H 2050 8900 50  0001 C CNN
 F 3 "" H 2050 8900 50  0001 C CNN
@@ -2427,10 +2427,10 @@ Connection ~ 2050 13150
 Wire Wire Line
 	2050 13150 2050 13350
 $Comp
-L backplane-prototype-rescue:GND-power #PWR?
+L backplane-prototype-rescue:GND-power #PWR0120
 U 1 1 62E76D4D
 P 2050 13350
-F 0 "#PWR?" H 2050 13100 50  0001 C CNN
+F 0 "#PWR0120" H 2050 13100 50  0001 C CNN
 F 1 "GND" H 2055 13177 50  0000 C CNN
 F 2 "" H 2050 13350 50  0001 C CNN
 F 3 "" H 2050 13350 50  0001 C CNN
@@ -2605,10 +2605,10 @@ Connection ~ 8950 8700
 Wire Wire Line
 	8950 8700 8950 8900
 $Comp
-L backplane-prototype-rescue:GND-power #PWR?
+L backplane-prototype-rescue:GND-power #PWR0121
 U 1 1 63009A8F
 P 8950 8900
-F 0 "#PWR?" H 8950 8650 50  0001 C CNN
+F 0 "#PWR0121" H 8950 8650 50  0001 C CNN
 F 1 "GND" H 8955 8727 50  0000 C CNN
 F 2 "" H 8950 8900 50  0001 C CNN
 F 3 "" H 8950 8900 50  0001 C CNN
@@ -2779,10 +2779,10 @@ Connection ~ 8950 13150
 Wire Wire Line
 	8950 13150 8950 13350
 $Comp
-L backplane-prototype-rescue:GND-power #PWR?
+L backplane-prototype-rescue:GND-power #PWR0122
 U 1 1 631BF6E1
 P 8950 13350
-F 0 "#PWR?" H 8950 13100 50  0001 C CNN
+F 0 "#PWR0122" H 8950 13100 50  0001 C CNN
 F 1 "GND" H 8955 13177 50  0000 C CNN
 F 2 "" H 8950 13350 50  0001 C CNN
 F 3 "" H 8950 13350 50  0001 C CNN
@@ -2829,4 +2829,12 @@ Wire Wire Line
 	8850 8800 8900 8800
 Wire Wire Line
 	8900 8800 8900 8900
+Text Label 2750 13150 0    50   ~ 0
+VDD
+Text Label 2750 13250 0    50   ~ 0
+OUT
+Wire Wire Line
+	2750 13250 2650 13250
+Wire Wire Line
+	2750 13150 2650 13150
 $EndSCHEMATC

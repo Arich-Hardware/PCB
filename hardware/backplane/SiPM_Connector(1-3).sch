@@ -169,28 +169,10 @@ Wire Wire Line
 Connection ~ 2050 4050
 Wire Wire Line
 	2050 4050 2050 4150
-Connection ~ 2050 4150
-Wire Wire Line
-	2050 4150 2050 4350
-$Comp
-L backplane-prototype-rescue:GND-power #PWR01
-U 1 1 63C5DEA9
-P 2050 4350
-F 0 "#PWR01" H 2050 4100 50  0001 C CNN
-F 1 "GND" H 2055 4177 50  0000 C CNN
-F 2 "" H 2050 4350 50  0001 C CNN
-F 3 "" H 2050 4350 50  0001 C CNN
-	1    2050 4350
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2150 950  2050 950 
-Wire Wire Line
-	2150 4250 2100 4250
 Text Label 2050 950  2    50   ~ 0
 BIAS1
-Text Label 2100 4250 2    50   ~ 0
-BIAS2
 Text Label 2750 950  0    50   ~ 0
 CH0
 Text Label 2750 1050 0    50   ~ 0
@@ -1074,8 +1056,6 @@ Wire Wire Line
 Wire Wire Line
 	5000 13000 4900 13000
 Connection ~ 4900 13000
-Wire Wire Line
-	4900 13000 4900 13500
 Wire Wire Line
 	6000 13000 6100 13000
 Connection ~ 6100 13000
@@ -2245,28 +2225,6 @@ Wire Wire Line
 Connection ~ 2050 8600
 Wire Wire Line
 	2050 8600 2050 8700
-Connection ~ 2050 8700
-Wire Wire Line
-	2050 8700 2050 8900
-$Comp
-L backplane-prototype-rescue:GND-power #PWR?
-U 1 1 63C5DEB1
-P 2050 8900
-F 0 "#PWR?" H 2050 8650 50  0001 C CNN
-F 1 "GND" H 2055 8727 50  0000 C CNN
-F 2 "" H 2050 8900 50  0001 C CNN
-F 3 "" H 2050 8900 50  0001 C CNN
-	1    2050 8900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 5500 2050 5500
-Wire Wire Line
-	2150 8800 2100 8800
-Text Label 2050 5500 2    50   ~ 0
-BIAS1
-Text Label 2100 8800 2    50   ~ 0
-BIAS2
 Wire Wire Line
 	2150 10050 2050 10050
 Wire Wire Line
@@ -2423,28 +2381,6 @@ Wire Wire Line
 Connection ~ 2050 13050
 Wire Wire Line
 	2050 13050 2050 13150
-Connection ~ 2050 13150
-Wire Wire Line
-	2050 13150 2050 13350
-$Comp
-L backplane-prototype-rescue:GND-power #PWR?
-U 1 1 63C5DEB2
-P 2050 13350
-F 0 "#PWR?" H 2050 13100 50  0001 C CNN
-F 1 "GND" H 2055 13177 50  0000 C CNN
-F 2 "" H 2050 13350 50  0001 C CNN
-F 3 "" H 2050 13350 50  0001 C CNN
-	1    2050 13350
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2150 9950 2050 9950
-Wire Wire Line
-	2150 13250 2100 13250
-Text Label 2050 9950 2    50   ~ 0
-BIAS1
-Text Label 2100 13250 2    50   ~ 0
-BIAS2
 Wire Wire Line
 	8850 5600 8950 5600
 Wire Wire Line
@@ -2605,10 +2541,10 @@ Connection ~ 8950 8700
 Wire Wire Line
 	8950 8700 8950 8900
 $Comp
-L backplane-prototype-rescue:GND-power #PWR?
+L backplane-prototype-rescue:GND-power #PWR0103
 U 1 1 63C5DEB3
 P 8950 8900
-F 0 "#PWR?" H 8950 8650 50  0001 C CNN
+F 0 "#PWR0103" H 8950 8650 50  0001 C CNN
 F 1 "GND" H 8955 8727 50  0000 C CNN
 F 2 "" H 8950 8900 50  0001 C CNN
 F 3 "" H 8950 8900 50  0001 C CNN
@@ -2779,10 +2715,10 @@ Connection ~ 8950 13150
 Wire Wire Line
 	8950 13150 8950 13350
 $Comp
-L backplane-prototype-rescue:GND-power #PWR?
+L backplane-prototype-rescue:GND-power #PWR0104
 U 1 1 63C5DEB4
 P 8950 13350
-F 0 "#PWR?" H 8950 13100 50  0001 C CNN
+F 0 "#PWR0104" H 8950 13100 50  0001 C CNN
 F 1 "GND" H 8955 13177 50  0000 C CNN
 F 2 "" H 8950 13350 50  0001 C CNN
 F 3 "" H 8950 13350 50  0001 C CNN
@@ -2829,4 +2765,76 @@ Wire Wire Line
 	8850 8800 8900 8800
 Wire Wire Line
 	8900 8800 8900 8900
+Wire Wire Line
+	4900 13000 4900 13500
+Wire Wire Line
+	2150 13250 2100 13250
+Text Label 2100 13250 2    50   ~ 0
+BIAS2
+Connection ~ 2050 13150
+$Comp
+L backplane-prototype-rescue:GND-power #PWR0105
+U 1 1 63C5DEB2
+P 2050 13350
+F 0 "#PWR0105" H 2050 13100 50  0001 C CNN
+F 1 "GND" H 2055 13177 50  0000 C CNN
+F 2 "" H 2050 13350 50  0001 C CNN
+F 3 "" H 2050 13350 50  0001 C CNN
+	1    2050 13350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 13150 2050 13350
+Wire Wire Line
+	2150 9950 2050 9950
+Text Label 2050 9950 2    50   ~ 0
+BIAS1
+Connection ~ 2050 8700
+$Comp
+L backplane-prototype-rescue:GND-power #PWR0106
+U 1 1 63C5DEB1
+P 2050 8900
+F 0 "#PWR0106" H 2050 8650 50  0001 C CNN
+F 1 "GND" H 2055 8727 50  0000 C CNN
+F 2 "" H 2050 8900 50  0001 C CNN
+F 3 "" H 2050 8900 50  0001 C CNN
+	1    2050 8900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 8700 2050 8900
+Wire Wire Line
+	2150 8800 2100 8800
+Text Label 2100 8800 2    50   ~ 0
+BIAS2
+Wire Wire Line
+	2150 4250 2100 4250
+Text Label 2100 4250 2    50   ~ 0
+BIAS2
+Connection ~ 2050 4150
+$Comp
+L backplane-prototype-rescue:GND-power #PWR01
+U 1 1 63C5DEA9
+P 2050 4350
+F 0 "#PWR01" H 2050 4100 50  0001 C CNN
+F 1 "GND" H 2055 4177 50  0000 C CNN
+F 2 "" H 2050 4350 50  0001 C CNN
+F 3 "" H 2050 4350 50  0001 C CNN
+	1    2050 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4150 2050 4350
+Wire Wire Line
+	2150 5500 2050 5500
+Text Label 2050 5500 2    50   ~ 0
+BIAS1
+Text Label 2750 13150 0    50   ~ 0
+VDD
+Text Label 2750 13250 0    50   ~ 0
+OUT
+Wire Wire Line
+	2750 13250 2650 13250
+Wire Wire Line
+	2750 13150 2650 13150
 $EndSCHEMATC
