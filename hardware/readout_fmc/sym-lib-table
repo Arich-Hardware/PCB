@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name erf)(type Legacy)(uri /Users/tejasva/Documents/PCB/hardware/readout_slice/ERF8-060-XX.X-X-DV.lib)(options "")(descr ""))
+  (lib (name readout)(type Legacy)(uri /Users/tejasva/Documents/PCB/hardware/readout_slice/readout.lib)(options "")(descr ""))
+  (lib (name adc-rescue)(type Legacy)(uri /Users/tejasva/Documents/PCB/hardware/libraries/adc-rescue.lib)(options "")(descr ""))
+  (lib (name readout_slice-rescue)(type Legacy)(uri /Users/tejasva/Documents/PCB/hardware/readout_slice/readout_slice-rescue.lib)(options "")(descr ""))
+)
