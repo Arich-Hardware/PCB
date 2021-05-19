@@ -53,27 +53,27 @@ F20 "ADC_CS_2" I L 2400 7200 50
 F21 "ADC_SCLK_2" I L 2400 7300 50 
 $EndSheet
 $Sheet
-S 2750 3750 1250 450 
+S 3350 3700 1250 450 
 U 6076C700
 F0 "FPGA-power" 50
 F1 "/Users/tejasva/Documents/PCB/hardware/readout_slice/FPGA-power.sch" 0
-F2 "PS_SRST" I L 2750 4100 50 
-F3 "+3V3" I R 4000 3800 50 
-F4 "+5V" I R 4000 3900 50 
-F5 "GNDA" I R 4000 4000 50 
-F6 "GNDD" I R 4000 4100 50 
+F2 "PS_SRST" I L 3350 4050 50 
+F3 "+3V3" I R 4600 3750 50 
+F4 "+5V" I R 4600 3850 50 
+F5 "GNDA" I R 4600 3950 50 
+F6 "GNDD" I R 4600 4050 50 
 $EndSheet
 $Sheet
-S 1150 3700 1150 550 
+S 1750 3650 1150 550 
 U 607ECAFE
 F0 "Citiroc-power" 50
 F1 "/Users/tejasva/Documents/PCB/hardware/readout_slice/Citiroc-power.sch" 50
 $EndSheet
-Text Notes 1750 3500 0    157  ~ 31
+Text Notes 2350 3450 0    157  ~ 31
 POWER
 Text Notes 7750 800  0    157  ~ 31
 CITIROC-FPGA
-Text Notes 850  3100 0    79   ~ 16
+Text Notes 1450 3050 0    79   ~ 16
 leds on all supplies
 Text Notes 1000 2050 0    79   ~ 16
 48V for bulk power,\ndon’t fight too much,\n12V is fine if no choice
@@ -122,7 +122,7 @@ F38 "3v3_GPIO2" I L 6000 1300 50
 F39 "3v3_GPIO3" I L 6000 1400 50 
 F40 "3v3_GPIO4" I L 6000 1500 50 
 $EndSheet
-Text Notes 700  2900 0    79   ~ 16
+Text Notes 1300 2850 0    79   ~ 16
 its okay to bulk 48V \nto 5V for any specific \npower supply — specifically support artix-7 \nw/ ref design
 Text Label 10950 4350 2    50   ~ 0
 1v8_GPIO3
@@ -638,7 +638,7 @@ Wire Wire Line
 Text Notes 3600 1800 0    157  ~ 31
 CONNECTIVITY
 $Sheet
-S 2850 2900 1050 450 
+S 3450 2850 1050 450 
 U 62251D77
 F0 "Power" 50
 F1 "/Users/tejasva/Documents/PCB/hardware/readout_slice/Power.sch" 50

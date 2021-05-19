@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9-0-10_14)"
     },
-    "CreationDate":  "2021-05-13T13:43:24-04:00"
+    "CreationDate":  "2021-05-19T13:45:08-04:00"
   },
   "GeneralSpecs":
   {
@@ -76,16 +76,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "SiPM_Board_RevC-F_Mask.gbr",
-      "FileFunction":  "SolderMask,Top",
-      "FilePolarity":  "Negative"
-    },
-    {
-      "Path":  "SiPM_Board_RevC-B_Mask.gbr",
-      "FileFunction":  "SolderMask,Bot",
-      "FilePolarity":  "Negative"
-    },
-    {
       "Path":  "SiPM_Board_RevC-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
@@ -96,10 +86,6 @@
     {
       "Type":  "Legend",
       "Notes":  "Layer F.SilkS"
-    },
-    {
-      "Type":  "SolderMask",
-      "Notes":  "Layer F.Mask"
     },
     {
       "Type":  "Copper",
@@ -131,10 +117,6 @@
     {
       "Type":  "Copper",
       "Notes":  "Layer B.Cu"
-    },
-    {
-      "Type":  "SolderMask",
-      "Notes":  "Layer B.Mask"
     },
     {
       "Type":  "Legend",

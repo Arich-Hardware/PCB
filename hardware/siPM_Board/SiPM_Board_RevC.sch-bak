@@ -1029,8 +1029,17 @@ VDD
 Text Label 5350 5150 0    50   ~ 0
 BIAS2
 Wire Wire Line
-	9650 5150 9950 5150
-Text Label 9950 5150 2    50   ~ 0
+	9150 5150 8850 5150
+Wire Wire Line
+	9150 5150 9175 5150
+Wire Wire Line
+	9175 5150 9175 5275
+Wire Wire Line
+	9175 5275 9650 5275
+Wire Wire Line
+	9650 5275 9650 5150
+Connection ~ 9150 5150
+Text Label 8850 5150 0    50   ~ 0
 BIAS4
 $Comp
 L Arich_SiPM_Board_Parts:S14161-6050HS-04 U2
@@ -1699,5 +1708,4 @@ Connection ~ 6250 4050
 Wire Wire Line
 	6250 4050 6400 4050
 NoConn ~ 9150 5050
-NoConn ~ 9150 5150
 $EndSCHEMATC
