@@ -72,7 +72,7 @@ $EndSheet
 Text Notes 2350 3450 0    157  ~ 31
 POWER
 Text Notes 7750 800  0    157  ~ 31
-CITIROC-FPGA
+CITIROC-FMC
 Text Notes 1450 3050 0    79   ~ 16
 leds on all supplies
 Text Notes 1000 2050 0    79   ~ 16
@@ -653,4 +653,6 @@ Text Label 10950 4450 2    50   ~ 0
 1v8_GPIO4
 Wire Wire Line
 	8100 3800 7750 3800
+Text Notes 5600 6000 0    50   ~ 0
+Diff schematics for power, signals etc.\n\n
 $EndSCHEMATC
