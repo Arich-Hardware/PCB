@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# backplane-rescue_Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue
+# Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue
 #
-DEF backplane-rescue_Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J 0 40 Y N 1 F N
+DEF Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J 0 40 Y N 1 F N
 F0 "J" 50 1700 50 H V C CNN
-F1 "backplane-rescue_Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue" 50 -1800 50 H V C CNN
+F1 "Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue" 50 -1800 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -152,11 +152,11 @@ X Pin_9 9 -200 1200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# backplane-rescue_ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue
+# ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue
 #
-DEF backplane-rescue_ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J 0 40 Y Y 1 L N
+DEF ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J 0 40 Y Y 1 L N
 F0 "J" 200 130 50 H V L BNN
-F1 "backplane-rescue_ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue" 200 -6103 50 H V L BNN
+F1 "ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue" 200 -6103 50 H V L BNN
 F2 "ERF8-060-XX.X-X-DV" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 DRAW
@@ -284,11 +284,11 @@ X 99 99 0 -4900 200 R 40 40 0 0 B
 ENDDRAW
 ENDDEF
 #
-# backplane-rescue_GND-power-backplane-prototype-rescue
+# GND-power-backplane-prototype-rescue
 #
-DEF backplane-rescue_GND-power-backplane-prototype-rescue #PWR 0 0 Y Y 1 F P
+DEF GND-power-backplane-prototype-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "backplane-rescue_GND-power-backplane-prototype-rescue" 0 -150 50 H V C CNN
+F1 "GND-power-backplane-prototype-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

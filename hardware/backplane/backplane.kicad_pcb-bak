@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 31)
+    (drawings 30)
     (tracks 759)
     (zones 0)
     (modules 31)
@@ -6822,9 +6822,6 @@
       (net 481 "/SiPM_Connector(7-9)/BIAS3"))
   )
 
-  (gr_text "Backplane prototype kept here for reference" (at -73.25 36.75) (layer Dwgs.User)
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
   (dimension 37.75 (width 0.15) (layer Dwgs.User)
     (gr_text "37.750 mm" (at 76.3 439.125 270) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
