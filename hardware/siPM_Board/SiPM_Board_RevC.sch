@@ -809,17 +809,17 @@ Wire Wire Line
 $Comp
 L SiPM_Board-rescue:Conn_02x34_Odd_Even-Connector_Generic J2
 U 1 1 61207A16
-P 9350 3550
-F 0 "J2" H 8975 1525 50  0000 R CNN
-F 1 "Conn_02x34_Odd_Even" H 9750 1650 50  0000 R CNN
-F 2 "Arich_SiPM_Footprints:MW-34-03-G-D-245-065-ES" H 9350 3550 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/prints/mw-xx-03-x-d-xxx-xxx-xx-footprint.pdf" H 9350 3550 50  0001 C CNN
-F 4 "MW-34-03-G-D-245-065-ES" H 9350 3550 50  0001 C CNN "MFN"
-F 5 "Samtec" H 9350 3550 50  0001 C CNN "Supplier"
-F 6 "MW-34-03-G-D-245-065-ES" H 9350 3550 50  0001 C CNN "Supplier P/N"
-F 7 "$0" H 9350 3550 50  0001 C CNN "Item Cost"
-	1    9350 3550
-	1    0    0    1   
+P 9450 3450
+F 0 "J2" H 9075 1425 50  0000 R CNN
+F 1 "Conn_02x34_Odd_Even" H 9850 1550 50  0000 R CNN
+F 2 "Arich_SiPM_Footprints:MW-34-03-G-D-245-065-ES" H 9450 3450 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/prints/mw-xx-03-x-d-xxx-xxx-xx-footprint.pdf" H 9450 3450 50  0001 C CNN
+F 4 "MW-34-03-G-D-245-065-ES" H 9450 3450 50  0001 C CNN "MFN"
+F 5 "Samtec" H 9450 3450 50  0001 C CNN "Supplier"
+F 6 "MW-34-03-G-D-245-065-ES" H 9450 3450 50  0001 C CNN "Supplier P/N"
+F 7 "$0" H 9450 3450 50  0001 C CNN "Item Cost"
+	1    9450 3450
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	9650 3350 9850 3350
