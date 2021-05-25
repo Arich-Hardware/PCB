@@ -968,17 +968,17 @@ Wire Wire Line
 $Comp
 L backplane-prototype-rescue:Conn_02x34_Odd_Even-Connector_Generic J3
 U 1 1 6065629A
-P 8400 2650
-F 0 "J3" H 8450 4467 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even" H 8450 4376 50  0000 C CNN
-F 2 "Backplane-prototype:SAMTEC_CLM-134-02-F-D" H 8400 2650 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 8400 2650 50  0001 C CNN
-F 4 "CLM-134-02-F-D" H 8400 2650 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 8400 2650 50  0001 C CNN "Supplier"
-F 6 "CLM-134-02-F-D-ND" H 8400 2650 50  0001 C CNN "Supplier P/N"
-F 7 "$9.02" H 8400 2650 50  0001 C CNN "Item Cost"
-	1    8400 2650
-	1    0    0    -1  
+P 8400 2750
+F 0 "J3" H 8450 4567 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even" H 8450 4476 50  0000 C CNN
+F 2 "Backplane-prototype:SAMTEC_CLM-134-02-F-D" H 8400 2750 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 8400 2750 50  0001 C CNN
+F 4 "CLM-134-02-F-D" H 8400 2750 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 8400 2750 50  0001 C CNN "Supplier"
+F 6 "CLM-134-02-F-D-ND" H 8400 2750 50  0001 C CNN "Supplier P/N"
+F 7 "$9.02" H 8400 2750 50  0001 C CNN "Item Cost"
+	1    8400 2750
+	1    0    0    1   
 $EndComp
 $Comp
 L backplane-prototype-rescue:Conn_02x34_Odd_Even-Connector_Generic J1

@@ -172,7 +172,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 2300 1950 2300
 Text Label 1950 2300 2    50   ~ 0
-BIAS1
+BIAS25
 Text Label 2750 2300 0    50   ~ 0
 CH0
 Text Label 2750 2400 0    50   ~ 0
@@ -242,7 +242,7 @@ VDD
 Text Label 2750 5600 0    50   ~ 0
 OUT
 Text Label 9050 5600 0    50   ~ 0
-BIAS4
+BIAS28
 Text Label 8250 5400 2    50   ~ 0
 BCH31
 Text Label 8250 5300 2    50   ~ 0
@@ -639,7 +639,7 @@ Wire Wire Line
 	8950 5400 8950 5500
 Connection ~ 8950 5500
 Text Label 9050 2300 0    50   ~ 0
-BIAS3
+BIAS27
 Wire Wire Line
 	5000 6050 4800 6050
 Wire Wire Line
@@ -653,13 +653,13 @@ Wire Wire Line
 Wire Wire Line
 	6000 6250 6200 6250
 Text Label 4800 6050 2    50   ~ 0
-BIAS1
+BIAS25
 Text Label 4800 6150 2    50   ~ 0
 VDD
 Text Label 4800 6250 2    50   ~ 0
-BIAS2
+BIAS26
 Text Label 6200 6050 0    50   ~ 0
-BIAS3
+BIAS27
 Text Label 6200 6150 0    50   ~ 0
 OUT
 Wire Wire Line
@@ -689,10 +689,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 3350 5000 3350
 $Comp
-L backplane-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J702
+L backplane-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J?
 U 1 1 6818B918
 P 6000 2350
-F 0 "J702" H 6500 2617 50  0000 C CNN
+F 0 "J?" H 6500 2617 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 6500 2526 50  0000 C CNN
 F 2 "backplane:ERF8-060-05.0-L-DV" H 6000 2350 50  0001 L BNN
 F 3 "https://suddendocs.samtec.com/productspecs/erm8-erf8.pdf" H 6000 2350 50  0001 L BNN
@@ -745,29 +745,29 @@ NoConn ~ 8350 5500
 Wire Wire Line
 	8850 2300 9050 2300
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J103
+L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
 U 1 1 6818B917
-P 8550 4000
-AR Path="/6818B917" Ref="J103"  Part="1" 
+P 8650 3900
+AR Path="/6818B917" Ref="J?"  Part="1" 
 AR Path="/60955FE3/6818B917" Ref="J103"  Part="1" 
 AR Path="/60A16277/6818B917" Ref="J403"  Part="1" 
 AR Path="/60A1644E/6818B917" Ref="J703"  Part="1" 
-F 0 "J703" H 8600 5817 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even" H 8600 5726 50  0000 C CNN
-F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8550 4000 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 8550 4000 50  0001 C CNN
-F 4 "CLM-134-02-F-D" H 8550 4000 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 8550 4000 50  0001 C CNN "Supplier"
-F 6 "CLM-134-02-F-D-ND" H 8550 4000 50  0001 C CNN "Supplier P/N"
-F 7 "$9.02" H 8550 4000 50  0001 C CNN "Item Cost"
-	1    8550 4000
-	1    0    0    1   
+F 0 "J703" H 8700 5717 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even" H 8700 5626 50  0000 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8650 3900 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 8650 3900 50  0001 C CNN
+F 4 "CLM-134-02-F-D" H 8650 3900 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 8650 3900 50  0001 C CNN "Supplier"
+F 6 "CLM-134-02-F-D-ND" H 8650 3900 50  0001 C CNN "Supplier P/N"
+F 7 "$9.02" H 8650 3900 50  0001 C CNN "Item Cost"
+	1    8650 3900
+	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J101
+L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
 U 1 1 6818B916
 P 2450 3900
-AR Path="/6818B916" Ref="J101"  Part="1" 
+AR Path="/6818B916" Ref="J?"  Part="1" 
 AR Path="/60955FE3/6818B916" Ref="J101"  Part="1" 
 AR Path="/60A16277/6818B916" Ref="J401"  Part="1" 
 AR Path="/60A1644E/6818B916" Ref="J701"  Part="1" 
@@ -789,10 +789,10 @@ Wire Wire Line
 	6100 5950 6100 6350
 Connection ~ 6100 5950
 $Comp
-L backplane-rescue:GND-power-backplane-prototype-rescue #PWR0103
+L backplane-rescue:GND-power-backplane-prototype-rescue #PWR?
 U 1 1 6818B919
 P 5500 14950
-F 0 "#PWR0103" H 5500 14700 50  0001 C CNN
+F 0 "#PWR?" H 5500 14700 50  0001 C CNN
 F 1 "GND" H 5505 14777 50  0000 C CNN
 F 2 "" H 5500 14950 50  0001 C CNN
 F 3 "" H 5500 14950 50  0001 C CNN
@@ -825,10 +825,10 @@ Connection ~ 6100 8150
 Wire Wire Line
 	6100 8150 6100 9450
 $Comp
-L backplane-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J902
+L backplane-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J?
 U 1 1 6818B915
 P 6000 8750
-F 0 "J902" H 6500 9017 50  0000 C CNN
+F 0 "J?" H 6500 9017 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 6500 8926 50  0000 C CNN
 F 2 "backplane:ERF8-060-05.0-L-DV" H 6000 8750 50  0001 L BNN
 F 3 "https://suddendocs.samtec.com/productspecs/erm8-erf8.pdf" H 6000 8750 50  0001 L BNN
@@ -840,10 +840,10 @@ F 7 "$9.61" H 6000 8750 50  0001 C CNN "Item Cost"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J301
+L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
 U 1 1 6818B91A
 P 2450 12900
-AR Path="/6818B91A" Ref="J301"  Part="1" 
+AR Path="/6818B91A" Ref="J?"  Part="1" 
 AR Path="/60955FE3/6818B91A" Ref="J301"  Part="1" 
 AR Path="/60A16277/6818B91A" Ref="J601"  Part="1" 
 AR Path="/60A1644E/6818B91A" Ref="J901"  Part="1" 
@@ -855,25 +855,25 @@ F 3 "" H 2450 12900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J303
+L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
 U 1 1 63C5DEB0
-P 8550 13000
-AR Path="/63C5DEB0" Ref="J303"  Part="1" 
+P 8650 12900
+AR Path="/63C5DEB0" Ref="J?"  Part="1" 
 AR Path="/60955FE3/63C5DEB0" Ref="J303"  Part="1" 
 AR Path="/60A16277/63C5DEB0" Ref="J603"  Part="1" 
 AR Path="/60A1644E/63C5DEB0" Ref="J903"  Part="1" 
-F 0 "J903" H 8600 14817 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8600 14726 50  0000 C CNN
-F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8550 13000 50  0001 C CNN
-F 3 "" H 8550 13000 50  0001 C CNN
-	1    8550 13000
-	1    0    0    1   
+F 0 "J903" H 8700 14717 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8700 14626 50  0000 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8650 12900 50  0001 C CNN
+F 3 "" H 8650 12900 50  0001 C CNN
+	1    8650 12900
+	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J201
+L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
 U 1 1 63C5DEA5
 P 2450 8450
-AR Path="/63C5DEA5" Ref="J201"  Part="1" 
+AR Path="/63C5DEA5" Ref="J?"  Part="1" 
 AR Path="/60955FE3/63C5DEA5" Ref="J201"  Part="1" 
 AR Path="/60A16277/63C5DEA5" Ref="J501"  Part="1" 
 AR Path="/60A1644E/63C5DEA5" Ref="J801"  Part="1" 
@@ -885,7 +885,7 @@ F 3 "" H 2450 8450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 6200 6250 0    50   ~ 0
-BIAS4
+BIAS28
 Text Label 2750 10050 0    50   ~ 0
 VDD
 Text Label 2750 10150 0    50   ~ 0
@@ -974,11 +974,11 @@ Wire Wire Line
 Wire Wire Line
 	6000 10650 6200 10650
 Text Label 6200 10450 0    50   ~ 0
-BIAS3
+BIAS31
 Text Label 6200 10550 0    50   ~ 0
 OUT
 Text Label 6200 10650 0    50   ~ 0
-BIAS4
+BIAS32
 Wire Wire Line
 	6000 14450 6200 14450
 Wire Wire Line
@@ -986,11 +986,11 @@ Wire Wire Line
 Wire Wire Line
 	6000 14650 6200 14650
 Text Label 6200 14450 0    50   ~ 0
-BIAS3
+BIAS35
 Text Label 6200 14550 0    50   ~ 0
 OUT
 Text Label 6200 14650 0    50   ~ 0
-BIAS4
+BIAS36
 Wire Wire Line
 	5000 10450 4800 10450
 Wire Wire Line
@@ -998,11 +998,11 @@ Wire Wire Line
 Wire Wire Line
 	5000 10650 4800 10650
 Text Label 4800 10450 2    50   ~ 0
-BIAS1
+BIAS29
 Text Label 4800 10550 2    50   ~ 0
 VDD
 Text Label 4800 10650 2    50   ~ 0
-BIAS2
+BIAS30
 Wire Wire Line
 	5000 14450 4800 14450
 Wire Wire Line
@@ -1010,11 +1010,11 @@ Wire Wire Line
 Wire Wire Line
 	5000 14650 4800 14650
 Text Label 4800 14450 2    50   ~ 0
-BIAS1
+BIAS33
 Text Label 4800 14550 2    50   ~ 0
 VDD
 Text Label 4800 14650 2    50   ~ 0
-BIAS2
+BIAS34
 Wire Wire Line
 	4750 8250 5000 8250
 Wire Wire Line
@@ -2317,7 +2317,7 @@ Wire Wire Line
 	8950 9950 8950 10050
 Connection ~ 8950 10050
 Text Label 9050 6850 0    50   ~ 0
-BIAS3
+BIAS31
 Wire Wire Line
 	8850 6850 9050 6850
 Wire Wire Line
@@ -2478,11 +2478,11 @@ Wire Wire Line
 	8950 14400 8950 14500
 Connection ~ 8950 14500
 Text Label 9050 11300 0    50   ~ 0
-BIAS3
+BIAS35
 Wire Wire Line
 	8850 11300 9050 11300
 Text Label 9050 10150 0    50   ~ 0
-BIAS4
+BIAS32
 NoConn ~ 8350 10050
 NoConn ~ 8350 14500
 Wire Wire Line
@@ -2490,24 +2490,24 @@ Wire Wire Line
 Wire Wire Line
 	2150 14600 1950 14600
 Text Label 1950 14600 2    50   ~ 0
-BIAS2
+BIAS34
 Connection ~ 2050 14500
 Wire Wire Line
 	2150 11300 1950 11300
 Text Label 1950 11300 2    50   ~ 0
-BIAS1
+BIAS33
 Connection ~ 2050 10050
 Wire Wire Line
 	2150 10150 1950 10150
 Text Label 1950 10150 2    50   ~ 0
-BIAS2
+BIAS30
 Text Label 1950 5600 2    50   ~ 0
-BIAS2
+BIAS26
 Connection ~ 2050 5500
 Wire Wire Line
 	2150 6850 1950 6850
 Text Label 1950 6850 2    50   ~ 0
-BIAS1
+BIAS29
 Text Label 2750 14500 0    50   ~ 0
 VDD
 Text Label 2750 14600 0    50   ~ 0
@@ -2521,7 +2521,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 14600 8850 14600
 Text Label 9050 14600 0    50   ~ 0
-BIAS4
+BIAS36
 NoConn ~ 8350 14600
 Wire Wire Line
 	9050 10150 8850 10150
@@ -2530,19 +2530,19 @@ Wire Wire Line
 Wire Wire Line
 	8350 8250 6350 8250
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J203
+L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
 U 1 1 63C5DEA6
-P 8550 8550
-AR Path="/63C5DEA6" Ref="J203"  Part="1" 
+P 8650 8450
+AR Path="/63C5DEA6" Ref="J?"  Part="1" 
 AR Path="/60955FE3/63C5DEA6" Ref="J203"  Part="1" 
 AR Path="/60A16277/63C5DEA6" Ref="J503"  Part="1" 
 AR Path="/60A1644E/63C5DEA6" Ref="J803"  Part="1" 
-F 0 "J803" H 8600 10367 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8600 10276 50  0000 C CNN
-F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8550 8550 50  0001 C CNN
-F 3 "" H 8550 8550 50  0001 C CNN
-	1    8550 8550
-	1    0    0    1   
+F 0 "J803" H 8700 10267 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8700 10176 50  0000 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8650 8450 50  0001 C CNN
+F 3 "" H 8650 8450 50  0001 C CNN
+	1    8650 8450
+	-1   0    0    -1  
 $EndComp
 NoConn ~ 8350 10150
 Wire Wire Line

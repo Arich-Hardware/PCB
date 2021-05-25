@@ -172,7 +172,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 2300 1950 2300
 Text Label 1950 2300 2    50   ~ 0
-BIAS1
+BIAS13
 Text Label 2750 2300 0    50   ~ 0
 CH0
 Text Label 2750 2400 0    50   ~ 0
@@ -242,7 +242,7 @@ VDD
 Text Label 2750 5600 0    50   ~ 0
 OUT
 Text Label 9050 5600 0    50   ~ 0
-BIAS4
+BIAS16
 Text Label 8250 5400 2    50   ~ 0
 BCH31
 Text Label 8250 5300 2    50   ~ 0
@@ -639,7 +639,7 @@ Wire Wire Line
 	8950 5400 8950 5500
 Connection ~ 8950 5500
 Text Label 9050 2300 0    50   ~ 0
-BIAS3
+BIAS15
 Wire Wire Line
 	5000 6050 4800 6050
 Wire Wire Line
@@ -653,13 +653,13 @@ Wire Wire Line
 Wire Wire Line
 	6000 6250 6200 6250
 Text Label 4800 6050 2    50   ~ 0
-BIAS1
+BIAS13
 Text Label 4800 6150 2    50   ~ 0
 VDD
 Text Label 4800 6250 2    50   ~ 0
-BIAS2
+BIAS14
 Text Label 6200 6050 0    50   ~ 0
-BIAS3
+BIAS15
 Text Label 6200 6150 0    50   ~ 0
 OUT
 Wire Wire Line
@@ -880,7 +880,7 @@ F 3 "" H 2450 8450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Text Label 6200 6250 0    50   ~ 0
-BIAS4
+BIAS16
 Text Label 2750 10050 0    50   ~ 0
 VDD
 Text Label 2750 10150 0    50   ~ 0
@@ -969,11 +969,11 @@ Wire Wire Line
 Wire Wire Line
 	6000 10650 6200 10650
 Text Label 6200 10450 0    50   ~ 0
-BIAS3
+BIAS19
 Text Label 6200 10550 0    50   ~ 0
 OUT
 Text Label 6200 10650 0    50   ~ 0
-BIAS4
+BIAS20
 Wire Wire Line
 	6000 14450 6200 14450
 Wire Wire Line
@@ -981,11 +981,11 @@ Wire Wire Line
 Wire Wire Line
 	6000 14650 6200 14650
 Text Label 6200 14450 0    50   ~ 0
-BIAS3
+BIAS23
 Text Label 6200 14550 0    50   ~ 0
 OUT
 Text Label 6200 14650 0    50   ~ 0
-BIAS4
+BIAS24
 Wire Wire Line
 	5000 10450 4800 10450
 Wire Wire Line
@@ -993,11 +993,11 @@ Wire Wire Line
 Wire Wire Line
 	5000 10650 4800 10650
 Text Label 4800 10450 2    50   ~ 0
-BIAS1
+BIAS17
 Text Label 4800 10550 2    50   ~ 0
 VDD
 Text Label 4800 10650 2    50   ~ 0
-BIAS2
+BIAS18
 Wire Wire Line
 	5000 14450 4800 14450
 Wire Wire Line
@@ -1005,11 +1005,11 @@ Wire Wire Line
 Wire Wire Line
 	5000 14650 4800 14650
 Text Label 4800 14450 2    50   ~ 0
-BIAS1
+BIAS21
 Text Label 4800 14550 2    50   ~ 0
 VDD
 Text Label 4800 14650 2    50   ~ 0
-BIAS2
+BIAS22
 Wire Wire Line
 	4750 8250 5000 8250
 Wire Wire Line
@@ -2312,7 +2312,7 @@ Wire Wire Line
 	8950 9950 8950 10050
 Connection ~ 8950 10050
 Text Label 9050 6850 0    50   ~ 0
-BIAS3
+BIAS19
 Wire Wire Line
 	8850 6850 9050 6850
 Wire Wire Line
@@ -2473,11 +2473,11 @@ Wire Wire Line
 	8950 14400 8950 14500
 Connection ~ 8950 14500
 Text Label 9050 11300 0    50   ~ 0
-BIAS3
+BIAS23
 Wire Wire Line
 	8850 11300 9050 11300
 Text Label 9050 10150 0    50   ~ 0
-BIAS4
+BIAS20
 NoConn ~ 8350 10050
 NoConn ~ 8350 14500
 Wire Wire Line
@@ -2485,24 +2485,24 @@ Wire Wire Line
 Wire Wire Line
 	2150 14600 1950 14600
 Text Label 1950 14600 2    50   ~ 0
-BIAS2
+BIAS22
 Connection ~ 2050 14500
 Wire Wire Line
 	2150 11300 1950 11300
 Text Label 1950 11300 2    50   ~ 0
-BIAS1
+BIAS21
 Connection ~ 2050 10050
 Wire Wire Line
 	2150 10150 1950 10150
 Text Label 1950 10150 2    50   ~ 0
-BIAS2
+BIAS18
 Text Label 1950 5600 2    50   ~ 0
-BIAS2
+BIAS14
 Connection ~ 2050 5500
 Wire Wire Line
 	2150 6850 1950 6850
 Text Label 1950 6850 2    50   ~ 0
-BIAS1
+BIAS17
 Text Label 2750 14500 0    50   ~ 0
 VDD
 Text Label 2750 14600 0    50   ~ 0
@@ -2516,7 +2516,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 14600 8850 14600
 Text Label 9050 14600 0    50   ~ 0
-BIAS4
+BIAS24
 NoConn ~ 8350 14600
 Wire Wire Line
 	9050 10150 8850 10150
