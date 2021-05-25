@@ -694,7 +694,7 @@ U 1 1 6818B918
 P 6000 2350
 F 0 "J702" H 6500 2617 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 6500 2526 50  0000 C CNN
-F 2 "Backplane-prototype:ERF8-060-05.0-L-DV" H 6000 2350 50  0001 L BNN
+F 2 "backplane:ERF8-060-05.0-L-DV" H 6000 2350 50  0001 L BNN
 F 3 "https://suddendocs.samtec.com/productspecs/erm8-erf8.pdf" H 6000 2350 50  0001 L BNN
 F 4 "ERF8-060-05.0-L-DV-L-K-TR" H 6000 2350 50  0001 C CNN "MFN"
 F 5 "Mouser Electronics" H 6000 2350 50  0001 C CNN "Supplier"
@@ -754,7 +754,7 @@ AR Path="/60A16277/6818B917" Ref="J403"  Part="1"
 AR Path="/60A1644E/6818B917" Ref="J703"  Part="1" 
 F 0 "J703" H 8600 5817 50  0000 C CNN
 F 1 "Conn_02x34_Odd_Even" H 8600 5726 50  0000 C CNN
-F 2 "Backplane-prototype:SAMTEC_CLM-134-02-F-D" H 8550 4000 50  0001 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8550 4000 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 8550 4000 50  0001 C CNN
 F 4 "CLM-134-02-F-D" H 8550 4000 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 8550 4000 50  0001 C CNN "Supplier"
@@ -773,7 +773,7 @@ AR Path="/60A16277/6818B916" Ref="J401"  Part="1"
 AR Path="/60A1644E/6818B916" Ref="J701"  Part="1" 
 F 0 "J701" H 2500 5717 50  0000 C CNN
 F 1 "Conn_02x34_Odd_Even" H 2500 5626 50  0000 C CNN
-F 2 "Backplane-prototype:SAMTEC_CLM-134-02-F-D" H 2450 3900 50  0001 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 2450 3900 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 2450 3900 50  0001 C CNN
 F 4 "CLM-134-02-F-D" H 2450 3900 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 2450 3900 50  0001 C CNN "Supplier"
@@ -789,10 +789,10 @@ Wire Wire Line
 	6100 5950 6100 6350
 Connection ~ 6100 5950
 $Comp
-L backplane-rescue:GND-power-backplane-prototype-rescue #PWR0102
+L backplane-rescue:GND-power-backplane-prototype-rescue #PWR0103
 U 1 1 6818B919
 P 5500 14950
-F 0 "#PWR0102" H 5500 14700 50  0001 C CNN
+F 0 "#PWR0103" H 5500 14700 50  0001 C CNN
 F 1 "GND" H 5505 14777 50  0000 C CNN
 F 2 "" H 5500 14950 50  0001 C CNN
 F 3 "" H 5500 14950 50  0001 C CNN
@@ -830,7 +830,7 @@ U 1 1 6818B915
 P 6000 8750
 F 0 "J902" H 6500 9017 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 6500 8926 50  0000 C CNN
-F 2 "Backplane-prototype:ERF8-060-05.0-L-DV" H 6000 8750 50  0001 L BNN
+F 2 "backplane:ERF8-060-05.0-L-DV" H 6000 8750 50  0001 L BNN
 F 3 "https://suddendocs.samtec.com/productspecs/erm8-erf8.pdf" H 6000 8750 50  0001 L BNN
 F 4 "ERF8-060-05.0-L-DV-L-K-TR" H 6000 8750 50  0001 C CNN "MFN"
 F 5 "Mouser Electronics" H 6000 8750 50  0001 C CNN "Supplier"
@@ -849,7 +849,7 @@ AR Path="/60A16277/6818B91A" Ref="J601"  Part="1"
 AR Path="/60A1644E/6818B91A" Ref="J901"  Part="1" 
 F 0 "J901" H 2500 14717 50  0000 C CNN
 F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 2500 14626 50  0000 C CNN
-F 2 "" H 2450 12900 50  0001 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 2450 12900 50  0001 C CNN
 F 3 "" H 2450 12900 50  0001 C CNN
 	1    2450 12900
 	-1   0    0    -1  
@@ -864,7 +864,7 @@ AR Path="/60A16277/63C5DEB0" Ref="J603"  Part="1"
 AR Path="/60A1644E/63C5DEB0" Ref="J903"  Part="1" 
 F 0 "J903" H 8600 14817 50  0000 C CNN
 F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8600 14726 50  0000 C CNN
-F 2 "" H 8550 13000 50  0001 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8550 13000 50  0001 C CNN
 F 3 "" H 8550 13000 50  0001 C CNN
 	1    8550 13000
 	1    0    0    1   
@@ -879,7 +879,7 @@ AR Path="/60A16277/63C5DEA5" Ref="J501"  Part="1"
 AR Path="/60A1644E/63C5DEA5" Ref="J801"  Part="1" 
 F 0 "J801" H 2500 10267 50  0000 C CNN
 F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 2500 10176 50  0000 C CNN
-F 2 "" H 2450 8450 50  0001 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 2450 8450 50  0001 C CNN
 F 3 "" H 2450 8450 50  0001 C CNN
 	1    2450 8450
 	-1   0    0    -1  
@@ -2539,7 +2539,7 @@ AR Path="/60A16277/63C5DEA6" Ref="J503"  Part="1"
 AR Path="/60A1644E/63C5DEA6" Ref="J803"  Part="1" 
 F 0 "J803" H 8600 10367 50  0000 C CNN
 F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8600 10276 50  0000 C CNN
-F 2 "" H 8550 8550 50  0001 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8550 8550 50  0001 C CNN
 F 3 "" H 8550 8550 50  0001 C CNN
 	1    8550 8550
 	1    0    0    1   

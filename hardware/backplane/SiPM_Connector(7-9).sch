@@ -747,21 +747,21 @@ Wire Wire Line
 $Comp
 L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J103
 U 1 1 6818B917
-P 8550 4000
+P 8650 3900
 AR Path="/6818B917" Ref="J103"  Part="1" 
 AR Path="/60955FE3/6818B917" Ref="J103"  Part="1" 
 AR Path="/60A16277/6818B917" Ref="J403"  Part="1" 
 AR Path="/60A1644E/6818B917" Ref="J703"  Part="1" 
-F 0 "J703" H 8600 5817 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even" H 8600 5726 50  0000 C CNN
-F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8550 4000 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 8550 4000 50  0001 C CNN
-F 4 "CLM-134-02-F-D" H 8550 4000 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 8550 4000 50  0001 C CNN "Supplier"
-F 6 "CLM-134-02-F-D-ND" H 8550 4000 50  0001 C CNN "Supplier P/N"
-F 7 "$9.02" H 8550 4000 50  0001 C CNN "Item Cost"
-	1    8550 4000
-	1    0    0    1   
+F 0 "J703" H 8700 5717 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even" H 8700 5626 50  0000 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8650 3900 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 8650 3900 50  0001 C CNN
+F 4 "CLM-134-02-F-D" H 8650 3900 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 8650 3900 50  0001 C CNN "Supplier"
+F 6 "CLM-134-02-F-D-ND" H 8650 3900 50  0001 C CNN "Supplier P/N"
+F 7 "$9.02" H 8650 3900 50  0001 C CNN "Item Cost"
+	1    8650 3900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J101
@@ -857,17 +857,17 @@ $EndComp
 $Comp
 L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J303
 U 1 1 63C5DEB0
-P 8550 13000
+P 8650 12900
 AR Path="/63C5DEB0" Ref="J303"  Part="1" 
 AR Path="/60955FE3/63C5DEB0" Ref="J303"  Part="1" 
 AR Path="/60A16277/63C5DEB0" Ref="J603"  Part="1" 
 AR Path="/60A1644E/63C5DEB0" Ref="J903"  Part="1" 
-F 0 "J903" H 8600 14817 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8600 14726 50  0000 C CNN
-F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8550 13000 50  0001 C CNN
-F 3 "" H 8550 13000 50  0001 C CNN
-	1    8550 13000
-	1    0    0    1   
+F 0 "J903" H 8700 14717 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8700 14626 50  0000 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8650 12900 50  0001 C CNN
+F 3 "" H 8650 12900 50  0001 C CNN
+	1    8650 12900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J201
@@ -2532,17 +2532,17 @@ Wire Wire Line
 $Comp
 L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J203
 U 1 1 63C5DEA6
-P 8550 8550
+P 8650 8450
 AR Path="/63C5DEA6" Ref="J203"  Part="1" 
 AR Path="/60955FE3/63C5DEA6" Ref="J203"  Part="1" 
 AR Path="/60A16277/63C5DEA6" Ref="J503"  Part="1" 
 AR Path="/60A1644E/63C5DEA6" Ref="J803"  Part="1" 
-F 0 "J803" H 8600 10367 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8600 10276 50  0000 C CNN
-F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8550 8550 50  0001 C CNN
-F 3 "" H 8550 8550 50  0001 C CNN
-	1    8550 8550
-	1    0    0    1   
+F 0 "J803" H 8700 10267 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even-Connector_Generic" H 8700 10176 50  0000 C CNN
+F 2 "backplane:SAMTEC_CLM-134-02-F-D" H 8650 8450 50  0001 C CNN
+F 3 "" H 8650 8450 50  0001 C CNN
+	1    8650 8450
+	-1   0    0    -1  
 $EndComp
 NoConn ~ 8350 10150
 Wire Wire Line
