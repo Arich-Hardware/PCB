@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 12
+Sheet 4 13
 Title ""
 Date ""
 Rev ""
@@ -1564,4 +1564,6 @@ F 3 "" H 4100 2250 79  0001 C CNN
 $EndComp
 Text Notes 3400 4950 0    79   ~ 16
 check if linear regulator
+Text Notes 1350 1950 0    50   ~ 0
+All this goes away, just a few connectors to Trenz\n
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 12
+Sheet 6 13
 Title ""
 Date ""
 Rev ""
@@ -413,4 +413,6 @@ F 3 "" H 600 600 79  0001 C CNN
 	1    600  600 
 	1    0    0    -1  
 $EndComp
+Text Notes 3700 250  0    197  ~ 0
+Replace FPGA with trenz
 $EndSCHEMATC
