@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 9 13
 Title ""
 Date ""
 Rev ""
@@ -798,4 +798,6 @@ F 3 "" H 1550 2150 79  0001 C CNN
 	1    1550 2150
 	1    0    0    -1  
 $EndComp
+Text Notes 4650 2050 0    79   ~ 16
+To be replaced be a Trenz connector\n
 $EndSCHEMATC

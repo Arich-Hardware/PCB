@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 12
+Sheet 7 13
 Title ""
 Date ""
 Rev ""
@@ -1011,4 +1011,6 @@ F 3 "" H 1050 6950 79  0001 C CNN
 	1    1050 6950
 	1    0    0    -1  
 $EndComp
+Text Notes 1350 4800 0    197  ~ 39
+Only keep JTAG and FT23RL\n(Going to Trenz)
 $EndSCHEMATC
