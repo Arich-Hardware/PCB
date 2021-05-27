@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name readout_slice)(type KiCad)(uri ${KIPRJMOD}/../mod/readout_slice.pretty)(options "")(descr ""))
+)
