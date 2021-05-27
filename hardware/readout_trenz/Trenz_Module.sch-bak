@@ -35,4 +35,15 @@ F 3 "" H 6650 3350 50  0001 C CNN
 	1    6650 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L readout:Trenz_SFP+ J?
+U 1 1 60B3A3A4
+P 3000 6150
+F 0 "J?" H 3000 7025 50  0000 C CNN
+F 1 "Trenz_SFP+" H 3000 6934 50  0000 C CNN
+F 2 "" H 2800 6600 50  0001 C CNN
+F 3 "" H 2800 6600 50  0001 C CNN
+	1    3000 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

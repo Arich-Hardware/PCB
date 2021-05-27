@@ -46,4 +46,15 @@ F 3 "" H 2800 6600 50  0001 C CNN
 	1    3000 6150
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 60B0C983
+P 9150 4200
+F 0 "J?" H 9200 4517 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 9200 4426 50  0000 C CNN
+F 2 "" H 9150 4200 50  0001 C CNN
+F 3 "~" H 9150 4200 50  0001 C CNN
+	1    9150 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
