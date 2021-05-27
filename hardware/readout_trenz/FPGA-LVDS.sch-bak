@@ -27,7 +27,7 @@ F 3 "" H 5800 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606E536B
 P 9500 900
 AR Path="/605605C8/606E536B" Ref="C?"  Part="1" 
@@ -40,7 +40,7 @@ F 3 "~" H 9500 900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606E5371
 P 10000 900
 AR Path="/605605C8/606E5371" Ref="C?"  Part="1" 
@@ -53,7 +53,7 @@ F 3 "~" H 10000 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606E5377
 P 9750 900
 AR Path="/605605C8/606E5377" Ref="C?"  Part="1" 
@@ -66,7 +66,7 @@ F 3 "~" H 9750 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606E537D
 P 10250 900
 AR Path="/605605C8/606E537D" Ref="C?"  Part="1" 
@@ -79,7 +79,7 @@ F 3 "~" H 10250 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606E5383
 P 10500 900
 AR Path="/605605C8/606E5383" Ref="C?"  Part="1" 
@@ -92,7 +92,7 @@ F 3 "~" H 10500 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606E5389
 P 10750 900
 AR Path="/605605C8/606E5389" Ref="C?"  Part="1" 
@@ -105,7 +105,7 @@ F 3 "~" H 10750 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606E538F
 P 11000 900
 AR Path="/605605C8/606E538F" Ref="C?"  Part="1" 
@@ -185,7 +185,7 @@ Connection ~ 9750 1050
 Wire Wire Line
 	9750 1050 10000 1050
 $Comp
-L power:GNDD #PWR?
+L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 607928D6
 P 11000 1150
 F 0 "#PWR?" H 11000 900 50  0001 C CNN
@@ -295,7 +295,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4600 3450 4600
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 608FE6D3
 P 3450 4400
 F 0 "C?" H 3542 4446 50  0000 L CNN
@@ -311,7 +311,7 @@ Wire Wire Line
 	3450 4600 3450 4700
 Connection ~ 3450 4600
 $Comp
-L power:GNDD #PWR?
+L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 60903C5D
 P 3450 4700
 F 0 "#PWR?" H 3450 4450 50  0001 C CNN
@@ -329,7 +329,7 @@ Wire Wire Line
 	3450 4300 3450 4200
 Connection ~ 3450 4200
 $Comp
-L Device:R_Small R?
+L readout_trenz-rescue:R_Small-Device R?
 U 1 1 609246AE
 P 4550 4000
 F 0 "R?" H 4609 4046 50  0000 L CNN
@@ -391,7 +391,7 @@ ADC_SCLK_2
 Text Notes 2350 3350 0    79   ~ 16
 double check footprints,\nosc datasheets can be strange
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L readout_trenz-rescue:Conn_01x03-Connector_Generic J?
 U 1 1 61982996
 P 2850 3900
 F 0 "J?" H 2768 4217 50  0000 C CNN

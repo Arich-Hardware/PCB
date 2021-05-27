@@ -42,7 +42,7 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606347C0
 P 9750 1050
 AR Path="/605605C8/606347C0" Ref="C?"  Part="1" 
@@ -56,7 +56,7 @@ F 3 "~" H 9750 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606347C6
 P 10050 1050
 AR Path="/605605C8/606347C6" Ref="C?"  Part="1" 
@@ -70,7 +70,7 @@ F 3 "~" H 10050 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606347CC
 P 9500 1050
 AR Path="/605605C8/606347CC" Ref="C?"  Part="1" 
@@ -84,7 +84,7 @@ F 3 "~" H 9500 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606347D2
 P 11050 1050
 AR Path="/605605C8/606347D2" Ref="C?"  Part="1" 
@@ -98,7 +98,7 @@ F 3 "~" H 11050 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606347D8
 P 10800 1050
 AR Path="/605605C8/606347D8" Ref="C?"  Part="1" 
@@ -112,7 +112,7 @@ F 3 "~" H 10800 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606347DE
 P 10550 1050
 AR Path="/605605C8/606347DE" Ref="C?"  Part="1" 
@@ -126,7 +126,7 @@ F 3 "~" H 10550 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 606347E4
 P 10300 1050
 AR Path="/605605C8/606347E4" Ref="C?"  Part="1" 
@@ -140,7 +140,7 @@ F 3 "~" H 10300 1050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 606347EA
 P 9500 1250
 AR Path="/605605C8/606347EA" Ref="#PWR?"  Part="1" 
@@ -262,7 +262,7 @@ PS_modeb_ext
 Text HLabel 2550 3700 0    50   Input ~ 0
 load_sc_1
 $Comp
-L Device:R R?
+L readout_trenz-rescue:R-Device R?
 U 1 1 608CECB3
 P 2350 2900
 F 0 "R?" V 2400 3000 50  0000 L CNN
@@ -603,7 +603,7 @@ NoConn ~ 9550 3900
 NoConn ~ 9550 3800
 NoConn ~ 9550 3300
 $Comp
-L Connector:TestPoint_2Pole TP?
+L readout_trenz-rescue:TestPoint_2Pole-Connector TP?
 U 1 1 60D6A41E
 P 3800 1700
 F 0 "TP?" H 3800 1895 50  0000 C CNN
@@ -620,7 +620,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 1700 4100 1800
 $Comp
-L power:GNDD #PWR?
+L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 60D79EC4
 P 4100 1800
 AR Path="/605605C8/60D79EC4" Ref="#PWR?"  Part="1" 
@@ -650,7 +650,7 @@ NOR32_oc_1
 Text HLabel 4200 6100 2    50   Input ~ 0
 OR32_1
 $Comp
-L Device:R R?
+L readout_trenz-rescue:R-Device R?
 U 1 1 608D2690
 P 2350 2600
 F 0 "R?" V 2400 2700 50  0000 L CNN
@@ -731,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 6100 4200 6100
 $Comp
-L Device:R R?
+L readout_trenz-rescue:R-Device R?
 U 1 1 60CED0B7
 P 5000 5650
 F 0 "R?" H 5070 5696 50  0000 L CNN
@@ -742,7 +742,7 @@ F 3 "~" H 5000 5650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L readout_trenz-rescue:R-Device R?
 U 1 1 60CED89A
 P 5100 5650
 F 0 "R?" H 5170 5696 50  0000 L CNN

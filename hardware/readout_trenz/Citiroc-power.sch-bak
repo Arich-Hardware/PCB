@@ -20,7 +20,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 4600 3950 4600
 $Comp
-L power:+5V #PWR?
+L readout_trenz-rescue:+5V-power #PWR?
 U 1 1 60807685
 P 4100 5600
 AR Path="/60807685" Ref="#PWR?"  Part="1" 
@@ -53,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 1500 3950 1500
 $Comp
-L power:+3.3V #PWR?
+L readout_trenz-rescue:+3.3V-power #PWR?
 U 1 1 60807697
 P 3950 950
 AR Path="/60807697" Ref="#PWR?"  Part="1" 
@@ -93,7 +93,7 @@ Wire Wire Line
 Wire Wire Line
 	2450 4300 2450 4400
 $Comp
-L power:GNDA #PWR?
+L readout_trenz-rescue:GNDA-power #PWR?
 U 1 1 608076AA
 P 2450 5800
 AR Path="/608076AA" Ref="#PWR?"  Part="1" 
@@ -109,7 +109,7 @@ F 3 "" H 2450 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 608076B0
 P 2200 5800
 AR Path="/608076B0" Ref="#PWR?"  Part="1" 
@@ -322,7 +322,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 4550 7950 4550
 $Comp
-L power:+5V #PWR?
+L readout_trenz-rescue:+5V-power #PWR?
 U 1 1 611876D0
 P 8100 5550
 AR Path="/611876D0" Ref="#PWR?"  Part="1" 
@@ -357,7 +357,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 1450 7950 1450
 $Comp
-L power:+3.3V #PWR?
+L readout_trenz-rescue:+3.3V-power #PWR?
 U 1 1 611876E2
 P 7950 1350
 AR Path="/611876E2" Ref="#PWR?"  Part="1" 
@@ -397,7 +397,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 4250 6450 4350
 $Comp
-L power:GNDA #PWR?
+L readout_trenz-rescue:GNDA-power #PWR?
 U 1 1 611876F5
 P 6450 5750
 AR Path="/611876F5" Ref="#PWR?"  Part="1" 
@@ -413,7 +413,7 @@ F 3 "" H 6450 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 611876FB
 P 6200 5750
 AR Path="/611876FB" Ref="#PWR?"  Part="1" 
@@ -620,7 +620,7 @@ rethink this,\npage30 of doc
 Text Notes 4300 3100 0    50   ~ 0
 FGPA Bank\nVoltage
 $Comp
-L power:GNDD #PWR?
+L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 607D8700
 P 4200 3300
 AR Path="/607D8700" Ref="#PWR?"  Part="1" 
@@ -640,7 +640,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 3100 4200 3100
 $Comp
-L power:+1V8 #PWR?
+L readout_trenz-rescue:+1V8-power #PWR?
 U 1 1 607C7408
 P 4200 2800
 AR Path="/60548503/607C7408" Ref="#PWR?"  Part="1" 
@@ -662,7 +662,7 @@ CAPS
 Text Notes 8300 3050 0    50   ~ 0
 FGPA Bank\nVoltage
 $Comp
-L power:GNDD #PWR?
+L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 607F4188
 P 8200 3250
 AR Path="/607F4188" Ref="#PWR?"  Part="1" 
@@ -682,7 +682,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 3050 8200 3050
 $Comp
-L power:+1V8 #PWR?
+L readout_trenz-rescue:+1V8-power #PWR?
 U 1 1 607F4190
 P 8200 2750
 AR Path="/60548503/607F4190" Ref="#PWR?"  Part="1" 
@@ -706,7 +706,7 @@ NoConn ~ 7000 1250
 NoConn ~ 3200 1300
 NoConn ~ 7200 1250
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 61D8408D
 P 3100 1050
 F 0 "C?" H 2900 1100 50  0000 L CNN
@@ -717,7 +717,7 @@ F 3 "~" H 3100 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 61D8465B
 P 3300 1050
 F 0 "C?" H 3100 1100 50  0000 L CNN
@@ -743,7 +743,7 @@ Connection ~ 3100 800
 Wire Wire Line
 	3100 800  2650 800 
 $Comp
-L power:GNDA #PWR?
+L readout_trenz-rescue:GNDA-power #PWR?
 U 1 1 61DA710A
 P 2650 950
 F 0 "#PWR?" H 2650 700 50  0001 C CNN
@@ -754,7 +754,7 @@ F 3 "" H 2650 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 61DAB491
 P 7100 1000
 F 0 "C?" H 6900 1050 50  0000 L CNN
@@ -765,7 +765,7 @@ F 3 "~" H 7100 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L readout_trenz-rescue:C_Small-Device C?
 U 1 1 61DAB497
 P 7300 1000
 F 0 "C?" H 7100 1050 50  0000 L CNN
@@ -791,7 +791,7 @@ Connection ~ 7100 750
 Wire Wire Line
 	7100 750  6650 750 
 $Comp
-L power:GNDA #PWR?
+L readout_trenz-rescue:GNDA-power #PWR?
 U 1 1 61DAB4A5
 P 6650 900
 F 0 "#PWR?" H 6650 650 50  0001 C CNN
