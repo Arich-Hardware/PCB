@@ -109,7 +109,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "9x9Gerber/"))
+      (outputdirectory "3x1Gerber/"))
   )
 
   (net 0 "")
