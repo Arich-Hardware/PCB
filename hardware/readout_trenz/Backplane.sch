@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 9 20
+Sheet 4 20
 Title ""
 Date "2021-06-01"
 Rev ""
@@ -125,11 +125,12 @@ Wire Wire Line
 Wire Wire Line
 	4250 6000 4500 6000
 $Comp
-L ERF8-060-05.0-L-DV:ERF8-060-XX.X-X-DV J?
+L readout_trenz-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV J?
 U 1 1 60C1AFA4
 P 3250 2100
 AR Path="/60C946F3/60C1AFA4" Ref="J?"  Part="1" 
 AR Path="/60CAE390/60C1AFA4" Ref="J?"  Part="1" 
+AR Path="/60C1AFA4" Ref="J?"  Part="1" 
 F 0 "J?" H 3750 2367 50  0000 C CNN
 F 1 "ERF8-060-XX.X-X-DV" H 3750 2276 50  0000 C CNN
 F 2 "ERF8-060-XX.X-X-DV" H 3250 2100 50  0001 L BNN
