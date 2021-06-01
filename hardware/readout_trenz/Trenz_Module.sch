@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 13
+Sheet 3 20
 Title ""
 Date ""
 Rev ""
@@ -68,6 +68,46 @@ F 1 "TPS73025DBVT" H 8900 2684 50  0000 C CNN
 F 2 "" H 8850 2500 50  0001 C CNN
 F 3 "" H 8850 2500 50  0001 C CNN
 	1    8900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6300 2400 6300
+Wire Wire Line
+	2400 6300 2400 6400
+Wire Wire Line
+	2500 6400 2400 6400
+Connection ~ 2400 6400
+Wire Wire Line
+	2400 6400 2400 6500
+Wire Wire Line
+	2500 6500 2400 6500
+Connection ~ 2400 6500
+Wire Wire Line
+	2400 6500 2400 6600
+Wire Wire Line
+	2500 6600 2400 6600
+Connection ~ 2400 6600
+Wire Wire Line
+	2400 6600 2400 6700
+Wire Wire Line
+	2500 6700 2400 6700
+Connection ~ 2400 6700
+Wire Wire Line
+	2400 6700 2400 6800
+Wire Wire Line
+	2500 6800 2400 6800
+Connection ~ 2400 6800
+Wire Wire Line
+	2400 6800 2400 6950
+$Comp
+L readout_trenz-rescue:GNDD-power #PWR?
+U 1 1 60B92048
+P 2400 6950
+F 0 "#PWR?" H 2400 6700 50  0001 C CNN
+F 1 "GNDD-power" H 2404 6795 50  0000 C CNN
+F 2 "" H 2400 6950 50  0001 C CNN
+F 3 "" H 2400 6950 50  0001 C CNN
+	1    2400 6950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
