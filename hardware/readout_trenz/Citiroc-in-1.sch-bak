@@ -49,10 +49,10 @@ F 3 "~" H 3150 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0185
 U 1 1 6085966F
 P 3150 5450
-F 0 "#PWR?" H 3150 5200 50  0001 C CNN
+F 0 "#PWR0185" H 3150 5200 50  0001 C CNN
 F 1 "GNDA" H 3150 5300 50  0000 C CNB
 F 2 "" H 3150 5450 50  0001 C CNN
 F 3 "" H 3150 5450 50  0001 C CNN
@@ -1025,10 +1025,10 @@ Connection ~ 5350 950
 Wire Wire Line
 	5350 950  5200 950 
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0186
 U 1 1 610A10C4
 P 2950 1050
-F 0 "#PWR?" H 2950 800 50  0001 C CNN
+F 0 "#PWR0186" H 2950 800 50  0001 C CNN
 F 1 "GNDA" H 2950 900 50  0000 C CNB
 F 2 "" H 2950 1050 50  0001 C CNN
 F 3 "" H 2950 1050 50  0001 C CNN
@@ -1062,10 +1062,10 @@ $EndComp
 Wire Wire Line
 	7200 3250 7000 3250
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0187
 U 1 1 61076F2A
 P 7400 3450
-F 0 "#PWR?" H 7400 3200 50  0001 C CNN
+F 0 "#PWR0187" H 7400 3200 50  0001 C CNN
 F 1 "GNDA" H 7400 3300 50  0000 C CNB
 F 2 "" H 7400 3450 50  0001 C CNN
 F 3 "" H 7400 3450 50  0001 C CNN
@@ -1073,10 +1073,10 @@ F 3 "" H 7400 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0188
 U 1 1 61076F65
 P 8200 3200
-F 0 "#PWR?" H 8200 2950 50  0001 C CNN
+F 0 "#PWR0188" H 8200 2950 50  0001 C CNN
 F 1 "GNDA" H 8200 3050 50  0000 C CNB
 F 2 "" H 8200 3200 50  0001 C CNN
 F 3 "" H 8200 3200 50  0001 C CNN
@@ -1105,10 +1105,10 @@ Wire Wire Line
 	8200 3200 8200 3150
 Connection ~ 8200 3150
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L readout_trenz-rescue:GNDD-power #PWR0189
 U 1 1 61076F6B
 P 9100 3200
-F 0 "#PWR?" H 9100 2950 50  0001 C CNN
+F 0 "#PWR0189" H 9100 2950 50  0001 C CNN
 F 1 "GNDD" H 9104 3045 50  0000 C CNN
 F 2 "" H 9100 3200 50  0001 C CNN
 F 3 "" H 9100 3200 50  0001 C CNN
@@ -1162,10 +1162,10 @@ Wire Wire Line
 Wire Wire Line
 	9800 1950 10200 1950
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L readout_trenz-rescue:GNDD-power #PWR0190
 U 1 1 610A10A3
 P 10800 2050
-F 0 "#PWR?" H 10800 1800 50  0001 C CNN
+F 0 "#PWR0190" H 10800 1800 50  0001 C CNN
 F 1 "GNDD" H 10804 1895 50  0000 C CNN
 F 2 "" H 10800 2050 50  0001 C CNN
 F 3 "" H 10800 2050 50  0001 C CNN
@@ -1240,10 +1240,10 @@ Wire Wire Line
 	9400 3550 9400 3300
 Connection ~ 9400 3300
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0191
 U 1 1 610A1087
 P 9400 3750
-F 0 "#PWR?" H 9400 3500 50  0001 C CNN
+F 0 "#PWR0191" H 9400 3500 50  0001 C CNN
 F 1 "GNDA" H 9400 3600 50  0000 C CNB
 F 2 "" H 9400 3750 50  0001 C CNN
 F 3 "" H 9400 3750 50  0001 C CNN
@@ -1251,10 +1251,10 @@ F 3 "" H 9400 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0192
 U 1 1 6105BA72
 P 9650 4000
-F 0 "#PWR?" H 9650 3750 50  0001 C CNN
+F 0 "#PWR0192" H 9650 3750 50  0001 C CNN
 F 1 "GNDA" H 9650 3850 50  0000 C CNB
 F 2 "" H 9650 4000 50  0001 C CNN
 F 3 "" H 9650 4000 50  0001 C CNN
@@ -1316,10 +1316,10 @@ F 3 "~" H 10150 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0193
 U 1 1 610A10B6
 P 10150 4200
-F 0 "#PWR?" H 10150 3950 50  0001 C CNN
+F 0 "#PWR0193" H 10150 3950 50  0001 C CNN
 F 1 "GNDA" H 10150 4050 50  0000 C CNB
 F 2 "" H 10150 4200 50  0001 C CNN
 F 3 "" H 10150 4200 50  0001 C CNN
@@ -1327,10 +1327,10 @@ F 3 "" H 10150 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0194
 U 1 1 610A10E0
 P 10600 3700
-F 0 "#PWR?" H 10600 3450 50  0001 C CNN
+F 0 "#PWR0194" H 10600 3450 50  0001 C CNN
 F 1 "GNDA" H 10600 3550 50  0000 C CNB
 F 2 "" H 10600 3700 50  0001 C CNN
 F 3 "" H 10600 3700 50  0001 C CNN
@@ -1349,10 +1349,10 @@ F 3 "~" H 8350 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0195
 U 1 1 61076F6F
 P 8350 950
-F 0 "#PWR?" H 8350 700 50  0001 C CNN
+F 0 "#PWR0195" H 8350 700 50  0001 C CNN
 F 1 "GNDA" H 8350 800 50  0000 C CNB
 F 2 "" H 8350 950 50  0001 C CNN
 F 3 "" H 8350 950 50  0001 C CNN
@@ -1371,10 +1371,10 @@ F 3 "~" H 9500 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0196
 U 1 1 61076F7B
 P 9500 1000
-F 0 "#PWR?" H 9500 750 50  0001 C CNN
+F 0 "#PWR0196" H 9500 750 50  0001 C CNN
 F 1 "GNDA" H 9500 850 50  0000 C CNB
 F 2 "" H 9500 1000 50  0001 C CNN
 F 3 "" H 9500 1000 50  0001 C CNN
@@ -1393,10 +1393,10 @@ F 3 "~" H 7900 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0197
 U 1 1 610A10E4
 P 7900 950
-F 0 "#PWR?" H 7900 700 50  0001 C CNN
+F 0 "#PWR0197" H 7900 700 50  0001 C CNN
 F 1 "GNDA" H 7900 800 50  0000 C CNB
 F 2 "" H 7900 950 50  0001 C CNN
 F 3 "" H 7900 950 50  0001 C CNN
@@ -1479,10 +1479,10 @@ Wire Wire Line
 Wire Wire Line
 	6350 1450 6350 1300
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0198
 U 1 1 610A10D2
 P 7900 4850
-F 0 "#PWR?" H 7900 4600 50  0001 C CNN
+F 0 "#PWR0198" H 7900 4600 50  0001 C CNN
 F 1 "GNDA" H 7900 4700 50  0000 C CNB
 F 2 "" H 7900 4850 50  0001 C CNN
 F 3 "" H 7900 4850 50  0001 C CNN
@@ -1571,10 +1571,10 @@ Wire Wire Line
 Wire Wire Line
 	7600 2850 7600 2800
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0199
 U 1 1 610A10AF
 P 7600 2850
-F 0 "#PWR?" H 7600 2600 50  0001 C CNN
+F 0 "#PWR0199" H 7600 2600 50  0001 C CNN
 F 1 "GNDA" H 7600 2700 50  0000 C CNB
 F 2 "" H 7600 2850 50  0001 C CNN
 F 3 "" H 7600 2850 50  0001 C CNN
@@ -1950,10 +1950,10 @@ Wire Wire Line
 Wire Wire Line
 	7000 4750 7300 4750
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0200
 U 1 1 61076F30
 P 7150 5050
-F 0 "#PWR?" H 7150 4800 50  0001 C CNN
+F 0 "#PWR0200" H 7150 4800 50  0001 C CNN
 F 1 "GNDA" H 7150 4900 50  0000 C CNB
 F 2 "" H 7150 5050 50  0001 C CNN
 F 3 "" H 7150 5050 50  0001 C CNN

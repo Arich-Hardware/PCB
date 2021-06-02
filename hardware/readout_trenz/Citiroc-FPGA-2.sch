@@ -57,11 +57,11 @@ F 3 "~" H 10050 1050 50  0001 C CNN
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
-U 1 1 606FB9E3
+U 1 1 61110C4D
 P 9500 1050
-AR Path="/605605C8/606FB9E3" Ref="C?"  Part="1" 
-AR Path="/60548503/606FB9E3" Ref="C?"  Part="1" 
-AR Path="/60C32D80/606FB9E3" Ref="C?"  Part="1" 
+AR Path="/605605C8/61110C4D" Ref="C?"  Part="1" 
+AR Path="/60548503/61110C4D" Ref="C?"  Part="1" 
+AR Path="/60C32D80/61110C4D" Ref="C?"  Part="1" 
 F 0 "C?" H 9592 1096 50  0000 L CNN
 F 1 "4.7u" H 9550 1000 50  0000 L CNB
 F 2 "" H 9500 1050 50  0001 C CNN
@@ -71,11 +71,11 @@ F 3 "~" H 9500 1050 50  0001 C CNN
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
-U 1 1 606FB9E9
+U 1 1 61110C4E
 P 11050 1050
-AR Path="/605605C8/606FB9E9" Ref="C?"  Part="1" 
-AR Path="/60548503/606FB9E9" Ref="C?"  Part="1" 
-AR Path="/60C32D80/606FB9E9" Ref="C?"  Part="1" 
+AR Path="/605605C8/61110C4E" Ref="C?"  Part="1" 
+AR Path="/60548503/61110C4E" Ref="C?"  Part="1" 
+AR Path="/60C32D80/61110C4E" Ref="C?"  Part="1" 
 F 0 "C?" H 11150 1100 50  0000 L CNN
 F 1 ".47u" H 11100 1000 50  0000 L CNB
 F 2 "" H 11050 1050 50  0001 C CNN
@@ -85,11 +85,11 @@ F 3 "~" H 11050 1050 50  0001 C CNN
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
-U 1 1 606FB9EF
+U 1 1 61110C4F
 P 10800 1050
-AR Path="/605605C8/606FB9EF" Ref="C?"  Part="1" 
-AR Path="/60548503/606FB9EF" Ref="C?"  Part="1" 
-AR Path="/60C32D80/606FB9EF" Ref="C?"  Part="1" 
+AR Path="/605605C8/61110C4F" Ref="C?"  Part="1" 
+AR Path="/60548503/61110C4F" Ref="C?"  Part="1" 
+AR Path="/60C32D80/61110C4F" Ref="C?"  Part="1" 
 F 0 "C?" H 10892 1096 50  0000 L CNN
 F 1 ".47u" H 10850 1000 50  0000 L CNB
 F 2 "" H 10800 1050 50  0001 C CNN
@@ -99,11 +99,11 @@ F 3 "~" H 10800 1050 50  0001 C CNN
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
-U 1 1 606FB9F5
+U 1 1 61110C50
 P 10550 1050
-AR Path="/605605C8/606FB9F5" Ref="C?"  Part="1" 
-AR Path="/60548503/606FB9F5" Ref="C?"  Part="1" 
-AR Path="/60C32D80/606FB9F5" Ref="C?"  Part="1" 
+AR Path="/605605C8/61110C50" Ref="C?"  Part="1" 
+AR Path="/60548503/61110C50" Ref="C?"  Part="1" 
+AR Path="/60C32D80/61110C50" Ref="C?"  Part="1" 
 F 0 "C?" H 10642 1096 50  0000 L CNN
 F 1 ".47u" H 10600 1000 50  0000 L CNB
 F 2 "" H 10550 1050 50  0001 C CNN
@@ -113,11 +113,11 @@ F 3 "~" H 10550 1050 50  0001 C CNN
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
-U 1 1 606FB9FB
+U 1 1 61110C51
 P 10300 1050
-AR Path="/605605C8/606FB9FB" Ref="C?"  Part="1" 
-AR Path="/60548503/606FB9FB" Ref="C?"  Part="1" 
-AR Path="/60C32D80/606FB9FB" Ref="C?"  Part="1" 
+AR Path="/605605C8/61110C51" Ref="C?"  Part="1" 
+AR Path="/60548503/61110C51" Ref="C?"  Part="1" 
+AR Path="/60C32D80/61110C51" Ref="C?"  Part="1" 
 F 0 "C?" H 10392 1096 50  0000 L CNN
 F 1 ".47u" H 10350 1000 50  0000 L CNB
 F 2 "" H 10300 1050 50  0001 C CNN
@@ -127,12 +127,12 @@ F 3 "~" H 10300 1050 50  0001 C CNN
 $EndComp
 $Comp
 L readout_trenz-rescue:GNDD-power #PWR?
-U 1 1 606FBA01
+U 1 1 61110C52
 P 9500 1250
-AR Path="/605605C8/606FBA01" Ref="#PWR?"  Part="1" 
-AR Path="/60548503/606FBA01" Ref="#PWR?"  Part="1" 
-AR Path="/60C32D80/606FBA01" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9500 1000 50  0001 C CNN
+AR Path="/605605C8/61110C52" Ref="#PWR?"  Part="1" 
+AR Path="/60548503/61110C52" Ref="#PWR0164"  Part="1" 
+AR Path="/60C32D80/61110C52" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0164" H 9500 1000 50  0001 C CNN
 F 1 "GNDD" H 9500 1100 50  0000 C CNB
 F 2 "" H 9500 1250 50  0001 C CNN
 F 3 "" H 9500 1250 50  0001 C CNN
@@ -594,10 +594,10 @@ L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 60D8C175
 P 3600 1700
 AR Path="/605605C8/60D8C175" Ref="#PWR?"  Part="1" 
-AR Path="/60548503/60D8C175" Ref="#PWR?"  Part="1" 
+AR Path="/60548503/60D8C175" Ref="#PWR0165"  Part="1" 
 AR Path="/605DF89A/60D8C175" Ref="#PWR?"  Part="1" 
 AR Path="/60C32D80/60D8C175" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3600 1450 50  0001 C CNN
+F 0 "#PWR0165" H 3600 1450 50  0001 C CNN
 F 1 "GNDD" H 3600 1550 50  0000 C CNB
 F 2 "" H 3600 1700 50  0001 C CNN
 F 3 "" H 3600 1700 50  0001 C CNN
@@ -627,11 +627,11 @@ Text HLabel 3700 6000 2    50   Input ~ 0
 OR32_2
 $Comp
 L readout_trenz-rescue:R-Device R?
-U 1 1 6073792E
+U 1 1 61110C53
 P 1850 2800
-AR Path="/605DF89A/6073792E" Ref="R?"  Part="1" 
-AR Path="/60548503/6073792E" Ref="R?"  Part="1" 
-AR Path="/60C32D80/6073792E" Ref="R?"  Part="1" 
+AR Path="/605DF89A/61110C53" Ref="R?"  Part="1" 
+AR Path="/60548503/61110C53" Ref="R?"  Part="1" 
+AR Path="/60C32D80/61110C53" Ref="R?"  Part="1" 
 F 0 "R?" V 1900 2900 50  0000 L CNN
 F 1 "100" V 1850 2700 50  0000 L CNN
 F 2 "" V 1780 2800 50  0001 C CNN
@@ -731,11 +731,11 @@ Text HLabel 4700 5900 2    50   Input ~ 0
 NOR32_oc_2
 $Comp
 L readout_trenz-rescue:R-Device R?
-U 1 1 60D28EA2
+U 1 1 61110C56
 P 4500 5550
-AR Path="/605DF89A/60D28EA2" Ref="R?"  Part="1" 
-AR Path="/60548503/60D28EA2" Ref="R?"  Part="1" 
-AR Path="/60C32D80/60D28EA2" Ref="R?"  Part="1" 
+AR Path="/605DF89A/61110C56" Ref="R?"  Part="1" 
+AR Path="/60548503/61110C56" Ref="R?"  Part="1" 
+AR Path="/60C32D80/61110C56" Ref="R?"  Part="1" 
 F 0 "R?" H 4570 5596 50  0000 L CNN
 F 1 "1k" V 4500 5500 50  0000 L CNN
 F 2 "" V 4430 5550 50  0001 C CNN
@@ -788,11 +788,11 @@ Wire Wire Line
 	3550 6100 3900 6100
 $Comp
 L readout:VccAux U?
-U 1 1 60DDF837
+U 1 1 61110C5A
 P 8150 1750
-AR Path="/62251D77/60DDF837" Ref="U?"  Part="1" 
-AR Path="/60548503/60DDF837" Ref="U?"  Part="1" 
-AR Path="/60C32D80/60DDF837" Ref="U?"  Part="1" 
+AR Path="/62251D77/61110C5A" Ref="U?"  Part="1" 
+AR Path="/60548503/61110C5A" Ref="U?"  Part="1" 
+AR Path="/60C32D80/61110C5A" Ref="U?"  Part="1" 
 F 0 "U?" H 8150 1750 79  0001 C CNN
 F 1 "Vcc0_1v8" H 8000 1800 47  0000 L CNB
 F 2 "" H 8150 1750 79  0001 C CNN
@@ -816,11 +816,11 @@ F 3 "" H 9500 700 79  0001 C CNN
 $EndComp
 $Comp
 L readout:VccAux U?
-U 1 1 60DF330E
+U 1 1 61110C5C
 P 4500 5200
-AR Path="/62251D77/60DF330E" Ref="U?"  Part="1" 
-AR Path="/60548503/60DF330E" Ref="U?"  Part="1" 
-AR Path="/60C32D80/60DF330E" Ref="U?"  Part="1" 
+AR Path="/62251D77/61110C5C" Ref="U?"  Part="1" 
+AR Path="/60548503/61110C5C" Ref="U?"  Part="1" 
+AR Path="/60C32D80/61110C5C" Ref="U?"  Part="1" 
 F 0 "U?" H 4500 5200 79  0001 C CNN
 F 1 "Vcc0_1v8" H 4350 5250 47  0000 L CNB
 F 2 "" H 4500 5200 79  0001 C CNN

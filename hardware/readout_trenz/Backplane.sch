@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 4 20
+Sheet 3 20
 Title ""
 Date "2021-06-01"
 Rev ""
@@ -14,9 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 5500 2000 2    50   Output ~ 0
-CITIROC_B1[0,31]
+B1_[0,31]
 Text HLabel 2000 2000 0    50   Output ~ 0
-CITIROC_B2[0,31]
+B2_[0,31]
 NoConn ~ 3250 6100
 NoConn ~ 3250 6200
 NoConn ~ 3250 6300
@@ -151,17 +151,17 @@ NoConn ~ 4250 6400
 NoConn ~ 4250 6300
 NoConn ~ 4250 6200
 NoConn ~ 4250 6100
-Text HLabel 3000 5800 0    50   Output ~ 0
+Text HLabel 3000 5800 0    50   Input ~ 0
 BIAS3
 Text HLabel 3000 5900 0    50   Output ~ 0
 OUT
-Text HLabel 3000 6000 0    50   Output ~ 0
+Text HLabel 3000 6000 0    50   Input ~ 0
 BIAS4
-Text HLabel 4500 6000 2    50   Output ~ 0
+Text HLabel 4500 6000 2    50   Input ~ 0
 BIAS2
 Text HLabel 4500 5900 2    50   Output ~ 0
 VDD
-Text HLabel 4500 5800 2    50   Output ~ 0
+Text HLabel 4500 5800 2    50   Input ~ 0
 BIAS1
 Wire Wire Line
 	4350 4800 4350 5700
@@ -188,7 +188,7 @@ Connection ~ 3150 3000
 Wire Wire Line
 	3250 3000 3150 3000
 Text Label 3000 2000 2    50   ~ 0
-CITIROC_B2[0,31]
+B2_[0,31]
 Wire Wire Line
 	3250 6000 3000 6000
 Wire Wire Line
@@ -201,12 +201,12 @@ Connection ~ 3150 5700
 Wire Wire Line
 	3250 5700 3150 5700
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0105
 U 1 1 60BB416E
 P 3150 6050
-AR Path="/60C946F3/60BB416E" Ref="#PWR?"  Part="1" 
+AR Path="/60C946F3/60BB416E" Ref="#PWR0105"  Part="1" 
 AR Path="/60CAE390/60BB416E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3150 5800 50  0001 C CNN
+F 0 "#PWR0105" H 3150 5800 50  0001 C CNN
 F 1 "GNDA-power" H 3155 5877 50  0000 C CNN
 F 2 "" H 3150 6050 50  0001 C CNN
 F 3 "" H 3150 6050 50  0001 C CNN
@@ -348,17 +348,17 @@ Entry Wire Line
 Entry Wire Line
 	3100 2300 3000 2200
 Text Label 4500 2000 0    50   ~ 0
-CITIROC_B1[0,31]
+B1_[0,31]
 Wire Wire Line
 	4350 5700 4350 6050
 Connection ~ 4350 5700
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L readout_trenz-rescue:GNDA-power #PWR0106
 U 1 1 60BAF8E2
 P 4350 6050
-AR Path="/60C946F3/60BAF8E2" Ref="#PWR?"  Part="1" 
+AR Path="/60C946F3/60BAF8E2" Ref="#PWR0106"  Part="1" 
 AR Path="/60CAE390/60BAF8E2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4350 5800 50  0001 C CNN
+F 0 "#PWR0106" H 4350 5800 50  0001 C CNN
 F 1 "GNDA-power" H 4355 5877 50  0000 C CNN
 F 2 "" H 4350 6050 50  0001 C CNN
 F 3 "" H 4350 6050 50  0001 C CNN
@@ -433,6 +433,134 @@ Entry Wire Line
 	4400 2400 4500 2300
 Entry Wire Line
 	4400 2300 4500 2200
+Text Label 4400 2200 0    50   ~ 0
+B1_0
+Text Label 4400 2300 0    50   ~ 0
+B1_1
+Text Label 4400 2400 0    50   ~ 0
+B1_2
+Text Label 4400 2500 0    50   ~ 0
+B1_3
+Text Label 4400 2600 0    50   ~ 0
+B1_4
+Text Label 4400 2700 0    50   ~ 0
+B1_5
+Text Label 4400 2800 0    50   ~ 0
+B1_6
+Text Label 4400 2900 0    50   ~ 0
+B1_7
+Text Label 4400 3100 0    50   ~ 0
+B1_8
+Text Label 4400 3200 0    50   ~ 0
+B1_9
+Text Label 4400 3300 0    50   ~ 0
+B1_10
+Text Label 4400 3400 0    50   ~ 0
+B1_11
+Text Label 4400 3500 0    50   ~ 0
+B1_12
+Text Label 4400 3600 0    50   ~ 0
+B1_13
+Text Label 4400 3700 0    50   ~ 0
+B1_14
+Text Label 4400 3800 0    50   ~ 0
+B1_15
+Text Label 4400 4000 0    50   ~ 0
+B1_16
+Text Label 4400 4100 0    50   ~ 0
+B1_17
+Text Label 4400 4200 0    50   ~ 0
+B1_18
+Text Label 4400 4300 0    50   ~ 0
+B1_19
+Text Label 4400 4400 0    50   ~ 0
+B1_20
+Text Label 4400 4500 0    50   ~ 0
+B1_21
+Text Label 4400 4600 0    50   ~ 0
+B1_22
+Text Label 4400 4700 0    50   ~ 0
+B1_23
+Text Label 4400 4900 0    50   ~ 0
+B1_24
+Text Label 4400 5000 0    50   ~ 0
+B1_25
+Text Label 4400 5100 0    50   ~ 0
+B1_26
+Text Label 4400 5200 0    50   ~ 0
+B1_27
+Text Label 4400 5300 0    50   ~ 0
+B1_28
+Text Label 4400 5400 0    50   ~ 0
+B1_29
+Text Label 4400 5500 0    50   ~ 0
+B1_30
+Text Label 4400 5600 0    50   ~ 0
+B1_31
+Text Label 3100 2200 2    50   ~ 0
+B2_0
+Text Label 3100 2300 2    50   ~ 0
+B2_1
+Text Label 3100 2400 2    50   ~ 0
+B2_2
+Text Label 3100 2500 2    50   ~ 0
+B2_3
+Text Label 3100 2600 2    50   ~ 0
+B2_4
+Text Label 3100 2700 2    50   ~ 0
+B2_5
+Text Label 3100 2800 2    50   ~ 0
+B2_6
+Text Label 3100 2900 2    50   ~ 0
+B2_7
+Text Label 3100 3100 2    50   ~ 0
+B2_8
+Text Label 3100 3200 2    50   ~ 0
+B2_9
+Text Label 3100 3300 2    50   ~ 0
+B2_10
+Text Label 3100 3400 2    50   ~ 0
+B2_11
+Text Label 3100 3500 2    50   ~ 0
+B2_12
+Text Label 3100 3600 2    50   ~ 0
+B2_13
+Text Label 3100 3700 2    50   ~ 0
+B2_14
+Text Label 3100 3800 2    50   ~ 0
+B2_15
+Text Label 3100 4000 2    50   ~ 0
+B2_16
+Text Label 3100 4100 2    50   ~ 0
+B2_17
+Text Label 3100 4200 2    50   ~ 0
+B2_18
+Text Label 3100 4300 2    50   ~ 0
+B2_19
+Text Label 3100 4400 2    50   ~ 0
+B2_20
+Text Label 3100 4500 2    50   ~ 0
+B2_21
+Text Label 3100 4600 2    50   ~ 0
+B2_22
+Text Label 3100 4700 2    50   ~ 0
+B2_23
+Text Label 3100 4900 2    50   ~ 0
+B2_24
+Text Label 3100 5000 2    50   ~ 0
+B2_25
+Text Label 3100 5100 2    50   ~ 0
+B2_26
+Text Label 3100 5200 2    50   ~ 0
+B2_27
+Text Label 3100 5300 2    50   ~ 0
+B2_28
+Text Label 3100 5400 2    50   ~ 0
+B2_29
+Text Label 3100 5500 2    50   ~ 0
+B2_30
+Text Label 3100 5600 2    50   ~ 0
+B2_31
 Wire Bus Line
 	4500 2000 4500 5500
 Wire Bus Line

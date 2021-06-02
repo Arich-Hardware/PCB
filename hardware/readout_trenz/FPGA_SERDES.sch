@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 20
+Sheet 18 20
 Title ""
 Date ""
 Rev ""
@@ -51,10 +51,10 @@ Wire Wire Line
 Wire Wire Line
 	4200 2950 4200 2250
 $Comp
-L readout_trenz-rescue:+1V2-power #PWR?
+L readout_trenz-rescue:+1V2-power #PWR0201
 U 1 1 609B8AF9
 P 4200 1950
-F 0 "#PWR?" H 4200 1800 50  0001 C CNN
+F 0 "#PWR0201" H 4200 1800 50  0001 C CNN
 F 1 "+1V2" H 4215 2123 50  0000 C CNN
 F 2 "" H 4200 1950 50  0001 C CNN
 F 3 "" H 4200 1950 50  0001 C CNN
@@ -85,10 +85,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 2350 6100 2950
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L readout_trenz-rescue:GNDD-power #PWR0202
 U 1 1 609DFF87
 P 6100 4750
-F 0 "#PWR?" H 6100 4500 50  0001 C CNN
+F 0 "#PWR0202" H 6100 4500 50  0001 C CNN
 F 1 "GNDD" H 6104 4595 50  0000 C CNN
 F 2 "" H 6100 4750 50  0001 C CNN
 F 3 "" H 6100 4750 50  0001 C CNN
@@ -152,10 +152,10 @@ Wire Wire Line
 Wire Wire Line
 	7350 4550 7350 5150
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L readout_trenz-rescue:GNDD-power #PWR0203
 U 1 1 60A070C6
 P 7350 5300
-F 0 "#PWR?" H 7350 5050 50  0001 C CNN
+F 0 "#PWR0203" H 7350 5050 50  0001 C CNN
 F 1 "GNDD" H 7354 5145 50  0000 C CNN
 F 2 "" H 7350 5300 50  0001 C CNN
 F 3 "" H 7350 5300 50  0001 C CNN
@@ -443,10 +443,10 @@ Connection ~ 7950 3000
 Wire Wire Line
 	7950 3000 8150 3000
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L readout_trenz-rescue:GNDD-power #PWR0204
 U 1 1 60A7D224
 P 8450 3250
-F 0 "#PWR?" H 8450 3000 50  0001 C CNN
+F 0 "#PWR0204" H 8450 3000 50  0001 C CNN
 F 1 "GNDD" H 8450 3100 50  0000 C CNN
 F 2 "" H 8450 3250 50  0001 C CNN
 F 3 "" H 8450 3250 50  0001 C CNN
@@ -454,10 +454,10 @@ F 3 "" H 8450 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L readout_trenz-rescue:GNDD-power #PWR0205
 U 1 1 60A7D978
 P 8650 2900
-F 0 "#PWR?" H 8650 2650 50  0001 C CNN
+F 0 "#PWR0205" H 8650 2650 50  0001 C CNN
 F 1 "GNDD" H 8654 2745 50  0000 C CNN
 F 2 "" H 8650 2900 50  0001 C CNN
 F 3 "" H 8650 2900 50  0001 C CNN
@@ -474,10 +474,10 @@ Connection ~ 8650 2850
 Wire Wire Line
 	8650 2850 8650 2800
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L readout_trenz-rescue:GNDD-power #PWR0206
 U 1 1 60A83604
 P 7950 3300
-F 0 "#PWR?" H 7950 3050 50  0001 C CNN
+F 0 "#PWR0206" H 7950 3050 50  0001 C CNN
 F 1 "GNDD" H 7950 3150 50  0000 C CNN
 F 2 "" H 7950 3300 50  0001 C CNN
 F 3 "" H 7950 3300 50  0001 C CNN
@@ -554,8 +554,8 @@ L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 60C84594
 P 1550 3300
 AR Path="/60768143/60C84594" Ref="#PWR?"  Part="1" 
-AR Path="/608CAA95/60C84594" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1550 3050 50  0001 C CNN
+AR Path="/608CAA95/60C84594" Ref="#PWR0207"  Part="1" 
+F 0 "#PWR0207" H 1550 3050 50  0001 C CNN
 F 1 "GNDD" H 1554 3145 50  0000 C CNN
 F 2 "" H 1550 3300 50  0001 C CNN
 F 3 "" H 1550 3300 50  0001 C CNN
@@ -742,10 +742,10 @@ Connection ~ 9600 4350
 Wire Wire Line
 	9600 4350 9600 4450
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L readout_trenz-rescue:GNDD-power #PWR0208
 U 1 1 60B02076
 P 9600 5300
-F 0 "#PWR?" H 9600 5050 50  0001 C CNN
+F 0 "#PWR0208" H 9600 5050 50  0001 C CNN
 F 1 "GNDD" H 9604 5145 50  0000 C CNN
 F 2 "" H 9600 5300 50  0001 C CNN
 F 3 "" H 9600 5300 50  0001 C CNN

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 20
+Sheet 14 20
 Title ""
 Date ""
 Rev ""
@@ -199,10 +199,10 @@ Connection ~ 2350 1100
 Wire Wire Line
 	2350 1100 2000 1100
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L readout_trenz-rescue:GNDD-power #PWR0166
 U 1 1 608A2D7A
 P 600 1200
-F 0 "#PWR?" H 600 950 50  0001 C CNN
+F 0 "#PWR0166" H 600 950 50  0001 C CNN
 F 1 "GNDD" H 600 1050 50  0000 C CNN
 F 2 "" H 600 1200 50  0001 C CNN
 F 3 "" H 600 1200 50  0001 C CNN
