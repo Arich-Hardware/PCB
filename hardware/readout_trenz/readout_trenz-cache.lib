@@ -1,39 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# readout_A97943DKR-ND
-#
-DEF readout_A97943DKR-ND U 0 40 Y Y 1 F N
-F0 "U" -700 150 50 H V C CNN
-F1 "readout_A97943DKR-ND" -700 150 50 H V C CNN
-F2 "" -700 150 50 H I C CNN
-F3 "" -700 150 50 H I C CNN
-DRAW
-S 600 -1450 -500 0 0 1 0 f
-X Tx_Vee 1 -200 -1550 100 U 50 50 1 1 W
-X Rx_Vee 10 100 -1550 100 U 50 50 1 1 W
-X Rx_Vee 11 200 -1550 100 U 50 50 1 1 P
-X RD- 12 700 -150 100 L 50 50 1 1 O
-X RD+ 13 700 -50 100 L 50 50 1 1 O
-X Rx_Vee 14 0 -1550 100 U 50 50 1 1 I
-X VccR 15 100 100 100 D 50 50 1 1 W
-X VccT 16 0 100 100 D 50 50 1 1 W
-X Tx_Vee 17 -300 -1550 100 U 50 50 1 1 I
-X TD+ 18 700 -350 100 L 50 50 1 1 I
-X TD- 19 700 -450 100 L 50 50 1 1 I
-X TX_FAULT 2 700 -950 100 L 50 50 1 1 C
-X Tx_Vee 20 -400 -1550 100 U 50 50 1 1 I
-X TX_DISABLE 3 700 -1050 100 L 50 50 1 1 I
-X SDA 4 700 -1350 100 L 50 50 1 1 B
-X SCL 5 700 -1250 100 L 50 50 1 1 I
-X Present 6 700 -650 100 L 50 50 1 1 P
-X Rate_select(NC) 7 700 -750 100 L 50 50 1 1 N N
-X RX_LOS 8 700 -850 100 L 50 50 1 1 C
-X Rx_Vee 9 300 -1550 100 U 50 50 1 1 I
-X CAGE CAGE -600 -650 100 R 20 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # readout_ADS7955
 #
 DEF readout_ADS7955 U 0 40 Y Y 1 F N
@@ -493,51 +460,6 @@ ENDDEF
 DEF readout_VccAux U 0 40 Y Y 1 F N
 F0 "U" 0 0 79 H I C CNN
 F1 "readout_VccAux" 0 50 79 H V C CNN
-F2 "" 0 0 79 H I C CNN
-F3 "" 0 0 79 H I C CNN
-DRAW
-P 2 1 1 0 -30 -50 0 0 N
-P 2 1 1 0 0 -100 0 0 N
-P 2 1 1 0 0 0 30 -50 N
-X VCC 1 0 -100 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# readout_VccInt
-#
-DEF readout_VccInt U 0 40 Y Y 1 F N
-F0 "U" 0 0 79 H I C CNN
-F1 "readout_VccInt" 0 50 79 H V C CNN
-F2 "" 0 0 79 H I C CNN
-F3 "" 0 0 79 H I C CNN
-DRAW
-P 2 1 1 0 -30 -50 0 0 N
-P 2 1 1 0 0 -100 0 0 N
-P 2 1 1 0 0 0 30 -50 N
-X VCC 1 0 -100 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# readout_VccMGTAVcc
-#
-DEF readout_VccMGTAVcc U 0 40 Y Y 1 F N
-F0 "U" 0 100 79 H I C CNN
-F1 "readout_VccMGTAVcc" -50 50 79 H V C CNN
-F2 "" 0 100 79 H I C CNN
-F3 "" 0 100 79 H I C CNN
-DRAW
-P 2 1 1 0 -30 -50 0 0 N
-P 2 1 1 0 0 -100 0 0 N
-P 2 1 1 0 0 0 30 -50 N
-X VCC 1 0 -100 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# readout_VccMGTAVtt
-#
-DEF readout_VccMGTAVtt U 0 40 Y Y 1 F N
-F0 "U" 0 0 79 V I C CNN
-F1 "readout_VccMGTAVtt" -50 50 79 H V C CNN
 F2 "" 0 0 79 H I C CNN
 F3 "" 0 0 79 H I C CNN
 DRAW
@@ -1111,36 +1033,6 @@ X DQ0 5 -350 -100 100 R 50 50 1 1 I
 X C 6 -350 -700 100 R 50 50 1 1 I
 X HOLD 7 -350 -500 100 R 50 50 1 1 I
 X Vcc 8 50 100 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# readout_trenz-rescue_+1V0-power
-#
-DEF readout_trenz-rescue_+1V0-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "readout_trenz-rescue_+1V0-power" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +1V0 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# readout_trenz-rescue_+1V2-power
-#
-DEF readout_trenz-rescue_+1V2-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "readout_trenz-rescue_+1V2-power" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +1V2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

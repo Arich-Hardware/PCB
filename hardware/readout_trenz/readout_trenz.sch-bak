@@ -932,12 +932,12 @@ Wire Wire Line
 	900  7350 1000 7350
 Wire Wire Line
 	7500 6000 6500 6000
-Wire Wire Line
+Wire Bus Line
 	3500 1500 4500 1500
-Wire Wire Line
+Wire Bus Line
 	3500 4500 4500 4500
 Wire Bus Line
-	1700 6250 1700 6750
-Wire Bus Line
 	800  6750 800  7250
+Wire Bus Line
+	1700 6250 1700 6750
 $EndSCHEMATC

@@ -121,13 +121,13 @@ F 3 "" H 3000 3000 50  0001 C CNN
 	1    3000 3000
 	1    0    0    -1  
 $EndComp
-Text HLabel 2650 2850 0    50   BiDi ~ 0
+Text HLabel 2550 2850 0    50   BiDi ~ 0
 TCK
-Text HLabel 2650 2950 0    50   BiDi ~ 0
+Text HLabel 2550 2950 0    50   BiDi ~ 0
 TDO
-Text HLabel 2650 3050 0    50   BiDi ~ 0
+Text HLabel 2550 3050 0    50   BiDi ~ 0
 TDI
-Text HLabel 2650 3150 0    50   BiDi ~ 0
+Text HLabel 2550 3150 0    50   BiDi ~ 0
 TMS
 Wire Wire Line
 	2650 3350 2550 3350
@@ -369,6 +369,7 @@ P 4600 6250
 AR Path="/6099D1B7/614DBB74" Ref="R?"  Part="1" 
 AR Path="/60AD0200/60AFD3C0/614DBB74" Ref="R?"  Part="1" 
 AR Path="/606EBC4D/614DBB74" Ref="R?"  Part="1" 
+AR Path="/60D04563/614DBB74" Ref="R?"  Part="1" 
 F 0 "R?" H 4700 6250 50  0000 C CNN
 F 1 "4.7k" V 4600 6250 50  0000 C CNN
 F 2 "" V 4530 6250 50  0001 C CNN
@@ -383,6 +384,7 @@ P 4400 6150
 AR Path="/6099D1B7/614DC8C2" Ref="R?"  Part="1" 
 AR Path="/60AD0200/60AFD3C0/614DC8C2" Ref="R?"  Part="1" 
 AR Path="/606EBC4D/614DC8C2" Ref="R?"  Part="1" 
+AR Path="/60D04563/614DC8C2" Ref="R?"  Part="1" 
 F 0 "R?" H 4500 6150 50  0000 C CNN
 F 1 "4.7k" V 4400 6150 50  0000 C CNN
 F 2 "" V 4330 6150 50  0001 C CNN
@@ -416,4 +418,12 @@ F 3 "" H 4600 6100 50  0001 C CNN
 	1    4600 6100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 2850 2650 2850
+Wire Wire Line
+	2550 2950 2650 2950
+Wire Wire Line
+	2550 3050 2650 3050
+Wire Wire Line
+	2550 3150 2650 3150
 $EndSCHEMATC

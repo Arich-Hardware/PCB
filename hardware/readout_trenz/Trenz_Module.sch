@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 20
+Sheet 2 17
 Title ""
 Date ""
 Rev ""
@@ -426,4 +426,129 @@ Wire Wire Line
 	2550 3050 2650 3050
 Wire Wire Line
 	2550 3150 2650 3150
+Text Notes 3468 8200 3    118  ~ 24
+get part num\nfrom BoM
+$Comp
+L readout:SFP+cage U?
+U 1 1 60D06249
+P 3950 7800
+F 0 "U?" H 4178 6851 50  0000 L CNN
+F 1 "SFP+cage" H 4178 6760 50  0000 L CNN
+F 2 "" H 4000 7900 50  0001 C CNN
+F 3 "" H 4000 7900 50  0001 C CNN
+	1    3950 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3000 6850 3000 7600
+Wire Wire Line
+	3900 7600 3900 7700
+Connection ~ 3000 7600
+Wire Wire Line
+	3000 7600 3000 7700
+Wire Wire Line
+	3800 7700 3800 7600
+Wire Wire Line
+	3900 7600 3800 7600
+Connection ~ 3800 7600
+Wire Wire Line
+	3800 7600 3700 7600
+Wire Wire Line
+	3700 7600 3700 7700
+Connection ~ 3700 7600
+Wire Wire Line
+	3700 7600 3600 7600
+Wire Wire Line
+	3600 7700 3600 7600
+Connection ~ 3600 7600
+Wire Wire Line
+	3600 7600 3500 7600
+Wire Wire Line
+	3500 7700 3500 7600
+Connection ~ 3500 7600
+Wire Wire Line
+	3500 7600 3400 7600
+Wire Wire Line
+	3400 7700 3400 7600
+Connection ~ 3400 7600
+Wire Wire Line
+	3400 7600 3300 7600
+Wire Wire Line
+	3300 7700 3300 7600
+Connection ~ 3300 7600
+Wire Wire Line
+	3300 7600 3200 7600
+Wire Wire Line
+	3200 7700 3200 7600
+Connection ~ 3200 7600
+Wire Wire Line
+	3200 7600 3100 7600
+Wire Wire Line
+	3100 7700 3100 7600
+Connection ~ 3100 7600
+Wire Wire Line
+	3100 7600 3000 7600
+Wire Wire Line
+	2900 7700 2900 7600
+Wire Wire Line
+	2000 7600 2000 7700
+Wire Wire Line
+	3000 7600 2900 7600
+Connection ~ 2900 7600
+Wire Wire Line
+	2900 7600 2800 7600
+Wire Wire Line
+	2100 7700 2100 7600
+Connection ~ 2100 7600
+Wire Wire Line
+	2100 7600 2000 7600
+Wire Wire Line
+	2200 7600 2200 7700
+Connection ~ 2200 7600
+Wire Wire Line
+	2200 7600 2100 7600
+Wire Wire Line
+	2300 7700 2300 7600
+Connection ~ 2300 7600
+Wire Wire Line
+	2300 7600 2200 7600
+Wire Wire Line
+	2400 7600 2400 7700
+Connection ~ 2400 7600
+Wire Wire Line
+	2400 7600 2300 7600
+Wire Wire Line
+	2500 7700 2500 7600
+Connection ~ 2500 7600
+Wire Wire Line
+	2500 7600 2400 7600
+Wire Wire Line
+	2600 7600 2600 7700
+Connection ~ 2600 7600
+Wire Wire Line
+	2600 7600 2500 7600
+Wire Wire Line
+	2700 7700 2700 7600
+Connection ~ 2700 7600
+Wire Wire Line
+	2700 7600 2600 7600
+Wire Wire Line
+	2800 7600 2800 7700
+Connection ~ 2800 7600
+Wire Wire Line
+	2800 7600 2700 7600
+$Comp
+L readout_trenz-rescue:GNDD-power #PWR?
+U 1 1 60D06289
+P 1850 7600
+F 0 "#PWR?" H 1850 7350 50  0001 C CNN
+F 1 "GNDD" H 1854 7445 50  0000 C CNN
+F 2 "" H 1850 7600 50  0001 C CNN
+F 3 "" H 1850 7600 50  0001 C CNN
+	1    1850 7600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 7600 2000 7600
+Connection ~ 2000 7600
 $EndSCHEMATC

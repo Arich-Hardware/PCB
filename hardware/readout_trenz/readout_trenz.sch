@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 20
+Sheet 1 17
 Title "readout_slice"
 Date "2021-02-24"
 Rev "RevA"
@@ -96,8 +96,6 @@ B1_[0,31]
 Text Label 1550 4500 0    50   ~ 0
 B2_[0,31]
 Wire Wire Line
-	3750 10300 3400 10300
-Wire Wire Line
 	6500 16900 6450 16900
 Connection ~ 6500 16900
 Wire Wire Line
@@ -106,22 +104,22 @@ Wire Wire Line
 	6450 16800 6500 16800
 Wire Wire Line
 	6500 16800 6500 16900
-Text Label 3350 15150 2    50   ~ 0
+Text Label 400  9050 2    50   ~ 0
 LVDS_GPIO_p1
-Text Label 3350 15250 2    50   ~ 0
+Text Label 400  9150 2    50   ~ 0
 LVDS_GPIO_n1
 Wire Wire Line
-	2800 15150 3350 15150
+	-150 9050 400  9050
 Wire Wire Line
-	3350 15250 2800 15250
-Text Label 3350 15350 2    50   ~ 0
+	400  9150 -150 9150
+Text Label 400  9250 2    50   ~ 0
 LVDS_GPIO_p2
-Text Label 3350 15450 2    50   ~ 0
+Text Label 400  9350 2    50   ~ 0
 LVDS_GPIO_n2
 Wire Wire Line
-	2800 15350 3350 15350
+	-150 9250 400  9250
 Wire Wire Line
-	3350 15450 2800 15450
+	400  9350 -150 9350
 Text Label 5400 16900 0    50   ~ 0
 LVDS_GPIO_n2
 Wire Wire Line
@@ -139,37 +137,12 @@ F 3 "" H 6500 17050 50  0001 C CNN
 	1    6500 17050
 	1    0    0    -1  
 $EndComp
-Text Notes 0    10600 0    118  ~ 24
-get pin assignments into xilinx\ncontrainst, low priority\n
-Wire Wire Line
-	3400 10500 3750 10500
-Wire Wire Line
-	3750 10600 3400 10600
 Text Notes 200  12650 0    79   ~ 16
 its okay to bulk 48V \nto 5V for any specific \npower supply — specifically support artix-7 \nw/ ref design
 Text Notes 500  11650 0    79   ~ 16
 48V for bulk power,\ndon’t fight too much,\n12V is fine if no choice
-Text Notes 350  12850 0    79   ~ 16
+Text Notes -1850 11800 0    79   ~ 16
 leds on all supplies
-Text Notes 800  13300 0    157  ~ 31
-POWER
-$Sheet
-S 200  13500 1150 550 
-U 607ECAFE
-F0 "Citiroc-power" 50
-F1 "Citiroc-power.sch" 50
-$EndSheet
-$Sheet
-S 1800 13550 1250 450 
-U 6076C700
-F0 "FPGA-power" 50
-F1 "FPGA-power.sch" 0
-F2 "PS_SRST" I L 1800 13900 50 
-F3 "+3V3" I R 3050 13600 50 
-F4 "+5V" I R 3050 13700 50 
-F5 "GNDA" I R 3050 13800 50 
-F6 "GNDD" I R 3050 13900 50 
-$EndSheet
 Connection ~ 6500 16800
 $Comp
 L readout_trenz-rescue:Conn_02x12_Counter_Clockwise-Connector_Generic J?
@@ -652,140 +625,125 @@ $EndSheet
 Text Notes 7650 10400 0    157  ~ 31
 CITIROC-FPGA
 $Sheet
-S -450 16700 1150 450 
+S -3400 10600 1150 450 
 U 60764AEF
 F0 "Citiroc-in-2" 50
 F1 "Citiroc-in-2.sch" 0
-F2 "Bias_2" I L -450 16750 50 
-F3 "ADC_SDO_2" I R 700 16750 50 
-F4 "ADC_SDI_2" I R 700 16850 50 
-F5 "ADC_CS_2" I R 700 16950 50 
-F6 "ADC_SCLK_2" I R 700 17050 50 
-F7 "Bias_1" I L -450 16850 50 
-F8 "SiPM_Vdd" I L -450 17050 50 
+F2 "Bias_2" I L -3400 10650 50 
+F3 "ADC_SDO_2" I R -2250 10650 50 
+F4 "ADC_SDI_2" I R -2250 10750 50 
+F5 "ADC_CS_2" I R -2250 10850 50 
+F6 "ADC_SCLK_2" I R -2250 10950 50 
+F7 "Bias_1" I L -3400 10750 50 
+F8 "SiPM_Vdd" I L -3400 10950 50 
 $EndSheet
 $Sheet
-S 1050 15050 1750 2100
+S -1900 8950 1750 2100
 U 60768143
 F0 "FPGA-LVDS" 50
 F1 "FPGA-LVDS.sch" 0
-F2 "Raz_Chn_p1" I L 1050 15150 50 
-F3 "Raz_chn_n1" I L 1050 15250 50 
-F4 "Val_Ext_p1" I L 1050 15450 50 
-F5 "Val_Ext_n1" I L 1050 15550 50 
-F6 "Raz_Chn_p2" I L 1050 15750 50 
-F7 "Raz_chn_n2" I L 1050 15850 50 
-F8 "Val_Ext_p2" I L 1050 16000 50 
-F9 "Val_Ext_n2" I L 1050 16100 50 
-F10 "LVDS_GPIO_p1" I R 2800 15150 50 
-F11 "LVDS_GPIO_n1" I R 2800 15250 50 
-F12 "LVDS_GPIO_n2" I R 2800 15350 50 
-F13 "LVDS_GPIO_p2" I R 2800 15450 50 
-F14 "ADC_SDO_1" I L 1050 16250 50 
-F15 "ADC_SDI_1" I L 1050 16350 50 
-F16 "ADC_CS_1" I L 1050 16450 50 
-F17 "ADC_SCLK_1" I L 1050 16550 50 
-F18 "ADC_SDO_2" I L 1050 16750 50 
-F19 "ADC_SDI_2" I L 1050 16850 50 
-F20 "ADC_CS_2" I L 1050 16950 50 
-F21 "ADC_SCLK_2" I L 1050 17050 50 
+F2 "Raz_Chn_p1" I L -1900 9050 50 
+F3 "Raz_chn_n1" I L -1900 9150 50 
+F4 "Val_Ext_p1" I L -1900 9350 50 
+F5 "Val_Ext_n1" I L -1900 9450 50 
+F6 "Raz_Chn_p2" I L -1900 9650 50 
+F7 "Raz_chn_n2" I L -1900 9750 50 
+F8 "Val_Ext_p2" I L -1900 9900 50 
+F9 "Val_Ext_n2" I L -1900 10000 50 
+F10 "LVDS_GPIO_p1" I R -150 9050 50 
+F11 "LVDS_GPIO_n1" I R -150 9150 50 
+F12 "LVDS_GPIO_n2" I R -150 9250 50 
+F13 "LVDS_GPIO_p2" I R -150 9350 50 
+F14 "ADC_SDO_1" I L -1900 10150 50 
+F15 "ADC_SDI_1" I L -1900 10250 50 
+F16 "ADC_CS_1" I L -1900 10350 50 
+F17 "ADC_SCLK_1" I L -1900 10450 50 
+F18 "ADC_SDO_2" I L -1900 10650 50 
+F19 "ADC_SDI_2" I L -1900 10750 50 
+F20 "ADC_CS_2" I L -1900 10850 50 
+F21 "ADC_SCLK_2" I L -1900 10950 50 
 $EndSheet
-Text Label 750  15150 0    50   ~ 0
+Text Label -2200 9050 0    50   ~ 0
 Raz_p1
-Text Label 750  15250 0    50   ~ 0
+Text Label -2200 9150 0    50   ~ 0
 Raz_n1
-Text Label 750  15450 0    50   ~ 0
+Text Label -2200 9350 0    50   ~ 0
 Val_p1
-Text Label 750  15550 0    50   ~ 0
+Text Label -2200 9450 0    50   ~ 0
 Val_n1
 Wire Wire Line
-	750  15550 1050 15550
+	-2200 9450 -1900 9450
 Wire Wire Line
-	750  15450 1050 15450
+	-2200 9350 -1900 9350
 Wire Wire Line
-	750  15250 1050 15250
+	-2200 9150 -1900 9150
 Wire Wire Line
-	750  15150 1050 15150
-Text Label 750  15750 0    50   ~ 0
+	-2200 9050 -1900 9050
+Text Label -2200 9650 0    50   ~ 0
 Raz_p2
 Wire Wire Line
-	750  15750 1050 15750
-Text Label 750  15850 0    50   ~ 0
+	-2200 9650 -1900 9650
+Text Label -2200 9750 0    50   ~ 0
 Raz_n2
 Wire Wire Line
-	750  15850 1050 15850
-Text Label 750  16000 0    50   ~ 0
+	-2200 9750 -1900 9750
+Text Label -2200 9900 0    50   ~ 0
 Val_p2
 Wire Wire Line
-	750  16000 1050 16000
-Text Label 750  16100 0    50   ~ 0
+	-2200 9900 -1900 9900
+Text Label -2200 10000 0    50   ~ 0
 Val_n2
 Wire Wire Line
-	750  16100 1050 16100
+	-2200 10000 -1900 10000
 $Sheet
-S -450 16150 1150 450 
+S -3400 10050 1150 450 
 U 6076454A
 F0 "Citiroc-in-1" 50
 F1 "Citiroc-in-1.sch" 0
-F2 "ADC_SDO_1" I R 700 16200 50 
-F3 "ADC_SDI_1" I R 700 16300 50 
-F4 "ADC_CS_1" I R 700 16400 50 
-F5 "ADC_SCLK_1" I R 700 16500 50 
-F6 "Bias_3" I L -450 16200 50 
-F7 "Bias_4" I L -450 16300 50 
-F8 "out" I L -450 16500 50 
+F2 "ADC_SDO_1" I R -2250 10100 50 
+F3 "ADC_SDI_1" I R -2250 10200 50 
+F4 "ADC_CS_1" I R -2250 10300 50 
+F5 "ADC_SCLK_1" I R -2250 10400 50 
+F6 "Bias_3" I L -3400 10100 50 
+F7 "Bias_4" I L -3400 10200 50 
+F8 "out" I L -3400 10400 50 
 $EndSheet
-Text Notes -750 17450 0    157  ~ 31
+Text Notes -3700 11350 0    157  ~ 31
 CITIROC INPUTS
 Wire Wire Line
-	1050 16250 850  16250
+	-1900 10150 -2100 10150
 Wire Wire Line
-	850  16250 850  16200
+	-2100 10150 -2100 10100
 Wire Wire Line
-	850  16200 700  16200
+	-2100 10100 -2250 10100
 Wire Wire Line
-	700  16300 850  16300
+	-2250 10200 -2100 10200
 Wire Wire Line
-	850  16300 850  16350
+	-2100 10200 -2100 10250
 Wire Wire Line
-	850  16350 1050 16350
+	-2100 10250 -1900 10250
 Wire Wire Line
-	1050 16450 850  16450
+	-1900 10350 -2100 10350
 Wire Wire Line
-	850  16450 850  16400
+	-2100 10350 -2100 10300
 Wire Wire Line
-	850  16400 700  16400
+	-2100 10300 -2250 10300
 Wire Wire Line
-	700  16500 850  16500
+	-2250 10400 -2100 10400
 Wire Wire Line
-	850  16500 850  16550
+	-2100 10400 -2100 10450
 Wire Wire Line
-	850  16550 1050 16550
+	-2100 10450 -1900 10450
 Wire Wire Line
-	1050 16750 700  16750
+	-1900 10650 -2250 10650
 Wire Wire Line
-	700  16850 1050 16850
+	-2250 10750 -1900 10750
 Wire Wire Line
-	1050 16950 700  16950
+	-1900 10850 -2250 10850
 Wire Wire Line
-	700  17050 1050 17050
-Text Notes -650 15100 0    118  ~ 24
+	-2250 10950 -1900 10950
+Text Notes -3600 9000 0    118  ~ 24
 use netnames for banks\nw/ bank & voltage\nie Vcc0_25
-$Sheet
-S 2650 10250 750  750 
-U 608CAA95
-F0 "FPGA_SERDES" 50
-F1 "FPGA_SERDES.sch" 50
-F2 "SFP_Present" I R 3400 10500 50 
-F3 "SFP_LOS" I R 3400 10600 50 
-F4 "SFP_Tx_Fault" I R 3400 10300 50 
-F5 "SFP_SCL" I R 3400 10800 50 
-F6 "SFP_SDA" I R 3400 10900 50 
-$EndSheet
-Wire Wire Line
-	3750 10900 3400 10900
-Wire Wire Line
-	3400 10800 3750 10800
 Text Notes 3100 11400 0    157  ~ 31
 CONNECTIVITY
 $Sheet
@@ -940,4 +898,8 @@ Wire Bus Line
 	800  6750 800  7250
 Wire Bus Line
 	1700 6250 1700 6750
+Text Notes 8600 5900 0    50   ~ 0
+Ask Eric\n\n
+Text Notes 8650 2800 0    50   ~ 0
+UART\n
 $EndSCHEMATC
