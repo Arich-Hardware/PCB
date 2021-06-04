@@ -19,7 +19,7 @@ U 60D04563
 F0 "Trenz_Module" 79
 F1 "Trenz_Module.sch" 79
 F2 "CLK_TRIG" I R 6500 6000 50 
-F3 "T1_[0,31]" O L 4500 1500 50 
+F3 "T1_[0,31]" I L 4500 1500 50 
 F4 "T2_[0,31]" I L 4500 4500 50 
 $EndSheet
 $Sheet
@@ -67,6 +67,10 @@ S 7500 1000 1000 1000
 U 60BC24EA
 F0 "JTAG" 50
 F1 "JTAG.sch" 50
+F2 "TMS" B L 7500 1350 50 
+F3 "TCK" B L 7500 1450 50 
+F4 "TDO" B L 7500 1550 50 
+F5 "TDI" B L 7500 1650 50 
 $EndSheet
 $Sheet
 S 7500 2500 1000 1000
@@ -96,14 +100,14 @@ B1_[0,31]
 Text Label 1550 4500 0    50   ~ 0
 B2_[0,31]
 Wire Wire Line
-	6500 16900 6450 16900
-Connection ~ 6500 16900
+	3550 9500 3500 9500
+Connection ~ 3550 9500
 Wire Wire Line
-	6500 16900 6500 17050
+	3550 9500 3550 9650
 Wire Wire Line
-	6450 16800 6500 16800
+	3500 9400 3550 9400
 Wire Wire Line
-	6500 16800 6500 16900
+	3550 9400 3550 9500
 Text Label 400  9050 2    50   ~ 0
 LVDS_GPIO_p1
 Text Label 400  9150 2    50   ~ 0
@@ -120,21 +124,21 @@ Wire Wire Line
 	-150 9250 400  9250
 Wire Wire Line
 	400  9350 -150 9350
-Text Label 5400 16900 0    50   ~ 0
+Text Label 2450 9500 0    50   ~ 0
 LVDS_GPIO_n2
 Wire Wire Line
-	5950 16800 5400 16800
+	3000 9400 2450 9400
 Wire Wire Line
-	5400 16900 5950 16900
+	2450 9500 3000 9500
 $Comp
 L readout_trenz-rescue:GNDD-power #PWR0101
 U 1 1 60B06DB5
-P 6500 17050
-F 0 "#PWR0101" H 6500 16800 50  0001 C CNN
-F 1 "GNDD-power" H 6504 16895 50  0000 C CNN
-F 2 "" H 6500 17050 50  0001 C CNN
-F 3 "" H 6500 17050 50  0001 C CNN
-	1    6500 17050
+P 3550 9650
+F 0 "#PWR0101" H 3550 9400 50  0001 C CNN
+F 1 "GNDD-power" H 3554 9495 50  0000 C CNN
+F 2 "" H 3550 9650 50  0001 C CNN
+F 3 "" H 3550 9650 50  0001 C CNN
+	1    3550 9650
 	1    0    0    -1  
 $EndComp
 Text Notes 200  12650 0    79   ~ 16
@@ -143,16 +147,16 @@ Text Notes 500  11650 0    79   ~ 16
 48V for bulk power,\ndon’t fight too much,\n12V is fine if no choice
 Text Notes -1850 11800 0    79   ~ 16
 leds on all supplies
-Connection ~ 6500 16800
+Connection ~ 3550 9400
 $Comp
 L readout_trenz-rescue:Conn_02x12_Counter_Clockwise-Connector_Generic J?
 U 1 1 60B1DFBC
-P 6150 16300
-F 0 "J?" H 6200 17017 50  0000 C CNN
-F 1 "Conn_02x12_Counter_Clockwise" H 6200 16926 50  0000 C CNN
-F 2 "" H 6150 16300 50  0001 C CNN
-F 3 "~" H 6150 16300 50  0001 C CNN
-	1    6150 16300
+P 3200 8900
+F 0 "J?" H 3250 9617 50  0000 C CNN
+F 1 "Conn_02x12_Counter_Clockwise" H 3250 9526 50  0000 C CNN
+F 2 "" H 3200 8900 50  0001 C CNN
+F 3 "~" H 3200 8900 50  0001 C CNN
+	1    3200 8900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -443,20 +447,20 @@ Wire Wire Line
 Wire Wire Line
 	7650 11000 7700 11000
 Wire Wire Line
-	5950 16300 5500 16300
+	3000 8900 2550 8900
 Wire Wire Line
-	5500 16200 5950 16200
-Text Label 5500 16300 0    50   ~ 0
+	2550 8800 3000 8800
+Text Label 2550 8900 0    50   ~ 0
 3v3_GPIO2
-Text Label 5500 16200 0    50   ~ 0
+Text Label 2550 8800 0    50   ~ 0
 3v3_GPIO1
 Wire Wire Line
-	5950 16500 5500 16500
+	3000 9100 2550 9100
 Wire Wire Line
-	5500 16400 5950 16400
-Text Label 5500 16500 0    50   ~ 0
+	2550 9000 3000 9000
+Text Label 2550 9100 0    50   ~ 0
 3v3_GPIO4
-Text Label 5500 16400 0    50   ~ 0
+Text Label 2550 9000 0    50   ~ 0
 3v3_GPIO3
 Wire Wire Line
 	5300 10600 5900 10600
@@ -502,81 +506,81 @@ Text Label 5450 11100 0    50   ~ 0
 3v3_GPIO4
 Text Label 5450 11000 0    50   ~ 0
 3v3_GPIO3
-Text Label 5400 16800 0    50   ~ 0
+Text Label 2450 9400 0    50   ~ 0
 LVDS_GPIO_p2
 Wire Wire Line
-	5400 16700 5950 16700
+	2450 9300 3000 9300
 Wire Wire Line
-	5950 16600 5400 16600
-Text Label 5400 16700 0    50   ~ 0
+	3000 9200 2450 9200
+Text Label 2450 9300 0    50   ~ 0
 LVDS_GPIO_n1
-Text Label 5400 16600 0    50   ~ 0
+Text Label 2450 9200 0    50   ~ 0
 LVDS_GPIO_p1
 Wire Wire Line
-	5950 15900 5500 15900
+	3000 8500 2550 8500
 Wire Wire Line
-	5500 15800 5950 15800
-Text Label 5500 15900 0    50   ~ 0
+	2550 8400 3000 8400
+Text Label 2550 8500 0    50   ~ 0
 1v8_GPIO2
-Text Label 5500 15800 0    50   ~ 0
+Text Label 2550 8400 0    50   ~ 0
 1v8_GPIO1
 Wire Wire Line
-	5950 16100 5500 16100
+	3000 8700 2550 8700
 Wire Wire Line
-	5500 16000 5950 16000
-Text Label 5500 16100 0    50   ~ 0
+	2550 8600 3000 8600
+Text Label 2550 8700 0    50   ~ 0
 1v8_GPIO4
-Text Label 5500 16000 0    50   ~ 0
+Text Label 2550 8600 0    50   ~ 0
 1v8_GPIO3
 Wire Wire Line
-	6500 15900 6500 16000
-Connection ~ 6500 15900
+	3550 8500 3550 8600
+Connection ~ 3550 8500
 Wire Wire Line
-	6500 15900 6450 15900
+	3550 8500 3500 8500
 Wire Wire Line
-	6500 16000 6500 16100
-Connection ~ 6500 16000
+	3550 8600 3550 8700
+Connection ~ 3550 8600
 Wire Wire Line
-	6450 16000 6500 16000
+	3500 8600 3550 8600
 Wire Wire Line
-	6500 16100 6500 16200
-Connection ~ 6500 16100
+	3550 8700 3550 8800
+Connection ~ 3550 8700
 Wire Wire Line
-	6500 16100 6450 16100
-Connection ~ 6500 16200
+	3550 8700 3500 8700
+Connection ~ 3550 8800
 Wire Wire Line
-	6500 15800 6500 15900
+	3550 8400 3550 8500
 Wire Wire Line
-	6450 15800 6500 15800
+	3500 8400 3550 8400
 Wire Wire Line
-	6500 16300 6500 16400
-Connection ~ 6500 16300
+	3550 8900 3550 9000
+Connection ~ 3550 8900
 Wire Wire Line
-	6500 16300 6450 16300
+	3550 8900 3500 8900
 Wire Wire Line
-	6500 16400 6500 16500
-Connection ~ 6500 16400
+	3550 9000 3550 9100
+Connection ~ 3550 9000
 Wire Wire Line
-	6450 16400 6500 16400
+	3500 9000 3550 9000
 Wire Wire Line
-	6500 16500 6500 16600
-Connection ~ 6500 16500
+	3550 9100 3550 9200
+Connection ~ 3550 9100
 Wire Wire Line
-	6500 16500 6450 16500
+	3550 9100 3500 9100
 Wire Wire Line
-	6500 16600 6500 16700
-Connection ~ 6500 16600
+	3550 9200 3550 9300
+Connection ~ 3550 9200
 Wire Wire Line
-	6450 16600 6500 16600
+	3500 9200 3550 9200
 Wire Wire Line
-	6500 16700 6500 16800
-Connection ~ 6500 16700
+	3550 9300 3550 9400
+Connection ~ 3550 9300
 Wire Wire Line
-	6500 16700 6450 16700
+	3550 9300 3500 9300
 Wire Wire Line
-	6500 16200 6500 16300
+	3550 8800 3550 8900
 Wire Wire Line
-	6450 16200 6500 16200
+	3500 8800 3550 8800
 $Sheet
 S 5900 10450 1750 3450
 U 60767640
@@ -820,30 +824,14 @@ Wire Wire Line
 	1500 6000 2500 6000
 Wire Wire Line
 	1500 3000 2500 3000
-Text HLabel 7500 1350 0    50   BiDi ~ 0
-TCK
-Text HLabel 7500 1450 0    50   BiDi ~ 0
-TDI
-Text HLabel 7500 1550 0    50   BiDi ~ 0
-TDO
-Text HLabel 7500 1650 0    50   BiDi ~ 0
-TMS
-Text HLabel 6500 1350 2    50   BiDi ~ 0
-TCK
 Text HLabel 6500 1450 2    50   BiDi ~ 0
+TCK
+Text HLabel 6500 1650 2    50   BiDi ~ 0
 TDI
 Text HLabel 6500 1550 2    50   BiDi ~ 0
 TDO
-Text HLabel 6500 1650 2    50   BiDi ~ 0
+Text HLabel 6500 1350 2    50   BiDi ~ 0
 TMS
-Wire Wire Line
-	7500 1350 6500 1350
-Wire Wire Line
-	7500 1450 6500 1450
-Wire Wire Line
-	7500 1550 6500 1550
-Wire Wire Line
-	7500 1650 6500 1650
 $Sheet
 S 1000 7000 5000 1000
 U 62251D77
@@ -894,12 +882,20 @@ Wire Bus Line
 	3500 1500 4500 1500
 Wire Bus Line
 	3500 4500 4500 4500
-Wire Bus Line
-	800  6750 800  7250
-Wire Bus Line
-	1700 6250 1700 6750
 Text Notes 8600 5900 0    50   ~ 0
 Ask Eric\n\n
 Text Notes 8650 2800 0    50   ~ 0
 UART\n
+Wire Wire Line
+	6500 1350 7500 1350
+Wire Wire Line
+	6500 1450 7500 1450
+Wire Wire Line
+	6500 1550 7500 1550
+Wire Wire Line
+	6500 1650 7500 1650
+Wire Bus Line
+	800  6750 800  7250
+Wire Bus Line
+	1700 6250 1700 6750
 $EndSCHEMATC

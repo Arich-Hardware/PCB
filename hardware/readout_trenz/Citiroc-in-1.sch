@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 19 17
+Sheet 15 17
 Title ""
 Date ""
 Rev ""
@@ -2250,10 +2250,10 @@ Entry Wire Line
 	1350 4850 1450 4950
 Entry Wire Line
 	1350 4950 1450 5050
-Wire Bus Line
-	1350 1500 1350 4950
 Text HLabel 1000 1500 0    50   Input ~ 0
 CITIROC_B2[0,31]
 Text Label 1350 1500 0    50   ~ 0
 CITIROC_B2[0,31]
+Wire Bus Line
+	1350 1500 1350 4950
 $EndSCHEMATC
