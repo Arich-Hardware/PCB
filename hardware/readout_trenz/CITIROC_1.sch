@@ -3326,10 +3326,10 @@ F 3 "" H 3300 700 50  0001 C CNN
 	1    3300 700 
 	1    0    0    -1  
 $EndComp
+Text Notes 8550 8300 0    50   ~ 0
+Why are there A&D grounds?\nDo we need them?\n
 Wire Bus Line
 	1750 6250 1750 9400
 Wire Bus Line
 	14350 2300 14350 5400
-Text Notes 8550 8300 0    50   ~ 0
-Why are there A&D grounds?\nDo we need them?\n
 $EndSCHEMATC

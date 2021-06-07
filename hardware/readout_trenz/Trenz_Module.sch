@@ -572,50 +572,29 @@ F 3 "" H 5550 4100 50  0001 C CNN
 	1    5550 4100
 	0    1    1    0   
 $EndComp
-$Comp
-L readout_trenz-rescue:GNDD-power #PWR?
-U 1 1 60D90161
-P 5550 5000
-F 0 "#PWR?" H 5550 4750 50  0001 C CNN
-F 1 "GNDD-power" V 5554 4891 50  0000 R CNN
-F 2 "" H 5550 5000 50  0001 C CNN
-F 3 "" H 5550 5000 50  0001 C CNN
-	1    5550 5000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5550 5700 5450 5700
-Wire Wire Line
-	5450 5700 5450 5800
 Wire Wire Line
 	5550 5900 5450 5900
-Connection ~ 5450 5900
 Wire Wire Line
 	5450 5900 5450 6000
-Wire Wire Line
-	5550 5800 5450 5800
-Connection ~ 5450 5800
-Wire Wire Line
-	5450 5800 5450 5900
-Text HLabel 5450 5100 0    50   BiDi ~ 0
+Text HLabel 6850 5100 2    50   BiDi ~ 0
 TDI
-Text HLabel 5450 5200 0    50   BiDi ~ 0
+Text HLabel 6850 5200 2    50   BiDi ~ 0
 TDO
-Text HLabel 5450 5300 0    50   BiDi ~ 0
+Text HLabel 6850 5300 2    50   BiDi ~ 0
 TCK
-Text HLabel 5450 5400 0    50   BiDi ~ 0
+Text HLabel 6850 5400 2    50   BiDi ~ 0
 TMS
 Wire Wire Line
-	5450 5100 5550 5100
+	6850 5100 6750 5100
 Wire Wire Line
-	5450 5200 5550 5200
+	6850 5200 6750 5200
 Wire Wire Line
-	5450 5300 5550 5300
+	6850 5300 6750 5300
 Wire Wire Line
-	5450 5400 5550 5400
-Text Notes 5400 5500 2    50   ~ 0
+	6850 5400 6750 5400
+Text Notes 6900 5500 0    50   ~ 0
 PROG_B\n
-Text Notes 5400 5600 2    50   ~ 0
+Text Notes 6900 5600 0    50   ~ 0
 DONE\n
 Wire Wire Line
 	6850 6000 6850 5900
@@ -1225,9 +1204,11 @@ T1_23
 Wire Wire Line
 	4700 3900 4600 3900
 $Comp
-L power:+1V8 #PWR?
+L readout_trenz-rescue:+1V8-power #PWR?
 U 1 1 60C0EFC5
 P 4600 3900
+AR Path="/60C0EFC5" Ref="#PWR?"  Part="1" 
+AR Path="/60D04563/60C0EFC5" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4600 3750 50  0001 C CNN
 F 1 "+1V8" H 4615 4073 50  0000 C CNN
 F 2 "" H 4600 3900 50  0001 C CNN
@@ -1238,7 +1219,7 @@ $EndComp
 Wire Wire Line
 	4700 4000 4500 4000
 $Comp
-L power:+2V5 #PWR?
+L readout_trenz-rescue:+2V5-power #PWR?
 U 1 1 60C185FA
 P 4500 4000
 F 0 "#PWR?" H 4500 3850 50  0001 C CNN
@@ -1251,7 +1232,7 @@ $EndComp
 Wire Wire Line
 	4700 4100 4400 4100
 $Comp
-L power:+3.3V #PWR?
+L readout_trenz-rescue:+3.3V-power #PWR?
 U 1 1 60C21C91
 P 4400 4100
 F 0 "#PWR?" H 4400 3950 50  0001 C CNN
@@ -1275,6 +1256,118 @@ Wire Wire Line
 Wire Wire Line
 	5300 3900 5550 3900
 Connection ~ 5300 3900
+Wire Wire Line
+	6750 5800 6850 5800
+Wire Wire Line
+	6850 5800 6850 5900
+Connection ~ 6850 5900
+Wire Wire Line
+	6750 5700 6850 5700
+Wire Wire Line
+	6850 5700 6850 5800
+Connection ~ 6850 5800
+$Comp
+L readout_trenz-rescue:+2V5-power #PWR?
+U 1 1 60C4B55D
+P 2400 2900
+F 0 "#PWR?" H 2400 2750 50  0001 C CNN
+F 1 "+2V5-power" H 2415 3073 50  0000 C CNN
+F 2 "" H 2400 2900 50  0001 C CNN
+F 3 "" H 2400 2900 50  0001 C CNN
+	1    2400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout_trenz-rescue:GNDD-power #PWR?
+U 1 1 60C4D776
+P 1600 3400
+F 0 "#PWR?" H 1600 3150 50  0001 C CNN
+F 1 "GNDD-power" H 1604 3245 50  0000 C CNN
+F 2 "" H 1600 3400 50  0001 C CNN
+F 3 "" H 1600 3400 50  0001 C CNN
+	1    1600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout_trenz-rescue:C_Small-Device C?
+U 1 1 60C51052
+P 2000 3200
+AR Path="/60767640/60C51052" Ref="C?"  Part="1" 
+AR Path="/60D04563/60C51052" Ref="C?"  Part="1" 
+F 0 "C?" H 1908 3246 50  0000 R CNN
+F 1 "10n" H 1908 3155 50  0000 R CNB
+F 2 "" H 2000 3200 50  0001 C CNN
+F 3 "~" H 2000 3200 50  0001 C CNN
+	1    2000 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L readout_trenz-rescue:C_Small-Device C?
+U 1 1 60C6173D
+P 2300 3200
+AR Path="/60767640/60C6173D" Ref="C?"  Part="1" 
+AR Path="/60D04563/60C6173D" Ref="C?"  Part="1" 
+F 0 "C?" H 2208 3246 50  0000 R CNN
+F 1 "4.7u" H 2208 3155 50  0000 R CNB
+F 2 "" H 2300 3200 50  0001 C CNN
+F 3 "~" H 2300 3200 50  0001 C CNN
+	1    2300 3200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L readout_trenz-rescue:GNDD-power #PWR?
+U 1 1 60C700F5
+P 2000 3400
+F 0 "#PWR?" H 2000 3150 50  0001 C CNN
+F 1 "GNDD-power" H 2004 3245 50  0000 C CNN
+F 2 "" H 2000 3400 50  0001 C CNN
+F 3 "" H 2000 3400 50  0001 C CNN
+	1    2000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout_trenz-rescue:GNDD-power #PWR?
+U 1 1 60C80B5B
+P 2300 3400
+F 0 "#PWR?" H 2300 3150 50  0001 C CNN
+F 1 "GNDD-power" H 2304 3245 50  0000 C CNN
+F 2 "" H 2300 3400 50  0001 C CNN
+F 3 "" H 2300 3400 50  0001 C CNN
+	1    2300 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2900 2300 2900
+Wire Wire Line
+	2300 2900 2300 3100
+Connection ~ 2300 2900
+Wire Wire Line
+	2300 2900 2400 2900
+Wire Wire Line
+	2300 3300 2300 3400
+Wire Wire Line
+	1900 3100 2000 3100
+Wire Wire Line
+	2000 3300 2000 3400
+Wire Wire Line
+	1600 3250 1600 3400
+$Comp
+L readout_trenz-rescue:+3.3V-power #PWR?
+U 1 1 60CC7C9F
+P 1200 2900
+F 0 "#PWR?" H 1200 2750 50  0001 C CNN
+F 1 "+3.3V-power" H 1215 3073 50  0000 C CNN
+F 2 "" H 1200 2900 50  0001 C CNN
+F 3 "" H 1200 2900 50  0001 C CNN
+	1    1200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2900 1200 2900
+Wire Wire Line
+	1200 2900 1200 3100
+Wire Wire Line
+	1200 3100 1300 3100
 Wire Bus Line
 	8500 800  8500 1500
 Wire Bus Line
@@ -1283,4 +1376,5 @@ Wire Bus Line
 	6950 2300 6950 4800
 Wire Bus Line
 	10100 800  10100 3300
+Connection ~ 1200 2900
 $EndSCHEMATC
