@@ -21,6 +21,7 @@ AR Path="/608B2FC0/60FCF6FA" Ref="J?"  Part="1"
 AR Path="/60AD0200/60B2D848/60FCF6FA" Ref="J?"  Part="1" 
 AR Path="/607155C8/60FCF6FA" Ref="J?"  Part="1" 
 AR Path="/606EBC4D/60FCF6FA" Ref="J?"  Part="1" 
+AR Path="/60BC2588/60FCF6FA" Ref="J?"  Part="1" 
 F 0 "J?" H 4218 3767 50  0000 C CNN
 F 1 "Serial USB" H 4218 3676 50  0000 C CNN
 F 2 "" H 4300 3450 50  0001 C CNN
@@ -37,6 +38,7 @@ AR Path="/608B2FC0/60FCF700" Ref="#PWR?"  Part="1"
 AR Path="/60AD0200/60B2D848/60FCF700" Ref="#PWR?"  Part="1" 
 AR Path="/607155C8/60FCF700" Ref="#PWR?"  Part="1" 
 AR Path="/606EBC4D/60FCF700" Ref="#PWR?"  Part="1" 
+AR Path="/60BC2588/60FCF700" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 4750 3500 50  0001 C CNN
 F 1 "GNDD" H 4750 3600 50  0000 C CNN
 F 2 "" H 4750 3750 50  0001 C CNN
@@ -62,6 +64,7 @@ AR Path="/608B2FC0/60FCF70B" Ref="J?"  Part="1"
 AR Path="/60AD0200/60B2D848/60FCF70B" Ref="J?"  Part="1" 
 AR Path="/607155C8/60FCF70B" Ref="J?"  Part="1" 
 AR Path="/606EBC4D/60FCF70B" Ref="J?"  Part="1" 
+AR Path="/60BC2588/60FCF70B" Ref="J?"  Part="1" 
 F 0 "J?" H 5918 2875 50  0000 C CNN
 F 1 "Mounting" H 5918 2966 50  0000 C CNN
 F 2 "" H 6000 3500 50  0001 C CNN
@@ -95,6 +98,7 @@ AR Path="/608B2FC0/60FCF723" Ref="J?"  Part="1"
 AR Path="/60AD0200/60B2D848/60FCF723" Ref="J?"  Part="1" 
 AR Path="/607155C8/60FCF723" Ref="J?"  Part="1" 
 AR Path="/606EBC4D/60FCF723" Ref="J?"  Part="1" 
+AR Path="/60BC2588/60FCF723" Ref="J?"  Part="1" 
 F 0 "J?" H 5418 2875 50  0000 C CNN
 F 1 "Mounting" H 5418 2966 50  0000 C CNN
 F 2 "" H 5500 3500 50  0001 C CNN
@@ -104,7 +108,7 @@ F 3 "~" H 5500 3500 50  0001 C CNN
 $EndComp
 Text HLabel 4600 3450 2    50   Input ~ 0
 FPGA_tx
-Text HLabel 4600 3550 2    50   Input ~ 0
+Text HLabel 4600 3550 2    50   Output ~ 0
 FPGA_rx
 Wire Wire Line
 	4600 3450 4500 3450
@@ -118,6 +122,7 @@ AR Path="/6076C700/60FCF72D" Ref="U?"  Part="1"
 AR Path="/62251D77/60FCF72D" Ref="U?"  Part="1" 
 AR Path="/608CAA95/60FCF72D" Ref="U?"  Part="1" 
 AR Path="/606EBC4D/60FCF72D" Ref="U?"  Part="1" 
+AR Path="/60BC2588/60FCF72D" Ref="U?"  Part="1" 
 F 0 "U?" H 4750 3150 79  0001 C CNN
 F 1 "Vcc0_3v3" H 4600 3200 47  0000 L CNB
 F 2 "" H 4750 3150 79  0001 C CNN
