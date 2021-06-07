@@ -27,14 +27,14 @@ $EndComp
 $Comp
 L readout_trenz-rescue:Conn_02x03_Odd_Even-Connector_Generic J?
 U 1 1 60B0C983
-P 1550 3550
+P 2850 3550
 AR Path="/60B0C983" Ref="J?"  Part="1" 
 AR Path="/60D04563/60B0C983" Ref="J?"  Part="1" 
-F 0 "J?" H 1600 3867 50  0000 C CNN
-F 1 "SMD -254-9132-14-6" H 1600 3776 50  0000 C CNN
-F 2 "" H 1550 3550 50  0001 C CNN
-F 3 "~" H 1550 3550 50  0001 C CNN
-	1    1550 3550
+F 0 "J?" H 2900 3867 50  0000 C CNN
+F 1 "SMD -254-9132-14-6" H 2900 3776 50  0000 C CNN
+F 2 "" H 2850 3550 50  0001 C CNN
+F 3 "~" H 2850 3550 50  0001 C CNN
+	1    2850 3550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -111,7 +111,7 @@ MGT_RX2_P
 Text HLabel 3600 5400 2    50   Input ~ 0
 MGT_TX2_N
 Text HLabel 3600 5300 2    50   Input ~ 0
-MGT_TX2_N
+MGT_TX2_P
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 6149D700
@@ -342,7 +342,7 @@ F 3 "" H 4700 5900 50  0001 C CNN
 	1    4700 5900
 	1    0    0    -1  
 $EndComp
-Text Notes 3618 7600 3    118  ~ 24
+Text Notes 4250 7500 0    118  ~ 24
 get part num\nfrom BoM
 $Comp
 L readout:SFP+cage U?
@@ -495,10 +495,6 @@ F 3 "" H 6150 3400 50  0001 C CNN
 	1    6150 3400
 	1    0    0    -1  
 $EndComp
-Text HLabel 4850 2300 0    50   Input ~ 0
-T1_[0,31]
-Wire Bus Line
-	4850 2300 5350 2300
 $Comp
 L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 60D9011B
@@ -601,152 +597,6 @@ Wire Wire Line
 Connection ~ 5450 5800
 Wire Wire Line
 	5450 5800 5450 5900
-Entry Wire Line
-	5350 2300 5450 2400
-Entry Wire Line
-	5350 2400 5450 2500
-Entry Wire Line
-	5350 2500 5450 2600
-Entry Wire Line
-	5350 2600 5450 2700
-Entry Wire Line
-	5350 2700 5450 2800
-Entry Wire Line
-	5350 2800 5450 2900
-Entry Wire Line
-	5350 2900 5450 3000
-Entry Wire Line
-	5350 3000 5450 3100
-Entry Wire Line
-	5350 3200 5450 3300
-Entry Wire Line
-	5350 3300 5450 3400
-Entry Wire Line
-	5350 3400 5450 3500
-Entry Wire Line
-	5350 3500 5450 3600
-Entry Wire Line
-	5350 3600 5450 3700
-Entry Wire Line
-	5350 3700 5450 3800
-Entry Wire Line
-	5350 3800 5450 3900
-Entry Wire Line
-	5350 3900 5450 4000
-Entry Wire Line
-	5350 4100 5450 4200
-Entry Wire Line
-	5350 4200 5450 4300
-Entry Wire Line
-	5350 4300 5450 4400
-Entry Wire Line
-	5350 4400 5450 4500
-Entry Wire Line
-	5350 4500 5450 4600
-Entry Wire Line
-	5350 4600 5450 4700
-Entry Wire Line
-	5350 4700 5450 4800
-Entry Wire Line
-	5350 4800 5450 4900
-Wire Wire Line
-	5450 2400 5550 2400
-Wire Wire Line
-	5450 2500 5550 2500
-Wire Wire Line
-	5450 2600 5550 2600
-Wire Wire Line
-	5450 2700 5550 2700
-Wire Wire Line
-	5450 2800 5550 2800
-Wire Wire Line
-	5450 2900 5550 2900
-Wire Wire Line
-	5450 3000 5550 3000
-Wire Wire Line
-	5450 3100 5550 3100
-Wire Wire Line
-	5450 3300 5550 3300
-Wire Wire Line
-	5450 3400 5550 3400
-Wire Wire Line
-	5450 3500 5550 3500
-Wire Wire Line
-	5450 3600 5550 3600
-Wire Wire Line
-	5450 3700 5550 3700
-Wire Wire Line
-	5450 3800 5550 3800
-Wire Wire Line
-	5450 3900 5550 3900
-Wire Wire Line
-	5450 4000 5550 4000
-Wire Wire Line
-	5450 4200 5550 4200
-Wire Wire Line
-	5450 4300 5550 4300
-Wire Wire Line
-	5450 4400 5550 4400
-Wire Wire Line
-	5450 4500 5550 4500
-Wire Wire Line
-	5450 4600 5550 4600
-Wire Wire Line
-	5450 4700 5550 4700
-Wire Wire Line
-	5450 4800 5550 4800
-Wire Wire Line
-	5450 4900 5550 4900
-Text Label 4900 2300 0    50   ~ 0
-T1_[0.23]
-Text Label 5450 2400 2    50   ~ 0
-T1_0
-Text Label 5450 2500 2    50   ~ 0
-T1_1
-Text Label 5450 2600 2    50   ~ 0
-T1_2
-Text Label 5450 2700 2    50   ~ 0
-T1_3
-Text Label 5450 2800 2    50   ~ 0
-T1_4
-Text Label 5450 2900 2    50   ~ 0
-T1_5
-Text Label 5450 3000 2    50   ~ 0
-T1_6
-Text Label 5450 3100 2    50   ~ 0
-T1_7
-Text Label 5450 3300 2    50   ~ 0
-T1_8
-Text Label 5450 3400 2    50   ~ 0
-T1_9
-Text Label 5450 3500 2    50   ~ 0
-T1_10
-Text Label 5450 3600 2    50   ~ 0
-T1_11
-Text Label 5450 3700 2    50   ~ 0
-T1_12
-Text Label 5450 3800 2    50   ~ 0
-T1_13
-Text Label 5450 3900 2    50   ~ 0
-T1_14
-Text Label 5450 4000 2    50   ~ 0
-T1_15
-Text Label 5450 4200 2    50   ~ 0
-T1_16
-Text Label 5450 4300 2    50   ~ 0
-T1_17
-Text Label 5450 4400 2    50   ~ 0
-T1_18
-Text Label 5450 4500 2    50   ~ 0
-T1_19
-Text Label 5450 4600 2    50   ~ 0
-T1_20
-Text Label 5450 4700 2    50   ~ 0
-T1_21
-Text Label 5450 4800 2    50   ~ 0
-T1_22
-Text Label 5450 4900 2    50   ~ 0
-T1_23
 Text HLabel 5450 5100 0    50   BiDi ~ 0
 TDI
 Text HLabel 5450 5200 0    50   BiDi ~ 0
@@ -815,80 +665,6 @@ F 3 "" H 6750 2000 50  0001 C CNN
 	1    6750 2000
 	0    -1   1    0   
 $EndComp
-$Comp
-L readout_trenz-rescue:GNDD-power #PWR?
-U 1 1 60DD0106
-P 6750 2300
-F 0 "#PWR?" H 6750 2050 50  0001 C CNN
-F 1 "GNDD-power" V 6754 2191 50  0000 R CNN
-F 2 "" H 6750 2300 50  0001 C CNN
-F 3 "" H 6750 2300 50  0001 C CNN
-	1    6750 2300
-	0    -1   1    0   
-$EndComp
-$Comp
-L readout_trenz-rescue:GNDD-power #PWR?
-U 1 1 60DD0110
-P 6750 3200
-F 0 "#PWR?" H 6750 2950 50  0001 C CNN
-F 1 "GNDD-power" V 6754 3091 50  0000 R CNN
-F 2 "" H 6750 3200 50  0001 C CNN
-F 3 "" H 6750 3200 50  0001 C CNN
-	1    6750 3200
-	0    -1   1    0   
-$EndComp
-Wire Bus Line
-	7450 2300 6950 2300
-Entry Wire Line
-	6950 2300 6850 2400
-Entry Wire Line
-	6950 2400 6850 2500
-Entry Wire Line
-	6950 2500 6850 2600
-Entry Wire Line
-	6950 2600 6850 2700
-Entry Wire Line
-	6950 2700 6850 2800
-Entry Wire Line
-	6950 2800 6850 2900
-Entry Wire Line
-	6950 2900 6850 3000
-Entry Wire Line
-	6950 3000 6850 3100
-Wire Wire Line
-	6850 2400 6750 2400
-Wire Wire Line
-	6850 2500 6750 2500
-Wire Wire Line
-	6850 2600 6750 2600
-Wire Wire Line
-	6850 2700 6750 2700
-Wire Wire Line
-	6850 2800 6750 2800
-Wire Wire Line
-	6850 2900 6750 2900
-Wire Wire Line
-	6850 3000 6750 3000
-Wire Wire Line
-	6850 3100 6750 3100
-Text Label 7400 2300 2    50   ~ 0
-T1_[24,31]
-Text Label 6850 2400 0    50   ~ 0
-T1_24
-Text Label 6850 2500 0    50   ~ 0
-T1_25
-Text Label 6850 2600 0    50   ~ 0
-T1_26
-Text Label 6850 2700 0    50   ~ 0
-T1_27
-Text Label 6850 2800 0    50   ~ 0
-T1_28
-Text Label 6850 2900 0    50   ~ 0
-T1_29
-Text Label 6850 3000 0    50   ~ 0
-T1_30
-Text Label 6850 3100 0    50   ~ 0
-T1_31
 Wire Wire Line
 	5450 6000 6150 6000
 Wire Wire Line
@@ -1201,11 +977,263 @@ Wire Wire Line
 Wire Wire Line
 	9300 6000 10000 6000
 Wire Bus Line
-	6950 2300 6950 3000
+	4850 2300 5350 2300
+Entry Wire Line
+	5350 2300 5450 2400
+Entry Wire Line
+	5350 2400 5450 2500
+Entry Wire Line
+	5350 2500 5450 2600
+Entry Wire Line
+	5350 2600 5450 2700
+Entry Wire Line
+	5350 2700 5450 2800
+Entry Wire Line
+	5350 2800 5450 2900
+Entry Wire Line
+	5350 2900 5450 3000
+Entry Wire Line
+	5350 3000 5450 3100
+Wire Wire Line
+	5450 2400 5550 2400
+Wire Wire Line
+	5450 2500 5550 2500
+Wire Wire Line
+	5450 2600 5550 2600
+Wire Wire Line
+	5450 2700 5550 2700
+Wire Wire Line
+	5450 2800 5550 2800
+Wire Wire Line
+	5450 2900 5550 2900
+Wire Wire Line
+	5450 3000 5550 3000
+Wire Wire Line
+	5450 3100 5550 3100
+Text Label 5450 2400 2    50   ~ 0
+T1_24
+Text Label 5450 2500 2    50   ~ 0
+T1_25
+Text Label 5450 2600 2    50   ~ 0
+T1_26
+Text Label 5450 2700 2    50   ~ 0
+T1_27
+Text Label 5450 2800 2    50   ~ 0
+T1_28
+Text Label 5450 2900 2    50   ~ 0
+T1_29
+Text Label 5450 3000 2    50   ~ 0
+T1_30
+Text Label 5450 3100 2    50   ~ 0
+T1_31
+Text Label 4900 2300 0    50   ~ 0
+T1_[24,31]
+Text HLabel 7450 2300 2    50   Input ~ 0
+T1_[0,31]
+Wire Bus Line
+	7450 2300 6950 2300
+$Comp
+L readout_trenz-rescue:GNDD-power #PWR?
+U 1 1 60C3A632
+P 6750 2300
+F 0 "#PWR?" H 6750 2050 50  0001 C CNN
+F 1 "GNDD-power" V 6754 2191 50  0000 R CNN
+F 2 "" H 6750 2300 50  0001 C CNN
+F 3 "" H 6750 2300 50  0001 C CNN
+	1    6750 2300
+	0    -1   1    0   
+$EndComp
+$Comp
+L readout_trenz-rescue:GNDD-power #PWR?
+U 1 1 60C3A63C
+P 6750 3200
+F 0 "#PWR?" H 6750 2950 50  0001 C CNN
+F 1 "GNDD-power" V 6754 3091 50  0000 R CNN
+F 2 "" H 6750 3200 50  0001 C CNN
+F 3 "" H 6750 3200 50  0001 C CNN
+	1    6750 3200
+	0    -1   1    0   
+$EndComp
+$Comp
+L readout_trenz-rescue:GNDD-power #PWR?
+U 1 1 60C3A646
+P 6750 4100
+F 0 "#PWR?" H 6750 3850 50  0001 C CNN
+F 1 "GNDD-power" V 6754 3991 50  0000 R CNN
+F 2 "" H 6750 4100 50  0001 C CNN
+F 3 "" H 6750 4100 50  0001 C CNN
+	1    6750 4100
+	0    -1   1    0   
+$EndComp
+$Comp
+L readout_trenz-rescue:GNDD-power #PWR?
+U 1 1 60C3A650
+P 6750 5000
+F 0 "#PWR?" H 6750 4750 50  0001 C CNN
+F 1 "GNDD-power" V 6754 4891 50  0000 R CNN
+F 2 "" H 6750 5000 50  0001 C CNN
+F 3 "" H 6750 5000 50  0001 C CNN
+	1    6750 5000
+	0    -1   1    0   
+$EndComp
+Entry Wire Line
+	6950 2300 6850 2400
+Entry Wire Line
+	6950 2400 6850 2500
+Entry Wire Line
+	6950 2500 6850 2600
+Entry Wire Line
+	6950 2600 6850 2700
+Entry Wire Line
+	6950 2700 6850 2800
+Entry Wire Line
+	6950 2800 6850 2900
+Entry Wire Line
+	6950 2900 6850 3000
+Entry Wire Line
+	6950 3000 6850 3100
+Entry Wire Line
+	6950 3200 6850 3300
+Entry Wire Line
+	6950 3300 6850 3400
+Entry Wire Line
+	6950 3400 6850 3500
+Entry Wire Line
+	6950 3500 6850 3600
+Entry Wire Line
+	6950 3600 6850 3700
+Entry Wire Line
+	6950 3700 6850 3800
+Entry Wire Line
+	6950 3800 6850 3900
+Entry Wire Line
+	6950 3900 6850 4000
+Entry Wire Line
+	6950 4100 6850 4200
+Entry Wire Line
+	6950 4200 6850 4300
+Entry Wire Line
+	6950 4300 6850 4400
+Entry Wire Line
+	6950 4400 6850 4500
+Entry Wire Line
+	6950 4500 6850 4600
+Entry Wire Line
+	6950 4600 6850 4700
+Entry Wire Line
+	6950 4700 6850 4800
+Entry Wire Line
+	6950 4800 6850 4900
+Wire Wire Line
+	6850 2400 6750 2400
+Wire Wire Line
+	6850 2500 6750 2500
+Wire Wire Line
+	6850 2600 6750 2600
+Wire Wire Line
+	6850 2700 6750 2700
+Wire Wire Line
+	6850 2800 6750 2800
+Wire Wire Line
+	6850 2900 6750 2900
+Wire Wire Line
+	6850 3000 6750 3000
+Wire Wire Line
+	6850 3100 6750 3100
+Wire Wire Line
+	6850 3300 6750 3300
+Wire Wire Line
+	6850 3400 6750 3400
+Wire Wire Line
+	6850 3500 6750 3500
+Wire Wire Line
+	6850 3600 6750 3600
+Wire Wire Line
+	6850 3700 6750 3700
+Wire Wire Line
+	6850 3800 6750 3800
+Wire Wire Line
+	6850 3900 6750 3900
+Wire Wire Line
+	6850 4000 6750 4000
+Wire Wire Line
+	6850 4200 6750 4200
+Wire Wire Line
+	6850 4300 6750 4300
+Wire Wire Line
+	6850 4400 6750 4400
+Wire Wire Line
+	6850 4500 6750 4500
+Wire Wire Line
+	6850 4600 6750 4600
+Wire Wire Line
+	6850 4700 6750 4700
+Wire Wire Line
+	6850 4800 6750 4800
+Wire Wire Line
+	6850 4900 6750 4900
+Text Label 7400 2300 2    50   ~ 0
+T1_[0.23]
+Text Label 6850 2400 0    50   ~ 0
+T1_0
+Text Label 6850 2500 0    50   ~ 0
+T1_1
+Text Label 6850 2600 0    50   ~ 0
+T1_2
+Text Label 6850 2700 0    50   ~ 0
+T1_3
+Text Label 6850 2800 0    50   ~ 0
+T1_4
+Text Label 6850 2900 0    50   ~ 0
+T1_5
+Text Label 6850 3000 0    50   ~ 0
+T1_6
+Text Label 6850 3100 0    50   ~ 0
+T1_7
+Text Label 6850 3300 0    50   ~ 0
+T1_8
+Text Label 6850 3400 0    50   ~ 0
+T1_9
+Text Label 6850 3500 0    50   ~ 0
+T1_10
+Text Label 6850 3600 0    50   ~ 0
+T1_11
+Text Label 6850 3700 0    50   ~ 0
+T1_12
+Text Label 6850 3800 0    50   ~ 0
+T1_13
+Text Label 6850 3900 0    50   ~ 0
+T1_14
+Text Label 6850 4000 0    50   ~ 0
+T1_15
+Text Label 6850 4200 0    50   ~ 0
+T1_16
+Text Label 6850 4300 0    50   ~ 0
+T1_17
+Text Label 6850 4400 0    50   ~ 0
+T1_18
+Text Label 6850 4500 0    50   ~ 0
+T1_19
+Text Label 6850 4600 0    50   ~ 0
+T1_20
+Text Label 6850 4700 0    50   ~ 0
+T1_21
+Text Label 6850 4800 0    50   ~ 0
+T1_22
+Text Label 6850 4900 0    50   ~ 0
+T1_23
+Wire Wire Line
+	3150 3450 3250 3450
+Wire Wire Line
+	3150 3550 3250 3550
+Wire Wire Line
+	3150 3650 3250 3650
 Wire Bus Line
 	8500 800  8500 1500
 Wire Bus Line
-	5350 2300 5350 4800
+	5350 2300 5350 3000
+Wire Bus Line
+	6950 2300 6950 4800
 Wire Bus Line
 	10100 800  10100 3300
 $EndSCHEMATC
