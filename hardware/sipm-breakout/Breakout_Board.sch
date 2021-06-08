@@ -222,50 +222,16 @@ BIAS1
 Text Label 5225 4725 0    50   ~ 0
 BIAS2
 Wire Wire Line
-	2050 7000 2150 7000
-Wire Wire Line
-	2150 7000 2150 7100
-Wire Wire Line
-	2050 7100 2150 7100
-Connection ~ 2150 7100
-Wire Wire Line
-	2150 7100 2150 7200
-Wire Wire Line
-	2050 7200 2150 7200
-Connection ~ 2150 7200
-Wire Wire Line
-	2150 7200 2150 7300
-Wire Wire Line
-	2050 7300 2150 7300
-Connection ~ 2150 7300
-Wire Wire Line
-	2150 7300 2150 7350
-$Comp
-L power:GND #PWR01
-U 1 1 604F63B7
-P 2150 7350
-F 0 "#PWR01" H 2150 7100 50  0001 C CNN
-F 1 "GND" H 2155 7177 50  0000 C CNN
-F 2 "" H 2150 7350 50  0001 C CNN
-F 3 "" H 2150 7350 50  0001 C CNN
-	1    2150 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	1450 7000 1550 7000
 Wire Wire Line
-	1550 7100 1450 7100
-Wire Wire Line
 	1550 7200 1450 7200
-Wire Wire Line
-	1550 7300 1450 7300
 Text Label 1450 7000 2    50   ~ 0
 BIAS1
-Text Label 1450 7100 2    50   ~ 0
-BIAS2
 Text Label 1450 7200 2    50   ~ 0
+BIAS2
+Text Label 2300 7000 2    50   ~ 0
 BIAS3
-Text Label 1450 7300 2    50   ~ 0
+Text Label 2300 7200 2    50   ~ 0
 BIAS4
 Wire Wire Line
 	3900 7000 3800 7000
@@ -723,125 +689,60 @@ BCH31
 Wire Wire Line
 	9300 4525 9300 5200
 Wire Wire Line
-	9300 4525 9500 4525
-Wire Wire Line
-	9200 4425 9500 4425
-Wire Wire Line
 	9200 4425 9200 5100
-Wire Wire Line
-	9100 4325 9500 4325
 Wire Wire Line
 	9100 4325 9100 5000
 Wire Wire Line
-	9000 4225 9500 4225
-Wire Wire Line
 	9000 4225 9000 4900
-Wire Wire Line
-	8900 4125 9500 4125
 Wire Wire Line
 	8900 4125 8900 4800
 Wire Wire Line
-	8800 4025 9500 4025
-Wire Wire Line
 	8800 4025 8800 4700
-Wire Wire Line
-	8700 3925 9500 3925
 Wire Wire Line
 	8700 3925 8700 4600
 Wire Wire Line
-	8600 3825 9500 3825
-Wire Wire Line
 	8600 3825 8600 4500
-Wire Wire Line
-	8500 3725 9500 3725
 Wire Wire Line
 	8500 3725 8500 4175
 Wire Wire Line
-	8400 3625 9500 3625
-Wire Wire Line
 	8400 3625 8400 4075
-Wire Wire Line
-	8300 3525 9500 3525
 Wire Wire Line
 	8300 3525 8300 3975
 Wire Wire Line
-	8200 3425 9500 3425
-Wire Wire Line
 	8200 3425 8200 3875
-Wire Wire Line
-	8100 3325 9500 3325
 Wire Wire Line
 	8100 3325 8100 3775
 Wire Wire Line
-	8000 3225 9500 3225
-Wire Wire Line
 	8000 3225 8000 3675
-Wire Wire Line
-	7900 3125 9500 3125
 Wire Wire Line
 	7900 3125 7900 3575
 Wire Wire Line
-	7800 3025 9500 3025
-Wire Wire Line
 	7800 3025 7800 3475
-Wire Wire Line
-	7700 2925 9500 2925
 Wire Wire Line
 	7700 2925 7700 3150
 Wire Wire Line
-	7600 2825 9500 2825
-Wire Wire Line
 	7600 2825 7600 3050
-Wire Wire Line
-	7500 2725 9500 2725
 Wire Wire Line
 	7500 2725 7500 2950
 Wire Wire Line
-	7400 2625 9500 2625
-Wire Wire Line
 	7400 2625 7400 2850
-Wire Wire Line
-	7300 2525 9500 2525
 Wire Wire Line
 	7300 2525 7300 2750
 Wire Wire Line
-	7200 2425 9500 2425
-Wire Wire Line
 	7200 2425 7200 2650
-Wire Wire Line
-	7100 2325 9500 2325
 Wire Wire Line
 	7100 2325 7100 2550
 Wire Wire Line
-	7000 2225 9500 2225
-Wire Wire Line
 	7000 2225 7000 2450
-Wire Wire Line
-	6900 2125 9500 2125
 Wire Wire Line
 	6900 2125 6900 5625
 Wire Wire Line
-	6800 2025 9500 2025
-Wire Wire Line
 	6800 2025 6800 5625
-Wire Wire Line
-	6700 1925 9500 1925
 Wire Wire Line
 	6700 1925 6700 5625
 Wire Wire Line
-	6600 1825 9500 1825
-Wire Wire Line
 	6600 1825 6600 5625
-Wire Wire Line
-	10000 4725 10000 4825
-Wire Wire Line
-	10000 4825 9500 4825
-Wire Wire Line
-	9500 4825 9500 4725
-Wire Wire Line
-	9500 4725 9450 4725
-Connection ~ 9500 4725
-Text Label 9450 4725 3    50   ~ 0
+Text Label 10200 4725 0    50   ~ 0
 BIAS4
 Wire Wire Line
 	4675 4625 4625 4625
@@ -1061,21 +962,6 @@ F 5 "Digi-Key" H 4875 3025 50  0001 C CNN "Supplier"
 F 6 "CLM-134-02-F-D-ND" H 4875 3025 50  0001 C CNN "Supplier P/N"
 F 7 "$9.02" H 4875 3025 50  0001 C CNN "Item Cost"
 	1    4875 3025
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x34_Odd_Even J2
-U 1 1 609B4CC1
-P 9700 3025
-F 0 "J2" H 9750 4842 50  0000 C CNN
-F 1 "Conn_02x34_Odd_Even" H 9750 4751 50  0000 C CNN
-F 2 "Breakout_Board_Parts:SAMTEC_CLM-134-02-F-D" H 9700 3025 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 9700 3025 50  0001 C CNN
-F 4 "CLM-134-02-F-D" H 9700 3025 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 9700 3025 50  0001 C CNN "Supplier"
-F 6 "CLM-134-02-F-D-ND" H 9700 3025 50  0001 C CNN "Supplier P/N"
-F 7 "$9.02" H 9700 3025 50  0001 C CNN "Item Cost"
-	1    9700 3025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1463,14 +1349,6 @@ Connection ~ 9300 5200
 Wire Wire Line
 	9300 5200 9300 5625
 Wire Wire Line
-	7300 1725 9500 1725
-Wire Wire Line
-	7750 1625 9500 1625
-Wire Wire Line
-	8200 1525 9500 1525
-Wire Wire Line
-	8625 1425 9500 1425
-Wire Wire Line
 	675  1425 675  2450
 Wire Wire Line
 	675  2450 675  3475
@@ -1854,4 +1732,127 @@ F 3 "" H 5000 7025 50  0001 C CNN
 	1    5000 7025
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7300 1725 9500 1725
+Wire Wire Line
+	9300 4525 9500 4525
+Wire Wire Line
+	9200 4425 9500 4425
+Wire Wire Line
+	9100 4325 9500 4325
+Wire Wire Line
+	7750 1625 9500 1625
+Wire Wire Line
+	9000 4225 9500 4225
+Wire Wire Line
+	8900 4125 9500 4125
+Wire Wire Line
+	8800 4025 9500 4025
+Wire Wire Line
+	8700 3925 9500 3925
+Wire Wire Line
+	8600 3825 9500 3825
+Wire Wire Line
+	8500 3725 9500 3725
+Wire Wire Line
+	8400 3625 9500 3625
+Wire Wire Line
+	8300 3525 9500 3525
+Wire Wire Line
+	8200 3425 9500 3425
+Wire Wire Line
+	8100 3325 9500 3325
+Wire Wire Line
+	8200 1525 9500 1525
+Wire Wire Line
+	8000 3225 9500 3225
+Wire Wire Line
+	7900 3125 9500 3125
+Wire Wire Line
+	7800 3025 9500 3025
+Wire Wire Line
+	7700 2925 9500 2925
+Wire Wire Line
+	7600 2825 9500 2825
+Wire Wire Line
+	7500 2725 9500 2725
+Wire Wire Line
+	7400 2625 9500 2625
+Wire Wire Line
+	7300 2525 9500 2525
+Wire Wire Line
+	7200 2425 9500 2425
+Wire Wire Line
+	7100 2325 9500 2325
+Wire Wire Line
+	8625 1425 9500 1425
+Wire Wire Line
+	7000 2225 9500 2225
+Wire Wire Line
+	6900 2125 9500 2125
+Wire Wire Line
+	6800 2025 9500 2025
+Wire Wire Line
+	6700 1925 9500 1925
+Wire Wire Line
+	6600 1825 9500 1825
+$Comp
+L Connector_Generic:Conn_02x34_Odd_Even J2
+U 1 1 609B4CC1
+P 9800 3025
+F 0 "J2" H 9850 4842 50  0000 C CNN
+F 1 "Conn_02x34_Odd_Even" H 9850 4751 50  0000 C CNN
+F 2 "Breakout_Board_Parts:SAMTEC_CLM-134-02-F-D" H 9800 3025 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 9800 3025 50  0001 C CNN
+F 4 "CLM-134-02-F-D" H 9800 3025 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 9800 3025 50  0001 C CNN "Supplier"
+F 6 "CLM-134-02-F-D-ND" H 9800 3025 50  0001 C CNN "Supplier P/N"
+F 7 "$9.02" H 9800 3025 50  0001 C CNN "Item Cost"
+	1    9800 3025
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10000 4725 10200 4725
+Wire Wire Line
+	2050 7000 2375 7000
+Wire Wire Line
+	2050 7200 2375 7200
+Wire Wire Line
+	1175 7100 1175 7300
+Wire Wire Line
+	1175 7100 1550 7100
+Wire Wire Line
+	1175 7300 1550 7300
+$Comp
+L power:GND #PWR?
+U 1 1 60EDDCFD
+P 1175 7300
+F 0 "#PWR?" H 1175 7050 50  0001 C CNN
+F 1 "GND" H 1180 7127 50  0000 C CNN
+F 2 "" H 1175 7300 50  0001 C CNN
+F 3 "" H 1175 7300 50  0001 C CNN
+	1    1175 7300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1175 7300
+Wire Wire Line
+	2050 7100 2475 7100
+Wire Wire Line
+	2475 7100 2475 7300
+Wire Wire Line
+	2475 7300 2050 7300
+$Comp
+L power:GND #PWR?
+U 1 1 60F67D41
+P 2475 7300
+F 0 "#PWR?" H 2475 7050 50  0001 C CNN
+F 1 "GND" H 2480 7127 50  0000 C CNN
+F 2 "" H 2475 7300 50  0001 C CNN
+F 3 "" H 2475 7300 50  0001 C CNN
+	1    2475 7300
+	1    0    0    -1  
+$EndComp
+Connection ~ 2475 7300
+Text Notes 6325 6675 0    75   ~ 0
+Rev B:  \nFlip J2 L/R\nModify J5 pinout to make Ed happy
 $EndSCHEMATC
