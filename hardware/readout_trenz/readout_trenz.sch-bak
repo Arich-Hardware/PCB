@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 17
+Sheet 1 6
 Title "readout_slice"
 Date "2021-02-24"
 Rev "RevA"
@@ -18,11 +18,8 @@ S 4500 1000 2000 5500
 U 60D04563
 F0 "Trenz_Module" 79
 F1 "Trenz_Module.sch" 79
-F2 "CLK_TRIG" I R 6500 6000 50 
-F3 "T1_[0,31]" I L 4500 1500 50 
-F4 "T2_[0,31]" I L 4500 4500 50 
-F5 "FPGA_tx" O R 6500 2950 50 
-F6 "FPGA_rx" I R 6500 3050 50 
+F2 "T1_[0,31]" I L 4500 1500 50 
+F3 "T2_[0,31]" I L 4500 4500 50 
 $EndSheet
 $Sheet
 S 500  1000 1000 5500
@@ -64,37 +61,6 @@ F6 "ADC_SCLK_1" I R 3500 5650 50
 F7 "OUT" I L 2500 6000 50 
 F8 "T2_[0,31]" O R 3500 4500 50 
 $EndSheet
-$Sheet
-S 7500 1000 1000 1000
-U 60BC24EA
-F0 "JTAG" 50
-F1 "JTAG.sch" 50
-F2 "TMS" B L 7500 1350 50 
-F3 "TCK" B L 7500 1450 50 
-F4 "TDO" B L 7500 1550 50 
-F5 "TDI" B L 7500 1650 50 
-$EndSheet
-$Sheet
-S 7500 2500 1000 1000
-U 60BC2588
-F0 "USB" 50
-F1 "USB.sch" 50
-F2 "FPGA_tx" I L 7500 2950 50 
-F3 "FPGA_rx" O L 7500 3050 50 
-$EndSheet
-$Sheet
-S 7500 4000 1000 1000
-U 60BC25D2
-F0 "Ethernet" 50
-F1 "Ethernet.sch" 50
-$EndSheet
-$Sheet
-S 7500 5500 1000 1000
-U 60BC2636
-F0 "CLK_TRIG" 50
-F1 "CLK_TRIG.sch" 50
-F2 "CLK_TRIG" O L 7500 6000 50 
-$EndSheet
 Wire Bus Line
 	1500 1500 2500 1500
 Wire Bus Line
@@ -104,738 +70,138 @@ B1_[0,31]
 Text Label 1550 4500 0    50   ~ 0
 B2_[0,31]
 Wire Wire Line
-	3550 9500 3500 9500
-Connection ~ 3550 9500
+	-4650 5250 -4700 5250
+Connection ~ -4650 5250
 Wire Wire Line
-	3550 9500 3550 9650
+	-4650 5250 -4650 5400
 Wire Wire Line
-	3500 9400 3550 9400
+	-4700 5150 -4650 5150
 Wire Wire Line
-	3550 9400 3550 9500
-Text Label 400  9050 2    50   ~ 0
-LVDS_GPIO_p1
-Text Label 400  9150 2    50   ~ 0
-LVDS_GPIO_n1
-Wire Wire Line
-	-150 9050 400  9050
-Wire Wire Line
-	400  9150 -150 9150
-Text Label 400  9250 2    50   ~ 0
-LVDS_GPIO_p2
-Text Label 400  9350 2    50   ~ 0
+	-4650 5150 -4650 5250
+Text Label -5750 5250 0    50   ~ 0
 LVDS_GPIO_n2
 Wire Wire Line
-	-150 9250 400  9250
+	-5200 5150 -5750 5150
 Wire Wire Line
-	400  9350 -150 9350
-Text Label 2450 9500 0    50   ~ 0
-LVDS_GPIO_n2
-Wire Wire Line
-	3000 9400 2450 9400
-Wire Wire Line
-	2450 9500 3000 9500
+	-5750 5250 -5200 5250
 $Comp
 L readout_trenz-rescue:GNDD-power #PWR0101
 U 1 1 60B06DB5
-P 3550 9650
-F 0 "#PWR0101" H 3550 9400 50  0001 C CNN
-F 1 "GNDD-power" H 3554 9495 50  0000 C CNN
-F 2 "" H 3550 9650 50  0001 C CNN
-F 3 "" H 3550 9650 50  0001 C CNN
-	1    3550 9650
+P -4650 5400
+F 0 "#PWR0101" H -4650 5150 50  0001 C CNN
+F 1 "GNDD-power" H -4646 5245 50  0000 C CNN
+F 2 "" H -4650 5400 50  0001 C CNN
+F 3 "" H -4650 5400 50  0001 C CNN
+	1    -4650 5400
 	1    0    0    -1  
 $EndComp
-Text Notes 200  12650 0    79   ~ 16
-its okay to bulk 48V \nto 5V for any specific \npower supply — specifically support artix-7 \nw/ ref design
-Text Notes 500  11650 0    79   ~ 16
-48V for bulk power,\ndon’t fight too much,\n12V is fine if no choice
-Text Notes -1850 11800 0    79   ~ 16
-leds on all supplies
-Connection ~ 3550 9400
+Connection ~ -4650 5150
 $Comp
 L readout_trenz-rescue:Conn_02x12_Counter_Clockwise-Connector_Generic J?
 U 1 1 60B1DFBC
-P 3200 8900
-F 0 "J?" H 3250 9617 50  0000 C CNN
-F 1 "Conn_02x12_Counter_Clockwise" H 3250 9526 50  0000 C CNN
-F 2 "" H 3200 8900 50  0001 C CNN
-F 3 "~" H 3200 8900 50  0001 C CNN
-	1    3200 8900
+P -5000 4650
+F 0 "J?" H -4950 5367 50  0000 C CNN
+F 1 "Conn_02x12_Counter_Clockwise" H -4950 5276 50  0000 C CNN
+F 2 "" H -5000 4650 50  0001 C CNN
+F 3 "~" H -5000 4650 50  0001 C CNN
+	1    -5000 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 13400 7650 13400
+	-5200 4650 -5650 4650
 Wire Wire Line
-	8350 12700 8350 13050
-Wire Wire Line
-	8400 12950 8400 12600
-Wire Wire Line
-	8450 12500 8450 12850
-Wire Wire Line
-	8500 12650 8500 12300
-Wire Wire Line
-	8550 12200 8550 12550
-Wire Wire Line
-	8600 12450 8600 12100
-Wire Wire Line
-	8650 12300 8650 11900
-Wire Wire Line
-	8700 11800 8700 12200
-Wire Wire Line
-	8750 11500 8750 12000
-Wire Wire Line
-	8800 11800 8800 11300
-Wire Wire Line
-	8850 11700 8850 11200
-Wire Wire Line
-	8900 11500 8900 10900
-Wire Wire Line
-	8100 10700 9250 10700
-Connection ~ 8100 10700
-Wire Wire Line
-	8050 10600 9250 10600
-Connection ~ 8050 10600
-Wire Wire Line
-	8000 10500 9250 10500
-Connection ~ 8000 10500
-Text Label 8950 10900 0    50   ~ 0
-Raz_p1
-Text Label 8950 11000 0    50   ~ 0
-Raz_n1
-Text Label 8950 11200 0    50   ~ 0
-Val_p1
-Text Label 8950 11300 0    50   ~ 0
-Val_n1
-Wire Wire Line
-	8950 11300 9250 11300
-Wire Wire Line
-	8950 11200 9250 11200
-Wire Wire Line
-	8950 11000 9250 11000
-Wire Wire Line
-	8950 10900 9250 10900
-Wire Wire Line
-	9250 11500 8900 11500
-Wire Wire Line
-	9250 11700 8850 11700
-$Sheet
-S 9250 10450 1150 2650
-U 605DF89A
-F0 "citiroc-FPGA-1" 50
-F1 "citiroc-FPGA-1.sch" 50
-F2 "resetb_pa" I L 9250 10600 50 
-F3 "rstb_PSC" I L 9250 10700 50 
-F4 "pwr_on" I L 9250 10500 50 
-F5 "PS_global_trig" I L 9250 11700 50 
-F6 "PS_modeb_ext" I L 9250 11800 50 
-F7 "load_sc_1" I L 9250 12000 50 
-F8 "select_1" I L 9250 11500 50 
-F9 "hold_lg" I L 9250 12200 50 
-F10 "hold_hg" I L 9250 12300 50 
-F11 "srin_read_1" I L 9250 12450 50 
-F12 "clk_read_1" I L 9250 12550 50 
-F13 "resetb_read_1" I L 9250 12650 50 
-F14 "srin_sc_1" I L 9250 12850 50 
-F15 "clk_sr_1" I L 9250 12950 50 
-F16 "rstb_sr_1" I L 9250 13050 50 
-F17 "srout_read_1" I R 10400 12450 50 
-F18 "srout_sc_1" I R 10400 12800 50 
-F19 "NOR32T_oc_1" I R 10400 10700 50 
-F20 "NOR32_oc_1" I R 10400 10800 50 
-F21 "OR32_1" I R 10400 10900 50 
-F22 "1v8_GPIO1" I R 10400 11100 50 
-F23 "1v8_GPIO2" I R 10400 11200 50 
-F24 "Raz_Chn_p1" I L 9250 10900 50 
-F25 "Raz_chn_n1" I L 9250 11000 50 
-F26 "Val_Ext_p1" I L 9250 11200 50 
-F27 "Val_Ext_n1" I L 9250 11300 50 
-$EndSheet
-Wire Wire Line
-	9250 11800 8800 11800
-Wire Wire Line
-	8750 12000 9250 12000
-Wire Wire Line
-	8700 12200 9250 12200
-Wire Wire Line
-	9250 12300 8650 12300
-Wire Wire Line
-	9250 12450 8600 12450
-Wire Wire Line
-	8550 12550 9250 12550
-Wire Wire Line
-	9250 12650 8500 12650
-Wire Wire Line
-	8450 12850 9250 12850
-Wire Wire Line
-	9250 12950 8400 12950
-Wire Wire Line
-	8350 13050 9250 13050
-Wire Wire Line
-	7650 12100 8600 12100
-Wire Wire Line
-	8550 12200 7650 12200
-Wire Wire Line
-	7650 12300 8500 12300
-Wire Wire Line
-	8450 12500 7650 12500
-Wire Wire Line
-	7650 12600 8400 12600
-Wire Wire Line
-	8350 12700 7650 12700
-$Sheet
-S 9250 13300 1150 2650
-U 60548503
-F0 "Citiroc-FPGA-2" 50
-F1 "Citiroc-FPGA-2.sch" 50
-F2 "resetb_pa" I L 9250 13450 50 
-F3 "rstb_PSC" I L 9250 13550 50 
-F4 "pwr_on" I L 9250 13350 50 
-F5 "PS_global_trig" I L 9250 14550 50 
-F6 "PS_modeb_ext" I L 9250 14650 50 
-F7 "load_sc_2" I L 9250 14850 50 
-F8 "select_2" I L 9250 14350 50 
-F9 "hold_lg" I L 9250 15050 50 
-F10 "hold_hg" I L 9250 15150 50 
-F11 "srin_read_2" I L 9250 15300 50 
-F12 "clk_read_2" I L 9250 15400 50 
-F13 "resetb_read_2" I L 9250 15500 50 
-F14 "srin_sc_2" I L 9250 15700 50 
-F15 "clk_sr_2" I L 9250 15800 50 
-F16 "rstb_sr_2" I L 9250 15900 50 
-F17 "srout_read_2" I R 10400 15300 50 
-F18 "srout_sc_2" I R 10400 15700 50 
-F19 "NOR32T_oc_2" I R 10400 13550 50 
-F20 "NOR32_oc_2" I R 10400 13650 50 
-F21 "OR32_2" I R 10400 13750 50 
-F22 "1v8_GPIO3" I R 10400 13950 50 
-F23 "1v8_GPIO4" I R 10400 14050 50 
-F24 "Raz_Chn_p2" I L 9250 13750 50 
-F25 "Raz_chn_n2" I L 9250 13850 50 
-F26 "Val_Ext_p2" I L 9250 14050 50 
-F27 "Val_Ext_n2" I L 9250 14150 50 
-$EndSheet
-Text Label 5350 13300 0    50   ~ 0
-srout_sc_2
-Wire Wire Line
-	5350 13300 5900 13300
-Wire Wire Line
-	5350 12900 5900 12900
-Text Label 5350 12900 0    50   ~ 0
-srout_read_2
-Text Label 5350 12500 0    50   ~ 0
-srout_sc_1
-Wire Wire Line
-	5350 12500 5900 12500
-Wire Wire Line
-	5350 12100 5900 12100
-Text Label 5350 12100 0    50   ~ 0
-srout_read_1
-Wire Wire Line
-	8050 13450 9250 13450
-Wire Wire Line
-	9250 13550 8100 13550
-Wire Wire Line
-	9250 13350 8000 13350
-Wire Wire Line
-	8150 14550 9250 14550
-Wire Wire Line
-	9250 14650 8200 14650
-Wire Wire Line
-	7750 14850 9250 14850
-Wire Wire Line
-	7700 14350 9250 14350
-Wire Wire Line
-	8250 15050 9250 15050
-Wire Wire Line
-	9250 15150 8300 15150
-Wire Wire Line
-	7800 15300 9250 15300
-Wire Wire Line
-	7850 15400 9250 15400
-Wire Wire Line
-	7900 15500 9250 15500
-Wire Wire Line
-	7950 15700 9250 15700
-Wire Wire Line
-	8000 15800 9250 15800
-Wire Wire Line
-	9250 15900 8050 15900
-Text Label 8950 13750 0    50   ~ 0
-Raz_p2
-Wire Wire Line
-	8950 13750 9250 13750
-Text Label 8950 13850 0    50   ~ 0
-Raz_n2
-Wire Wire Line
-	8950 13850 9250 13850
-Text Label 8950 14050 0    50   ~ 0
-Val_p2
-Wire Wire Line
-	8950 14050 9250 14050
-Text Label 8950 14150 0    50   ~ 0
-Val_n2
-Wire Wire Line
-	8950 14150 9250 14150
-Wire Wire Line
-	7650 10500 8000 10500
-Wire Wire Line
-	7650 10600 8050 10600
-Wire Wire Line
-	8900 10900 7650 10900
-Wire Wire Line
-	8150 11200 8850 11200
-Connection ~ 8150 11200
-Wire Wire Line
-	7650 11200 8150 11200
-Wire Wire Line
-	8200 11300 8800 11300
-Connection ~ 8200 11300
-Wire Wire Line
-	7650 11300 8200 11300
-Wire Wire Line
-	8750 11500 7650 11500
-Wire Wire Line
-	8250 11800 8700 11800
-Connection ~ 8250 11800
-Wire Wire Line
-	7650 11800 8250 11800
-Connection ~ 8300 11900
-Wire Wire Line
-	8650 11900 8300 11900
-Wire Wire Line
-	8300 15150 8300 11900
-Wire Wire Line
-	8250 11800 8250 15050
-Wire Wire Line
-	8200 14650 8200 11300
-Wire Wire Line
-	8150 11200 8150 14550
-Wire Wire Line
-	8100 13550 8100 10700
-Wire Wire Line
-	8050 10600 8050 13450
-Wire Wire Line
-	8000 13350 8000 10500
-Wire Wire Line
-	7650 10700 8100 10700
-Wire Wire Line
-	7650 11900 8300 11900
-Wire Wire Line
-	8050 13500 7650 13500
-Wire Wire Line
-	8050 15900 8050 13500
-Wire Wire Line
-	8000 13400 8000 15800
-Wire Wire Line
-	7950 13300 7950 15700
-Wire Wire Line
-	7650 13300 7950 13300
-Wire Wire Line
-	7900 13100 7900 15500
-Wire Wire Line
-	7650 13100 7900 13100
-Wire Wire Line
-	7850 13000 7850 15400
-Wire Wire Line
-	7650 13000 7850 13000
-Wire Wire Line
-	7800 12900 7800 15300
-Wire Wire Line
-	7650 12900 7800 12900
-Wire Wire Line
-	7750 11600 7750 14850
-Wire Wire Line
-	7650 11600 7750 11600
-Wire Wire Line
-	7700 11000 7700 14350
-Wire Wire Line
-	7650 11000 7700 11000
-Wire Wire Line
-	3000 8900 2550 8900
-Wire Wire Line
-	2550 8800 3000 8800
-Text Label 2550 8900 0    50   ~ 0
+	-5650 4550 -5200 4550
+Text Label -5650 4650 0    50   ~ 0
 3v3_GPIO2
-Text Label 2550 8800 0    50   ~ 0
+Text Label -5650 4550 0    50   ~ 0
 3v3_GPIO1
 Wire Wire Line
-	3000 9100 2550 9100
+	-5200 4850 -5650 4850
 Wire Wire Line
-	2550 9000 3000 9000
-Text Label 2550 9100 0    50   ~ 0
+	-5650 4750 -5200 4750
+Text Label -5650 4850 0    50   ~ 0
 3v3_GPIO4
-Text Label 2550 9000 0    50   ~ 0
+Text Label -5650 4750 0    50   ~ 0
 3v3_GPIO3
-Wire Wire Line
-	5300 10600 5900 10600
-Wire Wire Line
-	5900 10500 5300 10500
-Wire Wire Line
-	5450 11700 5900 11700
-Wire Wire Line
-	5450 11800 5900 11800
-Text Label 5450 11700 0    50   ~ 0
-OR32_2
-Text Label 5450 11800 0    50   ~ 0
-NOR32_2
-Wire Wire Line
-	5450 11900 5900 11900
-Text Label 5450 11900 0    50   ~ 0
-NOR32T_2
-Wire Wire Line
-	5450 11300 5900 11300
-Wire Wire Line
-	5450 11400 5900 11400
-Text Label 5450 11300 0    50   ~ 0
-OR32_1
-Text Label 5450 11400 0    50   ~ 0
-NOR32_1
-Wire Wire Line
-	5450 11500 5900 11500
-Text Label 5450 11500 0    50   ~ 0
-NOR32T_1
-Wire Wire Line
-	5900 10900 5450 10900
-Wire Wire Line
-	5450 10800 5900 10800
-Text Label 5450 10900 0    50   ~ 0
-3v3_GPIO2
-Text Label 5450 10800 0    50   ~ 0
-3v3_GPIO1
-Wire Wire Line
-	5900 11100 5450 11100
-Wire Wire Line
-	5450 11000 5900 11000
-Text Label 5450 11100 0    50   ~ 0
-3v3_GPIO4
-Text Label 5450 11000 0    50   ~ 0
-3v3_GPIO3
-Text Label 2450 9400 0    50   ~ 0
+Text Label -5750 5150 0    50   ~ 0
 LVDS_GPIO_p2
 Wire Wire Line
-	2450 9300 3000 9300
+	-5750 5050 -5200 5050
 Wire Wire Line
-	3000 9200 2450 9200
-Text Label 2450 9300 0    50   ~ 0
+	-5200 4950 -5750 4950
+Text Label -5750 5050 0    50   ~ 0
 LVDS_GPIO_n1
-Text Label 2450 9200 0    50   ~ 0
+Text Label -5750 4950 0    50   ~ 0
 LVDS_GPIO_p1
 Wire Wire Line
-	3000 8500 2550 8500
+	-5200 4250 -5650 4250
 Wire Wire Line
-	2550 8400 3000 8400
-Text Label 2550 8500 0    50   ~ 0
+	-5650 4150 -5200 4150
+Text Label -5650 4250 0    50   ~ 0
 1v8_GPIO2
-Text Label 2550 8400 0    50   ~ 0
+Text Label -5650 4150 0    50   ~ 0
 1v8_GPIO1
 Wire Wire Line
-	3000 8700 2550 8700
+	-5200 4450 -5650 4450
 Wire Wire Line
-	2550 8600 3000 8600
-Text Label 2550 8700 0    50   ~ 0
+	-5650 4350 -5200 4350
+Text Label -5650 4450 0    50   ~ 0
 1v8_GPIO4
-Text Label 2550 8600 0    50   ~ 0
+Text Label -5650 4350 0    50   ~ 0
 1v8_GPIO3
 Wire Wire Line
-	3550 8500 3550 8600
-Connection ~ 3550 8500
+	-4650 4250 -4650 4350
+Connection ~ -4650 4250
 Wire Wire Line
-	3550 8500 3500 8500
+	-4650 4250 -4700 4250
 Wire Wire Line
-	3550 8600 3550 8700
-Connection ~ 3550 8600
+	-4650 4350 -4650 4450
+Connection ~ -4650 4350
 Wire Wire Line
-	3500 8600 3550 8600
+	-4700 4350 -4650 4350
 Wire Wire Line
-	3550 8700 3550 8800
-Connection ~ 3550 8700
+	-4650 4450 -4650 4550
+Connection ~ -4650 4450
 Wire Wire Line
-	3550 8700 3500 8700
-Connection ~ 3550 8800
+	-4650 4450 -4700 4450
+Connection ~ -4650 4550
 Wire Wire Line
-	3550 8400 3550 8500
+	-4650 4150 -4650 4250
 Wire Wire Line
-	3500 8400 3550 8400
+	-4700 4150 -4650 4150
 Wire Wire Line
-	3550 8900 3550 9000
-Connection ~ 3550 8900
+	-4650 4650 -4650 4750
+Connection ~ -4650 4650
 Wire Wire Line
-	3550 8900 3500 8900
+	-4650 4650 -4700 4650
 Wire Wire Line
-	3550 9000 3550 9100
-Connection ~ 3550 9000
+	-4650 4750 -4650 4850
+Connection ~ -4650 4750
 Wire Wire Line
-	3500 9000 3550 9000
+	-4700 4750 -4650 4750
 Wire Wire Line
-	3550 9100 3550 9200
-Connection ~ 3550 9100
+	-4650 4850 -4650 4950
+Connection ~ -4650 4850
 Wire Wire Line
-	3550 9100 3500 9100
+	-4650 4850 -4700 4850
 Wire Wire Line
-	3550 9200 3550 9300
-Connection ~ 3550 9200
+	-4650 4950 -4650 5050
+Connection ~ -4650 4950
 Wire Wire Line
-	3500 9200 3550 9200
+	-4700 4950 -4650 4950
 Wire Wire Line
-	3550 9300 3550 9400
-Connection ~ 3550 9300
+	-4650 5050 -4650 5150
+Connection ~ -4650 5050
 Wire Wire Line
-	3550 9300 3500 9300
+	-4650 5050 -4700 5050
 Wire Wire Line
-	3550 8800 3550 8900
+	-4650 4550 -4650 4650
 Wire Wire Line
-	3500 8800 3550 8800
-$Sheet
-S 5900 10450 1750 3450
-U 60767640
-F0 "FPGA-3V3-Bank" 50
-F1 "FPGA-3V3-Bank.sch" 50
-F2 "FPGA_tx" I L 5900 10500 50 
-F3 "FPGA_rx" I L 5900 10600 50 
-F4 "resetb_pa" I R 7650 10600 50 
-F5 "rstb_PSC" I R 7650 10700 50 
-F6 "pwr_on" I R 7650 10500 50 
-F7 "PS_global_trig" I R 7650 11200 50 
-F8 "PS_modeb_ext" I R 7650 11300 50 
-F9 "load_sc_1" I R 7650 11500 50 
-F10 "select_1" I R 7650 10900 50 
-F11 "hold_lg" I R 7650 11800 50 
-F12 "hold_hg" I R 7650 11900 50 
-F13 "srin_read_1" I R 7650 12100 50 
-F14 "clk_read_1" I R 7650 12200 50 
-F15 "resetb_read_1" I R 7650 12300 50 
-F16 "srin_sc_1" I R 7650 12500 50 
-F17 "clk_sr_1" I R 7650 12600 50 
-F18 "rstb_sr_1" I R 7650 12700 50 
-F19 "load_sc_2" I R 7650 11600 50 
-F20 "select_2" I R 7650 11000 50 
-F21 "srin_read_2" I R 7650 12900 50 
-F22 "clk_read_2" I R 7650 13000 50 
-F23 "resetb_read_2" I R 7650 13100 50 
-F24 "srin_sc_2" I R 7650 13300 50 
-F25 "clk_sr_2" I R 7650 13400 50 
-F26 "rstb_sr_2" I R 7650 13500 50 
-F27 "srout_read_1" I L 5900 12100 50 
-F28 "srout_sc_1" I L 5900 12500 50 
-F29 "srout_read_2" I L 5900 12900 50 
-F30 "srout_sc_2" I L 5900 13300 50 
-F31 "NOR32T_oc_1" I L 5900 11500 50 
-F32 "NOR32_oc_1" I L 5900 11400 50 
-F33 "OR32_1" I L 5900 11300 50 
-F34 "NOR32T_oc_2" I L 5900 11700 50 
-F35 "NOR32_oc_2" I L 5900 11800 50 
-F36 "OR32_2" I L 5900 11900 50 
-F37 "3v3_GPIO1" I L 5900 10800 50 
-F38 "3v3_GPIO2" I L 5900 10900 50 
-F39 "3v3_GPIO3" I L 5900 11000 50 
-F40 "3v3_GPIO4" I L 5900 11100 50 
-$EndSheet
-Text Notes 7650 10400 0    157  ~ 31
-CITIROC-FPGA
-$Sheet
-S -3400 10600 1150 450 
-U 60764AEF
-F0 "Citiroc-in-2" 50
-F1 "Citiroc-in-2.sch" 0
-F2 "Bias_2" I L -3400 10650 50 
-F3 "ADC_SDO_2" I R -2250 10650 50 
-F4 "ADC_SDI_2" I R -2250 10750 50 
-F5 "ADC_CS_2" I R -2250 10850 50 
-F6 "ADC_SCLK_2" I R -2250 10950 50 
-F7 "Bias_1" I L -3400 10750 50 
-F8 "SiPM_Vdd" I L -3400 10950 50 
-$EndSheet
-$Sheet
-S -1900 8950 1750 2100
-U 60768143
-F0 "FPGA-LVDS" 50
-F1 "FPGA-LVDS.sch" 0
-F2 "Raz_Chn_p1" I L -1900 9050 50 
-F3 "Raz_chn_n1" I L -1900 9150 50 
-F4 "Val_Ext_p1" I L -1900 9350 50 
-F5 "Val_Ext_n1" I L -1900 9450 50 
-F6 "Raz_Chn_p2" I L -1900 9650 50 
-F7 "Raz_chn_n2" I L -1900 9750 50 
-F8 "Val_Ext_p2" I L -1900 9900 50 
-F9 "Val_Ext_n2" I L -1900 10000 50 
-F10 "LVDS_GPIO_p1" I R -150 9050 50 
-F11 "LVDS_GPIO_n1" I R -150 9150 50 
-F12 "LVDS_GPIO_n2" I R -150 9250 50 
-F13 "LVDS_GPIO_p2" I R -150 9350 50 
-F14 "ADC_SDO_1" I L -1900 10150 50 
-F15 "ADC_SDI_1" I L -1900 10250 50 
-F16 "ADC_CS_1" I L -1900 10350 50 
-F17 "ADC_SCLK_1" I L -1900 10450 50 
-F18 "ADC_SDO_2" I L -1900 10650 50 
-F19 "ADC_SDI_2" I L -1900 10750 50 
-F20 "ADC_CS_2" I L -1900 10850 50 
-F21 "ADC_SCLK_2" I L -1900 10950 50 
-$EndSheet
-Text Label -2200 9050 0    50   ~ 0
-Raz_p1
-Text Label -2200 9150 0    50   ~ 0
-Raz_n1
-Text Label -2200 9350 0    50   ~ 0
-Val_p1
-Text Label -2200 9450 0    50   ~ 0
-Val_n1
-Wire Wire Line
-	-2200 9450 -1900 9450
-Wire Wire Line
-	-2200 9350 -1900 9350
-Wire Wire Line
-	-2200 9150 -1900 9150
-Wire Wire Line
-	-2200 9050 -1900 9050
-Text Label -2200 9650 0    50   ~ 0
-Raz_p2
-Wire Wire Line
-	-2200 9650 -1900 9650
-Text Label -2200 9750 0    50   ~ 0
-Raz_n2
-Wire Wire Line
-	-2200 9750 -1900 9750
-Text Label -2200 9900 0    50   ~ 0
-Val_p2
-Wire Wire Line
-	-2200 9900 -1900 9900
-Text Label -2200 10000 0    50   ~ 0
-Val_n2
-Wire Wire Line
-	-2200 10000 -1900 10000
-$Sheet
-S -3400 10050 1150 450 
-U 6076454A
-F0 "Citiroc-in-1" 50
-F1 "Citiroc-in-1.sch" 0
-F2 "ADC_SDO_1" I R -2250 10100 50 
-F3 "ADC_SDI_1" I R -2250 10200 50 
-F4 "ADC_CS_1" I R -2250 10300 50 
-F5 "ADC_SCLK_1" I R -2250 10400 50 
-F6 "Bias_3" I L -3400 10100 50 
-F7 "Bias_4" I L -3400 10200 50 
-F8 "out" I L -3400 10400 50 
-$EndSheet
-Text Notes -3700 11350 0    157  ~ 31
-CITIROC INPUTS
-Wire Wire Line
-	-1900 10150 -2100 10150
-Wire Wire Line
-	-2100 10150 -2100 10100
-Wire Wire Line
-	-2100 10100 -2250 10100
-Wire Wire Line
-	-2250 10200 -2100 10200
-Wire Wire Line
-	-2100 10200 -2100 10250
-Wire Wire Line
-	-2100 10250 -1900 10250
-Wire Wire Line
-	-1900 10350 -2100 10350
-Wire Wire Line
-	-2100 10350 -2100 10300
-Wire Wire Line
-	-2100 10300 -2250 10300
-Wire Wire Line
-	-2250 10400 -2100 10400
-Wire Wire Line
-	-2100 10400 -2100 10450
-Wire Wire Line
-	-2100 10450 -1900 10450
-Wire Wire Line
-	-1900 10650 -2250 10650
-Wire Wire Line
-	-2250 10750 -1900 10750
-Wire Wire Line
-	-1900 10850 -2250 10850
-Wire Wire Line
-	-2250 10950 -1900 10950
-Text Notes -3600 9000 0    118  ~ 24
-use netnames for banks\nw/ bank & voltage\nie Vcc0_25
-Text Notes 3100 11400 0    157  ~ 31
-CONNECTIVITY
-$Sheet
-S 4150 10250 1150 750 
-U 606EBC4D
-F0 "FPGA-Connectivity" 79
-F1 "FPGA-Connectivity.sch" 0
-F2 "PROGRAM_B" I R 5300 10300 50 
-F3 "FPGA_tx" I R 5300 10500 50 
-F4 "FPGA_rx" I R 5300 10600 50 
-F5 "SFP_Present" I L 4150 10500 50 
-F6 "SFP_LOS" I L 4150 10600 50 
-F7 "SFP_Tx_Fault" I L 4150 10300 50 
-F8 "SFP_SCL" I L 4150 10800 50 
-F9 "SFP_SDA" I L 4150 10900 50 
-$EndSheet
-Text Label 10850 13950 2    50   ~ 0
-1v8_GPIO3
-Text Label 10850 13550 2    50   ~ 0
-NOR32T_2
-Text Label 10850 13650 2    50   ~ 0
-NOR32_2
-Text Label 10850 13750 2    50   ~ 0
-OR32_2
-Wire Wire Line
-	10850 13950 10400 13950
-Wire Wire Line
-	10850 13750 10400 13750
-Wire Wire Line
-	10850 13650 10400 13650
-Wire Wire Line
-	10850 13550 10400 13550
-Text Label 10950 15300 2    50   ~ 0
-srout_read_2
-Wire Wire Line
-	10950 15300 10400 15300
-Text Label 10950 15700 2    50   ~ 0
-srout_sc_2
-Wire Wire Line
-	10950 15700 10400 15700
-Text Label 10950 12800 2    50   ~ 0
-srout_sc_1
-Wire Wire Line
-	10950 12800 10400 12800
-Wire Wire Line
-	10950 12450 10400 12450
-Text Label 10950 12450 2    50   ~ 0
-srout_read_1
-Wire Wire Line
-	10850 10900 10400 10900
-Wire Wire Line
-	10850 10800 10400 10800
-Text Label 10850 10900 2    50   ~ 0
-OR32_1
-Text Label 10850 10800 2    50   ~ 0
-NOR32_1
-Wire Wire Line
-	10850 10700 10400 10700
-Text Label 10850 10700 2    50   ~ 0
-NOR32T_1
-Wire Wire Line
-	10850 11100 10400 11100
-Wire Wire Line
-	10400 11200 10850 11200
-Text Label 10850 11200 2    50   ~ 0
-1v8_GPIO2
-Text Label 10850 11100 2    50   ~ 0
-1v8_GPIO1
-Wire Wire Line
-	10400 14050 10850 14050
-Text Label 10850 14050 2    50   ~ 0
-1v8_GPIO4
+	-4700 4550 -4650 4550
 Wire Wire Line
 	1500 6000 2500 6000
 Wire Wire Line
 	1500 3000 2500 3000
-Text HLabel 6500 1450 2    50   BiDi ~ 0
-TCK
-Text HLabel 6500 1650 2    50   BiDi ~ 0
-TDI
-Text HLabel 6500 1550 2    50   BiDi ~ 0
-TDO
-Text HLabel 6500 1350 2    50   BiDi ~ 0
-TMS
 $Sheet
 S 1000 7000 5000 1000
 U 62251D77
@@ -880,28 +246,10 @@ Wire Wire Line
 	900  7250 1000 7250
 Wire Wire Line
 	900  7350 1000 7350
-Wire Wire Line
-	7500 6000 6500 6000
 Wire Bus Line
 	3500 1500 4500 1500
 Wire Bus Line
 	3500 4500 4500 4500
-Text Notes 8600 5900 0    50   ~ 0
-Ask Eric\n\n
-Text Notes 8650 2800 0    50   ~ 0
-UART\n
-Wire Wire Line
-	6500 1350 7500 1350
-Wire Wire Line
-	6500 1450 7500 1450
-Wire Wire Line
-	6500 1550 7500 1550
-Wire Wire Line
-	6500 1650 7500 1650
-Wire Wire Line
-	6500 2950 7500 2950
-Wire Wire Line
-	6500 3050 7500 3050
 Wire Bus Line
 	800  6750 800  7250
 Wire Bus Line

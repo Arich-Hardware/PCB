@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 4 17
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -835,12 +835,10 @@ F 3 "~" H 7900 9000 50  0001 C CNN
 	1    7900 9000
 	1    0    0    -1  
 $EndComp
-Text Notes 10900 7350 0    50   ~ 0
+Text Notes 9950 7650 0    50   ~ 0
 SPI to LVDS bank
 Wire Wire Line
 	9500 6000 9500 6200
-Text HLabel 10350 7100 2    50   Input ~ 0
-ADC_SCLK_1
 Text Notes 9150 7150 0    79   ~ 16
 Check\nPackage
 $Comp
@@ -1112,13 +1110,7 @@ Wire Wire Line
 	10200 7300 10350 7300
 Wire Wire Line
 	10350 7100 10200 7100
-Text HLabel 10350 7300 2    50   Input ~ 0
-ADC_CS_1
-Text HLabel 10350 7000 2    50   Input ~ 0
-ADC_SDI_1
-Text HLabel 10350 6900 2    50   Input ~ 0
-ADC_SDO_1
-Text Notes 10900 7150 0    50   ~ 0
+Text Notes 9950 7450 0    50   ~ 0
 20Mhz max
 Connection ~ 9300 7900
 Wire Wire Line
@@ -3328,6 +3320,32 @@ F 3 "" H 3300 700 50  0001 C CNN
 $EndComp
 Text Notes 8550 8300 0    50   ~ 0
 Why are there A&D grounds?\nDo we need them?\n
+Wire Bus Line
+	10450 7400 10950 7400
+Entry Wire Line
+	10450 7400 10350 7300
+Entry Wire Line
+	10350 7300 10450 7400
+Entry Wire Line
+	10350 7100 10450 7200
+Entry Wire Line
+	10350 7000 10450 7100
+Entry Wire Line
+	10350 6900 10450 7000
+Text Label 10500 7400 0    50   ~ 0
+ADC_IN_1
+Text Label 10350 7300 0    50   ~ 0
+ADC_CS_1
+Text Label 10350 7100 0    50   ~ 0
+ADC_SCLK_1
+Text Label 10350 7000 0    50   ~ 0
+ADC_SDI_1
+Text Label 10350 6900 0    50   ~ 0
+ADC_SDO_1
+Text HLabel 10950 7400 2    50   Input ~ 0
+ADC_IN_1
+Wire Bus Line
+	10450 7000 10450 7400
 Wire Bus Line
 	1750 6250 1750 9400
 Wire Bus Line
