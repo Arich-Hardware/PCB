@@ -108,10 +108,6 @@ Text HLabel 3600 5700 2    50   Output ~ 0
 MGT_RX2_N
 Text HLabel 3600 5600 2    50   Output ~ 0
 MGT_RX2_P
-Text HLabel 3600 5400 2    50   Input ~ 0
-MGT_TX2_N
-Text HLabel 3600 5300 2    50   Input ~ 0
-MGT_TX2_P
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 6149D700
@@ -2021,6 +2017,74 @@ Text Label 11200 3500 2    50   ~ 0
 CITIROC_IN_2
 Text HLabel 11200 3500 2    50   Output ~ 0
 CITIROC_IN_2
+Text HLabel 3600 5400 2    50   Input ~ 0
+MGT_TX2_N
+Text HLabel 3600 5300 2    50   Input ~ 0
+MGT_TX2_P
+Text Label -500 5850 2    50   ~ 0
+SFP0_TX_FAULT
+Wire Wire Line
+	-1000 5850 -500 5850
+Text Label -500 5950 2    50   ~ 0
+SFP0_TX_DIS
+Wire Wire Line
+	-1000 5950 -500 5950
+Text Label -500 6050 2    50   ~ 0
+SFP0_SDA
+Wire Wire Line
+	-1000 6050 -500 6050
+Text Label -500 6150 2    50   ~ 0
+SFP0_SCL
+Wire Wire Line
+	-1000 6150 -500 6150
+Text Label -500 6250 2    50   ~ 0
+SFP0_M-DEF0
+Wire Wire Line
+	-1000 6250 -500 6250
+Text Label -500 6350 2    50   ~ 0
+SFP0_RS0
+Wire Wire Line
+	-1000 6350 -500 6350
+Text Label -500 6450 2    50   ~ 0
+SFP0_LOS
+Wire Wire Line
+	-1000 6450 -500 6450
+Text Label -500 6550 2    50   ~ 0
+SFP0_RS1
+Wire Wire Line
+	-1000 6550 -500 6550
+Wire Wire Line
+	-1000 7000 -500 7000
+Wire Wire Line
+	-1000 7100 -500 7100
+Wire Wire Line
+	-1000 7200 -500 7200
+Wire Wire Line
+	-1000 7300 -500 7300
+Text Label -500 7000 2    50   ~ 0
+TMS
+Text Label -500 7100 2    50   ~ 0
+TCK
+Text Label -500 7200 2    50   ~ 0
+TDO
+Text Label -500 7300 2    50   ~ 0
+TDI
+Wire Wire Line
+	-1000 5650 -500 5650
+Text Label -500 5650 2    50   ~ 0
+MGT_RX2_N
+Wire Wire Line
+	-1000 5550 -500 5550
+Text Label -500 5550 2    50   ~ 0
+MGT_RX2_P
+Wire Wire Line
+	-1000 5350 -500 5350
+Text Label -500 5350 2    50   ~ 0
+MGT_TX2_N
+Wire Wire Line
+	-1000 5250 -500 5250
+Text Label -500 5250 2    50   ~ 0
+MGT_TX2_P
 Wire Bus Line
 	5350 3200 5350 3500
 Wire Bus Line
