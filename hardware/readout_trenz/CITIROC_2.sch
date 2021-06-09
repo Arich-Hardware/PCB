@@ -2392,143 +2392,6 @@ Entry Wire Line
 	14350 5400 14250 5500
 Wire Bus Line
 	14350 2300 14800 2300
-$Comp
-L readout:VccAux U?
-U 1 1 60C9837F
-P 15000 5500
-AR Path="/605DF89A/60C9837F" Ref="U?"  Part="1" 
-AR Path="/60C32D5A/60C9837F" Ref="U?"  Part="1" 
-AR Path="/60BB4A14/60C9837F" Ref="U?"  Part="1" 
-AR Path="/60BB4C00/60C9837F" Ref="U?"  Part="1" 
-F 0 "U?" H 15000 5500 79  0001 C CNN
-F 1 "Vcc0_1v8" H 14850 5550 47  0000 L CNB
-F 2 "" H 15000 5500 79  0001 C CNN
-F 3 "" H 15000 5500 79  0001 C CNN
-	1    15000 5500
-	1    0    0    -1  
-$EndComp
-Text Label 14350 6400 2    50   ~ 0
-dig_out
-Wire Wire Line
-	15000 6200 15200 6200
-Connection ~ 15000 6200
-Wire Wire Line
-	15000 6000 15000 6200
-Wire Wire Line
-	15100 6100 15200 6100
-Connection ~ 15100 6100
-Wire Wire Line
-	15100 6000 15100 6100
-Wire Wire Line
-	15000 5650 15000 5600
-Connection ~ 15000 5650
-Wire Wire Line
-	15100 5650 15100 5700
-Wire Wire Line
-	15000 5650 15100 5650
-Wire Wire Line
-	15000 5700 15000 5650
-$Comp
-L readout_trenz-rescue:R-Device R?
-U 1 1 60C9837E
-P 15100 5850
-AR Path="/605DF89A/60C9837E" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/60C9837E" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60C9837E" Ref="R?"  Part="1" 
-AR Path="/60BB4C00/60C9837E" Ref="R?"  Part="1" 
-F 0 "R?" H 15170 5896 50  0000 L CNN
-F 1 "1k" V 15100 5800 50  0000 L CNN
-F 2 "" V 15030 5850 50  0001 C CNN
-F 3 "~" H 15100 5850 50  0001 C CNN
-	1    15100 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout_trenz-rescue:R-Device R?
-U 1 1 60C9837D
-P 15000 5850
-AR Path="/605DF89A/60C9837D" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/60C9837D" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60C9837D" Ref="R?"  Part="1" 
-AR Path="/60BB4C00/60C9837D" Ref="R?"  Part="1" 
-F 0 "R?" H 15070 5896 50  0000 L CNN
-F 1 "1k" V 15000 5800 50  0000 L CNN
-F 2 "" V 14930 5850 50  0001 C CNN
-F 3 "~" H 15000 5850 50  0001 C CNN
-	1    15000 5850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	14050 6300 14200 6300
-Text HLabel 12050 3200 0    50   Input ~ 0
-Val_Ext_n1
-Text HLabel 12050 3000 0    50   Input ~ 0
-Val_Ext_p1
-Text HLabel 12050 2900 0    50   Input ~ 0
-Raz_chn_n1
-Text HLabel 12050 2700 0    50   Input ~ 0
-Raz_Chn_p1
-Wire Wire Line
-	12150 2900 12700 2900
-Connection ~ 12150 2900
-Wire Wire Line
-	12150 2800 12150 2900
-Wire Wire Line
-	12200 2800 12150 2800
-Wire Wire Line
-	12050 2900 12150 2900
-Connection ~ 12150 3200
-Wire Wire Line
-	12150 3200 12050 3200
-Wire Wire Line
-	12150 3200 12700 3200
-Wire Wire Line
-	12150 3100 12150 3200
-Wire Wire Line
-	12200 3100 12150 3100
-Wire Wire Line
-	12600 3100 12500 3100
-Connection ~ 12600 3100
-Wire Wire Line
-	12600 3000 12050 3000
-Wire Wire Line
-	12600 3100 12600 3000
-Wire Wire Line
-	12600 2800 12500 2800
-Connection ~ 12600 2800
-Wire Wire Line
-	12600 2700 12050 2700
-Wire Wire Line
-	12600 2800 12600 2700
-Wire Wire Line
-	12700 3100 12600 3100
-Wire Wire Line
-	12700 2800 12600 2800
-$Comp
-L readout_trenz-rescue:R-Device R?
-U 1 1 60C9836E
-P 12350 2800
-AR Path="/605DF89A/60C9836E" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/60C9836E" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60C9836E" Ref="R?"  Part="1" 
-AR Path="/60BB4C00/60C9836E" Ref="R?"  Part="1" 
-F 0 "R?" V 12400 2900 50  0000 L CNN
-F 1 "100" V 12350 2700 50  0000 L CNN
-F 2 "" V 12280 2800 50  0001 C CNN
-F 3 "~" H 12350 2800 50  0001 C CNN
-	1    12350 2800
-	0    -1   -1   0   
-$EndComp
-Text HLabel 14200 6300 2    50   Input ~ 0
-OR32_1
-Text HLabel 15200 6200 2    50   Input ~ 0
-NOR32_oc_1
-Text HLabel 15200 6100 2    50   Input ~ 0
-NOR32T_oc_1
-Wire Wire Line
-	14050 6200 15000 6200
-Wire Wire Line
-	14050 6100 15100 6100
 Wire Wire Line
 	13500 1900 13500 2200
 $Comp
@@ -2631,91 +2494,6 @@ Wire Wire Line
 	14250 5500 14050 5500
 Wire Wire Line
 	14050 2400 14250 2400
-Wire Wire Line
-	14350 6400 14050 6400
-Wire Wire Line
-	12600 3400 12700 3400
-Wire Wire Line
-	12700 3900 12550 3900
-Wire Wire Line
-	14200 5900 14050 5900
-Wire Wire Line
-	14200 5700 14050 5700
-Wire Wire Line
-	12700 4200 12550 4200
-Wire Wire Line
-	12550 4100 12700 4100
-Wire Wire Line
-	12700 3700 12550 3700
-Wire Wire Line
-	12550 3600 12700 3600
-Wire Wire Line
-	12700 6100 12550 6100
-Wire Wire Line
-	12550 6000 12700 6000
-Wire Wire Line
-	12700 5900 12550 5900
-Wire Wire Line
-	12550 5700 12700 5700
-Wire Wire Line
-	12700 5600 12550 5600
-Wire Wire Line
-	12700 5500 12550 5500
-Text HLabel 14200 5900 2    50   Input ~ 0
-srout_sc_1
-Text HLabel 14200 5700 2    50   Input ~ 0
-srout_read_1
-Text HLabel 12550 6100 0    50   Input ~ 0
-rstb_sr_1
-Text HLabel 12550 6000 0    50   Input ~ 0
-clk_sr_1
-Text HLabel 12550 5900 0    50   Input ~ 0
-srin_sc_1
-Text HLabel 12550 5700 0    50   Input ~ 0
-resetb_read_1
-Text HLabel 12550 5600 0    50   Input ~ 0
-clk_read_1
-Text HLabel 12550 5500 0    50   Input ~ 0
-srin_read_1
-Text HLabel 12550 4200 0    50   Input ~ 0
-hold_hg
-Text HLabel 12550 4100 0    50   Input ~ 0
-hold_lg
-Wire Wire Line
-	12700 2400 12450 2400
-Wire Wire Line
-	12700 2500 12450 2500
-Wire Wire Line
-	12700 2600 12450 2600
-Text HLabel 12600 3400 0    50   Input ~ 0
-select_1
-$Comp
-L readout_trenz-rescue:R-Device R?
-U 1 1 60C9836D
-P 12350 3100
-AR Path="/605DF89A/60C9836D" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/60C9836D" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60C9836D" Ref="R?"  Part="1" 
-AR Path="/60BB4C00/60C9836D" Ref="R?"  Part="1" 
-F 0 "R?" V 12400 3200 50  0000 L CNN
-F 1 "100" V 12350 3000 50  0000 L CNN
-F 2 "" V 12280 3100 50  0001 C CNN
-F 3 "~" H 12350 3100 50  0001 C CNN
-	1    12350 3100
-	0    -1   -1   0   
-$EndComp
-Text HLabel 12550 3900 0    50   Input ~ 0
-load_sc_1
-Text HLabel 12550 3700 0    50   Input ~ 0
-PS_modeb_ext
-Text HLabel 12550 3600 0    50   Input ~ 0
-PS_global_trig
-Text HLabel 12450 2600 0    50   Input ~ 0
-pwr_on
-Text HLabel 12450 2500 0    50   Input ~ 0
-rstb_PSC
-Text HLabel 12450 2400 0    50   Input ~ 0
-resetb_pa
 Text Notes 12800 2000 0    50   ~ 0
 from bank?
 Text Notes 10700 1050 0    157  ~ 31
@@ -2737,638 +2515,927 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	2    13450 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 9700 2200 0    50   ~ 0
+Text Notes 4650 2900 0    50   ~ 0
 FGPA Bank\nVoltage
-Text Notes 10000 2700 0    79   ~ 16
+Text Notes 4950 3400 0    79   ~ 16
 CAPS
 $Comp
 L readout:VccAux U?
 U 1 1 60C98381
-P 5450 800
+P 900 1850
 AR Path="/605DF89A/60C98381" Ref="U?"  Part="1" 
 AR Path="/60C32D5A/60C98381" Ref="U?"  Part="1" 
 AR Path="/60BB4A14/60C98381" Ref="U?"  Part="1" 
 AR Path="/60BB4C00/60C98381" Ref="U?"  Part="1" 
-F 0 "U?" H 5450 800 79  0001 C CNN
-F 1 "Vcc0_1v8" H 5300 850 47  0000 L CNB
-F 2 "" H 5450 800 79  0001 C CNN
-F 3 "" H 5450 800 79  0001 C CNN
-	1    5450 800 
+F 0 "U?" H 900 1850 79  0001 C CNN
+F 1 "Vcc0_1v8" H 750 1900 47  0000 L CNB
+F 2 "" H 900 1850 79  0001 C CNN
+F 3 "" H 900 1850 79  0001 C CNN
+	1    900  1850
 	1    0    0    -1  
 $EndComp
-Connection ~ 5450 1000
+Connection ~ 900  2050
 Wire Wire Line
-	5450 900  5450 1000
+	900  1950 900  2050
 Wire Wire Line
-	6000 1300 6250 1300
-Connection ~ 6000 1300
+	1450 2350 1700 2350
+Connection ~ 1450 2350
 Wire Wire Line
-	6000 1250 6000 1300
+	1450 2300 1450 2350
 Wire Wire Line
-	6250 1300 6500 1300
-Connection ~ 6250 1300
+	1700 2350 1950 2350
+Connection ~ 1700 2350
 Wire Wire Line
-	6250 1250 6250 1300
+	1700 2300 1700 2350
 Wire Wire Line
-	6500 1300 6750 1300
-Connection ~ 6500 1300
+	1950 2350 2200 2350
+Connection ~ 1950 2350
 Wire Wire Line
-	6500 1250 6500 1300
+	1950 2300 1950 2350
 Wire Wire Line
-	6750 1300 7000 1300
-Connection ~ 6750 1300
+	2200 2350 2450 2350
+Connection ~ 2200 2350
 Wire Wire Line
-	6750 1250 6750 1300
+	2200 2300 2200 2350
 Wire Wire Line
-	6750 1000 6500 1000
-Connection ~ 6750 1000
+	2200 2050 1950 2050
+Connection ~ 2200 2050
 Wire Wire Line
-	6750 1050 6750 1000
+	2200 2100 2200 2050
 Wire Wire Line
-	6500 1000 6250 1000
-Connection ~ 6500 1000
+	1950 2050 1700 2050
+Connection ~ 1950 2050
 Wire Wire Line
-	6500 1050 6500 1000
+	1950 2100 1950 2050
 Wire Wire Line
-	6250 1000 6000 1000
-Connection ~ 6250 1000
+	1700 2050 1450 2050
+Connection ~ 1700 2050
 Wire Wire Line
-	6250 1050 6250 1000
+	1700 2100 1700 2050
 Wire Wire Line
-	6000 1000 5700 1000
-Connection ~ 6000 1000
+	1450 2050 1150 2050
+Connection ~ 1450 2050
 Wire Wire Line
-	6000 1050 6000 1000
+	1450 2100 1450 2050
 Wire Wire Line
-	5700 1000 5450 1000
-Connection ~ 5700 1000
+	1150 2050 900  2050
+Connection ~ 1150 2050
 Wire Wire Line
-	5700 1050 5700 1000
+	1150 2100 1150 2050
 Wire Wire Line
-	5700 1300 6000 1300
-Connection ~ 5700 1300
+	1150 2350 1450 2350
+Connection ~ 1150 2350
 Wire Wire Line
-	5700 1250 5700 1300
-Connection ~ 5450 1300
+	1150 2300 1150 2350
+Connection ~ 900  2350
 Wire Wire Line
-	5450 1350 5450 1300
+	900  2400 900  2350
 Wire Wire Line
-	7000 1000 6750 1000
+	2450 2050 2200 2050
 Wire Wire Line
-	7000 1050 7000 1000
+	2450 2100 2450 2050
 Wire Wire Line
-	7000 1300 7000 1250
+	2450 2350 2450 2300
 Wire Wire Line
-	5450 1300 5700 1300
+	900  2350 1150 2350
 Wire Wire Line
-	5450 1250 5450 1300
+	900  2300 900  2350
 Wire Wire Line
-	5450 1000 5450 1050
+	900  2050 900  2100
 $Comp
 L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 60C0A1DA
-P 5450 1350
+P 900 2400
 AR Path="/605605C8/60C0A1DA" Ref="#PWR?"  Part="1" 
 AR Path="/60548503/60C0A1DA" Ref="#PWR?"  Part="1" 
 AR Path="/605DF89A/60C0A1DA" Ref="#PWR0162"  Part="1" 
 AR Path="/60C32D5A/60C0A1DA" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4A14/60C0A1DA" Ref="#PWR0162"  Part="1" 
 AR Path="/60BB4C00/60C0A1DA" Ref="#PWR0162"  Part="1" 
-F 0 "#PWR0162" H 5450 1100 50  0001 C CNN
-F 1 "GNDD" H 5450 1200 50  0000 C CNB
-F 2 "" H 5450 1350 50  0001 C CNN
-F 3 "" H 5450 1350 50  0001 C CNN
-	1    5450 1350
+F 0 "#PWR0162" H 900 2150 50  0001 C CNN
+F 1 "GNDD" H 900 2250 50  0000 C CNB
+F 2 "" H 900 2400 50  0001 C CNN
+F 3 "" H 900 2400 50  0001 C CNN
+	1    900  2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 60C98379
-P 6250 1150
+P 1700 2200
 AR Path="/605605C8/60C98379" Ref="C?"  Part="1" 
 AR Path="/60548503/60C98379" Ref="C?"  Part="1" 
 AR Path="/605DF89A/60C98379" Ref="C?"  Part="1" 
 AR Path="/60C32D5A/60C98379" Ref="C?"  Part="1" 
 AR Path="/60BB4A14/60C98379" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/60C98379" Ref="C?"  Part="1" 
-F 0 "C?" H 6342 1196 50  0000 L CNN
-F 1 ".47u" H 6300 1100 50  0000 L CNB
-F 2 "" H 6250 1150 50  0001 C CNN
-F 3 "~" H 6250 1150 50  0001 C CNN
-	1    6250 1150
+F 0 "C?" H 1792 2246 50  0000 L CNN
+F 1 ".47u" H 1750 2150 50  0000 L CNB
+F 2 "" H 1700 2200 50  0001 C CNN
+F 3 "~" H 1700 2200 50  0001 C CNN
+	1    1700 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 60C9836C
-P 6500 1150
+P 1950 2200
 AR Path="/605605C8/60C9836C" Ref="C?"  Part="1" 
 AR Path="/60548503/60C9836C" Ref="C?"  Part="1" 
 AR Path="/605DF89A/60C9836C" Ref="C?"  Part="1" 
 AR Path="/60C32D5A/60C9836C" Ref="C?"  Part="1" 
 AR Path="/60BB4A14/60C9836C" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/60C9836C" Ref="C?"  Part="1" 
-F 0 "C?" H 6592 1196 50  0000 L CNN
-F 1 ".47u" H 6550 1100 50  0000 L CNB
-F 2 "" H 6500 1150 50  0001 C CNN
-F 3 "~" H 6500 1150 50  0001 C CNN
-	1    6500 1150
+F 0 "C?" H 2042 2246 50  0000 L CNN
+F 1 ".47u" H 2000 2150 50  0000 L CNB
+F 2 "" H 1950 2200 50  0001 C CNN
+F 3 "~" H 1950 2200 50  0001 C CNN
+	1    1950 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 60C0A1D7
-P 6750 1150
+P 2200 2200
 AR Path="/605605C8/60C0A1D7" Ref="C?"  Part="1" 
 AR Path="/60548503/60C0A1D7" Ref="C?"  Part="1" 
 AR Path="/605DF89A/60C0A1D7" Ref="C?"  Part="1" 
 AR Path="/60C32D5A/60C0A1D7" Ref="C?"  Part="1" 
 AR Path="/60BB4A14/60C0A1D7" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/60C0A1D7" Ref="C?"  Part="1" 
-F 0 "C?" H 6842 1196 50  0000 L CNN
-F 1 ".47u" H 6800 1100 50  0000 L CNB
-F 2 "" H 6750 1150 50  0001 C CNN
-F 3 "~" H 6750 1150 50  0001 C CNN
-	1    6750 1150
+F 0 "C?" H 2292 2246 50  0000 L CNN
+F 1 ".47u" H 2250 2150 50  0000 L CNB
+F 2 "" H 2200 2200 50  0001 C CNN
+F 3 "~" H 2200 2200 50  0001 C CNN
+	1    2200 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 60C98377
-P 7000 1150
+P 2450 2200
 AR Path="/605605C8/60C98377" Ref="C?"  Part="1" 
 AR Path="/60548503/60C98377" Ref="C?"  Part="1" 
 AR Path="/605DF89A/60C98377" Ref="C?"  Part="1" 
 AR Path="/60C32D5A/60C98377" Ref="C?"  Part="1" 
 AR Path="/60BB4A14/60C98377" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/60C98377" Ref="C?"  Part="1" 
-F 0 "C?" H 7100 1200 50  0000 L CNN
-F 1 ".47u" H 7050 1100 50  0000 L CNB
-F 2 "" H 7000 1150 50  0001 C CNN
-F 3 "~" H 7000 1150 50  0001 C CNN
-	1    7000 1150
+F 0 "C?" H 2550 2250 50  0000 L CNN
+F 1 ".47u" H 2500 2150 50  0000 L CNB
+F 2 "" H 2450 2200 50  0001 C CNN
+F 3 "~" H 2450 2200 50  0001 C CNN
+	1    2450 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 60C98376
-P 5450 1150
+P 900 2200
 AR Path="/605605C8/60C98376" Ref="C?"  Part="1" 
 AR Path="/60548503/60C98376" Ref="C?"  Part="1" 
 AR Path="/605DF89A/60C98376" Ref="C?"  Part="1" 
 AR Path="/60C32D5A/60C98376" Ref="C?"  Part="1" 
 AR Path="/60BB4A14/60C98376" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/60C98376" Ref="C?"  Part="1" 
-F 0 "C?" H 5542 1196 50  0000 L CNN
-F 1 "4.7u" H 5500 1100 50  0000 L CNB
-F 2 "" H 5450 1150 50  0001 C CNN
-F 3 "~" H 5450 1150 50  0001 C CNN
-	1    5450 1150
+F 0 "C?" H 992 2246 50  0000 L CNN
+F 1 "4.7u" H 950 2150 50  0000 L CNB
+F 2 "" H 900 2200 50  0001 C CNN
+F 3 "~" H 900 2200 50  0001 C CNN
+	1    900  2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 60C98375
-P 6000 1150
+P 1450 2200
 AR Path="/605605C8/60C98375" Ref="C?"  Part="1" 
 AR Path="/60548503/60C98375" Ref="C?"  Part="1" 
 AR Path="/605DF89A/60C98375" Ref="C?"  Part="1" 
 AR Path="/60C32D5A/60C98375" Ref="C?"  Part="1" 
 AR Path="/60BB4A14/60C98375" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/60C98375" Ref="C?"  Part="1" 
-F 0 "C?" H 6092 1196 50  0000 L CNN
-F 1 "4.7u" H 6050 1100 50  0000 L CNB
-F 2 "" H 6000 1150 50  0001 C CNN
-F 3 "~" H 6000 1150 50  0001 C CNN
-	1    6000 1150
+F 0 "C?" H 1542 2246 50  0000 L CNN
+F 1 "4.7u" H 1500 2150 50  0000 L CNB
+F 2 "" H 1450 2200 50  0001 C CNN
+F 3 "~" H 1450 2200 50  0001 C CNN
+	1    1450 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 60C98374
-P 5700 1150
+P 1150 2200
 AR Path="/605605C8/60C98374" Ref="C?"  Part="1" 
 AR Path="/60548503/60C98374" Ref="C?"  Part="1" 
 AR Path="/605DF89A/60C98374" Ref="C?"  Part="1" 
 AR Path="/60C32D5A/60C98374" Ref="C?"  Part="1" 
 AR Path="/60BB4A14/60C98374" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/60C98374" Ref="C?"  Part="1" 
-F 0 "C?" H 5792 1196 50  0000 L CNN
-F 1 "47u" H 5750 1100 50  0000 L CNB
-F 2 "" H 5700 1150 50  0001 C CNN
-F 3 "~" H 5700 1150 50  0001 C CNN
-	1    5700 1150
+F 0 "C?" H 1242 2246 50  0000 L CNN
+F 1 "47u" H 1200 2150 50  0000 L CNB
+F 2 "" H 1150 2200 50  0001 C CNN
+F 3 "~" H 1150 2200 50  0001 C CNN
+	1    1150 2200
 	-1   0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:GNDA-power #PWR?
 U 1 1 60DD874A
-P 8050 50
+P 3000 750
 AR Path="/607ECAFE/60DD874A" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD874A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8050 -200 50  0001 C CNN
-F 1 "GNDA" H 8055 -123 50  0000 C CNN
-F 2 "" H 8050 50  50  0001 C CNN
-F 3 "" H 8050 50  50  0001 C CNN
-	1    8050 50  
+AR Path="/60BB4C00/60DD874A" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 3000 500 50  0001 C CNN
+F 1 "GNDA" H 3005 577 50  0000 C CNN
+F 2 "" H 3000 750 50  0001 C CNN
+F 3 "" H 3000 750 50  0001 C CNN
+	1    3000 750 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 -100 8050 -100
-Connection ~ 8500 -100
+	3450 600  3000 600 
+Connection ~ 3450 600 
 Wire Wire Line
-	8500 50   8500 -100
+	3450 750  3450 600 
 Wire Wire Line
-	8050 -100 8050 50  
+	3000 600  3000 750 
 Wire Wire Line
-	8700 -100 8500 -100
+	3650 600  3450 600 
 Wire Wire Line
-	8700 50   8700 -100
+	3650 750  3650 600 
 Wire Wire Line
-	8700 400  8700 250 
+	3650 1100 3650 950 
 Wire Wire Line
-	8500 400  8500 250 
+	3450 1100 3450 950 
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 60DD873C
-P 8700 150
+P 3650 850
 AR Path="/607ECAFE/60DD873C" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/60DD873C" Ref="C?"  Part="1" 
-F 0 "C?" H 8500 200 50  0000 L CNN
-F 1 "100n" H 8450 100 50  0000 L CNN
-F 2 "" H 8700 150 50  0001 C CNN
-F 3 "~" H 8700 150 50  0001 C CNN
-	1    8700 150 
+F 0 "C?" H 3450 900 50  0000 L CNN
+F 1 "100n" H 3400 800 50  0000 L CNN
+F 2 "" H 3650 850 50  0001 C CNN
+F 3 "~" H 3650 850 50  0001 C CNN
+	1    3650 850 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:C_Small-Device C?
 U 1 1 60DD8736
-P 8500 150
+P 3450 850
 AR Path="/607ECAFE/60DD8736" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/60DD8736" Ref="C?"  Part="1" 
-F 0 "C?" H 8300 200 50  0000 L CNN
-F 1 "100n" H 8250 100 50  0000 L CNN
-F 2 "" H 8500 150 50  0001 C CNN
-F 3 "~" H 8500 150 50  0001 C CNN
-	1    8500 150 
+F 0 "C?" H 3250 900 50  0000 L CNN
+F 1 "100n" H 3200 800 50  0000 L CNN
+F 2 "" H 3450 850 50  0001 C CNN
+F 3 "~" H 3450 850 50  0001 C CNN
+	1    3450 850 
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8600 400 
-NoConn ~ 8400 400 
+NoConn ~ 3550 1100
+NoConn ~ 3350 1100
 Wire Wire Line
-	9350 50   9350 600 
+	4300 750  4300 1300
 Wire Wire Line
-	9250 2100 9600 2100
+	4200 2800 4550 2800
 Wire Wire Line
-	9600 2100 9600 1900
+	4550 2800 4550 2600
 $Comp
 L readout_trenz-rescue:+1V8-power #PWR?
 U 1 1 60DD872B
-P 9600 1900
+P 4550 2600
 AR Path="/60548503/60DD872B" Ref="#PWR?"  Part="1" 
 AR Path="/605DF89A/60DD872B" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/60DD872B" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD872B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9600 1750 50  0001 C CNN
-F 1 "+1V8" H 9600 2050 50  0000 C CNB
-F 2 "" H 9600 1900 50  0001 C CNN
-F 3 "" H 9600 1900 50  0001 C CNN
-	1    9600 1900
+AR Path="/60BB4C00/60DD872B" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 4550 2450 50  0001 C CNN
+F 1 "+1V8" H 4550 2750 50  0000 C CNB
+F 2 "" H 4550 2600 50  0001 C CNN
+F 3 "" H 4550 2600 50  0001 C CNN
+	1    4550 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 2200 9600 2200
+	4200 2900 4550 2900
 Wire Wire Line
-	9600 2200 9600 2400
+	4550 2900 4550 3100
 $Comp
 L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 60DD8723
-P 9600 2400
+P 4550 3100
 AR Path="/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/603D0C5A/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/608039EA/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/6086954E/60943779/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/60DD8723" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD8723" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9600 2150 50  0001 C CNN
-F 1 "GNDD" H 9600 2250 50  0000 C CNB
-F 2 "" H 9600 2400 50  0001 C CNN
-F 3 "" H 9600 2400 50  0001 C CNN
-	1    9600 2400
+AR Path="/60BB4C00/60DD8723" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 4550 2850 50  0001 C CNN
+F 1 "GNDD" H 4550 2950 50  0000 C CNB
+F 2 "" H 4550 3100 50  0001 C CNN
+F 3 "" H 4550 3100 50  0001 C CNN
+	1    4550 3100
 	1    0    0    -1  
 $EndComp
-Text Notes 9450 4950 0    50   ~ 10
+Text Notes 4400 5650 0    50   ~ 10
 rethink this,\npage30 of doc
 Wire Wire Line
-	9250 4800 9500 4800
+	4200 5500 4450 5500
 Wire Wire Line
-	9350 4600 9350 4400
-Connection ~ 9350 4400
+	4300 5300 4300 5100
+Connection ~ 4300 5100
 Wire Wire Line
-	9350 4400 9350 4100
-Connection ~ 9350 3900
+	4300 5100 4300 4800
+Connection ~ 4300 4600
 Wire Wire Line
-	9350 4100 9250 4100
-Connection ~ 9350 4100
+	4300 4800 4200 4800
+Connection ~ 4300 4800
 Wire Wire Line
-	9350 4100 9350 3900
-Connection ~ 9350 3700
+	4300 4800 4300 4600
+Connection ~ 4300 4400
 Wire Wire Line
-	9350 3900 9250 3900
+	4300 4600 4200 4600
 Wire Wire Line
-	9350 3900 9350 3700
+	4300 4600 4300 4400
 Wire Wire Line
-	9500 4700 9500 4800
-Connection ~ 9350 3200
+	4450 5400 4450 5500
+Connection ~ 4300 3900
 Wire Wire Line
-	9350 3700 9350 3200
+	4300 4400 4300 3900
 Wire Wire Line
-	9350 3200 9250 3200
+	4300 3900 4200 3900
 Wire Wire Line
-	9350 3200 9350 3000
-Connection ~ 9350 3000
+	4300 3900 4300 3700
+Connection ~ 4300 3700
 Wire Wire Line
-	9350 3000 9350 2650
+	4300 3700 4300 3350
 Wire Wire Line
-	9250 3000 9350 3000
-Connection ~ 9350 2650
+	4200 3700 4300 3700
+Connection ~ 4300 3350
 Wire Wire Line
-	9350 2650 9350 1600
+	4300 3350 4300 2300
 Wire Wire Line
-	9250 2650 9350 2650
+	4200 3350 4300 3350
 Wire Wire Line
-	9350 900  9350 1600
-Connection ~ 7850 3000
+	4300 1600 4300 2300
+Connection ~ 2800 3700
 Wire Wire Line
-	7850 1900 7850 3000
-Connection ~ 7850 1600
+	2800 2600 2800 3700
+Connection ~ 2800 2300
 Wire Wire Line
-	7850 1400 7850 1600
-Connection ~ 7850 1100
+	2800 2100 2800 2300
+Connection ~ 2800 1800
 Wire Wire Line
-	7850 900  7850 1100
-Connection ~ 7850 3200
+	2800 1600 2800 1800
+Connection ~ 2800 3900
 Wire Wire Line
-	7850 3000 7850 3200
-Connection ~ 7850 3400
+	2800 3700 2800 3900
+Connection ~ 2800 4100
 Wire Wire Line
-	7850 3200 7850 3400
+	2800 3900 2800 4100
 Wire Wire Line
-	7600 2200 7950 2200
+	2550 2900 2900 2900
 Wire Wire Line
-	7600 2100 7950 2100
+	2550 2800 2900 2800
 Wire Wire Line
-	7600 2300 7950 2300
+	2550 3000 2900 3000
 Wire Wire Line
-	7600 2400 7950 2400
+	2550 3100 2900 3100
 Wire Wire Line
-	7600 2500 7950 2500
+	2550 3200 2900 3200
 Wire Wire Line
-	7600 2400 7600 2300
-Connection ~ 7600 2400
+	2550 3100 2550 3000
+Connection ~ 2550 3100
 Wire Wire Line
-	7600 2300 7600 2200
-Connection ~ 7600 2300
+	2550 3000 2550 2900
+Connection ~ 2550 3000
 Wire Wire Line
-	7600 2200 7600 2100
-Connection ~ 7600 2200
-Connection ~ 7600 2500
+	2550 2900 2550 2800
+Connection ~ 2550 2900
+Connection ~ 2550 3200
 Wire Wire Line
-	7600 2500 7600 2400
+	2550 3200 2550 3100
 Wire Wire Line
-	7600 2800 7950 2800
+	2550 3500 2900 3500
 Wire Wire Line
-	7600 2700 7950 2700
+	2550 3400 2900 3400
 Wire Wire Line
-	7600 2700 7600 2800
-Connection ~ 7600 2700
+	2550 3400 2550 3500
+Connection ~ 2550 3400
 Wire Wire Line
-	7600 2800 7600 4400
-Connection ~ 7600 2800
-Connection ~ 7600 4400
+	2550 3500 2550 5100
+Connection ~ 2550 3500
+Connection ~ 2550 5100
 Wire Wire Line
-	7600 2500 7600 2700
-Connection ~ 7850 4100
+	2550 3200 2550 3400
+Connection ~ 2800 4800
 Wire Wire Line
-	7850 3900 7850 4100
-Connection ~ 7850 3900
+	2800 4600 2800 4800
+Connection ~ 2800 4600
 Wire Wire Line
-	7850 3700 7850 3900
-Connection ~ 7850 3700
+	2800 4400 2800 4600
+Connection ~ 2800 4400
 Wire Wire Line
-	7850 3500 7850 3700
-Connection ~ 7850 4600
+	2800 4200 2800 4400
+Connection ~ 2800 5300
 Wire Wire Line
-	7850 4200 7850 4600
+	2800 4900 2800 5300
 Wire Wire Line
-	7600 4400 7950 4400
+	2550 5100 2900 5100
 Wire Wire Line
-	7600 4900 7600 4400
-Connection ~ 7850 4800
+	2550 5600 2550 5100
+Connection ~ 2800 5500
 Wire Wire Line
-	7850 4600 7850 4800
+	2800 5300 2800 5500
 Wire Wire Line
-	7850 4800 7850 4900
-Text Notes 7700 1950 0    50   ~ 10
+	2800 5500 2800 5600
+Text Notes 2650 2650 0    50   ~ 10
 ???
-Connection ~ 7850 4200
+Connection ~ 2800 4900
 Wire Wire Line
-	7850 4100 7850 4200
+	2800 4800 2800 4900
 Wire Wire Line
-	7950 4200 7850 4200
-Connection ~ 9350 1600
+	2900 4900 2800 4900
+Connection ~ 4300 2300
 Wire Wire Line
-	9250 1600 9350 1600
-Connection ~ 9350 900 
-Connection ~ 7850 1900
+	4200 2300 4300 2300
+Connection ~ 4300 1600
+Connection ~ 2800 2600
 Wire Wire Line
-	7850 3000 7950 3000
+	2800 3700 2900 3700
 Wire Wire Line
-	7850 3200 7950 3200
-Connection ~ 7850 3500
+	2800 3900 2900 3900
+Connection ~ 2800 4200
 Wire Wire Line
-	7850 3700 7950 3700
+	2800 4400 2900 4400
 Wire Wire Line
-	7850 3900 7950 3900
+	2800 4600 2900 4600
 Wire Wire Line
-	7850 4100 7950 4100
+	2800 4800 2900 4800
 Wire Wire Line
-	7850 4600 7950 4600
+	2800 5300 2900 5300
 Wire Wire Line
-	7850 4800 7950 4800
-Connection ~ 7850 1400
-Connection ~ 7850 900 
+	2800 5500 2900 5500
+Connection ~ 2800 2100
+Connection ~ 2800 1600
 $Comp
 L readout:CITIROC1A U?
 U 1 1 60DD86C5
-P 9150 2650
+P 4100 3350
 AR Path="/60DD86C5" Ref="U?"  Part="1" 
 AR Path="/603D0C5A/60DD86C5" Ref="U?"  Part="1" 
 AR Path="/608039EA/60DD86C5" Ref="U?"  Part="1" 
 AR Path="/6086954E/60943779/60DD86C5" Ref="U?"  Part="1" 
 AR Path="/607ECAFE/60DD86C5" Ref="U?"  Part="1" 
 AR Path="/60BB4C00/60DD86C5" Ref="U?"  Part="1" 
-F 0 "U?" V 6850 2300 50  0000 L CNN
-F 1 "CITIROC1A" V 6950 2300 50  0000 L CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 8550 2800 50  0001 C CNN
-F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 8550 2800 50  0001 C CNN
-	1    9150 2650
+F 0 "U?" V 1800 3000 50  0000 L CNN
+F 1 "CITIROC1A" V 1900 3000 50  0000 L CNN
+F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 3500 3500 50  0001 C CNN
+F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 3500 3500 50  0001 C CNN
+	1    4100 3350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7850 900  7950 900 
+	2800 1600 2900 1600
 Wire Wire Line
-	7850 600  7850 700 
+	2800 1300 2800 1400
 Wire Wire Line
-	7850 600  7950 600 
+	2800 1300 2900 1300
 Wire Wire Line
-	7950 700  7850 700 
-Connection ~ 7850 700 
+	2900 1400 2800 1400
+Connection ~ 2800 1400
 Wire Wire Line
-	7850 700  7850 800 
+	2800 1400 2800 1500
 Wire Wire Line
-	7950 800  7850 800 
-Connection ~ 7850 800 
+	2900 1500 2800 1500
+Connection ~ 2800 1500
 Wire Wire Line
-	7850 800  7850 900 
+	2800 1500 2800 1600
 Wire Wire Line
-	7950 1400 7850 1400
+	2900 2100 2800 2100
 Wire Wire Line
-	7850 1400 7850 1300
+	2800 2100 2800 2000
 Wire Wire Line
-	7850 1100 7950 1100
+	2800 1800 2900 1800
 Wire Wire Line
-	7850 1200 7950 1200
-Connection ~ 7850 1200
+	2800 1900 2900 1900
+Connection ~ 2800 1900
 Wire Wire Line
-	7850 1200 7850 1100
+	2800 1900 2800 1800
 Wire Wire Line
-	7950 1300 7850 1300
-Connection ~ 7850 1300
+	2900 2000 2800 2000
+Connection ~ 2800 2000
 Wire Wire Line
-	7850 1300 7850 1200
+	2800 2000 2800 1900
 $Comp
 L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 60DD86AD
-P 7600 4900
+P 2550 5600
 AR Path="/60DD86AD" Ref="#PWR?"  Part="1" 
 AR Path="/603D0C5A/60DD86AD" Ref="#PWR?"  Part="1" 
 AR Path="/608039EA/60DD86AD" Ref="#PWR?"  Part="1" 
 AR Path="/6086954E/60943779/60DD86AD" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/60DD86AD" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD86AD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7600 4650 50  0001 C CNN
-F 1 "GNDD" H 7600 4750 50  0000 C CNB
-F 2 "" H 7600 4900 50  0001 C CNN
-F 3 "" H 7600 4900 50  0001 C CNN
-	1    7600 4900
+AR Path="/60BB4C00/60DD86AD" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 2550 5350 50  0001 C CNN
+F 1 "GNDD" H 2550 5450 50  0000 C CNB
+F 2 "" H 2550 5600 50  0001 C CNN
+F 3 "" H 2550 5600 50  0001 C CNN
+	1    2550 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:GNDA-power #PWR?
 U 1 1 60DD86A7
-P 7850 4900
+P 2800 5600
 AR Path="/60DD86A7" Ref="#PWR?"  Part="1" 
 AR Path="/603D0C5A/60DD86A7" Ref="#PWR?"  Part="1" 
 AR Path="/608039EA/60DD86A7" Ref="#PWR?"  Part="1" 
 AR Path="/6086954E/60943779/60DD86A7" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/60DD86A7" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD86A7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7850 4650 50  0001 C CNN
-F 1 "GNDA" H 7850 4750 50  0000 C CNB
-F 2 "" H 7850 4900 50  0001 C CNN
-F 3 "" H 7850 4900 50  0001 C CNN
-	1    7850 4900
+AR Path="/60BB4C00/60DD86A7" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 2800 5350 50  0001 C CNN
+F 1 "GNDA" H 2800 5450 50  0000 C CNB
+F 2 "" H 2800 5600 50  0001 C CNN
+F 3 "" H 2800 5600 50  0001 C CNN
+	1    2800 5600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 3400 7850 3500
+	2800 4100 2800 4200
 Wire Wire Line
-	7850 3500 7950 3500
+	2800 4200 2900 4200
 Wire Wire Line
-	7850 3400 7950 3400
+	2800 4100 2900 4100
 Wire Wire Line
-	7950 1600 7850 1600
+	2900 2300 2800 2300
 Wire Wire Line
-	7850 1600 7850 1700
+	2800 2300 2800 2400
 Wire Wire Line
-	7850 1900 7950 1900
+	2800 2600 2900 2600
 Wire Wire Line
-	7950 1800 7850 1800
-Connection ~ 7850 1800
+	2900 2500 2800 2500
+Connection ~ 2800 2500
 Wire Wire Line
-	7850 1800 7850 1900
+	2800 2500 2800 2600
 Wire Wire Line
-	7950 1700 7850 1700
-Connection ~ 7850 1700
+	2900 2400 2800 2400
+Connection ~ 2800 2400
 Wire Wire Line
-	7850 1700 7850 1800
-Text Notes 7700 1650 0    50   ~ 10
+	2800 2400 2800 2500
+Text Notes 2650 2350 0    50   ~ 10
 ???
 $Comp
 L readout_trenz-rescue:+3.3V-power #PWR?
 U 1 1 60DD8694
-P 9350 50
+P 4300 750
 AR Path="/60DD8694" Ref="#PWR?"  Part="1" 
 AR Path="/603D0C5A/60DD8694" Ref="#PWR?"  Part="1" 
 AR Path="/608039EA/60DD8694" Ref="#PWR?"  Part="1" 
 AR Path="/6086954E/60943779/60DD8694" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/60DD8694" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD8694" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9350 -100 50  0001 C CNN
-F 1 "+3.3V" H 9350 200 50  0000 C CNB
-F 2 "" H 9350 50  50  0001 C CNN
-F 3 "" H 9350 50  50  0001 C CNN
-	1    9350 50  
+AR Path="/60BB4C00/60DD8694" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 4300 600 50  0001 C CNN
+F 1 "+3.3V" H 4300 900 50  0000 C CNB
+F 2 "" H 4300 750 50  0001 C CNN
+F 3 "" H 4300 750 50  0001 C CNN
+	1    4300 750 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 600  9350 600 
+	4200 1300 4300 1300
 Wire Wire Line
-	9250 700  9350 700 
-Connection ~ 9350 600 
+	4200 1400 4300 1400
+Connection ~ 4300 1300
 Wire Wire Line
-	9350 700  9350 800 
+	4300 1400 4300 1500
 Wire Wire Line
-	9350 800  9250 800 
-Connection ~ 9350 700 
-Connection ~ 9350 800 
+	4300 1500 4200 1500
+Connection ~ 4300 1400
+Connection ~ 4300 1500
 Wire Wire Line
-	9350 900  9250 900 
+	4300 1600 4200 1600
 Wire Wire Line
-	9350 800  9350 900 
+	4300 1500 4300 1600
 Wire Wire Line
-	9350 600  9350 700 
+	4300 1300 4300 1400
 $Comp
 L readout_trenz-rescue:+5V-power #PWR?
 U 1 1 60DD8684
-P 9500 4700
+P 4450 5400
 AR Path="/60DD8684" Ref="#PWR?"  Part="1" 
 AR Path="/603D0C5A/60DD8684" Ref="#PWR?"  Part="1" 
 AR Path="/608039EA/60DD8684" Ref="#PWR?"  Part="1" 
 AR Path="/6086954E/60943779/60DD8684" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/60DD8684" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD8684" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9500 4550 50  0001 C CNN
-F 1 "+5V" H 9500 4850 50  0000 C CNB
-F 2 "" H 9500 4700 50  0001 C CNN
-F 3 "" H 9500 4700 50  0001 C CNN
-	1    9500 4700
+AR Path="/60BB4C00/60DD8684" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 4450 5250 50  0001 C CNN
+F 1 "+5V" H 4450 5550 50  0000 C CNB
+F 2 "" H 4450 5400 50  0001 C CNN
+F 3 "" H 4450 5400 50  0001 C CNN
+	1    4450 5400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9250 3700 9350 3700
+	4200 4400 4300 4400
 Wire Wire Line
-	9250 4400 9350 4400
+	4200 5100 4300 5100
 Wire Wire Line
-	9250 4600 9350 4600
-Text Notes 11350 2400 0    79   ~ 16
-Layout note:\nMake accessable on \nouter layer\n
+	4200 5300 4300 5300
 Text HLabel 10950 7400 2    50   Input ~ 0
 ADC_IN_2
+$Comp
+L readout_trenz-rescue:R-Device R?
+U 1 1 62E1025D
+P 12350 3100
+AR Path="/605DF89A/62E1025D" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/62E1025D" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/62E1025D" Ref="R?"  Part="1" 
+F 0 "R?" V 12400 3200 50  0000 L CNN
+F 1 "100" V 12350 3000 50  0000 L CNN
+F 2 "" V 12280 3100 50  0001 C CNN
+F 3 "~" H 12350 3100 50  0001 C CNN
+	1    12350 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12700 2600 12000 2600
+Wire Wire Line
+	12700 2500 12000 2500
+Wire Wire Line
+	12700 2400 12000 2400
+Wire Wire Line
+	12700 5500 12000 5500
+Wire Wire Line
+	12700 5600 12000 5600
+Wire Wire Line
+	12000 5700 12700 5700
+Wire Wire Line
+	12700 5900 12000 5900
+Wire Wire Line
+	12000 6000 12700 6000
+Wire Wire Line
+	12700 6100 12000 6100
+Wire Wire Line
+	12000 3600 12700 3600
+Wire Wire Line
+	12700 3700 12000 3700
+Wire Wire Line
+	12000 4100 12700 4100
+Wire Wire Line
+	12700 4200 12000 4200
+Wire Wire Line
+	12700 3900 12000 3900
+Wire Wire Line
+	12000 3400 12700 3400
+$Comp
+L readout_trenz-rescue:R-Device R?
+U 1 1 62E10276
+P 12350 2800
+AR Path="/605DF89A/62E10276" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/62E10276" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/62E10276" Ref="R?"  Part="1" 
+F 0 "R?" V 12400 2900 50  0000 L CNN
+F 1 "100" V 12350 2700 50  0000 L CNN
+F 2 "" V 12280 2800 50  0001 C CNN
+F 3 "~" H 12350 2800 50  0001 C CNN
+	1    12350 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12700 2800 12600 2800
+Wire Wire Line
+	12700 3100 12600 3100
+Wire Wire Line
+	12600 2800 12600 2700
+Wire Wire Line
+	12600 2700 12000 2700
+Connection ~ 12600 2800
+Wire Wire Line
+	12600 2800 12500 2800
+Wire Wire Line
+	12600 3100 12600 3000
+Wire Wire Line
+	12600 3000 12000 3000
+Connection ~ 12600 3100
+Wire Wire Line
+	12600 3100 12500 3100
+Wire Wire Line
+	12200 3100 12150 3100
+Wire Wire Line
+	12150 3100 12150 3200
+Wire Wire Line
+	12150 3200 12700 3200
+Wire Wire Line
+	12150 3200 12000 3200
+Connection ~ 12150 3200
+Wire Wire Line
+	12000 2900 12150 2900
+Wire Wire Line
+	12200 2800 12150 2800
+Wire Wire Line
+	12150 2800 12150 2900
+Connection ~ 12150 2900
+Wire Wire Line
+	12150 2900 12700 2900
+Text Label 12000 2400 0    50   ~ 0
+resetb_pa
+Text Label 12000 2500 0    50   ~ 0
+rstb_PSC
+Text Label 12000 2600 0    50   ~ 0
+pwr_on
+Text Label 12000 2700 0    50   ~ 0
+Raz_Chn_p2
+Text Label 12000 2900 0    50   ~ 0
+Raz_Chn_n2
+Text Label 12000 3000 0    50   ~ 0
+Val_Ext_p2
+Text Label 12000 3200 0    50   ~ 0
+Val_Ext_n2
+Text Label 12000 3400 0    50   ~ 0
+select_2
+Text Label 12000 3600 0    50   ~ 0
+PS_global_trig
+Text Label 12000 3700 0    50   ~ 0
+PS_modeb_ext
+Text Label 12000 3900 0    50   ~ 0
+load_sc_2
+Text Label 12000 4100 0    50   ~ 0
+hold_lg
+Text Label 12000 4200 0    50   ~ 0
+hold_hg
+Text Label 12000 5500 0    50   ~ 0
+srin_read_2
+Text Label 12000 5600 0    50   ~ 0
+clk_read_2
+Text Label 12000 5700 0    50   ~ 0
+resetb_read_2
+Text Label 12000 5900 0    50   ~ 0
+srin_sc_2
+Text Label 12000 6000 0    50   ~ 0
+clk_sr_2
+Text Label 12000 6100 0    50   ~ 0
+rstb_sr_2
+Text GLabel 12000 2400 0    50   Input ~ 0
+resetb_pa
+Text GLabel 12000 2500 0    50   Input ~ 0
+rstb_PSC
+Text GLabel 12000 2600 0    50   Input ~ 0
+pwr_on
+Text GLabel 12000 3600 0    50   Input ~ 0
+PS_global_trig
+Text GLabel 12000 3700 0    50   Input ~ 0
+PS_modeb_ext
+Text GLabel 12000 4100 0    50   Input ~ 0
+hold_lg
+Text GLabel 12000 4200 0    50   Input ~ 0
+hold_hg
+Entry Wire Line
+	12000 6100 11900 6000
+Entry Wire Line
+	12000 6000 11900 5900
+Entry Wire Line
+	12000 5900 11900 5800
+Entry Wire Line
+	12000 5700 11900 5600
+Entry Wire Line
+	12000 5600 11900 5500
+Entry Wire Line
+	12000 5500 11900 5400
+Wire Bus Line
+	11900 5400 11400 5400
+Entry Wire Line
+	12000 2700 11900 2800
+Entry Wire Line
+	12000 2900 11900 3000
+Entry Wire Line
+	12000 3000 11900 3100
+Entry Wire Line
+	12000 3200 11900 3300
+Entry Wire Line
+	12000 3900 11900 4000
+Entry Wire Line
+	12000 3400 11900 3500
+Wire Bus Line
+	11900 4000 11400 4000
+Text HLabel 11400 5400 0    50   Input ~ 0
+CITIROC_IN_2
+Text HLabel 11400 4000 0    50   Input ~ 0
+CITIROC_IN_2
+Wire Wire Line
+	15200 6400 14050 6400
+Wire Wire Line
+	14050 6300 15200 6300
+Text Label 14750 6400 2    50   ~ 0
+dig_out_2
+Text Label 14750 5700 2    50   ~ 0
+srout_read_2
+Text Label 14750 6100 2    50   ~ 0
+NOR32T_oc_2
+Text Label 14750 6200 2    50   ~ 0
+NOR32_oc_2
+Text Label 14750 6300 2    50   ~ 0
+OR32_2
+$Comp
+L readout:VccAux U?
+U 1 1 62F033F8
+P 15000 5500
+AR Path="/605DF89A/62F033F8" Ref="U?"  Part="1" 
+AR Path="/60C32D5A/62F033F8" Ref="U?"  Part="1" 
+AR Path="/60BB4A14/62F033F8" Ref="U?"  Part="1" 
+F 0 "U?" H 15000 5500 79  0001 C CNN
+F 1 "Vcc0_1v8" H 14850 5550 47  0000 L CNB
+F 2 "" H 15000 5500 79  0001 C CNN
+F 3 "" H 15000 5500 79  0001 C CNN
+	1    15000 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 6200 15200 6200
+Connection ~ 15000 6200
+Wire Wire Line
+	15000 6000 15000 6200
+Wire Wire Line
+	15100 6100 15200 6100
+Connection ~ 15100 6100
+Wire Wire Line
+	15100 6000 15100 6100
+Wire Wire Line
+	15000 5650 15000 5600
+Connection ~ 15000 5650
+Wire Wire Line
+	15100 5650 15100 5700
+Wire Wire Line
+	15000 5650 15100 5650
+Wire Wire Line
+	15000 5700 15000 5650
+$Comp
+L readout_trenz-rescue:R-Device R?
+U 1 1 62F0340D
+P 15100 5850
+AR Path="/605DF89A/62F0340D" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/62F0340D" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/62F0340D" Ref="R?"  Part="1" 
+F 0 "R?" H 15170 5896 50  0000 L CNN
+F 1 "1k" V 15100 5800 50  0000 L CNN
+F 2 "" V 15030 5850 50  0001 C CNN
+F 3 "~" H 15100 5850 50  0001 C CNN
+	1    15100 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout_trenz-rescue:R-Device R?
+U 1 1 62F03417
+P 15000 5850
+AR Path="/605DF89A/62F03417" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/62F03417" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/62F03417" Ref="R?"  Part="1" 
+F 0 "R?" H 15070 5896 50  0000 L CNN
+F 1 "1k" V 15000 5800 50  0000 L CNN
+F 2 "" V 14930 5850 50  0001 C CNN
+F 3 "~" H 15000 5850 50  0001 C CNN
+	1    15000 5850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 6200 15000 6200
+Wire Wire Line
+	14050 6100 15100 6100
+Wire Wire Line
+	14050 5700 14750 5700
+Wire Wire Line
+	14050 5900 14750 5900
+Text Label 14750 5900 2    50   ~ 0
+srout_sc_2
+Entry Wire Line
+	15200 6300 15300 6200
+Entry Wire Line
+	15200 6400 15300 6300
+Entry Wire Line
+	14750 5700 14850 5600
+Entry Wire Line
+	14750 5900 14850 5800
+Entry Wire Line
+	15200 6100 15300 6000
+Entry Wire Line
+	15200 6200 15300 6100
+Wire Bus Line
+	14850 5350 15350 5350
+Wire Bus Line
+	15300 6000 15800 6000
+Text HLabel 15350 5350 2    50   Input ~ 0
+CITIROC_IN_2
+Text HLabel 15800 6000 2    50   Input ~ 0
+CITIROC_IN_2
+Wire Bus Line
+	14850 5350 14850 5800
 Wire Bus Line
 	10450 7000 10450 7400
+Wire Bus Line
+	15300 6000 15300 6300
+Wire Bus Line
+	11900 2800 11900 4000
+Wire Bus Line
+	11900 5400 11900 6000
 Wire Bus Line
 	1750 6250 1750 9400
 Wire Bus Line
