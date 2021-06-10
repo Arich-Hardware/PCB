@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 4950 9050 4950
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0101
+L power:GNDD #PWR0101
 U 1 1 60B06DB5
 P 9600 5100
 F 0 "#PWR0101" H 9600 4850 50  0001 C CNN

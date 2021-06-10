@@ -431,7 +431,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 9600 7550 8600
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0167
+L power:GNDA #PWR0167
 U 1 1 61AB9814
 P 7550 9800
 F 0 "#PWR0167" H 7550 9550 50  0001 C CNN
@@ -462,7 +462,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 8500 7700 8500
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983E2
 P 7550 9700
 F 0 "C?" H 7642 9746 50  0001 L CNN
@@ -492,7 +492,7 @@ Wire Wire Line
 	5900 5700 6650 5700
 Connection ~ 5900 5700
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983CD
 P 6750 5950
 F 0 "C?" H 6842 5996 50  0001 L CNN
@@ -503,7 +503,7 @@ F 3 "~" H 6750 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983A2
 P 6650 5850
 F 0 "C?" H 6742 5896 50  0001 L CNN
@@ -514,7 +514,7 @@ F 3 "~" H 6650 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983DD
 P 6850 5850
 F 0 "C?" H 6942 5896 50  0001 L CNN
@@ -603,7 +603,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 7300 7700 7550
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983DC
 P 7700 7200
 F 0 "C?" H 7792 7246 50  0001 L CNN
@@ -633,7 +633,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 7550 8300 7550
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983AB
 P 8300 7200
 F 0 "C?" H 8392 7246 50  0001 L CNN
@@ -644,7 +644,7 @@ F 3 "~" H 8300 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983AC
 P 8400 7400
 F 0 "C?" H 8492 7446 50  0001 L CNN
@@ -655,7 +655,7 @@ F 3 "~" H 8400 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983CB
 P 8500 7200
 F 0 "C?" H 8592 7246 50  0001 L CNN
@@ -666,7 +666,7 @@ F 3 "~" H 8500 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0168
+L power:GNDA #PWR0168
 U 1 1 6105F0F0
 P 8000 7600
 F 0 "#PWR0168" H 8000 7350 50  0001 C CNN
@@ -684,7 +684,7 @@ Wire Wire Line
 	8200 7500 8200 7550
 Connection ~ 8200 7550
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983CC
 P 8200 7400
 F 0 "C?" H 8292 7446 50  0001 L CNN
@@ -695,7 +695,7 @@ F 3 "~" H 8200 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983AE
 P 8000 7400
 F 0 "C?" H 8092 7446 50  0001 L CNN
@@ -711,7 +711,7 @@ Wire Wire Line
 	8000 7550 8100 7550
 Connection ~ 8000 7550
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 6119864C
 P 8100 7200
 F 0 "C?" H 8192 7246 50  0001 L CNN
@@ -758,7 +758,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 6600 7450 6500
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0169
+L power:GNDA #PWR0169
 U 1 1 6105F0C3
 P 8300 9600
 F 0 "#PWR0169" H 8300 9350 50  0001 C CNN
@@ -842,7 +842,7 @@ Wire Wire Line
 Text Notes 9150 7150 0    79   ~ 16
 Check\nPackage
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0170
+L power:GNDA #PWR0170
 U 1 1 60C983BE
 P 8300 5700
 F 0 "#PWR0170" H 8300 5450 50  0001 C CNN
@@ -853,7 +853,7 @@ F 3 "" H 8300 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983BD
 P 8300 5600
 F 0 "C?" H 8392 5646 50  0000 L CNN
@@ -864,7 +864,7 @@ F 3 "~" H 8300 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0171
+L power:GNDA #PWR0171
 U 1 1 61198632
 P 9900 5750
 F 0 "#PWR0171" H 9900 5500 50  0001 C CNN
@@ -875,7 +875,7 @@ F 3 "" H 9900 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C98394
 P 9900 5650
 F 0 "C?" H 9992 5696 50  0000 L CNN
@@ -886,7 +886,7 @@ F 3 "~" H 9900 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0172
+L power:GNDA #PWR0172
 U 1 1 61198631
 P 8750 5700
 F 0 "#PWR0172" H 8750 5450 50  0001 C CNN
@@ -897,7 +897,7 @@ F 3 "" H 8750 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 61198630
 P 8750 5600
 F 0 "C?" H 8842 5646 50  0000 L CNN
@@ -908,7 +908,7 @@ F 3 "~" H 8750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0173
+L power:GNDA #PWR0173
 U 1 1 60C983DE
 P 11000 8450
 F 0 "#PWR0173" H 11000 8200 50  0001 C CNN
@@ -919,7 +919,7 @@ F 3 "" H 11000 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0174
+L power:GNDA #PWR0174
 U 1 1 60C983B3
 P 10550 8950
 F 0 "#PWR0174" H 10550 8700 50  0001 C CNN
@@ -930,7 +930,7 @@ F 3 "" H 10550 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983B2
 P 10550 8850
 F 0 "C?" H 10642 8896 50  0000 L CNN
@@ -984,7 +984,7 @@ F 3 "~" H 10350 8250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0175
+L power:GNDA #PWR0175
 U 1 1 60C983DA
 P 10050 8750
 F 0 "#PWR0175" H 10050 8500 50  0001 C CNN
@@ -995,7 +995,7 @@ F 3 "" H 10050 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0176
+L power:GNDA #PWR0176
 U 1 1 610892D9
 P 9800 8500
 F 0 "#PWR0176" H 9800 8250 50  0001 C CNN
@@ -1009,7 +1009,7 @@ Connection ~ 9800 8050
 Wire Wire Line
 	9800 8300 9800 8050
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 610892D8
 P 9800 8400
 F 0 "C?" H 9892 8446 50  0000 L CNN
@@ -1073,7 +1073,7 @@ Wire Wire Line
 Wire Wire Line
 	11200 6400 11100 6400
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0177
+L power:GNDD #PWR0177
 U 1 1 60C983F2
 P 11200 6800
 F 0 "#PWR0177" H 11200 6550 50  0001 C CNN
@@ -1120,7 +1120,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 7950 9500 7800
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0178
+L power:GNDD #PWR0178
 U 1 1 60C983BC
 P 9500 7950
 F 0 "#PWR0178" H 9500 7700 50  0001 C CNN
@@ -1152,7 +1152,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 7900 9200 7900
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0179
+L power:GNDA #PWR0179
 U 1 1 61198610
 P 8600 7950
 F 0 "#PWR0179" H 8600 7700 50  0001 C CNN
@@ -1163,7 +1163,7 @@ F 3 "" H 8600 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0180
+L power:GNDA #PWR0180
 U 1 1 60C983B4
 P 7800 8200
 F 0 "#PWR0180" H 7800 7950 50  0001 C CNN
@@ -1200,7 +1200,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 7450 7500 7450
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0181
+L power:GNDA #PWR0181
 U 1 1 60C98393
 P 3350 5800
 F 0 "#PWR0181" H 3350 5550 50  0001 C CNN
@@ -1494,7 +1494,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 10100 3550 10150
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 6105F0C1
 P 3650 5900
 F 0 "C?" H 3700 5950 39  0001 L CNN
@@ -1516,7 +1516,7 @@ F 3 "~" H 3650 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983EC
 P 3800 5900
 F 0 "C?" H 3850 5950 39  0001 L CNN
@@ -1538,7 +1538,7 @@ F 3 "~" H 3800 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 61198641
 P 3950 5900
 F 0 "C?" H 4000 5950 39  0001 L CNN
@@ -1560,7 +1560,7 @@ F 3 "~" H 3950 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60A46BCD
 P 4100 5900
 F 0 "C?" H 4150 5950 39  0001 L CNN
@@ -1582,7 +1582,7 @@ F 3 "~" H 4100 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 609E29A8
 P 4250 5900
 F 0 "C?" H 4300 5950 39  0001 L CNN
@@ -1604,7 +1604,7 @@ F 3 "~" H 4250 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C9838E
 P 4400 5900
 F 0 "C?" H 4450 5950 39  0001 L CNN
@@ -1626,7 +1626,7 @@ F 3 "~" H 4400 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983D6
 P 4550 5900
 F 0 "C?" H 4600 5950 39  0001 L CNN
@@ -1648,7 +1648,7 @@ F 3 "~" H 4550 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983D4
 P 4700 5900
 F 0 "C?" H 4750 5950 39  0001 L CNN
@@ -1670,7 +1670,7 @@ F 3 "~" H 4700 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 61198636
 P 4850 5900
 F 0 "C?" H 4900 5950 39  0001 L CNN
@@ -1692,7 +1692,7 @@ F 3 "~" H 4850 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983CA
 P 5000 5900
 F 0 "C?" H 5050 5950 39  0001 L CNN
@@ -1714,7 +1714,7 @@ F 3 "~" H 5000 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983A4
 P 5900 5900
 F 0 "C?" H 5950 5950 39  0001 L CNN
@@ -1725,7 +1725,7 @@ F 3 "~" H 5900 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C98397
 P 5750 5900
 F 0 "C?" H 5800 5950 39  0001 L CNN
@@ -1736,7 +1736,7 @@ F 3 "~" H 5750 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C98398
 P 5600 5900
 F 0 "C?" H 5650 5950 39  0001 L CNN
@@ -1747,7 +1747,7 @@ F 3 "~" H 5600 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983B9
 P 5450 5900
 F 0 "C?" H 5500 5950 39  0001 L CNN
@@ -1758,7 +1758,7 @@ F 3 "~" H 5450 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C98383
 P 5300 5900
 F 0 "C?" H 5350 5950 39  0001 L CNN
@@ -1769,7 +1769,7 @@ F 3 "~" H 5300 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 610892B7
 P 5150 5900
 F 0 "C?" H 5200 5950 39  0001 L CNN
@@ -1846,7 +1846,7 @@ F 3 "~" H 5900 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 611985FC
 P 5800 10000
 F 0 "C?" H 5850 10050 39  0001 L CNN
@@ -1868,7 +1868,7 @@ F 3 "~" H 5800 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 611985FA
 P 5650 10000
 F 0 "C?" H 5700 10050 39  0001 L CNN
@@ -1890,7 +1890,7 @@ F 3 "~" H 5650 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C98396
 P 5500 10000
 F 0 "C?" H 5550 10050 39  0001 L CNN
@@ -1912,7 +1912,7 @@ F 3 "~" H 5500 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 6105F0AD
 P 5350 10000
 F 0 "C?" H 5400 10050 39  0001 L CNN
@@ -1934,7 +1934,7 @@ F 3 "~" H 5350 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C9839E
 P 5200 10000
 F 0 "C?" H 5250 10050 39  0001 L CNN
@@ -1956,7 +1956,7 @@ F 3 "~" H 5200 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 6095D871
 P 5050 10000
 F 0 "C?" H 5100 10050 39  0001 L CNN
@@ -1978,7 +1978,7 @@ F 3 "~" H 5050 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983D3
 P 4900 10000
 F 0 "C?" H 4950 10050 39  0001 L CNN
@@ -2000,7 +2000,7 @@ F 3 "~" H 4900 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 61089282
 P 4750 10000
 F 0 "C?" H 4800 10050 39  0001 L CNN
@@ -2022,7 +2022,7 @@ F 3 "~" H 4750 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 61089280
 P 4600 10000
 F 0 "C?" H 4650 10050 39  0001 L CNN
@@ -2044,7 +2044,7 @@ F 3 "~" H 4600 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 61198616
 P 4450 10000
 F 0 "C?" H 4500 10050 39  0001 L CNN
@@ -2066,7 +2066,7 @@ F 3 "~" H 4450 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 61198615
 P 4300 10000
 F 0 "C?" H 4350 10050 39  0001 L CNN
@@ -2088,7 +2088,7 @@ F 3 "~" H 4300 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983A3
 P 4150 10000
 F 0 "C?" H 4200 10050 39  0001 L CNN
@@ -2110,7 +2110,7 @@ F 3 "~" H 4150 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983C5
 P 4000 10000
 F 0 "C?" H 4050 10050 39  0001 L CNN
@@ -2132,7 +2132,7 @@ F 3 "~" H 4000 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C98382
 P 3850 10000
 F 0 "C?" H 3900 10050 39  0001 L CNN
@@ -2154,7 +2154,7 @@ F 3 "~" H 3850 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 611985F6
 P 3700 10000
 F 0 "C?" H 3750 10050 39  0001 L CNN
@@ -2176,7 +2176,7 @@ F 3 "~" H 3700 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0182
+L power:GNDA #PWR0182
 U 1 1 611985EA
 P 3550 10200
 F 0 "#PWR0182" H 3550 9950 50  0001 C CNN
@@ -2187,7 +2187,7 @@ F 3 "" H 3550 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C983D7
 P 3550 10000
 F 0 "C?" H 3600 10050 39  0001 L CNN
@@ -2239,7 +2239,7 @@ F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C0A1D3
 P 1200 5250
 AR Path="/605605C8/60C0A1D3" Ref="C?"  Part="1" 
@@ -2255,7 +2255,7 @@ F 3 "~" H 1200 5250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C0A1D4
 P 1500 5250
 AR Path="/605605C8/60C0A1D4" Ref="C?"  Part="1" 
@@ -2271,7 +2271,7 @@ F 3 "~" H 1500 5250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C0A1D5
 P 950 5250
 AR Path="/605605C8/60C0A1D5" Ref="C?"  Part="1" 
@@ -2287,7 +2287,7 @@ F 3 "~" H 950 5250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C0A1D6
 P 2500 5250
 AR Path="/605605C8/60C0A1D6" Ref="C?"  Part="1" 
@@ -2303,7 +2303,7 @@ F 3 "~" H 2500 5250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C98378
 P 2250 5250
 AR Path="/605605C8/60C98378" Ref="C?"  Part="1" 
@@ -2319,7 +2319,7 @@ F 3 "~" H 2250 5250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 606347DE
 P 2000 5250
 AR Path="/605605C8/606347DE" Ref="C?"  Part="1" 
@@ -2335,7 +2335,7 @@ F 3 "~" H 2000 5250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60C0A1D9
 P 1750 5250
 AR Path="/605605C8/60C0A1D9" Ref="C?"  Part="1" 
@@ -2351,7 +2351,7 @@ F 3 "~" H 1750 5250 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60C9837A
 P 950 5450
 AR Path="/605605C8/60C9837A" Ref="#PWR?"  Part="1" 
@@ -2567,7 +2567,7 @@ Wire Wire Line
 Wire Wire Line
 	14150 750  14150 850 
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60C0A1E0
 P 14150 850
 AR Path="/605605C8/60C0A1E0" Ref="#PWR?"  Part="1" 
@@ -2801,7 +2801,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 4350 4600 4350
 $Comp
-L readout_trenz-rescue:+5V-power #PWR?
+L power:+5V #PWR?
 U 1 1 60D73462
 P 4750 5350
 AR Path="/60D73462" Ref="#PWR?"  Part="1" 
@@ -2835,7 +2835,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 1250 4600 1250
 $Comp
-L readout_trenz-rescue:+3.3V-power #PWR?
+L power:+3V3 #PWR?
 U 1 1 60D73472
 P 4600 700
 AR Path="/60D73472" Ref="#PWR?"  Part="1" 
@@ -2876,7 +2876,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 4050 3100 4150
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L power:GNDA #PWR?
 U 1 1 60D73485
 P 3100 5550
 AR Path="/60D73485" Ref="#PWR?"  Part="1" 
@@ -2893,7 +2893,7 @@ F 3 "" H 3100 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60D7348B
 P 2850 5550
 AR Path="/60D7348B" Ref="#PWR?"  Part="1" 
@@ -3104,7 +3104,7 @@ rethink this,\npage30 of doc
 Text Notes 4950 2850 0    50   ~ 0
 FGPA Bank\nVoltage
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60D73501
 P 4850 3050
 AR Path="/60D73501" Ref="#PWR?"  Part="1" 
@@ -3125,7 +3125,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 2850 4850 2850
 $Comp
-L readout_trenz-rescue:+1V8-power #PWR?
+L power:+1V8 #PWR?
 U 1 1 60D73509
 P 4850 2550
 AR Path="/60548503/60D73509" Ref="#PWR?"  Part="1" 
@@ -3148,7 +3148,7 @@ Wire Wire Line
 NoConn ~ 3650 1050
 NoConn ~ 3850 1050
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60D73514
 P 3750 800
 AR Path="/607ECAFE/60D73514" Ref="C?"  Part="1" 
@@ -3161,7 +3161,7 @@ F 3 "~" H 3750 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L readout:Capacitor C?
 U 1 1 60D7351A
 P 3950 800
 AR Path="/607ECAFE/60D7351A" Ref="C?"  Part="1" 
@@ -3189,7 +3189,7 @@ Connection ~ 3750 550
 Wire Wire Line
 	3750 550  3300 550 
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L power:GNDA #PWR?
 U 1 1 60D73528
 P 3300 700
 AR Path="/607ECAFE/60D73528" Ref="#PWR?"  Part="1" 

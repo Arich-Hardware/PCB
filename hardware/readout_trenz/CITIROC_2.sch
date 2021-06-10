@@ -283,7 +283,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 6400 8650 6400
 $Comp
-L readout_trenz-rescue:R_Small-Device R?
+L Device:R_Small R?
 U 1 1 61198635
 P 7850 6400
 F 0 "R?" H 7909 6446 50  0001 L CNN
@@ -294,7 +294,7 @@ F 3 "~" H 7850 6400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:R_Small-Device R?
+L Device:R_Small R?
 U 1 1 60C983E3
 P 7850 6500
 F 0 "R?" H 7909 6546 50  0001 L CNN
@@ -305,7 +305,7 @@ F 3 "~" H 7850 6500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:R_Small-Device R?
+L Device:R_Small R?
 U 1 1 60C983AD
 P 7850 6600
 F 0 "R?" H 7909 6646 50  0001 L CNN
@@ -316,7 +316,7 @@ F 3 "~" H 7850 6600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:R_Small-Device R?
+L Device:R_Small R?
 U 1 1 60C98386
 P 7850 6700
 F 0 "R?" H 7909 6746 50  0001 L CNN
@@ -327,7 +327,7 @@ F 3 "~" H 7850 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:R_Small-Device R?
+L Device:R_Small R?
 U 1 1 6105293E
 P 7850 6800
 F 0 "R?" H 7909 6846 50  0001 L CNN
@@ -338,7 +338,7 @@ F 3 "~" H 7850 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:R_Small-Device R?
+L Device:R_Small R?
 U 1 1 60C983F5
 P 7850 6900
 F 0 "R?" H 7909 6946 50  0001 L CNN
@@ -354,7 +354,7 @@ Wire Wire Line
 Wire Wire Line
 	7750 7000 7500 7000
 $Comp
-L readout_trenz-rescue:R_Small-Device R?
+L Device:R_Small R?
 U 1 1 60C983F4
 P 7850 7000
 F 0 "R?" H 7909 7046 50  0001 L CNN
@@ -374,7 +374,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 9600 7550 8600
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0122
+L power:GNDA #PWR0122
 U 1 1 60C983F3
 P 7550 9800
 F 0 "#PWR0122" H 7550 9550 50  0001 C CNN
@@ -405,7 +405,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 8500 7700 8500
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61198633
 P 7550 9700
 F 0 "C?" H 7642 9746 50  0001 L CNN
@@ -435,7 +435,7 @@ Wire Wire Line
 	5900 5700 6650 5700
 Connection ~ 5900 5700
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6119860F
 P 6750 5950
 F 0 "C?" H 6842 5996 50  0001 L CNN
@@ -446,7 +446,7 @@ F 3 "~" H 6750 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61089292
 P 6650 5850
 F 0 "C?" H 6742 5896 50  0001 L CNN
@@ -457,7 +457,7 @@ F 3 "~" H 6650 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6119862D
 P 6850 5850
 F 0 "C?" H 6942 5896 50  0001 L CNN
@@ -546,7 +546,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 7300 7700 7550
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6119862C
 P 7700 7200
 F 0 "C?" H 7792 7246 50  0001 L CNN
@@ -576,7 +576,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 7550 8300 7550
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 610892C7
 P 8300 7200
 F 0 "C?" H 8392 7246 50  0001 L CNN
@@ -587,7 +587,7 @@ F 3 "~" H 8300 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 610892C8
 P 8400 7400
 F 0 "C?" H 8492 7446 50  0001 L CNN
@@ -598,7 +598,7 @@ F 3 "~" H 8400 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6119860B
 P 8500 7200
 F 0 "C?" H 8592 7246 50  0001 L CNN
@@ -609,7 +609,7 @@ F 3 "~" H 8500 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0121
+L power:GNDA #PWR0121
 U 1 1 60C98392
 P 8000 7600
 F 0 "#PWR0121" H 8000 7350 50  0001 C CNN
@@ -627,7 +627,7 @@ Wire Wire Line
 	8200 7500 8200 7550
 Connection ~ 8200 7550
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6119860E
 P 8200 7400
 F 0 "C?" H 8292 7446 50  0001 L CNN
@@ -638,7 +638,7 @@ F 3 "~" H 8200 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 610892D4
 P 8000 7400
 F 0 "C?" H 8092 7446 50  0001 L CNN
@@ -654,7 +654,7 @@ Wire Wire Line
 	8000 7550 8100 7550
 Connection ~ 8000 7550
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983F1
 P 8100 7200
 F 0 "C?" H 8192 7246 50  0001 L CNN
@@ -701,7 +701,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 6600 7450 6500
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0120
+L power:GNDA #PWR0120
 U 1 1 60C9838C
 P 8300 9600
 F 0 "#PWR0120" H 8300 9350 50  0001 C CNN
@@ -768,7 +768,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 8500 8200 8500
 $Comp
-L readout_trenz-rescue:Conn_02x11_Counter_Clockwise-Connector_Generic J?
+L readout:Conn_02x11_Counter_Clockwise-Connector_Generic J?
 U 1 1 60C9839D
 P 7900 9000
 F 0 "J?" H 7950 8250 50  0000 C CNN
@@ -785,7 +785,7 @@ Wire Wire Line
 Text Notes 9150 7150 0    79   ~ 16
 Check\nPackage
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0119
+L power:GNDA #PWR0119
 U 1 1 611985F1
 P 8300 5700
 F 0 "#PWR0119" H 8300 5450 50  0001 C CNN
@@ -796,7 +796,7 @@ F 3 "" H 8300 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 611985F0
 P 8300 5600
 F 0 "C?" H 8392 5646 50  0000 L CNN
@@ -807,7 +807,7 @@ F 3 "~" H 8300 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0118
+L power:GNDA #PWR0118
 U 1 1 60C983E1
 P 9900 5750
 F 0 "#PWR0118" H 9900 5500 50  0001 C CNN
@@ -818,7 +818,7 @@ F 3 "" H 9900 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6105F113
 P 9900 5650
 F 0 "C?" H 9992 5696 50  0000 L CNN
@@ -829,7 +829,7 @@ F 3 "~" H 9900 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0117
+L power:GNDA #PWR0117
 U 1 1 60C983E0
 P 8750 5700
 F 0 "#PWR0117" H 8750 5450 50  0001 C CNN
@@ -840,7 +840,7 @@ F 3 "" H 8750 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983DF
 P 8750 5600
 F 0 "C?" H 8842 5646 50  0000 L CNN
@@ -851,7 +851,7 @@ F 3 "~" H 8750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0116
+L power:GNDA #PWR0116
 U 1 1 6119862E
 P 11000 8450
 F 0 "#PWR0116" H 11000 8200 50  0001 C CNN
@@ -862,7 +862,7 @@ F 3 "" H 11000 8450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0115
+L power:GNDA #PWR0115
 U 1 1 610892DB
 P 10550 8950
 F 0 "#PWR0115" H 10550 8700 50  0001 C CNN
@@ -873,7 +873,7 @@ F 3 "" H 10550 8950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 610892DA
 P 10550 8850
 F 0 "C?" H 10642 8896 50  0000 L CNN
@@ -894,7 +894,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 8700 10050 8750
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 6108928D
 P 10050 8550
 F 0 "R?" H 10150 8550 50  0000 C CNN
@@ -905,7 +905,7 @@ F 3 "~" H 10050 8550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R_POT-Device RV?
+L Device:R_POT RV?
 U 1 1 6108928E
 P 10050 8250
 F 0 "RV?" H 10250 8350 50  0000 R CNN
@@ -916,7 +916,7 @@ F 3 "~" H 10050 8250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 61198629
 P 10350 8250
 F 0 "R?" V 10450 8250 50  0000 C CNN
@@ -927,7 +927,7 @@ F 3 "~" H 10350 8250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0114
+L power:GNDA #PWR0114
 U 1 1 61198628
 P 10050 8750
 F 0 "#PWR0114" H 10050 8500 50  0001 C CNN
@@ -938,7 +938,7 @@ F 3 "" H 10050 8750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0113
+L power:GNDA #PWR0113
 U 1 1 60C983B1
 P 9800 8500
 F 0 "#PWR0113" H 9800 8250 50  0001 C CNN
@@ -952,7 +952,7 @@ Connection ~ 9800 8050
 Wire Wire Line
 	9800 8300 9800 8050
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983B0
 P 9800 8400
 F 0 "C?" H 9892 8446 50  0000 L CNN
@@ -965,7 +965,7 @@ $EndComp
 Wire Wire Line
 	9800 8050 9800 7800
 $Comp
-L readout_trenz-rescue:REF5025ID-Reference_Voltage U?
+L Reference_Voltage:REF5025ID U?
 U 1 1 61198611
 P 10900 8150
 F 0 "U?" H 11050 8500 50  0000 C CNN
@@ -1016,7 +1016,7 @@ Wire Wire Line
 Wire Wire Line
 	11200 6400 11100 6400
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0112
+L power:GNDD #PWR0112
 U 1 1 61198650
 P 11200 6800
 F 0 "#PWR0112" H 11200 6550 50  0001 C CNN
@@ -1035,7 +1035,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 6400 10200 6400
 $Comp
-L readout_trenz-rescue:Conn_02x04_Odd_Even-Connector_Generic J?
+L readout:Conn_02x04_Odd_Even-Connector_Generic J?
 U 1 1 60C983AF
 P 10800 6500
 F 0 "J?" H 10850 6817 50  0000 C CNN
@@ -1055,7 +1055,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 7950 9500 7800
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0111
+L power:GNDD #PWR0111
 U 1 1 611985EF
 P 9500 7950
 F 0 "#PWR0111" H 9500 7700 50  0001 C CNN
@@ -1087,7 +1087,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 7900 9200 7900
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0110
+L power:GNDA #PWR0110
 U 1 1 60C983CE
 P 8600 7950
 F 0 "#PWR0110" H 8600 7700 50  0001 C CNN
@@ -1098,7 +1098,7 @@ F 3 "" H 8600 7950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0109
+L power:GNDA #PWR0109
 U 1 1 61165CA5
 P 7800 8200
 F 0 "#PWR0109" H 7800 7950 50  0001 C CNN
@@ -1111,7 +1111,7 @@ $EndComp
 Wire Wire Line
 	7600 8000 7400 8000
 $Comp
-L readout_trenz-rescue:Conn_Coaxial-Connector J?
+L Connector:Conn_Coaxial J?
 U 1 1 6119864B
 P 7800 8000
 F 0 "J?" H 7900 7975 50  0000 L CNN
@@ -1135,7 +1135,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 7450 7500 7450
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0108
+L power:GNDA #PWR0108
 U 1 1 6105F0F1
 P 3350 5800
 F 0 "#PWR0108" H 3350 5550 50  0001 C CNN
@@ -1429,7 +1429,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 10100 3550 10150
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C9838B
 P 3650 5900
 F 0 "C?" H 3700 5950 39  0001 L CNN
@@ -1440,7 +1440,7 @@ F 3 "~" H 3650 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C983D9
 P 3650 6150
 F 0 "R?" H 3700 6150 39  0001 L CNN
@@ -1451,7 +1451,7 @@ F 3 "~" H 3650 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61198642
 P 3800 5900
 F 0 "C?" H 3850 5950 39  0001 L CNN
@@ -1462,7 +1462,7 @@ F 3 "~" H 3800 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 6105F0E2
 P 3800 6150
 F 0 "R?" H 3850 6150 39  0001 L CNN
@@ -1473,7 +1473,7 @@ F 3 "~" H 3800 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983EB
 P 3950 5900
 F 0 "C?" H 4000 5950 39  0001 L CNN
@@ -1484,7 +1484,7 @@ F 3 "~" H 3950 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C9838A
 P 3950 6150
 F 0 "R?" H 4000 6150 39  0001 L CNN
@@ -1495,7 +1495,7 @@ F 3 "~" H 3950 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C98371
 P 4100 5900
 F 0 "C?" H 4150 5950 39  0001 L CNN
@@ -1506,7 +1506,7 @@ F 3 "~" H 4100 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 6105F0E0
 P 4100 6150
 F 0 "R?" H 4150 6150 39  0001 L CNN
@@ -1517,7 +1517,7 @@ F 3 "~" H 4100 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C98370
 P 4250 5900
 F 0 "C?" H 4300 5950 39  0001 L CNN
@@ -1528,7 +1528,7 @@ F 3 "~" H 4250 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 6105F0DF
 P 4250 6150
 F 0 "R?" H 4300 6150 39  0001 L CNN
@@ -1539,7 +1539,7 @@ F 3 "~" H 4250 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6105F0DE
 P 4400 5900
 F 0 "C?" H 4450 5950 39  0001 L CNN
@@ -1550,7 +1550,7 @@ F 3 "~" H 4400 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 61198640
 P 4400 6150
 F 0 "R?" H 4450 6150 39  0001 L CNN
@@ -1561,7 +1561,7 @@ F 3 "~" H 4400 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6119861E
 P 4550 5900
 F 0 "C?" H 4600 5950 39  0001 L CNN
@@ -1572,7 +1572,7 @@ F 3 "~" H 4550 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 6119861D
 P 4550 6150
 F 0 "R?" H 4600 6150 39  0001 L CNN
@@ -1583,7 +1583,7 @@ F 3 "~" H 4550 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6119861C
 P 4700 5900
 F 0 "C?" H 4750 5950 39  0001 L CNN
@@ -1594,7 +1594,7 @@ F 3 "~" H 4700 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 61198637
 P 4700 6150
 F 0 "R?" H 4750 6150 39  0001 L CNN
@@ -1605,7 +1605,7 @@ F 3 "~" H 4700 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983E5
 P 4850 5900
 F 0 "C?" H 4900 5950 39  0001 L CNN
@@ -1616,7 +1616,7 @@ F 3 "~" H 4850 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 61089276
 P 4850 6150
 F 0 "R?" H 4900 6150 39  0001 L CNN
@@ -1627,7 +1627,7 @@ F 3 "~" H 4850 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61198606
 P 5000 5900
 F 0 "C?" H 5050 5950 39  0001 L CNN
@@ -1638,7 +1638,7 @@ F 3 "~" H 5000 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C983C9
 P 5000 6150
 F 0 "R?" H 5050 6150 39  0001 L CNN
@@ -1649,7 +1649,7 @@ F 3 "~" H 5000 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 610892B1
 P 5900 5900
 F 0 "C?" H 5950 5950 39  0001 L CNN
@@ -1660,7 +1660,7 @@ F 3 "~" H 5900 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61089273
 P 5750 5900
 F 0 "C?" H 5800 5950 39  0001 L CNN
@@ -1671,7 +1671,7 @@ F 3 "~" H 5750 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61089274
 P 5600 5900
 F 0 "C?" H 5650 5950 39  0001 L CNN
@@ -1682,7 +1682,7 @@ F 3 "~" H 5600 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 611985E7
 P 5450 5900
 F 0 "C?" H 5500 5950 39  0001 L CNN
@@ -1693,7 +1693,7 @@ F 3 "~" H 5450 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 610528F7
 P 5300 5900
 F 0 "C?" H 5350 5950 39  0001 L CNN
@@ -1704,7 +1704,7 @@ F 3 "~" H 5300 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983A7
 P 5150 5900
 F 0 "C?" H 5200 5950 39  0001 L CNN
@@ -1715,7 +1715,7 @@ F 3 "~" H 5150 5900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C983A6
 P 5150 6150
 F 0 "R?" H 5200 6150 39  0001 L CNN
@@ -1726,7 +1726,7 @@ F 3 "~" H 5150 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 61198604
 P 5300 6150
 F 0 "R?" H 5350 6150 39  0001 L CNN
@@ -1737,7 +1737,7 @@ F 3 "~" H 5300 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 61198603
 P 5450 6150
 F 0 "R?" H 5500 6150 39  0001 L CNN
@@ -1748,7 +1748,7 @@ F 3 "~" H 5450 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 6119863D
 P 5600 6150
 F 0 "R?" H 5650 6150 39  0001 L CNN
@@ -1759,7 +1759,7 @@ F 3 "~" H 5600 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C983A5
 P 5750 6150
 F 0 "R?" H 5800 6150 39  0001 L CNN
@@ -1770,7 +1770,7 @@ F 3 "~" H 5750 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 611985E6
 P 5900 6150
 F 0 "R?" H 5950 6150 39  0001 L CNN
@@ -1781,7 +1781,7 @@ F 3 "~" H 5900 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983C4
 P 5800 10000
 F 0 "C?" H 5850 10050 39  0001 L CNN
@@ -1792,7 +1792,7 @@ F 3 "~" H 5800 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 611985FB
 P 5800 9750
 F 0 "R?" H 5850 9750 39  0001 L CNN
@@ -1803,7 +1803,7 @@ F 3 "~" H 5800 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983C2
 P 5650 10000
 F 0 "C?" H 5700 10050 39  0001 L CNN
@@ -1814,7 +1814,7 @@ F 3 "~" H 5650 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 611985E5
 P 5650 9750
 F 0 "R?" H 5700 9750 39  0001 L CNN
@@ -1825,7 +1825,7 @@ F 3 "~" H 5650 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61089270
 P 5500 10000
 F 0 "C?" H 5550 10050 39  0001 L CNN
@@ -1836,7 +1836,7 @@ F 3 "~" H 5500 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 611985E4
 P 5500 9750
 F 0 "R?" H 5550 9750 39  0001 L CNN
@@ -1847,7 +1847,7 @@ F 3 "~" H 5500 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C98389
 P 5350 10000
 F 0 "C?" H 5400 10050 39  0001 L CNN
@@ -1858,7 +1858,7 @@ F 3 "~" H 5350 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C98388
 P 5350 9750
 F 0 "R?" H 5400 9750 39  0001 L CNN
@@ -1869,7 +1869,7 @@ F 3 "~" H 5350 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61089285
 P 5200 10000
 F 0 "C?" H 5250 10050 39  0001 L CNN
@@ -1880,7 +1880,7 @@ F 3 "~" H 5200 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 611985E3
 P 5200 9750
 F 0 "R?" H 5250 9750 39  0001 L CNN
@@ -1891,7 +1891,7 @@ F 3 "~" H 5200 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C9836F
 P 5050 10000
 F 0 "C?" H 5100 10050 39  0001 L CNN
@@ -1902,7 +1902,7 @@ F 3 "~" H 5050 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C983C1
 P 5050 9750
 F 0 "R?" H 5100 9750 39  0001 L CNN
@@ -1913,7 +1913,7 @@ F 3 "~" H 5050 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61198617
 P 4900 10000
 F 0 "C?" H 4950 10050 39  0001 L CNN
@@ -1924,7 +1924,7 @@ F 3 "~" H 4900 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 611985EC
 P 4900 9750
 F 0 "R?" H 4950 9750 39  0001 L CNN
@@ -1935,7 +1935,7 @@ F 3 "~" H 4900 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C9839C
 P 4750 10000
 F 0 "C?" H 4800 10050 39  0001 L CNN
@@ -1946,7 +1946,7 @@ F 3 "~" H 4750 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C9839B
 P 4750 9750
 F 0 "R?" H 4800 9750 39  0001 L CNN
@@ -1957,7 +1957,7 @@ F 3 "~" H 4750 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C9839A
 P 4600 10000
 F 0 "C?" H 4650 10050 39  0001 L CNN
@@ -1968,7 +1968,7 @@ F 3 "~" H 4600 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C983E8
 P 4600 9750
 F 0 "R?" H 4650 9750 39  0001 L CNN
@@ -1979,7 +1979,7 @@ F 3 "~" H 4600 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983D2
 P 4450 10000
 F 0 "C?" H 4500 10050 39  0001 L CNN
@@ -1990,7 +1990,7 @@ F 3 "~" H 4450 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 61198602
 P 4450 9750
 F 0 "R?" H 4500 9750 39  0001 L CNN
@@ -2001,7 +2001,7 @@ F 3 "~" H 4450 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983D1
 P 4300 10000
 F 0 "C?" H 4350 10050 39  0001 L CNN
@@ -2012,7 +2012,7 @@ F 3 "~" H 4300 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 61089269
 P 4300 9750
 F 0 "R?" H 4350 9750 39  0001 L CNN
@@ -2023,7 +2023,7 @@ F 3 "~" H 4300 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 610892AE
 P 4150 10000
 F 0 "C?" H 4200 10050 39  0001 L CNN
@@ -2034,7 +2034,7 @@ F 3 "~" H 4150 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C9838D
 P 4150 9750
 F 0 "R?" H 4200 9750 39  0001 L CNN
@@ -2045,7 +2045,7 @@ F 3 "~" H 4150 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 61198600
 P 4000 10000
 F 0 "C?" H 4050 10050 39  0001 L CNN
@@ -2056,7 +2056,7 @@ F 3 "~" H 4000 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C983D8
 P 4000 9750
 F 0 "R?" H 4050 9750 39  0001 L CNN
@@ -2067,7 +2067,7 @@ F 3 "~" H 4000 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 610528D2
 P 3850 10000
 F 0 "C?" H 3900 10050 39  0001 L CNN
@@ -2078,7 +2078,7 @@ F 3 "~" H 3850 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 61198613
 P 3850 9750
 F 0 "R?" H 3900 9750 39  0001 L CNN
@@ -2089,7 +2089,7 @@ F 3 "~" H 3850 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C983C0
 P 3700 10000
 F 0 "C?" H 3750 10050 39  0001 L CNN
@@ -2100,7 +2100,7 @@ F 3 "~" H 3700 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 60C983BF
 P 3700 9750
 F 0 "R?" H 3750 9750 39  0001 L CNN
@@ -2111,7 +2111,7 @@ F 3 "~" H 3700 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR0107
+L power:GNDA #PWR0107
 U 1 1 60C983BA
 P 3550 10200
 F 0 "#PWR0107" H 3550 9950 50  0001 C CNN
@@ -2122,7 +2122,7 @@ F 3 "" H 3550 10200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6119861F
 P 3550 10000
 F 0 "C?" H 3600 10050 39  0001 L CNN
@@ -2133,7 +2133,7 @@ F 3 "~" H 3550 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 6105F0A1
 P 3550 9750
 F 0 "R?" H 3600 9750 39  0001 L CNN
@@ -2395,7 +2395,7 @@ Wire Bus Line
 Wire Wire Line
 	13500 1900 13500 2200
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60C9837C
 P 14100 2000
 AR Path="/605605C8/60C9837C" Ref="#PWR?"  Part="1" 
@@ -2418,7 +2418,7 @@ Wire Wire Line
 Wire Wire Line
 	13600 1900 13500 1900
 $Comp
-L readout_trenz-rescue:TestPoint_2Pole-Connector TP?
+L Connector:TestPoint_2Pole TP?
 U 1 1 60C9837B
 P 13800 1900
 AR Path="/605DF89A/60C9837B" Ref="TP?"  Part="1" 
@@ -2603,7 +2603,7 @@ Wire Wire Line
 Wire Wire Line
 	900  2050 900  2100
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60C0A1DA
 P 900 2400
 AR Path="/605605C8/60C0A1DA" Ref="#PWR?"  Part="1" 
@@ -2620,7 +2620,7 @@ F 3 "" H 900 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C98379
 P 1700 2200
 AR Path="/605605C8/60C98379" Ref="C?"  Part="1" 
@@ -2637,7 +2637,7 @@ F 3 "~" H 1700 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C9836C
 P 1950 2200
 AR Path="/605605C8/60C9836C" Ref="C?"  Part="1" 
@@ -2654,7 +2654,7 @@ F 3 "~" H 1950 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C0A1D7
 P 2200 2200
 AR Path="/605605C8/60C0A1D7" Ref="C?"  Part="1" 
@@ -2671,7 +2671,7 @@ F 3 "~" H 2200 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C98377
 P 2450 2200
 AR Path="/605605C8/60C98377" Ref="C?"  Part="1" 
@@ -2688,7 +2688,7 @@ F 3 "~" H 2450 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C98376
 P 900 2200
 AR Path="/605605C8/60C98376" Ref="C?"  Part="1" 
@@ -2705,7 +2705,7 @@ F 3 "~" H 900 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C98375
 P 1450 2200
 AR Path="/605605C8/60C98375" Ref="C?"  Part="1" 
@@ -2722,7 +2722,7 @@ F 3 "~" H 1450 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C98374
 P 1150 2200
 AR Path="/605605C8/60C98374" Ref="C?"  Part="1" 
@@ -2739,7 +2739,7 @@ F 3 "~" H 1150 2200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L power:GNDA #PWR?
 U 1 1 60DD874A
 P 3000 750
 AR Path="/607ECAFE/60DD874A" Ref="#PWR?"  Part="1" 
@@ -2767,7 +2767,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 1100 3450 950 
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60DD873C
 P 3650 850
 AR Path="/607ECAFE/60DD873C" Ref="C?"  Part="1" 
@@ -2780,7 +2780,7 @@ F 3 "~" H 3650 850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60DD8736
 P 3450 850
 AR Path="/607ECAFE/60DD8736" Ref="C?"  Part="1" 
@@ -2801,7 +2801,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2800 4550 2600
 $Comp
-L readout_trenz-rescue:+1V8-power #PWR?
+L power:+1V8 #PWR?
 U 1 1 60DD872B
 P 4550 2600
 AR Path="/60548503/60DD872B" Ref="#PWR?"  Part="1" 
@@ -2820,7 +2820,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2900 4550 3100
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60DD8723
 P 4550 3100
 AR Path="/60DD8723" Ref="#PWR?"  Part="1" 
@@ -3027,7 +3027,7 @@ Connection ~ 2800 2000
 Wire Wire Line
 	2800 2000 2800 1900
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60DD86AD
 P 2550 5600
 AR Path="/60DD86AD" Ref="#PWR?"  Part="1" 
@@ -3044,7 +3044,7 @@ F 3 "" H 2550 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDA-power #PWR?
+L power:GNDA #PWR?
 U 1 1 60DD86A7
 P 2800 5600
 AR Path="/60DD86A7" Ref="#PWR?"  Part="1" 
@@ -3085,7 +3085,7 @@ Wire Wire Line
 Text Notes 2650 2350 0    50   ~ 10
 ???
 $Comp
-L readout_trenz-rescue:+3.3V-power #PWR?
+L power:+3V3 #PWR?
 U 1 1 60DD8694
 P 4300 750
 AR Path="/60DD8694" Ref="#PWR?"  Part="1" 
@@ -3119,7 +3119,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 1300 4300 1400
 $Comp
-L readout_trenz-rescue:+5V-power #PWR?
+L power:+5V #PWR?
 U 1 1 60DD8684
 P 4450 5400
 AR Path="/60DD8684" Ref="#PWR?"  Part="1" 
@@ -3232,7 +3232,7 @@ Wire Wire Line
 Wire Wire Line
 	15000 5700 15000 5650
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 62F0340D
 P 15100 5850
 AR Path="/605DF89A/62F0340D" Ref="R?"  Part="1" 
@@ -3247,7 +3247,7 @@ F 3 "~" H 15100 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 62F03417
 P 15000 5850
 AR Path="/605DF89A/62F03417" Ref="R?"  Part="1" 
@@ -3380,7 +3380,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 2700 12000 2700
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 6150348B
 P 12350 2800
 AR Path="/605DF89A/6150348B" Ref="R?"  Part="1" 
@@ -3413,7 +3413,7 @@ Wire Wire Line
 Wire Wire Line
 	12700 2600 12000 2600
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 6150347C
 P 12350 3100
 AR Path="/605DF89A/6150347C" Ref="R?"  Part="1" 

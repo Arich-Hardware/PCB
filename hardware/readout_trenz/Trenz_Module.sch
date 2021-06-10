@@ -25,7 +25,7 @@ F 3 "" H 2900 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:Conn_02x03_Odd_Even-Connector_Generic J?
+L readout:Conn_02x03_Odd_Even-Connector_Generic J?
 U 1 1 60B0C983
 P 1750 4100
 AR Path="/60B0C983" Ref="J?"  Part="1" 
@@ -78,7 +78,7 @@ Connection ~ 2500 6600
 Wire Wire Line
 	2500 6600 2500 6750
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0102
+L power:GNDD #PWR0102
 U 1 1 60B92048
 P 2500 6750
 F 0 "#PWR0102" H 2500 6500 50  0001 C CNN
@@ -109,7 +109,7 @@ MGT_RX2_N
 Text HLabel 0    5550 2    50   Output ~ 0
 MGT_RX2_P
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6149D700
 P 2300 5550
 AR Path="/60767640/6149D700" Ref="C?"  Part="1" 
@@ -122,7 +122,7 @@ F 3 "~" H 2300 5550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 6149D948
 P 2000 5550
 AR Path="/60767640/6149D948" Ref="C?"  Part="1" 
@@ -135,7 +135,7 @@ F 3 "~" H 2000 5550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 614A2A1F
 P 1700 5550
 AR Path="/60767640/614A2A1F" Ref="C?"  Part="1" 
@@ -148,7 +148,7 @@ F 3 "~" H 1700 5550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 614A2A29
 P 1400 5550
 AR Path="/60767640/614A2A29" Ref="C?"  Part="1" 
@@ -195,7 +195,7 @@ Connection ~ 2000 5750
 Wire Wire Line
 	2000 5750 1700 5750
 $Comp
-L readout_trenz-rescue:L-Device L?
+L Device:L L?
 U 1 1 614B5F25
 P 1700 5200
 AR Path="/608CAA95/614B5F25" Ref="L?"  Part="1" 
@@ -208,7 +208,7 @@ F 3 "~" H 1700 5200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L readout_trenz-rescue:L-Device L?
+L Device:L L?
 U 1 1 614B7A31
 P 1150 5300
 AR Path="/608CAA95/614B7A31" Ref="L?"  Part="1" 
@@ -221,7 +221,7 @@ F 3 "~" H 1150 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 614BE90A
 P 900 5550
 AR Path="/60767640/614BE90A" Ref="C?"  Part="1" 
@@ -258,7 +258,7 @@ Wire Wire Line
 	900  5750 1400 5750
 Connection ~ 1400 5750
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0103
+L power:GNDD #PWR0103
 U 1 1 614C9ED2
 P 1550 5750
 F 0 "#PWR0103" H 1550 5500 50  0001 C CNN
@@ -272,7 +272,7 @@ Connection ~ 1550 5750
 Wire Wire Line
 	1550 5750 1400 5750
 $Comp
-L readout_trenz-rescue:+3.3V-power #PWR0104
+L power:+3V3 #PWR0104
 U 1 1 614CA2F3
 P 700 5300
 F 0 "#PWR0104" H 700 5150 50  0001 C CNN
@@ -283,7 +283,7 @@ F 3 "" H 700 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 614DBB74
 P 4700 6050
 AR Path="/6099D1B7/614DBB74" Ref="R?"  Part="1" 
@@ -298,7 +298,7 @@ F 3 "~" H 4700 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:R-Device R?
+L Device:R R?
 U 1 1 614DC8C2
 P 4500 5950
 AR Path="/6099D1B7/614DC8C2" Ref="R?"  Part="1" 
@@ -422,7 +422,7 @@ Connection ~ 2950 7000
 Wire Wire Line
 	2950 7000 2850 7000
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0123
+L power:GNDD #PWR0123
 U 1 1 60D06289
 P 2000 7000
 F 0 "#PWR0123" H 2000 6750 50  0001 C CNN
@@ -441,7 +441,7 @@ Connection ~ 3100 7000
 Wire Wire Line
 	3100 7000 3050 7000
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0124
+L power:GNDD #PWR0124
 U 1 1 60FB6AAC
 P 8450 6150
 F 0 "#PWR0124" H 8450 5900 50  0001 C CNN
@@ -466,7 +466,7 @@ F 3 "" H 8450 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0125
+L power:GNDD #PWR0125
 U 1 1 60D9011B
 P 7850 1200
 F 0 "#PWR0125" H 7850 950 50  0001 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 7850 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0126
+L power:GNDD #PWR0126
 U 1 1 60D90125
 P 7850 1500
 F 0 "#PWR0126" H 7850 1250 50  0001 C CNN
@@ -488,7 +488,7 @@ F 3 "" H 7850 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0127
+L power:GNDD #PWR0127
 U 1 1 60D9012F
 P 7850 1800
 F 0 "#PWR0127" H 7850 1550 50  0001 C CNN
@@ -499,7 +499,7 @@ F 3 "" H 7850 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0128
+L power:GNDD #PWR0128
 U 1 1 60D90139
 P 7850 2100
 F 0 "#PWR0128" H 7850 1850 50  0001 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 7850 2100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0129
+L power:GNDD #PWR0129
 U 1 1 60D90143
 P 7850 2400
 F 0 "#PWR0129" H 7850 2150 50  0001 C CNN
@@ -521,7 +521,7 @@ F 3 "" H 7850 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0130
+L power:GNDD #PWR0130
 U 1 1 60D9014D
 P 7850 3300
 F 0 "#PWR0130" H 7850 3050 50  0001 C CNN
@@ -552,7 +552,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 6000 9050 6000
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0131
+L power:GNDD #PWR0131
 U 1 1 60DD00DE
 P 9050 1200
 F 0 "#PWR0131" H 9050 950 50  0001 C CNN
@@ -563,7 +563,7 @@ F 3 "" H 9050 1200 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0132
+L power:GNDD #PWR0132
 U 1 1 60DD00E8
 P 9050 1500
 F 0 "#PWR0132" H 9050 1250 50  0001 C CNN
@@ -574,7 +574,7 @@ F 3 "" H 9050 1500 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0133
+L power:GNDD #PWR0133
 U 1 1 60DD00F2
 P 9050 1800
 F 0 "#PWR0133" H 9050 1550 50  0001 C CNN
@@ -585,7 +585,7 @@ F 3 "" H 9050 1800 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0134
+L power:GNDD #PWR0134
 U 1 1 60DD00FC
 P 9050 2100
 F 0 "#PWR0134" H 9050 1850 50  0001 C CNN
@@ -621,7 +621,7 @@ Entry Wire Line
 Wire Bus Line
 	12950 3600 12450 3600
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0135
+L power:GNDD #PWR0135
 U 1 1 60E7C585
 P 14750 2700
 F 0 "#PWR0135" H 14750 2450 50  0001 C CNN
@@ -632,7 +632,7 @@ F 3 "" H 14750 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0136
+L power:GNDD #PWR0136
 U 1 1 60E7C58F
 P 14750 4500
 F 0 "#PWR0136" H 14750 4250 50  0001 C CNN
@@ -643,7 +643,7 @@ F 3 "" H 14750 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0137
+L power:GNDD #PWR0137
 U 1 1 60E7C599
 P 13550 5100
 F 0 "#PWR0137" H 13550 4850 50  0001 C CNN
@@ -662,7 +662,7 @@ Wire Wire Line
 Wire Wire Line
 	14850 6000 14750 6000
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0138
+L power:GNDD #PWR0138
 U 1 1 60E9E115
 P 13550 2700
 F 0 "#PWR0138" H 13550 2450 50  0001 C CNN
@@ -673,7 +673,7 @@ F 3 "" H 13550 2700 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0139
+L power:GNDD #PWR0139
 U 1 1 60E9E11F
 P 13550 1800
 F 0 "#PWR0139" H 13550 1550 50  0001 C CNN
@@ -684,7 +684,7 @@ F 3 "" H 13550 1800 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0140
+L power:GNDD #PWR0140
 U 1 1 60E9E129
 P 14750 5400
 F 0 "#PWR0140" H 14750 5150 50  0001 C CNN
@@ -735,7 +735,7 @@ Entry Wire Line
 Text HLabel 15850 3600 2    50   Input ~ 0
 T1_[0,31]
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0141
+L power:GNDD #PWR0141
 U 1 1 60EBD38D
 P 14150 6150
 F 0 "#PWR0141" H 14150 5900 50  0001 C CNN
@@ -777,7 +777,7 @@ T2_[0..31]
 Wire Bus Line
 	12450 900  12950 900 
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0142
+L power:GNDD #PWR0142
 U 1 1 60C3A632
 P 9050 2400
 F 0 "#PWR0142" H 9050 2150 50  0001 C CNN
@@ -788,7 +788,7 @@ F 3 "" H 9050 2400 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0143
+L power:GNDD #PWR0143
 U 1 1 60C3A63C
 P 9050 3300
 F 0 "#PWR0143" H 9050 3050 50  0001 C CNN
@@ -799,7 +799,7 @@ F 3 "" H 9050 3300 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0144
+L power:GNDD #PWR0144
 U 1 1 60C3A646
 P 9050 4200
 F 0 "#PWR0144" H 9050 3950 50  0001 C CNN
@@ -810,7 +810,7 @@ F 3 "" H 9050 4200 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0145
+L power:GNDD #PWR0145
 U 1 1 60C3A650
 P 9050 5100
 F 0 "#PWR0145" H 9050 4850 50  0001 C CNN
@@ -873,7 +873,7 @@ T2_[0..23]
 Wire Wire Line
 	1450 4000 1350 4000
 $Comp
-L readout_trenz-rescue:+1V8-power #PWR?
+L power:+1V8 #PWR?
 U 1 1 60C0EFC5
 P 1350 4000
 AR Path="/60C0EFC5" Ref="#PWR?"  Part="1" 
@@ -888,7 +888,7 @@ $EndComp
 Wire Wire Line
 	1450 4100 1250 4100
 $Comp
-L readout_trenz-rescue:+2V5-power #PWR0147
+L power:+2V5 #PWR0147
 U 1 1 60C185FA
 P 1250 4100
 F 0 "#PWR0147" H 1250 3950 50  0001 C CNN
@@ -925,7 +925,7 @@ Wire Wire Line
 	9150 5800 9150 5900
 Connection ~ 9150 5900
 $Comp
-L readout_trenz-rescue:+2V5-power #PWR0148
+L power:+2V5 #PWR0148
 U 1 1 60C4B55D
 P 2400 2900
 F 0 "#PWR0148" H 2400 2750 50  0001 C CNN
@@ -936,7 +936,7 @@ F 3 "" H 2400 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0149
+L power:GNDD #PWR0149
 U 1 1 60C4D776
 P 1600 3400
 F 0 "#PWR0149" H 1600 3150 50  0001 C CNN
@@ -947,7 +947,7 @@ F 3 "" H 1600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C51052
 P 2000 3200
 AR Path="/60767640/60C51052" Ref="C?"  Part="1" 
@@ -960,7 +960,7 @@ F 3 "~" H 2000 3200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60C6173D
 P 2300 3200
 AR Path="/60767640/60C6173D" Ref="C?"  Part="1" 
@@ -973,7 +973,7 @@ F 3 "~" H 2300 3200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0150
+L power:GNDD #PWR0150
 U 1 1 60C700F5
 P 2000 3400
 F 0 "#PWR0150" H 2000 3150 50  0001 C CNN
@@ -984,7 +984,7 @@ F 3 "" H 2000 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0151
+L power:GNDD #PWR0151
 U 1 1 60C80B5B
 P 2300 3400
 F 0 "#PWR0151" H 2300 3150 50  0001 C CNN
@@ -1010,7 +1010,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 3250 1600 3400
 $Comp
-L readout_trenz-rescue:+3.3V-power #PWR0152
+L power:+3V3 #PWR0152
 U 1 1 60CC7C9F
 P 1200 2900
 F 0 "#PWR0152" H 1200 2750 50  0001 C CNN
@@ -1027,7 +1027,7 @@ Wire Wire Line
 Text Notes 1100 4300 0    50   ~ 0
 Ask Eric: Is this necessary?\n
 $Comp
-L readout_trenz-rescue:Conn_02x07_Odd_Even-Connector_Generic J?
+L readout:Conn_02x07_Odd_Even-Connector_Generic J?
 U 1 1 60DE6B69
 P 900 7150
 AR Path="/60DE6B69" Ref="J?"  Part="1" 
@@ -1049,7 +1049,7 @@ Wire Wire Line
 Wire Wire Line
 	650  6850 650  6950
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60DE6B71
 P 650 7550
 AR Path="/60DE6B71" Ref="#PWR?"  Part="1" 
@@ -1128,7 +1128,7 @@ TDO
 Text HLabel 0    7250 2    50   BiDi ~ 0
 TDI
 $Comp
-L readout_trenz-rescue:Conn_01x04-Connector_Generic J?
+L readout:Conn_01x04-Connector_Generic J?
 U 1 1 60DFEC40
 P 800 1550
 AR Path="/608B2FC0/60DFEC40" Ref="J?"  Part="1" 
@@ -1145,7 +1145,7 @@ F 3 "~" H 800 1550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR?
+L power:GNDD #PWR?
 U 1 1 60DFEC46
 P 1250 1850
 AR Path="/60DFEC46" Ref="#PWR?"  Part="1" 
@@ -1173,7 +1173,7 @@ Wire Wire Line
 Text Notes 800  900  0    157  ~ 31
 To sparkfun FT232RL
 $Comp
-L readout_trenz-rescue:Conn_01x09-Connector_Generic J?
+L readout:Conn_01x09-Connector_Generic J?
 U 1 1 60DFEC51
 P 2600 1600
 AR Path="/608B2FC0/60DFEC51" Ref="J?"  Part="1" 
@@ -1208,7 +1208,7 @@ NoConn ~ 2300 1800
 NoConn ~ 2300 1900
 NoConn ~ 2300 2000
 $Comp
-L readout_trenz-rescue:Conn_01x09-Connector_Generic J?
+L readout:Conn_01x09-Connector_Generic J?
 U 1 1 60DFEC69
 P 2100 1600
 AR Path="/608B2FC0/60DFEC69" Ref="J?"  Part="1" 
@@ -1253,7 +1253,7 @@ Wire Wire Line
 	7750 5900 7500 5900
 Connection ~ 7750 5900
 $Comp
-L readout_trenz-rescue:C_Small-Device C?
+L Device:C C?
 U 1 1 60E5BE10
 P 7500 6000
 AR Path="/60767640/60E5BE10" Ref="C?"  Part="1" 
@@ -1269,7 +1269,7 @@ Connection ~ 7500 5900
 Wire Wire Line
 	7500 5900 7350 5900
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0155
+L power:GNDD #PWR0155
 U 1 1 60E7018C
 P 7500 6150
 F 0 "#PWR0155" H 7500 5900 50  0001 C CNN
@@ -1280,7 +1280,7 @@ F 3 "" H 7500 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:+3.3V-power #PWR0156
+L power:+3V3 #PWR0156
 U 1 1 60E84047
 P 7350 5900
 F 0 "#PWR0156" H 7350 5750 50  0001 C CNN
@@ -1326,7 +1326,7 @@ F 3 "" H 1150 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout_trenz-rescue:+1V8-power #PWR?
+L power:+1V8 #PWR?
 U 1 1 610DE209
 P 14850 1800
 AR Path="/610DE209" Ref="#PWR?"  Part="1" 

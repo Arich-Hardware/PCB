@@ -125,17 +125,17 @@ Wire Wire Line
 Wire Wire Line
 	4250 6000 4500 6000
 $Comp
-L readout_trenz-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV J?
+L readout:ERF8-060-05.0-L-DV J?
 U 1 1 60C1AFA4
-P 3250 2100
+P 3750 5050
 AR Path="/60C946F3/60C1AFA4" Ref="J?"  Part="1" 
 AR Path="/60CAE390/60C1AFA4" Ref="J?"  Part="1" 
 AR Path="/60C1AFA4" Ref="J?"  Part="1" 
-F 0 "J?" H 3750 2367 50  0000 C CNN
-F 1 "ERF8-060-XX.X-X-DV" H 3750 2276 50  0000 C CNN
-F 2 "ERF8-060-XX.X-X-DV" H 3250 2100 50  0001 L BNN
-F 3 "" H 3250 2100 50  0001 L BNN
-	1    3250 2100
+F 0 "J?" H 3750 8250 50  0000 C CNN
+F 1 "ERF8-060-05.0-L-DV" H 3750 8150 50  0000 C CNN
+F 2 "ERF8-060-XX.X-X-DV" H 3750 5050 50  0001 L BNN
+F 3 "" H 3750 5050 50  0001 L BNN
+	1    3750 5050
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4250 7300
@@ -200,19 +200,6 @@ Wire Wire Line
 Connection ~ 3150 5700
 Wire Wire Line
 	3250 5700 3150 5700
-$Comp
-L readout_trenz-rescue:GNDA-power #PWR0105
-U 1 1 60BB416E
-P 3150 6050
-AR Path="/60C946F3/60BB416E" Ref="#PWR0105"  Part="1" 
-AR Path="/60CAE390/60BB416E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0105" H 3150 5800 50  0001 C CNN
-F 1 "GNDA-power" H 3155 5877 50  0000 C CNN
-F 2 "" H 3150 6050 50  0001 C CNN
-F 3 "" H 3150 6050 50  0001 C CNN
-	1    3150 6050
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	3150 2100 3150 3000
 Wire Wire Line
@@ -352,19 +339,6 @@ B1_[0,31]
 Wire Wire Line
 	4350 5700 4350 6050
 Connection ~ 4350 5700
-$Comp
-L readout_trenz-rescue:GNDA-power #PWR0106
-U 1 1 60BAF8E2
-P 4350 6050
-AR Path="/60C946F3/60BAF8E2" Ref="#PWR0106"  Part="1" 
-AR Path="/60CAE390/60BAF8E2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0106" H 4350 5800 50  0001 C CNN
-F 1 "GNDA-power" H 4355 5877 50  0000 C CNN
-F 2 "" H 4350 6050 50  0001 C CNN
-F 3 "" H 4350 6050 50  0001 C CNN
-	1    4350 6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 2100 4350 3000
 Wire Bus Line
@@ -561,6 +535,28 @@ Text Label 3100 5500 2    50   ~ 0
 B2_30
 Text Label 3100 5600 2    50   ~ 0
 B2_31
+$Comp
+L power:GND #PWR?
+U 1 1 60C301E7
+P 4350 6050
+F 0 "#PWR?" H 4350 5800 50  0001 C CNN
+F 1 "GND" H 4355 5877 50  0000 C CNN
+F 2 "" H 4350 6050 50  0001 C CNN
+F 3 "" H 4350 6050 50  0001 C CNN
+	1    4350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C31183
+P 3150 6050
+F 0 "#PWR?" H 3150 5800 50  0001 C CNN
+F 1 "GND" H 3155 5877 50  0000 C CNN
+F 2 "" H 3150 6050 50  0001 C CNN
+F 3 "" H 3150 6050 50  0001 C CNN
+	1    3150 6050
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	4500 2000 4500 5500
 Wire Bus Line

@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 4950 9050 4950
 $Comp
-L readout_trenz-rescue:GNDD-power #PWR0101
+L power:GNDD #PWR0101
 U 1 1 60B06DB5
 P 9600 5100
 F 0 "#PWR0101" H 9600 4850 50  0001 C CNN
@@ -86,7 +86,7 @@ F 3 "" H 9600 5100 50  0001 C CNN
 $EndComp
 Connection ~ 9600 4850
 $Comp
-L readout_trenz-rescue:Conn_02x12_Counter_Clockwise-Connector_Generic J?
+L readout:Conn_02x12_Counter_Clockwise-Connector_Generic J?
 U 1 1 60B1DFBC
 P 9250 4350
 F 0 "J?" H 9300 5067 50  0000 C CNN
