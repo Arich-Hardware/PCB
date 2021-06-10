@@ -610,16 +610,16 @@ F 3 "" H 14150 3500 50  0001 C CNN
 	1    14150 3500
 	1    0    0    -1  
 $EndComp
-Text Label 12500 4000 0    50   ~ 0
+Text Label 12950 3600 2    50   ~ 0
 T1_[18,31]
-Text HLabel 12450 4000 0    50   Input ~ 0
+Text HLabel 12450 3600 0    50   Input ~ 0
 T1_[0,31]
 Entry Wire Line
-	12950 4100 13050 4200
+	12950 3700 13050 3800
 Entry Wire Line
-	12950 4000 13050 4100
+	12950 3600 13050 3700
 Wire Bus Line
-	12950 4000 12450 4000
+	12950 3600 12450 3600
 $Comp
 L readout_trenz-rescue:GNDD-power #PWR0135
 U 1 1 60E7C585
@@ -868,7 +868,7 @@ Entry Wire Line
 	12950 3300 13050 3400
 Entry Wire Line
 	12950 3400 13050 3500
-Text Label 12500 900  0    50   ~ 0
+Text Label 12950 900  2    50   ~ 0
 T2_[0..23]
 Wire Wire Line
 	1450 4000 1350 4000
@@ -1130,24 +1130,24 @@ TDI
 $Comp
 L readout_trenz-rescue:Conn_01x04-Connector_Generic J?
 U 1 1 60DFEC40
-P 900 1550
+P 800 1550
 AR Path="/608B2FC0/60DFEC40" Ref="J?"  Part="1" 
 AR Path="/60AD0200/60B2D848/60DFEC40" Ref="J?"  Part="1" 
 AR Path="/607155C8/60DFEC40" Ref="J?"  Part="1" 
 AR Path="/606EBC4D/60DFEC40" Ref="J?"  Part="1" 
 AR Path="/60BC2588/60DFEC40" Ref="J?"  Part="1" 
 AR Path="/60D04563/60DFEC40" Ref="J?"  Part="1" 
-F 0 "J?" H 818 1867 50  0000 C CNN
-F 1 "Serial USB" H 818 1776 50  0000 C CNN
-F 2 "" H 900 1550 50  0001 C CNN
-F 3 "~" H 900 1550 50  0001 C CNN
-	1    900  1550
+F 0 "J?" H 718 1867 50  0000 C CNN
+F 1 "Serial USB" H 718 1776 50  0000 C CNN
+F 2 "" H 800 1550 50  0001 C CNN
+F 3 "~" H 800 1550 50  0001 C CNN
+	1    800  1550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L readout_trenz-rescue:GNDD-power #PWR?
 U 1 1 60DFEC46
-P 1350 1850
+P 1250 1850
 AR Path="/60DFEC46" Ref="#PWR?"  Part="1" 
 AR Path="/608B2FC0/60DFEC46" Ref="#PWR?"  Part="1" 
 AR Path="/60AD0200/60B2D848/60DFEC46" Ref="#PWR?"  Part="1" 
@@ -1155,21 +1155,21 @@ AR Path="/607155C8/60DFEC46" Ref="#PWR?"  Part="1"
 AR Path="/606EBC4D/60DFEC46" Ref="#PWR?"  Part="1" 
 AR Path="/60BC2588/60DFEC46" Ref="#PWR?"  Part="1" 
 AR Path="/60D04563/60DFEC46" Ref="#PWR0154"  Part="1" 
-F 0 "#PWR0154" H 1350 1600 50  0001 C CNN
-F 1 "GNDD" H 1350 1700 50  0000 C CNN
-F 2 "" H 1350 1850 50  0001 C CNN
-F 3 "" H 1350 1850 50  0001 C CNN
-	1    1350 1850
+F 0 "#PWR0154" H 1250 1600 50  0001 C CNN
+F 1 "GNDD" H 1250 1700 50  0000 C CNN
+F 2 "" H 1250 1850 50  0001 C CNN
+F 3 "" H 1250 1850 50  0001 C CNN
+	1    1250 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 1850 1350 1750
+	1250 1850 1250 1750
 Wire Wire Line
-	1350 1750 1100 1750
+	1250 1750 1000 1750
 Wire Wire Line
-	1100 1450 1350 1450
+	1000 1450 1250 1450
 Wire Wire Line
-	1350 1450 1350 1350
+	1250 1450 1250 1350
 Text Notes 800  900  0    157  ~ 31
 To sparkfun FT232RL
 $Comp
@@ -1224,29 +1224,21 @@ F 3 "~" H 2100 1600 50  0001 C CNN
 	1    2100 1600
 	-1   0    0    1   
 $EndComp
-Text HLabel 1200 1550 2    50   Input ~ 0
-FPGA_tx
-Text HLabel 1200 1650 2    50   Output ~ 0
-FPGA_rx
-Wire Wire Line
-	1200 1550 1100 1550
-Wire Wire Line
-	1100 1650 1200 1650
 $Comp
 L readout:Vcc0 U?
 U 1 1 60DFEC73
-P 1350 1250
+P 1250 1250
 AR Path="/6076C700/60DFEC73" Ref="U?"  Part="1" 
 AR Path="/62251D77/60DFEC73" Ref="U?"  Part="1" 
 AR Path="/608CAA95/60DFEC73" Ref="U?"  Part="1" 
 AR Path="/606EBC4D/60DFEC73" Ref="U?"  Part="1" 
 AR Path="/60BC2588/60DFEC73" Ref="U?"  Part="1" 
 AR Path="/60D04563/60DFEC73" Ref="U?"  Part="1" 
-F 0 "U?" H 1350 1250 79  0001 C CNN
-F 1 "Vcc0_3v3" H 1200 1300 47  0000 L CNB
-F 2 "" H 1350 1250 79  0001 C CNN
-F 3 "" H 1350 1250 79  0001 C CNN
-	1    1350 1250
+F 0 "U?" H 1250 1250 79  0001 C CNN
+F 1 "Vcc0_3v3" H 1100 1300 47  0000 L CNB
+F 2 "" H 1250 1250 79  0001 C CNN
+F 3 "" H 1250 1250 79  0001 C CNN
+	1    1250 1250
 	1    0    0    -1  
 $EndComp
 Text Notes 1100 3650 0    50   ~ 0
@@ -1300,30 +1292,6 @@ F 3 "" H 7350 5900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 6100 7500 6150
-Text HLabel 9050 1700 2    50   Output ~ 0
-MGT_TX2_N
-Text HLabel 9050 1600 2    50   Output ~ 0
-MGT_TX2_P
-Text HLabel 7850 1400 0    50   Input ~ 0
-MGT_RX2_N
-Text HLabel 7850 1300 0    50   Input ~ 0
-MGT_RX2_P
-Text HLabel 14750 2500 2    50   Output ~ 0
-SFP0_RS1
-Text HLabel 14750 2600 2    50   Input ~ 0
-SFP0_LOS
-Text HLabel 14750 2800 2    50   Output ~ 0
-SFP0_RS0
-Text HLabel 14750 2900 2    50   Input ~ 0
-SFP0_M-DEF0
-Text HLabel 14750 3300 2    50   Output ~ 0
-SFP0_SCL
-Text HLabel 14750 3200 2    50   BiDi ~ 0
-SFP0_SDA
-Text HLabel 14750 3100 2    50   Output ~ 0
-SFP0_TX_DIS
-Text HLabel 14750 3000 2    50   Input ~ 0
-SFP0_TX_FAULT
 $Comp
 L readout:3.3V_OUT PS?
 U 1 1 61091674
@@ -1407,20 +1375,6 @@ F 3 "" H 14950 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14750 3600 14950 3600
-Text GLabel 23400 5300 0    50   Output ~ 0
-resetb_pa
-Text GLabel 23400 5400 0    50   Output ~ 0
-rstb_PSC
-Text GLabel 23400 5500 0    50   Output ~ 0
-pwr_on
-Text GLabel 23600 6050 0    50   Output ~ 0
-PS_global_trig
-Text GLabel 23600 6150 0    50   Output ~ 0
-PS_modeb_ext
-Text GLabel 23600 6300 0    50   Output ~ 0
-hold_lg
-Text GLabel 23600 6400 0    50   Output ~ 0
-hold_hg
 Wire Wire Line
 	9050 4900 9550 4900
 Wire Wire Line
@@ -1505,7 +1459,7 @@ Entry Wire Line
 	9650 3000 9550 3100
 Wire Bus Line
 	9650 2700 10150 2700
-Text Label 10150 2700 2    50   ~ 0
+Text Label 9650 2700 0    50   ~ 0
 CITIROC_IN_1
 Text HLabel 10150 2700 2    50   Output ~ 0
 CITIROC_IN_1
@@ -1513,38 +1467,6 @@ Text HLabel 0    5350 2    50   Input ~ 0
 MGT_TX2_N
 Text HLabel 0    5250 2    50   Input ~ 0
 MGT_TX2_P
-Text Label -500 5850 2    50   ~ 0
-SFP0_TX_FAULT
-Wire Wire Line
-	-1000 5850 -500 5850
-Text Label -500 5950 2    50   ~ 0
-SFP0_TX_DIS
-Wire Wire Line
-	-1000 5950 -500 5950
-Text Label -500 6050 2    50   ~ 0
-SFP0_SDA
-Wire Wire Line
-	-1000 6050 -500 6050
-Text Label -500 6150 2    50   ~ 0
-SFP0_SCL
-Wire Wire Line
-	-1000 6150 -500 6150
-Text Label -500 6250 2    50   ~ 0
-SFP0_M-DEF0
-Wire Wire Line
-	-1000 6250 -500 6250
-Text Label -500 6350 2    50   ~ 0
-SFP0_RS0
-Wire Wire Line
-	-1000 6350 -500 6350
-Text Label -500 6450 2    50   ~ 0
-SFP0_LOS
-Wire Wire Line
-	-1000 6450 -500 6450
-Text Label -500 6550 2    50   ~ 0
-SFP0_RS1
-Wire Wire Line
-	-1000 6550 -500 6550
 Wire Wire Line
 	9050 5500 9550 5500
 Wire Wire Line
@@ -1561,585 +1483,6 @@ Text Label 9550 5300 2    50   ~ 0
 TDO
 Text Label 9550 5200 2    50   ~ 0
 TDI
-Wire Wire Line
-	-1000 5650 -500 5650
-Text Label -500 5650 2    50   ~ 0
-MGT_RX2_N
-Wire Wire Line
-	-1000 5550 -500 5550
-Text Label -500 5550 2    50   ~ 0
-MGT_RX2_P
-Wire Wire Line
-	-1000 5350 -500 5350
-Text Label -500 5350 2    50   ~ 0
-MGT_TX2_N
-Wire Wire Line
-	-1000 5250 -500 5250
-Text Label -500 5250 2    50   ~ 0
-MGT_TX2_P
-$Comp
-L readout:CITIROC1A U?
-U 2 1 60CE1215
-P 19950 1250
-AR Path="/60548503/60CE1215" Ref="U?"  Part="2" 
-AR Path="/605DF89A/60CE1215" Ref="U?"  Part="2" 
-AR Path="/60CE1215" Ref="U?"  Part="2" 
-AR Path="/60C32D5A/60CE1215" Ref="U?"  Part="2" 
-AR Path="/60BB4A14/60CE1215" Ref="U?"  Part="2" 
-AR Path="/60D04563/60CE1215" Ref="U?"  Part="2" 
-F 0 "U?" H 19875 -2973 50  0000 C CNN
-F 1 "CITIROC1A" H 19875 -3064 50  0000 C CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 19350 1400 50  0001 C CNN
-F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 19350 1400 50  0001 C CNN
-	2    19950 1250
-	1    0    0    -1  
-$EndComp
-Text Notes 19300 950  0    50   ~ 0
-from bank?
-$Comp
-L readout_trenz-rescue:R-Device R?
-U 1 1 60CE121C
-P 18850 2050
-AR Path="/605DF89A/60CE121C" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/60CE121C" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60CE121C" Ref="R?"  Part="1" 
-AR Path="/60D04563/60CE121C" Ref="R?"  Part="1" 
-F 0 "R?" V 18900 2150 50  0000 L CNN
-F 1 "100" V 18850 1950 50  0000 L CNN
-F 2 "" V 18780 2050 50  0001 C CNN
-F 3 "~" H 18850 2050 50  0001 C CNN
-	1    18850 2050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	19200 1550 18500 1550
-Wire Wire Line
-	19200 1450 18500 1450
-Wire Wire Line
-	19200 1350 18500 1350
-Wire Wire Line
-	19200 4450 18500 4450
-Wire Wire Line
-	19200 4550 18500 4550
-Wire Wire Line
-	18500 4650 19200 4650
-Wire Wire Line
-	19200 4850 18500 4850
-Wire Wire Line
-	18500 4950 19200 4950
-Wire Wire Line
-	19200 5050 18500 5050
-Wire Wire Line
-	18500 2550 19200 2550
-Wire Wire Line
-	19200 2650 18500 2650
-Wire Wire Line
-	18500 3050 19200 3050
-Wire Wire Line
-	19200 3150 18500 3150
-Wire Wire Line
-	19200 2850 18500 2850
-Wire Wire Line
-	18500 2350 19200 2350
-Wire Wire Line
-	21700 5350 20550 5350
-Wire Wire Line
-	20550 1350 20750 1350
-Wire Wire Line
-	20750 4450 20550 4450
-Wire Wire Line
-	20750 1450 20550 1450
-Wire Wire Line
-	20550 1550 20750 1550
-Wire Wire Line
-	20750 1650 20550 1650
-Wire Wire Line
-	20550 1750 20750 1750
-Wire Wire Line
-	20750 1850 20550 1850
-Wire Wire Line
-	20550 1950 20750 1950
-Wire Wire Line
-	20750 2050 20550 2050
-Wire Wire Line
-	20550 2150 20750 2150
-Wire Wire Line
-	20750 2250 20550 2250
-Wire Wire Line
-	20550 2350 20750 2350
-Wire Wire Line
-	20750 2450 20550 2450
-Wire Wire Line
-	20550 2550 20750 2550
-Wire Wire Line
-	20750 2650 20550 2650
-Wire Wire Line
-	20550 2750 20750 2750
-Wire Wire Line
-	20750 2850 20550 2850
-Wire Wire Line
-	20750 2950 20550 2950
-Wire Wire Line
-	20550 3050 20750 3050
-Wire Wire Line
-	20750 3150 20550 3150
-Wire Wire Line
-	20550 3250 20750 3250
-Wire Wire Line
-	20750 3350 20550 3350
-Wire Wire Line
-	20550 3450 20750 3450
-Wire Wire Line
-	20750 3550 20550 3550
-Wire Wire Line
-	20550 3650 20750 3650
-Wire Wire Line
-	20750 3750 20550 3750
-Wire Wire Line
-	20550 3850 20750 3850
-Wire Wire Line
-	20750 3950 20550 3950
-Wire Wire Line
-	20550 4050 20750 4050
-Wire Wire Line
-	20750 4150 20550 4150
-Wire Wire Line
-	20550 4250 20750 4250
-$Comp
-L readout_trenz-rescue:TestPoint_2Pole-Connector TP?
-U 1 1 60CE1251
-P 20300 850
-AR Path="/605DF89A/60CE1251" Ref="TP?"  Part="1" 
-AR Path="/60C32D5A/60CE1251" Ref="TP?"  Part="1" 
-AR Path="/60BB4A14/60CE1251" Ref="TP?"  Part="1" 
-AR Path="/60D04563/60CE1251" Ref="TP?"  Part="1" 
-F 0 "TP?" H 20300 1045 50  0000 C CNN
-F 1 "probe" H 20300 954 50  0000 C CNN
-F 2 "" H 20300 850 50  0001 C CNN
-F 3 "~" H 20300 850 50  0001 C CNN
-	1    20300 850 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20100 850  20000 850 
-Wire Wire Line
-	20500 850  20600 850 
-Wire Wire Line
-	20600 850  20600 950 
-$Comp
-L readout_trenz-rescue:GNDD-power #PWR?
-U 1 1 60CE125A
-P 20600 950
-AR Path="/605605C8/60CE125A" Ref="#PWR?"  Part="1" 
-AR Path="/60548503/60CE125A" Ref="#PWR?"  Part="1" 
-AR Path="/605DF89A/60CE125A" Ref="#PWR?"  Part="1" 
-AR Path="/60C32D5A/60CE125A" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4A14/60CE125A" Ref="#PWR?"  Part="1" 
-AR Path="/60D04563/60CE125A" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 20600 700 50  0001 C CNN
-F 1 "GNDD" H 20600 800 50  0000 C CNB
-F 2 "" H 20600 950 50  0001 C CNN
-F 3 "" H 20600 950 50  0001 C CNN
-	1    20600 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	20000 850  20000 1150
-$Comp
-L readout_trenz-rescue:R-Device R?
-U 1 1 60CE1261
-P 18850 1750
-AR Path="/605DF89A/60CE1261" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/60CE1261" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60CE1261" Ref="R?"  Part="1" 
-AR Path="/60D04563/60CE1261" Ref="R?"  Part="1" 
-F 0 "R?" V 18900 1850 50  0000 L CNN
-F 1 "100" V 18850 1650 50  0000 L CNN
-F 2 "" V 18780 1750 50  0001 C CNN
-F 3 "~" H 18850 1750 50  0001 C CNN
-	1    18850 1750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	19200 1750 19100 1750
-Wire Wire Line
-	19200 2050 19100 2050
-Wire Wire Line
-	19100 1750 19100 1650
-Wire Wire Line
-	19100 1650 18500 1650
-Connection ~ 19100 1750
-Wire Wire Line
-	19100 1750 19000 1750
-Wire Wire Line
-	19100 2050 19100 1950
-Wire Wire Line
-	19100 1950 18500 1950
-Connection ~ 19100 2050
-Wire Wire Line
-	19100 2050 19000 2050
-Wire Wire Line
-	18700 2050 18650 2050
-Wire Wire Line
-	18650 2050 18650 2150
-Wire Wire Line
-	18650 2150 19200 2150
-Wire Wire Line
-	18650 2150 18500 2150
-Connection ~ 18650 2150
-Wire Wire Line
-	18500 1850 18650 1850
-Wire Wire Line
-	18700 1750 18650 1750
-Wire Wire Line
-	18650 1750 18650 1850
-Connection ~ 18650 1850
-Wire Wire Line
-	18650 1850 19200 1850
-Wire Wire Line
-	20550 5250 21700 5250
-Text Label 21250 5350 2    50   ~ 0
-dig_out_1
-Wire Bus Line
-	20850 1250 21300 1250
-Entry Wire Line
-	20850 4350 20750 4450
-Entry Wire Line
-	20850 4250 20750 4350
-Wire Wire Line
-	20550 4350 20750 4350
-Entry Wire Line
-	20850 4150 20750 4250
-Entry Wire Line
-	20850 4150 20750 4250
-Entry Wire Line
-	20850 4050 20750 4150
-Entry Wire Line
-	20850 3950 20750 4050
-Entry Wire Line
-	20850 3850 20750 3950
-Entry Wire Line
-	20850 3750 20750 3850
-Entry Wire Line
-	20850 3650 20750 3750
-Entry Wire Line
-	20850 3550 20750 3650
-Entry Wire Line
-	20850 3450 20750 3550
-Entry Wire Line
-	20850 3350 20750 3450
-Entry Wire Line
-	20850 3250 20750 3350
-Entry Wire Line
-	20850 3150 20750 3250
-Entry Wire Line
-	20850 3050 20750 3150
-Entry Wire Line
-	20850 2950 20750 3050
-Entry Wire Line
-	20850 2850 20750 2950
-Entry Wire Line
-	20850 2750 20750 2850
-Entry Wire Line
-	20850 2650 20750 2750
-Entry Wire Line
-	20850 2550 20750 2650
-Entry Wire Line
-	20850 2450 20750 2550
-Entry Wire Line
-	20850 2350 20750 2450
-Entry Wire Line
-	20850 2250 20750 2350
-Entry Wire Line
-	20850 2150 20750 2250
-Entry Wire Line
-	20850 2050 20750 2150
-Entry Wire Line
-	20850 1950 20750 2050
-Entry Wire Line
-	20850 1850 20750 1950
-Entry Wire Line
-	20850 1750 20750 1850
-Entry Wire Line
-	20850 1650 20750 1750
-Entry Wire Line
-	20850 1550 20750 1650
-Entry Wire Line
-	20850 1450 20750 1550
-Entry Wire Line
-	20850 1350 20750 1450
-Entry Wire Line
-	20850 1250 20750 1350
-Text Label 20900 1250 0    50   ~ 0
-T1_[0,31]
-Text HLabel 21300 1250 2    50   Output ~ 0
-T1_[0,31]
-Text Label 20600 1350 0    50   ~ 0
-T1_0
-Text Label 20600 1450 0    50   ~ 0
-T1_1
-Text Label 20600 1550 0    50   ~ 0
-T1_2
-Text Label 20600 1650 0    50   ~ 0
-T1_3
-Text Label 20600 1750 0    50   ~ 0
-T1_4
-Text Label 20600 1850 0    50   ~ 0
-T1_5
-Text Label 20600 1950 0    50   ~ 0
-T1_6
-Text Label 20600 2050 0    50   ~ 0
-T1_7
-Text Label 20600 2150 0    50   ~ 0
-T1_8
-Text Label 20600 2250 0    50   ~ 0
-T1_9
-Text Label 20600 2350 0    50   ~ 0
-T1_10
-Text Label 20600 2450 0    50   ~ 0
-T1_11
-Text Label 20600 2550 0    50   ~ 0
-T1_12
-Text Label 20600 2650 0    50   ~ 0
-T1_13
-Text Label 20600 2750 0    50   ~ 0
-T1_14
-Text Label 20600 2850 0    50   ~ 0
-T1_15
-Text Label 20600 2950 0    50   ~ 0
-T1_16
-Text Label 20600 3050 0    50   ~ 0
-T1_17
-Text Label 20600 3150 0    50   ~ 0
-T1_18
-Text Label 20600 3250 0    50   ~ 0
-T1_19
-Text Label 20600 3350 0    50   ~ 0
-T1_20
-Text Label 20600 3450 0    50   ~ 0
-T1_21
-Text Label 20600 3550 0    50   ~ 0
-T1_22
-Text Label 20600 3650 0    50   ~ 0
-T1_23
-Text Label 20600 3750 0    50   ~ 0
-T1_24
-Text Label 20600 3850 0    50   ~ 0
-T1_25
-Text Label 20600 3950 0    50   ~ 0
-T1_26
-Text Label 20600 4050 0    50   ~ 0
-T1_27
-Text Label 20600 4150 0    50   ~ 0
-T1_28
-Text Label 20600 4250 0    50   ~ 0
-T1_29
-Text Label 20600 4350 0    50   ~ 0
-T1_30
-Text Label 20600 4450 0    50   ~ 0
-T1_31
-Text Label 18500 1350 0    50   ~ 0
-resetb_pa_1
-Text Label 18500 1450 0    50   ~ 0
-rstb_PSC_1
-Text Label 18500 1550 0    50   ~ 0
-pwr_on_1
-Text Label 18500 1650 0    50   ~ 0
-Raz_Chn_p1
-Text Label 18500 1850 0    50   ~ 0
-Raz_Chn_n1
-Text Label 18500 1950 0    50   ~ 0
-Val_Ext_p1
-Text Label 18500 2150 0    50   ~ 0
-Val_Ext_n1
-Text Label 18500 2350 0    50   ~ 0
-select_1
-Text Label 18500 2550 0    50   ~ 0
-PS_global_trig_1
-Text Label 18500 2650 0    50   ~ 0
-PS_modeb_ext_1
-Text Label 18500 2850 0    50   ~ 0
-load_sc_1
-Text Label 18500 3050 0    50   ~ 0
-hold_lg_1
-Text Label 18500 3150 0    50   ~ 0
-hold_hg_1
-Text Label 18500 4450 0    50   ~ 0
-srin_read_1
-Text Label 18500 4550 0    50   ~ 0
-clk_read_1
-Text Label 18500 4650 0    50   ~ 0
-resetb_read_1
-Text Label 18500 4850 0    50   ~ 0
-srin_sc_1
-Text Label 18500 4950 0    50   ~ 0
-clk_sr_1
-Text Label 18500 5050 0    50   ~ 0
-rstb_sr_1
-Text Label 21250 4650 2    50   ~ 0
-srout_read_1
-Text Label 21250 5050 2    50   ~ 0
-NOR32T_oc_1
-Text Label 21250 5150 2    50   ~ 0
-NOR32_oc_1
-Text Label 21250 5250 2    50   ~ 0
-OR32_1
-Entry Wire Line
-	18500 5050 18400 4950
-Entry Wire Line
-	18500 4950 18400 4850
-Entry Wire Line
-	18500 4850 18400 4750
-Entry Wire Line
-	18500 4650 18400 4550
-Entry Wire Line
-	18500 4550 18400 4450
-Entry Wire Line
-	18500 4450 18400 4350
-Wire Bus Line
-	18400 4350 17900 4350
-Entry Wire Line
-	18500 1650 18400 1750
-Entry Wire Line
-	18500 1850 18400 1950
-Entry Wire Line
-	18500 1950 18400 2050
-Entry Wire Line
-	18500 2150 18400 2250
-Entry Wire Line
-	18500 2850 18400 2950
-Entry Wire Line
-	18500 2350 18400 2450
-$Comp
-L readout:VccAux U?
-U 1 1 60CE12E6
-P 21500 4450
-AR Path="/605DF89A/60CE12E6" Ref="U?"  Part="1" 
-AR Path="/60C32D5A/60CE12E6" Ref="U?"  Part="1" 
-AR Path="/60BB4A14/60CE12E6" Ref="U?"  Part="1" 
-AR Path="/60D04563/60CE12E6" Ref="U?"  Part="1" 
-F 0 "U?" H 21500 4450 79  0001 C CNN
-F 1 "Vcc0_1v8" H 21350 4500 47  0000 L CNB
-F 2 "" H 21500 4450 79  0001 C CNN
-F 3 "" H 21500 4450 79  0001 C CNN
-	1    21500 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	21500 5150 21700 5150
-Connection ~ 21500 5150
-Wire Wire Line
-	21500 4950 21500 5150
-Wire Wire Line
-	21600 5050 21700 5050
-Connection ~ 21600 5050
-Wire Wire Line
-	21600 4950 21600 5050
-Wire Wire Line
-	21500 4600 21500 4550
-Connection ~ 21500 4600
-Wire Wire Line
-	21600 4600 21600 4650
-Wire Wire Line
-	21500 4600 21600 4600
-Wire Wire Line
-	21500 4650 21500 4600
-$Comp
-L readout_trenz-rescue:R-Device R?
-U 1 1 60CE12F7
-P 21600 4800
-AR Path="/605DF89A/60CE12F7" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/60CE12F7" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60CE12F7" Ref="R?"  Part="1" 
-AR Path="/60D04563/60CE12F7" Ref="R?"  Part="1" 
-F 0 "R?" H 21670 4846 50  0000 L CNN
-F 1 "1k" V 21600 4750 50  0000 L CNN
-F 2 "" V 21530 4800 50  0001 C CNN
-F 3 "~" H 21600 4800 50  0001 C CNN
-	1    21600 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout_trenz-rescue:R-Device R?
-U 1 1 60CE12FD
-P 21500 4800
-AR Path="/605DF89A/60CE12FD" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/60CE12FD" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60CE12FD" Ref="R?"  Part="1" 
-AR Path="/60D04563/60CE12FD" Ref="R?"  Part="1" 
-F 0 "R?" H 21570 4846 50  0000 L CNN
-F 1 "1k" V 21500 4750 50  0000 L CNN
-F 2 "" V 21430 4800 50  0001 C CNN
-F 3 "~" H 21500 4800 50  0001 C CNN
-	1    21500 4800
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	20550 5150 21500 5150
-Wire Wire Line
-	20550 5050 21600 5050
-Wire Wire Line
-	20550 4650 21250 4650
-Wire Wire Line
-	20550 4850 21250 4850
-Text Label 21250 4850 2    50   ~ 0
-srout_sc_1
-Entry Wire Line
-	21700 5250 21800 5150
-Entry Wire Line
-	21700 5350 21800 5250
-Entry Wire Line
-	21250 4650 21350 4550
-Entry Wire Line
-	21250 4850 21350 4750
-Entry Wire Line
-	21700 5050 21800 4950
-Entry Wire Line
-	21700 5150 21800 5050
-Wire Bus Line
-	21350 4300 21850 4300
-Wire Bus Line
-	21800 4950 22300 4950
-Text HLabel 21850 4300 2    50   Input ~ 0
-CITIROC_IN_1
-Text HLabel 22300 4950 2    50   Input ~ 0
-CITIROC_IN_1
-Text HLabel 17900 4350 0    50   Input ~ 0
-CITIROC_IN_1
-Text HLabel 17900 3250 0    50   Input ~ 0
-CITIROC_IN_1
-Text Notes 21950 5100 0    50   ~ 0
-Go to the same bank as T\n
-Text Notes 17800 5150 0    50   ~ 0
-All other control signals go to B34\n
-Entry Wire Line
-	18500 1350 18400 1450
-Entry Wire Line
-	18500 1550 18400 1650
-Entry Wire Line
-	18500 1450 18400 1550
-Entry Wire Line
-	18500 3050 18400 3150
-Entry Wire Line
-	18500 3150 18400 3250
-Wire Bus Line
-	17900 3250 18400 3250
-Wire Wire Line
-	17400 7000 17900 7000
-Wire Wire Line
-	17400 7100 17900 7100
-Wire Wire Line
-	17400 7200 17900 7200
-Wire Wire Line
-	17400 7300 17900 7300
-Wire Wire Line
-	17400 7400 17900 7400
-Wire Wire Line
-	17400 7500 17900 7500
-Wire Wire Line
-	17400 7600 17900 7600
-Wire Wire Line
-	17400 7700 17900 7700
 Wire Wire Line
 	14750 3700 15250 3700
 Wire Wire Line
@@ -2177,22 +1520,6 @@ Wire Wire Line
 Wire Wire Line
 	14750 5800 15250 5800
 Wire Wire Line
-	13050 5200 13550 5200
-Wire Wire Line
-	13050 5300 13550 5300
-Wire Wire Line
-	13050 5400 13550 5400
-Wire Wire Line
-	13050 5500 13550 5500
-Wire Wire Line
-	13050 5600 13550 5600
-Wire Wire Line
-	13050 5700 13550 5700
-Wire Wire Line
-	13050 5800 13550 5800
-Wire Wire Line
-	13050 5900 13550 5900
-Wire Wire Line
 	13050 4700 13550 4700
 Wire Wire Line
 	13050 4800 13550 4800
@@ -2201,9 +1528,33 @@ Wire Wire Line
 Wire Wire Line
 	13050 5000 13550 5000
 Wire Wire Line
+	13050 5200 13550 5200
+Wire Wire Line
+	13050 5300 13550 5300
+Wire Wire Line
+	13050 5400 13550 5400
+Wire Wire Line
+	13050 5500 13550 5500
+Wire Wire Line
+	13050 3900 13550 3900
+Wire Wire Line
+	13050 4000 13550 4000
+Wire Wire Line
 	13050 4100 13550 4100
 Wire Wire Line
 	13050 4200 13550 4200
+Wire Wire Line
+	13050 3700 13550 3700
+Wire Wire Line
+	13050 3800 13550 3800
+Entry Wire Line
+	12950 3800 13050 3900
+Entry Wire Line
+	12950 3900 13050 4000
+Entry Wire Line
+	12950 4000 13050 4100
+Entry Wire Line
+	12950 4100 13050 4200
 Entry Wire Line
 	12950 4600 13050 4700
 Entry Wire Line
@@ -2220,15 +1571,7 @@ Entry Wire Line
 	12950 5300 13050 5400
 Entry Wire Line
 	12950 5400 13050 5500
-Entry Wire Line
-	12950 5500 13050 5600
-Entry Wire Line
-	12950 5600 13050 5700
-Entry Wire Line
-	12950 5700 13050 5800
-Entry Wire Line
-	12950 5800 13050 5900
-Text Label 15800 3600 2    50   ~ 0
+Text Label 15350 3600 0    50   ~ 0
 T1_[0,17]
 Text Label 15250 3700 2    50   ~ 0
 T1_0
@@ -2266,62 +1609,62 @@ Text Label 15250 5700 2    50   ~ 0
 T1_16
 Text Label 15250 5800 2    50   ~ 0
 T1_17
-Text Label 13050 4100 0    50   ~ 0
+Text Label 13050 3700 0    50   ~ 0
 T1_18
-Text Label 13050 4200 0    50   ~ 0
+Text Label 13050 3800 0    50   ~ 0
 T1_19
-Text Label 13050 4700 0    50   ~ 0
+Text Label 13050 3900 0    50   ~ 0
 T1_20
-Text Label 13050 4800 0    50   ~ 0
+Text Label 13050 4000 0    50   ~ 0
 T1_21
-Text Label 13050 4900 0    50   ~ 0
+Text Label 13050 4100 0    50   ~ 0
 T1_22
-Text Label 13050 5000 0    50   ~ 0
+Text Label 13050 4200 0    50   ~ 0
 T1_23
-Text Label 13050 5200 0    50   ~ 0
+Text Label 13050 4700 0    50   ~ 0
 T1_24
-Text Label 13050 5300 0    50   ~ 0
+Text Label 13050 4800 0    50   ~ 0
 T1_25
-Text Label 13050 5400 0    50   ~ 0
+Text Label 13050 4900 0    50   ~ 0
 T1_26
-Text Label 13050 5500 0    50   ~ 0
+Text Label 13050 5000 0    50   ~ 0
 T1_27
-Text Label 13050 5600 0    50   ~ 0
+Text Label 13050 5200 0    50   ~ 0
 T1_28
-Text Label 13050 5700 0    50   ~ 0
+Text Label 13050 5300 0    50   ~ 0
 T1_29
-Text Label 13050 5800 0    50   ~ 0
+Text Label 13050 5400 0    50   ~ 0
 T1_30
-Text Label 13050 5900 0    50   ~ 0
+Text Label 13050 5500 0    50   ~ 0
 T1_31
 Wire Wire Line
-	13050 4000 13550 4000
+	7350 5700 7850 5700
 Wire Wire Line
-	13550 3900 13050 3900
-Text Label 13050 4000 0    50   ~ 0
+	7850 5600 7350 5600
+Text Label 7350 5700 0    50   ~ 0
 dig_out_1
-Text Label 13050 3700 0    50   ~ 0
+Text Label 7350 5400 0    50   ~ 0
 NOR32T_oc_1
-Text Label 13050 3800 0    50   ~ 0
+Text Label 7350 5500 0    50   ~ 0
 NOR32_oc_1
-Text Label 13050 3900 0    50   ~ 0
+Text Label 7350 5600 0    50   ~ 0
 OR32_1
 Entry Wire Line
-	13050 3900 12950 3800
+	7350 5600 7250 5500
 Entry Wire Line
-	13050 4000 12950 3900
+	7350 5700 7250 5600
 Entry Wire Line
-	13050 3700 12950 3600
+	7350 5400 7250 5300
 Entry Wire Line
-	13050 3800 12950 3700
+	7350 5500 7250 5400
 Wire Bus Line
-	12950 3600 12450 3600
-Text HLabel 12450 3600 0    50   Output ~ 0
+	7250 5300 6750 5300
+Text HLabel 6750 5300 0    50   Output ~ 0
 CITIROC_IN_1
 Wire Wire Line
-	13550 3700 13050 3700
+	7850 5400 7350 5400
 Wire Wire Line
-	13550 3800 13050 3800
+	7850 5500 7350 5500
 Wire Wire Line
 	13050 1000 13550 1000
 Wire Wire Line
@@ -2480,10 +1823,6 @@ Wire Wire Line
 	14750 2000 15250 2000
 Entry Wire Line
 	15350 2300 15250 2400
-Entry Wire Line
-	18400 2750 18500 2650
-Entry Wire Line
-	18400 2650 18500 2550
 Wire Wire Line
 	9550 3100 9050 3100
 Wire Wire Line
@@ -2536,7 +1875,7 @@ Entry Wire Line
 	9550 2600 9650 2500
 Entry Wire Line
 	9550 2700 9650 2600
-Text Label 9700 2300 0    50   ~ 0
+Text Label 9650 2300 0    50   ~ 0
 ADC_IN_1
 Text Label 9550 2400 2    50   ~ 0
 ADC_CS_1
@@ -2638,7 +1977,7 @@ Entry Wire Line
 	7250 3000 7350 3100
 Wire Bus Line
 	7250 2700 6750 2700
-Text Label 6750 2700 0    50   ~ 0
+Text Label 7250 2700 2    50   ~ 0
 CITIROC_IN_2
 Text HLabel 6750 2700 0    50   Output ~ 0
 CITIROC_IN_2
@@ -2696,7 +2035,7 @@ Text HLabel 6750 2200 0    50   Output ~ 0
 ADC_IN_2
 Text Label 7350 2300 0    50   ~ 0
 ADC_CS_2
-Text Label 7200 2200 2    50   ~ 0
+Text Label 7250 2200 2    50   ~ 0
 ADC_IN_2
 Entry Wire Line
 	7350 2300 7250 2200
@@ -2792,12 +2131,76 @@ Wire Wire Line
 	3600 6200 4700 6200
 Wire Wire Line
 	3600 6100 4500 6100
+Text HLabel 0    1650 2    50   Output ~ 0
+FPGA_rx
+Text HLabel 0    1550 2    50   Input ~ 0
+FPGA_tx
+Wire Wire Line
+	13550 5900 12800 5900
+Wire Wire Line
+	13550 5800 12800 5800
+Text Label 12800 5900 0    50   ~ 0
+UART_TO_MOD
+Text Label 12800 5800 0    50   ~ 0
+UART_FROM_MOD
+Wire Wire Line
+	1000 1650 1750 1650
+Wire Wire Line
+	1000 1550 1750 1550
+Text Label 1750 1650 2    50   ~ 0
+UART_TO_MOD
+Text Label 1750 1550 2    50   ~ 0
+UART_FROM_MOD
+Wire Wire Line
+	7850 1400 7350 1400
+Text Label 7350 1400 0    50   ~ 0
+MGT_RX2_N
+Wire Wire Line
+	7850 1300 7350 1300
+Text Label 7350 1300 0    50   ~ 0
+MGT_RX2_P
+Wire Wire Line
+	9050 1700 9550 1700
+Text Label 9550 1700 2    50   ~ 0
+MGT_TX2_N
+Wire Wire Line
+	9050 1600 9550 1600
+Text Label 9550 1600 2    50   ~ 0
+MGT_TX2_P
+Text Label 15250 3000 2    50   ~ 0
+SFP0_TX_FAULT
+Wire Wire Line
+	14750 3000 15250 3000
+Text Label 15250 3100 2    50   ~ 0
+SFP0_TX_DIS
+Wire Wire Line
+	14750 3100 15250 3100
+Text Label 15250 3200 2    50   ~ 0
+SFP0_SDA
+Wire Wire Line
+	14750 3200 15250 3200
+Text Label 15250 3300 2    50   ~ 0
+SFP0_SCL
+Wire Wire Line
+	14750 3300 15250 3300
+Text Label 15250 2900 2    50   ~ 0
+SFP0_M-DEF0
+Wire Wire Line
+	14750 2900 15250 2900
+Text Label 15250 2800 2    50   ~ 0
+SFP0_RS0
+Wire Wire Line
+	14750 2800 15250 2800
+Text Label 15250 2600 2    50   ~ 0
+SFP0_LOS
+Wire Wire Line
+	14750 2600 15250 2600
+Text Label 15250 2500 2    50   ~ 0
+SFP0_RS1
+Wire Wire Line
+	14750 2500 15250 2500
 Wire Bus Line
-	21350 4300 21350 4750
-Wire Bus Line
-	21800 4950 21800 5250
-Wire Bus Line
-	12950 3600 12950 3900
+	7250 5300 7250 5600
 Wire Bus Line
 	15350 1800 15350 2300
 Wire Bus Line
@@ -2807,19 +2210,13 @@ Wire Bus Line
 Wire Bus Line
 	15350 900  15350 1600
 Wire Bus Line
-	18400 4350 18400 4950
+	12950 3600 12950 5400
 Wire Bus Line
-	18400 1450 18400 3250
-Wire Bus Line
-	12950 4000 12950 5800
+	7250 2700 7250 4900
 Wire Bus Line
 	9650 2700 9650 4900
 Wire Bus Line
 	12950 900  12950 3400
 Wire Bus Line
 	15350 3600 15350 5700
-Wire Bus Line
-	7250 2700 7250 4900
-Wire Bus Line
-	20850 1250 20850 4350
 $EndSCHEMATC
