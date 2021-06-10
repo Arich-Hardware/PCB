@@ -3228,11 +3228,11 @@ ADC_SDO_1
 Text HLabel 10950 7400 2    50   Input ~ 0
 ADC_IN_1
 Text Label 12050 1250 0    50   ~ 0
-resetb_pa
+resetb_pa_1
 Text Label 12050 1350 0    50   ~ 0
-rstb_PSC
+rstb_PSC_1
 Text Label 12050 1450 0    50   ~ 0
-pwr_on
+pwr_on_1
 Text Label 12050 1550 0    50   ~ 0
 Raz_Chn_p1
 Text Label 12050 1750 0    50   ~ 0
@@ -3244,15 +3244,15 @@ Val_Ext_n1
 Text Label 12050 2250 0    50   ~ 0
 select_1
 Text Label 12050 2450 0    50   ~ 0
-PS_global_trig
+PS_global_trig_1
 Text Label 12050 2550 0    50   ~ 0
-PS_modeb_ext
+PS_modeb_ext_1
 Text Label 12050 2750 0    50   ~ 0
 load_sc_1
 Text Label 12050 2950 0    50   ~ 0
-hold_lg
+hold_lg_1
 Text Label 12050 3050 0    50   ~ 0
-hold_hg
+hold_hg_1
 Text Label 12050 4350 0    50   ~ 0
 srin_read_1
 Text Label 12050 4450 0    50   ~ 0
@@ -3273,20 +3273,6 @@ Text Label 14800 5050 2    50   ~ 0
 NOR32_oc_1
 Text Label 14800 5150 2    50   ~ 0
 OR32_1
-Text GLabel 12050 1250 0    50   Input ~ 0
-resetb_pa
-Text GLabel 12050 1350 0    50   Input ~ 0
-rstb_PSC
-Text GLabel 12050 1450 0    50   Input ~ 0
-pwr_on
-Text GLabel 12050 2450 0    50   Input ~ 0
-PS_global_trig
-Text GLabel 12050 2550 0    50   Input ~ 0
-PS_modeb_ext
-Text GLabel 12050 2950 0    50   Input ~ 0
-hold_lg
-Text GLabel 12050 3050 0    50   Input ~ 0
-hold_hg
 Entry Wire Line
 	12050 4950 11950 4850
 Entry Wire Line
@@ -3313,8 +3299,6 @@ Entry Wire Line
 	12050 2750 11950 2850
 Entry Wire Line
 	12050 2250 11950 2350
-Wire Bus Line
-	11950 2850 11450 2850
 $Comp
 L readout:VccAux U?
 U 1 1 60E0098C
@@ -3408,8 +3392,24 @@ Text HLabel 15850 4850 2    50   Input ~ 0
 CITIROC_IN_1
 Text HLabel 11450 4250 0    50   Input ~ 0
 CITIROC_IN_1
-Text HLabel 11450 2850 0    50   Input ~ 0
+Text HLabel 11450 3150 0    50   Input ~ 0
 CITIROC_IN_1
+Text Notes 15500 5000 0    50   ~ 0
+Go to the same bank as T\n
+Text Notes 11350 5050 0    50   ~ 0
+All other control signals go to B34\n
+Entry Wire Line
+	12050 1250 11950 1350
+Entry Wire Line
+	12050 1450 11950 1550
+Entry Wire Line
+	12050 1350 11950 1450
+Entry Wire Line
+	12050 2950 11950 3050
+Entry Wire Line
+	12050 3050 11950 3150
+Wire Bus Line
+	11450 3150 11950 3150
 Wire Bus Line
 	14900 4200 14900 4650
 Wire Bus Line
@@ -3417,9 +3417,9 @@ Wire Bus Line
 Wire Bus Line
 	15350 4850 15350 5150
 Wire Bus Line
-	11950 1650 11950 2850
-Wire Bus Line
 	11950 4250 11950 4850
+Wire Bus Line
+	11950 1350 11950 3150
 Wire Bus Line
 	1750 6250 1750 9400
 Wire Bus Line
