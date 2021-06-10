@@ -3291,8 +3291,6 @@ Text HLabel 15350 5350 2    50   Input ~ 0
 CITIROC_IN_2
 Text HLabel 15800 6000 2    50   Input ~ 0
 CITIROC_IN_2
-Text GLabel 7800 4700 0    50   Input ~ 0
-hold_hg
 Wire Wire Line
 	12600 3100 12500 3100
 Wire Wire Line
@@ -3333,18 +3331,6 @@ Entry Wire Line
 	12000 2900 11900 3000
 Entry Wire Line
 	12000 2700 11900 2800
-Text GLabel 7800 4600 0    50   Input ~ 0
-hold_lg
-Text GLabel 7800 4350 0    50   Input ~ 0
-PS_modeb_ext
-Text GLabel 7800 4250 0    50   Input ~ 0
-PS_global_trig
-Text GLabel 7800 3150 0    50   Input ~ 0
-pwr_on
-Text GLabel 7800 3050 0    50   Input ~ 0
-rstb_PSC
-Text GLabel 7800 2950 0    50   Input ~ 0
-resetb_pa
 Text Label 12000 4200 0    50   ~ 0
 hold_hg_2
 Text Label 12000 4100 0    50   ~ 0

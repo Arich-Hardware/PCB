@@ -3273,20 +3273,6 @@ Text Label 14800 5050 2    50   ~ 0
 NOR32_oc_1
 Text Label 14800 5150 2    50   ~ 0
 OR32_1
-Text GLabel 10050 1800 0    50   Input ~ 0
-resetb_pa
-Text GLabel 10050 1900 0    50   Input ~ 0
-rstb_PSC
-Text GLabel 10050 2000 0    50   Input ~ 0
-pwr_on
-Text GLabel 10050 3100 0    50   Input ~ 0
-PS_global_trig
-Text GLabel 10050 3200 0    50   Input ~ 0
-PS_modeb_ext
-Text GLabel 10050 3450 0    50   Input ~ 0
-hold_lg
-Text GLabel 10050 3550 0    50   Input ~ 0
-hold_hg
 Entry Wire Line
 	12050 4950 11950 4850
 Entry Wire Line

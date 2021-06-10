@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name backplane-prototype-rescue)(type Legacy)(uri /Users/tejasva/PCB/hardware/backplane-prototype/backplane-prototype-rescue.lib)(options "")(descr ""))
   (lib (name backplane-rescue)(type Legacy)(uri ${KIPRJMOD}/backplane-rescue.lib)(options "")(descr ""))
+  (lib (name ERF8-060-05.0-L-DV)(type Legacy)(uri ${KIPRJMOD}/..libraries/ERF8-060-05.0-L-DV.lib)(options "")(descr ""))
 )
