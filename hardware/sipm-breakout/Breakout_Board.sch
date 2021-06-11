@@ -14,21 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J5
-U 1 1 6044BD27
-P 1750 7100
-F 0 "J5" H 1800 7417 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 1800 7326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1750 7100 50  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/874270802_sd.pdf" H 1750 7100 50  0001 C CNN
-F 4 "0874270802" H 1750 7100 50  0001 C CNN "MFN"
-F 5 "Digi-Key" H 1750 7100 50  0001 C CNN "Supplier"
-F 6 "WM3582-ND" H 1750 7100 50  0001 C CNN "Supplier P/N"
-F 7 "$1.78" H 1750 7100 50  0001 C CNN "Item Cost"
-	1    1750 7100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 6044DA27
 P 4100 7100
@@ -222,18 +207,6 @@ BIAS1
 Text Label 5225 4725 0    50   ~ 0
 BIAS2
 Wire Wire Line
-	1450 7000 1550 7000
-Wire Wire Line
-	1550 7200 1450 7200
-Text Label 1450 7000 2    50   ~ 0
-BIAS1
-Text Label 1450 7200 2    50   ~ 0
-BIAS2
-Text Label 2300 7000 2    50   ~ 0
-BIAS3
-Text Label 2300 7200 2    50   ~ 0
-BIAS4
-Wire Wire Line
 	3900 7000 3800 7000
 Wire Wire Line
 	3900 7200 3800 7200
@@ -374,19 +347,19 @@ Wire Wire Line
 Wire Wire Line
 	3375 3425 3375 3875
 Wire Wire Line
-	3275 3325 4675 3325
+	3275 3325 4275 3325
 Wire Wire Line
 	3275 3325 3275 3775
 Wire Wire Line
-	3175 3225 4675 3225
+	3175 3225 3975 3225
 Wire Wire Line
 	3175 3225 3175 3675
 Wire Wire Line
-	3075 3125 4675 3125
+	3075 3125 3675 3125
 Wire Wire Line
 	3075 3125 3075 3575
 Wire Wire Line
-	2975 3025 4675 3025
+	2975 3025 3375 3025
 Wire Wire Line
 	2975 3025 2975 3475
 Wire Wire Line
@@ -440,12 +413,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR05
 U 1 1 609130E2
-P 3750 1075
-F 0 "#PWR05" H 3750 825 50  0001 C CNN
-F 1 "GND" H 3755 902 50  0000 C CNN
-F 2 "" H 3750 1075 50  0001 C CNN
-F 3 "" H 3750 1075 50  0001 C CNN
-	1    3750 1075
+P 2475 1075
+F 0 "#PWR05" H 2475 825 50  0001 C CNN
+F 1 "GND" H 2480 902 50  0000 C CNN
+F 2 "" H 2475 1075 50  0001 C CNN
+F 3 "" H 2475 1075 50  0001 C CNN
+	1    2475 1075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -755,198 +728,190 @@ OUT
 $Comp
 L Connector:Conn_Coaxial J7
 U 1 1 6040085F
-P 2425 875
-F 0 "J7" H 2353 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 2353 1022 50  0000 C CNN
-F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 2425 875 50  0001 C CNN
-F 3 " ~" H 2425 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 2425 875 50  0001 C CNN "CatNo"
-	1    2425 875 
+P 1575 875
+F 0 "J7" H 1503 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1503 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 1575 875 50  0001 C CNN
+F 3 " ~" H 1575 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 1575 875 50  0001 C CNN "CatNo"
+	1    1575 875 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J8
 U 1 1 60445465
-P 2875 875
-F 0 "J8" H 2803 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 2803 1022 50  0000 C CNN
-F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 2875 875 50  0001 C CNN
-F 3 " ~" H 2875 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 2875 875 50  0001 C CNN "CatNo"
-	1    2875 875 
+P 1875 875
+F 0 "J8" H 1803 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 1803 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 1875 875 50  0001 C CNN
+F 3 " ~" H 1875 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 1875 875 50  0001 C CNN "CatNo"
+	1    1875 875 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J9
 U 1 1 60445BB6
-P 3325 875
-F 0 "J9" H 3253 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 3253 1022 50  0000 C CNN
-F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 3325 875 50  0001 C CNN
-F 3 " ~" H 3325 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 3325 875 50  0001 C CNN "CatNo"
-	1    3325 875 
+P 2175 875
+F 0 "J9" H 2103 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 2103 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 2175 875 50  0001 C CNN
+F 3 " ~" H 2175 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 2175 875 50  0001 C CNN "CatNo"
+	1    2175 875 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J10
 U 1 1 60446437
-P 3750 875
-F 0 "J10" H 3678 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 3678 1022 50  0000 C CNN
-F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 3750 875 50  0001 C CNN
-F 3 " ~" H 3750 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 3175 875 50  0000 C CNN "CatNo"
-	1    3750 875 
+P 2475 875
+F 0 "J10" H 2403 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 2403 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 2475 875 50  0001 C CNN
+F 3 " ~" H 2475 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 2975 1225 50  0000 C CNN "CatNo"
+	1    2475 875 
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 875  3950 1425
+	2675 875  2675 1425
 Wire Wire Line
-	3950 1425 4675 1425
+	2375 875  2375 1525
 Wire Wire Line
-	3525 875  3525 1525
+	2075 875  2075 1625
 Wire Wire Line
-	3525 1525 4675 1525
-Wire Wire Line
-	3075 875  3075 1625
-Wire Wire Line
-	3075 1625 4675 1625
-Wire Wire Line
-	2625 875  2625 1725
-Wire Wire Line
-	2625 1725 4675 1725
+	1775 875  1775 1725
 $Comp
 L power:GND #PWR04
 U 1 1 604EAB1E
-P 3325 1075
-F 0 "#PWR04" H 3325 825 50  0001 C CNN
-F 1 "GND" H 3330 902 50  0000 C CNN
-F 2 "" H 3325 1075 50  0001 C CNN
-F 3 "" H 3325 1075 50  0001 C CNN
-	1    3325 1075
+P 2175 1075
+F 0 "#PWR04" H 2175 825 50  0001 C CNN
+F 1 "GND" H 2180 902 50  0000 C CNN
+F 2 "" H 2175 1075 50  0001 C CNN
+F 3 "" H 2175 1075 50  0001 C CNN
+	1    2175 1075
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 604EAF4D
-P 2875 1075
-F 0 "#PWR03" H 2875 825 50  0001 C CNN
-F 1 "GND" H 2880 902 50  0000 C CNN
-F 2 "" H 2875 1075 50  0001 C CNN
-F 3 "" H 2875 1075 50  0001 C CNN
-	1    2875 1075
+P 1875 1075
+F 0 "#PWR03" H 1875 825 50  0001 C CNN
+F 1 "GND" H 1880 902 50  0000 C CNN
+F 2 "" H 1875 1075 50  0001 C CNN
+F 3 "" H 1875 1075 50  0001 C CNN
+	1    1875 1075
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 604EB1D0
-P 2425 1075
-F 0 "#PWR02" H 2425 825 50  0001 C CNN
-F 1 "GND" H 2430 902 50  0000 C CNN
-F 2 "" H 2425 1075 50  0001 C CNN
-F 3 "" H 2425 1075 50  0001 C CNN
-	1    2425 1075
+P 1575 1075
+F 0 "#PWR02" H 1575 825 50  0001 C CNN
+F 1 "GND" H 1580 902 50  0000 C CNN
+F 2 "" H 1575 1075 50  0001 C CNN
+F 3 "" H 1575 1075 50  0001 C CNN
+	1    1575 1075
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 604EB729
-P 8425 1075
-F 0 "#PWR012" H 8425 825 50  0001 C CNN
-F 1 "GND" H 8430 902 50  0000 C CNN
-F 2 "" H 8425 1075 50  0001 C CNN
-F 3 "" H 8425 1075 50  0001 C CNN
-	1    8425 1075
+P 7300 1075
+F 0 "#PWR012" H 7300 825 50  0001 C CNN
+F 1 "GND" H 7305 902 50  0000 C CNN
+F 2 "" H 7300 1075 50  0001 C CNN
+F 3 "" H 7300 1075 50  0001 C CNN
+	1    7300 1075
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J11
 U 1 1 604EBCA7
-P 7100 875
-F 0 "J11" H 7028 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 7028 1022 50  0000 C CNN
-F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 7100 875 50  0001 C CNN
-F 3 " ~" H 7100 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 7100 875 50  0001 C CNN "CatNo"
-	1    7100 875 
+P 6400 875
+F 0 "J11" H 6328 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 6328 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 6400 875 50  0001 C CNN
+F 3 " ~" H 6400 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 6400 875 50  0001 C CNN "CatNo"
+	1    6400 875 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J12
 U 1 1 604EBCB1
-P 7550 875
-F 0 "J12" H 7478 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 7478 1022 50  0000 C CNN
-F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 7550 875 50  0001 C CNN
-F 3 " ~" H 7550 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 7550 875 50  0001 C CNN "CatNo"
-	1    7550 875 
+P 6700 875
+F 0 "J12" H 6628 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 6628 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 6700 875 50  0001 C CNN
+F 3 " ~" H 6700 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 6700 875 50  0001 C CNN "CatNo"
+	1    6700 875 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J13
 U 1 1 604EBCBB
-P 8000 875
-F 0 "J13" H 7928 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 7928 1022 50  0000 C CNN
-F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 8000 875 50  0001 C CNN
-F 3 " ~" H 8000 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 8000 875 50  0001 C CNN "CatNo"
-	1    8000 875 
+P 7000 875
+F 0 "J13" H 6928 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 6928 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 7000 875 50  0001 C CNN
+F 3 " ~" H 7000 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 7000 875 50  0001 C CNN "CatNo"
+	1    7000 875 
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J14
 U 1 1 604EBCC5
-P 8425 875
-F 0 "J14" H 8353 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 8353 1022 50  0000 C CNN
-F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 8425 875 50  0001 C CNN
-F 3 " ~" H 8425 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 8425 875 50  0001 C CNN "CatNo"
-	1    8425 875 
+P 7300 875
+F 0 "J14" H 7228 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 7228 1022 50  0000 C CNN
+F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 7300 875 50  0001 C CNN
+F 3 " ~" H 7300 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 7300 875 50  0001 C CNN "CatNo"
+	1    7300 875 
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8625 875  8625 1425
+	7500 875  7500 1425
 Wire Wire Line
-	8200 875  8200 1525
+	7200 875  7200 1525
 Wire Wire Line
-	7750 875  7750 1625
+	6900 875  6900 1625
 Wire Wire Line
-	7300 875  7300 1725
+	6600 875  6600 1725
 $Comp
 L power:GND #PWR011
 U 1 1 604EBCD3
-P 8000 1075
-F 0 "#PWR011" H 8000 825 50  0001 C CNN
-F 1 "GND" H 8005 902 50  0000 C CNN
-F 2 "" H 8000 1075 50  0001 C CNN
-F 3 "" H 8000 1075 50  0001 C CNN
-	1    8000 1075
+P 7000 1075
+F 0 "#PWR011" H 7000 825 50  0001 C CNN
+F 1 "GND" H 7005 902 50  0000 C CNN
+F 2 "" H 7000 1075 50  0001 C CNN
+F 3 "" H 7000 1075 50  0001 C CNN
+	1    7000 1075
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR010
 U 1 1 604EBCDD
-P 7550 1075
-F 0 "#PWR010" H 7550 825 50  0001 C CNN
-F 1 "GND" H 7555 902 50  0000 C CNN
-F 2 "" H 7550 1075 50  0001 C CNN
-F 3 "" H 7550 1075 50  0001 C CNN
-	1    7550 1075
+P 6700 1075
+F 0 "#PWR010" H 6700 825 50  0001 C CNN
+F 1 "GND" H 6705 902 50  0000 C CNN
+F 2 "" H 6700 1075 50  0001 C CNN
+F 3 "" H 6700 1075 50  0001 C CNN
+	1    6700 1075
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
 U 1 1 604EBCE7
-P 7100 1075
-F 0 "#PWR09" H 7100 825 50  0001 C CNN
-F 1 "GND" H 7105 902 50  0000 C CNN
-F 2 "" H 7100 1075 50  0001 C CNN
-F 3 "" H 7100 1075 50  0001 C CNN
-	1    7100 1075
+P 6400 1075
+F 0 "#PWR09" H 6400 825 50  0001 C CNN
+F 1 "GND" H 6405 902 50  0000 C CNN
+F 2 "" H 6400 1075 50  0001 C CNN
+F 3 "" H 6400 1075 50  0001 C CNN
+	1    6400 1075
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -955,7 +920,7 @@ U 1 1 603C8614
 P 4875 3025
 F 0 "J1" H 4925 4842 50  0000 C CNN
 F 1 "Conn_02x34_Odd_Even" H 4925 4751 50  0000 C CNN
-F 2 "Breakout_Board_Parts:SAMTEC_CLM-134-02-F-D" H 4875 3025 50  0001 C CNN
+F 2 "Readout_Board_Parts:SAMTEC_CLM-134-02-F-D" H 4875 3025 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 4875 3025 50  0001 C CNN
 F 4 "CLM-134-02-F-D" H 4875 3025 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 4875 3025 50  0001 C CNN "Supplier"
@@ -976,18 +941,6 @@ F 4 "752091103GP-ND" V 150 1775 50  0000 C CNN "CatNo"
 	1    875  1825
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	3950 1425 1375 1425
-Connection ~ 3950 1425
-Wire Wire Line
-	3525 1525 1475 1525
-Connection ~ 3525 1525
-Wire Wire Line
-	3075 1625 1575 1625
-Connection ~ 3075 1625
-Wire Wire Line
-	2625 1725 1675 1725
-Connection ~ 2625 1725
 Wire Wire Line
 	1775 1825 1075 1825
 Connection ~ 1775 1825
@@ -1273,9 +1226,6 @@ Wire Wire Line
 Connection ~ 7200 2650
 Wire Wire Line
 	7200 2650 7200 5625
-Connection ~ 7300 1725
-Wire Wire Line
-	7300 1725 6500 1725
 Connection ~ 7300 2750
 Wire Wire Line
 	7300 2750 7300 5625
@@ -1291,9 +1241,6 @@ Wire Wire Line
 Connection ~ 7700 3150
 Wire Wire Line
 	7700 3150 7700 5625
-Connection ~ 7750 1625
-Wire Wire Line
-	7750 1625 6400 1625
 Connection ~ 7800 3475
 Wire Wire Line
 	7800 3475 7800 5625
@@ -1306,9 +1253,6 @@ Wire Wire Line
 Connection ~ 8100 3775
 Wire Wire Line
 	8100 3775 8100 5625
-Connection ~ 8200 1525
-Wire Wire Line
-	8200 1525 6300 1525
 Connection ~ 8200 3875
 Wire Wire Line
 	8200 3875 8200 5625
@@ -1324,9 +1268,6 @@ Wire Wire Line
 Connection ~ 8600 4500
 Wire Wire Line
 	8600 4500 8600 5625
-Connection ~ 8625 1425
-Wire Wire Line
-	8625 1425 6200 1425
 Connection ~ 8700 4600
 Wire Wire Line
 	8700 4600 8700 5625
@@ -1733,15 +1674,11 @@ F 3 "" H 5000 7025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 1725 9500 1725
-Wire Wire Line
 	9300 4525 9500 4525
 Wire Wire Line
 	9200 4425 9500 4425
 Wire Wire Line
 	9100 4325 9500 4325
-Wire Wire Line
-	7750 1625 9500 1625
 Wire Wire Line
 	9000 4225 9500 4225
 Wire Wire Line
@@ -1763,13 +1700,9 @@ Wire Wire Line
 Wire Wire Line
 	8100 3325 9500 3325
 Wire Wire Line
-	8200 1525 9500 1525
+	8000 3225 8275 3225
 Wire Wire Line
-	8000 3225 9500 3225
-Wire Wire Line
-	7900 3125 9500 3125
-Wire Wire Line
-	7800 3025 9500 3025
+	7900 3125 8575 3125
 Wire Wire Line
 	7700 2925 9500 2925
 Wire Wire Line
@@ -1784,8 +1717,6 @@ Wire Wire Line
 	7200 2425 9500 2425
 Wire Wire Line
 	7100 2325 9500 2325
-Wire Wire Line
-	8625 1425 9500 1425
 Wire Wire Line
 	7000 2225 9500 2225
 Wire Wire Line
@@ -1802,7 +1733,7 @@ U 1 1 609B4CC1
 P 9800 3025
 F 0 "J2" H 9850 4842 50  0000 C CNN
 F 1 "Conn_02x34_Odd_Even" H 9850 4751 50  0000 C CNN
-F 2 "Breakout_Board_Parts:SAMTEC_CLM-134-02-F-D" H 9800 3025 50  0001 C CNN
+F 2 "Readout_Board_Parts:SAMTEC_CLM-134-02-F-D" H 9800 3025 50  0001 C CNN
 F 3 "http://suddendocs.samtec.com/catalog_english/clm_sm.pdf" H 9800 3025 50  0001 C CNN
 F 4 "CLM-134-02-F-D" H 9800 3025 50  0001 C CNN "MFN"
 F 5 "Digi-Key" H 9800 3025 50  0001 C CNN "Supplier"
@@ -1813,46 +1744,361 @@ F 7 "$9.02" H 9800 3025 50  0001 C CNN "Item Cost"
 $EndComp
 Wire Wire Line
 	10000 4725 10200 4725
-Wire Wire Line
-	2050 7000 2375 7000
-Wire Wire Line
-	2050 7200 2375 7200
-Wire Wire Line
-	1175 7100 1175 7300
-Wire Wire Line
-	1175 7100 1550 7100
-Wire Wire Line
-	1175 7300 1550 7300
-$Comp
-L power:GND #PWR?
-U 1 1 60EDDCFD
-P 1175 7300
-F 0 "#PWR?" H 1175 7050 50  0001 C CNN
-F 1 "GND" H 1180 7127 50  0000 C CNN
-F 2 "" H 1175 7300 50  0001 C CNN
-F 3 "" H 1175 7300 50  0001 C CNN
-	1    1175 7300
-	1    0    0    -1  
-$EndComp
-Connection ~ 1175 7300
-Wire Wire Line
-	2050 7100 2475 7100
-Wire Wire Line
-	2475 7100 2475 7300
-Wire Wire Line
-	2475 7300 2050 7300
-$Comp
-L power:GND #PWR?
-U 1 1 60F67D41
-P 2475 7300
-F 0 "#PWR?" H 2475 7050 50  0001 C CNN
-F 1 "GND" H 2480 7127 50  0000 C CNN
-F 2 "" H 2475 7300 50  0001 C CNN
-F 3 "" H 2475 7300 50  0001 C CNN
-	1    2475 7300
-	1    0    0    -1  
-$EndComp
-Connection ~ 2475 7300
 Text Notes 6325 6675 0    75   ~ 0
 Rev B:  \nFlip J2 L/R\nModify J5 pinout to make Ed happy
+$Comp
+L Connector:Conn_01x01_Female J15
+U 1 1 60C79A37
+P 2675 7100
+F 0 "J15" H 2703 7126 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2703 7035 50  0000 L CNN
+F 2 "generic-test-pcb:Banana_Pomona_73099" H 2675 7100 50  0001 C CNN
+F 3 "~" H 2675 7100 50  0001 C CNN
+	1    2675 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J16
+U 1 1 60CC2CBC
+P 2675 7450
+F 0 "J16" H 2703 7476 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 2703 7385 50  0000 L CNN
+F 2 "generic-test-pcb:Banana_Pomona_73099" H 2675 7450 50  0001 C CNN
+F 3 "~" H 2675 7450 50  0001 C CNN
+	1    2675 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 60CC3473
+P 2275 7575
+F 0 "#PWR01" H 2275 7325 50  0001 C CNN
+F 1 "GND" H 2280 7402 50  0000 C CNN
+F 2 "" H 2275 7575 50  0001 C CNN
+F 3 "" H 2275 7575 50  0001 C CNN
+	1    2275 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 7575 2275 7450
+Wire Wire Line
+	2275 7450 2475 7450
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J5
+U 1 1 60DC58FF
+P 1600 7200
+F 0 "J5" H 1650 7517 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1650 7426 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 1600 7200 50  0001 C CNN
+F 3 "~" H 1600 7200 50  0001 C CNN
+	1    1600 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 7100 2075 7100
+Wire Wire Line
+	1900 7200 2075 7200
+Wire Wire Line
+	2075 7200 2075 7100
+Connection ~ 2075 7100
+Wire Wire Line
+	2075 7100 2475 7100
+Wire Wire Line
+	1900 7300 2075 7300
+Wire Wire Line
+	2075 7300 2075 7200
+Connection ~ 2075 7200
+Wire Wire Line
+	1900 7400 2075 7400
+Wire Wire Line
+	2075 7400 2075 7300
+Connection ~ 2075 7300
+Wire Wire Line
+	1400 7100 850  7100
+Wire Wire Line
+	1400 7200 850  7200
+Wire Wire Line
+	1400 7300 850  7300
+Wire Wire Line
+	1400 7400 850  7400
+Text Label 850  7100 0    50   ~ 0
+BIAS1
+Text Label 850  7200 0    50   ~ 0
+BIAS2
+Text Label 850  7300 0    50   ~ 0
+BIAS3
+Text Label 850  7400 0    50   ~ 0
+BIAS4
+Text Notes 2550 6750 0    50   ~ 0
+Banana for Bias input
+Text Notes 1225 6750 0    50   ~ 0
+Jumper select bias voltages
+Wire Wire Line
+	1375 1425 2675 1425
+Wire Wire Line
+	1475 1525 2375 1525
+Wire Wire Line
+	1575 1625 2075 1625
+Wire Wire Line
+	1675 1725 1775 1725
+Connection ~ 1775 1725
+Connection ~ 2075 1625
+Connection ~ 2375 1525
+Connection ~ 2675 1425
+Wire Wire Line
+	2675 1425 4675 1425
+Wire Wire Line
+	2375 1525 4675 1525
+Wire Wire Line
+	2075 1625 4675 1625
+Wire Wire Line
+	1775 1725 4675 1725
+$Comp
+L power:GND #PWR020
+U 1 1 6128A487
+P 4075 1075
+F 0 "#PWR020" H 4075 825 50  0001 C CNN
+F 1 "GND" H 4080 902 50  0000 C CNN
+F 2 "" H 4075 1075 50  0001 C CNN
+F 3 "" H 4075 1075 50  0001 C CNN
+	1    4075 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J17
+U 1 1 6128AB56
+P 3175 875
+F 0 "J17" H 3103 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3103 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 3175 875 50  0001 C CNN
+F 3 " ~" H 3175 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 3175 875 50  0001 C CNN "CatNo"
+	1    3175 875 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J18
+U 1 1 6128AB61
+P 3475 875
+F 0 "J18" H 3403 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3403 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 3475 875 50  0001 C CNN
+F 3 " ~" H 3475 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 3475 875 50  0001 C CNN "CatNo"
+	1    3475 875 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J19
+U 1 1 6128AB6C
+P 3775 875
+F 0 "J19" H 3703 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3703 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 3775 875 50  0001 C CNN
+F 3 " ~" H 3775 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 3775 875 50  0001 C CNN "CatNo"
+	1    3775 875 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J20
+U 1 1 6128AB77
+P 4075 875
+F 0 "J20" H 4003 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 4003 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 4075 875 50  0001 C CNN
+F 3 " ~" H 4075 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 3500 875 50  0001 C CNN "CatNo"
+	1    4075 875 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 6128AB85
+P 3775 1075
+F 0 "#PWR019" H 3775 825 50  0001 C CNN
+F 1 "GND" H 3780 902 50  0000 C CNN
+F 2 "" H 3775 1075 50  0001 C CNN
+F 3 "" H 3775 1075 50  0001 C CNN
+	1    3775 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 6128AB8F
+P 3475 1075
+F 0 "#PWR018" H 3475 825 50  0001 C CNN
+F 1 "GND" H 3480 902 50  0000 C CNN
+F 2 "" H 3475 1075 50  0001 C CNN
+F 3 "" H 3475 1075 50  0001 C CNN
+	1    3475 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 6128AB99
+P 3175 1075
+F 0 "#PWR017" H 3175 825 50  0001 C CNN
+F 1 "GND" H 3180 902 50  0000 C CNN
+F 2 "" H 3175 1075 50  0001 C CNN
+F 3 "" H 3175 1075 50  0001 C CNN
+	1    3175 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 6137FE8B
+P 8675 1075
+F 0 "#PWR024" H 8675 825 50  0001 C CNN
+F 1 "GND" H 8680 902 50  0000 C CNN
+F 2 "" H 8675 1075 50  0001 C CNN
+F 3 "" H 8675 1075 50  0001 C CNN
+	1    8675 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J21
+U 1 1 613804F2
+P 7775 875
+F 0 "J21" H 7703 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 7703 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 7775 875 50  0001 C CNN
+F 3 " ~" H 7775 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 7775 875 50  0001 C CNN "CatNo"
+	1    7775 875 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J22
+U 1 1 613804FD
+P 8075 875
+F 0 "J22" H 8003 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8003 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 8075 875 50  0001 C CNN
+F 3 " ~" H 8075 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 8075 875 50  0001 C CNN "CatNo"
+	1    8075 875 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J23
+U 1 1 61380508
+P 8375 875
+F 0 "J23" H 8303 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8303 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 8375 875 50  0001 C CNN
+F 3 " ~" H 8375 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 8375 875 50  0001 C CNN "CatNo"
+	1    8375 875 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J24
+U 1 1 61380513
+P 8675 875
+F 0 "J24" H 8603 1113 50  0000 C CNN
+F 1 "Conn_Coaxial" H 8603 1022 50  0000 C CNN
+F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 8675 875 50  0001 C CNN
+F 3 " ~" H 8675 875 50  0001 C CNN
+F 4 "1124-1424-ND" H 8100 875 50  0001 C CNN "CatNo"
+	1    8675 875 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 6138051D
+P 8375 1075
+F 0 "#PWR023" H 8375 825 50  0001 C CNN
+F 1 "GND" H 8380 902 50  0000 C CNN
+F 2 "" H 8375 1075 50  0001 C CNN
+F 3 "" H 8375 1075 50  0001 C CNN
+	1    8375 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 61380527
+P 8075 1075
+F 0 "#PWR022" H 8075 825 50  0001 C CNN
+F 1 "GND" H 8080 902 50  0000 C CNN
+F 2 "" H 8075 1075 50  0001 C CNN
+F 3 "" H 8075 1075 50  0001 C CNN
+	1    8075 1075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 61380531
+P 7775 1075
+F 0 "#PWR021" H 7775 825 50  0001 C CNN
+F 1 "GND" H 7780 902 50  0000 C CNN
+F 2 "" H 7775 1075 50  0001 C CNN
+F 3 "" H 7775 1075 50  0001 C CNN
+	1    7775 1075
+	1    0    0    -1  
+$EndComp
+Connection ~ 6600 1725
+Wire Wire Line
+	6600 1725 6500 1725
+Connection ~ 6900 1625
+Wire Wire Line
+	6900 1625 6400 1625
+Connection ~ 7200 1525
+Wire Wire Line
+	7200 1525 6300 1525
+Connection ~ 7500 1425
+Wire Wire Line
+	7500 1425 6200 1425
+Wire Wire Line
+	6600 1725 9500 1725
+Wire Wire Line
+	6900 1625 9500 1625
+Wire Wire Line
+	7200 1525 9500 1525
+Wire Wire Line
+	7500 1425 9500 1425
+Wire Wire Line
+	3375 875  3375 3025
+Connection ~ 3375 3025
+Wire Wire Line
+	3375 3025 4675 3025
+Wire Wire Line
+	3675 875  3675 3125
+Connection ~ 3675 3125
+Wire Wire Line
+	3675 3125 4675 3125
+Wire Wire Line
+	3975 875  3975 3225
+Connection ~ 3975 3225
+Wire Wire Line
+	3975 3225 4675 3225
+Wire Wire Line
+	4275 875  4275 3325
+Connection ~ 4275 3325
+Wire Wire Line
+	4275 3325 4675 3325
+Wire Wire Line
+	8875 875  8875 3025
+Wire Wire Line
+	7800 3025 8875 3025
+Connection ~ 8875 3025
+Wire Wire Line
+	8875 3025 9500 3025
+Wire Wire Line
+	8575 875  8575 3125
+Connection ~ 8575 3125
+Wire Wire Line
+	8575 3125 9500 3125
+Connection ~ 8275 3225
+Wire Wire Line
+	8275 3225 9500 3225
+Wire Wire Line
+	7975 875  7975 1375
+Wire Wire Line
+	7975 1375 8100 1375
+Wire Wire Line
+	8100 1375 8100 3325
+Connection ~ 8100 3325
+Wire Wire Line
+	8275 875  8275 3225
 $EndSCHEMATC
