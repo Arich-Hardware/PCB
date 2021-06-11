@@ -689,10 +689,12 @@ Wire Wire Line
 Wire Wire Line
 	4300 3350 5000 3350
 $Comp
-L backplane-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J?
+L backplane-rescue:ERF8-060-05.0-L-DV-ERF8-060-05.0-L-DV J1
 U 1 1 6818B918
 P 6000 2350
-F 0 "J?" H 6500 2617 50  0000 C CNN
+AR Path="/6818B918" Ref="J1"  Part="1" 
+AR Path="/60A1644E/6818B918" Ref="J702"  Part="1" 
+F 0 "J702" H 6500 2617 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 6500 2526 50  0000 C CNN
 F 2 "backplane:ERF8-060-05.0-L-DV" H 6000 2350 50  0001 L BNN
 F 3 "https://suddendocs.samtec.com/productspecs/erm8-erf8.pdf" H 6000 2350 50  0001 L BNN
@@ -745,7 +747,7 @@ NoConn ~ 8350 5500
 Wire Wire Line
 	8850 2300 9050 2300
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
+L Connector_Generic:Conn_02x34_Odd_Even J?
 U 1 1 6818B917
 P 8650 3900
 AR Path="/6818B917" Ref="J?"  Part="1" 
@@ -764,7 +766,7 @@ F 7 "$9.02" H 8650 3900 50  0001 C CNN "Item Cost"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
+L Connector_Generic:Conn_02x34_Odd_Even J?
 U 1 1 6818B916
 P 2450 3900
 AR Path="/6818B916" Ref="J?"  Part="1" 
@@ -789,10 +791,10 @@ Wire Wire Line
 	6100 5950 6100 6350
 Connection ~ 6100 5950
 $Comp
-L backplane-rescue:GND-power-backplane-prototype-rescue #PWR?
+L power:GND #PWR0103
 U 1 1 6818B919
 P 5500 14950
-F 0 "#PWR?" H 5500 14700 50  0001 C CNN
+F 0 "#PWR0103" H 5500 14700 50  0001 C CNN
 F 1 "GND" H 5505 14777 50  0000 C CNN
 F 2 "" H 5500 14950 50  0001 C CNN
 F 3 "" H 5500 14950 50  0001 C CNN
@@ -825,10 +827,12 @@ Connection ~ 6100 8150
 Wire Wire Line
 	6100 8150 6100 9450
 $Comp
-L backplane-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J?
+L backplane-rescue:ERF8-060-05.0-L-DV-ERF8-060-05.0-L-DV J2
 U 1 1 6818B915
 P 6000 8750
-F 0 "J?" H 6500 9017 50  0000 C CNN
+AR Path="/6818B915" Ref="J2"  Part="1" 
+AR Path="/60A1644E/6818B915" Ref="J902"  Part="1" 
+F 0 "J902" H 6500 9017 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 6500 8926 50  0000 C CNN
 F 2 "backplane:ERF8-060-05.0-L-DV" H 6000 8750 50  0001 L BNN
 F 3 "https://suddendocs.samtec.com/productspecs/erm8-erf8.pdf" H 6000 8750 50  0001 L BNN
@@ -840,7 +844,7 @@ F 7 "$9.61" H 6000 8750 50  0001 C CNN "Item Cost"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
+L Connector_Generic:Conn_02x34_Odd_Even J?
 U 1 1 6818B91A
 P 2450 12900
 AR Path="/6818B91A" Ref="J?"  Part="1" 
@@ -855,7 +859,7 @@ F 3 "" H 2450 12900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
+L Connector_Generic:Conn_02x34_Odd_Even J?
 U 1 1 63C5DEB0
 P 8650 12900
 AR Path="/63C5DEB0" Ref="J?"  Part="1" 
@@ -870,7 +874,7 @@ F 3 "" H 8650 12900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
+L Connector_Generic:Conn_02x34_Odd_Even J?
 U 1 1 63C5DEA5
 P 2450 8450
 AR Path="/63C5DEA5" Ref="J?"  Part="1" 
@@ -2530,7 +2534,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 8250 6350 8250
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J?
+L Connector_Generic:Conn_02x34_Odd_Even J?
 U 1 1 63C5DEA6
 P 8650 8450
 AR Path="/63C5DEA6" Ref="J?"  Part="1" 

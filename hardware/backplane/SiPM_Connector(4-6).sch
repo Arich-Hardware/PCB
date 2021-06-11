@@ -689,9 +689,11 @@ Wire Wire Line
 Wire Wire Line
 	4300 3350 5000 3350
 $Comp
-L backplane-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J402
+L ERF8-060-05.0-L-DV:ERF8-060-05.0-L-DV J402
 U 1 1 682C5401
 P 6000 2350
+AR Path="/682C5401" Ref="J402"  Part="1" 
+AR Path="/60A16277/682C5401" Ref="J402"  Part="1" 
 F 0 "J402" H 6500 2617 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 6500 2526 50  0000 C CNN
 F 2 "backplane:ERF8-060-05.0-L-DV" H 6000 2350 50  0001 L BNN
@@ -745,7 +747,7 @@ NoConn ~ 8350 5500
 Wire Wire Line
 	8850 2300 9050 2300
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J103
+L Connector_Generic:Conn_02x34_Odd_Even J103
 U 1 1 682C5400
 P 8650 3900
 AR Path="/682C5400" Ref="J103"  Part="1" 
@@ -763,7 +765,7 @@ F 7 "$9.02" H 8650 3900 50  0001 C CNN "Item Cost"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J101
+L Connector_Generic:Conn_02x34_Odd_Even J101
 U 1 1 682C53FF
 P 2450 3900
 AR Path="/682C53FF" Ref="J101"  Part="1" 
@@ -787,7 +789,7 @@ Wire Wire Line
 	6100 5950 6100 6350
 Connection ~ 6100 5950
 $Comp
-L backplane-rescue:GND-power-backplane-prototype-rescue #PWR0101
+L power:GND #PWR0101
 U 1 1 682C5402
 P 5500 14950
 F 0 "#PWR0101" H 5500 14700 50  0001 C CNN
@@ -823,9 +825,11 @@ Connection ~ 6100 8150
 Wire Wire Line
 	6100 8150 6100 9450
 $Comp
-L backplane-rescue:ERF8-060-XX.X-X-DV-ERF8-060-05.0-L-DV-backplane-prototype-rescue J602
+L ERF8-060-05.0-L-DV:ERF8-060-05.0-L-DV J602
 U 1 1 682C53FE
 P 6000 8750
+AR Path="/682C53FE" Ref="J602"  Part="1" 
+AR Path="/60A16277/682C53FE" Ref="J602"  Part="1" 
 F 0 "J602" H 6500 9017 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 6500 8926 50  0000 C CNN
 F 2 "backplane:ERF8-060-05.0-L-DV" H 6000 8750 50  0001 L BNN
@@ -838,7 +842,7 @@ F 7 "$9.61" H 6000 8750 50  0001 C CNN "Item Cost"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J301
+L Connector_Generic:Conn_02x34_Odd_Even J301
 U 1 1 682C5403
 P 2450 12900
 AR Path="/682C5403" Ref="J301"  Part="1" 
@@ -852,7 +856,7 @@ F 3 "" H 2450 12900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J303
+L Connector_Generic:Conn_02x34_Odd_Even J303
 U 1 1 682C53FD
 P 8650 12900
 AR Path="/682C53FD" Ref="J303"  Part="1" 
@@ -866,7 +870,7 @@ F 3 "" H 8650 12900 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J201
+L Connector_Generic:Conn_02x34_Odd_Even J201
 U 1 1 682C53FB
 P 2450 8450
 AR Path="/682C53FB" Ref="J201"  Part="1" 
@@ -2525,7 +2529,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 8250 6350 8250
 $Comp
-L backplane-rescue:Conn_02x34_Odd_Even-Connector_Generic-backplane-prototype-rescue J203
+L Connector_Generic:Conn_02x34_Odd_Even J203
 U 1 1 682C53FC
 P 8650 8450
 AR Path="/682C53FC" Ref="J203"  Part="1" 
