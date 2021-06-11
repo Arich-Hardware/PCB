@@ -1,8 +1,3 @@
 (sym_lib_table
   (lib (name readout)(type Legacy)(uri ${KIPRJMOD}/../libraries/readout.lib)(options "")(descr ""))
-  (lib (name Arich_SiPM_Board_Parts)(type Legacy)(uri PCB/hardware/libraries/Arich_SiPM_Board_Parts.lib)(options "")(descr ""))
-  (lib (name readout_slice-rescue)(type Legacy)(uri ${KIPRJMOD}/readout_slice-rescue.lib)(options "")(descr ""))
-  (lib (name readout_trenz-rescue)(type Legacy)(uri ${KIPRJMOD}/readout_trenz-rescue.lib)(options "")(descr ""))
-  (lib (name Connector_Generic)(type Legacy)(uri ${KIPRJMOD}/Connector_Generic.lib)(options "")(descr ""))
-  (lib (name ERF8-060-05.0-L-DV)(type Legacy)(uri PCB/hardware/libraries/ERF8-060-05.0-L-DV.lib)(options "")(descr ""))
 )

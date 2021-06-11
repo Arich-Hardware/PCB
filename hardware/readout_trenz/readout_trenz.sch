@@ -86,7 +86,7 @@ F 3 "" H 9600 5100 50  0001 C CNN
 $EndComp
 Connection ~ 9600 4850
 $Comp
-L readout:Conn_02x12_Counter_Clockwise-Connector_Generic J?
+L Connector_Generic:Conn_02x12_Counter_Clockwise J?
 U 1 1 60B1DFBC
 P 9250 4350
 F 0 "J?" H 9300 5067 50  0000 C CNN
