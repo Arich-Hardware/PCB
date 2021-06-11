@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -716,10 +716,6 @@ Entry Wire Line
 	15350 4700 15250 4800
 Entry Wire Line
 	15350 4800 15250 4900
-Entry Wire Line
-	15350 4900 15250 5000
-Entry Wire Line
-	15350 5000 15250 5100
 Entry Wire Line
 	15350 5100 15250 5200
 Entry Wire Line
@@ -1494,10 +1490,6 @@ Wire Wire Line
 Wire Wire Line
 	14750 4900 15250 4900
 Wire Wire Line
-	14750 5000 15250 5000
-Wire Wire Line
-	14750 5100 15250 5100
-Wire Wire Line
 	14750 5200 15250 5200
 Wire Wire Line
 	14750 5300 15250 5300
@@ -1519,8 +1511,6 @@ Wire Wire Line
 	13050 5000 13550 5000
 Wire Wire Line
 	13050 5200 13550 5200
-Wire Wire Line
-	13050 5300 13550 5300
 Wire Wire Line
 	13050 5400 13550 5400
 Wire Wire Line
@@ -1583,50 +1573,6 @@ Text Label 15250 4800 2    50   ~ 0
 T1_8
 Text Label 15250 4900 2    50   ~ 0
 T1_9
-Text Label 15250 5000 2    50   ~ 0
-T1_10
-Text Label 15250 5100 2    50   ~ 0
-T1_11
-Text Label 15250 5200 2    50   ~ 0
-T1_12
-Text Label 15250 5300 2    50   ~ 0
-T1_13
-Text Label 15250 5500 2    50   ~ 0
-T1_14
-Text Label 15250 5600 2    50   ~ 0
-T1_15
-Text Label 15250 5700 2    50   ~ 0
-T1_16
-Text Label 15250 5800 2    50   ~ 0
-T1_17
-Text Label 13050 3700 0    50   ~ 0
-T1_18
-Text Label 13050 3800 0    50   ~ 0
-T1_19
-Text Label 13050 3900 0    50   ~ 0
-T1_20
-Text Label 13050 4000 0    50   ~ 0
-T1_21
-Text Label 13050 4100 0    50   ~ 0
-T1_22
-Text Label 13050 4200 0    50   ~ 0
-T1_23
-Text Label 13050 4700 0    50   ~ 0
-T1_24
-Text Label 13050 4800 0    50   ~ 0
-T1_25
-Text Label 13050 4900 0    50   ~ 0
-T1_26
-Text Label 13050 5000 0    50   ~ 0
-T1_27
-Text Label 13050 5200 0    50   ~ 0
-T1_28
-Text Label 13050 5300 0    50   ~ 0
-T1_29
-Text Label 13050 5400 0    50   ~ 0
-T1_30
-Text Label 13050 5500 0    50   ~ 0
-T1_31
 Wire Wire Line
 	7350 5700 7850 5700
 Wire Wire Line
@@ -2205,6 +2151,68 @@ Wire Wire Line
 	7850 4000 7350 4000
 Text Label 7350 4000 0    50   ~ 0
 VCCIO34
+Wire Wire Line
+	13050 5300 13550 5300
+Text HLabel 14950 5000 2    50   Input ~ 0
+CLOCK
+Text HLabel 14950 5100 2    50   Input ~ 0
+TRIGGER
+Wire Wire Line
+	14750 5000 14950 5000
+Wire Wire Line
+	14950 5100 14750 5100
+Wire Wire Line
+	13050 5600 13550 5600
+Wire Wire Line
+	13050 5700 13550 5700
+Entry Wire Line
+	12950 5500 13050 5600
+Entry Wire Line
+	12950 5600 13050 5700
+Text Label 15250 5200 2    50   ~ 0
+T1_10
+Text Label 15250 5300 2    50   ~ 0
+T1_11
+Text Label 15250 5500 2    50   ~ 0
+T1_12
+Text Label 15250 5600 2    50   ~ 0
+T1_13
+Text Label 15250 5700 2    50   ~ 0
+T1_14
+Text Label 15250 5800 2    50   ~ 0
+T1_15
+Text Label 13050 3700 0    50   ~ 0
+T1_16
+Text Label 13050 3800 0    50   ~ 0
+T1_17
+Text Label 13050 3900 0    50   ~ 0
+T1_18
+Text Label 13050 4000 0    50   ~ 0
+T1_19
+Text Label 13050 4100 0    50   ~ 0
+T1_20
+Text Label 13050 4200 0    50   ~ 0
+T1_21
+Text Label 13050 4700 0    50   ~ 0
+T1_22
+Text Label 13050 4800 0    50   ~ 0
+T1_23
+Text Label 13050 4900 0    50   ~ 0
+T1_24
+Text Label 13050 5000 0    50   ~ 0
+T1_25
+Text Label 13050 5200 0    50   ~ 0
+T1_26
+Text Label 13050 5300 0    50   ~ 0
+T1_27
+Text Label 13050 5400 0    50   ~ 0
+T1_28
+Text Label 13050 5500 0    50   ~ 0
+T1_29
+Text Label 13050 5600 0    50   ~ 0
+T1_30
+Text Label 13050 5700 0    50   ~ 0
+T1_31
 Wire Bus Line
 	7250 5300 7250 5600
 Wire Bus Line
@@ -2216,13 +2224,13 @@ Wire Bus Line
 Wire Bus Line
 	15350 900  15350 1600
 Wire Bus Line
-	12950 3600 12950 5400
+	15350 3600 15350 5700
+Wire Bus Line
+	12950 3600 12950 5600
 Wire Bus Line
 	7250 2700 7250 4900
 Wire Bus Line
 	9650 2700 9650 4900
 Wire Bus Line
 	12950 900  12950 3400
-Wire Bus Line
-	15350 3600 15350 5700
 $EndSCHEMATC

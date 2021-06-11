@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -3298,20 +3298,6 @@ F 3 "" H 950 5450 50  0001 C CNN
 	1    950  5450
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	14900 4200 14900 4650
-Wire Bus Line
-	15350 4850 15350 5150
-Wire Bus Line
-	11950 1350 11950 3150
-Wire Bus Line
-	11950 4250 11950 4850
-Wire Bus Line
-	10450 7000 10450 7400
-Wire Bus Line
-	14400 1150 14400 4250
-Wire Bus Line
-	1750 6250 1750 9400
 $Comp
 L Device:C_Small C?
 U 1 1 60C0A1D9
@@ -3424,4 +3410,18 @@ F 3 "~" H 1200 5250 50  0001 C CNN
 	1    1200 5250
 	-1   0    0    -1  
 $EndComp
+Wire Bus Line
+	14900 4200 14900 4650
+Wire Bus Line
+	10450 7000 10450 7400
+Wire Bus Line
+	15350 4850 15350 5150
+Wire Bus Line
+	11950 4250 11950 4850
+Wire Bus Line
+	11950 1350 11950 3150
+Wire Bus Line
+	1750 6250 1750 9400
+Wire Bus Line
+	14400 1150 14400 4250
 $EndSCHEMATC

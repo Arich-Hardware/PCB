@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title ""
 Date "2021-06-01"
 Rev ""
@@ -121,8 +121,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 5800 4500 5800
 Wire Wire Line
-	4250 5900 4500 5900
-Wire Wire Line
 	4250 6000 4500 6000
 $Comp
 L readout:ERF8-060-05.0-L-DV J?
@@ -159,8 +157,6 @@ Text HLabel 3000 6000 0    50   Input ~ 0
 BIAS4
 Text HLabel 4500 6000 2    50   Input ~ 0
 BIAS2
-Text HLabel 4500 5900 2    50   Output ~ 0
-VDD
 Text HLabel 4500 5800 2    50   Input ~ 0
 BIAS1
 Wire Wire Line
@@ -557,8 +553,21 @@ F 3 "" H 3150 6050 50  0001 C CNN
 	1    3150 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4250 5900 4850 5900
 Wire Bus Line
 	4500 2000 4500 5500
 Wire Bus Line
 	3000 2000 3000 5500
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6100ADFC
+P 4850 5900
+F 0 "#PWR?" H 4850 5750 50  0001 C CNN
+F 1 "+3.3V" H 4865 6073 50  0000 C CNN
+F 2 "" H 4850 5900 50  0001 C CNN
+F 3 "" H 4850 5900 50  0001 C CNN
+	1    4850 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
