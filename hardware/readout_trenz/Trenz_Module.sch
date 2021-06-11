@@ -25,7 +25,7 @@ F 3 "" H 2900 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout:Conn_02x03_Odd_Even-Connector_Generic J?
+L Connector_Generic:Conn_02x03_Odd_Even J?
 U 1 1 60B0C983
 P 1750 4100
 AR Path="/60B0C983" Ref="J?"  Part="1" 
@@ -109,7 +109,7 @@ MGT_RX2_N
 Text HLabel 0    5550 2    50   Output ~ 0
 MGT_RX2_P
 $Comp
-L Device:C C?
+L Device:C_Small C?
 U 1 1 6149D700
 P 2300 5550
 AR Path="/60767640/6149D700" Ref="C?"  Part="1" 
@@ -122,7 +122,7 @@ F 3 "~" H 2300 5550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C_Small C?
 U 1 1 6149D948
 P 2000 5550
 AR Path="/60767640/6149D948" Ref="C?"  Part="1" 
@@ -135,7 +135,7 @@ F 3 "~" H 2000 5550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C_Small C?
 U 1 1 614A2A1F
 P 1700 5550
 AR Path="/60767640/614A2A1F" Ref="C?"  Part="1" 
@@ -148,7 +148,7 @@ F 3 "~" H 1700 5550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C_Small C?
 U 1 1 614A2A29
 P 1400 5550
 AR Path="/60767640/614A2A29" Ref="C?"  Part="1" 
@@ -221,7 +221,7 @@ F 3 "~" H 1150 5300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C_Small C?
 U 1 1 614BE90A
 P 900 5550
 AR Path="/60767640/614BE90A" Ref="C?"  Part="1" 
@@ -912,9 +912,6 @@ Connection ~ 2050 4100
 Wire Wire Line
 	2050 4100 2050 4200
 Wire Wire Line
-	2050 4000 2300 4000
-Connection ~ 2050 4000
-Wire Wire Line
 	9050 5900 9150 5900
 Wire Wire Line
 	9150 5900 9150 6000
@@ -947,7 +944,7 @@ F 3 "" H 1600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C_Small C?
 U 1 1 60C51052
 P 2000 3200
 AR Path="/60767640/60C51052" Ref="C?"  Part="1" 
@@ -960,7 +957,7 @@ F 3 "~" H 2000 3200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C_Small C?
 U 1 1 60C6173D
 P 2300 3200
 AR Path="/60767640/60C6173D" Ref="C?"  Part="1" 
@@ -1027,7 +1024,7 @@ Wire Wire Line
 Text Notes 1100 4300 0    50   ~ 0
 Ask Eric: Is this necessary?\n
 $Comp
-L readout:Conn_02x07_Odd_Even-Connector_Generic J?
+L Connector_Generic:Conn_02x07_Odd_Even J?
 U 1 1 60DE6B69
 P 900 7150
 AR Path="/60DE6B69" Ref="J?"  Part="1" 
@@ -1128,7 +1125,7 @@ TDO
 Text HLabel 0    7250 2    50   BiDi ~ 0
 TDI
 $Comp
-L readout:Conn_01x04-Connector_Generic J?
+L Connector_Generic:Conn_01x04 J?
 U 1 1 60DFEC40
 P 800 1550
 AR Path="/608B2FC0/60DFEC40" Ref="J?"  Part="1" 
@@ -1173,7 +1170,7 @@ Wire Wire Line
 Text Notes 800  900  0    157  ~ 31
 To sparkfun FT232RL
 $Comp
-L readout:Conn_01x09-Connector_Generic J?
+L Connector_Generic:Conn_01x09 J?
 U 1 1 60DFEC51
 P 2600 1600
 AR Path="/608B2FC0/60DFEC51" Ref="J?"  Part="1" 
@@ -1208,7 +1205,7 @@ NoConn ~ 2300 1800
 NoConn ~ 2300 1900
 NoConn ~ 2300 2000
 $Comp
-L readout:Conn_01x09-Connector_Generic J?
+L Connector_Generic:Conn_01x09 J?
 U 1 1 60DFEC69
 P 2100 1600
 AR Path="/608B2FC0/60DFEC69" Ref="J?"  Part="1" 
@@ -1249,25 +1246,20 @@ Wire Wire Line
 	7750 5900 7750 5800
 Wire Wire Line
 	7750 5800 7850 5800
-Wire Wire Line
-	7750 5900 7500 5900
 Connection ~ 7750 5900
 $Comp
-L Device:C C?
+L Device:C_Small C?
 U 1 1 60E5BE10
-P 7500 6000
+P 7500 6050
 AR Path="/60767640/60E5BE10" Ref="C?"  Part="1" 
 AR Path="/60D04563/60E5BE10" Ref="C?"  Part="1" 
-F 0 "C?" H 7408 6046 50  0000 R CNN
-F 1 "47u" H 7408 5955 50  0000 R CNB
-F 2 "" H 7500 6000 50  0001 C CNN
-F 3 "~" H 7500 6000 50  0001 C CNN
-	1    7500 6000
+F 0 "C?" H 7408 6096 50  0000 R CNN
+F 1 "47u" H 7408 6005 50  0000 R CNB
+F 2 "" H 7500 6050 50  0001 C CNN
+F 3 "~" H 7500 6050 50  0001 C CNN
+	1    7500 6050
 	-1   0    0    -1  
 $EndComp
-Connection ~ 7500 5900
-Wire Wire Line
-	7500 5900 7350 5900
 $Comp
 L power:GNDD #PWR0155
 U 1 1 60E7018C
@@ -1290,8 +1282,6 @@ F 3 "" H 7350 5900 50  0001 C CNN
 	1    7350 5900
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	7500 6100 7500 6150
 $Comp
 L readout:3.3V_OUT PS?
 U 1 1 61091674
@@ -2199,6 +2189,22 @@ Text Label 15250 2500 2    50   ~ 0
 SFP0_RS1
 Wire Wire Line
 	14750 2500 15250 2500
+Wire Wire Line
+	7350 5900 7500 5900
+Wire Wire Line
+	7500 5950 7500 5900
+Connection ~ 7500 5900
+Wire Wire Line
+	7500 5900 7750 5900
+Wire Wire Line
+	2050 4000 2550 4000
+Text Label 2550 4000 2    50   ~ 0
+VCCIO34
+Connection ~ 2050 4000
+Wire Wire Line
+	7850 4000 7350 4000
+Text Label 7350 4000 0    50   ~ 0
+VCCIO34
 Wire Bus Line
 	7250 5300 7250 5600
 Wire Bus Line
