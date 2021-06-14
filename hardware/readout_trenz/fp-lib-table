@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name readout_slice)(type KiCad)(uri ${KIPRJMOD}/../mod/readout_slice.pretty)(options "")(descr ""))
+  (lib (name readout_trenz)(type KiCad)(uri /home/tejasva/PCB/hardware/mod/readout_trenz.pretty)(options "")(descr ""))
 )
