@@ -555,10 +555,6 @@ F 3 "" H 3150 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4250 5900 4850 5900
-Wire Bus Line
-	4500 2000 4500 5500
-Wire Bus Line
-	3000 2000 3000 5500
 $Comp
 L power:+3.3V #PWR?
 U 1 1 6100ADFC
@@ -570,4 +566,8 @@ F 3 "" H 4850 5900 50  0001 C CNN
 	1    4850 5900
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	4500 2000 4500 5500
+Wire Bus Line
+	3000 2000 3000 5500
 $EndSCHEMATC
