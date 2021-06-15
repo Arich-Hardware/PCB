@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 18000 12000
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -2221,36 +2221,6 @@ Text Label 1500 4250 0    50   ~ 0
 B2_30
 Text Label 1500 4350 0    50   ~ 0
 B2_31
-Wire Wire Line
-	9850 1750 10000 1750
-Wire Wire Line
-	10000 1850 9850 1850
-Wire Wire Line
-	9850 2150 10000 2150
-Wire Wire Line
-	10000 1950 9850 1950
-Wire Bus Line
-	10100 2250 10600 2250
-Entry Wire Line
-	10100 2250 10000 2150
-Entry Wire Line
-	10000 2150 10100 2250
-Entry Wire Line
-	10000 1950 10100 2050
-Entry Wire Line
-	10000 1850 10100 1950
-Entry Wire Line
-	10000 1750 10100 1850
-Text Label 10150 2250 0    50   ~ 0
-ADC_IN_2
-Text Label 10000 2150 0    50   ~ 0
-ADC_CS_2
-Text Label 10000 1950 0    50   ~ 0
-ADC_SCLK_2
-Text Label 10000 1850 0    50   ~ 0
-ADC_SDI_2
-Text Label 10000 1750 0    50   ~ 0
-ADC_SDO_2
 Text Notes 14600 6100 0    157  ~ 31
 LEDS!!!
 Text Label 15050 4400 0    50   ~ 0
@@ -3080,296 +3050,6 @@ Wire Wire Line
 	7750 10500 7850 10500
 Wire Wire Line
 	7750 10700 7850 10700
-Text HLabel 10600 2250 2    50   Input ~ 0
-ADC_IN_2
-Wire Wire Line
-	13650 4400 12950 4400
-Wire Wire Line
-	13650 4500 12950 4500
-Wire Wire Line
-	12950 4600 13650 4600
-Wire Wire Line
-	13650 4800 12950 4800
-Wire Wire Line
-	12950 4900 13650 4900
-Wire Wire Line
-	13650 5000 12950 5000
-Text Label 12950 4400 0    50   ~ 0
-srin_read_2
-Text Label 12950 4500 0    50   ~ 0
-clk_read_2
-Text Label 12950 4600 0    50   ~ 0
-resetb_read_2
-Text Label 12950 4800 0    50   ~ 0
-srin_sc_2
-Text Label 12950 4900 0    50   ~ 0
-clk_sr_2
-Text Label 12950 5000 0    50   ~ 0
-rstb_sr_2
-Entry Wire Line
-	12950 5000 12850 4900
-Entry Wire Line
-	12950 4900 12850 4800
-Entry Wire Line
-	12950 4800 12850 4700
-Entry Wire Line
-	12950 4600 12850 4500
-Entry Wire Line
-	12950 4500 12850 4400
-Entry Wire Line
-	12950 4400 12850 4300
-Wire Bus Line
-	12850 4300 12350 4300
-Text HLabel 12350 4300 0    50   Input ~ 0
-CITIROC_IN_2
-Wire Wire Line
-	16150 5300 15000 5300
-Wire Wire Line
-	15000 5200 16150 5200
-Text Label 15700 5300 2    50   ~ 0
-dig_out_2
-Text Label 15700 4600 2    50   ~ 0
-srout_read_2
-Text Label 15700 5000 2    50   ~ 0
-NOR32T_oc_2
-Text Label 15700 5100 2    50   ~ 0
-NOR32_oc_2
-Text Label 15700 5200 2    50   ~ 0
-OR32_2
-$Comp
-L readout:VccAux U?
-U 1 1 62F033F8
-P 15950 4400
-AR Path="/605DF89A/62F033F8" Ref="U?"  Part="1" 
-AR Path="/60C32D5A/62F033F8" Ref="U?"  Part="1" 
-AR Path="/60BB4A14/62F033F8" Ref="U?"  Part="1" 
-AR Path="/60BB4C00/62F033F8" Ref="U47"  Part="1" 
-F 0 "U47" H 15950 4400 79  0001 C CNN
-F 1 "Vcc0_1v8" H 15800 4450 47  0000 L CNB
-F 2 "" H 15950 4400 79  0001 C CNN
-F 3 "" H 15950 4400 79  0001 C CNN
-	1    15950 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15950 5100 16150 5100
-Connection ~ 15950 5100
-Wire Wire Line
-	15950 4900 15950 5100
-Wire Wire Line
-	16050 5000 16150 5000
-Connection ~ 16050 5000
-Wire Wire Line
-	16050 4900 16050 5000
-Wire Wire Line
-	15950 4550 15950 4500
-Connection ~ 15950 4550
-Wire Wire Line
-	16050 4550 16050 4600
-Wire Wire Line
-	15950 4550 16050 4550
-Wire Wire Line
-	15950 4600 15950 4550
-$Comp
-L Device:R R?
-U 1 1 62F0340D
-P 16050 4750
-AR Path="/605DF89A/62F0340D" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/62F0340D" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/62F0340D" Ref="R?"  Part="1" 
-AR Path="/60BB4C00/62F0340D" Ref="R60"  Part="1" 
-F 0 "R60" H 16120 4796 50  0000 L CNN
-F 1 "1k" V 16050 4700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 15980 4750 50  0001 C CNN
-F 3 "~" H 16050 4750 50  0001 C CNN
-	1    16050 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 62F03417
-P 15950 4750
-AR Path="/605DF89A/62F03417" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/62F03417" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/62F03417" Ref="R?"  Part="1" 
-AR Path="/60BB4C00/62F03417" Ref="R59"  Part="1" 
-F 0 "R59" H 16020 4796 50  0000 L CNN
-F 1 "1k" V 15950 4700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 15880 4750 50  0001 C CNN
-F 3 "~" H 15950 4750 50  0001 C CNN
-	1    15950 4750
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	15000 5100 15950 5100
-Wire Wire Line
-	15000 5000 16050 5000
-Wire Wire Line
-	15000 4600 15700 4600
-Wire Wire Line
-	15000 4800 15700 4800
-Text Label 15700 4800 2    50   ~ 0
-srout_sc_2
-Entry Wire Line
-	16150 5200 16250 5100
-Entry Wire Line
-	16150 5300 16250 5200
-Entry Wire Line
-	15700 4600 15800 4500
-Entry Wire Line
-	15700 4800 15800 4700
-Entry Wire Line
-	16150 5000 16250 4900
-Entry Wire Line
-	16150 5100 16250 5000
-Wire Bus Line
-	15800 4250 16300 4250
-Wire Bus Line
-	16250 4900 16750 4900
-Text HLabel 16300 4250 2    50   Input ~ 0
-CITIROC_IN_2
-Text HLabel 16750 4900 2    50   Input ~ 0
-CITIROC_IN_2
-Wire Wire Line
-	13550 2000 13450 2000
-Wire Wire Line
-	13550 2000 13550 1900
-Wire Wire Line
-	13550 1700 13450 1700
-Wire Wire Line
-	13550 1700 13550 1600
-Connection ~ 13550 2000
-Wire Wire Line
-	13650 2000 13550 2000
-Connection ~ 13550 1700
-Wire Wire Line
-	13650 1700 13550 1700
-Wire Bus Line
-	12350 3200 12850 3200
-Entry Wire Line
-	12950 3100 12850 3200
-Entry Wire Line
-	12950 3000 12850 3100
-Entry Wire Line
-	12950 1400 12850 1500
-Entry Wire Line
-	12950 1500 12850 1600
-Entry Wire Line
-	12950 1300 12850 1400
-Text HLabel 12350 3200 0    50   Input ~ 0
-CITIROC_IN_2
-Entry Wire Line
-	12950 2300 12850 2400
-Entry Wire Line
-	12950 2800 12850 2900
-Entry Wire Line
-	12950 2100 12850 2200
-Entry Wire Line
-	12950 1900 12850 2000
-Entry Wire Line
-	12950 1800 12850 1900
-Entry Wire Line
-	12950 1600 12850 1700
-Text Label 12950 3100 0    50   ~ 0
-hold_hg_2
-Text Label 12950 3000 0    50   ~ 0
-hold_lg_2
-Text Label 12950 2800 0    50   ~ 0
-load_sc_2
-Text Label 12950 2600 0    50   ~ 0
-PS_modeb_ext_2
-Text Label 12950 2500 0    50   ~ 0
-PS_global_trig_2
-Text Label 12950 2300 0    50   ~ 0
-select_2
-Text Label 12950 2100 0    50   ~ 0
-Val_Ext_n2
-Text Label 12950 1900 0    50   ~ 0
-Val_Ext_p2
-Text Label 12950 1800 0    50   ~ 0
-Raz_Chn_n2
-Text Label 12950 1600 0    50   ~ 0
-Raz_Chn_p2
-Text Label 12950 1500 0    50   ~ 0
-pwr_on_2
-Text Label 12950 1400 0    50   ~ 0
-rstb_PSC_2
-Text Label 12950 1300 0    50   ~ 0
-resetb_pa_2
-Wire Wire Line
-	13100 1800 13650 1800
-Connection ~ 13100 1800
-Wire Wire Line
-	13100 1700 13100 1800
-Wire Wire Line
-	13150 1700 13100 1700
-Wire Wire Line
-	12950 1800 13100 1800
-Connection ~ 13100 2100
-Wire Wire Line
-	13100 2100 12950 2100
-Wire Wire Line
-	13100 2100 13650 2100
-Wire Wire Line
-	13100 2000 13100 2100
-Wire Wire Line
-	13150 2000 13100 2000
-Wire Wire Line
-	13550 1900 12950 1900
-Wire Wire Line
-	13550 1600 12950 1600
-$Comp
-L Device:R R?
-U 1 1 61BCD364
-P 13300 1700
-AR Path="/605DF89A/61BCD364" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/61BCD364" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/61BCD364" Ref="R?"  Part="1" 
-AR Path="/60BB4C00/61BCD364" Ref="R57"  Part="1" 
-F 0 "R57" V 13350 1800 50  0000 L CNN
-F 1 "100" V 13300 1600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13230 1700 50  0001 C CNN
-F 3 "~" H 13300 1700 50  0001 C CNN
-	1    13300 1700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	12950 2300 13650 2300
-Wire Wire Line
-	13650 2800 12950 2800
-Wire Wire Line
-	13650 3100 12950 3100
-Wire Wire Line
-	12950 3000 13650 3000
-Wire Wire Line
-	13650 2600 12950 2600
-Wire Wire Line
-	12950 2500 13650 2500
-Wire Wire Line
-	13650 1300 12950 1300
-Wire Wire Line
-	13650 1400 12950 1400
-Wire Wire Line
-	13650 1500 12950 1500
-$Comp
-L Device:R R?
-U 1 1 61BCD363
-P 13300 2000
-AR Path="/605DF89A/61BCD363" Ref="R?"  Part="1" 
-AR Path="/60C32D5A/61BCD363" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/61BCD363" Ref="R?"  Part="1" 
-AR Path="/60BB4C00/61BCD363" Ref="R58"  Part="1" 
-F 0 "R58" V 13350 2100 50  0000 L CNN
-F 1 "100" V 13300 1900 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13230 2000 50  0001 C CNN
-F 3 "~" H 13300 2000 50  0001 C CNN
-	1    13300 2000
-	0    -1   -1   0   
-$EndComp
-Entry Wire Line
-	12950 2500 12850 2600
-Entry Wire Line
-	12950 2600 12850 2700
 Wire Wire Line
 	8300 1950 8250 1950
 Wire Wire Line
@@ -3436,15 +3116,339 @@ Connection ~ 7000 6150
 Wire Wire Line
 	7000 6150 6550 6150
 Wire Notes Line
-	11500 500  11500 11500
+	11600 450  11600 11450
 Wire Notes Line
 	500  5500 11500 5500
+$Comp
+L Device:R R?
+U 1 1 62247107
+P 13300 2000
+AR Path="/605DF89A/62247107" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/62247107" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/62247107" Ref="R?"  Part="1" 
+AR Path="/60BB4C00/62247107" Ref="R?"  Part="1" 
+F 0 "R?" V 13350 2100 50  0000 L CNN
+F 1 "100" V 13300 1900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13230 2000 50  0001 C CNN
+F 3 "~" H 13300 2000 50  0001 C CNN
+	1    13300 2000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13650 1500 12950 1500
+Wire Wire Line
+	13650 1400 12950 1400
+Wire Wire Line
+	13650 1300 12950 1300
+Wire Wire Line
+	13650 4400 12950 4400
+Wire Wire Line
+	13650 4500 12950 4500
+Wire Wire Line
+	12950 4600 13650 4600
+Wire Wire Line
+	13650 4800 12950 4800
+Wire Wire Line
+	12950 4900 13650 4900
+Wire Wire Line
+	13650 5000 12950 5000
+Wire Wire Line
+	12950 2500 13650 2500
+Wire Wire Line
+	13650 2600 12950 2600
+Wire Wire Line
+	12950 3000 13650 3000
+Wire Wire Line
+	13650 3100 12950 3100
+Wire Wire Line
+	13650 2800 12950 2800
+Wire Wire Line
+	12950 2300 13650 2300
+Wire Wire Line
+	16150 5300 15000 5300
+$Comp
+L Device:R R?
+U 1 1 6224713C
+P 13300 1700
+AR Path="/605DF89A/6224713C" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/6224713C" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/6224713C" Ref="R?"  Part="1" 
+AR Path="/60BB4C00/6224713C" Ref="R?"  Part="1" 
+F 0 "R?" V 13350 1800 50  0000 L CNN
+F 1 "100" V 13300 1600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 13230 1700 50  0001 C CNN
+F 3 "~" H 13300 1700 50  0001 C CNN
+	1    13300 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13650 1700 13550 1700
+Wire Wire Line
+	13650 2000 13550 2000
+Wire Wire Line
+	13550 1700 13550 1600
+Wire Wire Line
+	13550 1600 12950 1600
+Connection ~ 13550 1700
+Wire Wire Line
+	13550 1700 13450 1700
+Wire Wire Line
+	13550 2000 13550 1900
+Wire Wire Line
+	13550 1900 12950 1900
+Connection ~ 13550 2000
+Wire Wire Line
+	13550 2000 13450 2000
+Wire Wire Line
+	13150 2000 13100 2000
+Wire Wire Line
+	13100 2000 13100 2100
+Wire Wire Line
+	13100 2100 13650 2100
+Wire Wire Line
+	13100 2100 12950 2100
+Connection ~ 13100 2100
+Wire Wire Line
+	12950 1800 13100 1800
+Wire Wire Line
+	13150 1700 13100 1700
+Wire Wire Line
+	13100 1700 13100 1800
+Connection ~ 13100 1800
+Wire Wire Line
+	13100 1800 13650 1800
+Wire Wire Line
+	15000 5200 16150 5200
+Entry Wire Line
+	12950 5000 12850 4900
+Entry Wire Line
+	12950 4900 12850 4800
+Entry Wire Line
+	12950 4800 12850 4700
+Entry Wire Line
+	12950 4600 12850 4500
+Entry Wire Line
+	12950 4500 12850 4400
+Entry Wire Line
+	12950 4400 12850 4300
+Wire Bus Line
+	12850 4300 12350 4300
+Entry Wire Line
+	12950 1600 12850 1700
+Entry Wire Line
+	12950 1800 12850 1900
+Entry Wire Line
+	12950 1900 12850 2000
+Entry Wire Line
+	12950 2100 12850 2200
+Entry Wire Line
+	12950 2800 12850 2900
+Entry Wire Line
+	12950 2300 12850 2400
+$Comp
+L readout:VccAux U?
+U 1 1 622471A9
+P 15950 4400
+AR Path="/605DF89A/622471A9" Ref="U?"  Part="1" 
+AR Path="/60C32D5A/622471A9" Ref="U?"  Part="1" 
+AR Path="/60BB4A14/622471A9" Ref="U?"  Part="1" 
+AR Path="/60BB4C00/622471A9" Ref="U?"  Part="1" 
+F 0 "U?" H 15950 4400 79  0001 C CNN
+F 1 "Vcc0_1v8" H 15800 4450 47  0000 L CNB
+F 2 "" H 15950 4400 79  0001 C CNN
+F 3 "" H 15950 4400 79  0001 C CNN
+	1    15950 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15950 5100 16150 5100
+Connection ~ 15950 5100
+Wire Wire Line
+	15950 4900 15950 5100
+Wire Wire Line
+	16050 5000 16150 5000
+Connection ~ 16050 5000
+Wire Wire Line
+	16050 4900 16050 5000
+Wire Wire Line
+	15950 4550 15950 4500
+Connection ~ 15950 4550
+Wire Wire Line
+	16050 4550 16050 4600
+Wire Wire Line
+	15950 4550 16050 4550
+Wire Wire Line
+	15950 4600 15950 4550
+$Comp
+L Device:R R?
+U 1 1 622471BA
+P 16050 4750
+AR Path="/605DF89A/622471BA" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/622471BA" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/622471BA" Ref="R?"  Part="1" 
+AR Path="/60BB4C00/622471BA" Ref="R?"  Part="1" 
+F 0 "R?" V 16120 4796 50  0000 L CNN
+F 1 "1k" V 16050 4700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 15980 4750 50  0001 C CNN
+F 3 "~" H 16050 4750 50  0001 C CNN
+	1    16050 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 622471C0
+P 15950 4750
+AR Path="/605DF89A/622471C0" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/622471C0" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/622471C0" Ref="R?"  Part="1" 
+AR Path="/60BB4C00/622471C0" Ref="R?"  Part="1" 
+F 0 "R?" V 16020 4796 50  0000 L CNN
+F 1 "1k" V 15950 4700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 15880 4750 50  0001 C CNN
+F 3 "~" H 15950 4750 50  0001 C CNN
+	1    15950 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 5100 15950 5100
+Wire Wire Line
+	15000 5000 16050 5000
+Wire Wire Line
+	15000 4600 15700 4600
+Wire Wire Line
+	15000 4800 15700 4800
+Entry Wire Line
+	16150 5200 16250 5100
+Entry Wire Line
+	16150 5300 16250 5200
+Entry Wire Line
+	15700 4600 15800 4500
+Entry Wire Line
+	15700 4800 15800 4700
+Entry Wire Line
+	16150 5000 16250 4900
+Entry Wire Line
+	16150 5100 16250 5000
+Wire Bus Line
+	15800 4250 16300 4250
+Wire Bus Line
+	16250 4900 16750 4900
+Text HLabel 16300 4250 2    50   Input ~ 0
+CITIROC_IN_TWO[0..24]
+Text HLabel 16750 4900 2    50   Input ~ 0
+CITIROC_IN_TWO[0..24]
+Text HLabel 12350 4300 0    50   Input ~ 0
+CITIROC_IN_TWO[0..24]
+Text HLabel 12350 3200 0    50   Input ~ 0
+CITIROC_IN_TWO[0..24]
+Text Notes 16400 5050 0    50   ~ 0
+Go to the same bank as T\n
+Text Notes 12250 5100 0    50   ~ 0
+All other control signals go to B34\n
+Entry Wire Line
+	12950 1300 12850 1400
+Entry Wire Line
+	12950 1500 12850 1600
+Entry Wire Line
+	12950 1400 12850 1500
+Entry Wire Line
+	12950 3000 12850 3100
+Entry Wire Line
+	12950 3100 12850 3200
+Wire Bus Line
+	12350 3200 12850 3200
+Entry Wire Line
+	12950 2600 12850 2700
+Entry Wire Line
+	12950 2500 12850 2600
+Text Label 12950 1400 0    50   ~ 0
+CITIROC_IN_TWO1
+Text Label 12950 1500 0    50   ~ 0
+CITIROC_IN_TWO2
+Text Label 12950 1600 0    50   ~ 0
+CITIROC_IN_TWO3
+Text Label 12950 1800 0    50   ~ 0
+CITIROC_IN_TWO4
+Text Label 12950 1900 0    50   ~ 0
+CITIROC_IN_TWO5
+Text Label 12950 1300 0    50   ~ 0
+CITIROC_IN_TWO0
+Text Label 12950 2100 0    50   ~ 0
+CITIROC_IN_TWO6
+Text Label 12950 2300 0    50   ~ 0
+CITIROC_IN_TWO7
+Text Label 12950 2500 0    50   ~ 0
+CITIROC_IN_TWO8
+Text Label 12950 2600 0    50   ~ 0
+CITIROC_IN_TWO9
+Text Label 12950 2800 0    50   ~ 0
+CITIROC_IN_TWO10
+Text Label 12950 3000 0    50   ~ 0
+CITIROC_IN_TWO11
+Text Label 12950 3100 0    50   ~ 0
+CITIROC_IN_TWO12
+Text Label 12950 4400 0    50   ~ 0
+CITIROC_IN_TWO13
+Text Label 12950 4500 0    50   ~ 0
+CITIROC_IN_TWO14
+Text Label 12950 4600 0    50   ~ 0
+CITIROC_IN_TWO15
+Text Label 12950 4800 0    50   ~ 0
+CITIROC_IN_TWO16
+Text Label 12950 4900 0    50   ~ 0
+CITIROC_IN_TWO17
+Text Label 12950 5000 0    50   ~ 0
+CITIROC_IN_TWO18
+Text Label 15700 4600 2    50   ~ 0
+CITIROC_IN_TWO19
+Text Label 15700 4800 2    50   ~ 0
+CITIROC_IN_TWO20
+Text Label 15700 5300 2    50   ~ 0
+CITIROC_IN_TWO24
+Text Label 15700 5200 2    50   ~ 0
+CITIROC_IN_TWO23
+Text Label 15700 5100 2    50   ~ 0
+CITIROC_IN_TWO22
+Text Label 15700 5000 2    50   ~ 0
+CITIROC_IN_TWO21
+Wire Wire Line
+	9850 1750 10000 1750
+Wire Wire Line
+	10000 1850 9850 1850
+Wire Wire Line
+	9850 2150 10000 2150
+Wire Wire Line
+	10000 1950 9850 1950
+Wire Bus Line
+	10100 2250 10850 2250
+Entry Wire Line
+	10000 1950 10100 2050
+Entry Wire Line
+	10000 1850 10100 1950
+Entry Wire Line
+	10000 1750 10100 1850
+Text Label 10150 2250 0    50   ~ 0
+ADC_IN_TWO[0..3]
+Text Label 10000 2150 0    50   ~ 0
+ADC_IN_TWO0
+Text Label 10000 1950 0    50   ~ 0
+ADC_IN_TWO1
+Text Label 10000 1850 0    50   ~ 0
+ADC_IN_TWO2
+Text Label 10000 1750 0    50   ~ 0
+ADC_IN_TWO3
+Text HLabel 10850 2250 2    50   Input ~ 0
+ADC_IN_TWO[0..3]
+Entry Wire Line
+	10000 2150 10100 2250
+Entry Wire Line
+	10100 2250 10000 2150
 Wire Bus Line
 	15800 4250 15800 4700
 Wire Bus Line
-	10100 1850 10100 2250
-Wire Bus Line
 	16250 4900 16250 5200
+Wire Bus Line
+	10100 1850 10100 2250
 Wire Bus Line
 	12850 4300 12850 4900
 Wire Bus Line

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 18000 12000
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -70,9 +70,9 @@ Entry Wire Line
 Entry Wire Line
 	1400 1950 1500 2050
 Text Label 1400 1100 0    50   ~ 0
-B2_[0,31]
+B2_[0..31]
 Text HLabel 1050 1100 0    50   Input ~ 0
-B2_[0,31]
+B2_[0..31]
 Entry Wire Line
 	1400 4250 1500 4350
 Entry Wire Line
@@ -2318,9 +2318,9 @@ T2_1
 Text Label 15050 1300 0    50   ~ 0
 T2_0
 Text HLabel 15750 1200 2    50   Output ~ 0
-T2_[0,31]
+T2_[0..31]
 Text Label 15350 1200 0    50   ~ 0
-T2_[0,31]
+T2_[0..31]
 Entry Wire Line
 	15300 1200 15200 1300
 Entry Wire Line

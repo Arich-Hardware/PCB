@@ -605,7 +605,7 @@ $EndComp
 Text Label 12950 3600 2    50   ~ 0
 T1_[18,31]
 Text HLabel 12450 3600 0    50   Input ~ 0
-T1_[0,31]
+T1_[0..31]
 Entry Wire Line
 	12950 3700 13050 3800
 Entry Wire Line
@@ -721,7 +721,7 @@ Entry Wire Line
 Entry Wire Line
 	15350 5700 15250 5800
 Text HLabel 15850 3600 2    50   Input ~ 0
-T1_[0,31]
+T1_[0..31]
 $Comp
 L power:GNDD #PWR0141
 U 1 1 60EBD38D
@@ -1310,23 +1310,23 @@ Wire Wire Line
 $Comp
 L readout:3.3V_OUT PS3
 U 1 1 6114268C
-P 4950 5650
-F 0 "PS3" H 4850 5500 50  0000 L CNN
-F 1 "3.3V_OUT" H 4750 5700 50  0000 L CNN
-F 2 "" H 4950 5650 50  0001 C CNN
-F 3 "" H 4950 5650 50  0001 C CNN
-	1    4950 5650
+P 4950 5550
+F 0 "PS3" H 4850 5400 50  0000 L CNN
+F 1 "3.3V_OUT" H 4750 5600 50  0000 L CNN
+F 2 "" H 4950 5550 50  0001 C CNN
+F 3 "" H 4950 5550 50  0001 C CNN
+	1    4950 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L readout:3.3V_OUT PS4
 U 1 1 6116713A
-P 5150 5750
-F 0 "PS4" H 5050 5600 50  0000 L CNN
-F 1 "3.3V_OUT" H 4950 5800 50  0000 L CNN
-F 2 "" H 5150 5750 50  0001 C CNN
-F 3 "" H 5150 5750 50  0001 C CNN
-	1    5150 5750
+P 5150 5650
+F 0 "PS4" H 5050 5500 50  0000 L CNN
+F 1 "3.3V_OUT" H 4950 5700 50  0000 L CNN
+F 2 "" H 5150 5650 50  0001 C CNN
+F 3 "" H 5150 5650 50  0001 C CNN
+	1    5150 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1427,9 +1427,9 @@ Entry Wire Line
 Wire Bus Line
 	10200 2700 10700 2700
 Text Label 10200 2700 0    50   ~ 0
-CITIROC_IN_1
+CITIROC_IN_ONE[0..24]
 Text HLabel 10700 2700 2    50   Output ~ 0
-CITIROC_IN_1
+CITIROC_IN_ONE[0..24]
 Text HLabel -8650 4550 2    50   Input ~ 0
 MGT_TX2_N
 Text HLabel -8650 4450 2    50   Input ~ 0
@@ -1533,7 +1533,7 @@ Entry Wire Line
 Entry Wire Line
 	12950 5400 13050 5500
 Text Label 15350 3600 0    50   ~ 0
-T1_[0,17]
+T1_[0..17]
 Text Label 15250 3700 2    50   ~ 0
 T1_0
 Text Label 15250 3800 2    50   ~ 0
@@ -1577,7 +1577,7 @@ Entry Wire Line
 Wire Bus Line
 	7800 5300 7300 5300
 Text HLabel 7300 5300 0    50   Output ~ 0
-CITIROC_IN_1
+CITIROC_IN_ONE[0..24]
 Wire Wire Line
 	8400 5400 7900 5400
 Wire Wire Line
@@ -2218,6 +2218,10 @@ Wire Notes Line
 	500  4350 6300 4350
 Wire Notes Line
 	2350 500  2350 4350
+Wire Wire Line
+	4950 5650 4950 5750
+Wire Wire Line
+	5150 5750 5150 5850
 Wire Bus Line
 	7800 5300 7800 5600
 Wire Bus Line

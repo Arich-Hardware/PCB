@@ -211,8 +211,6 @@ Wire Wire Line
 	3300 1350 1500 1350
 Wire Wire Line
 	3200 1250 1500 1250
-Text Notes 9850 2350 0    50   ~ 0
-SPI to LVDS bank
 Wire Wire Line
 	9850 1750 10000 1750
 Wire Wire Line
@@ -381,8 +379,6 @@ Wire Wire Line
 	13100 1800 13650 1800
 Wire Wire Line
 	15000 5200 16150 5200
-Text Label 15700 5300 2    50   ~ 0
-dig_out_1
 Wire Bus Line
 	15300 1200 15750 1200
 Entry Wire Line
@@ -522,11 +518,7 @@ T1_30
 Text Label 15050 4400 0    50   ~ 0
 T1_31
 Wire Bus Line
-	10100 2250 10600 2250
-Entry Wire Line
-	10100 2250 10000 2150
-Entry Wire Line
-	10000 2150 10100 2250
+	10100 2250 10850 2250
 Entry Wire Line
 	10000 1950 10100 2050
 Entry Wire Line
@@ -534,63 +526,17 @@ Entry Wire Line
 Entry Wire Line
 	10000 1750 10100 1850
 Text Label 10150 2250 0    50   ~ 0
-ADC_IN_1
+ADC_IN_ONE[0..3]
 Text Label 10000 2150 0    50   ~ 0
-ADC_CS_1
+ADC_IN_ONE0
 Text Label 10000 1950 0    50   ~ 0
-ADC_SCLK_1
+ADC_IN_ONE1
 Text Label 10000 1850 0    50   ~ 0
-ADC_SDI_1
+ADC_IN_ONE2
 Text Label 10000 1750 0    50   ~ 0
-ADC_SDO_1
-Text HLabel 10600 2250 2    50   Input ~ 0
-ADC_IN_1
-Text Label 12950 1300 0    50   ~ 0
-resetb_pa_1
-Text Label 12950 1400 0    50   ~ 0
-rstb_PSC_1
-Text Label 12950 1500 0    50   ~ 0
-pwr_on_1
-Text Label 12950 1600 0    50   ~ 0
-Raz_Chn_p1
-Text Label 12950 1800 0    50   ~ 0
-Raz_Chn_n1
-Text Label 12950 1900 0    50   ~ 0
-Val_Ext_p1
-Text Label 12950 2100 0    50   ~ 0
-Val_Ext_n1
-Text Label 12950 2300 0    50   ~ 0
-select_1
-Text Label 12950 2500 0    50   ~ 0
-PS_global_trig_1
-Text Label 12950 2600 0    50   ~ 0
-PS_modeb_ext_1
-Text Label 12950 2800 0    50   ~ 0
-load_sc_1
-Text Label 12950 3000 0    50   ~ 0
-hold_lg_1
-Text Label 12950 3100 0    50   ~ 0
-hold_hg_1
-Text Label 12950 4400 0    50   ~ 0
-srin_read_1
-Text Label 12950 4500 0    50   ~ 0
-clk_read_1
-Text Label 12950 4600 0    50   ~ 0
-resetb_read_1
-Text Label 12950 4800 0    50   ~ 0
-srin_sc_1
-Text Label 12950 4900 0    50   ~ 0
-clk_sr_1
-Text Label 12950 5000 0    50   ~ 0
-rstb_sr_1
-Text Label 15700 4600 2    50   ~ 0
-srout_read_1
-Text Label 15700 5000 2    50   ~ 0
-NOR32T_oc_1
-Text Label 15700 5100 2    50   ~ 0
-NOR32_oc_1
-Text Label 15700 5200 2    50   ~ 0
-OR32_1
+ADC_IN_ONE3
+Text HLabel 10850 2250 2    50   Input ~ 0
+ADC_IN_ONE[0..3]
 Entry Wire Line
 	12950 5000 12850 4900
 Entry Wire Line
@@ -657,7 +603,7 @@ P 16050 4750
 AR Path="/605DF89A/60CED89A" Ref="R?"  Part="1" 
 AR Path="/60C32D5A/60CED89A" Ref="R?"  Part="1" 
 AR Path="/60BB4A14/60CED89A" Ref="R105"  Part="1" 
-F 0 "R105" H 16120 4796 50  0000 L CNN
+F 0 "R105" V 16120 4796 50  0000 L CNN
 F 1 "1k" V 16050 4700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 15980 4750 50  0001 C CNN
 F 3 "~" H 16050 4750 50  0001 C CNN
@@ -671,7 +617,7 @@ P 15950 4750
 AR Path="/605DF89A/60CED0B7" Ref="R?"  Part="1" 
 AR Path="/60C32D5A/60CED0B7" Ref="R?"  Part="1" 
 AR Path="/60BB4A14/60CED0B7" Ref="R104"  Part="1" 
-F 0 "R104" H 16020 4796 50  0000 L CNN
+F 0 "R104" V 16020 4796 50  0000 L CNN
 F 1 "1k" V 15950 4700 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 15880 4750 50  0001 C CNN
 F 3 "~" H 15950 4750 50  0001 C CNN
@@ -686,8 +632,6 @@ Wire Wire Line
 	15000 4600 15700 4600
 Wire Wire Line
 	15000 4800 15700 4800
-Text Label 15700 4800 2    50   ~ 0
-srout_sc_1
 Entry Wire Line
 	16150 5200 16250 5100
 Entry Wire Line
@@ -705,13 +649,13 @@ Wire Bus Line
 Wire Bus Line
 	16250 4900 16750 4900
 Text HLabel 16300 4250 2    50   Input ~ 0
-CITIROC_IN_1
+CITIROC_IN_ONE[0..24]
 Text HLabel 16750 4900 2    50   Input ~ 0
-CITIROC_IN_1
+CITIROC_IN_ONE[0..24]
 Text HLabel 12350 4300 0    50   Input ~ 0
-CITIROC_IN_1
+CITIROC_IN_ONE[0..24]
 Text HLabel 12350 3200 0    50   Input ~ 0
-CITIROC_IN_1
+CITIROC_IN_ONE[0..24]
 Text Notes 16400 5050 0    50   ~ 0
 Go to the same bank as T\n
 Text Notes 12250 5100 0    50   ~ 0
@@ -1592,8 +1536,6 @@ F 3 "~" H 10450 1350 50  0001 C CNN
 	1    10450 1350
 	1    0    0    -1  
 $EndComp
-Text Notes 9850 2450 0    50   ~ 0
-20Mhz max
 Connection ~ 8950 2750
 Wire Wire Line
 	9350 2750 9350 2650
@@ -3430,6 +3372,68 @@ F 3 "~" H 5450 4600 50  0001 C CNN
 $EndComp
 Text Label 1400 1100 0    50   ~ 0
 B1_[0..31]
+Entry Wire Line
+	12950 2600 12850 2700
+Entry Wire Line
+	12950 2500 12850 2600
+Text Label 12950 1400 0    50   ~ 0
+CITIROC_IN_ONE1
+Text Label 12950 1500 0    50   ~ 0
+CITIROC_IN_ONE2
+Text Label 12950 1600 0    50   ~ 0
+CITIROC_IN_ONE3
+Text Label 12950 1800 0    50   ~ 0
+CITIROC_IN_ONE4
+Text Label 12950 1900 0    50   ~ 0
+CITIROC_IN_ONE5
+Text Label 12950 1300 0    50   ~ 0
+CITIROC_IN_ONE0
+Text Label 12950 2100 0    50   ~ 0
+CITIROC_IN_ONE6
+Text Label 12950 2300 0    50   ~ 0
+CITIROC_IN_ONE7
+Text Label 12950 2500 0    50   ~ 0
+CITIROC_IN_ONE8
+Text Label 12950 2600 0    50   ~ 0
+CITIROC_IN_ONE9
+Text Label 12950 2800 0    50   ~ 0
+CITIROC_IN_ONE10
+Text Label 12950 3000 0    50   ~ 0
+CITIROC_IN_ONE11
+Text Label 12950 3100 0    50   ~ 0
+CITIROC_IN_ONE12
+Text Label 12950 4400 0    50   ~ 0
+CITIROC_IN_ONE13
+Text Label 12950 4500 0    50   ~ 0
+CITIROC_IN_ONE14
+Text Label 12950 4600 0    50   ~ 0
+CITIROC_IN_ONE15
+Text Label 12950 4800 0    50   ~ 0
+CITIROC_IN_ONE16
+Text Label 12950 4900 0    50   ~ 0
+CITIROC_IN_ONE17
+Text Label 12950 5000 0    50   ~ 0
+CITIROC_IN_ONE18
+Text Label 15700 4600 2    50   ~ 0
+CITIROC_IN_ONE19
+Text Label 15700 4800 2    50   ~ 0
+CITIROC_IN_ONE20
+Text Label 15700 5300 2    50   ~ 0
+CITIROC_IN_ONE24
+Text Label 15700 5200 2    50   ~ 0
+CITIROC_IN_ONE23
+Text Label 15700 5100 2    50   ~ 0
+CITIROC_IN_ONE22
+Text Label 15700 5000 2    50   ~ 0
+CITIROC_IN_ONE21
+Text Notes 9850 2600 0    50   ~ 0
+20Mhz max
+Entry Wire Line
+	10000 2150 10100 2250
+Entry Wire Line
+	10100 2250 10000 2150
+Text Notes 9850 2500 0    50   ~ 0
+SPI to LVDS bank
 Wire Bus Line
 	15800 4250 15800 4700
 Wire Bus Line

@@ -602,8 +602,6 @@ F 3 "https://www.samtec.com/products/lshm-150-04.0-l-dv-a-s-k-tr" H 14150 3500 5
 	1    14150 3500
 	1    0    0    -1  
 $EndComp
-Text Label 12950 3600 2    50   ~ 0
-T1_[18,31]
 Text HLabel 12450 3600 0    50   Input ~ 0
 T1_[0..31]
 Entry Wire Line
@@ -758,8 +756,6 @@ Entry Wire Line
 	15350 1500 15250 1600
 Entry Wire Line
 	15350 1600 15250 1700
-Text Label 15800 900  2    50   ~ 0
-T2_[24..31]
 Text HLabel 12450 900  0    50   Input ~ 0
 T2_[0..31]
 Wire Bus Line
@@ -856,8 +852,6 @@ Entry Wire Line
 	12950 3300 13050 3400
 Entry Wire Line
 	12950 3400 13050 3500
-Text Label 12950 900  2    50   ~ 0
-T2_[0..23]
 Wire Wire Line
 	-2100 3650 -2200 3650
 $Comp
@@ -1273,12 +1267,12 @@ $EndComp
 $Comp
 L readout:3.3V_OUT PS5
 U 1 1 6109AF04
-P 7600 5000
-F 0 "PS5" H 7500 4850 50  0000 L CNN
-F 1 "3.3V_OUT" H 7400 5050 50  0000 L CNN
-F 2 "" H 7600 5000 50  0001 C CNN
-F 3 "" H 7600 5000 50  0001 C CNN
-	1    7600 5000
+P 7000 5000
+F 0 "PS5" H 6900 4850 50  0000 L CNN
+F 1 "3.3V_OUT" H 6800 5050 50  0000 L CNN
+F 2 "" H 7000 5000 50  0001 C CNN
+F 3 "" H 7000 5000 50  0001 C CNN
+	1    7000 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1342,94 +1336,38 @@ F 3 "" H 14950 3500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14750 3600 14950 3600
-Wire Wire Line
-	9600 4900 10100 4900
-Wire Wire Line
-	9600 5000 10100 5000
-Text Label 10100 4900 2    50   ~ 0
-srout_read_1
-Text Label 10100 5000 2    50   ~ 0
-srout_sc_1
-Wire Wire Line
-	9600 4300 10100 4300
-Wire Wire Line
-	9600 4400 10100 4400
-Wire Wire Line
-	10100 4500 9600 4500
-Wire Wire Line
-	9600 4600 10100 4600
-Wire Wire Line
-	10100 4700 9600 4700
-Wire Wire Line
-	9600 4800 10100 4800
-Text Label 10100 4300 2    50   ~ 0
-srin_read_1
-Text Label 10100 4400 2    50   ~ 0
-clk_read_1
-Text Label 10100 4500 2    50   ~ 0
-resetb_read_1
-Text Label 10100 4600 2    50   ~ 0
-srin_sc_1
-Text Label 10100 4700 2    50   ~ 0
-clk_sr_1
-Text Label 10100 4800 2    50   ~ 0
-rstb_sr_1
-Text Label 10100 3900 2    50   ~ 0
-load_sc_1
-Wire Wire Line
-	9600 3900 10100 3900
-Wire Wire Line
-	10100 3400 9600 3400
-Wire Wire Line
-	10100 3500 9600 3500
-Wire Wire Line
-	10100 3200 9600 3200
-Text Label 10100 3600 2    50   ~ 0
-select_1
-Text Label 10100 3500 2    50   ~ 0
-Val_Ext_p1
-Text Label 10100 3400 2    50   ~ 0
-Val_Ext_n1
-Text Label 10100 3200 2    50   ~ 0
-Raz_Chn_p1
-Text Label 10100 3100 2    50   ~ 0
-Raz_Chn_n1
-Wire Wire Line
-	10100 3600 9600 3600
 Entry Wire Line
-	10200 4900 10100 5000
+	10700 4900 10600 5000
 Entry Wire Line
-	10200 4800 10100 4900
+	10700 4800 10600 4900
 Entry Wire Line
-	10200 4700 10100 4800
+	10700 4700 10600 4800
 Entry Wire Line
-	10200 4600 10100 4700
+	10700 4600 10600 4700
 Entry Wire Line
-	10200 4500 10100 4600
+	10700 4500 10600 4600
 Entry Wire Line
-	10200 4400 10100 4500
+	10700 4400 10600 4500
 Entry Wire Line
-	10200 4300 10100 4400
+	10700 4300 10600 4400
 Entry Wire Line
-	10200 4200 10100 4300
+	10700 4200 10600 4300
 Entry Wire Line
-	10200 3800 10100 3900
+	10700 3800 10600 3900
 Entry Wire Line
-	10200 3500 10100 3600
+	10700 3500 10600 3600
 Entry Wire Line
-	10200 3400 10100 3500
+	10700 3400 10600 3500
 Entry Wire Line
-	10200 3300 10100 3400
+	10700 3300 10600 3400
 Entry Wire Line
-	10200 3100 10100 3200
+	10700 3100 10600 3200
 Entry Wire Line
-	10200 3000 10100 3100
+	10700 3000 10600 3100
 Wire Bus Line
-	10200 2700 10700 2700
-Text Label 10200 2700 0    50   ~ 0
-CITIROC_IN_1
-Text HLabel 10700 2700 2    50   Output ~ 0
-CITIROC_IN_1
+	10700 2700 11650 2700
+Text HLabel 11650 2700 2    50   Output ~ 0
+CITIROC_IN_ONE[0..24]
 Text HLabel -8650 4550 2    50   Input ~ 0
 MGT_TX2_N
 Text HLabel -8650 4450 2    50   Input ~ 0
@@ -1532,8 +1470,6 @@ Entry Wire Line
 	12950 5300 13050 5400
 Entry Wire Line
 	12950 5400 13050 5500
-Text Label 15350 3600 0    50   ~ 0
-T1_[0..17]
 Text Label 15250 3700 2    50   ~ 0
 T1_0
 Text Label 15250 3800 2    50   ~ 0
@@ -1554,34 +1490,18 @@ Text Label 15250 4800 2    50   ~ 0
 T1_8
 Text Label 15250 4900 2    50   ~ 0
 T1_9
-Wire Wire Line
-	7900 5700 8400 5700
-Wire Wire Line
-	8400 5600 7900 5600
-Text Label 7900 5700 0    50   ~ 0
-dig_out_1
-Text Label 7900 5400 0    50   ~ 0
-NOR32T_oc_1
-Text Label 7900 5500 0    50   ~ 0
-NOR32_oc_1
-Text Label 7900 5600 0    50   ~ 0
-OR32_1
 Entry Wire Line
-	7900 5600 7800 5500
+	7400 5600 7300 5500
 Entry Wire Line
-	7900 5700 7800 5600
+	7400 5700 7300 5600
 Entry Wire Line
-	7900 5400 7800 5300
+	7400 5400 7300 5300
 Entry Wire Line
-	7900 5500 7800 5400
+	7400 5500 7300 5400
 Wire Bus Line
-	7800 5300 7300 5300
-Text HLabel 7300 5300 0    50   Output ~ 0
-CITIROC_IN_1
-Wire Wire Line
-	8400 5400 7900 5400
-Wire Wire Line
-	8400 5500 7900 5500
+	7300 5300 6800 5300
+Text HLabel 6800 5300 0    50   Output ~ 0
+CITIROC_IN_ONE[0..24]
 Wire Wire Line
 	13050 1000 13550 1000
 Wire Wire Line
@@ -1713,247 +1633,101 @@ T2_30
 Text Label 15250 1700 2    50   ~ 0
 T2_31
 Wire Wire Line
-	15250 2400 14750 2400
+	15750 2400 14750 2400
 Wire Wire Line
-	14750 2300 15250 2300
-Text Label 15250 2400 2    50   ~ 0
-dig_out_2
-Text Label 15250 1900 2    50   ~ 0
-NOR32T_oc_2
-Text Label 15250 2000 2    50   ~ 0
-NOR32_oc_2
-Text Label 15250 2300 2    50   ~ 0
-OR32_2
+	14750 2300 15750 2300
 Entry Wire Line
-	15250 2300 15350 2200
+	15750 2300 15850 2200
 Entry Wire Line
-	15250 1900 15350 1800
+	15750 1900 15850 1800
 Entry Wire Line
-	15250 2000 15350 1900
+	15750 2000 15850 1900
 Wire Bus Line
-	15350 1800 15850 1800
-Text HLabel 15850 1800 2    50   Output ~ 0
-CITIROC_IN_2
+	15850 1800 16350 1800
+Text HLabel 16350 1800 2    50   Output ~ 0
+CITIROC_IN_TWO[0..24]
 Wire Wire Line
-	14750 1900 15250 1900
+	14750 1900 15750 1900
 Wire Wire Line
-	14750 2000 15250 2000
+	14750 2000 15750 2000
 Entry Wire Line
-	15350 2300 15250 2400
-Wire Wire Line
-	10100 3100 9600 3100
-Wire Wire Line
-	9600 2800 10100 2800
-Wire Wire Line
-	9600 2900 10100 2900
-Wire Wire Line
-	9600 3000 10100 3000
-Wire Wire Line
-	9600 3700 10100 3700
-Wire Wire Line
-	9600 3800 10100 3800
-Wire Wire Line
-	9600 4000 10100 4000
-Wire Wire Line
-	9600 4100 10100 4100
-Text Label 10100 2800 2    50   ~ 0
-resetb_pa_1
-Text Label 10100 2900 2    50   ~ 0
-rstb_PSC_1
-Text Label 10100 3000 2    50   ~ 0
-pwr_on_1
-Text Label 10100 3700 2    50   ~ 0
-PS_global_trig_1
-Text Label 10100 3800 2    50   ~ 0
-PS_modeb_ext_1
-Text Label 10100 4000 2    50   ~ 0
-hold_lg_1
-Text Label 10100 4100 2    50   ~ 0
-hold_hg_1
+	15850 2300 15750 2400
 Entry Wire Line
-	10200 3600 10100 3700
+	10700 3600 10600 3700
 Entry Wire Line
-	10200 3700 10100 3800
+	10700 3700 10600 3800
 Entry Wire Line
-	10200 2900 10100 3000
+	10700 2900 10600 3000
 Entry Wire Line
-	10200 2800 10100 2900
+	10700 2800 10600 2900
 Entry Wire Line
-	10200 2700 10100 2800
+	10700 2700 10600 2800
 Wire Bus Line
-	10200 2300 10700 2300
+	10700 2400 11200 2400
 Entry Wire Line
-	10200 2300 10100 2400
+	10600 2500 10700 2400
 Entry Wire Line
-	10100 2400 10200 2300
+	10600 2600 10700 2500
 Entry Wire Line
-	10100 2500 10200 2400
+	10600 2700 10700 2600
+Text HLabel 11200 2400 2    50   Output ~ 0
+ADC_IN_ONE[0..3]
 Entry Wire Line
-	10100 2600 10200 2500
+	7300 4900 7400 5000
 Entry Wire Line
-	10100 2700 10200 2600
-Text Label 10200 2300 0    50   ~ 0
-ADC_IN_1
-Text Label 10100 2400 2    50   ~ 0
-ADC_CS_1
-Text Label 10100 2500 2    50   ~ 0
-ADC_SCLK_1
-Text Label 10100 2600 2    50   ~ 0
-ADC_SDI_1
-Text Label 10100 2700 2    50   ~ 0
-ADC_SDO_1
-Text HLabel 10700 2300 2    50   Output ~ 0
-ADC_IN_1
-Wire Wire Line
-	10100 2500 9600 2500
-Wire Wire Line
-	10100 2600 9600 2600
-Wire Wire Line
-	10100 2700 9600 2700
-Wire Wire Line
-	8400 4900 7900 4900
-Wire Wire Line
-	8400 5000 7900 5000
-Text Label 7900 4900 0    50   ~ 0
-srout_read_2
-Text Label 7900 5000 0    50   ~ 0
-srout_sc_2
-Wire Wire Line
-	8400 4300 7900 4300
-Wire Wire Line
-	8400 4400 7900 4400
-Wire Wire Line
-	7900 4500 8400 4500
-Wire Wire Line
-	8400 4600 7900 4600
-Wire Wire Line
-	7900 4700 8400 4700
-Wire Wire Line
-	8400 4800 7900 4800
-Text Label 7900 4300 0    50   ~ 0
-srin_read_2
-Text Label 7900 4400 0    50   ~ 0
-clk_read_2
-Text Label 7900 4500 0    50   ~ 0
-resetb_read_2
-Text Label 7900 4600 0    50   ~ 0
-srin_sc_2
-Text Label 7900 4700 0    50   ~ 0
-clk_sr_2
-Text Label 7900 4800 0    50   ~ 0
-rstb_sr_2
-Text Label 7900 3900 0    50   ~ 0
-load_sc_2
-Wire Wire Line
-	8400 3900 7900 3900
-Wire Wire Line
-	7900 3400 8400 3400
-Wire Wire Line
-	7900 3500 8400 3500
-Wire Wire Line
-	7900 3200 8400 3200
-Text Label 7900 3600 0    50   ~ 0
-select_2
-Text Label 7900 3500 0    50   ~ 0
-Val_Ext_p2
-Text Label 7900 3400 0    50   ~ 0
-Val_Ext_n2
-Text Label 7900 3200 0    50   ~ 0
-Raz_Chn_p2
-Text Label 7900 3100 0    50   ~ 0
-Raz_Chn_n2
-Wire Wire Line
-	7900 3600 8400 3600
+	7300 4800 7400 4900
 Entry Wire Line
-	7800 4900 7900 5000
+	7300 4700 7400 4800
 Entry Wire Line
-	7800 4800 7900 4900
+	7300 4600 7400 4700
 Entry Wire Line
-	7800 4700 7900 4800
+	7300 4500 7400 4600
 Entry Wire Line
-	7800 4600 7900 4700
+	7300 4400 7400 4500
 Entry Wire Line
-	7800 4500 7900 4600
+	7300 4300 7400 4400
 Entry Wire Line
-	7800 4400 7900 4500
+	7300 4200 7400 4300
 Entry Wire Line
-	7800 4300 7900 4400
+	7300 3800 7400 3900
 Entry Wire Line
-	7800 4200 7900 4300
+	7300 3500 7400 3600
 Entry Wire Line
-	7800 3800 7900 3900
+	7300 3400 7400 3500
 Entry Wire Line
-	7800 3500 7900 3600
+	7300 3300 7400 3400
 Entry Wire Line
-	7800 3400 7900 3500
+	7300 3100 7400 3200
 Entry Wire Line
-	7800 3300 7900 3400
-Entry Wire Line
-	7800 3100 7900 3200
-Entry Wire Line
-	7800 3000 7900 3100
+	7300 3000 7400 3100
 Wire Bus Line
-	7800 2700 7300 2700
-Text Label 7800 2700 2    50   ~ 0
-CITIROC_IN_2
-Text HLabel 7300 2700 0    50   Output ~ 0
-CITIROC_IN_2
-Wire Wire Line
-	7900 3100 8400 3100
-Wire Wire Line
-	8400 2800 7900 2800
-Wire Wire Line
-	8400 2900 7900 2900
-Wire Wire Line
-	8400 3000 7900 3000
-Wire Wire Line
-	8400 3700 7900 3700
-Wire Wire Line
-	8400 3800 7900 3800
-Wire Wire Line
-	8400 4100 7900 4100
-Wire Wire Line
-	8400 4200 7900 4200
-Text Label 7900 2800 0    50   ~ 0
-resetb_pa_2
-Text Label 7900 2900 0    50   ~ 0
-rstb_PSC_2
-Text Label 7900 3000 0    50   ~ 0
-pwr_on_2
-Text Label 7900 3700 0    50   ~ 0
-PS_global_trig_2
-Text Label 7900 3800 0    50   ~ 0
-PS_modeb_ext_2
-Text Label 7900 4100 0    50   ~ 0
-hold_lg_2
-Text Label 7900 4200 0    50   ~ 0
-hold_hg_2
+	7300 2700 6800 2700
+Text HLabel 6800 2700 0    50   Output ~ 0
+CITIROC_IN_TWO[0..24]
 Entry Wire Line
-	7800 3600 7900 3700
+	7300 3600 7400 3700
 Entry Wire Line
-	7800 3700 7900 3800
+	7300 3700 7400 3800
 Entry Wire Line
-	7800 2900 7900 3000
+	7300 2900 7400 3000
 Entry Wire Line
-	7800 2800 7900 2900
+	7300 2800 7400 2900
 Entry Wire Line
-	7800 2700 7900 2800
+	7300 2700 7400 2800
 Entry Wire Line
-	7800 4100 7900 4200
+	7300 4100 7400 4200
 Entry Wire Line
-	7800 4000 7900 4100
+	7300 4000 7400 4100
 Entry Wire Line
-	10200 3900 10100 4000
+	10700 3900 10600 4000
 Entry Wire Line
-	10200 4000 10100 4100
+	10700 4000 10600 4100
 Wire Wire Line
 	7900 2300 8400 2300
 Text HLabel 7300 2200 0    50   Output ~ 0
-ADC_IN_2
+ADC_IN_TWO[0..3]
 Text Label 7900 2300 0    50   ~ 0
-ADC_CS_2
-Text Label 7800 2200 2    50   ~ 0
-ADC_IN_2
+ADC_IN_TWO0
 Entry Wire Line
 	7900 2300 7800 2200
 Entry Wire Line
@@ -1966,12 +1740,8 @@ Wire Wire Line
 	7900 2600 8400 2600
 Wire Wire Line
 	7900 2500 8400 2500
-Text Label 7900 2700 0    50   ~ 0
-ADC_SDO_2
-Text Label 7900 2600 0    50   ~ 0
-ADC_SDI_2
 Text Label 7900 2500 0    50   ~ 0
-ADC_SCLK_2
+ADC_IN_TWO1
 Entry Wire Line
 	7900 2700 7800 2600
 Entry Wire Line
@@ -1979,9 +1749,9 @@ Entry Wire Line
 Entry Wire Line
 	7900 2500 7800 2400
 Wire Wire Line
-	7600 5100 8400 5100
+	7000 5100 8400 5100
 Text Label 7900 2200 0    50   ~ 0
-ADC_CS_1
+ADC_IN_ONE0
 Wire Wire Line
 	7900 2200 8400 2200
 Wire Wire Line
@@ -2222,12 +1992,244 @@ Wire Wire Line
 	4950 5650 4950 5750
 Wire Wire Line
 	5150 5750 5150 5850
+Text Label 10600 3500 2    50   ~ 0
+CITIROC_IN_ONE6
+Text Label 10600 3600 2    50   ~ 0
+CITIROC_IN_ONE7
+Text Label 10600 3700 2    50   ~ 0
+CITIROC_IN_ONE8
+Text Label 10600 3800 2    50   ~ 0
+CITIROC_IN_ONE9
+Text Label 10600 3900 2    50   ~ 0
+CITIROC_IN_ONE10
+Text Label 10600 4000 2    50   ~ 0
+CITIROC_IN_ONE11
+Text Label 10600 4100 2    50   ~ 0
+CITIROC_IN_ONE12
+Text Label 10600 4300 2    50   ~ 0
+CITIROC_IN_ONE13
+Text Label 10600 4400 2    50   ~ 0
+CITIROC_IN_ONE14
+Text Label 10600 4500 2    50   ~ 0
+CITIROC_IN_ONE15
+Text Label 10600 4600 2    50   ~ 0
+CITIROC_IN_ONE16
+Text Label 10600 4700 2    50   ~ 0
+CITIROC_IN_ONE17
+Text Label 10600 4800 2    50   ~ 0
+CITIROC_IN_ONE18
+Text Label 10600 4900 2    50   ~ 0
+CITIROC_IN_ONE19
+Text Label 10600 5000 2    50   ~ 0
+CITIROC_IN_ONE20
+Text Label 7400 5400 0    50   ~ 0
+CITIROC_IN_ONE21
+Text Label 7400 5500 0    50   ~ 0
+CITIROC_IN_ONE22
+Text Label 7400 5600 0    50   ~ 0
+CITIROC_IN_ONE23
+Text Label 7400 5700 0    50   ~ 0
+CITIROC_IN_ONE24
+Text Label 10600 3400 2    50   ~ 0
+CITIROC_IN_ONE5
+Text Label 10600 3200 2    50   ~ 0
+CITIROC_IN_ONE4
+Text Label 10600 3100 2    50   ~ 0
+CITIROC_IN_ONE3
+Text Label 10600 3000 2    50   ~ 0
+CITIROC_IN_ONE2
+Text Label 10600 2900 2    50   ~ 0
+CITIROC_IN_ONE1
+Text Label 10600 2800 2    50   ~ 0
+CITIROC_IN_ONE0
+Wire Wire Line
+	17750 5650 18750 5650
+Wire Wire Line
+	17750 5750 18750 5750
+Wire Wire Line
+	17750 5850 18750 5850
+Wire Wire Line
+	17750 5950 18750 5950
+Wire Wire Line
+	17750 6050 18750 6050
+Wire Wire Line
+	17750 6150 18750 6150
+Wire Wire Line
+	17750 6250 18750 6250
+Wire Wire Line
+	17750 6350 18750 6350
+Wire Wire Line
+	9600 2500 10600 2500
+Wire Wire Line
+	9600 2600 10600 2600
+Wire Wire Line
+	9600 2700 10600 2700
+Wire Wire Line
+	9600 2800 10600 2800
+Wire Wire Line
+	9600 2900 10600 2900
+Wire Wire Line
+	9600 3000 10600 3000
+Wire Wire Line
+	9600 3100 10600 3100
+Wire Wire Line
+	9600 3200 10600 3200
+Wire Wire Line
+	9600 3400 10600 3400
+Wire Wire Line
+	9600 3500 10600 3500
+Wire Wire Line
+	9600 3600 10600 3600
+Wire Wire Line
+	9600 3700 10600 3700
+Wire Wire Line
+	9600 3800 10600 3800
+Wire Wire Line
+	9600 3900 10600 3900
+Wire Wire Line
+	9600 4000 10600 4000
+Wire Wire Line
+	9600 4100 10600 4100
+Wire Wire Line
+	9600 4300 10600 4300
+Wire Wire Line
+	9600 4400 10600 4400
+Wire Wire Line
+	9600 4500 10600 4500
+Wire Wire Line
+	9600 4600 10600 4600
+Wire Wire Line
+	9600 4700 10600 4700
+Wire Wire Line
+	9600 4800 10600 4800
+Wire Wire Line
+	9600 4900 10600 4900
+Wire Wire Line
+	9600 5000 10600 5000
+Wire Wire Line
+	7400 5400 8400 5400
+Wire Wire Line
+	7400 5500 8400 5500
+Wire Wire Line
+	7400 5600 8400 5600
+Wire Wire Line
+	7400 5700 8400 5700
 Wire Bus Line
-	7800 5300 7800 5600
+	7800 2100 7300 2100
+Entry Wire Line
+	7800 2100 7900 2200
+Entry Wire Line
+	7900 2200 7800 2100
+Text HLabel 7300 2100 0    50   Output ~ 0
+ADC_IN_ONE[0..3]
+Text Label 10600 2500 2    50   ~ 0
+ADC_IN_ONE1
+Text Label 10600 2600 2    50   ~ 0
+ADC_IN_ONE2
+Text Label 10600 2700 2    50   ~ 0
+ADC_IN_ONE3
+Text Label 7900 2600 0    50   ~ 0
+ADC_IN_TWO2
+Text Label 7900 2700 0    50   ~ 0
+ADC_IN_TWO3
+Wire Wire Line
+	7400 2800 8400 2800
+Wire Wire Line
+	7400 2900 8400 2900
+Wire Wire Line
+	7400 3000 8400 3000
+Wire Wire Line
+	7400 3100 8400 3100
+Wire Wire Line
+	7400 3200 8400 3200
+Wire Wire Line
+	7400 3400 8400 3400
+Wire Wire Line
+	7400 3500 8400 3500
+Wire Wire Line
+	7400 3600 8400 3600
+Wire Wire Line
+	7400 3700 8400 3700
+Wire Wire Line
+	7400 3800 8400 3800
+Wire Wire Line
+	7400 3900 8400 3900
+Wire Wire Line
+	7400 4300 8400 4300
+Wire Wire Line
+	7400 4400 8400 4400
+Wire Wire Line
+	7400 4500 8400 4500
+Wire Wire Line
+	7400 4600 8400 4600
+Wire Wire Line
+	7400 4700 8400 4700
+Wire Wire Line
+	7400 4800 8400 4800
+Wire Wire Line
+	7400 4900 8400 4900
+Wire Wire Line
+	7400 5000 8400 5000
+Wire Wire Line
+	7400 4100 8400 4100
+Wire Wire Line
+	7400 4200 8400 4200
+Text Label 7400 2800 0    50   ~ 0
+CITIROC_IN_TWO0
+Text Label 7400 2900 0    50   ~ 0
+CITIROC_IN_TWO1
+Text Label 7400 3000 0    50   ~ 0
+CITIROC_IN_TWO2
+Text Label 7400 3100 0    50   ~ 0
+CITIROC_IN_TWO3
+Text Label 7400 3200 0    50   ~ 0
+CITIROC_IN_TWO4
+Text Label 7400 3400 0    50   ~ 0
+CITIROC_IN_TWO5
+Text Label 7400 3500 0    50   ~ 0
+CITIROC_IN_TWO6
+Text Label 7400 3600 0    50   ~ 0
+CITIROC_IN_TWO7
+Text Label 7400 3700 0    50   ~ 0
+CITIROC_IN_TWO8
+Text Label 7400 3800 0    50   ~ 0
+CITIROC_IN_TWO9
+Text Label 7400 3900 0    50   ~ 0
+CITIROC_IN_TWO10
+Text Label 7400 4100 0    50   ~ 0
+CITIROC_IN_TWO11
+Text Label 7400 4200 0    50   ~ 0
+CITIROC_IN_TWO12
+Text Label 7400 4300 0    50   ~ 0
+CITIROC_IN_TWO13
+Text Label 7400 4400 0    50   ~ 0
+CITIROC_IN_TWO14
+Text Label 7400 4500 0    50   ~ 0
+CITIROC_IN_TWO15
+Text Label 7400 4600 0    50   ~ 0
+CITIROC_IN_TWO16
+Text Label 7400 4700 0    50   ~ 0
+CITIROC_IN_TWO17
+Text Label 7400 4800 0    50   ~ 0
+CITIROC_IN_TWO18
+Text Label 7400 4900 0    50   ~ 0
+CITIROC_IN_TWO19
+Text Label 7400 5000 0    50   ~ 0
+CITIROC_IN_TWO20
+Text Label 15750 1900 2    50   ~ 0
+CITIROC_IN_TWO21
+Text Label 15750 2000 2    50   ~ 0
+CITIROC_IN_TWO22
+Text Label 15750 2300 2    50   ~ 0
+CITIROC_IN_TWO23
+Text Label 15750 2400 2    50   ~ 0
+CITIROC_IN_TWO24
 Wire Bus Line
-	15350 1800 15350 2300
+	10700 2400 10700 2600
 Wire Bus Line
-	10200 2300 10200 2600
+	7300 5300 7300 5600
+Wire Bus Line
+	15850 1800 15850 2300
 Wire Bus Line
 	7800 2200 7800 2600
 Wire Bus Line
@@ -2237,9 +2239,9 @@ Wire Bus Line
 Wire Bus Line
 	12950 3600 12950 5600
 Wire Bus Line
-	7800 2700 7800 4900
+	7300 2700 7300 4900
 Wire Bus Line
-	10200 2700 10200 4900
+	10700 2700 10700 4900
 Wire Bus Line
 	12950 900  12950 3400
 $EndSCHEMATC
