@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 7 7
 Title ""
 Date "2021-06-01"
 Rev ""
@@ -14,9 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 7950 900  2    50   Output ~ 0
-B1_[0,31]
+B1_[0..31]
 Text HLabel 3750 900  0    50   Output ~ 0
-B2_[0,31]
+B2_[0..31]
 NoConn ~ 5350 5000
 NoConn ~ 5350 5100
 NoConn ~ 5350 5200
@@ -120,7 +120,7 @@ Connection ~ 5250 1900
 Wire Wire Line
 	5350 1900 5250 1900
 Text Label 4750 900  2    50   ~ 0
-B2_[0,31]
+B2_[0..31]
 Wire Wire Line
 	5350 4900 5100 4900
 Wire Wire Line
@@ -564,10 +564,10 @@ Wire Wire Line
 	6350 4400 6850 4400
 Wire Wire Line
 	6350 4500 6850 4500
+Text Label 6950 900  0    50   ~ 0
+B1_[0..31]
 Wire Bus Line
 	6950 900  6950 4400
 Wire Bus Line
 	4750 900  4750 4400
-Text Label 6950 900  0    50   ~ 0
-B1_[0,31]
 $EndSCHEMATC

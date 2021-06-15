@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 18000 12000
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -130,7 +130,7 @@ Entry Wire Line
 Entry Wire Line
 	1400 1950 1500 2050
 Text HLabel 1050 1100 0    50   Input ~ 0
-B1_[0,31]
+B1_[0..31]
 Entry Wire Line
 	1400 4250 1500 4350
 Entry Wire Line
@@ -2338,17 +2338,6 @@ F 3 "~" H 5450 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R91
-U 1 1 61BCD343
-P 5450 4600
-F 0 "R91" H 5500 4600 39  0001 L CNN
-F 1 "50" V 5450 4550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 4600 50  0001 C CNN
-F 3 "~" H 5450 4600 50  0001 C CNN
-	1    5450 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C123
 U 1 1 60C983C2
 P 5300 4850
@@ -3428,6 +3417,19 @@ Connection ~ 5400 4150
 Connection ~ 5450 4250
 Connection ~ 5550 4350
 NoConn ~ 8300 1950
+$Comp
+L Device:R R91
+U 1 1 61BCD343
+P 5450 4600
+F 0 "R91" H 5500 4600 39  0001 L CNN
+F 1 "50" V 5450 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5380 4600 50  0001 C CNN
+F 3 "~" H 5450 4600 50  0001 C CNN
+	1    5450 4600
+	1    0    0    -1  
+$EndComp
+Text Label 1400 1100 0    50   ~ 0
+B1_[0..31]
 Wire Bus Line
 	15800 4250 15800 4700
 Wire Bus Line
