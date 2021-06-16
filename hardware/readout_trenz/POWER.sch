@@ -1834,4 +1834,150 @@ Wire Wire Line
 	15350 2650 15600 2650
 Wire Wire Line
 	15350 2650 15350 2550
+$Comp
+L Converter_DCDC:ATA00AA18S-L U?
+U 1 1 60D7BCEE
+P 2000 1800
+F 0 "U?" H 2000 2267 50  0000 C CNN
+F 1 "ATA00AA18S-L" H 2000 2176 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_Artesyn_ATA_SMD" H 2000 1450 50  0001 C CIN
+F 3 "https://www.artesyn.com/power/assets/ata_series_ds_01apr2015_79c25814fd.pdf" H 2000 1350 50  0001 C CNN
+	1    2000 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1600 3300 1600
+Wire Wire Line
+	3300 1600 3300 2000
+Wire Wire Line
+	3300 4200 3800 4200
+Wire Wire Line
+	3300 3050 3800 3050
+Connection ~ 3300 3050
+Wire Wire Line
+	3300 3050 3300 4200
+$Comp
+L power:GND #PWR?
+U 1 1 60DDA815
+P 4200 3450
+F 0 "#PWR?" H 4200 3200 50  0001 C CNN
+F 1 "GND" H 4205 3277 50  0000 C CNN
+F 2 "" H 4200 3450 50  0001 C CNN
+F 3 "" H 4200 3450 50  0001 C CNN
+	1    4200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60DE7E46
+P 4200 4600
+F 0 "#PWR?" H 4200 4350 50  0001 C CNN
+F 1 "GND" H 4205 4427 50  0000 C CNN
+F 2 "" H 4200 4600 50  0001 C CNN
+F 3 "" H 4200 4600 50  0001 C CNN
+	1    4200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LT1963AxST-3.3 U?
+U 1 1 60E1C2AD
+P 4200 3150
+F 0 "U?" H 4200 3517 50  0000 C CNN
+F 1 "LT1963AxST-3.3" H 4200 3426 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4200 2700 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 4200 2600 50  0001 C CNN
+	1    4200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LT1963AxST-3.3 U?
+U 1 1 60E40C3E
+P 4200 4300
+F 0 "U?" H 4200 4667 50  0000 C CNN
+F 1 "LT1963AxST-3.3" H 4200 4576 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4200 3850 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 4200 3750 50  0001 C CNN
+	1    4200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:NCP718xSN180 U?
+U 1 1 60E4EE79
+P 4200 2100
+F 0 "U?" H 4200 2467 50  0000 C CNN
+F 1 "NCP718xSN180" H 4200 2376 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4200 2450 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF" H 4200 2600 50  0001 C CNN
+	1    4200 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2000 3450 2000
+Connection ~ 3300 2000
+Wire Wire Line
+	3300 2000 3300 3050
+$Comp
+L power:GND #PWR?
+U 1 1 60E781EE
+P 4200 2450
+F 0 "#PWR?" H 4200 2200 50  0001 C CNN
+F 1 "GND" H 4205 2277 50  0000 C CNN
+F 2 "" H 4200 2450 50  0001 C CNN
+F 3 "" H 4200 2450 50  0001 C CNN
+	1    4200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60EB77F1
+P 3450 2200
+F 0 "C?" H 3542 2246 50  0000 L CNN
+F 1 "C_Small" H 3542 2155 50  0000 L CNN
+F 2 "" H 3450 2200 50  0001 C CNN
+F 3 "~" H 3450 2200 50  0001 C CNN
+	1    3450 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 2000 3450 2100
+Connection ~ 3450 2000
+Wire Wire Line
+	3450 2000 3300 2000
+Wire Wire Line
+	3450 2300 3450 2400
+Wire Wire Line
+	3450 2400 4200 2400
+Wire Wire Line
+	4200 2400 4200 2450
+Connection ~ 4200 2400
+$Comp
+L Device:C_Small C?
+U 1 1 60EEB4F9
+P 4500 2200
+F 0 "C?" H 4592 2246 50  0000 L CNN
+F 1 "C_Small" H 4592 2155 50  0000 L CNN
+F 2 "" H 4500 2200 50  0001 C CNN
+F 3 "~" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2000 4500 2100
+Wire Wire Line
+	4500 2300 4500 2400
+Wire Wire Line
+	4200 2400 4500 2400
+Wire Wire Line
+	4500 2000 5550 2000
+Connection ~ 4500 2000
+Text GLabel 5550 2000 2    50   Output ~ 0
+1.8V_CITIROC
+Wire Wire Line
+	4600 3050 5550 3050
+Text GLabel 5550 3050 2    50   Output ~ 0
+3.3V_TRENZ
+Wire Wire Line
+	4600 4200 5550 4200
+Text GLabel 5550 4200 2    50   Output ~ 0
+3.3V_SFP
 $EndSCHEMATC
