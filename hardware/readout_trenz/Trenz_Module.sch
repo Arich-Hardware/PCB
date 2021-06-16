@@ -2066,10 +2066,6 @@ Entry Wire Line
 	8800 2350 8700 2250
 Text HLabel 8200 2250 0    50   Output ~ 0
 ADC_IN_ONE[0..3]
-Text Label 11500 2650 2    50   ~ 0
-ADC_IN_ONE1
-Text Label 11500 2750 2    50   ~ 0
-ADC_IN_ONE2
 Text Label 11500 2850 2    50   ~ 0
 ADC_IN_ONE3
 Text Label 8800 2750 0    50   ~ 0
@@ -2188,4 +2184,8 @@ Wire Bus Line
 	11600 2850 11600 5050
 Wire Bus Line
 	15050 1050 15050 3550
+Text Label 11500 2750 2    50   ~ 0
+ADC_IN_ONE2
+Text Label 11500 2650 2    50   ~ 0
+ADC_IN_ONE1
 $EndSCHEMATC
