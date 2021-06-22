@@ -607,23 +607,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 1350 1600 1350
 $Comp
-L readout:Vcc0 U?
-U 1 1 60DE6B91
-P 1700 1150
-AR Path="/6076C700/60DE6B91" Ref="U?"  Part="1" 
-AR Path="/62251D77/60DE6B91" Ref="U?"  Part="1" 
-AR Path="/608CAA95/60DE6B91" Ref="U?"  Part="1" 
-AR Path="/606EBC4D/60DE6B91" Ref="U?"  Part="1" 
-AR Path="/60BC24EA/60DE6B91" Ref="U?"  Part="1" 
-AR Path="/60D04563/60DE6B91" Ref="U?"  Part="1" 
-F 0 "U?" H 1700 1150 79  0001 C CNN
-F 1 "Vcc0_3v3" H 1550 1200 47  0000 L CNB
-F 2 "" H 1700 1150 79  0001 C CNN
-F 3 "" H 1700 1150 79  0001 C CNN
-	1    1700 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J?
 U 1 1 60DFEC40
 P 3200 1500
@@ -720,23 +703,6 @@ F 3 "~" H 4500 1550 50  0001 C CNN
 	1    4500 1550
 	-1   0    0    1   
 $EndComp
-$Comp
-L readout:Vcc0 U?
-U 1 1 60DFEC73
-P 3650 1200
-AR Path="/6076C700/60DFEC73" Ref="U?"  Part="1" 
-AR Path="/62251D77/60DFEC73" Ref="U?"  Part="1" 
-AR Path="/608CAA95/60DFEC73" Ref="U?"  Part="1" 
-AR Path="/606EBC4D/60DFEC73" Ref="U?"  Part="1" 
-AR Path="/60BC2588/60DFEC73" Ref="U?"  Part="1" 
-AR Path="/60D04563/60DFEC73" Ref="U?"  Part="1" 
-F 0 "U?" H 3650 1200 79  0001 C CNN
-F 1 "Vcc0_3v3" H 3500 1250 47  0000 L CNB
-F 2 "" H 3650 1200 79  0001 C CNN
-F 3 "" H 3650 1200 79  0001 C CNN
-	1    3650 1200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9300 6050 9200 6050
 Wire Wire Line
@@ -755,17 +721,6 @@ F 1 "47u" H 8858 6155 50  0000 R CNB
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8950 6200 50  0001 C CNN
 F 3 "~" H 8950 6200 50  0001 C CNN
 	1    8950 6200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60E84047
-P 8800 6050
-F 0 "#PWR?" H 8800 5900 50  0001 C CNN
-F 1 "+3.3V" H 8815 6223 50  0000 C CNN
-F 2 "" H 8800 6050 50  0001 C CNN
-F 3 "" H 8800 6050 50  0001 C CNN
-	1    8800 6050
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1191,8 +1146,6 @@ Entry Wire Line
 	8800 2750 8700 2650
 Entry Wire Line
 	8800 2650 8700 2550
-Wire Wire Line
-	7900 5250 9300 5250
 Text Label 8800 2350 0    50   ~ 0
 ADC_IN_ONE0
 Wire Wire Line
@@ -1403,7 +1356,7 @@ Wire Notes Line
 Wire Wire Line
 	4950 5650 4950 5750
 Wire Wire Line
-	5150 5750 5150 5850
+	5150 5650 5150 5850
 Text Label 11500 3650 2    50   ~ 0
 CITIROC_IN_ONE6
 Text Label 11500 3750 2    50   ~ 0
@@ -1654,74 +1607,6 @@ Wire Wire Line
 	8300 4150 8300 4100
 Wire Wire Line
 	8000 4100 8300 4100
-$Comp
-L readout:Vcc0 U?
-U 1 1 61271431
-P 1150 5150
-AR Path="/6076C700/61271431" Ref="U?"  Part="1" 
-AR Path="/62251D77/61271431" Ref="U?"  Part="1" 
-AR Path="/608CAA95/61271431" Ref="U?"  Part="1" 
-AR Path="/606EBC4D/61271431" Ref="U?"  Part="1" 
-AR Path="/60BC24EA/61271431" Ref="U?"  Part="1" 
-AR Path="/60D04563/61271431" Ref="U?"  Part="1" 
-F 0 "U?" H 1150 5150 79  0001 C CNN
-F 1 "Vcc0_3v3" H 1000 5200 47  0000 L CNB
-F 2 "" H 1150 5150 79  0001 C CNN
-F 3 "" H 1150 5150 79  0001 C CNN
-	1    1150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:Vcc0 U?
-U 1 1 6129BFC1
-P 4950 5550
-AR Path="/6076C700/6129BFC1" Ref="U?"  Part="1" 
-AR Path="/62251D77/6129BFC1" Ref="U?"  Part="1" 
-AR Path="/608CAA95/6129BFC1" Ref="U?"  Part="1" 
-AR Path="/606EBC4D/6129BFC1" Ref="U?"  Part="1" 
-AR Path="/60BC24EA/6129BFC1" Ref="U?"  Part="1" 
-AR Path="/60D04563/6129BFC1" Ref="U?"  Part="1" 
-F 0 "U?" H 4950 5550 79  0001 C CNN
-F 1 "Vcc0_3v3" H 4800 5600 47  0000 L CNB
-F 2 "" H 4950 5550 79  0001 C CNN
-F 3 "" H 4950 5550 79  0001 C CNN
-	1    4950 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:Vcc0 U?
-U 1 1 612C35A9
-P 5150 5650
-AR Path="/6076C700/612C35A9" Ref="U?"  Part="1" 
-AR Path="/62251D77/612C35A9" Ref="U?"  Part="1" 
-AR Path="/608CAA95/612C35A9" Ref="U?"  Part="1" 
-AR Path="/606EBC4D/612C35A9" Ref="U?"  Part="1" 
-AR Path="/60BC24EA/612C35A9" Ref="U?"  Part="1" 
-AR Path="/60D04563/612C35A9" Ref="U?"  Part="1" 
-F 0 "U?" H 5150 5650 79  0001 C CNN
-F 1 "Vcc0_3v3" H 5000 5700 47  0000 L CNB
-F 2 "" H 5150 5650 79  0001 C CNN
-F 3 "" H 5150 5650 79  0001 C CNN
-	1    5150 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:Vcc0 U?
-U 1 1 612EA273
-P 7900 5150
-AR Path="/6076C700/612EA273" Ref="U?"  Part="1" 
-AR Path="/62251D77/612EA273" Ref="U?"  Part="1" 
-AR Path="/608CAA95/612EA273" Ref="U?"  Part="1" 
-AR Path="/606EBC4D/612EA273" Ref="U?"  Part="1" 
-AR Path="/60BC24EA/612EA273" Ref="U?"  Part="1" 
-AR Path="/60D04563/612EA273" Ref="U?"  Part="1" 
-F 0 "U?" H 7900 5150 79  0001 C CNN
-F 1 "Vcc0_3v3" H 7750 5200 47  0000 L CNB
-F 2 "" H 7900 5150 79  0001 C CNN
-F 3 "" H 7900 5150 79  0001 C CNN
-	1    7900 5150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 614234A6
@@ -2013,6 +1898,29 @@ F 1 "GNDD" V 16854 5440 50  0000 R CNN
 F 2 "" H 16850 5550 50  0001 C CNN
 F 3 "" H 16850 5550 50  0001 C CNN
 	1    16850 5550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8800 6050 0    50   Input ~ 0
+3.3V_TRENZ
+Text GLabel 1150 5250 1    50   Input ~ 0
+3.3V_SFP
+Text GLabel 4950 5650 1    50   Input ~ 0
+3.3V_SFP
+Text GLabel 5150 5650 1    50   Input ~ 0
+3.3V_SFP
+Text GLabel 1700 1250 1    50   Input ~ 0
+3.3V_TRENZ
+Text GLabel 3650 1300 2    50   Input ~ 0
+3.3V_TRENZ
+$Comp
+L power:GNDD #PWR?
+U 1 1 61BDEF65
+P 10500 5250
+F 0 "#PWR?" H 10500 5000 50  0001 C CNN
+F 1 "GNDD" V 10504 5140 50  0000 R CNN
+F 2 "" H 10500 5250 50  0001 C CNN
+F 3 "" H 10500 5250 50  0001 C CNN
+	1    10500 5250
 	0    -1   -1   0   
 $EndComp
 Wire Bus Line

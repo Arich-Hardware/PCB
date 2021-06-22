@@ -281,6 +281,14 @@ F 3 "~" H 8600 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3500 3000
+Text GLabel 9850 2400 2    50   Input ~ 0
+1.8V_CITIROC
+Text GLabel 9850 5400 2    50   Input ~ 0
+3.3V_TRENZ
+Text GLabel 9850 4400 2    50   Input ~ 0
+3.3V_SFP
+Text GLabel 9850 3400 2    50   Input ~ 0
+3.3V_CITIROC
 Wire Bus Line
 	1300 6250 1300 6750
 Wire Bus Line

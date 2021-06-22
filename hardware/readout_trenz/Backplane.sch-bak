@@ -544,10 +544,6 @@ Wire Wire Line
 	6350 4500 6850 4500
 Text Label 6950 900  0    50   ~ 0
 B1_[0..31]
-Wire Bus Line
-	6950 900  6950 4400
-Wire Bus Line
-	4750 900  4750 4400
 $Comp
 L power:GNDA #PWR?
 U 1 1 613F0EC5
@@ -570,4 +566,8 @@ F 3 "" H 5250 4950 50  0001 C CNN
 	1    5250 4950
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	6950 900  6950 4400
+Wire Bus Line
+	4750 900  4750 4400
 $EndSCHEMATC
