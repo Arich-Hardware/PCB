@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 20000 8500
 encoding utf-8
-Sheet 2 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -1012,8 +1012,6 @@ Wire Wire Line
 	16850 1750 17350 1750
 Wire Wire Line
 	16850 1850 17350 1850
-Text HLabel 17950 1050 2    50   Input ~ 0
-T2_[24..31]
 Text Label 17350 1150 2    50   ~ 0
 T2_24
 Text Label 17350 1250 2    50   ~ 0
@@ -1623,7 +1621,7 @@ L power:GNDD #PWR?
 U 1 1 61424937
 P 9300 1950
 F 0 "#PWR?" H 9300 1700 50  0001 C CNN
-F 1 "GNDD" V 9304 1840 50  0000 R CNN
+F 1 "GNDD" V 9250 1850 50  0000 R CNN
 F 2 "" H 9300 1950 50  0001 C CNN
 F 3 "" H 9300 1950 50  0001 C CNN
 	1    9300 1950
@@ -1922,6 +1920,165 @@ F 2 "" H 10500 5250 50  0001 C CNN
 F 3 "" H 10500 5250 50  0001 C CNN
 	1    10500 5250
 	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9300 5350 9100 5350
+Text HLabel 9100 5350 0    50   Output ~ 0
+ENABLE
+Text HLabel 17950 1050 2    50   Input ~ 0
+T2_[0..31]
+$Comp
+L Device:LED_Small D?
+U 1 1 61451A45
+P 8650 900
+F 0 "D?" H 8650 1135 50  0000 C CNN
+F 1 "LED_Small" H 8650 1044 50  0000 C CNN
+F 2 "" V 8650 900 50  0001 C CNN
+F 3 "~" V 8650 900 50  0001 C CNN
+	1    8650 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 614FD75F
+P 9100 900
+F 0 "R?" V 8904 900 50  0000 C CNN
+F 1 "R_Small" V 8995 900 50  0000 C CNN
+F 2 "" H 9100 900 50  0001 C CNN
+F 3 "~" H 9100 900 50  0001 C CNN
+	1    9100 900 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 900  9000 900 
+Wire Wire Line
+	9200 900  9300 900 
+Wire Wire Line
+	8550 900  8450 900 
+$Comp
+L Device:LED_Small D?
+U 1 1 615ED11B
+P 8650 1250
+F 0 "D?" H 8650 1485 50  0000 C CNN
+F 1 "LED_Small" H 8650 1394 50  0000 C CNN
+F 2 "" V 8650 1250 50  0001 C CNN
+F 3 "~" V 8650 1250 50  0001 C CNN
+	1    8650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 615ED125
+P 9100 1250
+F 0 "R?" V 8904 1250 50  0000 C CNN
+F 1 "R_Small" V 8995 1250 50  0000 C CNN
+F 2 "" H 9100 1250 50  0001 C CNN
+F 3 "~" H 9100 1250 50  0001 C CNN
+	1    9100 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 1250 9000 1250
+Wire Wire Line
+	9200 1250 9300 1250
+Wire Wire Line
+	8550 1250 8450 1250
+Wire Wire Line
+	9300 1150 9300 900 
+$Comp
+L Device:LED_Small D?
+U 1 1 616A70A1
+P 8650 1750
+F 0 "D?" H 8650 1985 50  0000 C CNN
+F 1 "LED_Small" H 8650 1894 50  0000 C CNN
+F 2 "" V 8650 1750 50  0001 C CNN
+F 3 "~" V 8650 1750 50  0001 C CNN
+	1    8650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 616A70AB
+P 9100 1750
+F 0 "R?" V 9050 1650 50  0000 C CNN
+F 1 "R_Small" V 9150 1750 50  0000 C CNN
+F 2 "" H 9100 1750 50  0001 C CNN
+F 3 "~" H 9100 1750 50  0001 C CNN
+	1    9100 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 1750 9000 1750
+Wire Wire Line
+	9200 1750 9300 1750
+Wire Wire Line
+	8550 1750 8450 1750
+$Comp
+L Device:LED_Small D?
+U 1 1 616A70B8
+P 8650 2100
+F 0 "D?" H 8650 2335 50  0000 C CNN
+F 1 "LED_Small" H 8650 2244 50  0000 C CNN
+F 2 "" V 8650 2100 50  0001 C CNN
+F 3 "~" V 8650 2100 50  0001 C CNN
+	1    8650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 616A70C2
+P 9100 2100
+F 0 "R?" V 9050 2000 50  0000 C CNN
+F 1 "R_Small" V 9150 2100 50  0000 C CNN
+F 2 "" H 9100 2100 50  0001 C CNN
+F 3 "~" H 9100 2100 50  0001 C CNN
+	1    9100 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 2100 9000 2100
+Wire Wire Line
+	8550 2100 8450 2100
+Wire Wire Line
+	9200 2100 9200 1850
+Wire Wire Line
+	9200 1850 9300 1850
+Wire Wire Line
+	8450 900  8450 1250
+Connection ~ 8450 1250
+Wire Wire Line
+	8450 1250 8450 1500
+Connection ~ 8450 1750
+Wire Wire Line
+	8450 1750 8450 2100
+Wire Wire Line
+	8450 1500 8350 1500
+Connection ~ 8450 1500
+Wire Wire Line
+	8450 1500 8450 1750
+$Comp
+L power:GNDA #PWR?
+U 1 1 6174507C
+P 8350 1500
+AR Path="/6076C700/6174507C" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/6174507C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8350 1250 50  0001 C CNN
+F 1 "GNDA" H 8350 1350 50  0000 C CNN
+F 2 "" H 8350 1500 50  0001 C CNN
+F 3 "" H 8350 1500 50  0001 C CNN
+	1    8350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 613D4889
+P 9300 1650
+F 0 "#PWR?" H 9300 1400 50  0001 C CNN
+F 1 "GNDD" V 9250 1550 50  0000 R CNN
+F 2 "" H 9300 1650 50  0001 C CNN
+F 3 "" H 9300 1650 50  0001 C CNN
+	1    9300 1650
+	0    1    1    0   
 $EndComp
 Wire Bus Line
 	11600 2550 11600 2750

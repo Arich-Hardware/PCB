@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 20000 12000
 encoding utf-8
-Sheet 6 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -2761,23 +2761,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 7600 3800 7650
 $Comp
-L power:GNDD #PWR?
-U 1 1 60C0A1DA
-P 3800 7950
-AR Path="/605605C8/60C0A1DA" Ref="#PWR?"  Part="1" 
-AR Path="/60548503/60C0A1DA" Ref="#PWR?"  Part="1" 
-AR Path="/605DF89A/60C0A1DA" Ref="#PWR?"  Part="1" 
-AR Path="/60C32D5A/60C0A1DA" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4A14/60C0A1DA" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60C0A1DA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3800 7700 50  0001 C CNN
-F 1 "GNDD" H 3800 7800 50  0000 C CNB
-F 2 "" H 3800 7950 50  0001 C CNN
-F 3 "" H 3800 7950 50  0001 C CNN
-	1    3800 7950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C?
 U 1 1 60C98379
 P 4600 7750
@@ -3612,6 +3595,64 @@ Text GLabel 17750 6300 2    50   Input ~ 0
 1.8V_CITIROC
 Wire Wire Line
 	17500 6300 17750 6300
+$Comp
+L power:GNDA #PWR?
+U 1 1 60EF3766
+P 3800 7950
+AR Path="/60BB4A14/60EF3766" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/60EF3766" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3800 7700 50  0001 C CNN
+F 1 "GNDA" H 3800 7800 50  0000 C CNB
+F 2 "" H 3800 7950 50  0001 C CNN
+F 3 "" H 3800 7950 50  0001 C CNN
+	1    3800 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:NLSV8T244 U?
+U 1 1 61130457
+P 13550 1550
+AR Path="/60BB4A14/61130457" Ref="U?"  Part="1" 
+AR Path="/60BB4C00/61130457" Ref="U?"  Part="1" 
+F 0 "U?" H 13550 2225 50  0000 C CNN
+F 1 "NLSV8T244" H 13550 2134 50  0000 C CNN
+F 2 "" H 13550 1550 50  0001 C CNN
+F 3 "" H 13550 1550 50  0001 C CNN
+	1    13550 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 2000 13200 2100
+Wire Wire Line
+	13200 2100 13550 2100
+Wire Wire Line
+	13900 2100 13900 2000
+$Comp
+L power:GNDD #PWR?
+U 1 1 611DEB65
+P 13550 2100
+F 0 "#PWR?" H 13550 1850 50  0001 C CNN
+F 1 "GNDD" H 13554 1945 50  0000 C CNN
+F 2 "" H 13550 2100 50  0001 C CNN
+F 3 "" H 13550 2100 50  0001 C CNN
+	1    13550 2100
+	1    0    0    -1  
+$EndComp
+Connection ~ 13550 2100
+Wire Wire Line
+	13550 2100 13900 2100
+Wire Wire Line
+	13200 1100 13150 1100
+Wire Wire Line
+	13150 1100 13150 1050
+Wire Wire Line
+	13900 1100 13950 1100
+Wire Wire Line
+	13950 1100 13950 1050
+Text GLabel 13150 1050 1    50   Input ~ 0
+1.8V_CITIROC
+Text GLabel 13950 1050 1    50   Input ~ 0
+3.3V_CITIROC
 Wire Bus Line
 	17350 6050 17350 6500
 Wire Bus Line
