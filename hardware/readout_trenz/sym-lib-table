@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name readout)(type Legacy)(uri ${KIPRJMOD}/../libraries/readout.lib)(options "")(descr ""))
+  (lib (name readout_trenz-rescue)(type Legacy)(uri ${KIPRJMOD}/readout_trenz-rescue.lib)(options "")(descr ""))
 )

@@ -3710,14 +3710,12 @@ F 3 "" H 19000 1250 50  0001 C CNN
 	1    19000 1250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 2250 8350 2250
-Wire Wire Line
-	8350 1000 8300 1000
 $Comp
 L Device:Voltage_Divider RN?
 U 1 1 61E040D0
 P 8150 1000
+AR Path="/60BB4C00/61E040D0" Ref="RN?"  Part="1" 
+AR Path="/60BB4A14/61E040D0" Ref="RN?"  Part="1" 
 F 0 "RN?" H 8071 1046 50  0000 R CNN
 F 1 "Voltage_Divider" H 8071 955 50  0000 R CNN
 F 2 "" V 8625 1000 50  0001 C CNN
@@ -3725,8 +3723,6 @@ F 3 "~" H 8350 1000 50  0001 C CNN
 	1    8150 1000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8350 1000 8350 2250
 $Comp
 L power:GNDA #PWR?
 U 1 1 61EB8B80
@@ -3744,6 +3740,14 @@ Wire Wire Line
 	8150 1250 8150 1300
 Wire Wire Line
 	8150 750  7900 750 
+Text HLabel 7900 750  0    50   Input ~ 0
+OUT
+Wire Wire Line
+	8400 2250 8350 2250
+Wire Wire Line
+	8350 1000 8300 1000
+Wire Wire Line
+	8350 1000 8350 2250
 Wire Bus Line
 	17350 6050 17350 6500
 Wire Bus Line
@@ -3758,6 +3762,4 @@ Wire Bus Line
 	1500 1400 1500 4550
 Wire Bus Line
 	16550 3000 16550 6100
-Text HLabel 7900 750  0    50   Input ~ 0
-OUT
 $EndSCHEMATC
