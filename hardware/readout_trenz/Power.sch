@@ -95,8 +95,6 @@ Wire Wire Line
 Connection ~ 3550 2300
 Wire Wire Line
 	3550 2300 3450 2300
-Wire Wire Line
-	900  2300 900  2150
 $Comp
 L Device:C_Small C?
 U 1 1 6253E152
@@ -600,47 +598,25 @@ Connection ~ 6350 3100
 Wire Wire Line
 	6350 3100 6350 4100
 $Comp
-L Device:R R?
-U 1 1 60F71B32
-P 6200 5300
-F 0 "R?" V 6270 5346 50  0000 L CNN
-F 1 "4.7k" V 6200 5200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 5300 50  0001 C CNN
-F 3 "~" H 6200 5300 50  0001 C CNN
-	1    6200 5300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GNDA #PWR?
 U 1 1 60F7AF0B
-P 6050 5400
+P 6350 5700
 AR Path="/6076C700/60F7AF0B" Ref="#PWR?"  Part="1" 
 AR Path="/62251D77/60F7AF0B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6050 5150 50  0001 C CNN
-F 1 "GNDA" H 6050 5250 50  0000 C CNN
-F 2 "" H 6050 5400 50  0001 C CNN
-F 3 "" H 6050 5400 50  0001 C CNN
-	1    6050 5400
+F 0 "#PWR?" H 6350 5450 50  0001 C CNN
+F 1 "GNDA" H 6350 5550 50  0000 C CNN
+F 2 "" H 6350 5700 50  0001 C CNN
+F 3 "" H 6350 5700 50  0001 C CNN
+	1    6350 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 5300 6050 5400
+	6350 5600 6350 5700
 Wire Wire Line
 	6350 2100 6350 1500
 Connection ~ 6350 2100
 Text HLabel 6350 1500 0    50   Input ~ 0
 ENABLE
-$Comp
-L power:+12V #PWR?
-U 1 1 60FEABA1
-P 900 2150
-F 0 "#PWR?" H 900 2000 50  0001 C CNN
-F 1 "+12V" H 915 2323 50  0000 C CNN
-F 2 "" H 900 2150 50  0001 C CNN
-F 3 "" H 900 2150 50  0001 C CNN
-	1    900  2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	900  2300 1200 2300
 $Comp
@@ -650,7 +626,7 @@ P 3500 6100
 F 0 "D?" V 3546 6032 50  0000 R CNN
 F 1 "LED_Small" V 3455 6032 50  0000 R CNN
 F 2 "" V 3500 6100 50  0001 C CNN
-F 3 "~" V 3500 6100 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 3500 6100 50  0001 C CNN
 	1    3500 6100
 	0    -1   -1   0   
 $EndComp
@@ -685,17 +661,6 @@ $EndComp
 Wire Wire Line
 	3500 5700 3500 5600
 Connection ~ 2050 2300
-$Comp
-L Device:LED_Small D?
-U 1 1 61059C81
-P 1700 2800
-F 0 "D?" V 1746 2732 50  0000 R CNN
-F 1 "LED_Small" V 1655 2732 50  0000 R CNN
-F 2 "" V 1700 2800 50  0001 C CNN
-F 3 "~" V 1700 2800 50  0001 C CNN
-	1    1700 2800
-	0    1    -1   0   
-$EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 61059C8B
@@ -743,17 +708,6 @@ Connection ~ 1700 2300
 Wire Wire Line
 	1700 2300 2050 2300
 $Comp
-L Device:LED_Small D?
-U 1 1 6107E557
-P 5250 3250
-F 0 "D?" V 5296 3182 50  0000 R CNN
-F 1 "LED_Small" V 5205 3182 50  0000 R CNN
-F 2 "" V 5250 3250 50  0001 C CNN
-F 3 "~" V 5250 3250 50  0001 C CNN
-	1    5250 3250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R_Small R?
 U 1 1 6107E561
 P 5250 2950
@@ -784,17 +738,6 @@ $EndComp
 Wire Wire Line
 	5250 2850 5250 2750
 Connection ~ 5250 2750
-$Comp
-L Device:LED_Small D?
-U 1 1 610A81A0
-P 4650 4000
-F 0 "D?" V 4696 3932 50  0000 R CNN
-F 1 "LED_Small" V 4605 3932 50  0000 R CNN
-F 2 "" V 4650 4000 50  0001 C CNN
-F 3 "~" V 4650 4000 50  0001 C CNN
-	1    4650 4000
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 610A81AA
@@ -833,17 +776,6 @@ Connection ~ 4600 3050
 Wire Wire Line
 	4600 3050 4850 3050
 $Comp
-L Device:LED_Small D?
-U 1 1 610C879C
-P 7750 4500
-F 0 "D?" V 7796 4432 50  0000 R CNN
-F 1 "LED_Small" V 7705 4432 50  0000 R CNN
-F 2 "" V 7750 4500 50  0001 C CNN
-F 3 "~" V 7750 4500 50  0001 C CNN
-	1    7750 4500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R_Small R?
 U 1 1 610C87A6
 P 7750 4200
@@ -876,17 +808,6 @@ Wire Wire Line
 Connection ~ 7750 4000
 Wire Wire Line
 	7750 4000 8000 4000
-$Comp
-L Device:LED_Small D?
-U 1 1 610D66C0
-P 7750 5500
-F 0 "D?" V 7796 5432 50  0000 R CNN
-F 1 "LED_Small" V 7705 5432 50  0000 R CNN
-F 2 "" V 7750 5500 50  0001 C CNN
-F 3 "~" V 7750 5500 50  0001 C CNN
-	1    7750 5500
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 610D66CA
@@ -921,17 +842,6 @@ Connection ~ 7750 5000
 Wire Wire Line
 	7750 5000 8000 5000
 $Comp
-L Device:LED_Small D?
-U 1 1 610E164A
-P 7750 3500
-F 0 "D?" V 7796 3432 50  0000 R CNN
-F 1 "LED_Small" V 7705 3432 50  0000 R CNN
-F 2 "" V 7750 3500 50  0001 C CNN
-F 3 "~" V 7750 3500 50  0001 C CNN
-	1    7750 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:R_Small R?
 U 1 1 610E1654
 P 7750 3200
@@ -964,17 +874,6 @@ Wire Wire Line
 Connection ~ 7750 3000
 Wire Wire Line
 	7750 3000 8000 3000
-$Comp
-L Device:LED_Small D?
-U 1 1 610F3AA2
-P 7750 2500
-F 0 "D?" V 7796 2432 50  0000 R CNN
-F 1 "LED_Small" V 7705 2432 50  0000 R CNN
-F 2 "" V 7750 2500 50  0001 C CNN
-F 3 "~" V 7750 2500 50  0001 C CNN
-	1    7750 2500
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R_Small R?
 U 1 1 610F3AAC
@@ -1010,4 +909,105 @@ Wire Wire Line
 	7750 2000 8000 2000
 Text HLabel 3500 5600 1    50   Input ~ 0
 ENABLE
+$Comp
+L Device:LED_Small D?
+U 1 1 60D3C53C
+P 1700 2800
+F 0 "D?" V 1746 2732 50  0000 R CNN
+F 1 "LED_Small" V 1655 2732 50  0000 R CNN
+F 2 "" V 1700 2800 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 1700 2800 50  0001 C CNN
+	1    1700 2800
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 60D4C321
+P 5250 3250
+F 0 "D?" V 5296 3182 50  0000 R CNN
+F 1 "LED_Small" V 5205 3182 50  0000 R CNN
+F 2 "" V 5250 3250 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 5250 3250 50  0001 C CNN
+	1    5250 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 60D51A13
+P 4650 4000
+F 0 "D?" V 4696 3932 50  0000 R CNN
+F 1 "LED_Small" V 4605 3932 50  0000 R CNN
+F 2 "" V 4650 4000 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 4650 4000 50  0001 C CNN
+	1    4650 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 60D56E9F
+P 7750 2500
+F 0 "D?" V 7796 2432 50  0000 R CNN
+F 1 "LED_Small" V 7705 2432 50  0000 R CNN
+F 2 "" V 7750 2500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 7750 2500 50  0001 C CNN
+	1    7750 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 60D5C108
+P 7750 3500
+F 0 "D?" V 7796 3432 50  0000 R CNN
+F 1 "LED_Small" V 7705 3432 50  0000 R CNN
+F 2 "" V 7750 3500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 7750 3500 50  0001 C CNN
+	1    7750 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 60D60FC8
+P 7750 4500
+F 0 "D?" V 7796 4432 50  0000 R CNN
+F 1 "LED_Small" V 7705 4432 50  0000 R CNN
+F 2 "" V 7750 4500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 7750 4500 50  0001 C CNN
+	1    7750 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 60D6647F
+P 7750 5500
+F 0 "D?" V 7796 5432 50  0000 R CNN
+F 1 "LED_Small" V 7705 5432 50  0000 R CNN
+F 2 "" V 7750 5500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 7750 5500 50  0001 C CNN
+	1    7750 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60F71B32
+P 6350 5450
+F 0 "R?" V 6450 5400 50  0000 L CNN
+F 1 "4.7k" V 6350 5350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 5450 50  0001 C CNN
+F 3 "~" H 6350 5450 50  0001 C CNN
+	1    6350 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	900  2300 900  2400
+$Comp
+L power:GNDA #PWR?
+U 1 1 60D7F077
+P 900 2400
+F 0 "#PWR?" H 900 2150 50  0001 C CNN
+F 1 "GNDA" H 905 2227 50  0000 C CNN
+F 2 "" H 900 2400 50  0001 C CNN
+F 3 "" H 900 2400 50  0001 C CNN
+	1    900  2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
