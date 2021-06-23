@@ -95,8 +95,6 @@ Wire Wire Line
 Connection ~ 3550 2300
 Wire Wire Line
 	3550 2300 3450 2300
-Wire Wire Line
-	900  2300 900  2150
 $Comp
 L Device:C_Small C?
 U 1 1 6253E152
@@ -602,47 +600,34 @@ Wire Wire Line
 $Comp
 L Device:R R?
 U 1 1 60F71B32
-P 6200 5300
-F 0 "R?" V 6270 5346 50  0000 L CNN
-F 1 "4.7k" V 6200 5200 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6130 5300 50  0001 C CNN
-F 3 "~" H 6200 5300 50  0001 C CNN
-	1    6200 5300
-	0    -1   -1   0   
+P 6350 5450
+F 0 "R?" V 6420 5496 50  0000 L CNN
+F 1 "4.7k" V 6350 5350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6280 5450 50  0001 C CNN
+F 3 "~" H 6350 5450 50  0001 C CNN
+	1    6350 5450
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:GNDA #PWR?
 U 1 1 60F7AF0B
-P 6050 5400
+P 6350 5700
 AR Path="/6076C700/60F7AF0B" Ref="#PWR?"  Part="1" 
 AR Path="/62251D77/60F7AF0B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6050 5150 50  0001 C CNN
-F 1 "GNDA" H 6050 5250 50  0000 C CNN
-F 2 "" H 6050 5400 50  0001 C CNN
-F 3 "" H 6050 5400 50  0001 C CNN
-	1    6050 5400
+F 0 "#PWR?" H 6350 5450 50  0001 C CNN
+F 1 "GNDA" H 6350 5550 50  0000 C CNN
+F 2 "" H 6350 5700 50  0001 C CNN
+F 3 "" H 6350 5700 50  0001 C CNN
+	1    6350 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 5300 6050 5400
+	6350 5600 6350 5700
 Wire Wire Line
 	6350 2100 6350 1500
 Connection ~ 6350 2100
 Text HLabel 6350 1500 0    50   Input ~ 0
 ENABLE
-$Comp
-L power:+12V #PWR?
-U 1 1 60FEABA1
-P 900 2150
-F 0 "#PWR?" H 900 2000 50  0001 C CNN
-F 1 "+12V" H 915 2323 50  0000 C CNN
-F 2 "" H 900 2150 50  0001 C CNN
-F 3 "" H 900 2150 50  0001 C CNN
-	1    900  2150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  2300 1200 2300
 $Comp
 L Device:LED_Small D?
 U 1 1 6101BC2C
@@ -1010,4 +995,207 @@ Wire Wire Line
 	7750 2000 8000 2000
 Text HLabel 3500 5600 1    50   Input ~ 0
 ENABLE
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J?
+U 1 1 60DE5052
+P 8150 -1050
+F 0 "J?" H 8200 -433 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 8200 -524 50  0000 C CNN
+F 2 "" H 8150 -1050 50  0001 C CNN
+F 3 "~" H 8150 -1050 50  0001 C CNN
+	1    8150 -1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J?
+U 1 1 60DE60C3
+P 9100 -1050
+F 0 "J?" H 9150 -433 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 9150 -524 50  0000 C CNN
+F 2 "" H 9100 -1050 50  0001 C CNN
+F 3 "~" H 9100 -1050 50  0001 C CNN
+	1    9100 -1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2300 1000 2400
+$Comp
+L power:GNDA #PWR?
+U 1 1 60DF7A2C
+P 1000 2400
+AR Path="/6076C700/60DF7A2C" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/60DF7A2C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1000 2150 50  0001 C CNN
+F 1 "GNDA" H 1000 2250 50  0000 C CNN
+F 2 "" H 1000 2400 50  0001 C CNN
+F 3 "" H 1000 2400 50  0001 C CNN
+	1    1000 2400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2300 1200 2300
+Text Notes 1100 1950 0    100  ~ 0
++12V
+$Comp
+L Connector:Conn_Coaxial_Power J?
+U 1 1 60E19C4C
+P 7300 -1450
+F 0 "J?" V 7525 -1500 50  0000 C CNN
+F 1 "Conn_Coaxial_Power" V 7434 -1500 50  0000 C CNN
+F 2 "" H 7300 -1500 50  0001 C CNN
+F 3 "~" H 7300 -1500 50  0001 C CNN
+	1    7300 -1450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 -1450 7000 -1350
+$Comp
+L power:GNDA #PWR?
+U 1 1 60E19C58
+P 7000 -1350
+AR Path="/6076C700/60E19C58" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/60E19C58" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7000 -1600 50  0001 C CNN
+F 1 "GNDA" H 7000 -1500 50  0000 C CNN
+F 2 "" H 7000 -1350 50  0001 C CNN
+F 3 "" H 7000 -1350 50  0001 C CNN
+	1    7000 -1350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 -1450 7200 -1450
+Text Notes 7100 -1800 0    100  ~ 0
++12V
+Wire Wire Line
+	7500 -1450 7850 -1450
+Wire Wire Line
+	7850 -1450 7850 -1350
+Wire Wire Line
+	7850 -1150 7950 -1150
+Connection ~ 7850 -1450
+Wire Wire Line
+	7850 -1450 7950 -1450
+Wire Wire Line
+	7850 -1250 7950 -1250
+Connection ~ 7850 -1250
+Wire Wire Line
+	7850 -1250 7850 -1150
+Wire Wire Line
+	7850 -1350 7950 -1350
+Connection ~ 7850 -1350
+Wire Wire Line
+	7850 -1350 7850 -1250
+Wire Wire Line
+	7950 -850 7850 -850
+Wire Wire Line
+	7850 -850 7850 -750
+Wire Wire Line
+	7850 -550 7950 -550
+Connection ~ 7850 -550
+Wire Wire Line
+	7850 -550 7850 -500
+Wire Wire Line
+	7850 -650 7950 -650
+Connection ~ 7850 -650
+Wire Wire Line
+	7850 -650 7850 -550
+Wire Wire Line
+	7850 -750 7950 -750
+Connection ~ 7850 -750
+Wire Wire Line
+	7850 -750 7850 -650
+$Comp
+L power:GNDA #PWR?
+U 1 1 60E78581
+P 7850 -500
+AR Path="/6076C700/60E78581" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/60E78581" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7850 -750 50  0001 C CNN
+F 1 "GNDA" H 7850 -650 50  0000 C CNN
+F 2 "" H 7850 -500 50  0001 C CNN
+F 3 "" H 7850 -500 50  0001 C CNN
+	1    7850 -500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 -850 9500 -850
+Wire Wire Line
+	9500 -850 9500 -750
+Wire Wire Line
+	9500 -550 9400 -550
+Connection ~ 9500 -550
+Wire Wire Line
+	9500 -550 9500 -500
+Wire Wire Line
+	9500 -650 9400 -650
+Connection ~ 9500 -650
+Wire Wire Line
+	9500 -650 9500 -550
+Wire Wire Line
+	9500 -750 9400 -750
+Connection ~ 9500 -750
+Wire Wire Line
+	9500 -750 9500 -650
+$Comp
+L power:GNDA #PWR?
+U 1 1 60E823D3
+P 9500 -500
+AR Path="/6076C700/60E823D3" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/60E823D3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9500 -750 50  0001 C CNN
+F 1 "GNDA" H 9500 -650 50  0000 C CNN
+F 2 "" H 9500 -500 50  0001 C CNN
+F 3 "" H 9500 -500 50  0001 C CNN
+	1    9500 -500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 -1450 9500 -1450
+Wire Wire Line
+	9500 -1450 9500 -1350
+Wire Wire Line
+	9500 -1350 9400 -1350
+Wire Wire Line
+	9500 -1450 9900 -1450
+Connection ~ 9500 -1450
+$Comp
+L Device:Jumper JP?
+U 1 1 60E9F02D
+P 10200 -1450
+F 0 "JP?" H 10200 -1186 50  0000 C CNN
+F 1 "Jumper" H 10200 -1277 50  0000 C CNN
+F 2 "" H 10200 -1450 50  0001 C CNN
+F 3 "~" H 10200 -1450 50  0001 C CNN
+	1    10200 -1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 -1250 9500 -1250
+Wire Wire Line
+	9500 -1250 9500 -1150
+Wire Wire Line
+	9500 -1150 9400 -1150
+Wire Wire Line
+	9500 -1250 9900 -1250
+Connection ~ 9500 -1250
+$Comp
+L Device:Jumper JP?
+U 1 1 60EA0402
+P 10200 -1250
+F 0 "JP?" H 10200 -986 50  0000 C CNN
+F 1 "Jumper" H 10200 -1077 50  0000 C CNN
+F 2 "" H 10200 -1250 50  0001 C CNN
+F 3 "~" H 10200 -1250 50  0001 C CNN
+	1    10200 -1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10500 -1450 10600 -1450
+Wire Wire Line
+	10500 -1250 10600 -1250
+Wire Wire Line
+	10600 -1250 10600 -1450
+Connection ~ 10600 -1450
+Wire Wire Line
+	10600 -1450 11000 -1450
 $EndSCHEMATC
