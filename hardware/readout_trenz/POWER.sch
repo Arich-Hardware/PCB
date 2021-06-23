@@ -650,7 +650,7 @@ P 3500 6100
 F 0 "D?" V 3546 6032 50  0000 R CNN
 F 1 "LED_Small" V 3455 6032 50  0000 R CNN
 F 2 "" V 3500 6100 50  0001 C CNN
-F 3 "~" V 3500 6100 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 3500 6100 50  0001 C CNN
 	1    3500 6100
 	0    -1   -1   0   
 $EndComp
@@ -1008,4 +1008,6 @@ Wire Wire Line
 Connection ~ 7750 2000
 Wire Wire Line
 	7750 2000 8000 2000
+Text HLabel 3500 5600 1    50   Input ~ 0
+ENABLE
 $EndSCHEMATC
