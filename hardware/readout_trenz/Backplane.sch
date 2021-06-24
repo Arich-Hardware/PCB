@@ -54,18 +54,14 @@ Wire Wire Line
 	6350 3700 6450 3700
 Wire Wire Line
 	6350 4600 6450 4600
-Wire Wire Line
-	6350 4700 6600 4700
-Wire Wire Line
-	6350 4900 6600 4900
 $Comp
-L readout:ERF8-060-05.0-L-DV J14
+L readout:ERF8-060-05.0-L-DV J15
 U 1 1 60C1AFA4
 P 5850 3950
-AR Path="/60C946F3/60C1AFA4" Ref="J14"  Part="1" 
+AR Path="/60C946F3/60C1AFA4" Ref="J15"  Part="1" 
 AR Path="/60CAE390/60C1AFA4" Ref="J?"  Part="1" 
 AR Path="/60C1AFA4" Ref="J?"  Part="1" 
-F 0 "J14" H 5850 7150 50  0000 C CNN
+F 0 "J15" H 5850 7150 50  0000 C CNN
 F 1 "ERM8-060-05.0-L-DV" H 5850 7050 50  0000 C CNN
 F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 5850 3950 50  0001 L BNN
 F 3 "" H 5850 3950 50  0001 L BNN
@@ -85,16 +81,8 @@ NoConn ~ 6350 5300
 NoConn ~ 6350 5200
 NoConn ~ 6350 5100
 NoConn ~ 6350 5000
-Text HLabel 5100 4700 0    50   Input ~ 0
-BIAS3
-Text HLabel 5100 4800 0    50   Output ~ 0
+Text HLabel 5200 4800 0    50   Output ~ 0
 OUT
-Text HLabel 5100 4900 0    50   Input ~ 0
-BIAS4
-Text HLabel 6600 4900 2    50   Input ~ 0
-BIAS2
-Text HLabel 6600 4700 2    50   Input ~ 0
-BIAS1
 Wire Wire Line
 	6450 3700 6450 4600
 Connection ~ 6450 3700
@@ -122,11 +110,7 @@ Wire Wire Line
 Text Label 4750 900  2    50   ~ 0
 B2_[0..31]
 Wire Wire Line
-	5350 4900 5100 4900
-Wire Wire Line
-	5350 4800 5100 4800
-Wire Wire Line
-	5350 4700 5100 4700
+	5350 4800 5200 4800
 Wire Wire Line
 	5250 4600 5250 4950
 Connection ~ 5250 4600
@@ -401,14 +385,12 @@ Text Label 4850 4400 0    50   ~ 0
 B2_30
 Text Label 4850 4500 0    50   ~ 0
 B2_31
-Wire Wire Line
-	6350 4800 6950 4800
 $Comp
-L power:+3.3V #PWR0113
+L power:+3.3V #PWR0141
 U 1 1 6100ADFC
 P 6950 4800
-F 0 "#PWR0113" H 6950 4650 50  0001 C CNN
-F 1 "+3.3V" H 6965 4973 50  0000 C CNN
+F 0 "#PWR0141" H 6950 4650 50  0001 C CNN
+F 1 "+3.3V" H 7100 4850 50  0000 C CNN
 F 2 "" H 6950 4800 50  0001 C CNN
 F 3 "" H 6950 4800 50  0001 C CNN
 	1    6950 4800
@@ -545,10 +527,10 @@ Wire Wire Line
 Text Label 6950 900  0    50   ~ 0
 B1_[0..31]
 $Comp
-L power:GNDA #PWR0112
+L power:GNDA #PWR0140
 U 1 1 613F0EC5
 P 6450 4950
-F 0 "#PWR0112" H 6450 4700 50  0001 C CNN
+F 0 "#PWR0140" H 6450 4700 50  0001 C CNN
 F 1 "GNDA" H 6455 4777 50  0000 C CNN
 F 2 "" H 6450 4950 50  0001 C CNN
 F 3 "" H 6450 4950 50  0001 C CNN
@@ -556,16 +538,58 @@ F 3 "" H 6450 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0111
+L power:GNDA #PWR0139
 U 1 1 613F1248
 P 5250 4950
-F 0 "#PWR0111" H 5250 4700 50  0001 C CNN
+F 0 "#PWR0139" H 5250 4700 50  0001 C CNN
 F 1 "GNDA" H 5255 4777 50  0000 C CNN
 F 2 "" H 5250 4950 50  0001 C CNN
 F 3 "" H 5250 4950 50  0001 C CNN
 	1    5250 4950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6350 4700 6650 4700
+Text Label 6650 4700 2    50   ~ 0
+BIAS1
+Text Label 6650 4900 2    50   ~ 0
+BIAS2
+Text Label 5050 4700 0    50   ~ 0
+BIAS3
+Text Label 5050 4900 0    50   ~ 0
+BIAS4
+Wire Wire Line
+	6350 4900 6650 4900
+Wire Wire Line
+	5350 4700 5050 4700
+Wire Wire Line
+	5350 4900 5050 4900
+Entry Wire Line
+	6650 4700 6750 4600
+Entry Wire Line
+	6650 4900 6750 4800
+Text Label 6750 4600 0    50   ~ 0
+BIAS[1..4]
+Text HLabel 7250 4600 2    50   Input ~ 0
+BIAS[1..4]
+Entry Wire Line
+	5050 4700 4950 4600
+Entry Wire Line
+	5050 4900 4950 4800
+Wire Bus Line
+	4950 4600 4450 4600
+Text Label 4950 4600 2    50   ~ 0
+BIAS[1..4]
+Text HLabel 4450 4600 0    50   Input ~ 0
+BIAS[1..4]
+Wire Bus Line
+	6750 4600 6750 4800
+Wire Bus Line
+	6750 4600 7250 4600
+Wire Bus Line
+	4950 4600 4950 4800
+Wire Wire Line
+	6350 4800 6950 4800
 Wire Bus Line
 	6950 900  6950 4400
 Wire Bus Line
