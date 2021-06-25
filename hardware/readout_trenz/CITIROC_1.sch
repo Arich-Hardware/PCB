@@ -1074,7 +1074,8 @@ F 3 "https://www.ti.com/lit/ds/symlink/ref5025-ep.pdf?HQS=dis-dk-null-digikeymod
 F 4 "Digi-Key" H 13750 9000 50  0001 C CNN "Supplier"
 F 5 "296-27641-1-ND" H 13750 9000 50  0001 C CNN "Supplier P/N"
 F 6 "REF5025MDTEP" H 13750 9000 50  0001 C CNN "MFN"
-F 7 "11.75" H 13750 9000 50  0001 C CNN "Item Cost"
+F 7 "$11.75" H 13750 9000 50  0001 C CNN "Item Cost"
+F 8 "Texas Instruments" H 13750 9000 50  0001 C CNN "Manufacturer"
 	1    13750 9000
 	-1   0    0    -1  
 $EndComp
@@ -1443,10 +1444,10 @@ Wire Wire Line
 Wire Wire Line
 	6400 7250 8950 7250
 $Comp
-L readout:ADS7955 U22
+L readout:ADS7955 U14
 U 1 1 61BCD360
 P 12350 7150
-AR Path="/60BB4A14/61BCD360" Ref="U22"  Part="1" 
+AR Path="/60BB4A14/61BCD360" Ref="U14"  Part="1" 
 AR Path="/60BB4C00/61BCD360" Ref="U14"  Part="1" 
 F 0 "U14" H 12600 7300 50  0000 C CNN
 F 1 "ADS7955" H 12600 7200 50  0000 C CNN
@@ -1456,6 +1457,7 @@ F 4 "Digi-Key" H 12350 7150 50  0001 C CNN "Supplier"
 F 5 "296-23507-5-ND" H 12350 7150 50  0001 C CNN "Supplier P/N"
 F 6 "ADS7955SDBT" H 12350 7150 50  0001 C CNN "MFN"
 F 7 "6.74" H 12350 7150 50  0001 C CNN "Item Cost"
+F 8 "Texas Instruments" H 12350 7150 50  0001 C CNN "Manufacturer"
 	1    12350 7150
 	1    0    0    -1  
 $EndComp
@@ -2366,6 +2368,7 @@ F 0 "U9" H 9900 7300 50  0000 C CNN
 F 1 "CITIROC1A" H 10000 7200 50  0000 C CNN
 F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 9000 7300 50  0001 C CNN
 F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 9000 7300 50  0001 C CNN
+F 4 "Weeroc" H 9600 7150 50  0001 C CNN "Manufacturer"
 	3    9600 7150
 	1    0    0    -1  
 $EndComp
@@ -2423,6 +2426,7 @@ F 0 "U9" H 13525 -2773 50  0000 C CNN
 F 1 "CITIROC1A" H 13525 -2864 50  0000 C CNN
 F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 13000 1600 50  0001 C CNN
 F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 13000 1600 50  0001 C CNN
+F 4 "Weeroc" H 13600 1450 50  0001 C CNN "Manufacturer"
 	2    13600 1450
 	1    0    0    -1  
 $EndComp
@@ -2612,6 +2616,7 @@ F 4 "" V 4700 3400 50  0001 C CNN "Item Cost"
 F 5 "" V 4700 3400 50  0001 C CNN "MFN"
 F 6 "" V 4700 3400 50  0001 C CNN "Supplier"
 F 7 "" V 4700 3400 50  0001 C CNN "Supplier P/N"
+F 8 "Weeroc" H 4700 3400 50  0001 C CNN "Manufacturer"
 	1    4700 3400
 	0    1    1    0   
 $EndComp
@@ -2872,8 +2877,13 @@ AR Path="/60BB4A14/61D5656A" Ref="U24"  Part="1"
 AR Path="/60BB4C00/61D5656A" Ref="U16"  Part="1" 
 F 0 "U16" H 15550 4625 50  0000 C CNN
 F 1 "NLSV4T244E" H 15550 4534 50  0000 C CNN
-F 2 "" H 15550 4150 50  0001 C CNN
+F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 15550 4150 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nlsv4t244e-d.pdf" H 15550 4150 50  0001 C CNN
+F 4 "$1.97" H 15550 4150 50  0001 C CNN "Item Cost"
+F 5 "ON Semiconductors" H 15550 4150 50  0001 C CNN "Manufacturer"
+F 6 "NLSV4T244EDTR2G" H 15550 4150 50  0001 C CNN "MFN"
+F 7 "Digi-Key" H 15550 4150 50  0001 C CNN "Supplier"
+F 8 "NLSV4T244EDTR2GOSCT-ND" H 15550 4150 50  0001 C CNN "Supplier P/N"
 	1    15550 4150
 	-1   0    0    -1  
 $EndComp
@@ -2952,8 +2962,13 @@ AR Path="/60BB4A14/62002192" Ref="U18"  Part="1"
 AR Path="/60BB4C00/62002192" Ref="U10"  Part="1" 
 F 0 "U10" H 10500 2675 50  0000 C CNN
 F 1 "SN74AXC2T45DCTR" H 10500 2584 50  0000 C CNN
-F 2 "" H 10500 2300 50  0001 C CNN
+F 2 "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm" H 10500 2300 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74axc2t45.pdf?ts=1624298260694&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74AXC2T45DCTR" H 10500 2300 50  0001 C CNN
+F 4 "$0.66" H 10500 2300 50  0001 C CNN "Item Cost"
+F 5 "Texas Instruments" H 10500 2300 50  0001 C CNN "Manufacturer"
+F 6 "SN74AXC2T45DCTR" H 10500 2300 50  0001 C CNN "MFN"
+F 7 "Digi-Key" H 10500 2300 50  0001 C CNN "Supplier"
+F 8 "296-SN74AXC2T45DCCT-ND" H 10500 2300 50  0001 C CNN "Supplier P/N"
 	1    10500 2300
 	1    0    0    -1  
 $EndComp
@@ -3007,8 +3022,13 @@ AR Path="/60BB4A14/62102F64" Ref="U19"  Part="1"
 AR Path="/60BB4C00/62102F64" Ref="U11"  Part="1" 
 F 0 "U11" H 10500 3975 50  0000 C CNN
 F 1 "NLSV8T244" H 10500 3884 50  0000 C CNN
-F 2 "" H 10500 3300 50  0001 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 10500 3300 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nlsv8t244-d.pdf" H 10500 3300 50  0001 C CNN
+F 4 "$1.52" H 10500 3300 50  0001 C CNN "Item Cost"
+F 5 "NLSV8T244DTR2G" H 10500 3300 50  0001 C CNN "MFN"
+F 6 "ON Semiconductors" H 10500 3300 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10500 3300 50  0001 C CNN "Supplier"
+F 8 "NLSV8T244DTR2GOSCT-ND" H 10500 3300 50  0001 C CNN "Supplier P/N"
 	1    10500 3300
 	1    0    0    -1  
 $EndComp
@@ -3045,12 +3065,13 @@ AR Path="/60BB4A14/629D2A0A" Ref="U20"  Part="1"
 AR Path="/60BB4C00/629D2A0A" Ref="U12"  Part="1" 
 F 0 "U12" H 10500 5475 50  0000 C CNN
 F 1 "NLSV8T244" H 10500 5384 50  0000 C CNN
-F 2 "" H 10500 4800 50  0001 C CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 10500 4800 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nlsv8t244-d.pdf" H 10500 4800 50  0001 C CNN
 F 4 "$1.52" H 10500 4800 50  0001 C CNN "Item Cost"
 F 5 "NLSV8T244DTR2G" H 10500 4800 50  0001 C CNN "MFN"
-F 6 "ON Semiconductor" H 10500 4800 50  0001 C CNN "Supplier"
+F 6 "Digi-Key" H 10500 4800 50  0001 C CNN "Supplier"
 F 7 "NLSV8T244DTR2GOSCT-ND" H 10500 4800 50  0001 C CNN "Supplier P/N"
+F 8 "ON Semiconductors" H 10500 4800 50  0001 C CNN "Manufacturer"
 	1    10500 4800
 	1    0    0    -1  
 $EndComp
@@ -3517,8 +3538,14 @@ AR Path="/60BB4A14/614974BE" Ref="U21"  Part="1"
 AR Path="/60BB4C00/614974BE" Ref="U13"  Part="1" 
 F 0 "U13" H 11550 2675 50  0000 C CNN
 F 1 "DS90LV027A" H 11550 2584 50  0000 C CNN
-F 2 "" H 11550 2300 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 11550 2300 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ds90lv027a.pdf?ts=1624298607733&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDS90LV027ATM%252FNOPB%2526utm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-OPN_EN-cpc-store-google-wwe%2526utm_content%253DDevice%2526ds_k%253DDS90LV027ATM%252FNOPB%2526DCM%253Dyes%2526gclid%253DEAIaIQobChMI8Je45qep8QIVV-HICh3kjQY7EAAYASAAEgIUZvD_BwE%2526gclsrc%253Daw.ds" H 11550 2300 50  0001 C CNN
+F 4 "$1.92" H 11550 2300 50  0001 C CNN "Item Cost"
+F 5 "Texas Instruments" H 11550 2300 50  0001 C CNN "Manufacturer"
+F 6 "DS90LV027ATM/NOPB" H 11550 2300 50  0001 C CNN "MFN"
+F 7 "Digi-Key" H 11550 2300 50  0001 C CNN "Supplier "
+F 8 "DS90LV027ATM/NOPB-ND" H 11550 2300 50  0001 C CNN "Supplier P/N"
+F 9 "Digi-Key" H 11550 2300 50  0001 C CNN "Supplier"
 	1    11550 2300
 	1    0    0    -1  
 $EndComp

@@ -21,6 +21,11 @@ F 0 "U5" H 6900 2467 50  0000 C CNN
 F 1 "NCP718xSN180" H 6900 2376 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6900 2450 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF" H 6900 2600 50  0001 C CNN
+F 4 "$0.53" H 6900 2100 50  0001 C CNN "Item Cost"
+F 5 "ON Semiconductor" H 6900 2100 50  0001 C CNN "Manufacturer"
+F 6 "NCP718ASN180T1G" H 6900 2100 50  0001 C CNN "MFN"
+F 7 "Digi-Key" H 6900 2100 50  0001 C CNN "Supplier"
+F 8 "NCP718ASN180T1GOSCT-ND" H 6900 2100 50  0001 C CNN "Supplier P/N"
 	1    6900 2100
 	1    0    0    -1  
 $EndComp
@@ -82,6 +87,11 @@ F 0 "U8" H 6900 5467 50  0000 C CNN
 F 1 "LT1963AxQ-3.3" H 6900 5376 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 6900 4650 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 6900 4550 50  0001 C CNN
+F 4 "$6.69" H 6900 5100 50  0001 C CNN "Item Cost"
+F 5 "LT1963AEQ-3.3#PBF" H 6900 5100 50  0001 C CNN "MFN"
+F 6 "Analog Devices Inc." H 6900 5100 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6900 5100 50  0001 C CNN "Supplier"
+F 8 "LT1963AEQ-3.3#PBF-ND" H 6900 5100 50  0001 C CNN "Supplier P/N"
 	1    6900 5100
 	1    0    0    -1  
 $EndComp
@@ -93,6 +103,11 @@ F 0 "U7" H 6900 4467 50  0000 C CNN
 F 1 "LT1963AxQ-3.3" H 6900 4376 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 6900 3650 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 6900 3550 50  0001 C CNN
+F 4 "$6.69" H 6900 4100 50  0001 C CNN "Item Cost"
+F 5 "LT1963AEQ-3.3#PBF" H 6900 4100 50  0001 C CNN "MFN"
+F 6 "Analog Devices Inc." H 6900 4100 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6900 4100 50  0001 C CNN "Supplier"
+F 8 "LT1963AEQ-3.3#PBF-ND" H 6900 4100 50  0001 C CNN "Supplier P/N"
 	1    6900 4100
 	1    0    0    -1  
 $EndComp
@@ -152,6 +167,11 @@ F 0 "U6" H 6900 3467 50  0000 C CNN
 F 1 "LT1963AxQ-3.3" H 6900 3376 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 6900 2650 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 6900 2550 50  0001 C CNN
+F 4 "$6.69" H 6900 3100 50  0001 C CNN "Item Cost"
+F 5 "Analog Devices Inc." H 6900 3100 50  0001 C CNN "Manufacturer"
+F 6 "LT1963AEQ-3.3#PBF" H 6900 3100 50  0001 C CNN "MFN"
+F 7 "Digi-Key" H 6900 3100 50  0001 C CNN "Supplier"
+F 8 "LT1963AEQ-3.3#PBF-ND" H 6900 3100 50  0001 C CNN "Supplier P/N"
 	1    6900 3100
 	1    0    0    -1  
 $EndComp
@@ -891,6 +911,11 @@ F 0 "U4" H 1900 4592 50  0000 C CNN
 F 1 "LP2985-5.0" H 1900 4501 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 1900 4575 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lp2985.pdf" H 1900 4250 50  0001 C CNN
+F 4 "$0.66" H 1900 4250 50  0001 C CNN "Item Cost"
+F 5 "Texas Instruments" H 1900 4250 50  0001 C CNN "Manufacturer"
+F 6 "LP2985A-50DBVT" H 1900 4250 50  0001 C CNN "MFN"
+F 7 "Digi-Key" H 1900 4250 50  0001 C CNN "Supplier"
+F 8 "296-32159-1-ND" H 1900 4250 50  0001 C CNN "Supplier P/N"
 	1    1900 4250
 	1    0    0    -1  
 $EndComp
@@ -1180,9 +1205,9 @@ Wire Wire Line
 	7200 2000 7700 2000
 Wire Wire Line
 	7700 2500 7700 2000
-Wire Bus Line
-	2600 5650 2600 5950
 Connection ~ 7700 2000
 Wire Wire Line
 	7700 2000 8000 2000
+Wire Bus Line
+	2600 5650 2600 5950
 $EndSCHEMATC
