@@ -13,20 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L readout:Trenz_SFP+ J14
-U 1 1 60B3A3A4
-P 3550 5900
-F 0 "J14" H 3550 6775 50  0000 C CNN
-F 1 "Trenz_SFP+" H 3550 6684 50  0000 C CNN
-F 2 "Connector:Connector_SFP_and_Cage" H 3350 6350 50  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=4-1773449-5&DocType=DS&DocLang=English" H 3350 6350 50  0001 C CNN
-F 4 "Digi-Key" H 3550 5900 50  0001 C CNN "Supplier"
-F 5 "A97943CT-ND" H 3550 5900 50  0001 C CNN "Supplier P/N"
-F 6 "$3.91" H 3550 5900 50  0001 C CNN "Item Cost"
-	1    3550 5900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3050 6050 2950 6050
 Wire Wire Line
@@ -339,10 +325,10 @@ Wire Wire Line
 	9900 6300 9900 6250
 Connection ~ 9900 6250
 $Comp
-L readout:Trenz_TEBA0714-B2B_JM1 J18
+L readout:Trenz_TEBA0714-B2B_JM1 J13
 U 1 1 60D57C1A
 P 9900 3650
-F 0 "J18" H 9900 6375 50  0000 C CNN
+F 0 "J13" H 9900 6375 50  0000 C CNN
 F 1 "Trenz_TEBA0714-B2B_JM1" H 9900 6284 50  0000 C CNN
 F 2 "Connector_Samtec:Samtec_LSHM-150-xx.x-x-DV-S_2x50-1SH_P0.50mm_Vertical" H 9900 3650 50  0001 C CNN
 F 3 "https://www.samtec.com/products/lshm-150-04.0-l-dv-a-s-k-tr" H 9900 3650 50  0001 C CNN
@@ -370,10 +356,10 @@ Wire Wire Line
 Wire Wire Line
 	9900 6250 10600 6250
 $Comp
-L readout:Trenz_TEBA0714-B2B_JM2 J19
+L readout:Trenz_TEBA0714-B2B_JM2 J14
 U 1 1 60E42A8D
 P 16250 3650
-F 0 "J19" H 16250 6375 50  0000 C CNN
+F 0 "J14" H 16250 6375 50  0000 C CNN
 F 1 "Trenz_TEBA0714-B2B_JM2" H 16250 6284 50  0000 C CNN
 F 2 "Connector_Samtec:Samtec_LSHM-150-xx.x-x-DV-S_2x50-1SH_P0.50mm_Vertical" H 16250 3650 50  0001 C CNN
 F 3 "https://www.samtec.com/products/lshm-150-04.0-l-dv-a-s-k-tr" H 16250 3650 50  0001 C CNN
@@ -533,8 +519,8 @@ AR Path="/6099D1B7/60DE6B69" Ref="J?"  Part="1"
 AR Path="/60AD0200/60AFD3C0/60DE6B69" Ref="J?"  Part="1" 
 AR Path="/606EBC4D/60DE6B69" Ref="J?"  Part="1" 
 AR Path="/60BC24EA/60DE6B69" Ref="J?"  Part="1" 
-AR Path="/60D04563/60DE6B69" Ref="J12"  Part="1" 
-F 0 "J12" H 1150 2950 50  0000 C CNN
+AR Path="/60D04563/60DE6B69" Ref="J10"  Part="1" 
+F 0 "J10" H 1150 2950 50  0000 C CNN
 F 1 "Digilent JTAG header" H 1150 2850 50  0000 C CNN
 F 2 "readout_slice:87832-1420" H 1300 2450 50  0001 C CNN
 F 3 "~" H 1300 2450 50  0001 C CNN
@@ -600,28 +586,6 @@ Wire Wire Line
 Wire Wire Line
 	1700 2150 1600 2150
 $Comp
-L Connector_Generic:Conn_01x04 J?
-U 1 1 60DFEC40
-P 3250 2350
-AR Path="/608B2FC0/60DFEC40" Ref="J?"  Part="1" 
-AR Path="/60AD0200/60B2D848/60DFEC40" Ref="J?"  Part="1" 
-AR Path="/607155C8/60DFEC40" Ref="J?"  Part="1" 
-AR Path="/606EBC4D/60DFEC40" Ref="J?"  Part="1" 
-AR Path="/60BC2588/60DFEC40" Ref="J?"  Part="1" 
-AR Path="/60D04563/60DFEC40" Ref="J13"  Part="1" 
-F 0 "J13" H 3168 2667 50  0000 C CNN
-F 1 "Serial USB" H 3168 2576 50  0000 C CNN
-F 2 "readout_trenz:Sparkfun-FT232RL" H 3250 2350 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 3250 2350 50  0001 C CNN
-F 4 "$15.95" H 3250 2350 50  0001 C CNN "Item Cost"
-F 5 "FT232-RL" H 3250 2350 50  0001 C CNN "MFN"
-F 6 "SparkFun" H 3250 2350 50  0001 C CNN "Manufacturer"
-F 7 "SparkFun" H 3250 2350 50  0001 C CNN "Supplier "
-F 8 "BOB-12731" H 3250 2350 50  0001 C CNN "Supplier P/N"
-	1    3250 2350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GNDD #PWR?
 U 1 1 60DFEC46
 P 3700 2650
@@ -649,32 +613,15 @@ Wire Wire Line
 	3700 2250 3700 2150
 Text Notes 2850 1000 0    197  ~ 39
 Sparkfun FT232RL
-$Comp
-L Connector_Generic:Conn_01x09 J?
-U 1 1 60DFEC51
-P 5050 2400
-AR Path="/608B2FC0/60DFEC51" Ref="J?"  Part="1" 
-AR Path="/60AD0200/60B2D848/60DFEC51" Ref="J?"  Part="1" 
-AR Path="/607155C8/60DFEC51" Ref="J?"  Part="1" 
-AR Path="/606EBC4D/60DFEC51" Ref="J?"  Part="1" 
-AR Path="/60BC2588/60DFEC51" Ref="J?"  Part="1" 
-AR Path="/60D04563/60DFEC51" Ref="J17"  Part="1" 
-F 0 "J17" H 4968 1775 50  0000 C CNN
-F 1 "Mounting" H 4968 1866 50  0000 C CNN
-F 2 "~" H 5050 2400 50  0001 C CNN
-F 3 "~" H 5050 2400 50  0001 C CNN
-	1    5050 2400
-	-1   0    0    1   
-$EndComp
-NoConn ~ 5250 2800
-NoConn ~ 5250 2700
-NoConn ~ 5250 2600
-NoConn ~ 5250 2500
-NoConn ~ 5250 2400
-NoConn ~ 5250 2300
-NoConn ~ 5250 2200
-NoConn ~ 5250 2100
-NoConn ~ 5250 2000
+NoConn ~ 5750 2800
+NoConn ~ 5750 2700
+NoConn ~ 5750 2600
+NoConn ~ 5750 2500
+NoConn ~ 5750 2400
+NoConn ~ 5750 2300
+NoConn ~ 5750 2200
+NoConn ~ 5750 2100
+NoConn ~ 5750 2000
 NoConn ~ 4750 2000
 NoConn ~ 4750 2100
 NoConn ~ 4750 2200
@@ -684,23 +631,6 @@ NoConn ~ 4750 2500
 NoConn ~ 4750 2600
 NoConn ~ 4750 2700
 NoConn ~ 4750 2800
-$Comp
-L Connector_Generic:Conn_01x09 J?
-U 1 1 60DFEC69
-P 4550 2400
-AR Path="/608B2FC0/60DFEC69" Ref="J?"  Part="1" 
-AR Path="/60AD0200/60B2D848/60DFEC69" Ref="J?"  Part="1" 
-AR Path="/607155C8/60DFEC69" Ref="J?"  Part="1" 
-AR Path="/606EBC4D/60DFEC69" Ref="J?"  Part="1" 
-AR Path="/60BC2588/60DFEC69" Ref="J?"  Part="1" 
-AR Path="/60D04563/60DFEC69" Ref="J16"  Part="1" 
-F 0 "J16" H 4468 1775 50  0000 C CNN
-F 1 "Mounting" H 4468 1866 50  0000 C CNN
-F 2 "~" H 4550 2400 50  0001 C CNN
-F 3 "~" H 4550 2400 50  0001 C CNN
-	1    4550 2400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	9300 6050 9200 6050
 Wire Wire Line
@@ -1173,12 +1103,12 @@ UART_TO_MOD
 Text Label 14900 5950 0    50   ~ 0
 UART_FROM_MOD
 Wire Wire Line
-	3450 2450 4200 2450
-Wire Wire Line
 	3450 2350 4200 2350
-Text Label 4200 2450 2    50   ~ 0
-UART_TO_MOD
+Wire Wire Line
+	3450 2450 4200 2450
 Text Label 4200 2350 2    50   ~ 0
+UART_TO_MOD
+Text Label 4200 2450 2    50   ~ 0
 UART_FROM_MOD
 Wire Wire Line
 	9300 1550 8800 1550
@@ -1808,17 +1738,6 @@ Text Notes 3150 4700 0    197  ~ 39
 SFP
 Text Notes 11150 900  0    197  ~ 39
 B2B CONNECTORS\n
-$Comp
-L readout:SFP+cage J15
-U 1 1 62022398
-P 3550 7250
-F 0 "J15" V 3723 7255 50  0000 C CNN
-F 1 "SFP+cage" V 3814 7255 50  0000 C CNN
-F 2 "~" H 3750 11850 197 0001 C CNN
-F 3 "" H 3750 11850 197 0001 C CNN
-	1    3550 7250
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	4500 6950 4500 7050
 $Comp
@@ -2242,6 +2161,60 @@ Text HLabel 11550 1450 2    50   BiDi ~ 0
 UNUSED[0..4]
 Wire Wire Line
 	4050 5550 4700 5550
+$Comp
+L readout:TrenzSFP+cage J12
+U 1 1 60E7D4DA
+P 3550 5900
+F 0 "J12" H 3550 6775 50  0000 C CNN
+F 1 "TrenzSFP+cage" H 3550 6684 50  0000 C CNN
+F 2 "Connector:Connector_SFP_and_Cage" H 3550 5900 50  0001 C CNN
+F 3 "" H 3550 5900 50  0001 C CNN
+	1    3550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:TrenzSFP+cage J12
+U 2 1 60E816C5
+P 3550 7250
+F 0 "J12" V 3723 7255 50  0000 C CNN
+F 1 "TrenzSFP+cage" V 3814 7255 50  0000 C CNN
+F 2 "Connector:Connector_SFP_and_Cage" H 3550 7250 50  0001 C CNN
+F 3 "" H 3550 7250 50  0001 C CNN
+	2    3550 7250
+	0    -1   1    0   
+$EndComp
+$Comp
+L readout:SparkfunFT232RL J11
+U 1 1 60F4B330
+P 3250 2400
+F 0 "J11" H 3332 2775 50  0000 C CNN
+F 1 "SparkfunFT232RL" H 3332 2684 50  0000 C CNN
+F 2 "readout_trenz:Sparkfun-FT232RL" H 3250 2400 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 3250 2400 50  0001 C CNN
+F 4 "$15.95" H 3250 2400 50  0001 C CNN "Item Cost"
+F 5 "BOB-12731" H 3250 2400 50  0001 C CNN "MFN"
+F 6 "SparkFun" H 3250 2400 50  0001 C CNN "Manufacturer"
+F 7 "SparkFun" H 3250 2400 50  0001 C CNN "Supplier "
+F 8 "FT232RL" H 3250 2400 50  0001 C CNN "Supplier P/N"
+	1    3250 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:SparkfunFT232RL J11
+U 2 1 60F4C1DA
+P 4550 2400
+F 0 "J11" H 4632 3025 50  0000 C CNN
+F 1 "SparkfunFT232RL" H 4632 2934 50  0000 C CNN
+F 2 "readout_trenz:Sparkfun-FT232RL" H 4550 2400 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 4550 2400 50  0001 C CNN
+F 4 "$15.95" H 4550 2400 50  0001 C CNN "Item Cost"
+F 5 "BOB-12731" H 4550 2400 50  0001 C CNN "MFN"
+F 6 "SparkFun" H 4550 2400 50  0001 C CNN "Manufacturer"
+F 7 "SparkFun" H 4550 2400 50  0001 C CNN "Supplier "
+F 8 "FT232RL" H 4550 2400 50  0001 C CNN "Supplier P/N"
+	2    4550 2400
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	11600 2550 11600 2750
 Wire Wire Line
@@ -2270,4 +2243,15 @@ Wire Bus Line
 	15050 3750 15050 5750
 Wire Bus Line
 	15050 1050 15050 3550
+$Comp
+L readout:SparkfunFT232RL J11
+U 3 1 611B52E0
+P 5550 2400
+F 0 "J11" H 5632 3025 50  0000 C CNN
+F 1 "SparkfunFT232RL" H 5632 2934 50  0000 C CNN
+F 2 "readout_trenz:Sparkfun-FT232RL" H 7450 2400 50  0001 C CNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 7450 2400 50  0001 C CNN
+	3    5550 2400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

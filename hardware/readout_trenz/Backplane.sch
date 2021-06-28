@@ -55,13 +55,13 @@ Wire Wire Line
 Wire Wire Line
 	6350 4600 6450 4600
 $Comp
-L readout:ERF8-060-05.0-L-DV J11
+L readout:ERF8-060-05.0-L-DV J9
 U 1 1 60C1AFA4
 P 5850 3950
-AR Path="/60C946F3/60C1AFA4" Ref="J11"  Part="1" 
+AR Path="/60C946F3/60C1AFA4" Ref="J9"  Part="1" 
 AR Path="/60CAE390/60C1AFA4" Ref="J?"  Part="1" 
 AR Path="/60C1AFA4" Ref="J?"  Part="1" 
-F 0 "J11" H 5850 7150 50  0000 C CNN
+F 0 "J9" H 5850 7150 50  0000 C CNN
 F 1 "ERM8-060-05.0-L-DV" H 5850 7050 50  0000 C CNN
 F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 5850 3950 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 5850 3950 50  0001 L BNN

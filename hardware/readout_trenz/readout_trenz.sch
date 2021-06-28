@@ -19,54 +19,6 @@ Wire Bus Line
 	2500 4500 3500 4500
 Text Label 2550 4500 0    50   ~ 0
 B2_[0..31]
-Text Label 11550 5250 0    50   ~ 0
-LVDS_GPIO_n2
-Wire Wire Line
-	12100 5150 11550 5150
-Wire Wire Line
-	11550 5250 12100 5250
-Wire Wire Line
-	12100 4650 11650 4650
-Wire Wire Line
-	11650 4550 12100 4550
-Text Label 11650 4650 0    50   ~ 0
-3v3_GPIO2
-Text Label 11650 4550 0    50   ~ 0
-3v3_GPIO1
-Wire Wire Line
-	12100 4850 11650 4850
-Wire Wire Line
-	11650 4750 12100 4750
-Text Label 11650 4850 0    50   ~ 0
-3v3_GPIO4
-Text Label 11650 4750 0    50   ~ 0
-3v3_GPIO3
-Text Label 11550 5150 0    50   ~ 0
-LVDS_GPIO_p2
-Wire Wire Line
-	11550 5050 12100 5050
-Wire Wire Line
-	12100 4950 11550 4950
-Text Label 11550 5050 0    50   ~ 0
-LVDS_GPIO_n1
-Text Label 11550 4950 0    50   ~ 0
-LVDS_GPIO_p1
-Wire Wire Line
-	12100 4250 11650 4250
-Wire Wire Line
-	11650 4150 12100 4150
-Text Label 11650 4250 0    50   ~ 0
-1v8_GPIO2
-Text Label 11650 4150 0    50   ~ 0
-1v8_GPIO1
-Wire Wire Line
-	12100 4450 11650 4450
-Wire Wire Line
-	11650 4350 12100 4350
-Text Label 11650 4450 0    50   ~ 0
-1v8_GPIO4
-Text Label 11650 4350 0    50   ~ 0
-1v8_GPIO3
 Wire Wire Line
 	2500 6000 3500 6000
 Wire Bus Line
