@@ -19,135 +19,54 @@ Wire Bus Line
 	2500 4500 3500 4500
 Text Label 2550 4500 0    50   ~ 0
 B2_[0..31]
-Wire Wire Line
-	13100 5200 13050 5200
-Connection ~ 13100 5200
-Wire Wire Line
-	13100 5200 13100 5350
-Wire Wire Line
-	13050 5100 13100 5100
-Wire Wire Line
-	13100 5100 13100 5200
-Text Label 12000 5200 0    50   ~ 0
+Text Label 11550 5250 0    50   ~ 0
 LVDS_GPIO_n2
 Wire Wire Line
-	12550 5100 12000 5100
+	12100 5150 11550 5150
 Wire Wire Line
-	12000 5200 12550 5200
-$Comp
-L power:GNDD #PWR01
-U 1 1 60B06DB5
-P 13100 5350
-F 0 "#PWR01" H 13100 5100 50  0001 C CNN
-F 1 "GNDD-power" H 13104 5195 50  0000 C CNN
-F 2 "" H 13100 5350 50  0001 C CNN
-F 3 "" H 13100 5350 50  0001 C CNN
-	1    13100 5350
-	1    0    0    -1  
-$EndComp
-Connection ~ 13100 5100
-$Comp
-L Connector_Generic:Conn_02x12_Counter_Clockwise J1
-U 1 1 60B1DFBC
-P 12750 4600
-F 0 "J1" H 12800 5317 50  0000 C CNN
-F 1 "Conn_02x12_Counter_Clockwise" H 12800 5226 50  0000 C CNN
-F 2 "" H 12750 4600 50  0001 C CNN
-F 3 "~" H 12750 4600 50  0001 C CNN
-	1    12750 4600
-	1    0    0    -1  
-$EndComp
+	11550 5250 12100 5250
 Wire Wire Line
-	12550 4600 12100 4600
+	12100 4650 11650 4650
 Wire Wire Line
-	12100 4500 12550 4500
-Text Label 12100 4600 0    50   ~ 0
+	11650 4550 12100 4550
+Text Label 11650 4650 0    50   ~ 0
 3v3_GPIO2
-Text Label 12100 4500 0    50   ~ 0
+Text Label 11650 4550 0    50   ~ 0
 3v3_GPIO1
 Wire Wire Line
-	12550 4800 12100 4800
+	12100 4850 11650 4850
 Wire Wire Line
-	12100 4700 12550 4700
-Text Label 12100 4800 0    50   ~ 0
+	11650 4750 12100 4750
+Text Label 11650 4850 0    50   ~ 0
 3v3_GPIO4
-Text Label 12100 4700 0    50   ~ 0
+Text Label 11650 4750 0    50   ~ 0
 3v3_GPIO3
-Text Label 12000 5100 0    50   ~ 0
+Text Label 11550 5150 0    50   ~ 0
 LVDS_GPIO_p2
 Wire Wire Line
-	12000 5000 12550 5000
+	11550 5050 12100 5050
 Wire Wire Line
-	12550 4900 12000 4900
-Text Label 12000 5000 0    50   ~ 0
+	12100 4950 11550 4950
+Text Label 11550 5050 0    50   ~ 0
 LVDS_GPIO_n1
-Text Label 12000 4900 0    50   ~ 0
+Text Label 11550 4950 0    50   ~ 0
 LVDS_GPIO_p1
 Wire Wire Line
-	12550 4200 12100 4200
+	12100 4250 11650 4250
 Wire Wire Line
-	12100 4100 12550 4100
-Text Label 12100 4200 0    50   ~ 0
+	11650 4150 12100 4150
+Text Label 11650 4250 0    50   ~ 0
 1v8_GPIO2
-Text Label 12100 4100 0    50   ~ 0
+Text Label 11650 4150 0    50   ~ 0
 1v8_GPIO1
 Wire Wire Line
-	12550 4400 12100 4400
+	12100 4450 11650 4450
 Wire Wire Line
-	12100 4300 12550 4300
-Text Label 12100 4400 0    50   ~ 0
+	11650 4350 12100 4350
+Text Label 11650 4450 0    50   ~ 0
 1v8_GPIO4
-Text Label 12100 4300 0    50   ~ 0
+Text Label 11650 4350 0    50   ~ 0
 1v8_GPIO3
-Wire Wire Line
-	13100 4200 13100 4300
-Connection ~ 13100 4200
-Wire Wire Line
-	13100 4200 13050 4200
-Wire Wire Line
-	13100 4300 13100 4400
-Connection ~ 13100 4300
-Wire Wire Line
-	13050 4300 13100 4300
-Wire Wire Line
-	13100 4400 13100 4500
-Connection ~ 13100 4400
-Wire Wire Line
-	13100 4400 13050 4400
-Connection ~ 13100 4500
-Wire Wire Line
-	13100 4100 13100 4200
-Wire Wire Line
-	13050 4100 13100 4100
-Wire Wire Line
-	13100 4600 13100 4700
-Connection ~ 13100 4600
-Wire Wire Line
-	13100 4600 13050 4600
-Wire Wire Line
-	13100 4700 13100 4800
-Connection ~ 13100 4700
-Wire Wire Line
-	13050 4700 13100 4700
-Wire Wire Line
-	13100 4800 13100 4900
-Connection ~ 13100 4800
-Wire Wire Line
-	13100 4800 13050 4800
-Wire Wire Line
-	13100 4900 13100 5000
-Connection ~ 13100 4900
-Wire Wire Line
-	13050 4900 13100 4900
-Wire Wire Line
-	13100 5000 13100 5100
-Connection ~ 13100 5000
-Wire Wire Line
-	13100 5000 13050 5000
-Wire Wire Line
-	13100 4500 13100 4600
-Wire Wire Line
-	13050 4500 13100 4500
 Wire Wire Line
 	2500 6000 3500 6000
 Wire Bus Line
@@ -226,6 +145,7 @@ F11 "Serial_ctrl[0..8]" O L 5500 2750 50
 F12 "Serial_ctrl[0..8]" O L 5500 5750 50 
 F13 "Fast_Trig[0..3]" O L 5500 1750 50 
 F14 "Fast_Trig[0..3]" O L 5500 4750 50 
+F15 "UNUSED[0..4]" B R 7500 3250 50 
 $EndSheet
 Wire Wire Line
 	5500 6450 5450 6450
@@ -268,4 +188,84 @@ Wire Bus Line
 	5500 1750 4500 1750
 Wire Bus Line
 	5500 4750 4500 4750
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 60DDF7C6
+P 8700 3750
+F 0 "J1" H 8750 4167 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 8750 4076 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 8700 3750 50  0001 C CNN
+F 3 "~" H 8700 3750 50  0001 C CNN
+	1    8700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3550 9100 3550
+Wire Wire Line
+	9100 3550 9100 3650
+Wire Wire Line
+	9000 3650 9100 3650
+Connection ~ 9100 3650
+Wire Wire Line
+	9100 3650 9100 3750
+Wire Wire Line
+	9000 3750 9100 3750
+Connection ~ 9100 3750
+Wire Wire Line
+	9100 3750 9100 3850
+Wire Wire Line
+	9000 3850 9100 3850
+Connection ~ 9100 3850
+Wire Wire Line
+	9100 3850 9100 3950
+Wire Wire Line
+	9000 3950 9100 3950
+Connection ~ 9100 3950
+Wire Wire Line
+	9100 3950 9100 4050
+$Comp
+L power:GNDD #PWR01
+U 1 1 60DE3614
+P 9100 4050
+F 0 "#PWR01" H 9100 3800 50  0001 C CNN
+F 1 "GNDD" H 9104 3895 50  0000 C CNN
+F 2 "" H 9100 4050 50  0001 C CNN
+F 3 "" H 9100 4050 50  0001 C CNN
+	1    9100 4050
+	1    0    0    -1  
+$EndComp
+Text Label 8000 3550 0    50   ~ 0
+UNUSED0
+Text Label 8000 3650 0    50   ~ 0
+UNUSED1
+Text Label 8000 3750 0    50   ~ 0
+UNUSED2
+Text Label 8000 3850 0    50   ~ 0
+UNUSED3
+Text Label 8000 3950 0    50   ~ 0
+UNUSED4
+Wire Wire Line
+	8500 3550 8000 3550
+Wire Wire Line
+	8500 3650 8000 3650
+Wire Wire Line
+	8500 3750 8000 3750
+Wire Wire Line
+	8500 3850 8000 3850
+Wire Wire Line
+	8500 3950 8000 3950
+Entry Wire Line
+	7900 3450 8000 3550
+Entry Wire Line
+	7900 3550 8000 3650
+Entry Wire Line
+	7900 3650 8000 3750
+Entry Wire Line
+	7900 3750 8000 3850
+Entry Wire Line
+	7900 3850 8000 3950
+Wire Bus Line
+	7900 3250 7500 3250
+Wire Bus Line
+	7900 3250 7900 3850
 $EndSCHEMATC
