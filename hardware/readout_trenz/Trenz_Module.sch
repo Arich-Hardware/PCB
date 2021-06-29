@@ -2108,6 +2108,11 @@ F 0 "J11" H 5632 3025 50  0000 C CNN
 F 1 "SparkfunFT232RL" H 5632 2934 50  0000 C CNN
 F 2 "readout_trenz:Sparkfun-FT232RL" H 7450 2400 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 7450 2400 50  0001 C CNN
+F 4 "$15.95" H 5550 2400 50  0001 C CNN "Item Cost"
+F 5 "BOB-12731" H 5550 2400 50  0001 C CNN "MFN"
+F 6 "SparkFun" H 5550 2400 50  0001 C CNN "Manufacturer"
+F 7 "SparkFun" H 5550 2400 50  0001 C CNN "Supplier "
+F 8 "FT232RL" H 5550 2400 50  0001 C CNN "Supplier P/N"
 	3    5550 2400
 	1    0    0    -1  
 $EndComp
