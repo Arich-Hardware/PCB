@@ -25,7 +25,7 @@ U 1 1 60C7B226
 P 4500 4000
 F 0 "J3" H 4428 4238 50  0000 C CNN
 F 1 "Conn_Coaxial" H 4428 4147 50  0000 C CNN
-F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 4500 4000 50  0001 C CNN
+F 2 "readout_trenz:lemo-EPB.00.250.NTN" H 4500 4000 50  0001 C CNN
 F 3 " ~" H 4500 4000 50  0001 C CNN
 	1    4500 4000
 	-1   0    0    -1  
@@ -35,9 +35,14 @@ L Device:R R2
 U 1 1 60C7B230
 P 5500 4150
 F 0 "R2" H 5570 4196 50  0000 L CNN
-F 1 "50" H 5570 4105 50  0000 L CNN
+F 1 "56" H 5570 4105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 4150 50  0001 C CNN
-F 3 "~" H 5500 4150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 5500 4150 50  0001 C CNN
+F 4 "$0.1" H 5500 4150 50  0001 C CNN "Item Cost"
+F 5 "CRCW060356R0FKEAC" H 5500 4150 50  0001 C CNN "MFN"
+F 6 "Vishay Dale" H 5500 4150 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5500 4150 50  0001 C CNN "Supplier "
+F 8 "541-5483-1-ND" H 5500 4150 50  0001 C CNN "Supplier P/N"
 	1    5500 4150
 	1    0    0    -1  
 $EndComp
@@ -152,9 +157,14 @@ L Device:R R1
 U 1 1 60C75BEA
 P 5500 3150
 F 0 "R1" H 5570 3196 50  0000 L CNN
-F 1 "50" H 5570 3105 50  0000 L CNN
+F 1 "56" H 5570 3105 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 3150 50  0001 C CNN
-F 3 "~" H 5500 3150 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 5500 3150 50  0001 C CNN
+F 4 "$0.1" H 5500 3150 50  0001 C CNN "Item Cost"
+F 5 "CRCW060356R0FKEAC" H 5500 3150 50  0001 C CNN "MFN"
+F 6 "Vishay Dale" H 5500 3150 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5500 3150 50  0001 C CNN "Supplier "
+F 8 "541-5483-1-ND" H 5500 3150 50  0001 C CNN "Supplier P/N"
 	1    5500 3150
 	1    0    0    -1  
 $EndComp
@@ -164,7 +174,7 @@ U 1 1 60C74CEF
 P 4500 3000
 F 0 "J2" H 4428 3238 50  0000 C CNN
 F 1 "Conn_Coaxial" H 4428 3147 50  0000 C CNN
-F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 4500 3000 50  0001 C CNN
+F 2 "readout_trenz:lemo-EPB.00.250.NTN" H 4500 3000 50  0001 C CNN
 F 3 " ~" H 4500 3000 50  0001 C CNN
 	1    4500 3000
 	-1   0    0    -1  
@@ -194,7 +204,12 @@ P 6000 3800
 F 0 "R4" H 6070 3846 50  0000 L CNN
 F 1 "100" H 6070 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5930 3800 50  0001 C CNN
-F 3 "~" H 6000 3800 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 6000 3800 50  0001 C CNN
+F 4 "$0.01" H 6000 3800 50  0001 C CNN "Item Cost"
+F 5 "CR0603AFX-1000ELF" H 6000 3800 50  0001 C CNN "MFN"
+F 6 "Bourns Inc." H 6000 3800 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6000 3800 50  0001 C CNN "Supplier "
+F 8 "118-CR0603AFX-1000ELFCT-ND" H 6000 3800 50  0001 C CNN "Supplier P/N"
 	1    6000 3800
 	-1   0    0    -1  
 $EndComp
@@ -205,7 +220,12 @@ P 6000 3200
 F 0 "R3" H 6070 3246 50  0000 L CNN
 F 1 "100" H 6070 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5930 3200 50  0001 C CNN
-F 3 "~" H 6000 3200 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 6000 3200 50  0001 C CNN
+F 4 "$0.01" H 6000 3200 50  0001 C CNN "Item Cost"
+F 5 "CR0603AFX-1000ELF" H 6000 3200 50  0001 C CNN "MFN"
+F 6 "Bourns Inc." H 6000 3200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6000 3200 50  0001 C CNN "Supplier "
+F 8 "118-CR0603AFX-1000ELFCT-ND" H 6000 3200 50  0001 C CNN "Supplier P/N"
 	1    6000 3200
 	-1   0    0    -1  
 $EndComp
