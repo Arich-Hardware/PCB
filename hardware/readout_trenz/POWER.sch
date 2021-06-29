@@ -36,9 +36,14 @@ L Device:C_Small C6
 U 1 1 60EB77F1
 P 6150 2200
 F 0 "C6" H 6242 2246 50  0000 L CNN
-F 1 "1u" H 6242 2155 50  0000 L CNN
+F 1 "1uF" H 6242 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 2200 50  0001 C CNN
-F 3 "~" H 6150 2200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012106010.pdf" H 6150 2200 50  0001 C CNN
+F 4 "$0.15" H 6150 2200 50  0001 C CNN "Item Cost"
+F 5 "885012106010" H 6150 2200 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6150 2200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6150 2200 50  0001 C CNN "Supplier "
+F 8 "732-7907-1-ND" H 6150 2200 50  0001 C CNN "Supplier P/N"
 	1    6150 2200
 	1    0    0    -1  
 $EndComp
@@ -56,9 +61,14 @@ L Device:C_Small C10
 U 1 1 60EEB4F9
 P 7200 2200
 F 0 "C10" H 7292 2246 50  0000 L CNN
-F 1 "1u" H 7292 2155 50  0000 L CNN
+F 1 "1uF" H 7292 2155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7200 2200 50  0001 C CNN
-F 3 "~" H 7200 2200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012106010.pdf" H 7200 2200 50  0001 C CNN
+F 4 "$0.15" H 7200 2200 50  0001 C CNN "Item Cost"
+F 5 "885012106010" H 7200 2200 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7200 2200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7200 2200 50  0001 C CNN "Supplier "
+F 8 "732-7907-1-ND" H 7200 2200 50  0001 C CNN "Supplier P/N"
 	1    7200 2200
 	1    0    0    -1  
 $EndComp
@@ -198,9 +208,14 @@ L Device:LED_Small D4
 U 1 1 6101BC2C
 P 6850 1500
 F 0 "D4" V 6896 1432 50  0000 R CNN
-F 1 "LED_Small" V 6805 1432 50  0000 R CNN
+F 1 "Red_LED" V 6805 1432 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 6850 1500 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 6850 1500 50  0001 C CNN
+F 4 "$0.17" H 6850 1500 50  0001 C CNN "Item Cost"
+F 5 "151031SS06000" H 6850 1500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6850 1500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6850 1500 50  0001 C CNN "Supplier "
+F 8 "732-5006-ND" H 6850 1500 50  0001 C CNN "Supplier P/N"
 	1    6850 1500
 	-1   0    0    1   
 $EndComp
@@ -226,9 +241,14 @@ L Device:LED_Small D6
 U 1 1 610C879C
 P 7750 4500
 F 0 "D6" V 7796 4432 50  0000 R CNN
-F 1 "LED_Small" V 7705 4432 50  0000 R CNN
+F 1 "Red_LED" V 7705 4432 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7750 4500 50  0001 C CNN
-F 3 "~" V 7750 4500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 7750 4500 50  0001 C CNN
+F 4 "$0.17" H 7750 4500 50  0001 C CNN "Item Cost"
+F 5 "151031SS06000" H 7750 4500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7750 4500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7750 4500 50  0001 C CNN "Supplier "
+F 8 "732-5006-ND" H 7750 4500 50  0001 C CNN "Supplier P/N"
 	1    7750 4500
 	0    -1   -1   0   
 $EndComp
@@ -257,9 +277,14 @@ L Device:LED_Small D7
 U 1 1 610D66C0
 P 7750 5500
 F 0 "D7" V 7796 5432 50  0000 R CNN
-F 1 "LED_Small" V 7705 5432 50  0000 R CNN
+F 1 "Red_LED" V 7705 5432 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7750 5500 50  0001 C CNN
-F 3 "~" V 7750 5500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 7750 5500 50  0001 C CNN
+F 4 "$0.17" H 7750 5500 50  0001 C CNN "Item Cost"
+F 5 "151031SS06000" H 7750 5500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7750 5500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7750 5500 50  0001 C CNN "Supplier "
+F 8 "732-5006-ND" H 7750 5500 50  0001 C CNN "Supplier P/N"
 	1    7750 5500
 	0    -1   -1   0   
 $EndComp
@@ -288,9 +313,14 @@ L Device:LED_Small D5
 U 1 1 610E164A
 P 7750 3500
 F 0 "D5" V 7796 3432 50  0000 R CNN
-F 1 "LED_Small" V 7705 3432 50  0000 R CNN
+F 1 "Red_LED" V 7705 3432 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7750 3500 50  0001 C CNN
-F 3 "~" V 7750 3500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 7750 3500 50  0001 C CNN
+F 4 "$0.17" H 7750 3500 50  0001 C CNN "Item Cost"
+F 5 "151031SS06000" H 7750 3500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7750 3500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7750 3500 50  0001 C CNN "Supplier "
+F 8 "732-5006-ND" H 7750 3500 50  0001 C CNN "Supplier P/N"
 	1    7750 3500
 	0    -1   -1   0   
 $EndComp
@@ -406,7 +436,7 @@ U 1 1 60E9F02D
 P 4900 2000
 F 0 "JP1" H 4900 2264 50  0000 C CNN
 F 1 "Jumper" H 4900 2173 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x23_P2.54mm_Vertical" H 4900 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4900 2000 50  0001 C CNN
 F 3 "~" H 4900 2000 50  0001 C CNN
 	1    4900 2000
 	1    0    0    -1  
@@ -426,7 +456,7 @@ U 1 1 60EA0402
 P 4900 2200
 F 0 "JP2" H 4900 2150 50  0000 C CNN
 F 1 "Jumper" H 4900 2050 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x23_P2.54mm_Vertical" H 4900 2200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4900 2200 50  0001 C CNN
 F 3 "~" H 4900 2200 50  0001 C CNN
 	1    4900 2200
 	1    0    0    -1  
@@ -445,9 +475,14 @@ L Device:LED_Small D1
 U 1 1 60D48512
 P 2400 2500
 F 0 "D1" V 2446 2432 50  0000 R CNN
-F 1 "LED_Small" V 2300 2600 50  0000 R CNN
+F 1 "Red_LED" V 2300 2600 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 2400 2500 50  0001 C CNN
-F 3 "~" V 2400 2500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 2400 2500 50  0001 C CNN
+F 4 "$0.17" H 2400 2500 50  0001 C CNN "Item Cost"
+F 5 "151031SS06000" H 2400 2500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 2400 2500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2400 2500 50  0001 C CNN "Supplier "
+F 8 "732-5006-ND" H 2400 2500 50  0001 C CNN "Supplier P/N"
 	1    2400 2500
 	0    1    -1   0   
 $EndComp
@@ -473,9 +508,14 @@ L Device:LED_Small D3
 U 1 1 60D5C1B9
 P 5500 2500
 F 0 "D3" V 5546 2432 50  0000 R CNN
-F 1 "LED_Small" V 5455 2432 50  0000 R CNN
+F 1 "Red_LED" V 5455 2432 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 5500 2500 50  0001 C CNN
-F 3 "~" V 5500 2500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 5500 2500 50  0001 C CNN
+F 4 "$0.17" H 5500 2500 50  0001 C CNN "Item Cost"
+F 5 "151031SS06000" H 5500 2500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5500 2500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5500 2500 50  0001 C CNN "Supplier "
+F 8 "732-5006-ND" H 5500 2500 50  0001 C CNN "Supplier P/N"
 	1    5500 2500
 	0    1    -1   0   
 $EndComp
@@ -672,8 +712,13 @@ U 1 1 610D93AF
 P 6150 3200
 F 0 "C7" H 6242 3246 50  0000 L CNN
 F 1 "10uF" H 6242 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 3200 50  0001 C CNN
-F 3 "~" H 6150 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 3200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 6150 3200 50  0001 C CNN
+F 4 "$0.18" H 6150 3200 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 6150 3200 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6150 3200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6150 3200 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 6150 3200 50  0001 C CNN "Supplier P/N"
 	1    6150 3200
 	1    0    0    -1  
 $EndComp
@@ -698,8 +743,13 @@ U 1 1 610EDF83
 P 6150 4200
 F 0 "C8" H 6242 4246 50  0000 L CNN
 F 1 "10uF" H 6242 4155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 4200 50  0001 C CNN
-F 3 "~" H 6150 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 4200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 6150 4200 50  0001 C CNN
+F 4 "$0.18" H 6150 4200 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 6150 4200 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6150 4200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6150 4200 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 6150 4200 50  0001 C CNN "Supplier P/N"
 	1    6150 4200
 	1    0    0    -1  
 $EndComp
@@ -729,8 +779,13 @@ U 1 1 6110CBFE
 P 6150 5200
 F 0 "C9" H 6242 5246 50  0000 L CNN
 F 1 "10uF" H 6242 5155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6150 5200 50  0001 C CNN
-F 3 "~" H 6150 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 5200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 6150 5200 50  0001 C CNN
+F 4 "$0.18" H 6150 5200 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 6150 5200 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6150 5200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6150 5200 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 6150 5200 50  0001 C CNN "Supplier P/N"
 	1    6150 5200
 	-1   0    0    -1  
 $EndComp
@@ -758,8 +813,13 @@ U 1 1 61FC80DF
 P 7600 3200
 F 0 "C11" H 7692 3246 50  0000 L CNN
 F 1 "10uF" H 7692 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7600 3200 50  0001 C CNN
-F 3 "~" H 7600 3200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 3200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 7600 3200 50  0001 C CNN
+F 4 "$0.18" H 7600 3200 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 7600 3200 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7600 3200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7600 3200 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 7600 3200 50  0001 C CNN "Supplier P/N"
 	1    7600 3200
 	-1   0    0    -1  
 $EndComp
@@ -787,8 +847,13 @@ U 1 1 61FD9C5C
 P 7600 4200
 F 0 "C12" H 7692 4246 50  0000 L CNN
 F 1 "10uF" H 7692 4155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7600 4200 50  0001 C CNN
-F 3 "~" H 7600 4200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 4200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 7600 4200 50  0001 C CNN
+F 4 "$0.18" H 7600 4200 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 7600 4200 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7600 4200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7600 4200 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 7600 4200 50  0001 C CNN "Supplier P/N"
 	1    7600 4200
 	-1   0    0    -1  
 $EndComp
@@ -826,8 +891,13 @@ U 1 1 62008956
 P 7600 5200
 F 0 "C13" H 7692 5246 50  0000 L CNN
 F 1 "10uF" H 7692 5155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7600 5200 50  0001 C CNN
-F 3 "~" H 7600 5200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 5200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 7600 5200 50  0001 C CNN
+F 4 "$0.18" H 7600 5200 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 7600 5200 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7600 5200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7600 5200 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 7600 5200 50  0001 C CNN "Supplier P/N"
 	1    7600 5200
 	-1   0    0    -1  
 $EndComp
@@ -922,7 +992,12 @@ P 1850 4500
 F 0 "C3" H 1942 4546 50  0000 L CNN
 F 1 "1uF" H 1942 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1850 4500 50  0001 C CNN
-F 3 "~" H 1850 4500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012106010.pdf" H 1850 4500 50  0001 C CNN
+F 4 "$0.15" H 1850 4500 50  0001 C CNN "Item Cost"
+F 5 "885012106010" H 1850 4500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 1850 4500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 1850 4500 50  0001 C CNN "Supplier "
+F 8 "732-7907-1-ND" H 1850 4500 50  0001 C CNN "Supplier P/N"
 	1    1850 4500
 	1    0    0    -1  
 $EndComp
@@ -953,7 +1028,12 @@ P 2800 4500
 F 0 "C4" H 2892 4546 50  0000 L CNN
 F 1 "10nF" H 2892 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2800 4500 50  0001 C CNN
-F 3 "~" H 2800 4500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885342206006.pdf" H 2800 4500 50  0001 C CNN
+F 4 "$0.1" H 2800 4500 50  0001 C CNN "Item Cost"
+F 5 "885342206006" H 2800 4500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 2800 4500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2800 4500 50  0001 C CNN "Supplier "
+F 8 "732-12168-1-ND" H 2800 4500 50  0001 C CNN "Supplier P/N"
 	1    2800 4500
 	1    0    0    -1  
 $EndComp
@@ -966,7 +1046,12 @@ P 3150 4500
 F 0 "C5" H 3242 4546 50  0000 L CNN
 F 1 "2.2uF" H 3242 4455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 4500 50  0001 C CNN
-F 3 "~" H 3150 4500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012106011.pdf" H 3150 4500 50  0001 C CNN
+F 4 "$0.16" H 3150 4500 50  0001 C CNN "Item Cost"
+F 5 "885012106011" H 3150 4500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 3150 4500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 3150 4500 50  0001 C CNN "Supplier "
+F 8 "732-7908-1-ND" H 3150 4500 50  0001 C CNN "Supplier P/N"
 	1    3150 4500
 	1    0    0    -1  
 $EndComp
@@ -1090,9 +1175,14 @@ L Device:LED_Small D2
 U 1 1 60F5AAEC
 P 3550 4550
 F 0 "D2" V 3596 4482 50  0000 R CNN
-F 1 "LED_Small" V 3450 4650 50  0000 R CNN
+F 1 "Red_LED" V 3450 4650 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 3550 4550 50  0001 C CNN
-F 3 "~" V 3550 4550 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 3550 4550 50  0001 C CNN
+F 4 "$0.17" H 3550 4550 50  0001 C CNN "Item Cost"
+F 5 "151031SS06000" H 3550 4550 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 3550 4550 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 3550 4550 50  0001 C CNN "Supplier "
+F 8 "732-5006-ND" H 3550 4550 50  0001 C CNN "Supplier P/N"
 	1    3550 4550
 	0    -1   -1   0   
 $EndComp
@@ -1132,9 +1222,14 @@ P 8300 2300
 AR Path="/62251D77/612A1082" Ref="D8"  Part="1" 
 AR Path="/60D04563/612A1082" Ref="D?"  Part="1" 
 F 0 "D8" H 8350 2400 50  0000 R CNN
-F 1 "LED_Small" H 8650 2200 50  0000 R CNN
+F 1 "Red_LED" H 8650 2200 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 8300 2300 50  0001 C CNN
-F 3 "~" V 8300 2300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 8300 2300 50  0001 C CNN
+F 4 "$0.17" H 8300 2300 50  0001 C CNN "Item Cost"
+F 5 "151031SS06000" H 8300 2300 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8300 2300 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8300 2300 50  0001 C CNN "Supplier "
+F 8 "732-5006-ND" H 8300 2300 50  0001 C CNN "Supplier P/N"
 	1    8300 2300
 	1    0    0    -1  
 $EndComp
@@ -1161,6 +1256,11 @@ F 0 "Q1" H 8100 2500 50  0000 L CNN
 F 1 "DMN67D7L" H 8100 2400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 2425 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 7900 2500 50  0001 L CNN
+F 4 "$0.28" H 7900 2500 50  0001 C CNN "Item Cost"
+F 5 "DMN67D7L-7" H 7900 2500 50  0001 C CNN "MFN"
+F 6 "Diodes Inc." H 7900 2500 50  0001 C CNN "Manufacturer"
+F 7 "Mouser Electronics" H 7900 2500 50  0001 C CNN "Supplier "
+F 8 "621-DMN67D7L-7" H 7900 2500 50  0001 C CNN "Supplier P/N"
 	1    7900 2500
 	1    0    0    -1  
 $EndComp

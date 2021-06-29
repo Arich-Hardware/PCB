@@ -49,9 +49,14 @@ P 2750 5500
 AR Path="/60767640/6149D700" Ref="C?"  Part="1" 
 AR Path="/60D04563/6149D700" Ref="C94"  Part="1" 
 F 0 "C94" H 2658 5546 50  0000 R CNN
-F 1 "47u" H 2658 5455 50  0000 R CNB
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2750 5500 50  0001 C CNN
-F 3 "~" H 2750 5500 50  0001 C CNN
+F 1 "47uF" H 2658 5455 50  0000 R CNB
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2750 5500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107006.pdf" H 2750 5500 50  0001 C CNN
+F 4 "$0.79" H 2750 5500 50  0001 C CNN "Item Cost"
+F 5 "885012107006" H 2750 5500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 2750 5500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2750 5500 50  0001 C CNN "Supplier "
+F 8 "732-7617-1-ND" H 2750 5500 50  0001 C CNN "Supplier P/N"
 	1    2750 5500
 	-1   0    0    -1  
 $EndComp
@@ -62,9 +67,14 @@ P 2450 5500
 AR Path="/60767640/6149D948" Ref="C?"  Part="1" 
 AR Path="/60D04563/6149D948" Ref="C93"  Part="1" 
 F 0 "C93" H 2358 5546 50  0000 R CNN
-F 1 "10u" H 2358 5455 50  0000 R CNB
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2450 5500 50  0001 C CNN
-F 3 "~" H 2450 5500 50  0001 C CNN
+F 1 "10uF" H 2358 5455 50  0000 R CNB
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2450 5500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 2450 5500 50  0001 C CNN
+F 4 "$0.18" H 2450 5500 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 2450 5500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 2450 5500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2450 5500 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 2450 5500 50  0001 C CNN "Supplier P/N"
 	1    2450 5500
 	-1   0    0    -1  
 $EndComp
@@ -75,9 +85,14 @@ P 2150 5500
 AR Path="/60767640/614A2A1F" Ref="C?"  Part="1" 
 AR Path="/60D04563/614A2A1F" Ref="C92"  Part="1" 
 F 0 "C92" H 2058 5546 50  0000 R CNN
-F 1 "47u" H 2058 5455 50  0000 R CNB
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2150 5500 50  0001 C CNN
-F 3 "~" H 2150 5500 50  0001 C CNN
+F 1 "47uF" H 2058 5455 50  0000 R CNB
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2150 5500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107006.pdf" H 2150 5500 50  0001 C CNN
+F 4 "$0.79" H 2150 5500 50  0001 C CNN "Item Cost"
+F 5 "885012107006" H 2150 5500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 2150 5500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2150 5500 50  0001 C CNN "Supplier "
+F 8 "732-7617-1-ND" H 2150 5500 50  0001 C CNN "Supplier P/N"
 	1    2150 5500
 	-1   0    0    -1  
 $EndComp
@@ -88,9 +103,14 @@ P 1850 5500
 AR Path="/60767640/614A2A29" Ref="C?"  Part="1" 
 AR Path="/60D04563/614A2A29" Ref="C91"  Part="1" 
 F 0 "C91" H 1758 5546 50  0000 R CNN
-F 1 "10u" H 1758 5455 50  0000 R CNB
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1850 5500 50  0001 C CNN
-F 3 "~" H 1850 5500 50  0001 C CNN
+F 1 "10uF" H 1758 5455 50  0000 R CNB
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 5500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 1850 5500 50  0001 C CNN
+F 4 "$0.18" H 1850 5500 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 1850 5500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 1850 5500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 1850 5500 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 1850 5500 50  0001 C CNN "Supplier P/N"
 	1    1850 5500
 	-1   0    0    -1  
 $EndComp
@@ -159,9 +179,14 @@ P 1350 5500
 AR Path="/60767640/614BE90A" Ref="C?"  Part="1" 
 AR Path="/60D04563/614BE90A" Ref="C90"  Part="1" 
 F 0 "C90" H 1258 5546 50  0000 R CNN
-F 1 "10u" H 1258 5455 50  0000 R CNB
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1350 5500 50  0001 C CNN
-F 3 "~" H 1350 5500 50  0001 C CNN
+F 1 "10uF" H 1258 5455 50  0000 R CNB
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1350 5500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 1350 5500 50  0001 C CNN
+F 4 "$0.18" H 1350 5500 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 1350 5500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 1350 5500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 1350 5500 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 1350 5500 50  0001 C CNN "Supplier P/N"
 	1    1350 5500
 	-1   0    0    -1  
 $EndComp
@@ -645,9 +670,14 @@ P 8950 6200
 AR Path="/60767640/60E5BE10" Ref="C?"  Part="1" 
 AR Path="/60D04563/60E5BE10" Ref="C95"  Part="1" 
 F 0 "C95" H 8858 6246 50  0000 R CNN
-F 1 "47u" H 8858 6155 50  0000 R CNB
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8950 6200 50  0001 C CNN
-F 3 "~" H 8950 6200 50  0001 C CNN
+F 1 "47uF" H 8858 6155 50  0000 R CNB
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 6200 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107006.pdf" H 8950 6200 50  0001 C CNN
+F 4 "$0.79" H 8950 6200 50  0001 C CNN "Item Cost"
+F 5 "885012107006" H 8950 6200 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8950 6200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8950 6200 50  0001 C CNN "Supplier "
+F 8 "732-7617-1-ND" H 8950 6200 50  0001 C CNN "Supplier P/N"
 	1    8950 6200
 	-1   0    0    -1  
 $EndComp
@@ -1741,19 +1771,6 @@ B2B CONNECTORS\n
 Wire Wire Line
 	4500 6950 4500 7050
 $Comp
-L Device:LED_Small D?
-U 1 1 6270374A
-P 7750 950
-AR Path="/62251D77/6270374A" Ref="D?"  Part="1" 
-AR Path="/60D04563/6270374A" Ref="D9"  Part="1" 
-F 0 "D9" H 7800 1050 50  0000 R CNN
-F 1 "LED_Small" H 8100 850 50  0000 R CNN
-F 2 "LED_THT:LED_D3.0mm" V 7750 950 50  0001 C CNN
-F 3 "~" V 7750 950 50  0001 C CNN
-	1    7750 950 
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GNDD #PWR?
 U 1 1 6270375E
 P 8050 1350
@@ -1776,6 +1793,11 @@ F 0 "Q2" H 8350 1150 50  0000 L CNN
 F 1 "DMN67D7L" H 8350 1050 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8350 1075 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 8150 1150 50  0001 L CNN
+F 4 "$0.28" H 8150 1150 50  0001 C CNN "Item Cost"
+F 5 "DMN67D7L-7" H 8150 1150 50  0001 C CNN "MFN"
+F 6 "Diodes Inc." H 8150 1150 50  0001 C CNN "Manufacturer"
+F 7 "Mouser Electronics" H 8150 1150 50  0001 C CNN "Supplier "
+F 8 "621-DMN67D7L-7" H 8150 1150 50  0001 C CNN "Supplier P/N"
 	1    8150 1150
 	-1   0    0    -1  
 $EndComp
@@ -1789,8 +1811,8 @@ U 1 1 610AD833
 P 7950 950
 AR Path="/62251D77/610AD833" Ref="R?"  Part="1" 
 AR Path="/60D04563/610AD833" Ref="R63"  Part="1" 
-F 0 "R63" V 7950 850 50  0000 L CNN
-F 1 "550" V 8009 905 50  0000 L CNN
+F 0 "R63" V 8050 900 50  0000 L CNN
+F 1 "550" V 7950 900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 950 50  0001 C CNN
 F 3 "~" H 7950 950 50  0001 C CNN
 	1    7950 950 
@@ -1805,9 +1827,14 @@ P 7750 1600
 AR Path="/62251D77/611C2293" Ref="D?"  Part="1" 
 AR Path="/60D04563/611C2293" Ref="D10"  Part="1" 
 F 0 "D10" H 7800 1700 50  0000 R CNN
-F 1 "LED_Small" H 8100 1500 50  0000 R CNN
+F 1 "Blue_LED" H 8100 1500 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 7750 1600 50  0001 C CNN
-F 3 "~" V 7750 1600 50  0001 C CNN
+F 3 "https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Optoelectronics/Datasheets/OVLBx4C7.pdf" V 7750 1600 50  0001 C CNN
+F 4 "$0.37" H 7750 1600 50  0001 C CNN "Item Cost"
+F 5 "OVLBB4C7" H 7750 1600 50  0001 C CNN "MFN"
+F 6 "TT Electronics/Optek Technology" H 7750 1600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7750 1600 50  0001 C CNN "Supplier "
+F 8 "365-1173-ND" H 7750 1600 50  0001 C CNN "Supplier P/N"
 	1    7750 1600
 	-1   0    0    -1  
 $EndComp
@@ -1834,6 +1861,11 @@ F 0 "Q3" H 8350 1800 50  0000 L CNN
 F 1 "DMN67D7L" H 8350 1700 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8350 1725 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 8150 1800 50  0001 L CNN
+F 4 "$0.28" H 8150 1800 50  0001 C CNN "Item Cost"
+F 5 "DMN67D7L-7" H 8150 1800 50  0001 C CNN "MFN"
+F 6 "Diodes Inc." H 8150 1800 50  0001 C CNN "Manufacturer"
+F 7 "Mouser Electronics" H 8150 1800 50  0001 C CNN "Supplier "
+F 8 "621-DMN67D7L-7" H 8150 1800 50  0001 C CNN "Supplier P/N"
 	1    8150 1800
 	-1   0    0    -1  
 $EndComp
@@ -1845,8 +1877,8 @@ U 1 1 611C22B2
 P 7950 1600
 AR Path="/62251D77/611C22B2" Ref="R?"  Part="1" 
 AR Path="/60D04563/611C22B2" Ref="R64"  Part="1" 
-F 0 "R64" V 7950 1500 50  0000 L CNN
-F 1 "550" V 8009 1555 50  0000 L CNN
+F 0 "R64" V 8050 1550 50  0000 L CNN
+F 1 "550" V 7950 1550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7950 1600 50  0001 C CNN
 F 3 "~" H 7950 1600 50  0001 C CNN
 	1    7950 1600
@@ -2011,10 +2043,15 @@ U 1 1 60E41B0B
 P 18900 2050
 AR Path="/62251D77/60E41B0B" Ref="D?"  Part="1" 
 AR Path="/60D04563/60E41B0B" Ref="D11"  Part="1" 
-F 0 "D11" H 18950 2150 50  0000 R CNN
-F 1 "LED_Small" H 19250 1950 50  0000 R CNN
+F 0 "D11" H 19000 2150 50  0000 R CNN
+F 1 "Red_LED" H 19250 1950 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 18900 2050 50  0001 C CNN
-F 3 "~" V 18900 2050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031SS06000.pdf" V 18900 2050 50  0001 C CNN
+F 4 "$0.17" H 18900 2050 50  0001 C CNN "Item Cost"
+F 5 "151031SS06000" H 18900 2050 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 18900 2050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 18900 2050 50  0001 C CNN "Supplier "
+F 8 "732-5006-ND" H 18900 2050 50  0001 C CNN "Supplier P/N"
 	1    18900 2050
 	1    0    0    -1  
 $EndComp
@@ -2041,6 +2078,11 @@ F 0 "Q4" H 18700 2250 50  0000 L CNN
 F 1 "DMN67D7L" H 18700 2150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 18700 2175 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 18500 2250 50  0001 L CNN
+F 4 "$0.28" H 18500 2250 50  0001 C CNN "Item Cost"
+F 5 "DMN67D7L-7" H 18500 2250 50  0001 C CNN "MFN"
+F 6 "Diodes Inc." H 18500 2250 50  0001 C CNN "Manufacturer"
+F 7 "Mouser Electronics" H 18500 2250 50  0001 C CNN "Supplier "
+F 8 "621-DMN67D7L-7" H 18500 2250 50  0001 C CNN "Supplier P/N"
 	1    18500 2250
 	1    0    0    -1  
 $EndComp
@@ -2054,10 +2096,15 @@ U 1 1 60E41B2C
 P 18900 2700
 AR Path="/62251D77/60E41B2C" Ref="D?"  Part="1" 
 AR Path="/60D04563/60E41B2C" Ref="D12"  Part="1" 
-F 0 "D12" H 18950 2800 50  0000 R CNN
-F 1 "LED_Small" H 19250 2600 50  0000 R CNN
+F 0 "D12" H 19000 2800 50  0000 R CNN
+F 1 "Green_LED" H 19250 2600 50  0000 R CNN
 F 2 "LED_THT:LED_D3.0mm" V 18900 2700 50  0001 C CNN
-F 3 "~" V 18900 2700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031VS06000.pdf" V 18900 2700 50  0001 C CNN
+F 4 "$0.16" H 18900 2700 50  0001 C CNN "Item Cost"
+F 5 "151031VS06000" H 18900 2700 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 18900 2700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 18900 2700 50  0001 C CNN "Supplier "
+F 8 "732-5008-ND" H 18900 2700 50  0001 C CNN "Supplier P/N"
 	1    18900 2700
 	1    0    0    -1  
 $EndComp
@@ -2084,6 +2131,11 @@ F 0 "Q5" H 18700 2900 50  0000 L CNN
 F 1 "DMN67D7L" H 18700 2800 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 18700 2825 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 18500 2900 50  0001 L CNN
+F 4 "$0.28" H 18500 2900 50  0001 C CNN "Item Cost"
+F 5 "DMN67D7L-7" H 18500 2900 50  0001 C CNN "MFN"
+F 6 "Diodes Inc." H 18500 2900 50  0001 C CNN "Manufacturer"
+F 7 "Mouser Electronics" H 18500 2900 50  0001 C CNN "Supplier "
+F 8 "621-DMN67D7L-7" H 18500 2900 50  0001 C CNN "Supplier P/N"
 	1    18500 2900
 	1    0    0    -1  
 $EndComp
@@ -2099,8 +2151,8 @@ U 1 1 60E41B4D
 P 18700 2050
 AR Path="/62251D77/60E41B4D" Ref="R?"  Part="1" 
 AR Path="/60D04563/60E41B4D" Ref="R65"  Part="1" 
-F 0 "R65" V 18700 1950 50  0000 L CNN
-F 1 "550" V 18759 2005 50  0000 L CNN
+F 0 "R65" V 18800 2000 50  0000 L CNN
+F 1 "550" V 18700 2000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18700 2050 50  0001 C CNN
 F 3 "~" H 18700 2050 50  0001 C CNN
 	1    18700 2050
@@ -2112,8 +2164,8 @@ U 1 1 60E41B57
 P 18700 2700
 AR Path="/62251D77/60E41B57" Ref="R?"  Part="1" 
 AR Path="/60D04563/60E41B57" Ref="R66"  Part="1" 
-F 0 "R66" V 18700 2600 50  0000 L CNN
-F 1 "550" V 18759 2655 50  0000 L CNN
+F 0 "R66" V 18800 2650 50  0000 L CNN
+F 1 "550" V 18700 2650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18700 2700 50  0001 C CNN
 F 3 "~" H 18700 2700 50  0001 C CNN
 	1    18700 2700
@@ -2215,34 +2267,6 @@ F 8 "FT232RL" H 4550 2400 50  0001 C CNN "Supplier P/N"
 	2    4550 2400
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	11600 2550 11600 2750
-Wire Wire Line
-	16850 2350 18000 2350
-Wire Bus Line
-	8200 5450 8200 5750
-Wire Bus Line
-	17450 1950 17450 2450
-Wire Bus Line
-	8700 2350 8700 2750
-Wire Bus Line
-	11100 1450 11100 2350
-Wire Bus Line
-	17450 1050 17450 1750
-Wire Bus Line
-	8200 4250 8200 5050
-Wire Bus Line
-	11600 4150 11600 5050
-Wire Bus Line
-	8200 2850 8200 4150
-Wire Bus Line
-	11600 2850 11600 4050
-Wire Bus Line
-	17450 3750 17450 5850
-Wire Bus Line
-	15050 3750 15050 5750
-Wire Bus Line
-	15050 1050 15050 3550
 $Comp
 L readout:SparkfunFT232RL J11
 U 3 1 611B52E0
@@ -2253,5 +2277,51 @@ F 2 "readout_trenz:Sparkfun-FT232RL" H 7450 2400 50  0001 C CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 7450 2400 50  0001 C CNN
 	3    5550 2400
 	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	11100 1450 11100 2350
+Wire Bus Line
+	8200 4250 8200 5050
+Wire Bus Line
+	11600 4150 11600 5050
+Wire Bus Line
+	8700 2350 8700 2750
+Wire Bus Line
+	8200 2850 8200 4150
+Wire Bus Line
+	11600 2550 11600 2750
+Wire Bus Line
+	17450 1950 17450 2450
+Wire Wire Line
+	16850 2350 18000 2350
+Wire Bus Line
+	8200 5450 8200 5750
+Wire Bus Line
+	11600 2850 11600 4050
+Wire Bus Line
+	15050 1050 15050 3550
+Wire Bus Line
+	17450 1050 17450 1750
+Wire Bus Line
+	17450 3750 17450 5850
+Wire Bus Line
+	15050 3750 15050 5750
+$Comp
+L Device:LED_Small D?
+U 1 1 6270374A
+P 7750 950
+AR Path="/62251D77/6270374A" Ref="D?"  Part="1" 
+AR Path="/60D04563/6270374A" Ref="D9"  Part="1" 
+F 0 "D9" H 7800 1050 50  0000 R CNN
+F 1 "Yellow_LED" H 8100 850 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" V 7750 950 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/151031YS05900.pdf" V 7750 950 50  0001 C CNN
+F 4 "$0.17" H 7750 950 50  0001 C CNN "Item Cost"
+F 5 "151031YS05900" H 7750 950 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7750 950 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7750 950 50  0001 C CNN "Supplier "
+F 8 "732-5009-ND" H 7750 950 50  0001 C CNN "Supplier P/N"
+	1    7750 950 
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

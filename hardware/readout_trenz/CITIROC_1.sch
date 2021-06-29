@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 19000 12000
 encoding utf-8
-Sheet 4 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -498,9 +498,14 @@ P 10400 10550
 AR Path="/60BB4A14/61198633" Ref="C153"  Part="1" 
 AR Path="/60BB4C00/61198633" Ref="C71"  Part="1" 
 F 0 "C153" H 10492 10596 50  0001 L CNN
-F 1 "100n" H 10300 10600 39  0000 L CNN
+F 1 "0.1uF" H 10300 10600 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10400 10550 50  0001 C CNN
-F 3 "~" H 10400 10550 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10400 10550 50  0001 C CNN
+F 4 "$0.1" H 10400 10550 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 10400 10550 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 10400 10550 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10400 10550 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 10400 10550 50  0001 C CNN "Supplier P/N"
 	1    10400 10550
 	1    0    0    1   
 $EndComp
@@ -530,9 +535,14 @@ P 9600 6800
 AR Path="/60BB4A14/61BCD34B" Ref="C148"  Part="1" 
 AR Path="/60BB4C00/61BCD34B" Ref="C66"  Part="1" 
 F 0 "C148" H 9692 6846 50  0001 L CNN
-F 1 "100n" H 9500 6850 39  0000 L CNN
+F 1 "0.1uF" H 9500 6850 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9600 6800 50  0001 C CNN
-F 3 "~" H 9600 6800 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9600 6800 50  0001 C CNN
+F 4 "$0.1" H 9600 6800 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 9600 6800 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 9600 6800 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9600 6800 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 9600 6800 50  0001 C CNN "Supplier P/N"
 	1    9600 6800
 	1    0    0    -1  
 $EndComp
@@ -543,9 +553,14 @@ P 9500 6700
 AR Path="/60BB4A14/61BCD32E" Ref="C147"  Part="1" 
 AR Path="/60BB4C00/61BCD32E" Ref="C65"  Part="1" 
 F 0 "C147" H 9592 6746 50  0001 L CNN
-F 1 "100n" H 9350 6750 39  0000 L CNN
+F 1 "0.1uF" H 9350 6750 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 6700 50  0001 C CNN
-F 3 "~" H 9500 6700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9500 6700 50  0001 C CNN
+F 4 "$0.1" H 9500 6700 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 9500 6700 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 9500 6700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9500 6700 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 9500 6700 50  0001 C CNN "Supplier P/N"
 	1    9500 6700
 	1    0    0    -1  
 $EndComp
@@ -556,9 +571,14 @@ P 9700 6700
 AR Path="/60BB4A14/61BCD356" Ref="C149"  Part="1" 
 AR Path="/60BB4C00/61BCD356" Ref="C67"  Part="1" 
 F 0 "C149" H 9792 6746 50  0001 L CNN
-F 1 "100n" H 9700 6750 39  0000 L CNN
+F 1 "0.1uF" H 9700 6750 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 6700 50  0001 C CNN
-F 3 "~" H 9700 6700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9700 6700 50  0001 C CNN
+F 4 "$0.1" H 9700 6700 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 9700 6700 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 9700 6700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9700 6700 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 9700 6700 50  0001 C CNN "Supplier P/N"
 	1    9700 6700
 	1    0    0    -1  
 $EndComp
@@ -584,8 +604,6 @@ Wire Wire Line
 	7750 10450 7750 9050
 Wire Wire Line
 	7900 10450 7900 9250
-Text Notes 11550 10850 0    50   ~ 10
-may not need gnd for all\nif space issue
 Text Notes 10300 7200 0    50   ~ 10
 page 48 of DS\n
 Wire Wire Line
@@ -599,9 +617,14 @@ P 10550 8050
 AR Path="/60BB4A14/61BCD355" Ref="C154"  Part="1" 
 AR Path="/60BB4C00/61BCD355" Ref="C72"  Part="1" 
 F 0 "C154" H 10642 8096 50  0001 L CNN
-F 1 "100n" H 10550 8100 50  0000 L CNN
+F 1 "0.1uF" H 10550 8100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10550 8050 50  0001 C CNN
-F 3 "~" H 10550 8050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10550 8050 50  0001 C CNN
+F 4 "$0.1" H 10550 8050 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 10550 8050 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 10550 8050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10550 8050 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 10550 8050 50  0001 C CNN "Supplier P/N"
 	1    10550 8050
 	1    0    0    -1  
 $EndComp
@@ -631,9 +654,14 @@ P 11150 8050
 AR Path="/60BB4A14/61BCD333" Ref="C160"  Part="1" 
 AR Path="/60BB4C00/61BCD333" Ref="C78"  Part="1" 
 F 0 "C160" H 11242 8096 50  0001 L CNN
-F 1 "150p" H 11050 8000 50  0000 L CNN
+F 1 "150pF" H 11050 8000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11150 8050 50  0001 C CNN
-F 3 "~" H 11150 8050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11150 8050 50  0001 C CNN
+F 4 "$0.1" H 11150 8050 50  0001 C CNN "Item Cost"
+F 5 "885012206103" H 11150 8050 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 11150 8050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11150 8050 50  0001 C CNN "Supplier "
+F 8 "732-12236-1-ND" H 11150 8050 50  0001 C CNN "Supplier P/N"
 	1    11150 8050
 	1    0    0    -1  
 $EndComp
@@ -644,9 +672,14 @@ P 11250 8250
 AR Path="/60BB4A14/61BCD334" Ref="C163"  Part="1" 
 AR Path="/60BB4C00/61BCD334" Ref="C81"  Part="1" 
 F 0 "C163" H 11342 8296 50  0001 L CNN
-F 1 "150p" H 11150 8200 50  0000 L CNN
+F 1 "150pF" H 11150 8200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11250 8250 50  0001 C CNN
-F 3 "~" H 11250 8250 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11250 8250 50  0001 C CNN
+F 4 "$0.1" H 11250 8250 50  0001 C CNN "Item Cost"
+F 5 "885012206103" H 11250 8250 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 11250 8250 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11250 8250 50  0001 C CNN "Supplier "
+F 8 "732-12236-1-ND" H 11250 8250 50  0001 C CNN "Supplier P/N"
 	1    11250 8250
 	1    0    0    -1  
 $EndComp
@@ -657,9 +690,14 @@ P 11350 8050
 AR Path="/60BB4A14/6119860B" Ref="C164"  Part="1" 
 AR Path="/60BB4C00/6119860B" Ref="C82"  Part="1" 
 F 0 "C164" H 11442 8096 50  0001 L CNN
-F 1 "150p" H 11250 8000 50  0000 L CNN
+F 1 "150pF" H 11250 8000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11350 8050 50  0001 C CNN
-F 3 "~" H 11350 8050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11350 8050 50  0001 C CNN
+F 4 "$0.1" H 11350 8050 50  0001 C CNN "Item Cost"
+F 5 "885012206103" H 11350 8050 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 11350 8050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11350 8050 50  0001 C CNN "Supplier "
+F 8 "732-12236-1-ND" H 11350 8050 50  0001 C CNN "Supplier P/N"
 	1    11350 8050
 	1    0    0    -1  
 $EndComp
@@ -690,9 +728,14 @@ P 11050 8250
 AR Path="/60BB4A14/61BCD34A" Ref="C158"  Part="1" 
 AR Path="/60BB4C00/61BCD34A" Ref="C76"  Part="1" 
 F 0 "C158" H 11142 8296 50  0001 L CNN
-F 1 "150p" H 10950 8200 50  0000 L CNN
+F 1 "150pF" H 10950 8200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11050 8250 50  0001 C CNN
-F 3 "~" H 11050 8250 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11050 8250 50  0001 C CNN
+F 4 "$0.1" H 11050 8250 50  0001 C CNN "Item Cost"
+F 5 "885012206103" H 11050 8250 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 11050 8250 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11050 8250 50  0001 C CNN "Supplier "
+F 8 "732-12236-1-ND" H 11050 8250 50  0001 C CNN "Supplier P/N"
 	1    11050 8250
 	1    0    0    -1  
 $EndComp
@@ -703,9 +746,14 @@ P 10850 8250
 AR Path="/60BB4A14/61BCD335" Ref="C155"  Part="1" 
 AR Path="/60BB4C00/61BCD335" Ref="C73"  Part="1" 
 F 0 "C155" H 10942 8296 50  0001 L CNN
-F 1 "150p" H 10750 8200 50  0000 L CNN
+F 1 "150pF" H 10750 8200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10850 8250 50  0001 C CNN
-F 3 "~" H 10850 8250 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 10850 8250 50  0001 C CNN
+F 4 "$0.1" H 10850 8250 50  0001 C CNN "Item Cost"
+F 5 "885012206103" H 10850 8250 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 10850 8250 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10850 8250 50  0001 C CNN "Supplier "
+F 8 "732-12236-1-ND" H 10850 8250 50  0001 C CNN "Supplier P/N"
 	1    10850 8250
 	1    0    0    -1  
 $EndComp
@@ -721,9 +769,14 @@ P 10950 8050
 AR Path="/60BB4A14/60C983F1" Ref="C157"  Part="1" 
 AR Path="/60BB4C00/60C983F1" Ref="C75"  Part="1" 
 F 0 "C157" H 11042 8096 50  0001 L CNN
-F 1 "150p" H 10850 8000 50  0000 L CNN
+F 1 "150pF" H 10850 8000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10950 8050 50  0001 C CNN
-F 3 "~" H 10950 8050 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 10950 8050 50  0001 C CNN
+F 4 "$0.1" H 10950 8050 50  0001 C CNN "Item Cost"
+F 5 "885012206103" H 10950 8050 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 10950 8050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10950 8050 50  0001 C CNN "Supplier "
+F 8 "732-12236-1-ND" H 10950 8050 50  0001 C CNN "Supplier P/N"
 	1    10950 8050
 	1    0    0    -1  
 $EndComp
@@ -856,9 +909,14 @@ P 750 3650
 AR Path="/60BB4A14/61BCD341" Ref="C96"  Part="1" 
 AR Path="/60BB4C00/61BCD341" Ref="C14"  Part="1" 
 F 0 "C96" H 842 3696 50  0000 L CNN
-F 1 "1u" H 842 3605 50  0000 L CNN
+F 1 "1uF" H 842 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 750 3650 50  0001 C CNN
-F 3 "~" H 750 3650 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012106010.pdf" H 750 3650 50  0001 C CNN
+F 4 "$0.15" H 750 3650 50  0001 C CNN "Item Cost"
+F 5 "885012106010" H 750 3650 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 750 3650 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 750 3650 50  0001 C CNN "Supplier "
+F 8 "732-7907-1-ND" H 750 3650 50  0001 C CNN "Supplier P/N"
 	1    750  3650
 	1    0    0    -1  
 $EndComp
@@ -882,9 +940,14 @@ P 2250 3650
 AR Path="/60BB4A14/61BCD324" Ref="C98"  Part="1" 
 AR Path="/60BB4C00/61BCD324" Ref="C16"  Part="1" 
 F 0 "C98" H 2342 3696 50  0000 L CNN
-F 1 "1u" H 2342 3605 50  0000 L CNN
+F 1 "1uF" H 2342 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2250 3650 50  0001 C CNN
-F 3 "~" H 2250 3650 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012106010.pdf" H 2250 3650 50  0001 C CNN
+F 4 "$0.15" H 2250 3650 50  0001 C CNN "Item Cost"
+F 5 "885012106010" H 2250 3650 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 2250 3650 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2250 3650 50  0001 C CNN "Supplier "
+F 8 "732-7907-1-ND" H 2250 3650 50  0001 C CNN "Supplier P/N"
 	1    2250 3650
 	1    0    0    -1  
 $EndComp
@@ -908,9 +971,14 @@ P 1200 3650
 AR Path="/60BB4A14/61BCD305" Ref="C97"  Part="1" 
 AR Path="/60BB4C00/61BCD305" Ref="C15"  Part="1" 
 F 0 "C97" H 1292 3696 50  0000 L CNN
-F 1 "1u" H 1292 3605 50  0000 L CNN
+F 1 "1uF" H 1292 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1200 3650 50  0001 C CNN
-F 3 "~" H 1200 3650 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012106010.pdf" H 1200 3650 50  0001 C CNN
+F 4 "$0.15" H 1200 3650 50  0001 C CNN "Item Cost"
+F 5 "885012106010" H 1200 3650 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 1200 3650 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 1200 3650 50  0001 C CNN "Supplier "
+F 8 "732-7907-1-ND" H 1200 3650 50  0001 C CNN "Supplier P/N"
 	1    1200 3650
 	1    0    0    -1  
 $EndComp
@@ -947,9 +1015,14 @@ P 12850 10700
 AR Path="/60BB4A14/61BCD336" Ref="C168"  Part="1" 
 AR Path="/60BB4C00/61BCD336" Ref="C86"  Part="1" 
 F 0 "C168" H 12942 10746 50  0000 L CNN
-F 1 "10u" H 12942 10655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12850 10700 50  0001 C CNN
-F 3 "~" H 12850 10700 50  0001 C CNN
+F 1 "10uF" H 12942 10655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12850 10700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 12850 10700 50  0001 C CNN
+F 4 "$0.18" H 12850 10700 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 12850 10700 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 12850 10700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 12850 10700 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 12850 10700 50  0001 C CNN "Supplier P/N"
 	1    12850 10700
 	1    0    0    -1  
 $EndComp
@@ -1043,9 +1116,14 @@ P 12650 9250
 AR Path="/60BB4A14/60C983B0" Ref="C167"  Part="1" 
 AR Path="/60BB4C00/60C983B0" Ref="C85"  Part="1" 
 F 0 "C167" H 12742 9296 50  0000 L CNN
-F 1 "10u" H 12742 9205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12650 9250 50  0001 C CNN
-F 3 "~" H 12650 9250 50  0001 C CNN
+F 1 "10uF" H 12742 9205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12650 9250 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 12650 9250 50  0001 C CNN
+F 4 "$0.18" H 12650 9250 50  0001 C CNN "Item Cost"
+F 5 "885012107010" H 12650 9250 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 12650 9250 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 12650 9250 50  0001 C CNN "Supplier "
+F 8 "732-7620-1-ND" H 12650 9250 50  0001 C CNN "Supplier P/N"
 	1    12650 9250
 	-1   0    0    -1  
 $EndComp
@@ -1481,9 +1559,14 @@ P 6500 6750
 AR Path="/60BB4A14/60C9838B" Ref="C116"  Part="1" 
 AR Path="/60BB4C00/60C9838B" Ref="C34"  Part="1" 
 F 0 "C116" H 6550 6800 39  0001 L CNN
-F 1 "100n" H 6450 6800 39  0000 L CNN
+F 1 "0.1uF" H 6450 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6500 6750 50  0001 C CNN
-F 3 "~" H 6500 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6500 6750 50  0001 C CNN
+F 4 "$0.1" H 6500 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6500 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6500 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6500 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6500 6750 50  0001 C CNN "Supplier P/N"
 	1    6500 6750
 	-1   0    0    1   
 $EndComp
@@ -1507,9 +1590,14 @@ P 6650 6750
 AR Path="/60BB4A14/61BCD35E" Ref="C118"  Part="1" 
 AR Path="/60BB4C00/61BCD35E" Ref="C36"  Part="1" 
 F 0 "C118" H 6700 6800 39  0001 L CNN
-F 1 "100n" H 6600 6800 39  0000 L CNN
+F 1 "0.1uF" H 6600 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6650 6750 50  0001 C CNN
-F 3 "~" H 6650 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6650 6750 50  0001 C CNN
+F 4 "$0.1" H 6650 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6650 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6650 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6650 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6650 6750 50  0001 C CNN "Supplier P/N"
 	1    6650 6750
 	-1   0    0    1   
 $EndComp
@@ -1533,9 +1621,14 @@ P 6800 6750
 AR Path="/60BB4A14/61BCD30B" Ref="C120"  Part="1" 
 AR Path="/60BB4C00/61BCD30B" Ref="C38"  Part="1" 
 F 0 "C120" H 6850 6800 39  0001 L CNN
-F 1 "100n" H 6750 6800 39  0000 L CNN
+F 1 "0.1uF" H 6750 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6800 6750 50  0001 C CNN
-F 3 "~" H 6800 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6800 6750 50  0001 C CNN
+F 4 "$0.1" H 6800 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6800 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6800 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6800 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6800 6750 50  0001 C CNN "Supplier P/N"
 	1    6800 6750
 	-1   0    0    1   
 $EndComp
@@ -1559,9 +1652,14 @@ P 6950 6750
 AR Path="/60BB4A14/60C98371" Ref="C122"  Part="1" 
 AR Path="/60BB4C00/60C98371" Ref="C40"  Part="1" 
 F 0 "C122" H 7000 6800 39  0001 L CNN
-F 1 "100n" H 6900 6800 39  0000 L CNN
+F 1 "0.1uF" H 6900 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6950 6750 50  0001 C CNN
-F 3 "~" H 6950 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6950 6750 50  0001 C CNN
+F 4 "$0.1" H 6950 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6950 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6950 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6950 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6950 6750 50  0001 C CNN "Supplier P/N"
 	1    6950 6750
 	-1   0    0    1   
 $EndComp
@@ -1585,9 +1683,14 @@ P 7100 6750
 AR Path="/60BB4A14/60C98370" Ref="C124"  Part="1" 
 AR Path="/60BB4C00/60C98370" Ref="C42"  Part="1" 
 F 0 "C124" H 7150 6800 39  0001 L CNN
-F 1 "100n" H 7050 6800 39  0000 L CNN
+F 1 "0.1uF" H 7050 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 6750 50  0001 C CNN
-F 3 "~" H 7100 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7100 6750 50  0001 C CNN
+F 4 "$0.1" H 7100 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7100 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7100 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7100 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7100 6750 50  0001 C CNN "Supplier P/N"
 	1    7100 6750
 	-1   0    0    1   
 $EndComp
@@ -1611,9 +1714,14 @@ P 7250 6750
 AR Path="/60BB4A14/6105F0DE" Ref="C126"  Part="1" 
 AR Path="/60BB4C00/6105F0DE" Ref="C44"  Part="1" 
 F 0 "C126" H 7300 6800 39  0001 L CNN
-F 1 "100n" H 7200 6800 39  0000 L CNN
+F 1 "0.1uF" H 7200 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7250 6750 50  0001 C CNN
-F 3 "~" H 7250 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7250 6750 50  0001 C CNN
+F 4 "$0.1" H 7250 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7250 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7250 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7250 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7250 6750 50  0001 C CNN "Supplier P/N"
 	1    7250 6750
 	-1   0    0    1   
 $EndComp
@@ -1637,9 +1745,14 @@ P 7400 6750
 AR Path="/60BB4A14/61BCD351" Ref="C128"  Part="1" 
 AR Path="/60BB4C00/61BCD351" Ref="C46"  Part="1" 
 F 0 "C128" H 7450 6800 39  0001 L CNN
-F 1 "100n" H 7350 6800 39  0000 L CNN
+F 1 "0.1uF" H 7350 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 6750 50  0001 C CNN
-F 3 "~" H 7400 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7400 6750 50  0001 C CNN
+F 4 "$0.1" H 7400 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7400 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7400 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7400 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7400 6750 50  0001 C CNN "Supplier P/N"
 	1    7400 6750
 	-1   0    0    1   
 $EndComp
@@ -1663,9 +1776,14 @@ P 7550 6750
 AR Path="/60BB4A14/6119861C" Ref="C130"  Part="1" 
 AR Path="/60BB4C00/6119861C" Ref="C48"  Part="1" 
 F 0 "C130" H 7600 6800 39  0001 L CNN
-F 1 "100n" H 7500 6800 39  0000 L CNN
+F 1 "0.1uF" H 7500 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7550 6750 50  0001 C CNN
-F 3 "~" H 7550 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7550 6750 50  0001 C CNN
+F 4 "$0.1" H 7550 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7550 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7550 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7550 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7550 6750 50  0001 C CNN "Supplier P/N"
 	1    7550 6750
 	-1   0    0    1   
 $EndComp
@@ -1689,9 +1807,14 @@ P 7700 6750
 AR Path="/60BB4A14/61BCD309" Ref="C132"  Part="1" 
 AR Path="/60BB4C00/61BCD309" Ref="C50"  Part="1" 
 F 0 "C132" H 7750 6800 39  0001 L CNN
-F 1 "100n" H 7650 6800 39  0000 L CNN
+F 1 "0.1uF" H 7650 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7700 6750 50  0001 C CNN
-F 3 "~" H 7700 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7700 6750 50  0001 C CNN
+F 4 "$0.1" H 7700 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7700 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7700 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7700 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7700 6750 50  0001 C CNN "Supplier P/N"
 	1    7700 6750
 	-1   0    0    1   
 $EndComp
@@ -1715,9 +1838,14 @@ P 7850 6750
 AR Path="/60BB4A14/61BCD348" Ref="C134"  Part="1" 
 AR Path="/60BB4C00/61BCD348" Ref="C52"  Part="1" 
 F 0 "C134" H 7900 6800 39  0001 L CNN
-F 1 "100n" H 7800 6800 39  0000 L CNN
+F 1 "0.1uF" H 7800 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7850 6750 50  0001 C CNN
-F 3 "~" H 7850 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7850 6750 50  0001 C CNN
+F 4 "$0.1" H 7850 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7850 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7850 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7850 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7850 6750 50  0001 C CNN "Supplier P/N"
 	1    7850 6750
 	-1   0    0    1   
 $EndComp
@@ -1741,9 +1869,14 @@ P 8750 6750
 AR Path="/60BB4A14/610892B1" Ref="C146"  Part="1" 
 AR Path="/60BB4C00/610892B1" Ref="C64"  Part="1" 
 F 0 "C146" H 8800 6800 39  0001 L CNN
-F 1 "100n" H 8700 6800 39  0000 L CNN
+F 1 "0.1uF" H 8700 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8750 6750 50  0001 C CNN
-F 3 "~" H 8750 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8750 6750 50  0001 C CNN
+F 4 "$0.1" H 8750 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8750 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8750 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8750 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8750 6750 50  0001 C CNN "Supplier P/N"
 	1    8750 6750
 	-1   0    0    1   
 $EndComp
@@ -1754,9 +1887,14 @@ P 8600 6750
 AR Path="/60BB4A14/61BCD327" Ref="C144"  Part="1" 
 AR Path="/60BB4C00/61BCD327" Ref="C62"  Part="1" 
 F 0 "C144" H 8650 6800 39  0001 L CNN
-F 1 "100n" H 8550 6800 39  0000 L CNN
+F 1 "0.1uF" H 8550 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8600 6750 50  0001 C CNN
-F 3 "~" H 8600 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8600 6750 50  0001 C CNN
+F 4 "$0.1" H 8600 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8600 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8600 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8600 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8600 6750 50  0001 C CNN "Supplier P/N"
 	1    8600 6750
 	-1   0    0    1   
 $EndComp
@@ -1767,9 +1905,14 @@ P 8450 6750
 AR Path="/60BB4A14/61BCD328" Ref="C142"  Part="1" 
 AR Path="/60BB4C00/61BCD328" Ref="C60"  Part="1" 
 F 0 "C142" H 8500 6800 39  0001 L CNN
-F 1 "100n" H 8400 6800 39  0000 L CNN
+F 1 "0.1uF" H 8400 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8450 6750 50  0001 C CNN
-F 3 "~" H 8450 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8450 6750 50  0001 C CNN
+F 4 "$0.1" H 8450 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8450 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8450 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8450 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8450 6750 50  0001 C CNN "Supplier P/N"
 	1    8450 6750
 	-1   0    0    1   
 $EndComp
@@ -1780,9 +1923,14 @@ P 8300 6750
 AR Path="/60BB4A14/61BCD33E" Ref="C140"  Part="1" 
 AR Path="/60BB4C00/61BCD33E" Ref="C58"  Part="1" 
 F 0 "C140" H 8350 6800 39  0001 L CNN
-F 1 "100n" H 8250 6800 39  0000 L CNN
+F 1 "0.1uF" H 8250 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8300 6750 50  0001 C CNN
-F 3 "~" H 8300 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8300 6750 50  0001 C CNN
+F 4 "$0.1" H 8300 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8300 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8300 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8300 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8300 6750 50  0001 C CNN "Supplier P/N"
 	1    8300 6750
 	-1   0    0    1   
 $EndComp
@@ -1793,9 +1941,14 @@ P 8150 6750
 AR Path="/60BB4A14/61BCD31C" Ref="C138"  Part="1" 
 AR Path="/60BB4C00/61BCD31C" Ref="C56"  Part="1" 
 F 0 "C138" H 8200 6800 39  0001 L CNN
-F 1 "100n" H 8100 6800 39  0000 L CNN
+F 1 "0.1uF" H 8100 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8150 6750 50  0001 C CNN
-F 3 "~" H 8150 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8150 6750 50  0001 C CNN
+F 4 "$0.1" H 8150 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8150 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8150 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8150 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8150 6750 50  0001 C CNN "Supplier P/N"
 	1    8150 6750
 	-1   0    0    1   
 $EndComp
@@ -1806,9 +1959,14 @@ P 8000 6750
 AR Path="/60BB4A14/60C983A7" Ref="C136"  Part="1" 
 AR Path="/60BB4C00/60C983A7" Ref="C54"  Part="1" 
 F 0 "C136" H 8050 6800 39  0001 L CNN
-F 1 "100n" H 7950 6800 39  0000 L CNN
+F 1 "0.1uF" H 7950 6800 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8000 6750 50  0001 C CNN
-F 3 "~" H 8000 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8000 6750 50  0001 C CNN
+F 4 "$0.1" H 8000 6750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8000 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8000 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8000 6750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8000 6750 50  0001 C CNN "Supplier P/N"
 	1    8000 6750
 	-1   0    0    1   
 $EndComp
@@ -1897,9 +2055,14 @@ P 8650 10850
 AR Path="/60BB4A14/61BCD2FE" Ref="C145"  Part="1" 
 AR Path="/60BB4C00/61BCD2FE" Ref="C63"  Part="1" 
 F 0 "C145" H 8700 10900 39  0001 L CNN
-F 1 "100n" H 8600 10900 39  0000 L CNN
+F 1 "0.1uF" H 8600 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8650 10850 50  0001 C CNN
-F 3 "~" H 8650 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8650 10850 50  0001 C CNN
+F 4 "$0.1" H 8650 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8650 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8650 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8650 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8650 10850 50  0001 C CNN "Supplier P/N"
 	1    8650 10850
 	1    0    0    -1  
 $EndComp
@@ -1910,9 +2073,14 @@ P 8500 10850
 AR Path="/60BB4A14/60C983C2" Ref="C143"  Part="1" 
 AR Path="/60BB4C00/60C983C2" Ref="C61"  Part="1" 
 F 0 "C143" H 8550 10900 39  0001 L CNN
-F 1 "100n" H 8450 10900 39  0000 L CNN
+F 1 "0.1uF" H 8450 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8500 10850 50  0001 C CNN
-F 3 "~" H 8500 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8500 10850 50  0001 C CNN
+F 4 "$0.1" H 8500 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8500 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8500 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8500 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8500 10850 50  0001 C CNN "Supplier P/N"
 	1    8500 10850
 	1    0    0    -1  
 $EndComp
@@ -1936,9 +2104,14 @@ P 8350 10850
 AR Path="/60BB4A14/61BCD326" Ref="C141"  Part="1" 
 AR Path="/60BB4C00/61BCD326" Ref="C59"  Part="1" 
 F 0 "C141" H 8400 10900 39  0001 L CNN
-F 1 "100n" H 8300 10900 39  0000 L CNN
+F 1 "0.1uF" H 8300 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8350 10850 50  0001 C CNN
-F 3 "~" H 8350 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8350 10850 50  0001 C CNN
+F 4 "$0.1" H 8350 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8350 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8350 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8350 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8350 10850 50  0001 C CNN "Supplier P/N"
 	1    8350 10850
 	1    0    0    -1  
 $EndComp
@@ -1962,9 +2135,14 @@ P 8200 10850
 AR Path="/60BB4A14/60C98389" Ref="C139"  Part="1" 
 AR Path="/60BB4C00/60C98389" Ref="C57"  Part="1" 
 F 0 "C139" H 8250 10900 39  0001 L CNN
-F 1 "100n" H 8150 10900 39  0000 L CNN
+F 1 "0.1uF" H 8150 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8200 10850 50  0001 C CNN
-F 3 "~" H 8200 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8200 10850 50  0001 C CNN
+F 4 "$0.1" H 8200 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8200 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8200 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8200 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8200 10850 50  0001 C CNN "Supplier P/N"
 	1    8200 10850
 	1    0    0    -1  
 $EndComp
@@ -1988,9 +2166,14 @@ P 8050 10850
 AR Path="/60BB4A14/61BCD32A" Ref="C137"  Part="1" 
 AR Path="/60BB4C00/61BCD32A" Ref="C55"  Part="1" 
 F 0 "C137" H 8100 10900 39  0001 L CNN
-F 1 "100n" H 8000 10900 39  0000 L CNN
+F 1 "0.1uF" H 8000 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8050 10850 50  0001 C CNN
-F 3 "~" H 8050 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 8050 10850 50  0001 C CNN
+F 4 "$0.1" H 8050 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 8050 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 8050 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8050 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 8050 10850 50  0001 C CNN "Supplier P/N"
 	1    8050 10850
 	1    0    0    -1  
 $EndComp
@@ -2014,9 +2197,14 @@ P 7900 10850
 AR Path="/60BB4A14/61BCD2D8" Ref="C135"  Part="1" 
 AR Path="/60BB4C00/61BCD2D8" Ref="C53"  Part="1" 
 F 0 "C135" H 7950 10900 39  0001 L CNN
-F 1 "100n" H 7850 10900 39  0000 L CNN
+F 1 "0.1uF" H 7850 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7900 10850 50  0001 C CNN
-F 3 "~" H 7900 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7900 10850 50  0001 C CNN
+F 4 "$0.1" H 7900 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7900 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7900 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7900 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7900 10850 50  0001 C CNN "Supplier P/N"
 	1    7900 10850
 	1    0    0    -1  
 $EndComp
@@ -2040,9 +2228,14 @@ P 7750 10850
 AR Path="/60BB4A14/61BCD34E" Ref="C133"  Part="1" 
 AR Path="/60BB4C00/61BCD34E" Ref="C51"  Part="1" 
 F 0 "C133" H 7800 10900 39  0001 L CNN
-F 1 "100n" H 7700 10900 39  0000 L CNN
+F 1 "0.1uF" H 7700 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7750 10850 50  0001 C CNN
-F 3 "~" H 7750 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7750 10850 50  0001 C CNN
+F 4 "$0.1" H 7750 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7750 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7750 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7750 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7750 10850 50  0001 C CNN "Supplier P/N"
 	1    7750 10850
 	1    0    0    -1  
 $EndComp
@@ -2066,9 +2259,14 @@ P 7600 10850
 AR Path="/60BB4A14/60C9839C" Ref="C131"  Part="1" 
 AR Path="/60BB4C00/60C9839C" Ref="C49"  Part="1" 
 F 0 "C131" H 7650 10900 39  0001 L CNN
-F 1 "100n" H 7550 10900 39  0000 L CNN
+F 1 "0.1uF" H 7550 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7600 10850 50  0001 C CNN
-F 3 "~" H 7600 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7600 10850 50  0001 C CNN
+F 4 "$0.1" H 7600 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7600 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7600 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7600 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7600 10850 50  0001 C CNN "Supplier P/N"
 	1    7600 10850
 	1    0    0    -1  
 $EndComp
@@ -2092,9 +2290,14 @@ P 7450 10850
 AR Path="/60BB4A14/61BCD2ED" Ref="C129"  Part="1" 
 AR Path="/60BB4C00/61BCD2ED" Ref="C47"  Part="1" 
 F 0 "C129" H 7500 10900 39  0001 L CNN
-F 1 "100n" H 7400 10900 39  0000 L CNN
+F 1 "0.1uF" H 7400 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7450 10850 50  0001 C CNN
-F 3 "~" H 7450 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7450 10850 50  0001 C CNN
+F 4 "$0.1" H 7450 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7450 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7450 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7450 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7450 10850 50  0001 C CNN "Supplier P/N"
 	1    7450 10850
 	1    0    0    -1  
 $EndComp
@@ -2118,9 +2321,14 @@ P 7300 10850
 AR Path="/60BB4A14/60C983D2" Ref="C127"  Part="1" 
 AR Path="/60BB4C00/60C983D2" Ref="C45"  Part="1" 
 F 0 "C127" H 7350 10900 39  0001 L CNN
-F 1 "100n" H 7250 10900 39  0000 L CNN
+F 1 "0.1uF" H 7250 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7300 10850 50  0001 C CNN
-F 3 "~" H 7300 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7300 10850 50  0001 C CNN
+F 4 "$0.1" H 7300 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7300 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7300 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7300 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7300 10850 50  0001 C CNN "Supplier P/N"
 	1    7300 10850
 	1    0    0    -1  
 $EndComp
@@ -2144,9 +2352,14 @@ P 7150 10850
 AR Path="/60BB4A14/60C983D1" Ref="C125"  Part="1" 
 AR Path="/60BB4C00/60C983D1" Ref="C43"  Part="1" 
 F 0 "C125" H 7200 10900 39  0001 L CNN
-F 1 "100n" H 7100 10900 39  0000 L CNN
+F 1 "0.1uF" H 7100 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7150 10850 50  0001 C CNN
-F 3 "~" H 7150 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7150 10850 50  0001 C CNN
+F 4 "$0.1" H 7150 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7150 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7150 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7150 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7150 10850 50  0001 C CNN "Supplier P/N"
 	1    7150 10850
 	1    0    0    -1  
 $EndComp
@@ -2170,9 +2383,14 @@ P 7000 10850
 AR Path="/60BB4A14/61BCD32F" Ref="C123"  Part="1" 
 AR Path="/60BB4C00/61BCD32F" Ref="C41"  Part="1" 
 F 0 "C123" H 7050 10900 39  0001 L CNN
-F 1 "100n" H 6950 10900 39  0000 L CNN
+F 1 "0.1uF" H 6950 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7000 10850 50  0001 C CNN
-F 3 "~" H 7000 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 7000 10850 50  0001 C CNN
+F 4 "$0.1" H 7000 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 7000 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 7000 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7000 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 7000 10850 50  0001 C CNN "Supplier P/N"
 	1    7000 10850
 	1    0    0    -1  
 $EndComp
@@ -2196,9 +2414,14 @@ P 6850 10850
 AR Path="/60BB4A14/61BCD344" Ref="C121"  Part="1" 
 AR Path="/60BB4C00/61BCD344" Ref="C39"  Part="1" 
 F 0 "C121" H 6900 10900 39  0001 L CNN
-F 1 "100n" H 6800 10900 39  0000 L CNN
+F 1 "0.1uF" H 6800 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6850 10850 50  0001 C CNN
-F 3 "~" H 6850 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6850 10850 50  0001 C CNN
+F 4 "$0.1" H 6850 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6850 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6850 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6850 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6850 10850 50  0001 C CNN "Supplier P/N"
 	1    6850 10850
 	1    0    0    -1  
 $EndComp
@@ -2222,9 +2445,14 @@ P 6700 10850
 AR Path="/60BB4A14/61BCD31B" Ref="C119"  Part="1" 
 AR Path="/60BB4C00/61BCD31B" Ref="C37"  Part="1" 
 F 0 "C119" H 6750 10900 39  0001 L CNN
-F 1 "100n" H 6650 10900 39  0000 L CNN
+F 1 "0.1uF" H 6650 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 10850 50  0001 C CNN
-F 3 "~" H 6700 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6700 10850 50  0001 C CNN
+F 4 "$0.1" H 6700 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6700 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6700 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6700 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6700 10850 50  0001 C CNN "Supplier P/N"
 	1    6700 10850
 	1    0    0    -1  
 $EndComp
@@ -2248,9 +2476,14 @@ P 6550 10850
 AR Path="/60BB4A14/61BCD2FB" Ref="C117"  Part="1" 
 AR Path="/60BB4C00/61BCD2FB" Ref="C35"  Part="1" 
 F 0 "C117" H 6600 10900 39  0001 L CNN
-F 1 "100n" H 6500 10900 39  0000 L CNN
+F 1 "0.1uF" H 6500 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6550 10850 50  0001 C CNN
-F 3 "~" H 6550 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6550 10850 50  0001 C CNN
+F 4 "$0.1" H 6550 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6550 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6550 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6550 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6550 10850 50  0001 C CNN "Supplier P/N"
 	1    6550 10850
 	1    0    0    -1  
 $EndComp
@@ -2274,9 +2507,14 @@ P 6400 10850
 AR Path="/60BB4A14/6119861F" Ref="C115"  Part="1" 
 AR Path="/60BB4C00/6119861F" Ref="C33"  Part="1" 
 F 0 "C115" H 6450 10900 39  0001 L CNN
-F 1 "100n" H 6350 10900 39  0000 L CNN
+F 1 "0.1uF" H 6350 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6400 10850 50  0001 C CNN
-F 3 "~" H 6400 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6400 10850 50  0001 C CNN
+F 4 "$0.1" H 6400 10850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6400 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6400 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6400 10850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6400 10850 50  0001 C CNN "Supplier P/N"
 	1    6400 10850
 	1    0    0    -1  
 $EndComp
@@ -2344,7 +2582,7 @@ AR Path="/60BB4A14/61BCD2E1" Ref="TP24"  Part="1"
 AR Path="/60BB4C00/61BCD2E1" Ref="TP12"  Part="1" 
 F 0 "TP24" H 13950 1245 50  0000 C CNN
 F 1 "probe" H 13950 1154 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x23_P2.54mm_Vertical_SMD_Pin1Left" H 13950 1050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 13950 1050 50  0001 C CNN
 F 3 "~" H 13950 1050 50  0001 C CNN
 	1    13950 1050
 	1    0    0    -1  
@@ -2694,9 +2932,14 @@ AR Path="/607ECAFE/60DD8736" Ref="C?"  Part="1"
 AR Path="/60BB4C00/60DD8736" Ref="C17"  Part="1" 
 AR Path="/60BB4A14/60DD8736" Ref="C99"  Part="1" 
 F 0 "C99" H 3850 950 50  0000 L CNN
-F 1 "100n" H 3800 850 50  0000 L CNN
+F 1 "0.1uF" H 3800 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 900 50  0001 C CNN
-F 3 "~" H 4050 900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 4050 900 50  0001 C CNN
+F 4 "$0.1" H 4050 900 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 4050 900 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 4050 900 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4050 900 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 4050 900 50  0001 C CNN "Supplier P/N"
 	1    4050 900 
 	1    0    0    -1  
 $EndComp
@@ -2708,9 +2951,14 @@ AR Path="/607ECAFE/61BCD319" Ref="C?"  Part="1"
 AR Path="/60BB4C00/61BCD319" Ref="C18"  Part="1" 
 AR Path="/60BB4A14/61BCD319" Ref="C100"  Part="1" 
 F 0 "C100" H 4050 950 50  0000 L CNN
-F 1 "100n" H 4000 850 50  0000 L CNN
+F 1 "0.1uF" H 4000 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4250 900 50  0001 C CNN
-F 3 "~" H 4250 900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 4250 900 50  0001 C CNN
+F 4 "$0.1" H 4250 900 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 4250 900 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 4250 900 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4250 900 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 4250 900 50  0001 C CNN "Supplier P/N"
 	1    4250 900 
 	-1   0    0    -1  
 $EndComp
@@ -2814,7 +3062,7 @@ AR Path="/60BB4A14/61D5656A" Ref="U22"  Part="1"
 AR Path="/60BB4C00/61D5656A" Ref="U14"  Part="1" 
 F 0 "U22" H 15550 4625 50  0000 C CNN
 F 1 "NLSV4T244E" H 15550 4534 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 15550 4150 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 15550 4150 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nlsv4t244e-d.pdf" H 15550 4150 50  0001 C CNN
 F 4 "$1.97" H 15550 4150 50  0001 C CNN "Item Cost"
 F 5 "ON Semiconductors" H 15550 4150 50  0001 C CNN "Manufacturer"
@@ -2959,7 +3207,7 @@ AR Path="/60BB4A14/62102F64" Ref="U17"  Part="1"
 AR Path="/60BB4C00/62102F64" Ref="U9"  Part="1" 
 F 0 "U17" H 10500 3950 50  0000 C CNN
 F 1 "NLSV8T244" H 10500 3850 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 10500 3300 50  0001 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 10500 3300 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nlsv8t244-d.pdf" H 10500 3300 50  0001 C CNN
 F 4 "$1.52" H 10500 3300 50  0001 C CNN "Item Cost"
 F 5 "NLSV8T244DTR2G" H 10500 3300 50  0001 C CNN "MFN"
@@ -3002,7 +3250,7 @@ AR Path="/60BB4A14/629D2A0A" Ref="U18"  Part="1"
 AR Path="/60BB4C00/629D2A0A" Ref="U10"  Part="1" 
 F 0 "U18" H 10500 5475 50  0000 C CNN
 F 1 "NLSV8T244" H 10500 5384 50  0000 C CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 10500 4800 50  0001 C CNN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 10500 4800 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nlsv8t244-d.pdf" H 10500 4800 50  0001 C CNN
 F 4 "$1.52" H 10500 4800 50  0001 C CNN "Item Cost"
 F 5 "NLSV8T244DTR2G" H 10500 4800 50  0001 C CNN "MFN"
@@ -3186,7 +3434,12 @@ AR Path="/60BB4A14/6113E8CE" Ref="C169"  Part="1"
 F 0 "C169" H 14142 8746 50  0000 L CNN
 F 1 "0.1uF" H 14142 8655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14050 8700 50  0001 C CNN
-F 3 "~" H 14050 8700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 14050 8700 50  0001 C CNN
+F 4 "$0.1" H 14050 8700 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 14050 8700 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 14050 8700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 14050 8700 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 14050 8700 50  0001 C CNN "Supplier P/N"
 	1    14050 8700
 	0    -1   -1   0   
 $EndComp
@@ -3218,7 +3471,12 @@ AR Path="/60BB4A14/611CBAD7" Ref="C162"  Part="1"
 F 0 "C162" H 11292 4396 50  0000 L CNN
 F 1 "0.1uF" H 11292 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 4350 50  0001 C CNN
-F 3 "~" H 11200 4350 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 11200 4350 50  0001 C CNN
+F 4 "$0.1" H 11200 4350 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 11200 4350 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 11200 4350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11200 4350 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 11200 4350 50  0001 C CNN "Supplier P/N"
 	1    11200 4350
 	0    -1   -1   0   
 $EndComp
@@ -3250,7 +3508,12 @@ AR Path="/60BB4A14/6124B075" Ref="C161"  Part="1"
 F 0 "C161" V 11300 2750 50  0000 L CNN
 F 1 "0.1uF" V 11250 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 2850 50  0001 C CNN
-F 3 "~" H 11200 2850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 11200 2850 50  0001 C CNN
+F 4 "$0.1" H 11200 2850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 11200 2850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 11200 2850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11200 2850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 11200 2850 50  0001 C CNN "Supplier P/N"
 	1    11200 2850
 	0    -1   -1   0   
 $EndComp
@@ -3282,7 +3545,12 @@ AR Path="/60BB4A14/615A9353" Ref="C151"  Part="1"
 F 0 "C151" H 9892 4396 50  0000 L CNN
 F 1 "0.1uF" H 9892 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9800 4350 50  0001 C CNN
-F 3 "~" H 9800 4350 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9800 4350 50  0001 C CNN
+F 4 "$0.1" H 9800 4350 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 9800 4350 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 9800 4350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9800 4350 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 9800 4350 50  0001 C CNN "Supplier P/N"
 	1    9800 4350
 	0    1    -1   0   
 $EndComp
@@ -3314,7 +3582,12 @@ AR Path="/60BB4A14/6162B78B" Ref="C150"  Part="1"
 F 0 "C150" V 9750 2900 50  0000 L CNN
 F 1 "0.1uF" V 9900 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9800 2850 50  0001 C CNN
-F 3 "~" H 9800 2850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9800 2850 50  0001 C CNN
+F 4 "$0.1" H 9800 2850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 9800 2850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 9800 2850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9800 2850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 9800 2850 50  0001 C CNN "Supplier P/N"
 	1    9800 2850
 	0    1    -1   0   
 $EndComp
@@ -3348,7 +3621,12 @@ AR Path="/60BB4A14/616B06C2" Ref="C152"  Part="1"
 F 0 "C152" V 10200 2550 50  0000 L CNN
 F 1 "0.1uF" V 10000 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10100 2600 50  0001 C CNN
-F 3 "~" H 10100 2600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10100 2600 50  0001 C CNN
+F 4 "$0.1" H 10100 2600 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 10100 2600 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 10100 2600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10100 2600 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 10100 2600 50  0001 C CNN "Supplier P/N"
 	1    10100 2600
 	0    -1   -1   0   
 $EndComp
@@ -3374,7 +3652,12 @@ AR Path="/60BB4A14/60DE0182" Ref="C166"  Part="1"
 F 0 "C166" H 12642 6946 50  0000 L CNN
 F 1 "0.1uF" H 12642 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12550 6900 50  0001 C CNN
-F 3 "~" H 12550 6900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 12550 6900 50  0001 C CNN
+F 4 "$0.1" H 12550 6900 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 12550 6900 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 12550 6900 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 12550 6900 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 12550 6900 50  0001 C CNN "Supplier P/N"
 	1    12550 6900
 	0    -1   -1   0   
 $EndComp
@@ -3409,7 +3692,12 @@ AR Path="/60BB4A14/60E8572A" Ref="C165"  Part="1"
 F 0 "C165" H 11842 6946 50  0000 L CNN
 F 1 "0.1uF" H 11842 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11750 6900 50  0001 C CNN
-F 3 "~" H 11750 6900 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 11750 6900 50  0001 C CNN
+F 4 "$0.1" H 11750 6900 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 11750 6900 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 11750 6900 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11750 6900 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 11750 6900 50  0001 C CNN "Supplier P/N"
 	1    11750 6900
 	0    1    -1   0   
 $EndComp
@@ -3498,7 +3786,12 @@ AR Path="/60BB4A14/61E68820" Ref="C159"  Part="1"
 F 0 "C159" H 11000 2550 50  0000 L CNN
 F 1 "0.1uF" H 10950 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11100 2500 50  0001 C CNN
-F 3 "~" H 11100 2500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 11100 2500 50  0001 C CNN
+F 4 "$0.1" H 11100 2500 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 11100 2500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 11100 2500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11100 2500 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 11100 2500 50  0001 C CNN "Supplier P/N"
 	1    11100 2500
 	-1   0    0    1   
 $EndComp
@@ -3548,7 +3841,12 @@ AR Path="/60BB4A14/614B84D1" Ref="C101"  Part="1"
 F 0 "C101" V 5150 1400 50  0000 L CNN
 F 1 "0.1uF" V 5050 1350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 1350 50  0001 C CNN
-F 3 "~" H 5100 1350 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 1350 50  0001 C CNN
+F 4 "$0.1" H 5100 1350 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 1350 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 1350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 1350 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 1350 50  0001 C CNN "Supplier P/N"
 	1    5100 1350
 	0    -1   -1   0   
 $EndComp
@@ -3580,7 +3878,12 @@ AR Path="/60BB4A14/615508B2" Ref="C112"  Part="1"
 F 0 "C112" V 5300 1450 50  0000 L CNN
 F 1 "0.1uF" V 5200 1350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 1450 50  0001 C CNN
-F 3 "~" H 5250 1450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5250 1450 50  0001 C CNN
+F 4 "$0.1" H 5250 1450 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5250 1450 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5250 1450 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5250 1450 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5250 1450 50  0001 C CNN "Supplier P/N"
 	1    5250 1450
 	0    -1   -1   0   
 $EndComp
@@ -3612,7 +3915,12 @@ AR Path="/60BB4A14/615DC67C" Ref="C102"  Part="1"
 F 0 "C102" V 5150 1600 50  0000 L CNN
 F 1 "0.1uF" V 5050 1500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 1550 50  0001 C CNN
-F 3 "~" H 5100 1550 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 1550 50  0001 C CNN
+F 4 "$0.1" H 5100 1550 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 1550 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 1550 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 1550 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 1550 50  0001 C CNN "Supplier P/N"
 	1    5100 1550
 	0    -1   -1   0   
 $EndComp
@@ -3630,7 +3938,12 @@ AR Path="/60BB4A14/615DC692" Ref="C113"  Part="1"
 F 0 "C113" V 5200 1500 50  0000 L CNN
 F 1 "0.1uF" V 5150 1550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 1650 50  0001 C CNN
-F 3 "~" H 5250 1650 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5250 1650 50  0001 C CNN
+F 4 "$0.1" H 5250 1650 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5250 1650 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5250 1650 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5250 1650 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5250 1650 50  0001 C CNN "Supplier P/N"
 	1    5250 1650
 	0    -1   -1   0   
 $EndComp
@@ -3676,7 +3989,12 @@ AR Path="/60BB4A14/6181504B" Ref="C103"  Part="1"
 F 0 "C103" H 5192 2396 50  0000 L CNN
 F 1 "0.1uF" H 5192 2305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 2350 50  0001 C CNN
-F 3 "~" H 5100 2350 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 2350 50  0001 C CNN
+F 4 "$0.1" H 5100 2350 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 2350 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 2350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 2350 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 2350 50  0001 C CNN "Supplier P/N"
 	1    5100 2350
 	0    -1   -1   0   
 $EndComp
@@ -3708,7 +4026,12 @@ AR Path="/60BB4A14/618AA82A" Ref="C114"  Part="1"
 F 0 "C114" V 5400 2900 50  0000 L CNN
 F 1 "0.1uF" V 5250 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 2850 50  0001 C CNN
-F 3 "~" H 5350 2850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5350 2850 50  0001 C CNN
+F 4 "$0.1" H 5350 2850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5350 2850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5350 2850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5350 2850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5350 2850 50  0001 C CNN "Supplier P/N"
 	1    5350 2850
 	0    -1   -1   0   
 $EndComp
@@ -3741,7 +4064,12 @@ AR Path="/60BB4A14/6193B029" Ref="C104"  Part="1"
 F 0 "C104" V 5050 3450 50  0000 L CNN
 F 1 "0.1uF" V 4950 3300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 3400 50  0001 C CNN
-F 3 "~" H 5100 3400 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 3400 50  0001 C CNN
+F 4 "$0.1" H 5100 3400 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 3400 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 3400 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 3400 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 3400 50  0001 C CNN "Supplier P/N"
 	1    5100 3400
 	0    -1   -1   0   
 $EndComp
@@ -3773,7 +4101,12 @@ AR Path="/60BB4A14/619D2DEA" Ref="C105"  Part="1"
 F 0 "C105" V 5050 3800 50  0000 L CNN
 F 1 "0.1uF" V 4950 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 3750 50  0001 C CNN
-F 3 "~" H 5100 3750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 3750 50  0001 C CNN
+F 4 "$0.1" H 5100 3750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 3750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 3750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 3750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 3750 50  0001 C CNN "Supplier P/N"
 	1    5100 3750
 	0    -1   -1   0   
 $EndComp
@@ -3805,7 +4138,12 @@ AR Path="/60BB4A14/61A644B8" Ref="C106"  Part="1"
 F 0 "C106" V 5050 4000 50  0000 L CNN
 F 1 "0.1uF" V 4950 3850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 3950 50  0001 C CNN
-F 3 "~" H 5100 3950 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 3950 50  0001 C CNN
+F 4 "$0.1" H 5100 3950 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 3950 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 3950 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 3950 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 3950 50  0001 C CNN "Supplier P/N"
 	1    5100 3950
 	0    -1   -1   0   
 $EndComp
@@ -3837,7 +4175,12 @@ AR Path="/60BB4A14/61AF8BAF" Ref="C107"  Part="1"
 F 0 "C107" V 5050 4500 50  0000 L CNN
 F 1 "0.1uF" V 4950 4350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 4450 50  0001 C CNN
-F 3 "~" H 5100 4450 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 4450 50  0001 C CNN
+F 4 "$0.1" H 5100 4450 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 4450 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 4450 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 4450 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 4450 50  0001 C CNN "Supplier P/N"
 	1    5100 4450
 	0    -1   -1   0   
 $EndComp
@@ -3869,7 +4212,12 @@ AR Path="/60BB4A14/61AF8BC5" Ref="C108"  Part="1"
 F 0 "C108" V 5050 4700 50  0000 L CNN
 F 1 "0.1uF" V 4950 4550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 4650 50  0001 C CNN
-F 3 "~" H 5100 4650 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 4650 50  0001 C CNN
+F 4 "$0.1" H 5100 4650 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 4650 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 4650 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 4650 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 4650 50  0001 C CNN "Supplier P/N"
 	1    5100 4650
 	0    -1   -1   0   
 $EndComp
@@ -3901,7 +4249,12 @@ AR Path="/60BB4A14/61B9131B" Ref="C110"  Part="1"
 F 0 "C110" V 5050 5200 50  0000 L CNN
 F 1 "0.1uF" V 4950 5050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 5150 50  0001 C CNN
-F 3 "~" H 5100 5150 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 5150 50  0001 C CNN
+F 4 "$0.1" H 5100 5150 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 5150 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 5150 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 5150 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 5150 50  0001 C CNN "Supplier P/N"
 	1    5100 5150
 	0    -1   -1   0   
 $EndComp
@@ -3933,7 +4286,12 @@ AR Path="/60BB4A14/61B91331" Ref="C111"  Part="1"
 F 0 "C111" V 5050 5400 50  0000 L CNN
 F 1 "0.1uF" V 4950 5250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 5350 50  0001 C CNN
-F 3 "~" H 5100 5350 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 5350 50  0001 C CNN
+F 4 "$0.1" H 5100 5350 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 5350 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 5350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 5350 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 5350 50  0001 C CNN "Supplier P/N"
 	1    5100 5350
 	0    -1   -1   0   
 $EndComp
@@ -3966,7 +4324,12 @@ AR Path="/60BB4A14/61C2B72C" Ref="C109"  Part="1"
 F 0 "C109" V 5050 4900 50  0000 L CNN
 F 1 "0.1uF" V 4950 4750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 4850 50  0001 C CNN
-F 3 "~" H 5100 4850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 4850 50  0001 C CNN
+F 4 "$0.1" H 5100 4850 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5100 4850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5100 4850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5100 4850 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5100 4850 50  0001 C CNN "Supplier P/N"
 	1    5100 4850
 	0    -1   -1   0   
 $EndComp
@@ -4088,7 +4451,12 @@ AR Path="/60BB4A14/61D1660F" Ref="C156"  Part="1"
 F 0 "C156" H 10800 2550 50  0000 L CNN
 F 1 "0.1uF" H 10750 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10900 2500 50  0001 C CNN
-F 3 "~" H 10900 2500 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10900 2500 50  0001 C CNN
+F 4 "$0.1" H 10900 2500 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 10900 2500 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 10900 2500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10900 2500 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 10900 2500 50  0001 C CNN "Supplier P/N"
 	1    10900 2500
 	-1   0    0    1   
 $EndComp
@@ -4169,7 +4537,12 @@ AR Path="/60BB4A14/61394F24" Ref="C171"  Part="1"
 F 0 "C171" H 16242 3796 50  0000 L CNN
 F 1 "0.1uF" H 16242 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 16150 3750 50  0001 C CNN
-F 3 "~" H 16150 3750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 16150 3750 50  0001 C CNN
+F 4 "$0.1" H 16150 3750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 16150 3750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 16150 3750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 16150 3750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 16150 3750 50  0001 C CNN "Supplier P/N"
 	1    16150 3750
 	0    -1   -1   0   
 $EndComp
@@ -4326,7 +4699,12 @@ AR Path="/60BB4A14/61521F7F" Ref="C170"  Part="1"
 F 0 "C170" H 15042 3796 50  0000 L CNN
 F 1 "0.1uF" H 15042 3705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14950 3750 50  0001 C CNN
-F 3 "~" H 14950 3750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 14950 3750 50  0001 C CNN
+F 4 "$0.1" H 14950 3750 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 14950 3750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 14950 3750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 14950 3750 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 14950 3750 50  0001 C CNN "Supplier P/N"
 	1    14950 3750
 	0    1    -1   0   
 $EndComp

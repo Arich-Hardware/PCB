@@ -81,7 +81,7 @@ U 1 1 61464FA1
 P 6500 3500
 F 0 "U1" H 6500 3975 50  0000 C CNN
 F 1 "NLSV4T244E" H 6500 3884 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6500 3500 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6500 3500 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nlsv4t244e-d.pdf" H 6500 3500 50  0001 C CNN
 F 4 "$1.97" H 6500 3500 50  0001 C CNN "Item Cost"
 F 5 "NLSV4T244EDTR2G" H 6500 3500 50  0001 C CNN "MFN"
@@ -224,7 +224,12 @@ AR Path="/60C74A7C/621A528F" Ref="C2"  Part="1"
 F 0 "C2" V 6900 2550 50  0000 L CNN
 F 1 "0.1uF" V 6800 2500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 2600 50  0001 C CNN
-F 3 "~" H 6700 2600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6700 2600 50  0001 C CNN
+F 4 "$0.1" H 6700 2600 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6700 2600 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6700 2600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6700 2600 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6700 2600 50  0001 C CNN "Supplier P/N"
 	1    6700 2600
 	0    -1   -1   0   
 $EndComp
@@ -259,7 +264,12 @@ AR Path="/60C74A7C/621AC36A" Ref="C1"  Part="1"
 F 0 "C1" V 6500 2550 50  0000 L CNN
 F 1 "0.1uF" V 6400 2500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6300 2600 50  0001 C CNN
-F 3 "~" H 6300 2600 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6300 2600 50  0001 C CNN
+F 4 "$0.1" H 6300 2600 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6300 2600 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6300 2600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6300 2600 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6300 2600 50  0001 C CNN "Supplier P/N"
 	1    6300 2600
 	0    -1   -1   0   
 $EndComp

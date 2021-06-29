@@ -69,6 +69,8 @@ F 4 "$13.11" H 5850 3950 50  0001 C CNN "Item Cost"
 F 5 "ERM8-060-01-L-D-RA-K-TR" H 5850 3950 50  0001 C CNN "MFN"
 F 6 "Digi-Key" H 5850 3950 50  0001 C CNN "Supplier"
 F 7 "SAM13809CT-ND" H 5850 3950 50  0001 C CNN "Supplier P/N"
+F 8 "Samtec" H 5850 3950 50  0001 C CNN "Manufacturer"
+F 9 "Samtec" H 5850 3950 50  0001 C CNN "Supplier "
 	1    5850 3950
 	1    0    0    -1  
 $EndComp
@@ -85,8 +87,6 @@ NoConn ~ 6350 5300
 NoConn ~ 6350 5200
 NoConn ~ 6350 5100
 NoConn ~ 6350 5000
-Text HLabel 5200 4800 0    50   Output ~ 0
-OUT
 Wire Wire Line
 	6450 3700 6450 4600
 Connection ~ 6450 3700
@@ -113,8 +113,6 @@ Wire Wire Line
 	5350 1900 5250 1900
 Text Label 4750 900  2    50   ~ 0
 B2_[0..31]
-Wire Wire Line
-	5350 4800 5200 4800
 Wire Wire Line
 	5250 4600 5250 4950
 Connection ~ 5250 4600
@@ -598,4 +596,8 @@ Wire Bus Line
 	6950 900  6950 4400
 Wire Bus Line
 	4750 900  4750 4400
+Wire Wire Line
+	5350 4800 5200 4800
+Text HLabel 5200 4800 0    50   Output ~ 0
+OUT
 $EndSCHEMATC
