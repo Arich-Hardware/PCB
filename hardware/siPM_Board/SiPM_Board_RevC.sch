@@ -269,7 +269,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 4250 3750 3850
 $Comp
-L SiPM_Board-rescue:Conn_02x34_Odd_Even-Connector_Generic J1
+L Connector_Generic:Conn_02x34_Odd_Even J1
 U 1 1 601F94DF
 P 5000 3450
 F 0 "J1" H 4650 1425 50  0000 R CNN
@@ -434,7 +434,7 @@ Wire Wire Line
 	5300 2050 5500 2050
 Connection ~ 5500 2050
 $Comp
-L SiPM_Board-rescue:GND-power #PWR04
+L power:GND #PWR04
 U 1 1 603E3F9A
 P 5500 5250
 F 0 "#PWR04" H 5500 5000 50  0001 C CNN
@@ -807,7 +807,7 @@ Wire Wire Line
 Wire Wire Line
 	8100 4250 8100 3850
 $Comp
-L SiPM_Board-rescue:Conn_02x34_Odd_Even-Connector_Generic J2
+L Connector_Generic:Conn_02x34_Odd_Even J2
 U 1 1 61207A16
 P 9450 3450
 F 0 "J2" H 9075 1425 50  0000 R CNN
@@ -972,7 +972,7 @@ Wire Wire Line
 	9650 2050 9850 2050
 Connection ~ 9850 2050
 $Comp
-L SiPM_Board-rescue:GND-power #PWR07
+L power:GND #PWR07
 U 1 1 61207A7A
 P 9850 5250
 F 0 "#PWR07" H 9850 5000 50  0001 C CNN
@@ -1091,7 +1091,7 @@ $EndComp
 Text Label 3550 6700 0    50   ~ 0
 OUT
 $Comp
-L SiPM_Board-rescue:C-Device C16
+L Device:C C16
 U 1 1 604DBA71
 P 6700 1100
 F 0 "C16" H 6815 1146 50  0000 L CNN
@@ -1106,7 +1106,7 @@ F 7 "$0.12" H 6700 1100 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C14
+L Device:C C14
 U 1 1 604DBA63
 P 6400 1100
 F 0 "C14" H 6515 1146 50  0000 L CNN
@@ -1127,7 +1127,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 1300 6400 1250
 $Comp
-L SiPM_Board-rescue:GND-power #PWR05
+L power:GND #PWR05
 U 1 1 6023C2FA
 P 6250 1400
 F 0 "#PWR05" H 6250 1150 50  0001 C CNN
@@ -1186,7 +1186,7 @@ Connection ~ 7000 900
 Text Label 1900 3500 0    50   ~ 0
 BIAS2
 $Comp
-L SiPM_Board-rescue:C-Device C8
+L Device:C C8
 U 1 1 60DAF07F
 P 2350 3800
 F 0 "C8" H 2465 3846 50  0000 L CNN
@@ -1201,7 +1201,7 @@ F 7 "$0.12" H 2350 3800 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C6
+L Device:C C6
 U 1 1 60DAF08D
 P 2050 3800
 F 0 "C6" H 2165 3846 50  0000 L CNN
@@ -1222,7 +1222,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 4000 2050 3950
 $Comp
-L SiPM_Board-rescue:GND-power #PWR02
+L power:GND #PWR02
 U 1 1 60DAF09E
 P 1900 4100
 F 0 "#PWR02" H 1900 3850 50  0001 C CNN
@@ -1241,7 +1241,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 1300 2050 1250
 $Comp
-L SiPM_Board-rescue:GND-power #PWR01
+L power:GND #PWR01
 U 1 1 60F1D723
 P 1900 1400
 F 0 "#PWR01" H 1900 1150 50  0001 C CNN
@@ -1256,7 +1256,7 @@ Wire Wire Line
 Text Label 6250 3550 0    50   ~ 0
 BIAS4
 $Comp
-L SiPM_Board-rescue:C-Device C17
+L Device:C C17
 U 1 1 60F797D1
 P 6700 3850
 F 0 "C17" H 6815 3896 50  0000 L CNN
@@ -1271,7 +1271,7 @@ F 7 "$0.12" H 6700 3850 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C15
+L Device:C C15
 U 1 1 60F797DF
 P 6400 3850
 F 0 "C15" H 6515 3896 50  0000 L CNN
@@ -1301,7 +1301,7 @@ Wire Wire Line
 Connection ~ 2650 900 
 Connection ~ 2650 6700
 $Comp
-L SiPM_Board-rescue:C-Device C9
+L Device:C C9
 U 1 1 6056E72C
 P 2650 6850
 F 0 "C9" H 2765 6896 50  0000 L CNN
@@ -1362,7 +1362,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 7100 2700 7100
 $Comp
-L SiPM_Board-rescue:GND-power #PWR03
+L power:GND #PWR03
 U 1 1 612A80CE
 P 3100 7500
 F 0 "#PWR03" H 3100 7250 50  0001 C CNN
@@ -1386,7 +1386,7 @@ Wire Wire Line
 Text Label 9850 1850 2    50   ~ 0
 BIAS3
 $Comp
-L SiPM_Board-rescue:GND-power #PWR06
+L power:GND #PWR06
 U 1 1 602B2E79
 P 6250 4150
 F 0 "#PWR06" H 6250 3900 50  0001 C CNN
@@ -1399,7 +1399,7 @@ $EndComp
 Wire Wire Line
 	4800 5150 4750 5150
 $Comp
-L SiPM_Board-rescue:C-Device C3
+L Device:C C3
 U 1 1 60372068
 P 1750 1100
 F 0 "C3" H 1865 1146 50  0000 L CNN
@@ -1414,7 +1414,7 @@ F 7 "$0.12" H 1750 1100 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C1
+L Device:C C1
 U 1 1 6037BC42
 P 1450 1100
 F 0 "C1" H 1565 1146 50  0000 L CNN
@@ -1429,7 +1429,7 @@ F 7 "$0.12" H 1450 1100 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C4
+L Device:C C4
 U 1 1 6037EBF4
 P 1750 3800
 F 0 "C4" H 1865 3846 50  0000 L CNN
@@ -1444,7 +1444,7 @@ F 7 "$0.12" H 1750 3800 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C2
+L Device:C C2
 U 1 1 6037EC10
 P 1450 3800
 F 0 "C2" H 1565 3846 50  0000 L CNN
@@ -1459,7 +1459,7 @@ F 7 "$0.12" H 1450 3800 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C13
+L Device:C C13
 U 1 1 603C9FC8
 P 6100 3850
 F 0 "C13" H 6215 3896 50  0000 L CNN
@@ -1474,7 +1474,7 @@ F 7 "$0.12" H 6100 3850 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C11
+L Device:C C11
 U 1 1 603C9FE4
 P 5800 3850
 F 0 "C11" H 5915 3896 50  0000 L CNN
@@ -1489,7 +1489,7 @@ F 7 "$0.12" H 5800 3850 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C12
+L Device:C C12
 U 1 1 60413ED0
 P 6100 1100
 F 0 "C12" H 6215 1146 50  0000 L CNN
@@ -1504,7 +1504,7 @@ F 7 "$0.12" H 6100 1100 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C10
+L Device:C C10
 U 1 1 60413EDE
 P 5800 1100
 F 0 "C10" H 5915 1146 50  0000 L CNN
@@ -1519,7 +1519,7 @@ F 7 "$0.12" H 5800 1100 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C5
+L Device:C C5
 U 1 1 60F1D712
 P 2050 1100
 F 0 "C5" H 2165 1146 50  0000 L CNN
@@ -1534,7 +1534,7 @@ F 7 "$0.12" H 2050 1100 50  0001 C CNN "Item Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SiPM_Board-rescue:C-Device C7
+L Device:C C7
 U 1 1 60F1D704
 P 2350 1100
 F 0 "C7" H 2465 1146 50  0000 L CNN
