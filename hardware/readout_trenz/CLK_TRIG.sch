@@ -91,7 +91,7 @@ F 3 "https://www.onsemi.com/pdf/datasheet/nlsv4t244e-d.pdf" H 6500 3500 50  0001
 F 4 "$1.97" H 6500 3500 50  0001 C CNN "Item Cost"
 F 5 "NLSV4T244EDTR2G" H 6500 3500 50  0001 C CNN "MFN"
 F 6 "ON Semiconductors" H 6500 3500 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 6500 3500 50  0001 C CNN "Supplier"
+F 7 "" H 6500 3500 50  0001 C CNN "Supplier"
 F 8 "NLSV4T244EDTR2GOSCT-ND" H 6500 3500 50  0001 C CNN "Supplier P/N"
 F 9 "Digi-Key" H 6500 3500 50  0001 C CNN "Supplier "
 	1    6500 3500

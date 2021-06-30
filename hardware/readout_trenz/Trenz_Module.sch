@@ -197,8 +197,9 @@ F 2 "Connector_Samtec:Samtec_LSHM-150-xx.x-x-DV-S_2x50-1SH_P0.50mm_Vertical" H 9
 F 3 "https://www.samtec.com/products/lshm-150-04.0-l-dv-a-s-k-tr" H 9900 3650 50  0001 C CNN
 F 4 "$10.37" H 9900 3650 50  0001 C CNN "Item Cost"
 F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 9900 3650 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 9900 3650 50  0001 C CNN "Supplier"
+F 6 "" H 9900 3650 50  0001 C CNN "Supplier"
 F 7 "SAM14152CT-ND" H 9900 3650 50  0001 C CNN "Supplier P/N"
+F 8 "Digi-Key" H 9900 3650 50  0001 C CNN "Supplier "
 	1    9900 3650
 	1    0    0    -1  
 $EndComp
@@ -228,8 +229,9 @@ F 2 "Connector_Samtec:Samtec_LSHM-150-xx.x-x-DV-S_2x50-1SH_P0.50mm_Vertical" H 1
 F 3 "https://www.samtec.com/products/lshm-150-04.0-l-dv-a-s-k-tr" H 16250 3650 50  0001 C CNN
 F 4 "$10.37" H 16250 3650 50  0001 C CNN "Item Cost"
 F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 16250 3650 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 16250 3650 50  0001 C CNN "Supplier"
+F 6 "" H 16250 3650 50  0001 C CNN "Supplier"
 F 7 "SAM14152CT-ND" H 16250 3650 50  0001 C CNN "Supplier P/N"
+F 8 "Digi-Key" H 16250 3650 50  0001 C CNN "Supplier "
 	1    16250 3650
 	1    0    0    -1  
 $EndComp
@@ -1780,8 +1782,6 @@ Text Label 11500 5150 2    50   ~ 0
 Serial_ctrl8
 Text HLabel 12600 4150 2    50   Output ~ 0
 Serial_ctrl[0..8]
-Text Label 11600 4150 0    50   ~ 0
-Serial_ctrl[0..8]ONE
 Wire Wire Line
 	9300 4550 8300 4550
 Wire Wire Line
@@ -2134,7 +2134,7 @@ F 8 "732-5009-ND" H 7750 950 50  0001 C CNN "Supplier P/N"
 	1    7750 950 
 	-1   0    0    -1  
 $EndComp
-Text GLabel 550  5250 1    50   Input ~ 0
+Text GLabel 800  5250 1    50   Input ~ 0
 3.3V_SFP
 $Comp
 L Device:R_Small R62
@@ -2391,7 +2391,7 @@ Connection ~ 2050 6700
 Wire Wire Line
 	2050 6700 1800 6700
 Wire Wire Line
-	550  5250 1000 5250
+	800  5250 1000 5250
 Wire Wire Line
 	1200 5250 1400 5250
 Connection ~ 1800 5250

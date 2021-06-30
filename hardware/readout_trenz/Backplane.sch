@@ -67,10 +67,10 @@ F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 5850 3950 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 5850 3950 50  0001 L BNN
 F 4 "$13.11" H 5850 3950 50  0001 C CNN "Item Cost"
 F 5 "ERM8-060-01-L-D-RA-K-TR" H 5850 3950 50  0001 C CNN "MFN"
-F 6 "Digi-Key" H 5850 3950 50  0001 C CNN "Supplier"
+F 6 "" H 5850 3950 50  0001 C CNN "Supplier"
 F 7 "SAM13809CT-ND" H 5850 3950 50  0001 C CNN "Supplier P/N"
 F 8 "Samtec" H 5850 3950 50  0001 C CNN "Manufacturer"
-F 9 "Samtec" H 5850 3950 50  0001 C CNN "Supplier "
+F 9 "Digi-Key" H 5850 3950 50  0001 C CNN "Supplier "
 	1    5850 3950
 	1    0    0    -1  
 $EndComp
@@ -591,13 +591,13 @@ Wire Bus Line
 Wire Bus Line
 	4950 4600 4950 4800
 Wire Wire Line
+	5350 4800 5200 4800
+Text HLabel 5200 4800 0    50   Output ~ 0
+OUT
+Wire Wire Line
 	6350 4800 6950 4800
 Wire Bus Line
 	6950 900  6950 4400
 Wire Bus Line
 	4750 900  4750 4400
-Wire Wire Line
-	5350 4800 5200 4800
-Text HLabel 5200 4800 0    50   Output ~ 0
-OUT
 $EndSCHEMATC

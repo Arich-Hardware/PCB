@@ -24,8 +24,9 @@ F 3 "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF" H 6900 2600 50  0001 C 
 F 4 "$0.53" H 6900 2100 50  0001 C CNN "Item Cost"
 F 5 "ON Semiconductor" H 6900 2100 50  0001 C CNN "Manufacturer"
 F 6 "NCP718ASN180T1G" H 6900 2100 50  0001 C CNN "MFN"
-F 7 "Digi-Key" H 6900 2100 50  0001 C CNN "Supplier"
+F 7 "" H 6900 2100 50  0001 C CNN "Supplier"
 F 8 "NCP718ASN180T1GOSCT-ND" H 6900 2100 50  0001 C CNN "Supplier P/N"
+F 9 "Digi-Key" H 6900 2100 50  0001 C CNN "Supplier "
 	1    6900 2100
 	1    0    0    -1  
 $EndComp
@@ -100,8 +101,9 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff
 F 4 "$6.69" H 6900 5100 50  0001 C CNN "Item Cost"
 F 5 "LT1963AEQ-3.3#PBF" H 6900 5100 50  0001 C CNN "MFN"
 F 6 "Analog Devices Inc." H 6900 5100 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 6900 5100 50  0001 C CNN "Supplier"
+F 7 "" H 6900 5100 50  0001 C CNN "Supplier"
 F 8 "LT1963AEQ-3.3#PBF-ND" H 6900 5100 50  0001 C CNN "Supplier P/N"
+F 9 "Digi-Key" H 6900 5100 50  0001 C CNN "Supplier "
 	1    6900 5100
 	1    0    0    -1  
 $EndComp
@@ -116,8 +118,9 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff
 F 4 "$6.69" H 6900 4100 50  0001 C CNN "Item Cost"
 F 5 "LT1963AEQ-3.3#PBF" H 6900 4100 50  0001 C CNN "MFN"
 F 6 "Analog Devices Inc." H 6900 4100 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 6900 4100 50  0001 C CNN "Supplier"
+F 7 "" H 6900 4100 50  0001 C CNN "Supplier"
 F 8 "LT1963AEQ-3.3#PBF-ND" H 6900 4100 50  0001 C CNN "Supplier P/N"
+F 9 "Digi-Key" H 6900 4100 50  0001 C CNN "Supplier "
 	1    6900 4100
 	1    0    0    -1  
 $EndComp
@@ -161,8 +164,9 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff
 F 4 "$6.69" H 6900 3100 50  0001 C CNN "Item Cost"
 F 5 "Analog Devices Inc." H 6900 3100 50  0001 C CNN "Manufacturer"
 F 6 "LT1963AEQ-3.3#PBF" H 6900 3100 50  0001 C CNN "MFN"
-F 7 "Digi-Key" H 6900 3100 50  0001 C CNN "Supplier"
+F 7 "" H 6900 3100 50  0001 C CNN "Supplier"
 F 8 "LT1963AEQ-3.3#PBF-ND" H 6900 3100 50  0001 C CNN "Supplier P/N"
+F 9 "Digi-Key" H 6900 3100 50  0001 C CNN "Supplier "
 	1    6900 3100
 	1    0    0    -1  
 $EndComp
@@ -943,8 +947,9 @@ F 3 "http://www.ti.com/lit/ds/symlink/lp2985.pdf" H 2400 4250 50  0001 C CNN
 F 4 "$0.66" H 2400 4250 50  0001 C CNN "Item Cost"
 F 5 "Texas Instruments" H 2400 4250 50  0001 C CNN "Manufacturer"
 F 6 "LP2985A-50DBVT" H 2400 4250 50  0001 C CNN "MFN"
-F 7 "Digi-Key" H 2400 4250 50  0001 C CNN "Supplier"
+F 7 "" H 2400 4250 50  0001 C CNN "Supplier"
 F 8 "296-32159-1-ND" H 2400 4250 50  0001 C CNN "Supplier P/N"
+F 9 "Digi-Key" H 2400 4250 50  0001 C CNN "Supplier "
 	1    2400 4250
 	1    0    0    -1  
 $EndComp
