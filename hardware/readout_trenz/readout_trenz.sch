@@ -117,12 +117,8 @@ Wire Bus Line
 	900  6450 1500 6450
 Wire Bus Line
 	5500 2750 4500 2750
-Text Label 4600 2750 0    50   ~ 0
-Serial_ctrl[0..8]ONE
 Wire Bus Line
 	4500 5750 5500 5750
-Text Label 4650 5750 0    50   ~ 0
-Serial_ctrl[0..8]TWO
 $Sheet
 S 3500 1000 1000 2500
 U 60BB4A14

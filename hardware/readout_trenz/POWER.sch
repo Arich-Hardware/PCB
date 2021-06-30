@@ -19,7 +19,7 @@ U 1 1 60E4EE79
 P 6900 2100
 F 0 "U3" H 6900 2467 50  0000 C CNN
 F 1 "NCP718xSN180" H 6900 2376 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6900 2450 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering" H 6900 2450 50  0001 C CNN
 F 3 "https://www.onsemi.com/pub/Collateral/NCP718-D.PDF" H 6900 2600 50  0001 C CNN
 F 4 "$0.53" H 6900 2100 50  0001 C CNN "Item Cost"
 F 5 "ON Semiconductor" H 6900 2100 50  0001 C CNN "Manufacturer"
@@ -480,14 +480,14 @@ L Device:R_Small R5
 U 1 1 60D4851C
 P 2400 2200
 F 0 "R5" H 2459 2246 50  0000 L CNN
-F 1 "4.9k" H 2459 2155 50  0000 L CNN
+F 1 "470" H 2459 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2400 2200 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/60131/pltu.pdf" H 2400 2200 50  0001 C CNN
-F 4 "$9.22" H 2400 2200 50  0001 C CNN "Item Cost"
-F 5 "PLTU0805U4901LST5" H 2400 2200 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 2400 2200 50  0001 C CNN "Manufacturer"
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 2400 2200 50  0001 C CNN
+F 4 "$0.1" H 2400 2200 50  0001 C CNN "Item Cost"
+F 5 "ERA-6AED471V" H 2400 2200 50  0001 C CNN "MFN"
+F 6 "Panasonic Electronic Components" H 2400 2200 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 2400 2200 50  0001 C CNN "Supplier "
-F 8 "541-3072-1-ND" H 2400 2200 50  0001 C CNN "Supplier P/N"
+F 8 "P123851CT-ND" H 2400 2200 50  0001 C CNN "Supplier P/N"
 	1    2400 2200
 	-1   0    0    -1  
 $EndComp
@@ -942,7 +942,7 @@ U 1 1 6297CFF9
 P 2400 4250
 F 0 "U2" H 2400 4592 50  0000 C CNN
 F 1 "LP2985-5.0" H 2400 4501 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2400 4575 50  0001 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 2400 4575 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lp2985.pdf" H 2400 4250 50  0001 C CNN
 F 4 "$0.66" H 2400 4250 50  0001 C CNN "Item Cost"
 F 5 "Texas Instruments" H 2400 4250 50  0001 C CNN "Manufacturer"

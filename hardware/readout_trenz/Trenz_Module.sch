@@ -1840,8 +1840,6 @@ Text Label 8300 5150 0    50   ~ 0
 Serial_ctrl8
 Text HLabel 7200 4250 0    50   Output ~ 0
 Serial_ctrl[0..8]
-Text Label 8200 4250 2    50   ~ 0
-Serial_ctrl[0..8]TWO
 Text HLabel 7700 5450 0    50   Output ~ 0
 Fast_trig[0..3]
 Text Label 8300 5550 0    50   ~ 0
@@ -2201,22 +2199,6 @@ F 8 "732-7965-1-ND" H 2400 5350 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C90
-U 1 1 610D18A0
-P 1800 5350
-F 0 "C90" H 1708 5396 50  0000 R CNN
-F 1 "0.1uF" H 1708 5305 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1800 5350 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 1800 5350 50  0001 C CNN
-F 4 "$0.1" H 1800 5350 50  0001 C CNN "Item Cost"
-F 5 "885012206046" H 1800 5350 50  0001 C CNN "MFN"
-F 6 "Würth Elektronik" H 1800 5350 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 1800 5350 50  0001 C CNN "Supplier "
-F 8 "732-7965-1-ND" H 1800 5350 50  0001 C CNN "Supplier P/N"
-	1    1800 5350
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R61
 U 1 1 610FD5E5
 P 1100 5250
@@ -2233,23 +2215,12 @@ F 8 "P.10AHCT-ND" H 1100 5250 50  0001 C CNN "Supplier P/N"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1800 5250 1900 5250
-Wire Wire Line
 	2100 5250 2200 5250
 Wire Wire Line
 	2200 5250 2400 5250
 Connection ~ 2200 5250
 Wire Wire Line
-	2200 5450 2200 5550
-Wire Wire Line
 	2400 5450 2400 5750
-Wire Wire Line
-	2400 5750 2200 5750
-Wire Wire Line
-	1800 5750 1800 5450
-Connection ~ 2200 5750
-Wire Wire Line
-	2200 5750 2050 5750
 $Comp
 L power:GNDD #PWR?
 U 1 1 611BAE87
@@ -2268,9 +2239,6 @@ F 3 "" H 2050 5750 50  0001 C CNN
 	1    2050 5750
 	-1   0    0    -1  
 $EndComp
-Connection ~ 2050 5750
-Wire Wire Line
-	2050 5750 1800 5750
 $Comp
 L Device:R_Small R63
 U 1 1 6125D48F
@@ -2394,14 +2362,11 @@ Wire Wire Line
 	800  5250 1000 5250
 Wire Wire Line
 	1200 5250 1400 5250
-Connection ~ 1800 5250
 Wire Wire Line
 	1400 5250 1400 6200
 Wire Wire Line
 	1400 6200 1800 6200
 Connection ~ 1400 5250
-Wire Wire Line
-	1400 5250 1800 5250
 Connection ~ 1800 6200
 Wire Wire Line
 	2400 5250 3050 5250
@@ -2413,32 +2378,65 @@ Wire Wire Line
 Wire Wire Line
 	2750 6200 2400 6200
 Connection ~ 2400 6200
-Wire Bus Line
-	11600 2550 11600 2750
 Wire Wire Line
-	16850 2350 18000 2350
-Wire Bus Line
-	8200 5450 8200 5750
-Wire Bus Line
-	17450 1950 17450 2450
-Wire Bus Line
-	8700 2350 8700 2750
+	1800 5750 2050 5750
+Connection ~ 2050 5750
+Wire Wire Line
+	2050 5750 2200 5750
+Connection ~ 2200 5750
+Wire Wire Line
+	2200 5750 2400 5750
+Wire Wire Line
+	2200 5450 2200 5550
+Wire Wire Line
+	1800 5750 1800 5450
+Connection ~ 1800 5250
+Wire Wire Line
+	1400 5250 1800 5250
+Wire Wire Line
+	1800 5250 1900 5250
 Wire Bus Line
 	11100 1450 11100 2350
-Wire Bus Line
-	17450 1050 17450 1750
 Wire Bus Line
 	8200 4250 8200 5050
 Wire Bus Line
 	11600 4150 11600 5050
 Wire Bus Line
+	8700 2350 8700 2750
+Wire Bus Line
 	8200 2850 8200 4150
 Wire Bus Line
+	11600 2550 11600 2750
+Wire Bus Line
+	17450 1950 17450 2450
+Wire Wire Line
+	16850 2350 18000 2350
+Wire Bus Line
+	8200 5450 8200 5750
+Wire Bus Line
 	11600 2850 11600 4050
+Wire Bus Line
+	15050 1050 15050 3550
+Wire Bus Line
+	17450 1050 17450 1750
 Wire Bus Line
 	17450 3750 17450 5850
 Wire Bus Line
 	15050 3750 15050 5750
-Wire Bus Line
-	15050 1050 15050 3550
+$Comp
+L Device:C_Small C90
+U 1 1 610D18A0
+P 1800 5350
+F 0 "C90" H 1708 5396 50  0000 R CNN
+F 1 "0.1uF" H 1708 5305 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1800 5350 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 1800 5350 50  0001 C CNN
+F 4 "$0.1" H 1800 5350 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 1800 5350 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 1800 5350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 1800 5350 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 1800 5350 50  0001 C CNN "Supplier P/N"
+	1    1800 5350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
