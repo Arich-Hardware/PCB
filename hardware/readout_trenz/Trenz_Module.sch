@@ -82,21 +82,6 @@ F 8 "1292-WR12X4701FTLCT-ND" H 5100 5900 50  0001 C CNN "Supplier P/N"
 	1    5100 5900
 	1    0    0    -1  
 $EndComp
-$Comp
-L readout:Trenz_TEBA0714-B2B_JM1 J12
-U 1 1 60D57C1A
-P 9900 3600
-F 0 "J12" H 9900 6325 50  0000 C CNN
-F 1 "Trenz_TEBA0714-B2B_JM1" H 9900 6234 50  0000 C CNN
-F 2 "Connector_Samtec:Samtec_LSHM-150-xx.x-x-DV-S_2x50-1SH_P0.50mm_Vertical" H 9900 3600 50  0001 C CNN
-F 3 "https://www.samtec.com/products/lshm-150-04.0-l-dv-a-s-k-tr" H 9900 3600 50  0001 C CNN
-F 4 "$10.37" H 9900 3600 50  0001 C CNN "Item Cost"
-F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 9900 3600 50  0001 C CNN "MFN"
-F 6 "SAM14152CT-ND" H 9900 3600 50  0001 C CNN "Supplier P/N"
-F 7 "Digi-Key" H 9900 3600 50  0001 C CNN "Supplier "
-	1    9900 3600
-	1    0    0    -1  
-$EndComp
 Text HLabel 14300 3750 0    50   Input ~ 0
 TRIG_OUT_A[0..31]
 Entry Wire Line
@@ -304,8 +289,8 @@ AR Path="/60AD0200/60B2D848/60DFEC46" Ref="#PWR?"  Part="1"
 AR Path="/607155C8/60DFEC46" Ref="#PWR?"  Part="1" 
 AR Path="/606EBC4D/60DFEC46" Ref="#PWR?"  Part="1" 
 AR Path="/60BC2588/60DFEC46" Ref="#PWR?"  Part="1" 
-AR Path="/60D04563/60DFEC46" Ref="#PWR089"  Part="1" 
-F 0 "#PWR089" H 3700 2400 50  0001 C CNN
+AR Path="/60D04563/60DFEC46" Ref="#PWR090"  Part="1" 
+F 0 "#PWR090" H 3700 2400 50  0001 C CNN
 F 1 "GNDD" H 3700 2500 50  0000 C CNN
 F 2 "" H 3700 2650 50  0001 C CNN
 F 3 "" H 3700 2650 50  0001 C CNN
@@ -1240,12 +1225,12 @@ AR Path="/60D04563/62703768" Ref="Q3"  Part="1"
 F 0 "Q3" H 11850 5750 50  0000 L CNN
 F 1 "DMN67D7L" H 11850 5650 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 11850 5675 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 11650 5750 50  0001 L CNN
-F 4 "$0.28" H 11650 5750 50  0001 C CNN "Item Cost"
-F 5 "DMN67D7L-7" H 11650 5750 50  0001 C CNN "MFN"
+F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 11650 5750 50  0001 L CNN
+F 4 "$0.21" H 11650 5750 50  0001 C CNN "Item Cost"
+F 5 "DMN67D8L-7" H 11650 5750 50  0001 C CNN "MFN"
 F 6 "Diodes Inc." H 11650 5750 50  0001 C CNN "Manufacturer"
-F 7 "Mouser Electronics" H 11650 5750 50  0001 C CNN "Supplier "
-F 8 "621-DMN67D7L-7" H 11650 5750 50  0001 C CNN "Supplier P/N"
+F 7 "Digi-Key" H 11650 5750 50  0001 C CNN "Supplier "
+F 8 "DMN67D8L-7DICT-ND" H 11650 5750 50  0001 C CNN "Supplier P/N"
 	1    11650 5750
 	1    0    0    -1  
 $EndComp
@@ -1313,12 +1298,12 @@ AR Path="/60D04563/611C22A7" Ref="Q4"  Part="1"
 F 0 "Q4" H 11850 6400 50  0000 L CNN
 F 1 "DMN67D7L" H 11850 6300 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 11850 6325 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 11650 6400 50  0001 L CNN
-F 4 "$0.28" H 11650 6400 50  0001 C CNN "Item Cost"
-F 5 "DMN67D7L-7" H 11650 6400 50  0001 C CNN "MFN"
+F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 11650 6400 50  0001 L CNN
+F 4 "$0.21" H 11650 6400 50  0001 C CNN "Item Cost"
+F 5 "DMN67D8L-7" H 11650 6400 50  0001 C CNN "MFN"
 F 6 "Diodes Inc." H 11650 6400 50  0001 C CNN "Manufacturer"
-F 7 "Mouser Electronics" H 11650 6400 50  0001 C CNN "Supplier "
-F 8 "621-DMN67D7L-7" H 11650 6400 50  0001 C CNN "Supplier P/N"
+F 7 "Digi-Key" H 11650 6400 50  0001 C CNN "Supplier "
+F 8 "DMN67D8L-7DICT-ND" H 11650 6400 50  0001 C CNN "Supplier P/N"
 	1    11650 6400
 	1    0    0    -1  
 $EndComp
@@ -1529,12 +1514,12 @@ AR Path="/60D04563/60E41B1F" Ref="Q5"  Part="1"
 F 0 "Q5" H 18700 2250 50  0000 L CNN
 F 1 "DMN67D7L" H 18700 2150 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 18700 2175 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 18500 2250 50  0001 L CNN
-F 4 "$0.28" H 18500 2250 50  0001 C CNN "Item Cost"
-F 5 "DMN67D7L-7" H 18500 2250 50  0001 C CNN "MFN"
+F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 18500 2250 50  0001 L CNN
+F 4 "$0.21" H 18500 2250 50  0001 C CNN "Item Cost"
+F 5 "DMN67D8L-7" H 18500 2250 50  0001 C CNN "MFN"
 F 6 "Diodes Inc." H 18500 2250 50  0001 C CNN "Manufacturer"
-F 7 "Mouser Electronics" H 18500 2250 50  0001 C CNN "Supplier "
-F 8 "621-DMN67D7L-7" H 18500 2250 50  0001 C CNN "Supplier P/N"
+F 7 "Digi-Key" H 18500 2250 50  0001 C CNN "Supplier "
+F 8 "DMN67D8L-7DICT-ND" H 18500 2250 50  0001 C CNN "Supplier P/N"
 	1    18500 2250
 	1    0    0    -1  
 $EndComp
@@ -1582,12 +1567,12 @@ AR Path="/60D04563/60E41B40" Ref="Q6"  Part="1"
 F 0 "Q6" H 18700 2900 50  0000 L CNN
 F 1 "DMN67D7L" H 18700 2800 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 18700 2825 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 18500 2900 50  0001 L CNN
-F 4 "$0.28" H 18500 2900 50  0001 C CNN "Item Cost"
-F 5 "DMN67D7L-7" H 18500 2900 50  0001 C CNN "MFN"
+F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 18500 2900 50  0001 L CNN
+F 4 "$0.21" H 18500 2900 50  0001 C CNN "Item Cost"
+F 5 "DMN67D8L-7" H 18500 2900 50  0001 C CNN "MFN"
 F 6 "Diodes Inc." H 18500 2900 50  0001 C CNN "Manufacturer"
-F 7 "Mouser Electronics" H 18500 2900 50  0001 C CNN "Supplier "
-F 8 "621-DMN67D7L-7" H 18500 2900 50  0001 C CNN "Supplier P/N"
+F 7 "Digi-Key" H 18500 2900 50  0001 C CNN "Supplier "
+F 8 "DMN67D8L-7DICT-ND" H 18500 2900 50  0001 C CNN "Supplier P/N"
 	1    18500 2900
 	1    0    0    -1  
 $EndComp
@@ -1639,36 +1624,6 @@ Wire Wire Line
 	16850 2150 17350 2150
 Wire Wire Line
 	16850 2450 17350 2450
-Wire Wire Line
-	10500 2450 11000 2450
-Wire Wire Line
-	10500 2350 11000 2350
-Wire Wire Line
-	10500 2150 11000 2150
-Wire Wire Line
-	10500 2050 11000 2050
-Wire Wire Line
-	10500 1550 11000 1550
-Entry Wire Line
-	11000 2450 11100 2350
-Entry Wire Line
-	11000 2350 11100 2250
-Entry Wire Line
-	11000 2150 11100 2050
-Entry Wire Line
-	11000 2050 11100 1950
-Entry Wire Line
-	11000 1550 11100 1450
-Text Label 11000 1550 2    50   ~ 0
-TEST0
-Text Label 11000 2050 2    50   ~ 0
-TEST1
-Text Label 11000 2150 2    50   ~ 0
-TEST2
-Text Label 11000 2350 2    50   ~ 0
-TEST3
-Text Label 11000 2450 2    50   ~ 0
-TEST4
 Wire Wire Line
 	4050 5550 4700 5550
 $Comp
@@ -2027,26 +1982,8 @@ F 8 "732-7965-1-ND" H 1800 5350 50  0001 C CNN "Supplier P/N"
 	1    1800 5350
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	11900 2050 12000 2150
-Entry Wire Line
-	11900 1950 12000 2050
-Entry Wire Line
-	11900 1850 12000 1950
-Entry Wire Line
-	11900 1750 12000 1850
-Entry Wire Line
-	11900 1650 12000 1750
 Wire Wire Line
 	12500 2150 12000 2150
-Wire Wire Line
-	12500 2050 12000 2050
-Wire Wire Line
-	12500 1950 12000 1950
-Wire Wire Line
-	12500 1850 12000 1850
-Wire Wire Line
-	12500 1750 12000 1750
 Text Label 12000 2150 0    50   ~ 0
 TEST4
 Text Label 12000 2050 0    50   ~ 0
@@ -2107,8 +2044,6 @@ F 3 "~" H 12700 1950 50  0001 C CNN
 	1    12700 1950
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	11100 1450 11900 1450
 Wire Wire Line
 	10600 6050 10600 6300
 $Comp
@@ -2133,21 +2068,6 @@ Wire Wire Line
 	17800 1850 17650 1850
 Wire Wire Line
 	17400 1950 16850 1950
-$Comp
-L readout:Trenz_TEBA0714-B2B_JM2 J14
-U 1 1 60E42A8D
-P 16250 3600
-F 0 "J14" H 16250 6325 50  0000 C CNN
-F 1 "Trenz_TEBA0714-B2B_JM2" H 16250 6234 50  0000 C CNN
-F 2 "Connector_Samtec:Samtec_LSHM-150-xx.x-x-DV-S_2x50-1SH_P0.50mm_Vertical" H 16250 3600 50  0001 C CNN
-F 3 "https://www.samtec.com/products/lshm-150-04.0-l-dv-a-s-k-tr" H 16250 3600 50  0001 C CNN
-F 4 "$10.37" H 16250 3600 50  0001 C CNN "Item Cost"
-F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 16250 3600 50  0001 C CNN "MFN"
-F 6 "SAM14152CT-ND" H 16250 3600 50  0001 C CNN "Supplier P/N"
-F 7 "Digi-Key" H 16250 3600 50  0001 C CNN "Supplier "
-	1    16250 3600
-	1    0    0    -1  
-$EndComp
 Text Label 14900 1850 0    50   ~ 0
 TRIG_OUT_B7
 Text Label 14900 3250 0    50   ~ 0
@@ -2298,42 +2218,98 @@ AR Path="/6099D1B7/60FD43A7" Ref="#PWR?"  Part="1"
 AR Path="/60AD0200/60AFD3C0/60FD43A7" Ref="#PWR?"  Part="1" 
 AR Path="/606EBC4D/60FD43A7" Ref="#PWR?"  Part="1" 
 AR Path="/60BC24EA/60FD43A7" Ref="#PWR?"  Part="1" 
-AR Path="/60D04563/60FD43A7" Ref="#PWR0168"  Part="1" 
-F 0 "#PWR0168" H 3550 6450 50  0001 C CNN
+AR Path="/60D04563/60FD43A7" Ref="#PWR089"  Part="1" 
+F 0 "#PWR089" H 3550 6450 50  0001 C CNN
 F 1 "GNDD" H 3554 6545 50  0000 C CNN
 F 2 "" H 3550 6700 50  0001 C CNN
 F 3 "" H 3550 6700 50  0001 C CNN
 	1    3550 6700
 	-1   0    0    -1  
 $EndComp
-Wire Bus Line
-	11600 2550 11600 2750
 Wire Wire Line
-	16850 2350 18000 2350
-Wire Bus Line
-	8200 5450 8200 5750
-Wire Bus Line
-	17450 1950 17450 2450
-Wire Bus Line
-	8450 2350 8450 2750
-Wire Bus Line
-	11100 1450 11100 2350
-Wire Bus Line
-	17700 1050 17700 1750
-Wire Bus Line
-	11900 1450 11900 2050
+	12000 2450 12000 2150
+Wire Wire Line
+	10500 2450 12000 2450
+Wire Wire Line
+	11900 2350 11900 2050
+Wire Wire Line
+	10500 2350 11900 2350
+Wire Wire Line
+	11900 2050 12500 2050
+Wire Wire Line
+	11800 2150 11800 1950
+Wire Wire Line
+	10500 2150 11800 2150
+Wire Wire Line
+	11800 1950 12500 1950
+Wire Wire Line
+	11700 2050 11700 1850
+Wire Wire Line
+	10500 2050 11700 2050
+Wire Wire Line
+	11700 1850 12500 1850
+Wire Wire Line
+	10500 1550 11700 1550
 Wire Bus Line
 	8200 4250 8200 5050
 Wire Bus Line
 	11600 4150 11600 5050
 Wire Bus Line
+	8450 2350 8450 2750
+Wire Bus Line
 	8200 2850 8200 3850
 Wire Bus Line
+	11600 2550 11600 2750
+Wire Bus Line
+	17450 1950 17450 2450
+Wire Wire Line
+	16850 2350 18000 2350
+Wire Bus Line
+	8200 5450 8200 5750
+Wire Bus Line
 	11600 2850 11600 3850
+Wire Bus Line
+	14800 1050 14800 3550
+Wire Bus Line
+	17700 1050 17700 1750
 Wire Bus Line
 	17700 3750 17700 5850
 Wire Bus Line
 	14800 3750 14800 5750
-Wire Bus Line
-	14800 1050 14800 3550
+Wire Wire Line
+	11700 1750 12500 1750
+Wire Wire Line
+	11700 1550 11700 1750
+$Comp
+L readout:Trenz_Module J12
+U 1 1 60F5AE35
+P 9900 3600
+F 0 "J12" H 9900 6275 50  0000 C CNN
+F 1 "Trenz_Module" H 9900 6184 50  0000 C CNN
+F 2 "readout_trenz:Trenz_Module" H 11100 4850 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 11100 4850 50  0001 C CNN
+F 4 "$10.37" H 9900 3600 50  0001 C CNN "Item Cost"
+F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 9900 3600 50  0001 C CNN "MFN"
+F 6 "Samtec Inc." H 9900 3600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9900 3600 50  0001 C CNN "Supplier "
+F 8 "SAM14152CT-ND" H 9900 3600 50  0001 C CNN "Supplier P/N"
+	1    9900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:Trenz_Module J12
+U 2 1 60F5F22C
+P 16250 3600
+F 0 "J12" H 16250 6275 50  0000 C CNN
+F 1 "Trenz_Module" H 16250 6184 50  0000 C CNN
+F 2 "readout_trenz:Trenz_Module" H 17450 4850 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 17450 4850 50  0001 C CNN
+F 4 "$10.37" H 16250 3600 50  0001 C CNN "Item Cost"
+F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 16250 3600 50  0001 C CNN "MFN"
+F 6 "Samtec Inc." H 16250 3600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 16250 3600 50  0001 C CNN "Supplier "
+F 8 "SAM14152CT-ND" H 16250 3600 50  0001 C CNN "Supplier P/N"
+	2    16250 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

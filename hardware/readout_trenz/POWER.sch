@@ -1241,12 +1241,12 @@ AR Path="/60D04563/612A108E" Ref="Q?"  Part="1"
 F 0 "Q2" H 8100 2500 50  0000 L CNN
 F 1 "DMN67D7L" H 8100 2400 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8100 2425 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 7900 2500 50  0001 L CNN
-F 4 "$0.28" H 7900 2500 50  0001 C CNN "Item Cost"
-F 5 "DMN67D7L-7" H 7900 2500 50  0001 C CNN "MFN"
+F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 7900 2500 50  0001 L CNN
+F 4 "$0.21" H 7900 2500 50  0001 C CNN "Item Cost"
+F 5 "DMN67D8L-7" H 7900 2500 50  0001 C CNN "MFN"
 F 6 "Diodes Inc." H 7900 2500 50  0001 C CNN "Manufacturer"
-F 7 "Mouser Electronics" H 7900 2500 50  0001 C CNN "Supplier "
-F 8 "621-DMN67D7L-7" H 7900 2500 50  0001 C CNN "Supplier P/N"
+F 7 "Digi-Key" H 7900 2500 50  0001 C CNN "Supplier "
+F 8 "DMN67D8L-7DICT-ND" H 7900 2500 50  0001 C CNN "Supplier P/N"
 	1    7900 2500
 	1    0    0    -1  
 $EndComp
@@ -1338,12 +1338,12 @@ AR Path="/60D04563/60DD1453" Ref="Q?"  Part="1"
 F 0 "Q1" H 6350 1450 50  0000 L CNN
 F 1 "DMN67D7L" H 6350 1350 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6350 1375 50  0001 L CIN
-F 3 "http://www.diodes.com/assets/Datasheets/DMN67D7L.pdf" H 6150 1450 50  0001 L CNN
-F 4 "$0.28" H 6150 1450 50  0001 C CNN "Item Cost"
-F 5 "DMN67D7L-7" H 6150 1450 50  0001 C CNN "MFN"
+F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 6150 1450 50  0001 L CNN
+F 4 "$0.21" H 6150 1450 50  0001 C CNN "Item Cost"
+F 5 "DMN67D8L-7" H 6150 1450 50  0001 C CNN "MFN"
 F 6 "Diodes Inc." H 6150 1450 50  0001 C CNN "Manufacturer"
-F 7 "Mouser Electronics" H 6150 1450 50  0001 C CNN "Supplier "
-F 8 "621-DMN67D7L-7" H 6150 1450 50  0001 C CNN "Supplier P/N"
+F 7 "Digi-Key" H 6150 1450 50  0001 C CNN "Supplier "
+F 8 "DMN67D8L-7DICT-ND" H 6150 1450 50  0001 C CNN "Supplier P/N"
 	1    6150 1450
 	-1   0    0    -1  
 $EndComp
