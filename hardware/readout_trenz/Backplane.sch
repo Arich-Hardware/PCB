@@ -14,9 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 7950 900  2    50   Output ~ 0
-B1_[0..31]
+SIPM_IN_ONE[0..31]
 Text HLabel 3750 900  0    50   Output ~ 0
-B2_[0..31]
+SIPM_IN_TWO[0..31]
 NoConn ~ 5350 5000
 NoConn ~ 5350 5100
 NoConn ~ 5350 5200
@@ -54,26 +54,6 @@ Wire Wire Line
 	6350 3700 6450 3700
 Wire Wire Line
 	6350 4600 6450 4600
-$Comp
-L readout:ERF8-060-05.0-L-DV J9
-U 1 1 60C1AFA4
-P 5850 3950
-AR Path="/60C946F3/60C1AFA4" Ref="J9"  Part="1" 
-AR Path="/60CAE390/60C1AFA4" Ref="J?"  Part="1" 
-AR Path="/60C1AFA4" Ref="J?"  Part="1" 
-F 0 "J9" H 5850 7150 50  0000 C CNN
-F 1 "ERM8-060-05.0-L-DV" H 5850 7050 50  0000 C CNN
-F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 5850 3950 50  0001 L BNN
-F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 5850 3950 50  0001 L BNN
-F 4 "$13.11" H 5850 3950 50  0001 C CNN "Item Cost"
-F 5 "ERM8-060-01-L-D-RA-K-TR" H 5850 3950 50  0001 C CNN "MFN"
-F 6 "" H 5850 3950 50  0001 C CNN "Supplier"
-F 7 "SAM13809CT-ND" H 5850 3950 50  0001 C CNN "Supplier P/N"
-F 8 "Samtec" H 5850 3950 50  0001 C CNN "Manufacturer"
-F 9 "Digi-Key" H 5850 3950 50  0001 C CNN "Supplier "
-	1    5850 3950
-	1    0    0    -1  
-$EndComp
 NoConn ~ 6350 6200
 NoConn ~ 6350 6100
 NoConn ~ 6350 6000
@@ -111,8 +91,6 @@ Wire Wire Line
 Connection ~ 5250 1900
 Wire Wire Line
 	5350 1900 5250 1900
-Text Label 4750 900  2    50   ~ 0
-B2_[0..31]
 Wire Wire Line
 	5250 4600 5250 4950
 Connection ~ 5250 4600
@@ -259,139 +237,11 @@ Entry Wire Line
 	6850 1300 6950 1200
 Entry Wire Line
 	6850 1200 6950 1100
-Text Label 6850 1100 2    50   ~ 0
-B1_0
-Text Label 6850 1200 2    50   ~ 0
-B1_1
-Text Label 6850 1300 2    50   ~ 0
-B1_2
-Text Label 6850 1400 2    50   ~ 0
-B1_3
-Text Label 6850 1500 2    50   ~ 0
-B1_4
-Text Label 6850 1600 2    50   ~ 0
-B1_5
-Text Label 6850 1700 2    50   ~ 0
-B1_6
-Text Label 6850 1800 2    50   ~ 0
-B1_7
-Text Label 6850 2000 2    50   ~ 0
-B1_8
-Text Label 6850 2100 2    50   ~ 0
-B1_9
-Text Label 6850 2200 2    50   ~ 0
-B1_10
-Text Label 6850 2300 2    50   ~ 0
-B1_11
-Text Label 6850 2400 2    50   ~ 0
-B1_12
-Text Label 6850 2500 2    50   ~ 0
-B1_13
-Text Label 6850 2600 2    50   ~ 0
-B1_14
-Text Label 6850 2700 2    50   ~ 0
-B1_15
-Text Label 6850 2900 2    50   ~ 0
-B1_16
-Text Label 6850 3000 2    50   ~ 0
-B1_17
-Text Label 6850 3100 2    50   ~ 0
-B1_18
-Text Label 6850 3200 2    50   ~ 0
-B1_19
-Text Label 6850 3300 2    50   ~ 0
-B1_20
-Text Label 6850 3400 2    50   ~ 0
-B1_21
-Text Label 6850 3500 2    50   ~ 0
-B1_22
-Text Label 6850 3600 2    50   ~ 0
-B1_23
-Text Label 6850 3800 2    50   ~ 0
-B1_24
-Text Label 6850 3900 2    50   ~ 0
-B1_25
-Text Label 6850 4000 2    50   ~ 0
-B1_26
-Text Label 6850 4100 2    50   ~ 0
-B1_27
-Text Label 6850 4200 2    50   ~ 0
-B1_28
-Text Label 6850 4300 2    50   ~ 0
-B1_29
-Text Label 6850 4400 2    50   ~ 0
-B1_30
-Text Label 6850 4500 2    50   ~ 0
-B1_31
-Text Label 4850 1100 0    50   ~ 0
-B2_0
-Text Label 4850 1200 0    50   ~ 0
-B2_1
-Text Label 4850 1300 0    50   ~ 0
-B2_2
-Text Label 4850 1400 0    50   ~ 0
-B2_3
-Text Label 4850 1500 0    50   ~ 0
-B2_4
-Text Label 4850 1600 0    50   ~ 0
-B2_5
-Text Label 4850 1700 0    50   ~ 0
-B2_6
-Text Label 4850 1800 0    50   ~ 0
-B2_7
-Text Label 4850 2000 0    50   ~ 0
-B2_8
-Text Label 4850 2100 0    50   ~ 0
-B2_9
-Text Label 4850 2200 0    50   ~ 0
-B2_10
-Text Label 4850 2300 0    50   ~ 0
-B2_11
-Text Label 4850 2400 0    50   ~ 0
-B2_12
-Text Label 4850 2500 0    50   ~ 0
-B2_13
-Text Label 4850 2600 0    50   ~ 0
-B2_14
-Text Label 4850 2700 0    50   ~ 0
-B2_15
-Text Label 4850 2900 0    50   ~ 0
-B2_16
-Text Label 4850 3000 0    50   ~ 0
-B2_17
-Text Label 4850 3100 0    50   ~ 0
-B2_18
-Text Label 4850 3200 0    50   ~ 0
-B2_19
-Text Label 4850 3300 0    50   ~ 0
-B2_20
-Text Label 4850 3400 0    50   ~ 0
-B2_21
-Text Label 4850 3500 0    50   ~ 0
-B2_22
-Text Label 4850 3600 0    50   ~ 0
-B2_23
-Text Label 4850 3800 0    50   ~ 0
-B2_24
-Text Label 4850 3900 0    50   ~ 0
-B2_25
-Text Label 4850 4000 0    50   ~ 0
-B2_26
-Text Label 4850 4100 0    50   ~ 0
-B2_27
-Text Label 4850 4200 0    50   ~ 0
-B2_28
-Text Label 4850 4300 0    50   ~ 0
-B2_29
-Text Label 4850 4400 0    50   ~ 0
-B2_30
-Text Label 4850 4500 0    50   ~ 0
-B2_31
 $Comp
-L power:+3.3V #PWR086
+L power:+3.3V #PWR084
 U 1 1 6100ADFC
 P 6950 4800
-F 0 "#PWR086" H 6950 4650 50  0001 C CNN
+F 0 "#PWR084" H 6950 4650 50  0001 C CNN
 F 1 "+3.3V" H 7100 4850 50  0000 C CNN
 F 2 "" H 6950 4800 50  0001 C CNN
 F 3 "" H 6950 4800 50  0001 C CNN
@@ -526,13 +376,11 @@ Wire Wire Line
 	6350 4400 6850 4400
 Wire Wire Line
 	6350 4500 6850 4500
-Text Label 6950 900  0    50   ~ 0
-B1_[0..31]
 $Comp
-L power:GNDA #PWR085
+L power:GNDA #PWR083
 U 1 1 613F0EC5
 P 6450 4950
-F 0 "#PWR085" H 6450 4700 50  0001 C CNN
+F 0 "#PWR083" H 6450 4700 50  0001 C CNN
 F 1 "GNDA" H 6455 4777 50  0000 C CNN
 F 2 "" H 6450 4950 50  0001 C CNN
 F 3 "" H 6450 4950 50  0001 C CNN
@@ -540,10 +388,10 @@ F 3 "" H 6450 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR084
+L power:GNDA #PWR082
 U 1 1 613F1248
 P 5250 4950
-F 0 "#PWR084" H 5250 4700 50  0001 C CNN
+F 0 "#PWR082" H 5250 4700 50  0001 C CNN
 F 1 "GNDA" H 5255 4777 50  0000 C CNN
 F 2 "" H 5250 4950 50  0001 C CNN
 F 3 "" H 5250 4950 50  0001 C CNN
@@ -600,4 +448,155 @@ Wire Bus Line
 	6950 900  6950 4400
 Wire Bus Line
 	4750 900  4750 4400
+Text Label 4850 4500 0    50   ~ 0
+SIPM_IN_TWO31
+Text Label 4850 4400 0    50   ~ 0
+SIPM_IN_TWO30
+Text Label 4850 4300 0    50   ~ 0
+SIPM_IN_TWO29
+Text Label 4850 4200 0    50   ~ 0
+SIPM_IN_TWO28
+Text Label 4850 4100 0    50   ~ 0
+SIPM_IN_TWO27
+Text Label 4850 4000 0    50   ~ 0
+SIPM_IN_TWO26
+Text Label 4850 3900 0    50   ~ 0
+SIPM_IN_TWO25
+Text Label 4850 3800 0    50   ~ 0
+SIPM_IN_TWO24
+Text Label 4850 3600 0    50   ~ 0
+SIPM_IN_TWO23
+Text Label 4850 3500 0    50   ~ 0
+SIPM_IN_TWO22
+Text Label 4850 3400 0    50   ~ 0
+SIPM_IN_TWO21
+Text Label 4850 3300 0    50   ~ 0
+SIPM_IN_TWO20
+Text Label 4850 3200 0    50   ~ 0
+SIPM_IN_TWO19
+Text Label 4850 3100 0    50   ~ 0
+SIPM_IN_TWO18
+Text Label 4850 3000 0    50   ~ 0
+SIPM_IN_TWO17
+Text Label 4850 2900 0    50   ~ 0
+SIPM_IN_TWO16
+Text Label 4850 2700 0    50   ~ 0
+SIPM_IN_TWO15
+Text Label 4850 2600 0    50   ~ 0
+SIPM_IN_TWO14
+Text Label 4850 2500 0    50   ~ 0
+SIPM_IN_TWO13
+Text Label 4850 2400 0    50   ~ 0
+SIPM_IN_TWO12
+Text Label 4850 2300 0    50   ~ 0
+SIPM_IN_TWO11
+Text Label 4850 2200 0    50   ~ 0
+SIPM_IN_TWO10
+Text Label 4850 2100 0    50   ~ 0
+SIPM_IN_TWO9
+Text Label 4850 2000 0    50   ~ 0
+SIPM_IN_TWO8
+Text Label 4850 1800 0    50   ~ 0
+SIPM_IN_TWO7
+Text Label 4850 1700 0    50   ~ 0
+SIPM_IN_TWO6
+Text Label 4850 1600 0    50   ~ 0
+SIPM_IN_TWO5
+Text Label 4850 1500 0    50   ~ 0
+SIPM_IN_TWO4
+Text Label 4850 1400 0    50   ~ 0
+SIPM_IN_TWO3
+Text Label 4850 1300 0    50   ~ 0
+SIPM_IN_TWO2
+Text Label 4850 1200 0    50   ~ 0
+SIPM_IN_TWO1
+Text Label 4850 1100 0    50   ~ 0
+SIPM_IN_TWO0
+Text Label 4750 900  2    50   ~ 0
+SIPM_IN_TWO[0..31]
+Text Label 6950 900  0    50   ~ 0
+SIPM_IN_ONE[0..31]
+Text Label 6850 4500 2    50   ~ 0
+SIPM_IN_ONE31
+Text Label 6850 4400 2    50   ~ 0
+SIPM_IN_ONE30
+Text Label 6850 4300 2    50   ~ 0
+SIPM_IN_ONE29
+Text Label 6850 4200 2    50   ~ 0
+SIPM_IN_ONE28
+Text Label 6850 4100 2    50   ~ 0
+SIPM_IN_ONE27
+Text Label 6850 4000 2    50   ~ 0
+SIPM_IN_ONE26
+Text Label 6850 3900 2    50   ~ 0
+SIPM_IN_ONE25
+Text Label 6850 3800 2    50   ~ 0
+SIPM_IN_ONE24
+Text Label 6850 3600 2    50   ~ 0
+SIPM_IN_ONE23
+Text Label 6850 3500 2    50   ~ 0
+SIPM_IN_ONE22
+Text Label 6850 3400 2    50   ~ 0
+SIPM_IN_ONE21
+Text Label 6850 3300 2    50   ~ 0
+SIPM_IN_ONE20
+Text Label 6850 3200 2    50   ~ 0
+SIPM_IN_ONE19
+Text Label 6850 3100 2    50   ~ 0
+SIPM_IN_ONE18
+Text Label 6850 3000 2    50   ~ 0
+SIPM_IN_ONE17
+Text Label 6850 2900 2    50   ~ 0
+SIPM_IN_ONE16
+Text Label 6850 2700 2    50   ~ 0
+SIPM_IN_ONE15
+Text Label 6850 2600 2    50   ~ 0
+SIPM_IN_ONE14
+Text Label 6850 2500 2    50   ~ 0
+SIPM_IN_ONE13
+Text Label 6850 2400 2    50   ~ 0
+SIPM_IN_ONE12
+Text Label 6850 2300 2    50   ~ 0
+SIPM_IN_ONE11
+Text Label 6850 2200 2    50   ~ 0
+SIPM_IN_ONE10
+Text Label 6850 2100 2    50   ~ 0
+SIPM_IN_ONE9
+Text Label 6850 2000 2    50   ~ 0
+SIPM_IN_ONE8
+Text Label 6850 1800 2    50   ~ 0
+SIPM_IN_ONE7
+Text Label 6850 1700 2    50   ~ 0
+SIPM_IN_ONE6
+Text Label 6850 1600 2    50   ~ 0
+SIPM_IN_ONE5
+Text Label 6850 1500 2    50   ~ 0
+SIPM_IN_ONE4
+Text Label 6850 1400 2    50   ~ 0
+SIPM_IN_ONE3
+Text Label 6850 1300 2    50   ~ 0
+SIPM_IN_ONE2
+Text Label 6850 1200 2    50   ~ 0
+SIPM_IN_ONE1
+Text Label 6850 1100 2    50   ~ 0
+SIPM_IN_ONE0
+$Comp
+L readout:ERF8-060-05.0-L-DV J8
+U 1 1 60C1AFA4
+P 5850 3950
+AR Path="/60C946F3/60C1AFA4" Ref="J8"  Part="1" 
+AR Path="/60CAE390/60C1AFA4" Ref="J?"  Part="1" 
+AR Path="/60C1AFA4" Ref="J?"  Part="1" 
+F 0 "J8" H 5850 7150 50  0000 C CNN
+F 1 "ERM8-060-05.0-L-DV" H 5850 7050 50  0000 C CNN
+F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 5850 3950 50  0001 L BNN
+F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 5850 3950 50  0001 L BNN
+F 4 "$13.11" H 5850 3950 50  0001 C CNN "Item Cost"
+F 5 "ERM8-060-01-L-D-RA-K-TR" H 5850 3950 50  0001 C CNN "MFN"
+F 6 "SAM13809CT-ND" H 5850 3950 50  0001 C CNN "Supplier P/N"
+F 7 "Samtec" H 5850 3950 50  0001 C CNN "Manufacturer"
+F 8 "Digi-Key" H 5850 3950 50  0001 C CNN "Supplier "
+	1    5850 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
