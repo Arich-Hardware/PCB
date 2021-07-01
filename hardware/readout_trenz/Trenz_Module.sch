@@ -82,107 +82,6 @@ F 8 "1292-WR12X4701FTLCT-ND" H 5100 5900 50  0001 C CNN "Supplier P/N"
 	1    5100 5900
 	1    0    0    -1  
 $EndComp
-Connection ~ 3600 6950
-Wire Wire Line
-	3600 6950 3600 7050
-Wire Wire Line
-	4400 7050 4400 6950
-Wire Wire Line
-	4500 6950 4400 6950
-Connection ~ 4400 6950
-Wire Wire Line
-	4400 6950 4300 6950
-Wire Wire Line
-	4300 6950 4300 7050
-Connection ~ 4300 6950
-Wire Wire Line
-	4300 6950 4200 6950
-Wire Wire Line
-	4200 7050 4200 6950
-Connection ~ 4200 6950
-Wire Wire Line
-	4200 6950 4100 6950
-Wire Wire Line
-	4100 7050 4100 6950
-Connection ~ 4100 6950
-Wire Wire Line
-	4100 6950 4000 6950
-Wire Wire Line
-	4000 7050 4000 6950
-Connection ~ 4000 6950
-Wire Wire Line
-	4000 6950 3900 6950
-Wire Wire Line
-	3900 7050 3900 6950
-Connection ~ 3900 6950
-Wire Wire Line
-	3900 6950 3800 6950
-Wire Wire Line
-	3800 7050 3800 6950
-Connection ~ 3800 6950
-Wire Wire Line
-	3800 6950 3700 6950
-Wire Wire Line
-	3700 7050 3700 6950
-Connection ~ 3700 6950
-Wire Wire Line
-	3700 6950 3600 6950
-Wire Wire Line
-	3500 7050 3500 6950
-Wire Wire Line
-	2600 6950 2600 7050
-Wire Wire Line
-	3600 6950 3550 6950
-Connection ~ 3500 6950
-Wire Wire Line
-	3500 6950 3400 6950
-Wire Wire Line
-	2700 7050 2700 6950
-Connection ~ 2700 6950
-Wire Wire Line
-	2700 6950 2600 6950
-Wire Wire Line
-	2800 6950 2800 7050
-Connection ~ 2800 6950
-Wire Wire Line
-	2800 6950 2700 6950
-Wire Wire Line
-	2900 7050 2900 6950
-Connection ~ 2900 6950
-Wire Wire Line
-	2900 6950 2800 6950
-Wire Wire Line
-	3000 6950 3000 7050
-Connection ~ 3000 6950
-Wire Wire Line
-	3000 6950 2900 6950
-Wire Wire Line
-	3100 7050 3100 6950
-Connection ~ 3100 6950
-Wire Wire Line
-	3100 6950 3000 6950
-Wire Wire Line
-	3200 6950 3200 7050
-Connection ~ 3200 6950
-Wire Wire Line
-	3200 6950 3100 6950
-Wire Wire Line
-	3300 7050 3300 6950
-Connection ~ 3300 6950
-Wire Wire Line
-	3300 6950 3200 6950
-Wire Wire Line
-	3400 6950 3400 7050
-Connection ~ 3400 6950
-Wire Wire Line
-	3400 6950 3300 6950
-Wire Wire Line
-	4650 6950 4500 6950
-Wire Wire Line
-	3550 6700 3550 6950
-Connection ~ 3550 6950
-Wire Wire Line
-	3550 6950 3500 6950
 $Comp
 L readout:Trenz_TEBA0714-B2B_JM1 J12
 U 1 1 60D57C1A
@@ -405,8 +304,8 @@ AR Path="/60AD0200/60B2D848/60DFEC46" Ref="#PWR?"  Part="1"
 AR Path="/607155C8/60DFEC46" Ref="#PWR?"  Part="1" 
 AR Path="/606EBC4D/60DFEC46" Ref="#PWR?"  Part="1" 
 AR Path="/60BC2588/60DFEC46" Ref="#PWR?"  Part="1" 
-AR Path="/60D04563/60DFEC46" Ref="#PWR090"  Part="1" 
-F 0 "#PWR090" H 3700 2400 50  0001 C CNN
+AR Path="/60D04563/60DFEC46" Ref="#PWR089"  Part="1" 
+F 0 "#PWR089" H 3700 2400 50  0001 C CNN
 F 1 "GNDD" H 3700 2500 50  0000 C CNN
 F 2 "" H 3700 2650 50  0001 C CNN
 F 3 "" H 3700 2650 50  0001 C CNN
@@ -1042,8 +941,8 @@ L power:+1V8 #PWR?
 U 1 1 61119E3F
 P 9050 4150
 AR Path="/61119E3F" Ref="#PWR?"  Part="1" 
-AR Path="/60D04563/61119E3F" Ref="#PWR091"  Part="1" 
-F 0 "#PWR091" H 9050 4000 50  0001 C CNN
+AR Path="/60D04563/61119E3F" Ref="#PWR092"  Part="1" 
+F 0 "#PWR092" H 9050 4000 50  0001 C CNN
 F 1 "+1V8" H 9065 4323 50  0000 C CNN
 F 2 "" H 9050 4150 50  0001 C CNN
 F 3 "" H 9050 4150 50  0001 C CNN
@@ -1095,17 +994,6 @@ F 2 "" H 9300 2550 50  0001 C CNN
 F 3 "" H 9300 2550 50  0001 C CNN
 	1    9300 2550
 	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR088
-U 1 1 6148EA73
-P 4650 6950
-F 0 "#PWR088" H 4650 6700 50  0001 C CNN
-F 1 "GNDD" V 4654 6840 50  0000 R CNN
-F 2 "" H 4650 6950 50  0001 C CNN
-F 3 "" H 4650 6950 50  0001 C CNN
-	1    4650 6950
-	0    -1   1    0   
 $EndComp
 $Comp
 L power:GNDD #PWR098
@@ -1227,8 +1115,8 @@ AR Path="/6099D1B7/6171CDF6" Ref="#PWR?"  Part="1"
 AR Path="/60AD0200/60AFD3C0/6171CDF6" Ref="#PWR?"  Part="1" 
 AR Path="/606EBC4D/6171CDF6" Ref="#PWR?"  Part="1" 
 AR Path="/60BC24EA/6171CDF6" Ref="#PWR?"  Part="1" 
-AR Path="/60D04563/6171CDF6" Ref="#PWR089"  Part="1" 
-F 0 "#PWR089" H 2950 6450 50  0001 C CNN
+AR Path="/60D04563/6171CDF6" Ref="#PWR088"  Part="1" 
+F 0 "#PWR088" H 2950 6450 50  0001 C CNN
 F 1 "GNDD" H 2954 6545 50  0000 C CNN
 F 2 "" H 2950 6700 50  0001 C CNN
 F 3 "" H 2950 6700 50  0001 C CNN
@@ -1245,8 +1133,8 @@ AR Path="/6099D1B7/6173EC11" Ref="#PWR?"  Part="1"
 AR Path="/60AD0200/60AFD3C0/6173EC11" Ref="#PWR?"  Part="1" 
 AR Path="/606EBC4D/6173EC11" Ref="#PWR?"  Part="1" 
 AR Path="/60BC24EA/6173EC11" Ref="#PWR?"  Part="1" 
-AR Path="/60D04563/6173EC11" Ref="#PWR092"  Part="1" 
-F 0 "#PWR092" H 8950 6050 50  0001 C CNN
+AR Path="/60D04563/6173EC11" Ref="#PWR091"  Part="1" 
+F 0 "#PWR091" H 8950 6050 50  0001 C CNN
 F 1 "GNDD" H 8954 6145 50  0000 C CNN
 F 2 "" H 8950 6300 50  0001 C CNN
 F 3 "" H 8950 6300 50  0001 C CNN
@@ -1330,8 +1218,6 @@ Text Notes 3150 4700 0    197  ~ 39
 SFP
 Text Notes 11150 900  0    197  ~ 39
 B2B CONNECTORS\n
-Wire Wire Line
-	4500 6950 4500 7050
 $Comp
 L power:GNDD #PWR?
 U 1 1 6270375E
@@ -1795,17 +1681,6 @@ F 2 "Connector:Connector_SFP_and_Cage" H 3550 5900 50  0001 C CNN
 F 3 "" H 3550 5900 50  0001 C CNN
 	1    3550 5900
 	1    0    0    -1  
-$EndComp
-$Comp
-L readout:TrenzSFP+cage J11
-U 2 1 60E816C5
-P 3550 7300
-F 0 "J11" V 3750 7300 50  0000 C CNN
-F 1 "TrenzSFP+cage" V 3814 7305 50  0000 C CNN
-F 2 "Connector:Connector_SFP_and_Cage" H 3550 7300 50  0001 C CNN
-F 3 "" H 3550 7300 50  0001 C CNN
-	2    3550 7300
-	0    -1   1    0   
 $EndComp
 $Comp
 L readout:SparkfunFT232RL J10
@@ -2273,7 +2148,6 @@ F 7 "Digi-Key" H 16250 3600 50  0001 C CNN "Supplier "
 	1    16250 3600
 	1    0    0    -1  
 $EndComp
-Connection ~ 4500 6950
 Text Label 14900 1850 0    50   ~ 0
 TRIG_OUT_B7
 Text Label 14900 3250 0    50   ~ 0
@@ -2414,6 +2288,24 @@ Wire Wire Line
 	16850 5850 17600 5850
 Wire Wire Line
 	16850 5950 17600 5950
+$Comp
+L power:GNDD #PWR?
+U 1 1 60FD43A7
+P 3550 6700
+AR Path="/60FD43A7" Ref="#PWR?"  Part="1" 
+AR Path="/608B2FC0/60FD43A7" Ref="#PWR?"  Part="1" 
+AR Path="/6099D1B7/60FD43A7" Ref="#PWR?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/60FD43A7" Ref="#PWR?"  Part="1" 
+AR Path="/606EBC4D/60FD43A7" Ref="#PWR?"  Part="1" 
+AR Path="/60BC24EA/60FD43A7" Ref="#PWR?"  Part="1" 
+AR Path="/60D04563/60FD43A7" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR0168" H 3550 6450 50  0001 C CNN
+F 1 "GNDD" H 3554 6545 50  0000 C CNN
+F 2 "" H 3550 6700 50  0001 C CNN
+F 3 "" H 3550 6700 50  0001 C CNN
+	1    3550 6700
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
 	11600 2550 11600 2750
 Wire Wire Line
