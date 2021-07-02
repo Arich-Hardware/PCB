@@ -71,8 +71,8 @@ F0 "Backplane" 50
 F1 "Backplane.sch" 50
 F2 "OUT" O R 2500 6000 50 
 F3 "BIAS[1..4]" I L 1500 6450 50 
-F4 "SIPM_IN_B[0..31]" O R 2500 4500 50 
-F5 "SIPM_IN_A[0..31]" O R 2500 1500 50 
+F4 "SIPM_IN_B[0..31]" O R 2500 1500 50 
+F5 "SIPM_IN_A[0..31]" O R 2500 4500 50 
 $EndSheet
 NoConn ~ 3500 3000
 $Sheet
