@@ -509,7 +509,7 @@ U 1 1 60C983F3
 P 10400 10650
 AR Path="/60BB4A14/60C983F3" Ref="#PWR0146"  Part="1" 
 AR Path="/60BB4C00/60C983F3" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 10400 10400 50  0001 C CNN
+F 0 "#PWR0146" H 10400 10400 50  0001 C CNN
 F 1 "GNDA" H 10400 10500 50  0000 C CNB
 F 2 "" H 10400 10650 50  0001 C CNN
 F 3 "" H 10400 10650 50  0001 C CNN
@@ -752,7 +752,7 @@ U 1 1 61BCD2EC
 P 10850 8450
 AR Path="/60BB4A14/61BCD2EC" Ref="#PWR0151"  Part="1" 
 AR Path="/60BB4C00/61BCD2EC" Ref="#PWR065"  Part="1" 
-F 0 "#PWR065" H 10850 8200 50  0001 C CNN
+F 0 "#PWR0151" H 10850 8200 50  0001 C CNN
 F 1 "GNDA" H 10850 8300 50  0000 C CNB
 F 2 "" H 10850 8450 50  0001 C CNN
 F 3 "" H 10850 8450 50  0001 C CNN
@@ -867,7 +867,7 @@ U 1 1 61BCD2EA
 P 11050 10650
 AR Path="/60BB4A14/61BCD2EA" Ref="#PWR0152"  Part="1" 
 AR Path="/60BB4C00/61BCD2EA" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 11050 10400 50  0001 C CNN
+F 0 "#PWR0152" H 11050 10400 50  0001 C CNN
 F 1 "GNDA" H 11050 10500 50  0000 C CNB
 F 2 "" H 11050 10650 50  0001 C CNN
 F 3 "" H 11050 10650 50  0001 C CNN
@@ -938,7 +938,7 @@ U 1 1 61BCD342
 P 750 3750
 AR Path="/60BB4A14/61BCD342" Ref="#PWR0121"  Part="1" 
 AR Path="/60BB4C00/61BCD342" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 750 3500 50  0001 C CNN
+F 0 "#PWR0121" H 750 3500 50  0001 C CNN
 F 1 "GNDA" H 750 3600 50  0000 C CNB
 F 2 "" H 750 3750 50  0001 C CNN
 F 3 "" H 750 3750 50  0001 C CNN
@@ -969,7 +969,7 @@ U 1 1 61BCD307
 P 2250 3750
 AR Path="/60BB4A14/61BCD307" Ref="#PWR0123"  Part="1" 
 AR Path="/60BB4C00/61BCD307" Ref="#PWR037"  Part="1" 
-F 0 "#PWR037" H 2250 3500 50  0001 C CNN
+F 0 "#PWR0123" H 2250 3500 50  0001 C CNN
 F 1 "GNDA" H 2250 3600 50  0000 C CNB
 F 2 "" H 2250 3750 50  0001 C CNN
 F 3 "" H 2250 3750 50  0001 C CNN
@@ -1000,7 +1000,7 @@ U 1 1 61BCD306
 P 1200 3750
 AR Path="/60BB4A14/61BCD306" Ref="#PWR0122"  Part="1" 
 AR Path="/60BB4C00/61BCD306" Ref="#PWR036"  Part="1" 
-F 0 "#PWR036" H 1200 3500 50  0001 C CNN
+F 0 "#PWR0122" H 1200 3500 50  0001 C CNN
 F 1 "GNDA" H 1200 3600 50  0000 C CNB
 F 2 "" H 1200 3750 50  0001 C CNN
 F 3 "" H 1200 3750 50  0001 C CNN
@@ -1031,7 +1031,7 @@ U 1 1 6119862E
 P 13850 9300
 AR Path="/60BB4A14/6119862E" Ref="#PWR0163"  Part="1" 
 AR Path="/60BB4C00/6119862E" Ref="#PWR077"  Part="1" 
-F 0 "#PWR077" H 13850 9050 50  0001 C CNN
+F 0 "#PWR0163" H 13850 9050 50  0001 C CNN
 F 1 "GNDA" H 13850 9150 50  0000 C CNB
 F 2 "" H 13850 9300 50  0001 C CNN
 F 3 "" H 13850 9300 50  0001 C CNN
@@ -1044,7 +1044,7 @@ U 1 1 610892DB
 P 12850 10800
 AR Path="/60BB4A14/610892DB" Ref="#PWR0161"  Part="1" 
 AR Path="/60BB4C00/610892DB" Ref="#PWR075"  Part="1" 
-F 0 "#PWR075" H 12850 10550 50  0001 C CNN
+F 0 "#PWR0161" H 12850 10550 50  0001 C CNN
 F 1 "GNDA" H 12850 10650 50  0000 C CNB
 F 2 "" H 12850 10800 50  0001 C CNN
 F 3 "" H 12850 10800 50  0001 C CNN
@@ -1139,7 +1139,7 @@ U 1 1 61BCD353
 P 12900 9600
 AR Path="/60BB4A14/61BCD353" Ref="#PWR0162"  Part="1" 
 AR Path="/60BB4C00/61BCD353" Ref="#PWR076"  Part="1" 
-F 0 "#PWR076" H 12900 9350 50  0001 C CNN
+F 0 "#PWR0162" H 12900 9350 50  0001 C CNN
 F 1 "GNDA" H 12900 9450 50  0000 C CNB
 F 2 "" H 12900 9600 50  0001 C CNN
 F 3 "" H 12900 9600 50  0001 C CNN
@@ -1152,7 +1152,7 @@ U 1 1 60C983B1
 P 12650 9350
 AR Path="/60BB4A14/60C983B1" Ref="#PWR0159"  Part="1" 
 AR Path="/60BB4C00/60C983B1" Ref="#PWR073"  Part="1" 
-F 0 "#PWR073" H 12650 9100 50  0001 C CNN
+F 0 "#PWR0159" H 12650 9100 50  0001 C CNN
 F 1 "GNDA" H 12650 9200 50  0000 C CNB
 F 2 "" H 12650 9350 50  0001 C CNN
 F 3 "" H 12650 9350 50  0001 C CNN
@@ -1230,7 +1230,7 @@ U 1 1 611985EF
 P 12350 8800
 AR Path="/60BB4A14/611985EF" Ref="#PWR0158"  Part="1" 
 AR Path="/60BB4C00/611985EF" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 12350 8550 50  0001 C CNN
+F 0 "#PWR0158" H 12350 8550 50  0001 C CNN
 F 1 "GNDD" H 12354 8645 50  0000 C CNN
 F 2 "" H 12350 8800 50  0001 C CNN
 F 3 "" H 12350 8800 50  0001 C CNN
@@ -1264,7 +1264,7 @@ U 1 1 60C983CE
 P 11450 8800
 AR Path="/60BB4A14/60C983CE" Ref="#PWR0156"  Part="1" 
 AR Path="/60BB4C00/60C983CE" Ref="#PWR070"  Part="1" 
-F 0 "#PWR070" H 11450 8550 50  0001 C CNN
+F 0 "#PWR0156" H 11450 8550 50  0001 C CNN
 F 1 "GNDA" H 11450 8650 50  0000 C CNB
 F 2 "" H 11450 8800 50  0001 C CNN
 F 3 "" H 11450 8800 50  0001 C CNN
@@ -1277,7 +1277,7 @@ U 1 1 61165CA5
 P 10650 9050
 AR Path="/60BB4A14/61165CA5" Ref="#PWR0149"  Part="1" 
 AR Path="/60BB4C00/61165CA5" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 10650 8800 50  0001 C CNN
+F 0 "#PWR0149" H 10650 8800 50  0001 C CNN
 F 1 "GNDA" H 10650 8900 50  0000 C CNB
 F 2 "" H 10650 9050 50  0001 C CNN
 F 3 "" H 10650 9050 50  0001 C CNN
@@ -1317,7 +1317,7 @@ U 1 1 61BCD323
 P 6200 6650
 AR Path="/60BB4A14/61BCD323" Ref="#PWR0142"  Part="1" 
 AR Path="/60BB4C00/61BCD323" Ref="#PWR056"  Part="1" 
-F 0 "#PWR056" H 6200 6400 50  0001 C CNN
+F 0 "#PWR0142" H 6200 6400 50  0001 C CNN
 F 1 "GNDA" H 6200 6500 50  0000 C CNB
 F 2 "" H 6200 6650 50  0001 C CNN
 F 3 "" H 6200 6650 50  0001 C CNN
@@ -1628,14 +1628,14 @@ P 6500 7000
 AR Path="/60BB4A14/60C983D9" Ref="R71"  Part="1" 
 AR Path="/60BB4C00/60C983D9" Ref="R15"  Part="1" 
 F 0 "R15" H 6550 7000 39  0001 L CNN
-F 1 "50" V 6500 6950 50  0000 L CNN
+F 1 "49.9" V 6500 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6430 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 6500 7000 50  0001 C CNN
-F 4 "$1.98" H 6500 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 6500 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 6500 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 6500 7000 50  0001 C CNN
+F 4 "$0.1" H 6500 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 6500 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 6500 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 6500 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 6500 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 6500 7000 50  0001 C CNN "Supplier P/N"
 	1    6500 7000
 	-1   0    0    1   
 $EndComp
@@ -1664,14 +1664,14 @@ P 6650 7000
 AR Path="/60BB4A14/61BCD322" Ref="R73"  Part="1" 
 AR Path="/60BB4C00/61BCD322" Ref="R17"  Part="1" 
 F 0 "R17" H 6700 7000 39  0001 L CNN
-F 1 "50" V 6650 6950 50  0000 L CNN
+F 1 "49.9" V 6650 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6580 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 6650 7000 50  0001 C CNN
-F 4 "$1.98" H 6650 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 6650 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 6650 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 6650 7000 50  0001 C CNN
+F 4 "$0.1" H 6650 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 6650 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 6650 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 6650 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 6650 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 6650 7000 50  0001 C CNN "Supplier P/N"
 	1    6650 7000
 	-1   0    0    1   
 $EndComp
@@ -1700,14 +1700,14 @@ P 6800 7000
 AR Path="/60BB4A14/60C9838A" Ref="R75"  Part="1" 
 AR Path="/60BB4C00/60C9838A" Ref="R19"  Part="1" 
 F 0 "R19" H 6850 7000 39  0001 L CNN
-F 1 "50" V 6800 6950 50  0000 L CNN
+F 1 "49.9" V 6800 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6730 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 6800 7000 50  0001 C CNN
-F 4 "$1.98" H 6800 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 6800 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 6800 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 6800 7000 50  0001 C CNN
+F 4 "$0.1" H 6800 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 6800 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 6800 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 6800 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 6800 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 6800 7000 50  0001 C CNN "Supplier P/N"
 	1    6800 7000
 	-1   0    0    1   
 $EndComp
@@ -1736,14 +1736,14 @@ P 6950 7000
 AR Path="/60BB4A14/6105F0E0" Ref="R77"  Part="1" 
 AR Path="/60BB4C00/6105F0E0" Ref="R21"  Part="1" 
 F 0 "R21" H 7000 7000 39  0001 L CNN
-F 1 "50" V 6950 6950 50  0000 L CNN
+F 1 "49.9" V 6950 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6880 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 6950 7000 50  0001 C CNN
-F 4 "$1.98" H 6950 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 6950 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 6950 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 6950 7000 50  0001 C CNN
+F 4 "$0.1" H 6950 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 6950 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 6950 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 6950 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 6950 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 6950 7000 50  0001 C CNN "Supplier P/N"
 	1    6950 7000
 	-1   0    0    1   
 $EndComp
@@ -1772,14 +1772,14 @@ P 7100 7000
 AR Path="/60BB4A14/6105F0DF" Ref="R79"  Part="1" 
 AR Path="/60BB4C00/6105F0DF" Ref="R23"  Part="1" 
 F 0 "R23" H 7150 7000 39  0001 L CNN
-F 1 "50" V 7100 6950 50  0000 L CNN
+F 1 "49.9" V 7100 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7030 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7100 7000 50  0001 C CNN
-F 4 "$1.98" H 7100 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7100 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7100 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7100 7000 50  0001 C CNN
+F 4 "$0.1" H 7100 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7100 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7100 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7100 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7100 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7100 7000 50  0001 C CNN "Supplier P/N"
 	1    7100 7000
 	-1   0    0    1   
 $EndComp
@@ -1808,14 +1808,14 @@ P 7250 7000
 AR Path="/60BB4A14/61BCD35D" Ref="R81"  Part="1" 
 AR Path="/60BB4C00/61BCD35D" Ref="R25"  Part="1" 
 F 0 "R25" H 7300 7000 39  0001 L CNN
-F 1 "50" V 7250 6950 50  0000 L CNN
+F 1 "49.9" V 7250 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7180 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7250 7000 50  0001 C CNN
-F 4 "$1.98" H 7250 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7250 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7250 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7250 7000 50  0001 C CNN
+F 4 "$0.1" H 7250 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7250 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7250 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7250 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7250 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7250 7000 50  0001 C CNN "Supplier P/N"
 	1    7250 7000
 	-1   0    0    1   
 $EndComp
@@ -1844,14 +1844,14 @@ P 7400 7000
 AR Path="/60BB4A14/6119861D" Ref="R83"  Part="1" 
 AR Path="/60BB4C00/6119861D" Ref="R27"  Part="1" 
 F 0 "R27" H 7450 7000 39  0001 L CNN
-F 1 "50" V 7400 6950 50  0000 L CNN
+F 1 "49.9" V 7400 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7330 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7400 7000 50  0001 C CNN
-F 4 "$1.98" H 7400 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7400 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7400 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7400 7000 50  0001 C CNN
+F 4 "$0.1" H 7400 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7400 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7400 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7400 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7400 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7400 7000 50  0001 C CNN "Supplier P/N"
 	1    7400 7000
 	-1   0    0    1   
 $EndComp
@@ -1880,14 +1880,14 @@ P 7550 7000
 AR Path="/60BB4A14/61198637" Ref="R85"  Part="1" 
 AR Path="/60BB4C00/61198637" Ref="R29"  Part="1" 
 F 0 "R29" H 7600 7000 39  0001 L CNN
-F 1 "50" V 7550 6950 50  0000 L CNN
+F 1 "49.9" V 7550 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7480 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7550 7000 50  0001 C CNN
-F 4 "$1.98" H 7550 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7550 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7550 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7550 7000 50  0001 C CNN
+F 4 "$0.1" H 7550 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7550 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7550 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7550 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7550 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7550 7000 50  0001 C CNN "Supplier P/N"
 	1    7550 7000
 	-1   0    0    1   
 $EndComp
@@ -1916,14 +1916,14 @@ P 7700 7000
 AR Path="/60BB4A14/61BCD329" Ref="R87"  Part="1" 
 AR Path="/60BB4C00/61BCD329" Ref="R31"  Part="1" 
 F 0 "R31" H 7750 7000 39  0001 L CNN
-F 1 "50" V 7700 6950 50  0000 L CNN
+F 1 "49.9" V 7700 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7700 7000 50  0001 C CNN
-F 4 "$1.98" H 7700 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7700 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7700 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7700 7000 50  0001 C CNN
+F 4 "$0.1" H 7700 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7700 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7700 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7700 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7700 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7700 7000 50  0001 C CNN "Supplier P/N"
 	1    7700 7000
 	-1   0    0    1   
 $EndComp
@@ -1952,14 +1952,14 @@ P 7850 7000
 AR Path="/60BB4A14/61BCD2FF" Ref="R89"  Part="1" 
 AR Path="/60BB4C00/61BCD2FF" Ref="R33"  Part="1" 
 F 0 "R33" H 7900 7000 39  0001 L CNN
-F 1 "50" V 7850 6950 50  0000 L CNN
+F 1 "49.9" V 7850 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7780 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7850 7000 50  0001 C CNN
-F 4 "$1.98" H 7850 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7850 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7850 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7850 7000 50  0001 C CNN
+F 4 "$0.1" H 7850 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7850 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7850 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7850 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7850 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7850 7000 50  0001 C CNN "Supplier P/N"
 	1    7850 7000
 	-1   0    0    1   
 $EndComp
@@ -2078,14 +2078,14 @@ P 8000 7000
 AR Path="/60BB4A14/61BCD2F2" Ref="R91"  Part="1" 
 AR Path="/60BB4C00/61BCD2F2" Ref="R35"  Part="1" 
 F 0 "R35" H 8050 7000 39  0001 L CNN
-F 1 "50" V 8000 6950 50  0000 L CNN
+F 1 "49.9" V 8000 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7930 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8000 7000 50  0001 C CNN
-F 4 "$1.98" H 8000 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8000 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8000 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8000 7000 50  0001 C CNN
+F 4 "$0.1" H 8000 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8000 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8000 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8000 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8000 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8000 7000 50  0001 C CNN "Supplier P/N"
 	1    8000 7000
 	-1   0    0    1   
 $EndComp
@@ -2096,14 +2096,14 @@ P 8150 7000
 AR Path="/60BB4A14/61198604" Ref="R93"  Part="1" 
 AR Path="/60BB4C00/61198604" Ref="R37"  Part="1" 
 F 0 "R37" H 8200 7000 39  0001 L CNN
-F 1 "50" V 8150 6950 50  0000 L CNN
+F 1 "49.9" V 8150 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8080 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8150 7000 50  0001 C CNN
-F 4 "$1.98" H 8150 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8150 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8150 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8150 7000 50  0001 C CNN
+F 4 "$0.1" H 8150 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8150 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8150 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8150 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8150 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8150 7000 50  0001 C CNN "Supplier P/N"
 	1    8150 7000
 	-1   0    0    1   
 $EndComp
@@ -2114,14 +2114,14 @@ P 8300 7000
 AR Path="/60BB4A14/61198603" Ref="R95"  Part="1" 
 AR Path="/60BB4C00/61198603" Ref="R39"  Part="1" 
 F 0 "R39" H 8350 7000 39  0001 L CNN
-F 1 "50" V 8300 6950 50  0000 L CNN
+F 1 "49.9" V 8300 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8230 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8300 7000 50  0001 C CNN
-F 4 "$1.98" H 8300 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8300 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8300 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8300 7000 50  0001 C CNN
+F 4 "$0.1" H 8300 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8300 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8300 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8300 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8300 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8300 7000 50  0001 C CNN "Supplier P/N"
 	1    8300 7000
 	-1   0    0    1   
 $EndComp
@@ -2132,14 +2132,14 @@ P 8450 7000
 AR Path="/60BB4A14/6119863D" Ref="R97"  Part="1" 
 AR Path="/60BB4C00/6119863D" Ref="R41"  Part="1" 
 F 0 "R41" H 8500 7000 39  0001 L CNN
-F 1 "50" V 8450 6950 50  0000 L CNN
+F 1 "49.9" V 8450 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8380 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8450 7000 50  0001 C CNN
-F 4 "$1.98" H 8450 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8450 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8450 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8450 7000 50  0001 C CNN
+F 4 "$0.1" H 8450 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8450 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8450 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8450 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8450 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8450 7000 50  0001 C CNN "Supplier P/N"
 	1    8450 7000
 	-1   0    0    1   
 $EndComp
@@ -2150,14 +2150,14 @@ P 8600 7000
 AR Path="/60BB4A14/61BCD2F1" Ref="R99"  Part="1" 
 AR Path="/60BB4C00/61BCD2F1" Ref="R43"  Part="1" 
 F 0 "R43" H 8650 7000 39  0001 L CNN
-F 1 "50" V 8600 6950 50  0000 L CNN
+F 1 "49.9" V 8600 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8530 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8600 7000 50  0001 C CNN
-F 4 "$1.98" H 8600 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8600 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8600 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8600 7000 50  0001 C CNN
+F 4 "$0.1" H 8600 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8600 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8600 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8600 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8600 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8600 7000 50  0001 C CNN "Supplier P/N"
 	1    8600 7000
 	-1   0    0    1   
 $EndComp
@@ -2168,14 +2168,14 @@ P 8750 7000
 AR Path="/60BB4A14/611985E6" Ref="R101"  Part="1" 
 AR Path="/60BB4C00/611985E6" Ref="R45"  Part="1" 
 F 0 "R45" H 8800 7000 39  0001 L CNN
-F 1 "50" V 8750 6950 50  0000 L CNN
+F 1 "49.9" V 8750 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8680 7000 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8750 7000 50  0001 C CNN
-F 4 "$1.98" H 8750 7000 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8750 7000 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8750 7000 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8750 7000 50  0001 C CNN
+F 4 "$0.1" H 8750 7000 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8750 7000 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8750 7000 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8750 7000 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8750 7000 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8750 7000 50  0001 C CNN "Supplier P/N"
 	1    8750 7000
 	-1   0    0    1   
 $EndComp
@@ -2222,14 +2222,14 @@ P 8500 10600
 AR Path="/60BB4A14/61BCD33C" Ref="R98"  Part="1" 
 AR Path="/60BB4C00/61BCD33C" Ref="R42"  Part="1" 
 F 0 "R42" H 8550 10600 39  0001 L CNN
-F 1 "50" V 8500 10550 50  0000 L CNN
+F 1 "49.9" V 8500 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8430 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8500 10600 50  0001 C CNN
-F 4 "$1.98" H 8500 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8500 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8500 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8500 10600 50  0001 C CNN
+F 4 "$0.1" H 8500 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8500 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8500 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8500 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8500 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8500 10600 50  0001 C CNN "Supplier P/N"
 	1    8500 10600
 	1    0    0    -1  
 $EndComp
@@ -2258,14 +2258,14 @@ P 8350 10600
 AR Path="/60BB4A14/611985E4" Ref="R96"  Part="1" 
 AR Path="/60BB4C00/611985E4" Ref="R40"  Part="1" 
 F 0 "R40" H 8400 10600 39  0001 L CNN
-F 1 "50" V 8350 10550 50  0000 L CNN
+F 1 "49.9" V 8350 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8280 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8350 10600 50  0001 C CNN
-F 4 "$1.98" H 8350 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8350 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8350 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8350 10600 50  0001 C CNN
+F 4 "$0.1" H 8350 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8350 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8350 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8350 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8350 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8350 10600 50  0001 C CNN "Supplier P/N"
 	1    8350 10600
 	1    0    0    -1  
 $EndComp
@@ -2294,14 +2294,14 @@ P 8200 10600
 AR Path="/60BB4A14/60C98388" Ref="R94"  Part="1" 
 AR Path="/60BB4C00/60C98388" Ref="R38"  Part="1" 
 F 0 "R38" H 8250 10600 39  0001 L CNN
-F 1 "50" V 8200 10550 50  0000 L CNN
+F 1 "49.9" V 8200 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8130 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8200 10600 50  0001 C CNN
-F 4 "$1.98" H 8200 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8200 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8200 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8200 10600 50  0001 C CNN
+F 4 "$0.1" H 8200 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8200 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8200 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8200 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8200 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8200 10600 50  0001 C CNN "Supplier P/N"
 	1    8200 10600
 	1    0    0    -1  
 $EndComp
@@ -2330,14 +2330,14 @@ P 8050 10600
 AR Path="/60BB4A14/611985E3" Ref="R92"  Part="1" 
 AR Path="/60BB4C00/611985E3" Ref="R36"  Part="1" 
 F 0 "R36" H 8100 10600 39  0001 L CNN
-F 1 "50" V 8050 10550 50  0000 L CNN
+F 1 "49.9" V 8050 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7980 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8050 10600 50  0001 C CNN
-F 4 "$1.98" H 8050 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8050 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8050 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8050 10600 50  0001 C CNN
+F 4 "$0.1" H 8050 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8050 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8050 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8050 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8050 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8050 10600 50  0001 C CNN "Supplier P/N"
 	1    8050 10600
 	1    0    0    -1  
 $EndComp
@@ -2366,14 +2366,14 @@ P 7900 10600
 AR Path="/60BB4A14/60C983C1" Ref="R90"  Part="1" 
 AR Path="/60BB4C00/60C983C1" Ref="R34"  Part="1" 
 F 0 "R34" H 7950 10600 39  0001 L CNN
-F 1 "50" V 7900 10550 50  0000 L CNN
+F 1 "49.9" V 7900 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7830 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7900 10600 50  0001 C CNN
-F 4 "$1.98" H 7900 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7900 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7900 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7900 10600 50  0001 C CNN
+F 4 "$0.1" H 7900 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7900 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7900 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7900 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7900 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7900 10600 50  0001 C CNN "Supplier P/N"
 	1    7900 10600
 	1    0    0    -1  
 $EndComp
@@ -2402,14 +2402,14 @@ P 7750 10600
 AR Path="/60BB4A14/61BCD33F" Ref="R88"  Part="1" 
 AR Path="/60BB4C00/61BCD33F" Ref="R32"  Part="1" 
 F 0 "R32" H 7800 10600 39  0001 L CNN
-F 1 "50" V 7750 10550 50  0000 L CNN
+F 1 "49.9" V 7750 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7680 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7750 10600 50  0001 C CNN
-F 4 "$1.98" H 7750 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7750 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7750 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7750 10600 50  0001 C CNN
+F 4 "$0.1" H 7750 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7750 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7750 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7750 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7750 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7750 10600 50  0001 C CNN "Supplier P/N"
 	1    7750 10600
 	1    0    0    -1  
 $EndComp
@@ -2438,14 +2438,14 @@ P 7600 10600
 AR Path="/60BB4A14/60C9839B" Ref="R86"  Part="1" 
 AR Path="/60BB4C00/60C9839B" Ref="R30"  Part="1" 
 F 0 "R30" H 7650 10600 39  0001 L CNN
-F 1 "50" V 7600 10550 50  0000 L CNN
+F 1 "49.9" V 7600 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7600 10600 50  0001 C CNN
-F 4 "$1.98" H 7600 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7600 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7600 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7600 10600 50  0001 C CNN
+F 4 "$0.1" H 7600 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7600 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7600 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7600 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7600 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7600 10600 50  0001 C CNN "Supplier P/N"
 	1    7600 10600
 	1    0    0    -1  
 $EndComp
@@ -2474,14 +2474,14 @@ P 7450 10600
 AR Path="/60BB4A14/60C983E8" Ref="R84"  Part="1" 
 AR Path="/60BB4C00/60C983E8" Ref="R28"  Part="1" 
 F 0 "R28" H 7500 10600 39  0001 L CNN
-F 1 "50" V 7450 10550 50  0000 L CNN
+F 1 "49.9" V 7450 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7380 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7450 10600 50  0001 C CNN
-F 4 "$1.98" H 7450 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7450 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7450 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7450 10600 50  0001 C CNN
+F 4 "$0.1" H 7450 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7450 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7450 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7450 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7450 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7450 10600 50  0001 C CNN "Supplier P/N"
 	1    7450 10600
 	1    0    0    -1  
 $EndComp
@@ -2510,14 +2510,14 @@ P 7300 10600
 AR Path="/60BB4A14/61BCD345" Ref="R82"  Part="1" 
 AR Path="/60BB4C00/61BCD345" Ref="R26"  Part="1" 
 F 0 "R26" H 7350 10600 39  0001 L CNN
-F 1 "50" V 7300 10550 50  0000 L CNN
+F 1 "49.9" V 7300 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7230 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7300 10600 50  0001 C CNN
-F 4 "$1.98" H 7300 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7300 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7300 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7300 10600 50  0001 C CNN
+F 4 "$0.1" H 7300 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7300 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7300 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7300 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7300 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7300 10600 50  0001 C CNN "Supplier P/N"
 	1    7300 10600
 	1    0    0    -1  
 $EndComp
@@ -2546,14 +2546,14 @@ P 7150 10600
 AR Path="/60BB4A14/61089269" Ref="R80"  Part="1" 
 AR Path="/60BB4C00/61089269" Ref="R24"  Part="1" 
 F 0 "R24" H 7200 10600 39  0001 L CNN
-F 1 "50" V 7150 10550 50  0000 L CNN
+F 1 "49.9" V 7150 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7080 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7150 10600 50  0001 C CNN
-F 4 "$1.98" H 7150 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7150 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7150 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7150 10600 50  0001 C CNN
+F 4 "$0.1" H 7150 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7150 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7150 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7150 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7150 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7150 10600 50  0001 C CNN "Supplier P/N"
 	1    7150 10600
 	1    0    0    -1  
 $EndComp
@@ -2582,14 +2582,14 @@ P 7000 10600
 AR Path="/60BB4A14/61BCD2EB" Ref="R78"  Part="1" 
 AR Path="/60BB4C00/61BCD2EB" Ref="R22"  Part="1" 
 F 0 "R22" H 7050 10600 39  0001 L CNN
-F 1 "50" V 7000 10550 50  0000 L CNN
+F 1 "49.9" V 7000 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6930 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 7000 10600 50  0001 C CNN
-F 4 "$1.98" H 7000 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 7000 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7000 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 7000 10600 50  0001 C CNN
+F 4 "$0.1" H 7000 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 7000 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 7000 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7000 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 7000 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 7000 10600 50  0001 C CNN "Supplier P/N"
 	1    7000 10600
 	1    0    0    -1  
 $EndComp
@@ -2618,14 +2618,14 @@ P 6850 10600
 AR Path="/60BB4A14/61BCD303" Ref="R76"  Part="1" 
 AR Path="/60BB4C00/61BCD303" Ref="R20"  Part="1" 
 F 0 "R20" H 6900 10600 39  0001 L CNN
-F 1 "50" V 6850 10550 50  0000 L CNN
+F 1 "49.9" V 6850 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6780 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 6850 10600 50  0001 C CNN
-F 4 "$1.98" H 6850 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 6850 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 6850 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 6850 10600 50  0001 C CNN
+F 4 "$0.1" H 6850 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 6850 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 6850 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 6850 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 6850 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 6850 10600 50  0001 C CNN "Supplier P/N"
 	1    6850 10600
 	1    0    0    -1  
 $EndComp
@@ -2654,14 +2654,14 @@ P 6700 10600
 AR Path="/60BB4A14/61198613" Ref="R74"  Part="1" 
 AR Path="/60BB4C00/61198613" Ref="R18"  Part="1" 
 F 0 "R18" H 6750 10600 39  0001 L CNN
-F 1 "50" V 6700 10550 50  0000 L CNN
+F 1 "49.9" V 6700 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6630 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 6700 10600 50  0001 C CNN
-F 4 "$1.98" H 6700 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 6700 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 6700 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 6700 10600 50  0001 C CNN
+F 4 "$0.1" H 6700 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 6700 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 6700 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 6700 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 6700 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 6700 10600 50  0001 C CNN "Supplier P/N"
 	1    6700 10600
 	1    0    0    -1  
 $EndComp
@@ -2690,14 +2690,14 @@ P 6550 10600
 AR Path="/60BB4A14/60C983BF" Ref="R72"  Part="1" 
 AR Path="/60BB4C00/60C983BF" Ref="R16"  Part="1" 
 F 0 "R16" H 6600 10600 39  0001 L CNN
-F 1 "50" V 6550 10550 50  0000 L CNN
+F 1 "49.9" V 6550 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6480 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 6550 10600 50  0001 C CNN
-F 4 "$1.98" H 6550 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 6550 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 6550 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 6550 10600 50  0001 C CNN
+F 4 "$0.1" H 6550 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 6550 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 6550 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 6550 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 6550 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 6550 10600 50  0001 C CNN "Supplier P/N"
 	1    6550 10600
 	1    0    0    -1  
 $EndComp
@@ -2726,14 +2726,14 @@ P 6400 10600
 AR Path="/60BB4A14/61BCD31E" Ref="R70"  Part="1" 
 AR Path="/60BB4C00/61BCD31E" Ref="R14"  Part="1" 
 F 0 "R14" H 6450 10600 39  0001 L CNN
-F 1 "50" V 6400 10550 50  0000 L CNN
+F 1 "49.9" V 6400 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6330 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 6400 10600 50  0001 C CNN
-F 4 "$1.98" H 6400 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 6400 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 6400 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 6400 10600 50  0001 C CNN
+F 4 "$0.1" H 6400 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 6400 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 6400 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 6400 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 6400 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 6400 10600 50  0001 C CNN "Supplier P/N"
 	1    6400 10600
 	1    0    0    -1  
 $EndComp
@@ -2765,7 +2765,7 @@ AR Path="/605DF89A/61BCD2E2" Ref="#PWR?"  Part="1"
 AR Path="/60C32D5A/61BCD2E2" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4A14/61BCD2E2" Ref="#PWR0164"  Part="1" 
 AR Path="/60BB4C00/61BCD2E2" Ref="#PWR078"  Part="1" 
-F 0 "#PWR078" H 14250 900 50  0001 C CNN
+F 0 "#PWR0164" H 14250 900 50  0001 C CNN
 F 1 "GNDD" H 14250 1000 50  0000 C CNB
 F 2 "" H 14250 1150 50  0001 C CNN
 F 3 "" H 14250 1150 50  0001 C CNN
@@ -2834,7 +2834,7 @@ AR Path="/6086954E/60943779/60DD8723" Ref="#PWR?"  Part="1"
 AR Path="/607ECAFE/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/60DD8723" Ref="#PWR041"  Part="1" 
 AR Path="/60BB4A14/60DD8723" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR041" H 5150 2900 50  0001 C CNN
+F 0 "#PWR0127" H 5150 2900 50  0001 C CNN
 F 1 "GNDD" H 5150 3000 50  0000 C CNB
 F 2 "" H 5150 3150 50  0001 C CNN
 F 3 "" H 5150 3150 50  0001 C CNN
@@ -3035,7 +3035,7 @@ AR Path="/6086954E/60943779/60DD86AD" Ref="#PWR?"  Part="1"
 AR Path="/607ECAFE/60DD86AD" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/60DD86AD" Ref="#PWR038"  Part="1" 
 AR Path="/60BB4A14/60DD86AD" Ref="#PWR0124"  Part="1" 
-F 0 "#PWR038" H 3150 5400 50  0001 C CNN
+F 0 "#PWR0124" H 3150 5400 50  0001 C CNN
 F 1 "GNDD" H 3150 5500 50  0000 C CNB
 F 2 "" H 3150 5650 50  0001 C CNN
 F 3 "" H 3150 5650 50  0001 C CNN
@@ -3053,7 +3053,7 @@ AR Path="/6086954E/60943779/60DD86A7" Ref="#PWR?"  Part="1"
 AR Path="/607ECAFE/60DD86A7" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/60DD86A7" Ref="#PWR039"  Part="1" 
 AR Path="/60BB4A14/60DD86A7" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR039" H 3400 5400 50  0001 C CNN
+F 0 "#PWR0125" H 3400 5400 50  0001 C CNN
 F 1 "GNDA" H 3400 5500 50  0000 C CNB
 F 2 "" H 3400 5650 50  0001 C CNN
 F 3 "" H 3400 5650 50  0001 C CNN
@@ -3104,7 +3104,7 @@ P 3600 800
 AR Path="/607ECAFE/61BCD31A" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61BCD31A" Ref="#PWR040"  Part="1" 
 AR Path="/60BB4A14/61BCD31A" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR040" H 3600 550 50  0001 C CNN
+F 0 "#PWR0126" H 3600 550 50  0001 C CNN
 F 1 "GNDA" H 3605 627 50  0000 C CNN
 F 2 "" H 3600 800 50  0001 C CNN
 F 3 "" H 3600 800 50  0001 C CNN
@@ -3197,14 +3197,14 @@ P 8650 10600
 AR Path="/60BB4A14/61BCD343" Ref="R100"  Part="1" 
 AR Path="/60BB4C00/61BCD343" Ref="R44"  Part="1" 
 F 0 "R44" H 8700 10600 39  0001 L CNN
-F 1 "50" V 8650 10550 50  0000 L CNN
+F 1 "49.9" V 8650 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8580 10600 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/31098/rcp.pdf" H 8650 10600 50  0001 C CNN
-F 4 "$1.98" H 8650 10600 50  0001 C CNN "Item Cost"
-F 5 "RCP0603W50R0GEB" H 8650 10600 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 8650 10600 50  0001 C CNN "Manufacturer"
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/RC_Series_ds.pdf" H 8650 10600 50  0001 C CNN
+F 4 "$0.1" H 8650 10600 50  0001 C CNN "Item Cost"
+F 5 "RC1608F49R9CS" H 8650 10600 50  0001 C CNN "MFN"
+F 6 "Samsung Electro-Mechanics" H 8650 10600 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 8650 10600 50  0001 C CNN "Supplier "
-F 8 "541-2655-1-ND" H 8650 10600 50  0001 C CNN "Supplier P/N"
+F 8 "1276-3505-1-ND" H 8650 10600 50  0001 C CNN "Supplier P/N"
 	1    8650 10600
 	1    0    0    -1  
 $EndComp
@@ -3268,7 +3268,7 @@ U 1 1 61EB8B80
 P 11250 7000
 AR Path="/60BB4A14/61EB8B80" Ref="#PWR0153"  Part="1" 
 AR Path="/60BB4C00/61EB8B80" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 11250 6750 50  0001 C CNN
+F 0 "#PWR0153" H 11250 6750 50  0001 C CNN
 F 1 "GNDA" H 11250 6850 50  0000 C CNB
 F 2 "" H 11250 7000 50  0001 C CNN
 F 3 "" H 11250 7000 50  0001 C CNN
@@ -3294,7 +3294,7 @@ U 1 1 61BCD2F9
 P 6400 11050
 AR Path="/60BB4A14/61BCD2F9" Ref="#PWR0143"  Part="1" 
 AR Path="/60BB4C00/61BCD2F9" Ref="#PWR057"  Part="1" 
-F 0 "#PWR057" H 6400 10800 50  0001 C CNN
+F 0 "#PWR0143" H 6400 10800 50  0001 C CNN
 F 1 "GNDA" H 6400 10900 50  0000 C CNB
 F 2 "" H 6400 11050 50  0001 C CNN
 F 3 "" H 6400 11050 50  0001 C CNN
@@ -3358,7 +3358,7 @@ U 1 1 620021C4
 P 10850 2600
 AR Path="/60BB4A14/620021C4" Ref="#PWR0150"  Part="1" 
 AR Path="/60BB4C00/620021C4" Ref="#PWR064"  Part="1" 
-F 0 "#PWR064" H 10850 2350 50  0001 C CNN
+F 0 "#PWR0150" H 10850 2350 50  0001 C CNN
 F 1 "GNDD" H 10854 2445 50  0000 C CNN
 F 2 "" H 10850 2600 50  0001 C CNN
 F 3 "" H 10850 2600 50  0001 C CNN
@@ -3379,7 +3379,7 @@ U 1 1 62102F52
 P 10500 3850
 AR Path="/60BB4A14/62102F52" Ref="#PWR0147"  Part="1" 
 AR Path="/60BB4C00/62102F52" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 10500 3600 50  0001 C CNN
+F 0 "#PWR0147" H 10500 3600 50  0001 C CNN
 F 1 "GNDD" H 10504 3695 50  0000 C CNN
 F 2 "" H 10500 3850 50  0001 C CNN
 F 3 "" H 10500 3850 50  0001 C CNN
@@ -3422,7 +3422,7 @@ U 1 1 629D29F8
 P 10500 5350
 AR Path="/60BB4A14/629D29F8" Ref="#PWR0148"  Part="1" 
 AR Path="/60BB4C00/629D29F8" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 10500 5100 50  0001 C CNN
+F 0 "#PWR0148" H 10500 5100 50  0001 C CNN
 F 1 "GNDD" H 10504 5195 50  0000 C CNN
 F 2 "" H 10500 5350 50  0001 C CNN
 F 3 "" H 10500 5350 50  0001 C CNN
@@ -3462,7 +3462,7 @@ U 1 1 62AD9BCF
 P 15550 4500
 AR Path="/60BB4A14/62AD9BCF" Ref="#PWR0167"  Part="1" 
 AR Path="/60BB4C00/62AD9BCF" Ref="#PWR081"  Part="1" 
-F 0 "#PWR081" H 15550 4250 50  0001 C CNN
+F 0 "#PWR0167" H 15550 4250 50  0001 C CNN
 F 1 "GNDD" H 15554 4345 50  0000 C CNN
 F 2 "" H 15550 4500 50  0001 C CNN
 F 3 "" H 15550 4500 50  0001 C CNN
@@ -3640,7 +3640,7 @@ P 14250 8700
 AR Path="/62251D77/6113E8D4" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/6113E8D4" Ref="#PWR079"  Part="1" 
 AR Path="/60BB4A14/6113E8D4" Ref="#PWR0165"  Part="1" 
-F 0 "#PWR079" H 14250 8450 50  0001 C CNN
+F 0 "#PWR0165" H 14250 8450 50  0001 C CNN
 F 1 "GNDD" H 14254 8545 50  0000 C CNN
 F 2 "" H 14250 8700 50  0001 C CNN
 F 3 "" H 14250 8700 50  0001 C CNN
@@ -3677,7 +3677,7 @@ P 11400 4350
 AR Path="/62251D77/611CBADD" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/611CBADD" Ref="#PWR069"  Part="1" 
 AR Path="/60BB4A14/611CBADD" Ref="#PWR0155"  Part="1" 
-F 0 "#PWR069" H 11400 4100 50  0001 C CNN
+F 0 "#PWR0155" H 11400 4100 50  0001 C CNN
 F 1 "GNDD" H 11404 4195 50  0000 C CNN
 F 2 "" H 11400 4350 50  0001 C CNN
 F 3 "" H 11400 4350 50  0001 C CNN
@@ -3714,7 +3714,7 @@ P 11400 2850
 AR Path="/62251D77/6124B07B" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/6124B07B" Ref="#PWR068"  Part="1" 
 AR Path="/60BB4A14/6124B07B" Ref="#PWR0154"  Part="1" 
-F 0 "#PWR068" H 11400 2600 50  0001 C CNN
+F 0 "#PWR0154" H 11400 2600 50  0001 C CNN
 F 1 "GNDD" H 11404 2695 50  0000 C CNN
 F 2 "" H 11400 2850 50  0001 C CNN
 F 3 "" H 11400 2850 50  0001 C CNN
@@ -3751,7 +3751,7 @@ P 9600 4350
 AR Path="/62251D77/615A9359" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/615A9359" Ref="#PWR059"  Part="1" 
 AR Path="/60BB4A14/615A9359" Ref="#PWR0145"  Part="1" 
-F 0 "#PWR059" H 9600 4100 50  0001 C CNN
+F 0 "#PWR0145" H 9600 4100 50  0001 C CNN
 F 1 "GNDD" H 9604 4195 50  0000 C CNN
 F 2 "" H 9600 4350 50  0001 C CNN
 F 3 "" H 9600 4350 50  0001 C CNN
@@ -3788,7 +3788,7 @@ P 9600 2850
 AR Path="/62251D77/6162B791" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/6162B791" Ref="#PWR058"  Part="1" 
 AR Path="/60BB4A14/6162B791" Ref="#PWR0144"  Part="1" 
-F 0 "#PWR058" H 9600 2600 50  0001 C CNN
+F 0 "#PWR0144" H 9600 2600 50  0001 C CNN
 F 1 "GNDD" H 9604 2695 50  0000 C CNN
 F 2 "" H 9600 2850 50  0001 C CNN
 F 3 "" H 9600 2850 50  0001 C CNN
@@ -3858,7 +3858,7 @@ P 12750 6900
 AR Path="/62251D77/60DE018C" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/60DE018C" Ref="#PWR074"  Part="1" 
 AR Path="/60BB4A14/60DE018C" Ref="#PWR0160"  Part="1" 
-F 0 "#PWR074" H 12750 6650 50  0001 C CNN
+F 0 "#PWR0160" H 12750 6650 50  0001 C CNN
 F 1 "GNDD" H 12754 6745 50  0000 C CNN
 F 2 "" H 12750 6900 50  0001 C CNN
 F 3 "" H 12750 6900 50  0001 C CNN
@@ -3898,7 +3898,7 @@ P 12250 6900
 AR Path="/62251D77/60E85734" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/60E85734" Ref="#PWR071"  Part="1" 
 AR Path="/60BB4A14/60E85734" Ref="#PWR0157"  Part="1" 
-F 0 "#PWR071" H 12250 6650 50  0001 C CNN
+F 0 "#PWR0157" H 12250 6650 50  0001 C CNN
 F 1 "GNDD" H 12300 6800 50  0000 C CNN
 F 2 "" H 12250 6900 50  0001 C CNN
 F 3 "" H 12250 6900 50  0001 C CNN
@@ -4054,7 +4054,7 @@ P 5300 1350
 AR Path="/62251D77/614B84DB" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/614B84DB" Ref="#PWR042"  Part="1" 
 AR Path="/60BB4A14/614B84DB" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR042" H 5300 1100 50  0001 C CNN
+F 0 "#PWR0128" H 5300 1100 50  0001 C CNN
 F 1 "GNDD" V 5300 1150 50  0000 C CNN
 F 2 "" H 5300 1350 50  0001 C CNN
 F 3 "" H 5300 1350 50  0001 C CNN
@@ -4091,7 +4091,7 @@ P 5450 1450
 AR Path="/62251D77/615508BC" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/615508BC" Ref="#PWR053"  Part="1" 
 AR Path="/60BB4A14/615508BC" Ref="#PWR0139"  Part="1" 
-F 0 "#PWR053" H 5450 1200 50  0001 C CNN
+F 0 "#PWR0139" H 5450 1200 50  0001 C CNN
 F 1 "GNDD" V 5450 1250 50  0000 C CNN
 F 2 "" H 5450 1450 50  0001 C CNN
 F 3 "" H 5450 1450 50  0001 C CNN
@@ -4151,7 +4151,7 @@ P 5450 1650
 AR Path="/62251D77/615DC69C" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/615DC69C" Ref="#PWR054"  Part="1" 
 AR Path="/60BB4A14/615DC69C" Ref="#PWR0140"  Part="1" 
-F 0 "#PWR054" H 5450 1400 50  0001 C CNN
+F 0 "#PWR0140" H 5450 1400 50  0001 C CNN
 F 1 "GNDD" V 5450 1450 50  0000 C CNN
 F 2 "" H 5450 1650 50  0001 C CNN
 F 3 "" H 5450 1650 50  0001 C CNN
@@ -4169,7 +4169,7 @@ P 5300 1550
 AR Path="/62251D77/615DC686" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/615DC686" Ref="#PWR043"  Part="1" 
 AR Path="/60BB4A14/615DC686" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR043" H 5300 1300 50  0001 C CNN
+F 0 "#PWR0129" H 5300 1300 50  0001 C CNN
 F 1 "GNDD" V 5300 1350 50  0000 C CNN
 F 2 "" H 5300 1550 50  0001 C CNN
 F 3 "" H 5300 1550 50  0001 C CNN
@@ -4202,7 +4202,7 @@ P 5300 2350
 AR Path="/62251D77/61815055" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61815055" Ref="#PWR044"  Part="1" 
 AR Path="/60BB4A14/61815055" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR044" H 5300 2100 50  0001 C CNN
+F 0 "#PWR0130" H 5300 2100 50  0001 C CNN
 F 1 "GNDD" H 5304 2195 50  0000 C CNN
 F 2 "" H 5300 2350 50  0001 C CNN
 F 3 "" H 5300 2350 50  0001 C CNN
@@ -4239,7 +4239,7 @@ P 5550 2850
 AR Path="/62251D77/618AA834" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/618AA834" Ref="#PWR055"  Part="1" 
 AR Path="/60BB4A14/618AA834" Ref="#PWR0141"  Part="1" 
-F 0 "#PWR055" H 5550 2600 50  0001 C CNN
+F 0 "#PWR0141" H 5550 2600 50  0001 C CNN
 F 1 "GNDD" H 5554 2695 50  0000 C CNN
 F 2 "" H 5550 2850 50  0001 C CNN
 F 3 "" H 5550 2850 50  0001 C CNN
@@ -4277,7 +4277,7 @@ P 5300 3400
 AR Path="/62251D77/6193B033" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/6193B033" Ref="#PWR045"  Part="1" 
 AR Path="/60BB4A14/6193B033" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR045" H 5300 3150 50  0001 C CNN
+F 0 "#PWR0131" H 5300 3150 50  0001 C CNN
 F 1 "GNDD" H 5304 3245 50  0000 C CNN
 F 2 "" H 5300 3400 50  0001 C CNN
 F 3 "" H 5300 3400 50  0001 C CNN
@@ -4314,7 +4314,7 @@ P 5300 3750
 AR Path="/62251D77/619D2DF4" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/619D2DF4" Ref="#PWR046"  Part="1" 
 AR Path="/60BB4A14/619D2DF4" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR046" H 5300 3500 50  0001 C CNN
+F 0 "#PWR0132" H 5300 3500 50  0001 C CNN
 F 1 "GNDD" H 5304 3595 50  0000 C CNN
 F 2 "" H 5300 3750 50  0001 C CNN
 F 3 "" H 5300 3750 50  0001 C CNN
@@ -4351,7 +4351,7 @@ P 5300 3950
 AR Path="/62251D77/61A644C2" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61A644C2" Ref="#PWR047"  Part="1" 
 AR Path="/60BB4A14/61A644C2" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR047" H 5300 3700 50  0001 C CNN
+F 0 "#PWR0133" H 5300 3700 50  0001 C CNN
 F 1 "GNDD" H 5304 3795 50  0000 C CNN
 F 2 "" H 5300 3950 50  0001 C CNN
 F 3 "" H 5300 3950 50  0001 C CNN
@@ -4388,7 +4388,7 @@ P 5300 4450
 AR Path="/62251D77/61AF8BB9" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61AF8BB9" Ref="#PWR048"  Part="1" 
 AR Path="/60BB4A14/61AF8BB9" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR048" H 5300 4200 50  0001 C CNN
+F 0 "#PWR0134" H 5300 4200 50  0001 C CNN
 F 1 "GNDD" H 5304 4295 50  0000 C CNN
 F 2 "" H 5300 4450 50  0001 C CNN
 F 3 "" H 5300 4450 50  0001 C CNN
@@ -4425,7 +4425,7 @@ P 5300 4650
 AR Path="/62251D77/61AF8BCF" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61AF8BCF" Ref="#PWR049"  Part="1" 
 AR Path="/60BB4A14/61AF8BCF" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR049" H 5300 4400 50  0001 C CNN
+F 0 "#PWR0135" H 5300 4400 50  0001 C CNN
 F 1 "GNDD" H 5304 4495 50  0000 C CNN
 F 2 "" H 5300 4650 50  0001 C CNN
 F 3 "" H 5300 4650 50  0001 C CNN
@@ -4462,7 +4462,7 @@ P 5300 5150
 AR Path="/62251D77/61B91325" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61B91325" Ref="#PWR051"  Part="1" 
 AR Path="/60BB4A14/61B91325" Ref="#PWR0137"  Part="1" 
-F 0 "#PWR051" H 5300 4900 50  0001 C CNN
+F 0 "#PWR0137" H 5300 4900 50  0001 C CNN
 F 1 "GNDD" H 5304 4995 50  0000 C CNN
 F 2 "" H 5300 5150 50  0001 C CNN
 F 3 "" H 5300 5150 50  0001 C CNN
@@ -4499,7 +4499,7 @@ P 5300 5350
 AR Path="/62251D77/61B9133B" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61B9133B" Ref="#PWR052"  Part="1" 
 AR Path="/60BB4A14/61B9133B" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR052" H 5300 5100 50  0001 C CNN
+F 0 "#PWR0138" H 5300 5100 50  0001 C CNN
 F 1 "GNDD" H 5304 5195 50  0000 C CNN
 F 2 "" H 5300 5350 50  0001 C CNN
 F 3 "" H 5300 5350 50  0001 C CNN
@@ -4537,7 +4537,7 @@ P 5300 4850
 AR Path="/62251D77/61C2B736" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61C2B736" Ref="#PWR050"  Part="1" 
 AR Path="/60BB4A14/61C2B736" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR050" H 5300 4600 50  0001 C CNN
+F 0 "#PWR0136" H 5300 4600 50  0001 C CNN
 F 1 "GNDD" H 5304 4695 50  0000 C CNN
 F 2 "" H 5300 4850 50  0001 C CNN
 F 3 "" H 5300 4850 50  0001 C CNN
@@ -4832,7 +4832,7 @@ P 15550 3400
 AR Path="/62251D77/61521F85" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61521F85" Ref="#PWR080"  Part="1" 
 AR Path="/60BB4A14/61521F85" Ref="#PWR0166"  Part="1" 
-F 0 "#PWR080" H 15550 3150 50  0001 C CNN
+F 0 "#PWR0166" H 15550 3150 50  0001 C CNN
 F 1 "GNDD" H 15554 3245 50  0000 C CNN
 F 2 "" H 15550 3400 50  0001 C CNN
 F 3 "" H 15550 3400 50  0001 C CNN
