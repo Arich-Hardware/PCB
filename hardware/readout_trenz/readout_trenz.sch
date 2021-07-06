@@ -13,10 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Bus Line
-	2500 1500 3500 1500
-Wire Bus Line
-	2500 4500 3500 4500
 Wire Wire Line
 	2500 6000 3500 6000
 Wire Bus Line
@@ -71,8 +67,8 @@ F0 "Backplane" 50
 F1 "Backplane.sch" 50
 F2 "OUT" O R 2500 6000 50 
 F3 "BIAS[1..4]" I L 1500 6450 50 
-F4 "SIPM_IN_B[0..31]" O R 2500 1500 50 
-F5 "SIPM_IN_A[0..31]" O R 2500 4500 50 
+F4 "SIPM_IN_B[0..31]" O R 2500 4500 50 
+F5 "SIPM_IN_A[0..31]" O R 2500 1500 50 
 $EndSheet
 NoConn ~ 3500 3000
 $Sheet
@@ -131,4 +127,8 @@ Wire Bus Line
 	5500 1750 4500 1750
 Wire Bus Line
 	5500 4750 4500 4750
+Wire Bus Line
+	2500 1500 3500 1500
+Wire Bus Line
+	2500 4500 3500 4500
 $EndSCHEMATC
