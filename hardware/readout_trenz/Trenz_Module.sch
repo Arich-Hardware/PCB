@@ -82,84 +82,6 @@ F 8 "1292-WR12X4701FTLCT-ND" H 5100 5900 50  0001 C CNN "Supplier P/N"
 	1    5100 5900
 	1    0    0    -1  
 $EndComp
-Text HLabel 25150 1850 0    50   Input ~ 0
-TRIG_OUT_A[0..31]
-Entry Wire Line
-	25650 1950 25750 2050
-Entry Wire Line
-	25650 1850 25750 1950
-Wire Bus Line
-	25650 1850 25150 1850
-Wire Bus Line
-	28100 350  27600 350 
-Entry Wire Line
-	27600 350  27500 450 
-Entry Wire Line
-	27600 450  27500 550 
-Entry Wire Line
-	27600 550  27500 650 
-Entry Wire Line
-	27600 650  27500 750 
-Entry Wire Line
-	27600 750  27500 850 
-Entry Wire Line
-	27600 850  27500 950 
-Entry Wire Line
-	27600 950  27500 1050
-Entry Wire Line
-	27600 1050 27500 1150
-Text HLabel 28100 1850 0    50   Input ~ 0
-TRIG_OUT_B[0..31]
-Wire Bus Line
-	28100 1850 28600 1850
-Entry Wire Line
-	28600 1850 28700 1950
-Entry Wire Line
-	28600 1950 28700 2050
-Entry Wire Line
-	28600 2050 28700 2150
-Entry Wire Line
-	28600 2150 28700 2250
-Entry Wire Line
-	28600 2250 28700 2350
-Entry Wire Line
-	28600 2350 28700 2450
-Entry Wire Line
-	28600 2450 28700 2550
-Entry Wire Line
-	28600 2550 28700 2650
-Entry Wire Line
-	28600 2750 28700 2850
-Entry Wire Line
-	28600 2850 28700 2950
-Entry Wire Line
-	28600 2950 28700 3050
-Entry Wire Line
-	28600 3050 28700 3150
-Entry Wire Line
-	28600 3150 28700 3250
-Entry Wire Line
-	28600 3250 28700 3350
-Entry Wire Line
-	28600 3350 28700 3450
-Entry Wire Line
-	28600 3450 28700 3550
-Entry Wire Line
-	28600 3650 28700 3750
-Entry Wire Line
-	28600 3750 28700 3850
-Entry Wire Line
-	28600 3850 28700 3950
-Entry Wire Line
-	28600 3950 28700 4050
-Entry Wire Line
-	28600 4050 28700 4150
-Entry Wire Line
-	28600 4150 28700 4250
-Entry Wire Line
-	28600 4250 28700 4350
-Entry Wire Line
-	28600 4350 28700 4450
 Wire Wire Line
 	10500 6050 10600 6050
 Wire Wire Line
@@ -358,30 +280,6 @@ TDO
 Text Label 11000 5350 2    50   ~ 0
 TDI
 Entry Wire Line
-	25650 2050 25750 2150
-Entry Wire Line
-	25650 2150 25750 2250
-Entry Wire Line
-	25650 2250 25750 2350
-Entry Wire Line
-	25650 2350 25750 2450
-Entry Wire Line
-	25650 2850 25750 2950
-Entry Wire Line
-	25650 2950 25750 3050
-Entry Wire Line
-	25650 3050 25750 3150
-Entry Wire Line
-	25650 3150 25750 3250
-Entry Wire Line
-	25650 3350 25750 3450
-Entry Wire Line
-	25650 3450 25750 3550
-Entry Wire Line
-	25650 3550 25750 3650
-Entry Wire Line
-	25650 3650 25750 3750
-Entry Wire Line
 	8300 5750 8200 5650
 Entry Wire Line
 	8300 5850 8200 5750
@@ -391,66 +289,6 @@ Entry Wire Line
 	8300 5650 8200 5550
 Wire Bus Line
 	8200 5450 7700 5450
-Text Label 28700 1950 0    50   ~ 0
-TRIG_OUT_B0
-Text Label 28700 2050 0    50   ~ 0
-TRIG_OUT_B1
-Text Label 28700 2150 0    50   ~ 0
-TRIG_OUT_B2
-Text Label 28700 2250 0    50   ~ 0
-TRIG_OUT_B3
-Text Label 28700 2350 0    50   ~ 0
-TRIG_OUT_B4
-Text Label 28700 2450 0    50   ~ 0
-TRIG_OUT_B5
-Text Label 28700 2550 0    50   ~ 0
-TRIG_OUT_B6
-Text Label 28700 2850 0    50   ~ 0
-TRIG_OUT_B8
-Text Label 28700 2950 0    50   ~ 0
-TRIG_OUT_B9
-Text Label 28700 3050 0    50   ~ 0
-TRIG_OUT_B10
-Text Label 28700 3150 0    50   ~ 0
-TRIG_OUT_B11
-Text Label 28700 3250 0    50   ~ 0
-TRIG_OUT_B12
-Text Label 28700 3350 0    50   ~ 0
-TRIG_OUT_B13
-Text Label 28700 3450 0    50   ~ 0
-TRIG_OUT_B14
-Text Label 28700 3550 0    50   ~ 0
-TRIG_OUT_B15
-Text Label 28700 3750 0    50   ~ 0
-TRIG_OUT_B16
-Text Label 28700 3850 0    50   ~ 0
-TRIG_OUT_B17
-Text Label 28700 3950 0    50   ~ 0
-TRIG_OUT_B18
-Text Label 28700 4150 0    50   ~ 0
-TRIG_OUT_B20
-Text Label 28700 4250 0    50   ~ 0
-TRIG_OUT_B21
-Text Label 28700 4350 0    50   ~ 0
-TRIG_OUT_B22
-Text Label 28700 4450 0    50   ~ 0
-TRIG_OUT_B23
-Text Label 27500 450  2    50   ~ 0
-TRIG_OUT_B24
-Text Label 27500 550  2    50   ~ 0
-TRIG_OUT_B25
-Text Label 27500 650  2    50   ~ 0
-TRIG_OUT_B26
-Text Label 27500 750  2    50   ~ 0
-TRIG_OUT_B27
-Text Label 27500 850  2    50   ~ 0
-TRIG_OUT_B28
-Text Label 27500 950  2    50   ~ 0
-TRIG_OUT_B29
-Text Label 27500 1050 2    50   ~ 0
-TRIG_OUT_B30
-Text Label 27500 1150 2    50   ~ 0
-TRIG_OUT_B31
 Wire Wire Line
 	17350 2550 16850 2550
 Entry Wire Line
@@ -680,42 +518,6 @@ Wire Wire Line
 	16850 5150 17000 5150
 Wire Wire Line
 	17000 5250 16850 5250
-Entry Wire Line
-	25650 3750 25750 3850
-Entry Wire Line
-	25650 3850 25750 3950
-Text Label 25750 1950 0    50   ~ 0
-TRIG_OUT_A16
-Text Label 25750 2050 0    50   ~ 0
-TRIG_OUT_A17
-Text Label 25750 2150 0    50   ~ 0
-TRIG_OUT_A18
-Text Label 25750 2250 0    50   ~ 0
-TRIG_OUT_A19
-Text Label 25750 2350 0    50   ~ 0
-TRIG_OUT_A20
-Text Label 25750 2450 0    50   ~ 0
-TRIG_OUT_A21
-Text Label 25750 2950 0    50   ~ 0
-TRIG_OUT_A22
-Text Label 25750 3050 0    50   ~ 0
-TRIG_OUT_A23
-Text Label 25750 3150 0    50   ~ 0
-TRIG_OUT_A24
-Text Label 25750 3250 0    50   ~ 0
-TRIG_OUT_A25
-Text Label 25750 3450 0    50   ~ 0
-TRIG_OUT_A26
-Text Label 25750 3550 0    50   ~ 0
-TRIG_OUT_A27
-Text Label 25750 3650 0    50   ~ 0
-TRIG_OUT_A28
-Text Label 25750 3750 0    50   ~ 0
-TRIG_OUT_A29
-Text Label 25750 3850 0    50   ~ 0
-TRIG_OUT_A30
-Text Label 25750 3950 0    50   ~ 0
-TRIG_OUT_A31
 Wire Notes Line
 	6300 500  6300 8050
 Wire Notes Line
@@ -1116,8 +918,6 @@ Wire Wire Line
 	9300 5350 9100 5350
 Text HLabel 9100 5350 0    50   Output ~ 0
 ENABLE
-Text HLabel 28100 350  2    50   Input ~ 0
-TRIG_OUT_B[0..31]
 $Comp
 L power:GNDD #PWR094
 U 1 1 613D4889
@@ -1176,7 +976,7 @@ U 1 1 610AD833
 P 11850 5550
 AR Path="/62251D77/610AD833" Ref="R?"  Part="1" 
 AR Path="/60D04563/610AD833" Ref="R66"  Part="1" 
-F 0 "R66" V 11950 5500 50  0000 L CNN
+F 0 "R66" V 11750 5450 50  0000 L CNN
 F 1 "56" V 11850 5500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 5550 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 11850 5550 50  0001 C CNN
@@ -1186,7 +986,7 @@ F 6 "Vishay Dale" H 11850 5550 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 11850 5550 50  0001 C CNN "Supplier "
 F 8 "541-5483-1-ND" H 11850 5550 50  0001 C CNN "Supplier P/N"
 	1    11850 5550
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	11450 5750 10500 5750
@@ -1221,44 +1021,8 @@ F 3 "" H 11750 6600 50  0001 C CNN
 	1    11750 6600
 	1    0    0    -1  
 $EndComp
-$Comp
-L Transistor_FET:DMN67D7L Q?
-U 1 1 611C22A7
-P 11650 6400
-AR Path="/62251D77/611C22A7" Ref="Q?"  Part="1" 
-AR Path="/60D04563/611C22A7" Ref="Q4"  Part="1" 
-F 0 "Q4" H 11850 6400 50  0000 L CNN
-F 1 "DMN67D7L" H 11850 6300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11850 6325 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 11650 6400 50  0001 L CNN
-F 4 "$0.21" H 11650 6400 50  0001 C CNN "Item Cost"
-F 5 "DMN67D8L-7" H 11650 6400 50  0001 C CNN "MFN"
-F 6 "Diodes Inc." H 11650 6400 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 11650 6400 50  0001 C CNN "Supplier "
-F 8 "DMN67D8L-7DICT-ND" H 11650 6400 50  0001 C CNN "Supplier P/N"
-	1    11650 6400
-	1    0    0    -1  
-$EndComp
 Text GLabel 12150 6200 2    50   Input ~ 0
 3.3V_TRENZ
-$Comp
-L Device:R_Small R?
-U 1 1 611C22B2
-P 11850 6200
-AR Path="/62251D77/611C22B2" Ref="R?"  Part="1" 
-AR Path="/60D04563/611C22B2" Ref="R67"  Part="1" 
-F 0 "R67" V 11950 6150 50  0000 L CNN
-F 1 "5" V 11850 6150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11850 6200 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Delta%20PDFs/RLT1220-F(1_3W).pdf" H 11850 6200 50  0001 C CNN
-F 4 "$0.52" H 11850 6200 50  0001 C CNN "Item Cost"
-F 5 "RLT1220-F-5R00-JNH" H 11850 6200 50  0001 C CNN "MFN"
-F 6 "Delta Electronics/Cyntec" H 11850 6200 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 11850 6200 50  0001 C CNN "Supplier "
-F 8 "2037-RLT1220-F-5R00-JNHCT-ND" H 11850 6200 50  0001 C CNN "Supplier P/N"
-	1    11850 6200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	11150 6400 11450 6400
 Wire Wire Line
@@ -2000,114 +1764,14 @@ Wire Wire Line
 	17800 1850 17650 1850
 Wire Wire Line
 	17400 1950 16850 1950
-Text Label 28700 2650 0    50   ~ 0
-TRIG_OUT_B7
-Text Label 28700 4050 0    50   ~ 0
-TRIG_OUT_B19
 Text Label 11500 4650 2    50   ~ 0
 Serial_ctrl_B3
-Wire Wire Line
-	28700 1950 29450 1950
-Wire Wire Line
-	28700 2050 29450 2050
-Wire Wire Line
-	28700 2150 29450 2150
-Wire Wire Line
-	28700 2250 29450 2250
-Wire Wire Line
-	28700 2350 29450 2350
-Wire Wire Line
-	28700 2450 29450 2450
-Wire Wire Line
-	28700 2550 29450 2550
-Wire Wire Line
-	28700 2650 29450 2650
-Wire Wire Line
-	28700 2850 29450 2850
-Wire Wire Line
-	28700 2950 29450 2950
-Wire Wire Line
-	28700 3050 29450 3050
-Wire Wire Line
-	28700 3150 29450 3150
-Wire Wire Line
-	28700 3250 29450 3250
-Wire Wire Line
-	28700 3350 29450 3350
-Wire Wire Line
-	28700 3450 29450 3450
-Wire Wire Line
-	28700 3550 29450 3550
-Wire Wire Line
-	28700 3750 29450 3750
-Wire Wire Line
-	28700 3850 29450 3850
-Wire Wire Line
-	28700 3950 29450 3950
-Wire Wire Line
-	28700 4050 29450 4050
-Wire Wire Line
-	28700 4150 29450 4150
-Wire Wire Line
-	28700 4250 29450 4250
-Wire Wire Line
-	28700 4350 29450 4350
-Wire Wire Line
-	28700 4450 29450 4450
-Wire Wire Line
-	25750 2150 26500 2150
-Wire Wire Line
-	25750 2250 26500 2250
-Wire Wire Line
-	25750 2350 26500 2350
-Wire Wire Line
-	25750 2450 26500 2450
-Wire Wire Line
-	25750 1950 26500 1950
-Wire Wire Line
-	25750 2050 26500 2050
-Wire Wire Line
-	25750 2950 26500 2950
-Wire Wire Line
-	25750 3050 26500 3050
-Wire Wire Line
-	25750 3150 26500 3150
-Wire Wire Line
-	25750 3250 26500 3250
-Wire Wire Line
-	25750 3450 26500 3450
-Wire Wire Line
-	25750 3650 26500 3650
-Wire Wire Line
-	25750 3750 26500 3750
-Wire Wire Line
-	25750 3550 26500 3550
-Wire Wire Line
-	25750 3850 26500 3850
-Wire Wire Line
-	25750 3950 26500 3950
 Wire Wire Line
 	17650 1850 17650 1900
 Wire Wire Line
 	17650 1900 17400 1900
 Wire Wire Line
 	17400 1900 17400 1950
-Wire Wire Line
-	26750 450  27500 450 
-Wire Wire Line
-	26750 550  27500 550 
-Wire Wire Line
-	26750 650  27500 650 
-Wire Wire Line
-	26750 750  27500 750 
-Wire Wire Line
-	26750 850  27500 850 
-Wire Wire Line
-	26750 950  27500 950 
-Wire Wire Line
-	26750 1050 27500 1050
-Wire Wire Line
-	26750 1150 27500 1150
 $Comp
 L power:GNDD #PWR?
 U 1 1 60FD43A7
@@ -2186,106 +1850,6 @@ F 8 "SAM14152CT-ND" H 16250 3600 50  0001 C CNN "Supplier P/N"
 	2    16250 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	21900 4050 22650 4050
-Wire Wire Line
-	21900 3950 22650 3950
-Wire Wire Line
-	21900 3850 22650 3850
-Wire Wire Line
-	21900 3750 22650 3750
-Wire Wire Line
-	21900 3550 22650 3550
-Wire Wire Line
-	21900 3450 22650 3450
-Wire Wire Line
-	21900 3150 22650 3150
-Wire Wire Line
-	21900 3050 22650 3050
-Wire Wire Line
-	21900 2950 22650 2950
-Wire Wire Line
-	21900 2850 22650 2850
-Wire Wire Line
-	21900 2450 22650 2450
-Wire Wire Line
-	21900 2350 22650 2350
-Wire Wire Line
-	21900 2250 22650 2250
-Wire Wire Line
-	21900 2150 22650 2150
-Wire Wire Line
-	21900 2050 22650 2050
-Wire Wire Line
-	21900 1950 22650 1950
-Text Label 22650 4050 2    50   ~ 0
-TRIG_OUT_A15
-Text Label 22650 3950 2    50   ~ 0
-TRIG_OUT_A14
-Text Label 22650 3850 2    50   ~ 0
-TRIG_OUT_A13
-Text Label 22650 3750 2    50   ~ 0
-TRIG_OUT_A12
-Text Label 22650 3550 2    50   ~ 0
-TRIG_OUT_A11
-Text Label 22650 3450 2    50   ~ 0
-TRIG_OUT_A10
-Text Label 22650 3150 2    50   ~ 0
-TRIG_OUT_A9
-Text Label 22650 3050 2    50   ~ 0
-TRIG_OUT_A8
-Text Label 22650 2950 2    50   ~ 0
-TRIG_OUT_A7
-Text Label 22650 2850 2    50   ~ 0
-TRIG_OUT_A6
-Text Label 22650 2450 2    50   ~ 0
-TRIG_OUT_A5
-Text Label 22650 2350 2    50   ~ 0
-TRIG_OUT_A4
-Text Label 22650 2250 2    50   ~ 0
-TRIG_OUT_A3
-Text Label 22650 2150 2    50   ~ 0
-TRIG_OUT_A2
-Text Label 22650 2050 2    50   ~ 0
-TRIG_OUT_A1
-Text Label 22650 1950 2    50   ~ 0
-TRIG_OUT_A0
-Text HLabel 23250 1850 2    50   Input ~ 0
-TRIG_OUT_A[0..31]
-Entry Wire Line
-	22750 3950 22650 4050
-Entry Wire Line
-	22750 3850 22650 3950
-Entry Wire Line
-	22750 3750 22650 3850
-Entry Wire Line
-	22750 3650 22650 3750
-Entry Wire Line
-	22750 3450 22650 3550
-Entry Wire Line
-	22750 3350 22650 3450
-Entry Wire Line
-	22750 3050 22650 3150
-Entry Wire Line
-	22750 2950 22650 3050
-Entry Wire Line
-	22750 2850 22650 2950
-Entry Wire Line
-	22750 2750 22650 2850
-Entry Wire Line
-	22750 2350 22650 2450
-Entry Wire Line
-	22750 2250 22650 2350
-Entry Wire Line
-	22750 2150 22650 2250
-Entry Wire Line
-	22750 2050 22650 2150
-Entry Wire Line
-	22750 1950 22650 2050
-Entry Wire Line
-	22750 1850 22650 1950
-Wire Bus Line
-	22750 1850 23250 1850
 Text HLabel 18200 3750 2    50   Input ~ 0
 TRIG_OUT_A[0..31]
 Entry Wire Line
@@ -2686,6 +2250,42 @@ Wire Wire Line
 	16850 1250 17600 1250
 Wire Wire Line
 	16850 1150 17600 1150
+$Comp
+L Transistor_FET:DMN67D7L Q?
+U 1 1 611C22A7
+P 11650 6400
+AR Path="/62251D77/611C22A7" Ref="Q?"  Part="1" 
+AR Path="/60D04563/611C22A7" Ref="Q4"  Part="1" 
+F 0 "Q4" H 11850 6400 50  0000 L CNN
+F 1 "DMN67D7L" H 11850 6300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 11850 6325 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 11650 6400 50  0001 L CNN
+F 4 "$0.21" H 11650 6400 50  0001 C CNN "Item Cost"
+F 5 "DMN67D8L-7" H 11650 6400 50  0001 C CNN "MFN"
+F 6 "Diodes Inc." H 11650 6400 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11650 6400 50  0001 C CNN "Supplier "
+F 8 "DMN67D8L-7DICT-ND" H 11650 6400 50  0001 C CNN "Supplier P/N"
+	1    11650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 611C22B2
+P 11850 6200
+AR Path="/62251D77/611C22B2" Ref="R?"  Part="1" 
+AR Path="/60D04563/611C22B2" Ref="R67"  Part="1" 
+F 0 "R67" V 11750 6100 50  0000 L CNN
+F 1 "4.99" V 11850 6150 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 6200 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 11850 6200 50  0001 C CNN
+F 4 "$0.1" H 11850 6200 50  0001 C CNN "Item Cost"
+F 5 "CRCW06034R99FNEA" H 11850 6200 50  0001 C CNN "MFN"
+F 6 "Vishay Dale" H 11850 6200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11850 6200 50  0001 C CNN "Supplier "
+F 8 "541-4.99HCT-ND" H 11850 6200 50  0001 C CNN "Supplier P/N"
+	1    11850 6200
+	0    1    1    0   
+$EndComp
 Wire Bus Line
 	11600 2550 11600 2750
 Wire Wire Line
@@ -2697,8 +2297,6 @@ Wire Bus Line
 Wire Bus Line
 	8450 2350 8450 2750
 Wire Bus Line
-	27600 350  27600 1050
-Wire Bus Line
 	17700 1050 17700 1750
 Wire Bus Line
 	8200 4250 8200 5050
@@ -2709,15 +2307,9 @@ Wire Bus Line
 Wire Bus Line
 	11600 2850 11600 3850
 Wire Bus Line
-	25650 1850 25650 3850
-Wire Bus Line
-	22750 1850 22750 3950
-Wire Bus Line
 	17700 3750 17700 5850
 Wire Bus Line
 	14800 3750 14800 5750
 Wire Bus Line
 	14800 1050 14800 3550
-Wire Bus Line
-	28600 1850 28600 4350
 $EndSCHEMATC
