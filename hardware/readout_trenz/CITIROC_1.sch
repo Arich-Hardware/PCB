@@ -304,26 +304,26 @@ Wire Wire Line
 Wire Wire Line
 	14200 5250 15550 5250
 Wire Wire Line
-	15900 4000 16700 4000
+	15900 3950 16700 3950
 Wire Wire Line
-	15900 4100 16700 4100
+	15900 4050 16700 4050
 Entry Wire Line
 	15650 5450 15750 5350
 Entry Wire Line
 	15650 5550 15750 5450
 Entry Wire Line
-	16700 4000 16800 3900
+	16700 3950 16800 3850
 Entry Wire Line
-	16700 4100 16800 4000
+	16700 4050 16800 3950
 Entry Wire Line
 	15650 5250 15750 5150
 Entry Wire Line
 	15650 5350 15750 5250
 Wire Bus Line
-	16800 3650 17300 3650
+	16800 3600 17300 3600
 Wire Bus Line
 	15750 5150 16250 5150
-Text HLabel 17300 3650 2    50   Input ~ 0
+Text HLabel 17300 3600 2    50   Input ~ 0
 Serial_ctrl[0..8]
 Text Notes 15900 5300 0    50   ~ 0
 Go to the same bank as T\n
@@ -861,73 +861,8 @@ Wire Wire Line
 	10350 7550 10350 7450
 Wire Wire Line
 	10300 7450 10300 7350
-$Comp
-L power:GNDA #PWR0152
-U 1 1 61BCD2EA
-P 11050 10650
-AR Path="/60BB4A14/61BCD2EA" Ref="#PWR0152"  Part="1" 
-AR Path="/60BB4C00/61BCD2EA" Ref="#PWR066"  Part="1" 
-F 0 "#PWR0152" H 11050 10400 50  0001 C CNN
-F 1 "GNDA" H 11050 10500 50  0000 C CNB
-F 2 "" H 11050 10650 50  0001 C CNN
-F 3 "" H 11050 10650 50  0001 C CNN
-	1    11050 10650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 7050 9600 6900
-Connection ~ 11050 10350
-Wire Wire Line
-	10950 10350 11050 10350
-Wire Wire Line
-	11050 10250 11050 10350
-Connection ~ 11050 10250
-Wire Wire Line
-	10950 10250 11050 10250
-Wire Wire Line
-	11050 10150 11050 10250
-Connection ~ 11050 10150
-Wire Wire Line
-	10950 10150 11050 10150
-Wire Wire Line
-	11050 10050 11050 10150
-Connection ~ 11050 10050
-Wire Wire Line
-	10950 10050 11050 10050
-Wire Wire Line
-	11050 9950 11050 10050
-Connection ~ 11050 9950
-Wire Wire Line
-	11050 9850 11050 9950
-Wire Wire Line
-	11050 9950 10950 9950
-Wire Wire Line
-	11050 9850 11050 9750
-Connection ~ 11050 9850
-Wire Wire Line
-	10950 9850 11050 9850
-Wire Wire Line
-	11050 9750 11050 9650
-Connection ~ 11050 9750
-Wire Wire Line
-	11050 9750 10950 9750
-Wire Wire Line
-	11050 9650 11050 9550
-Connection ~ 11050 9650
-Wire Wire Line
-	10950 9650 11050 9650
-Wire Wire Line
-	11050 9550 11050 9450
-Connection ~ 11050 9550
-Wire Wire Line
-	11050 9550 10950 9550
-Wire Wire Line
-	11050 9450 11050 9350
-Connection ~ 11050 9450
-Wire Wire Line
-	10950 9450 11050 9450
-Wire Wire Line
-	11050 9350 10950 9350
 Text Notes 12750 8800 0    50   ~ 0
 SPI to LVDS bank
 Wire Wire Line
@@ -3245,24 +3180,6 @@ Entry Wire Line
 Entry Wire Line
 	7950 5050 7850 4950
 $Comp
-L readout:NLSV4T244E U22
-U 1 1 61D5656A
-P 15550 4150
-AR Path="/60BB4A14/61D5656A" Ref="U22"  Part="1" 
-AR Path="/60BB4C00/61D5656A" Ref="U14"  Part="1" 
-F 0 "U22" H 15550 4625 50  0000 C CNN
-F 1 "NLSV4T244E" H 15550 4534 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 15550 4150 50  0001 C CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/nlsv4t244e-d.pdf" H 15550 4150 50  0001 C CNN
-F 4 "$1.97" H 15550 4150 50  0001 C CNN "Item Cost"
-F 5 "ON Semiconductors" H 15550 4150 50  0001 C CNN "Manufacturer"
-F 6 "NLSV4T244EDTR2G" H 15550 4150 50  0001 C CNN "MFN"
-F 7 "NLSV4T244EDTR2GOSCT-ND" H 15550 4150 50  0001 C CNN "Supplier P/N"
-F 8 "Digi-Key" H 15550 4150 50  0001 C CNN "Supplier "
-	1    15550 4150
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GNDA #PWR0153
 U 1 1 61EB8B80
 P 11250 7000
@@ -3451,45 +3368,15 @@ F 8 "Digi-Key" H 10500 4800 50  0001 C CNN "Supplier "
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15200 4400 15200 4500
+	15900 3850 15950 3850
 Wire Wire Line
-	15200 4500 15550 4500
+	15200 3850 15150 3850
 Wire Wire Line
-	15900 4500 15900 4400
-$Comp
-L power:GNDD #PWR0167
-U 1 1 62AD9BCF
-P 15550 4500
-AR Path="/60BB4A14/62AD9BCF" Ref="#PWR0167"  Part="1" 
-AR Path="/60BB4C00/62AD9BCF" Ref="#PWR081"  Part="1" 
-F 0 "#PWR0167" H 15550 4250 50  0001 C CNN
-F 1 "GNDD" H 15554 4345 50  0000 C CNN
-F 2 "" H 15550 4500 50  0001 C CNN
-F 3 "" H 15550 4500 50  0001 C CNN
-	1    15550 4500
-	1    0    0    -1  
-$EndComp
-Connection ~ 15550 4500
-Wire Wire Line
-	15550 4500 15900 4500
-Wire Wire Line
-	15900 3900 15950 3900
-Wire Wire Line
-	15200 3900 15150 3900
-NoConn ~ 15900 4200
-NoConn ~ 15900 4300
-NoConn ~ 15200 4300
-NoConn ~ 15200 4200
-Wire Wire Line
-	15200 4100 15050 4100
-Wire Wire Line
-	15050 4100 15050 5050
+	15050 4050 15050 5050
 Wire Wire Line
 	15050 5050 14200 5050
 Wire Wire Line
-	15200 4000 14950 4000
-Wire Wire Line
-	14950 4000 14950 4850
+	14950 3950 14950 4850
 Wire Wire Line
 	14950 4850 14200 4850
 Wire Wire Line
@@ -4699,9 +4586,9 @@ Text Label 7950 4950 0    50   ~ 0
 Serial_ctrl5
 Text Label 7950 5050 0    50   ~ 0
 Serial_ctrl6
-Text Label 16700 4000 2    50   ~ 0
+Text Label 16700 3950 2    50   ~ 0
 Serial_ctrl7
-Text Label 16700 4100 2    50   ~ 0
+Text Label 16700 4050 2    50   ~ 0
 Serial_ctrl8
 Text HLabel 16250 5150 2    50   Input ~ 0
 Fast_Trig[0..3]
@@ -4712,29 +4599,29 @@ Fast_Trig1
 Text Label 15050 5450 2    50   ~ 0
 Fast_Trig2
 Wire Wire Line
-	15850 3400 15950 3400
+	15850 3350 15950 3350
 $Comp
 L Device:C_Small C?
 U 1 1 61394F24
-P 15750 3400
+P 15750 3350
 AR Path="/62251D77/61394F24" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/61394F24" Ref="C89"  Part="1" 
 AR Path="/60BB4A14/61394F24" Ref="C172"  Part="1" 
-F 0 "C172" H 15842 3446 50  0000 L CNN
-F 1 "0.1uF" H 15842 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15750 3400 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 15750 3400 50  0001 C CNN
-F 4 "$0.1" H 15750 3400 50  0001 C CNN "Item Cost"
-F 5 "885012206046" H 15750 3400 50  0001 C CNN "MFN"
-F 6 "Würth Elektronik" H 15750 3400 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 15750 3400 50  0001 C CNN "Supplier "
-F 8 "732-7965-1-ND" H 15750 3400 50  0001 C CNN "Supplier P/N"
-	1    15750 3400
+F 0 "C172" H 15842 3396 50  0000 L CNN
+F 1 "0.1uF" H 15842 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15750 3350 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 15750 3350 50  0001 C CNN
+F 4 "$0.1" H 15750 3350 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 15750 3350 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 15750 3350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 15750 3350 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 15750 3350 50  0001 C CNN "Supplier P/N"
+	1    15750 3350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 15950 3300 1    50   Input ~ 0
+Text GLabel 15950 3250 1    50   Input ~ 0
 3.3V_CITIROC
-Text GLabel 15150 3300 1    50   Input ~ 0
+Text GLabel 15150 3250 1    50   Input ~ 0
 1.8V_CITIROC
 Entry Wire Line
 	14800 1450 14700 1550
@@ -4807,36 +4694,36 @@ Wire Bus Line
 $Comp
 L Device:C_Small C?
 U 1 1 61521F7F
-P 15350 3400
+P 15350 3350
 AR Path="/62251D77/61521F7F" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/61521F7F" Ref="C88"  Part="1" 
 AR Path="/60BB4A14/61521F7F" Ref="C171"  Part="1" 
-F 0 "C171" H 15442 3446 50  0000 L CNN
-F 1 "0.1uF" H 15442 3355 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15350 3400 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 15350 3400 50  0001 C CNN
-F 4 "$0.1" H 15350 3400 50  0001 C CNN "Item Cost"
-F 5 "885012206046" H 15350 3400 50  0001 C CNN "MFN"
-F 6 "Würth Elektronik" H 15350 3400 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 15350 3400 50  0001 C CNN "Supplier "
-F 8 "732-7965-1-ND" H 15350 3400 50  0001 C CNN "Supplier P/N"
-	1    15350 3400
+F 0 "C171" H 15442 3396 50  0000 L CNN
+F 1 "0.1uF" H 15442 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15350 3350 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 15350 3350 50  0001 C CNN
+F 4 "$0.1" H 15350 3350 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 15350 3350 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 15350 3350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 15350 3350 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 15350 3350 50  0001 C CNN "Supplier P/N"
+	1    15350 3350
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	15250 3400 15150 3400
+	15250 3350 15150 3350
 $Comp
 L power:GNDD #PWR?
 U 1 1 61521F85
-P 15550 3400
+P 15550 3350
 AR Path="/62251D77/61521F85" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/61521F85" Ref="#PWR080"  Part="1" 
 AR Path="/60BB4A14/61521F85" Ref="#PWR0166"  Part="1" 
-F 0 "#PWR0166" H 15550 3150 50  0001 C CNN
-F 1 "GNDD" H 15554 3245 50  0000 C CNN
-F 2 "" H 15550 3400 50  0001 C CNN
-F 3 "" H 15550 3400 50  0001 C CNN
-	1    15550 3400
+F 0 "#PWR0166" H 15550 3100 50  0001 C CNN
+F 1 "GNDD" H 15554 3195 50  0000 C CNN
+F 2 "" H 15550 3350 50  0001 C CNN
+F 3 "" H 15550 3350 50  0001 C CNN
+	1    15550 3350
 	-1   0    0    -1  
 $EndComp
 Text HLabel 15500 1450 2    50   Output ~ 0
@@ -4873,166 +4760,21 @@ NoConn ~ 13050 7250
 NoConn ~ 13050 7350
 NoConn ~ 13050 7450
 NoConn ~ 13050 7550
-$Comp
-L Connector:TestPoint_2Pole TP1
-U 1 1 617C907D
-P 10750 9350
-AR Path="/60BB4C00/617C907D" Ref="TP1"  Part="1" 
-AR Path="/60BB4A14/617C907D" Ref="TP13"  Part="1" 
-F 0 "TP13" H 10750 9400 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 9400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 9350 50  0001 C CNN
-F 3 "~" H 10750 9350 50  0001 C CNN
-	1    10750 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP2
-U 1 1 619BBCFA
-P 10750 9450
-AR Path="/60BB4C00/619BBCFA" Ref="TP2"  Part="1" 
-AR Path="/60BB4A14/619BBCFA" Ref="TP14"  Part="1" 
-F 0 "TP14" H 10750 9500 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 9500 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 9450 50  0001 C CNN
-F 3 "~" H 10750 9450 50  0001 C CNN
-	1    10750 9450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP3
-U 1 1 61A32323
-P 10750 9550
-AR Path="/60BB4C00/61A32323" Ref="TP3"  Part="1" 
-AR Path="/60BB4A14/61A32323" Ref="TP15"  Part="1" 
-F 0 "TP15" H 10750 9600 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 9600 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 9550 50  0001 C CNN
-F 3 "~" H 10750 9550 50  0001 C CNN
-	1    10750 9550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP4
-U 1 1 61A3232D
-P 10750 9650
-AR Path="/60BB4C00/61A3232D" Ref="TP4"  Part="1" 
-AR Path="/60BB4A14/61A3232D" Ref="TP16"  Part="1" 
-F 0 "TP16" H 10750 9700 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 9700 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 9650 50  0001 C CNN
-F 3 "~" H 10750 9650 50  0001 C CNN
-	1    10750 9650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP5
-U 1 1 61AAA687
-P 10750 9750
-AR Path="/60BB4C00/61AAA687" Ref="TP5"  Part="1" 
-AR Path="/60BB4A14/61AAA687" Ref="TP17"  Part="1" 
-F 0 "TP17" H 10750 9800 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 9800 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 9750 50  0001 C CNN
-F 3 "~" H 10750 9750 50  0001 C CNN
-	1    10750 9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP6
-U 1 1 61AAA691
-P 10750 9850
-AR Path="/60BB4C00/61AAA691" Ref="TP6"  Part="1" 
-AR Path="/60BB4A14/61AAA691" Ref="TP18"  Part="1" 
-F 0 "TP18" H 10750 9900 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 9900 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 9850 50  0001 C CNN
-F 3 "~" H 10750 9850 50  0001 C CNN
-	1    10750 9850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP7
-U 1 1 61AAA69B
-P 10750 9950
-AR Path="/60BB4C00/61AAA69B" Ref="TP7"  Part="1" 
-AR Path="/60BB4A14/61AAA69B" Ref="TP19"  Part="1" 
-F 0 "TP19" H 10750 10000 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 10000 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 9950 50  0001 C CNN
-F 3 "~" H 10750 9950 50  0001 C CNN
-	1    10750 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP8
-U 1 1 61AAA6A5
-P 10750 10050
-AR Path="/60BB4C00/61AAA6A5" Ref="TP8"  Part="1" 
-AR Path="/60BB4A14/61AAA6A5" Ref="TP20"  Part="1" 
-F 0 "TP20" H 10750 10100 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 10100 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 10050 50  0001 C CNN
-F 3 "~" H 10750 10050 50  0001 C CNN
-	1    10750 10050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP9
-U 1 1 61B35169
-P 10750 10150
-AR Path="/60BB4C00/61B35169" Ref="TP9"  Part="1" 
-AR Path="/60BB4A14/61B35169" Ref="TP21"  Part="1" 
-F 0 "TP21" H 10750 10200 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 10200 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 10150 50  0001 C CNN
-F 3 "~" H 10750 10150 50  0001 C CNN
-	1    10750 10150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP10
-U 1 1 61B35173
-P 10750 10250
-AR Path="/60BB4C00/61B35173" Ref="TP10"  Part="1" 
-AR Path="/60BB4A14/61B35173" Ref="TP22"  Part="1" 
-F 0 "TP22" H 10750 10300 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 10300 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 10250 50  0001 C CNN
-F 3 "~" H 10750 10250 50  0001 C CNN
-	1    10750 10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint_2Pole TP11
-U 1 1 61B3517D
-P 10750 10350
-AR Path="/60BB4C00/61B3517D" Ref="TP11"  Part="1" 
-AR Path="/60BB4A14/61B3517D" Ref="TP23"  Part="1" 
-F 0 "TP23" H 10750 10400 50  0000 C CNN
-F 1 "TestPoint_2Pole" H 11350 10400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" H 10750 10350 50  0001 C CNN
-F 3 "~" H 10750 10350 50  0001 C CNN
-	1    10750 10350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	11050 10350 11050 10650
+	15450 3350 15550 3350
+Connection ~ 15550 3350
 Wire Wire Line
-	15450 3400 15550 3400
-Connection ~ 15550 3400
+	15550 3350 15650 3350
 Wire Wire Line
-	15550 3400 15650 3400
+	15950 3250 15950 3350
+Connection ~ 15950 3350
 Wire Wire Line
-	15950 3300 15950 3400
-Connection ~ 15950 3400
+	15950 3350 15950 3850
 Wire Wire Line
-	15950 3400 15950 3900
+	15150 3250 15150 3350
+Connection ~ 15150 3350
 Wire Wire Line
-	15150 3300 15150 3400
-Connection ~ 15150 3400
-Wire Wire Line
-	15150 3400 15150 3900
+	15150 3350 15150 3850
 Wire Wire Line
 	3400 2550 3400 3750
 Wire Wire Line
@@ -5167,8 +4909,196 @@ Text Label 14250 4550 0    50   ~ 0
 TRIG_OUT30
 Text Label 14250 4650 0    50   ~ 0
 TRIG_OUT31
+$Comp
+L Connector:TestPoint TP13
+U 1 1 60EE5C11
+P 10550 9350
+AR Path="/60BB4A14/60EE5C11" Ref="TP13"  Part="1" 
+AR Path="/60BB4C00/60EE5C11" Ref="TP1"  Part="1" 
+F 0 "TP13" V 10550 9550 50  0000 L CNN
+F 1 "TestPoint" V 10550 9750 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9350 50  0001 C CNN
+F 3 "~" H 10750 9350 50  0001 C CNN
+	1    10550 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP14
+U 1 1 613F78F7
+P 10550 9450
+AR Path="/60BB4A14/613F78F7" Ref="TP14"  Part="1" 
+AR Path="/60BB4C00/613F78F7" Ref="TP2"  Part="1" 
+F 0 "TP14" V 10550 9650 50  0000 L CNN
+F 1 "TestPoint" V 10550 9850 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9450 50  0001 C CNN
+F 3 "~" H 10750 9450 50  0001 C CNN
+	1    10550 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 6146C6B6
+P 10550 9550
+AR Path="/60BB4A14/6146C6B6" Ref="TP15"  Part="1" 
+AR Path="/60BB4C00/6146C6B6" Ref="TP3"  Part="1" 
+F 0 "TP15" V 10550 9750 50  0000 L CNN
+F 1 "TestPoint" V 10550 9950 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9550 50  0001 C CNN
+F 3 "~" H 10750 9550 50  0001 C CNN
+	1    10550 9550
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP16
+U 1 1 6146C6C0
+P 10550 9650
+AR Path="/60BB4A14/6146C6C0" Ref="TP16"  Part="1" 
+AR Path="/60BB4C00/6146C6C0" Ref="TP4"  Part="1" 
+F 0 "TP16" V 10550 9850 50  0000 L CNN
+F 1 "TestPoint" V 10550 10050 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9650 50  0001 C CNN
+F 3 "~" H 10750 9650 50  0001 C CNN
+	1    10550 9650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP17
+U 1 1 614E3957
+P 10550 9750
+AR Path="/60BB4A14/614E3957" Ref="TP17"  Part="1" 
+AR Path="/60BB4C00/614E3957" Ref="TP5"  Part="1" 
+F 0 "TP17" V 10550 9950 50  0000 L CNN
+F 1 "TestPoint" V 10550 10150 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9750 50  0001 C CNN
+F 3 "~" H 10750 9750 50  0001 C CNN
+	1    10550 9750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 614E3961
+P 10550 9850
+AR Path="/60BB4A14/614E3961" Ref="TP18"  Part="1" 
+AR Path="/60BB4C00/614E3961" Ref="TP6"  Part="1" 
+F 0 "TP18" V 10550 10050 50  0000 L CNN
+F 1 "TestPoint" V 10550 10250 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9850 50  0001 C CNN
+F 3 "~" H 10750 9850 50  0001 C CNN
+	1    10550 9850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP19
+U 1 1 614E396B
+P 10550 9950
+AR Path="/60BB4A14/614E396B" Ref="TP19"  Part="1" 
+AR Path="/60BB4C00/614E396B" Ref="TP7"  Part="1" 
+F 0 "TP19" V 10550 10150 50  0000 L CNN
+F 1 "TestPoint" V 10550 10350 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9950 50  0001 C CNN
+F 3 "~" H 10750 9950 50  0001 C CNN
+	1    10550 9950
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP20
+U 1 1 614E3975
+P 10550 10050
+AR Path="/60BB4A14/614E3975" Ref="TP20"  Part="1" 
+AR Path="/60BB4C00/614E3975" Ref="TP8"  Part="1" 
+F 0 "TP20" V 10550 10250 50  0000 L CNN
+F 1 "TestPoint" V 10550 10450 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 10050 50  0001 C CNN
+F 3 "~" H 10750 10050 50  0001 C CNN
+	1    10550 10050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP21
+U 1 1 61569E00
+P 10550 10150
+AR Path="/60BB4A14/61569E00" Ref="TP21"  Part="1" 
+AR Path="/60BB4C00/61569E00" Ref="TP9"  Part="1" 
+F 0 "TP21" V 10550 10350 50  0000 L CNN
+F 1 "TestPoint" V 10550 10550 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 10150 50  0001 C CNN
+F 3 "~" H 10750 10150 50  0001 C CNN
+	1    10550 10150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP22
+U 1 1 61569E0A
+P 10550 10250
+AR Path="/60BB4A14/61569E0A" Ref="TP22"  Part="1" 
+AR Path="/60BB4C00/61569E0A" Ref="TP10"  Part="1" 
+F 0 "TP22" V 10550 10450 50  0000 L CNN
+F 1 "TestPoint" V 10550 10650 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 10250 50  0001 C CNN
+F 3 "~" H 10750 10250 50  0001 C CNN
+	1    10550 10250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 61569E14
+P 10550 10350
+AR Path="/60BB4A14/61569E14" Ref="TP23"  Part="1" 
+AR Path="/60BB4C00/61569E14" Ref="TP11"  Part="1" 
+F 0 "TP23" V 10550 10550 50  0000 L CNN
+F 1 "TestPoint" V 10550 10750 50  0000 L CNN
+F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 10350 50  0001 C CNN
+F 3 "~" H 10750 10350 50  0001 C CNN
+	1    10550 10350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15050 4050 15200 4050
+Wire Wire Line
+	14950 3950 15200 3950
+Wire Wire Line
+	15200 4150 15200 4250
+Wire Wire Line
+	15200 4250 15550 4250
+Wire Wire Line
+	15900 4250 15900 4150
+$Comp
+L power:GNDD #PWR?
+U 1 1 6150AE27
+P 15550 4250
+AR Path="/62251D77/6150AE27" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/6150AE27" Ref="#PWR0152"  Part="1" 
+AR Path="/60BB4A14/6150AE27" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 15550 4000 50  0001 C CNN
+F 1 "GNDD" H 15554 4095 50  0000 C CNN
+F 2 "" H 15550 4250 50  0001 C CNN
+F 3 "" H 15550 4250 50  0001 C CNN
+	1    15550 4250
+	-1   0    0    -1  
+$EndComp
+Connection ~ 15550 4250
+Wire Wire Line
+	15550 4250 15900 4250
+$Comp
+L readout:SN74AXC2T45DCTR U22
+U 1 1 61709DF3
+P 15550 4000
+AR Path="/60BB4A14/61709DF3" Ref="U22"  Part="1" 
+AR Path="/60BB4C00/61709DF3" Ref="U14"  Part="1" 
+F 0 "U22" H 15550 4375 50  0000 C CNN
+F 1 "SN74AXC2T45DCTR" H 15550 4284 50  0000 C CNN
+F 2 "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm" H 15550 4000 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74axc2t45.pdf?ts=1624298260694&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74AXC2T45DCTR" H 15550 4000 50  0001 C CNN
+F 4 "$0.66" H 15550 4000 50  0001 C CNN "Item Cost"
+F 5 "Texas Instruments" H 15550 4000 50  0001 C CNN "Manufacturer"
+F 6 "SN74AXC2T45DCTR" H 15550 4000 50  0001 C CNN "MFN"
+F 7 "296-SN74AXC2T45DCCT-ND" H 15550 4000 50  0001 C CNN "Supplier P/N"
+F 8 "Digi-Key" H 15550 4000 50  0001 C CNN "Supplier "
+	1    15550 4000
+	-1   0    0    -1  
+$EndComp
 Wire Bus Line
-	16800 3650 16800 4000
+	16800 3600 16800 3950
 Wire Bus Line
 	13300 7850 13300 8250
 Wire Bus Line

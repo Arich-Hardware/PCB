@@ -14,8 +14,8 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	6850 3350 7750 3350
-Text HLabel 7750 3350 2    50   Output ~ 0
+	6850 3450 7750 3450
+Text HLabel 7750 3450 2    50   Output ~ 0
 CLOCK
 Text Notes 4000 3000 0    50   ~ 0
 CLOCK\n
@@ -51,10 +51,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 4000 5500 4000
 Wire Wire Line
-	6850 3650 7750 3650
+	6850 3550 7750 3550
 Wire Wire Line
 	5500 4300 5500 4500
-Text HLabel 7750 3650 2    50   Output ~ 0
+Text HLabel 7750 3550 2    50   Output ~ 0
 TRIGGER
 Text Notes 4000 4000 0    50   ~ 0
 TRIGGER
@@ -80,51 +80,30 @@ F 3 "" H 5500 4500 50  0001 C CNN
 	1    5500 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L readout:NLSV4T244E U1
-U 1 1 61464FA1
-P 6500 3500
-F 0 "U1" H 6500 3975 50  0000 C CNN
-F 1 "NLSV4T244E" H 6500 3884 50  0000 C CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6500 3500 50  0001 C CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/nlsv4t244e-d.pdf" H 6500 3500 50  0001 C CNN
-F 4 "$1.97" H 6500 3500 50  0001 C CNN "Item Cost"
-F 5 "NLSV4T244EDTR2G" H 6500 3500 50  0001 C CNN "MFN"
-F 6 "ON Semiconductors" H 6500 3500 50  0001 C CNN "Manufacturer"
-F 7 "" H 6500 3500 50  0001 C CNN "Supplier"
-F 8 "NLSV4T244EDTR2GOSCT-ND" H 6500 3500 50  0001 C CNN "Supplier P/N"
-F 9 "Digi-Key" H 6500 3500 50  0001 C CNN "Supplier "
-	1    6500 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6150 3750 6150 3850
+	6150 3650 6150 3750
 Wire Wire Line
-	6150 3850 6500 3850
+	6150 3750 6500 3750
 Wire Wire Line
-	6850 3850 6850 3750
+	6850 3750 6850 3650
 $Comp
 L power:GNDD #PWR06
 U 1 1 61480617
-P 6500 3850
-F 0 "#PWR06" H 6500 3600 50  0001 C CNN
-F 1 "GNDD" H 6504 3695 50  0000 C CNN
-F 2 "" H 6500 3850 50  0001 C CNN
-F 3 "" H 6500 3850 50  0001 C CNN
-	1    6500 3850
+P 6500 3750
+F 0 "#PWR06" H 6500 3500 50  0001 C CNN
+F 1 "GNDD" H 6504 3595 50  0000 C CNN
+F 2 "" H 6500 3750 50  0001 C CNN
+F 3 "" H 6500 3750 50  0001 C CNN
+	1    6500 3750
 	1    0    0    -1  
 $EndComp
-Connection ~ 6500 3850
+Connection ~ 6500 3750
 Wire Wire Line
-	6500 3850 6850 3850
-Text GLabel 6900 2500 1    50   Input ~ 0
+	6500 3750 6850 3750
+Text GLabel 6900 2600 1    50   Input ~ 0
 1.8V_CITIROC
-Text GLabel 6100 2500 1    50   Input ~ 0
+Text GLabel 6100 2600 1    50   Input ~ 0
 3.3V_CITIROC
-Wire Wire Line
-	6900 3250 6850 3250
-Wire Wire Line
-	6100 3250 6150 3250
 $Comp
 L power:GNDD #PWR03
 U 1 1 613558E3
@@ -181,23 +160,15 @@ F 3 " ~" H 4500 3000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 2500 6100 2600
+	6100 2600 6100 2700
 Wire Wire Line
-	6900 2500 6900 2600
+	6900 2600 6900 2700
 Wire Wire Line
 	5500 3000 6000 3000
-Wire Wire Line
-	6000 3350 6150 3350
 Connection ~ 5500 3000
 Wire Wire Line
 	5500 4000 6000 4000
-Wire Wire Line
-	6000 3650 6150 3650
 Connection ~ 5500 4000
-NoConn ~ 6150 3450
-NoConn ~ 6150 3550
-NoConn ~ 6850 3550
-NoConn ~ 6850 3450
 $Comp
 L Device:R R4
 U 1 1 620EFA69
@@ -237,73 +208,104 @@ Wire Wire Line
 $Comp
 L Device:C_Small C?
 U 1 1 621A528F
-P 6700 2600
+P 6700 2700
 AR Path="/62251D77/621A528F" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/621A528F" Ref="C?"  Part="1" 
 AR Path="/60BB4A14/621A528F" Ref="C?"  Part="1" 
 AR Path="/60C74A7C/621A528F" Ref="C2"  Part="1" 
-F 0 "C2" V 6900 2550 50  0000 L CNN
-F 1 "0.1uF" V 6800 2500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 2600 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6700 2600 50  0001 C CNN
-F 4 "$0.1" H 6700 2600 50  0001 C CNN "Item Cost"
-F 5 "885012206046" H 6700 2600 50  0001 C CNN "MFN"
-F 6 "Würth Elektronik" H 6700 2600 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 6700 2600 50  0001 C CNN "Supplier "
-F 8 "732-7965-1-ND" H 6700 2600 50  0001 C CNN "Supplier P/N"
-	1    6700 2600
+F 0 "C2" V 6900 2650 50  0000 L CNN
+F 1 "0.1uF" V 6800 2600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6700 2700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6700 2700 50  0001 C CNN
+F 4 "$0.1" H 6700 2700 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6700 2700 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6700 2700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6700 2700 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6700 2700 50  0001 C CNN "Supplier P/N"
+	1    6700 2700
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 621A5295
-P 6500 2700
+P 6500 2800
 AR Path="/62251D77/621A5295" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/621A5295" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4A14/621A5295" Ref="#PWR?"  Part="1" 
 AR Path="/60C74A7C/621A5295" Ref="#PWR05"  Part="1" 
-F 0 "#PWR05" H 6500 2450 50  0001 C CNN
-F 1 "GNDD" H 6504 2545 50  0000 C CNN
-F 2 "" H 6500 2700 50  0001 C CNN
-F 3 "" H 6500 2700 50  0001 C CNN
-	1    6500 2700
+F 0 "#PWR05" H 6500 2550 50  0001 C CNN
+F 1 "GNDD" H 6504 2645 50  0000 C CNN
+F 2 "" H 6500 2800 50  0001 C CNN
+F 3 "" H 6500 2800 50  0001 C CNN
+	1    6500 2800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 2600 6900 2600
-Connection ~ 6900 2600
-Wire Wire Line
-	6900 2600 6900 3250
+	6800 2700 6900 2700
+Connection ~ 6900 2700
 $Comp
 L Device:C_Small C?
 U 1 1 621AC36A
-P 6300 2600
+P 6300 2700
 AR Path="/62251D77/621AC36A" Ref="C?"  Part="1" 
 AR Path="/60BB4C00/621AC36A" Ref="C?"  Part="1" 
 AR Path="/60BB4A14/621AC36A" Ref="C?"  Part="1" 
 AR Path="/60C74A7C/621AC36A" Ref="C1"  Part="1" 
-F 0 "C1" V 6500 2550 50  0000 L CNN
-F 1 "0.1uF" V 6400 2500 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6300 2600 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6300 2600 50  0001 C CNN
-F 4 "$0.1" H 6300 2600 50  0001 C CNN "Item Cost"
-F 5 "885012206046" H 6300 2600 50  0001 C CNN "MFN"
-F 6 "Würth Elektronik" H 6300 2600 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 6300 2600 50  0001 C CNN "Supplier "
-F 8 "732-7965-1-ND" H 6300 2600 50  0001 C CNN "Supplier P/N"
-	1    6300 2600
+F 0 "C1" V 6500 2650 50  0000 L CNN
+F 1 "0.1uF" V 6400 2600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6300 2700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 6300 2700 50  0001 C CNN
+F 4 "$0.1" H 6300 2700 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 6300 2700 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6300 2700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6300 2700 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 6300 2700 50  0001 C CNN "Supplier P/N"
+	1    6300 2700
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6100 2600 6200 2600
-Connection ~ 6100 2600
+	6100 2700 6200 2700
+Connection ~ 6100 2700
 Wire Wire Line
-	6100 2600 6100 3250
+	6400 2700 6500 2700
 Wire Wire Line
-	6400 2600 6500 2600
+	6500 2800 6500 2700
+Connection ~ 6500 2700
 Wire Wire Line
-	6500 2700 6500 2600
-Connection ~ 6500 2600
+	6500 2700 6600 2700
+$Comp
+L readout:SN74AXC2T45DCTR U?
+U 1 1 61831869
+P 6500 3500
+AR Path="/60BB4A14/61831869" Ref="U?"  Part="1" 
+AR Path="/60BB4C00/61831869" Ref="U?"  Part="1" 
+AR Path="/60C74A7C/61831869" Ref="U1"  Part="1" 
+F 0 "U1" H 6500 3875 50  0000 C CNN
+F 1 "SN74AXC2T45DCTR" H 6500 3800 50  0000 C CNN
+F 2 "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm" H 6500 3500 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74axc2t45.pdf?ts=1624298260694&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74AXC2T45DCTR" H 6500 3500 50  0001 C CNN
+F 4 "$0.66" H 6500 3500 50  0001 C CNN "Item Cost"
+F 5 "Texas Instruments" H 6500 3500 50  0001 C CNN "Manufacturer"
+F 6 "SN74AXC2T45DCTR" H 6500 3500 50  0001 C CNN "MFN"
+F 7 "296-SN74AXC2T45DCCT-ND" H 6500 3500 50  0001 C CNN "Supplier P/N"
+F 8 "Digi-Key" H 6500 3500 50  0001 C CNN "Supplier "
+	1    6500 3500
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6500 2600 6600 2600
+	6900 2700 6900 3350
+Wire Wire Line
+	6900 3350 6850 3350
+Wire Wire Line
+	6100 2700 6100 3350
+Wire Wire Line
+	6100 3350 6150 3350
+Wire Wire Line
+	6000 3650 6000 3550
+Wire Wire Line
+	6000 3550 6150 3550
+Wire Wire Line
+	6000 3350 6000 3450
+Wire Wire Line
+	6000 3450 6150 3450
 $EndSCHEMATC
