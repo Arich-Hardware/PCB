@@ -71,28 +71,6 @@ F 3 "" H 1700 1000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2400 1700 2900 1700
-$Comp
-L power:GND #PWR09
-U 1 1 60EAFF26
-P 3550 1900
-F 0 "#PWR09" H 3550 1650 50  0001 C CNN
-F 1 "GND" H 3555 1727 50  0000 C CNN
-F 2 "" H 3550 1900 50  0001 C CNN
-F 3 "" H 3550 1900 50  0001 C CNN
-	1    3550 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L amp_norm-rescue:Conn_Coaxial-Connector-Breakout_Board-rescue J1
-U 1 1 60EAFF2C
-P 3550 1700
-F 0 "J1" H 3650 1675 50  0000 L CNN
-F 1 "Coaxial" H 3650 1584 50  0000 L CNN
-F 2 "mod:lemo-EPB.00.250.NTN" H 3550 1700 50  0001 C CNN
-F 3 "" H 3550 1700 50  0001 C CNN
-	1    3550 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3200 1700 3350 1700
 $Comp
@@ -399,7 +377,7 @@ F 3 "~" H 6350 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amp_norm-rescue:THS3201 U1
+L amplib:THS3201 U1
 U 1 1 60EA1133
 P 2100 1700
 F 0 "U1" H 2444 1746 50  0000 L CNN
@@ -523,11 +501,11 @@ F 3 "" H 3550 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amp_norm-rescue:Conn_Coaxial-Connector-Breakout_Board-rescue J2
+L Connector:Conn_Coaxial J2
 U 1 1 60FE5466
 P 3550 3350
 F 0 "J2" H 3650 3325 50  0000 L CNN
-F 1 "Coaxial" H 3650 3234 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3650 3234 50  0000 L CNN
 F 2 "mod:lemo-EPB.00.250.NTN" H 3550 3350 50  0001 C CNN
 F 3 "" H 3550 3350 50  0001 C CNN
 	1    3550 3350
@@ -572,7 +550,7 @@ Wire Wire Line
 	1750 3450 1800 3450
 Connection ~ 2900 3350
 $Comp
-L amp_norm-rescue:THS3201 U2
+L amplib:THS3201 U2
 U 1 1 60FE5498
 P 2100 3350
 F 0 "U2" H 2444 3396 50  0000 L CNN
@@ -650,11 +628,11 @@ F 3 "" H 3550 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amp_norm-rescue:Conn_Coaxial-Connector-Breakout_Board-rescue J3
+L Connector:Conn_Coaxial J3
 U 1 1 61048AA0
 P 3550 4950
 F 0 "J3" H 3650 4925 50  0000 L CNN
-F 1 "Coaxial" H 3650 4834 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3650 4834 50  0000 L CNN
 F 2 "mod:lemo-EPB.00.250.NTN" H 3550 4950 50  0001 C CNN
 F 3 "" H 3550 4950 50  0001 C CNN
 	1    3550 4950
@@ -699,7 +677,7 @@ Wire Wire Line
 	1750 5050 1800 5050
 Connection ~ 2900 4950
 $Comp
-L amp_norm-rescue:THS3201 U3
+L amplib:THS3201 U3
 U 1 1 61048AD2
 P 2100 4950
 F 0 "U3" H 2444 4996 50  0000 L CNN
@@ -777,11 +755,11 @@ F 3 "" H 3550 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L amp_norm-rescue:Conn_Coaxial-Connector-Breakout_Board-rescue J4
+L Connector:Conn_Coaxial J4
 U 1 1 61048B22
 P 3550 6600
 F 0 "J4" H 3650 6575 50  0000 L CNN
-F 1 "Coaxial" H 3650 6484 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3650 6484 50  0000 L CNN
 F 2 "mod:lemo-EPB.00.250.NTN" H 3550 6600 50  0001 C CNN
 F 3 "" H 3550 6600 50  0001 C CNN
 	1    3550 6600
@@ -826,7 +804,7 @@ Wire Wire Line
 	1750 6700 1800 6700
 Connection ~ 2900 6600
 $Comp
-L amp_norm-rescue:THS3201 U4
+L amplib:THS3201 U4
 U 1 1 61048B54
 P 2100 6600
 F 0 "U4" H 2444 6646 50  0000 L CNN
@@ -1367,6 +1345,28 @@ F 1 "6.8 uF" H 5515 6205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 5400 6250 50  0001 C CNN
 F 3 "~" H 5400 6250 50  0001 C CNN
 	1    5400 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J1
+U 1 1 60EA8C8D
+P 3550 1700
+F 0 "J1" H 3650 1675 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3650 1584 50  0000 L CNN
+F 2 "mod:lemo-EPB.00.250.NTN" H 3550 1700 50  0001 C CNN
+F 3 " ~" H 3550 1700 50  0001 C CNN
+	1    3550 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 60ECF4FB
+P 3550 1900
+F 0 "#PWR09" H 3550 1650 50  0001 C CNN
+F 1 "GND" H 3555 1727 50  0000 C CNN
+F 2 "" H 3550 1900 50  0001 C CNN
+F 3 "" H 3550 1900 50  0001 C CNN
+	1    3550 1900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
