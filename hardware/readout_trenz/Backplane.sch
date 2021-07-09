@@ -13,9 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 11550 6100 2    50   Output ~ 0
+Text HLabel 12950 950  2    50   Output ~ 0
 SIPM_IN_B[0..31]
-Text HLabel 6850 6100 0    50   Output ~ 0
+Text HLabel 7700 1000 0    50   Output ~ 0
 SIPM_IN_A[0..31]
 NoConn ~ 8700 6500
 NoConn ~ 8700 6600
@@ -106,71 +106,71 @@ Connection ~ 9800 6100
 Wire Wire Line
 	9800 2500 9800 3400
 Wire Bus Line
-	10550 6100 11550 6100
+	11950 950  12950 950 
 Entry Wire Line
-	10450 6000 10550 6100
+	11850 850  11950 950 
 Entry Wire Line
-	10450 2600 10550 2700
+	11850 -2550 11950 -2450
 Entry Wire Line
-	10450 2700 10550 2800
+	11850 -2450 11950 -2350
 Entry Wire Line
-	10450 2800 10550 2900
+	11850 -2350 11950 -2250
 Entry Wire Line
-	10450 2900 10550 3000
+	11850 -2250 11950 -2150
 Entry Wire Line
-	10450 3000 10550 3100
+	11850 -2150 11950 -2050
 Entry Wire Line
-	10450 3100 10550 3200
+	11850 -2050 11950 -1950
 Entry Wire Line
-	10450 3200 10550 3300
+	11850 -1950 11950 -1850
 Entry Wire Line
-	10450 3300 10550 3400
+	11850 -1850 11950 -1750
 Entry Wire Line
-	10450 3500 10550 3600
+	11850 -1650 11950 -1550
 Entry Wire Line
-	10450 3600 10550 3700
+	11850 -1550 11950 -1450
 Entry Wire Line
-	10450 3700 10550 3800
+	11850 -1450 11950 -1350
 Entry Wire Line
-	10450 3800 10550 3900
+	11850 -1350 11950 -1250
 Entry Wire Line
-	10450 3900 10550 4000
+	11850 -1250 11950 -1150
 Entry Wire Line
-	10450 4000 10550 4100
+	11850 -1150 11950 -1050
 Entry Wire Line
-	10450 4100 10550 4200
+	11850 -1050 11950 -950
 Entry Wire Line
-	10450 4200 10550 4300
+	11850 -950 11950 -850
 Entry Wire Line
-	10450 4400 10550 4500
+	11850 -750 11950 -650
 Entry Wire Line
-	10450 4500 10550 4600
+	11850 -650 11950 -550
 Entry Wire Line
-	10450 4600 10550 4700
+	11850 -550 11950 -450
 Entry Wire Line
-	10450 4700 10550 4800
+	11850 -450 11950 -350
 Entry Wire Line
-	10450 4800 10550 4900
+	11850 -350 11950 -250
 Entry Wire Line
-	10450 4900 10550 5000
+	11850 -250 11950 -150
 Entry Wire Line
-	10450 5000 10550 5100
+	11850 -150 11950 -50 
 Entry Wire Line
-	10450 5100 10550 5200
+	11850 -50  11950 50  
 Entry Wire Line
-	10450 5300 10550 5400
+	11850 150  11950 250 
 Entry Wire Line
-	10450 5400 10550 5500
+	11850 250  11950 350 
 Entry Wire Line
-	10450 5500 10550 5600
+	11850 350  11950 450 
 Entry Wire Line
-	10450 5600 10550 5700
+	11850 450  11950 550 
 Entry Wire Line
-	10450 5700 10550 5800
+	11850 550  11950 650 
 Entry Wire Line
-	10450 5800 10550 5900
+	11850 650  11950 750 
 Entry Wire Line
-	10450 5900 10550 6000
+	11850 750  11950 850 
 $Comp
 L power:+3.3V #PWR084
 U 1 1 6100ADFC
@@ -240,71 +240,69 @@ Wire Wire Line
 	8700 6300 8550 6300
 Text HLabel 8550 6300 0    50   Output ~ 0
 OUT
-Text Label 10550 6100 0    50   ~ 0
-SIPM_IN_B[0..31]
-Text Label 10450 2600 2    50   ~ 0
+Text Label 11850 -2550 2    50   ~ 0
 SIPM_IN_B31
-Text Label 10450 2700 2    50   ~ 0
+Text Label 11850 -2450 2    50   ~ 0
 SIPM_IN_B30
-Text Label 10450 2800 2    50   ~ 0
+Text Label 11850 -2350 2    50   ~ 0
 SIPM_IN_B29
-Text Label 10450 2900 2    50   ~ 0
+Text Label 11850 -2250 2    50   ~ 0
 SIPM_IN_B28
-Text Label 10450 3000 2    50   ~ 0
+Text Label 11850 -2150 2    50   ~ 0
 SIPM_IN_B27
-Text Label 10450 3100 2    50   ~ 0
+Text Label 11850 -2050 2    50   ~ 0
 SIPM_IN_B26
-Text Label 10450 3200 2    50   ~ 0
+Text Label 11850 -1950 2    50   ~ 0
 SIPM_IN_B25
-Text Label 10450 3300 2    50   ~ 0
+Text Label 11850 -1850 2    50   ~ 0
 SIPM_IN_B24
-Text Label 10450 3500 2    50   ~ 0
+Text Label 11850 -1650 2    50   ~ 0
 SIPM_IN_B23
-Text Label 10450 3600 2    50   ~ 0
+Text Label 11850 -1550 2    50   ~ 0
 SIPM_IN_B22
-Text Label 10450 3700 2    50   ~ 0
+Text Label 11850 -1450 2    50   ~ 0
 SIPM_IN_B21
-Text Label 10450 3800 2    50   ~ 0
+Text Label 11850 -1350 2    50   ~ 0
 SIPM_IN_B20
-Text Label 10450 3900 2    50   ~ 0
+Text Label 11850 -1250 2    50   ~ 0
 SIPM_IN_B19
-Text Label 10450 4000 2    50   ~ 0
+Text Label 11850 -1150 2    50   ~ 0
 SIPM_IN_B18
-Text Label 10450 4100 2    50   ~ 0
+Text Label 11850 -1050 2    50   ~ 0
 SIPM_IN_B17
-Text Label 10450 4200 2    50   ~ 0
+Text Label 11850 -950 2    50   ~ 0
 SIPM_IN_B16
-Text Label 10450 4400 2    50   ~ 0
+Text Label 11850 -750 2    50   ~ 0
 SIPM_IN_B15
-Text Label 10450 4500 2    50   ~ 0
+Text Label 11850 -650 2    50   ~ 0
 SIPM_IN_B14
-Text Label 10450 4600 2    50   ~ 0
+Text Label 11850 -550 2    50   ~ 0
 SIPM_IN_B13
-Text Label 10450 4700 2    50   ~ 0
+Text Label 11850 -450 2    50   ~ 0
 SIPM_IN_B12
-Text Label 10450 4800 2    50   ~ 0
+Text Label 11850 -350 2    50   ~ 0
 SIPM_IN_B11
-Text Label 10450 4900 2    50   ~ 0
+Text Label 11850 -250 2    50   ~ 0
 SIPM_IN_B10
-Text Label 10450 5000 2    50   ~ 0
+Text Label 11850 -150 2    50   ~ 0
 SIPM_IN_B9
-Text Label 10450 5100 2    50   ~ 0
+Text Label 11850 -50  2    50   ~ 0
 SIPM_IN_B8
-Text Label 10450 5300 2    50   ~ 0
+Text Label 11850 150  2    50   ~ 0
 SIPM_IN_B7
-Text Label 10450 5400 2    50   ~ 0
+Text Label 11850 250  2    50   ~ 0
 SIPM_IN_B6
-Text Label 10450 5500 2    50   ~ 0
+Text Label 11850 350  2    50   ~ 0
 SIPM_IN_B5
-Text Label 10450 5600 2    50   ~ 0
+Text Label 11850 450  2    50   ~ 0
 SIPM_IN_B4
-Text Label 10450 5700 2    50   ~ 0
+Text Label 11850 550  2    50   ~ 0
 SIPM_IN_B3
-Text Label 10450 5800 2    50   ~ 0
+Text Label 11850 650  2    50   ~ 0
 SIPM_IN_B2
-Text Label 10450 5900 2    50   ~ 0
+Text Label 11850 750  2    50   ~ 0
 SIPM_IN_B1
-Text Label 10450 6000 2    50   ~ 0
+Text Label 11850 850  2    50   ~ 0
 SIPM_IN_B0
 $Comp
 L readout:ERF8-060-05.0-L-DV J8
@@ -326,265 +324,263 @@ F 8 "Digi-Key" H 9200 5450 50  0001 C CNN "Supplier "
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9700 3300 10450 3300
+	11100 -1850 11850 -1850
 Wire Wire Line
-	9700 3200 10450 3200
+	11100 -1950 11850 -1950
 Wire Wire Line
-	9700 3100 10450 3100
+	11100 -2050 11850 -2050
 Wire Wire Line
-	9700 3000 10450 3000
+	11100 -2150 11850 -2150
 Wire Wire Line
-	9700 2900 10450 2900
+	11100 -2250 11850 -2250
 Wire Wire Line
-	9700 2800 10450 2800
+	11100 -2350 11850 -2350
 Wire Wire Line
-	9700 2700 10450 2700
+	11100 -2450 11850 -2450
 Wire Wire Line
-	9700 2600 10450 2600
+	11100 -2550 11850 -2550
 Wire Wire Line
-	9700 4200 10450 4200
+	11100 -950 11850 -950
 Wire Wire Line
-	9700 4100 10450 4100
+	11100 -1050 11850 -1050
 Wire Wire Line
-	9700 4000 10450 4000
+	11100 -1150 11850 -1150
 Wire Wire Line
-	9700 3900 10450 3900
+	11100 -1250 11850 -1250
 Wire Wire Line
-	9700 3800 10450 3800
+	11100 -1350 11850 -1350
 Wire Wire Line
-	9700 3700 10450 3700
+	11100 -1450 11850 -1450
 Wire Wire Line
-	9700 3600 10450 3600
+	11100 -1550 11850 -1550
 Wire Wire Line
-	9700 3500 10450 3500
+	11100 -1650 11850 -1650
 Wire Wire Line
-	9700 5100 10450 5100
+	11100 -50  11850 -50 
 Wire Wire Line
-	9700 5000 10450 5000
+	11100 -150 11850 -150
 Wire Wire Line
-	9700 4900 10450 4900
+	11100 -250 11850 -250
 Wire Wire Line
-	9700 4800 10450 4800
+	11100 -350 11850 -350
 Wire Wire Line
-	9700 4700 10450 4700
+	11100 -450 11850 -450
 Wire Wire Line
-	9700 4600 10450 4600
+	11100 -550 11850 -550
 Wire Wire Line
-	9700 4500 10450 4500
+	11100 -650 11850 -650
 Wire Wire Line
-	9700 4400 10450 4400
+	11100 -750 11850 -750
 Wire Wire Line
-	9700 6000 10450 6000
+	11100 850  11850 850 
 Wire Wire Line
-	9700 5900 10450 5900
+	11100 750  11850 750 
 Wire Wire Line
-	9700 5800 10450 5800
+	11100 650  11850 650 
 Wire Wire Line
-	9700 5700 10450 5700
+	11100 550  11850 550 
 Wire Wire Line
-	9700 5600 10450 5600
+	11100 450  11850 450 
 Wire Wire Line
-	9700 5500 10450 5500
+	11100 350  11850 350 
 Wire Wire Line
-	9700 5400 10450 5400
+	11100 250  11850 250 
 Wire Wire Line
-	9700 5300 10450 5300
+	11100 150  11850 150 
 Wire Wire Line
-	7950 2600 8700 2600
+	8800 -2500 9550 -2500
 Wire Wire Line
-	7950 2700 8700 2700
+	8800 -2400 9550 -2400
 Wire Wire Line
-	7950 2800 8700 2800
+	8800 -2300 9550 -2300
 Wire Wire Line
-	7950 2900 8700 2900
+	8800 -2200 9550 -2200
 Wire Wire Line
-	7950 3000 8700 3000
+	8800 -2100 9550 -2100
 Wire Wire Line
-	7950 3100 8700 3100
+	8800 -2000 9550 -2000
 Wire Wire Line
-	7950 3200 8700 3200
+	8800 -1900 9550 -1900
 Wire Wire Line
-	7950 3300 8700 3300
+	8800 -1800 9550 -1800
 Wire Wire Line
-	7950 3500 8700 3500
+	8800 -1600 9550 -1600
 Wire Wire Line
-	7950 3600 8700 3600
+	8800 -1500 9550 -1500
 Wire Wire Line
-	7950 3700 8700 3700
+	8800 -1400 9550 -1400
 Wire Wire Line
-	7950 3800 8700 3800
+	8800 -1300 9550 -1300
 Wire Wire Line
-	7950 3900 8700 3900
+	8800 -1200 9550 -1200
 Wire Wire Line
-	7950 4000 8700 4000
+	8800 -1100 9550 -1100
 Wire Wire Line
-	7950 4100 8700 4100
+	8800 -1000 9550 -1000
 Wire Wire Line
-	7950 4200 8700 4200
+	8800 -900 9550 -900
 Wire Wire Line
-	7950 4400 8700 4400
+	8800 -700 9550 -700
 Wire Wire Line
-	7950 4500 8700 4500
+	8800 -600 9550 -600
 Wire Wire Line
-	7950 4600 8700 4600
+	8800 -500 9550 -500
 Wire Wire Line
-	7950 4700 8700 4700
+	8800 -400 9550 -400
 Wire Wire Line
-	7950 4800 8700 4800
+	8800 -300 9550 -300
 Wire Wire Line
-	7950 4900 8700 4900
+	8800 -200 9550 -200
 Wire Wire Line
-	7950 5000 8700 5000
+	8800 -100 9550 -100
 Wire Wire Line
-	7950 5100 8700 5100
+	8800 0    9550 0   
 Wire Wire Line
-	7950 5300 8700 5300
+	8800 200  9550 200 
 Wire Wire Line
-	7950 5400 8700 5400
+	8800 300  9550 300 
 Wire Wire Line
-	7950 5500 8700 5500
+	8800 400  9550 400 
 Wire Wire Line
-	7950 5600 8700 5600
+	8800 500  9550 500 
 Wire Wire Line
-	7950 5700 8700 5700
+	8800 600  9550 600 
 Wire Wire Line
-	7950 5800 8700 5800
+	8800 700  9550 700 
 Wire Wire Line
-	7950 5900 8700 5900
+	8800 800  9550 800 
 Wire Wire Line
-	7950 6000 8700 6000
-Text Label 7850 6100 2    50   ~ 0
-SIPM_IN_A[0..31]
-Text Label 7950 6000 0    50   ~ 0
+	8800 900  9550 900 
+Text Label 8800 900  0    50   ~ 0
 SIPM_IN_A0
-Text Label 7950 5900 0    50   ~ 0
+Text Label 8800 800  0    50   ~ 0
 SIPM_IN_A1
-Text Label 7950 5800 0    50   ~ 0
+Text Label 8800 700  0    50   ~ 0
 SIPM_IN_A2
-Text Label 7950 5700 0    50   ~ 0
+Text Label 8800 600  0    50   ~ 0
 SIPM_IN_A3
-Text Label 7950 5600 0    50   ~ 0
+Text Label 8800 500  0    50   ~ 0
 SIPM_IN_A4
-Text Label 7950 5500 0    50   ~ 0
+Text Label 8800 400  0    50   ~ 0
 SIPM_IN_A5
-Text Label 7950 5400 0    50   ~ 0
+Text Label 8800 300  0    50   ~ 0
 SIPM_IN_A6
-Text Label 7950 5300 0    50   ~ 0
+Text Label 8800 200  0    50   ~ 0
 SIPM_IN_A7
-Text Label 7950 5100 0    50   ~ 0
+Text Label 8800 0    0    50   ~ 0
 SIPM_IN_A8
-Text Label 7950 5000 0    50   ~ 0
+Text Label 8800 -100 0    50   ~ 0
 SIPM_IN_A9
-Text Label 7950 4900 0    50   ~ 0
+Text Label 8800 -200 0    50   ~ 0
 SIPM_IN_A10
-Text Label 7950 4800 0    50   ~ 0
+Text Label 8800 -300 0    50   ~ 0
 SIPM_IN_A11
-Text Label 7950 4700 0    50   ~ 0
+Text Label 8800 -400 0    50   ~ 0
 SIPM_IN_A12
-Text Label 7950 4600 0    50   ~ 0
+Text Label 8800 -500 0    50   ~ 0
 SIPM_IN_A13
-Text Label 7950 4500 0    50   ~ 0
+Text Label 8800 -600 0    50   ~ 0
 SIPM_IN_A14
-Text Label 7950 4400 0    50   ~ 0
+Text Label 8800 -700 0    50   ~ 0
 SIPM_IN_A15
-Text Label 7950 4200 0    50   ~ 0
+Text Label 8800 -900 0    50   ~ 0
 SIPM_IN_A16
-Text Label 7950 4100 0    50   ~ 0
+Text Label 8800 -1000 0    50   ~ 0
 SIPM_IN_A17
-Text Label 7950 4000 0    50   ~ 0
+Text Label 8800 -1100 0    50   ~ 0
 SIPM_IN_A18
-Text Label 7950 3900 0    50   ~ 0
+Text Label 8800 -1200 0    50   ~ 0
 SIPM_IN_A19
-Text Label 7950 3800 0    50   ~ 0
+Text Label 8800 -1300 0    50   ~ 0
 SIPM_IN_A20
-Text Label 7950 3700 0    50   ~ 0
+Text Label 8800 -1400 0    50   ~ 0
 SIPM_IN_A21
-Text Label 7950 3600 0    50   ~ 0
+Text Label 8800 -1500 0    50   ~ 0
 SIPM_IN_A22
-Text Label 7950 3500 0    50   ~ 0
+Text Label 8800 -1600 0    50   ~ 0
 SIPM_IN_A23
-Text Label 7950 3300 0    50   ~ 0
+Text Label 8800 -1800 0    50   ~ 0
 SIPM_IN_A24
-Text Label 7950 3200 0    50   ~ 0
+Text Label 8800 -1900 0    50   ~ 0
 SIPM_IN_A25
-Text Label 7950 3100 0    50   ~ 0
+Text Label 8800 -2000 0    50   ~ 0
 SIPM_IN_A26
-Text Label 7950 3000 0    50   ~ 0
+Text Label 8800 -2100 0    50   ~ 0
 SIPM_IN_A27
-Text Label 7950 2900 0    50   ~ 0
+Text Label 8800 -2200 0    50   ~ 0
 SIPM_IN_A28
-Text Label 7950 2800 0    50   ~ 0
+Text Label 8800 -2300 0    50   ~ 0
 SIPM_IN_A29
-Text Label 7950 2700 0    50   ~ 0
+Text Label 8800 -2400 0    50   ~ 0
 SIPM_IN_A30
-Text Label 7950 2600 0    50   ~ 0
+Text Label 8800 -2500 0    50   ~ 0
 SIPM_IN_A31
 Entry Wire Line
-	7950 5900 7850 6000
+	8800 800  8700 900 
 Entry Wire Line
-	7950 5800 7850 5900
+	8800 700  8700 800 
 Entry Wire Line
-	7950 5700 7850 5800
+	8800 600  8700 700 
 Entry Wire Line
-	7950 5600 7850 5700
+	8800 500  8700 600 
 Entry Wire Line
-	7950 5500 7850 5600
+	8800 400  8700 500 
 Entry Wire Line
-	7950 5400 7850 5500
+	8800 300  8700 400 
 Entry Wire Line
-	7950 5300 7850 5400
+	8800 200  8700 300 
 Entry Wire Line
-	7950 5100 7850 5200
+	8800 0    8700 100 
 Entry Wire Line
-	7950 5000 7850 5100
+	8800 -100 8700 0   
 Entry Wire Line
-	7950 4900 7850 5000
+	8800 -200 8700 -100
 Entry Wire Line
-	7950 4800 7850 4900
+	8800 -300 8700 -200
 Entry Wire Line
-	7950 4700 7850 4800
+	8800 -400 8700 -300
 Entry Wire Line
-	7950 4600 7850 4700
+	8800 -500 8700 -400
 Entry Wire Line
-	7950 4500 7850 4600
+	8800 -600 8700 -500
 Entry Wire Line
-	7950 4400 7850 4500
+	8800 -700 8700 -600
 Entry Wire Line
-	7950 4200 7850 4300
+	8800 -900 8700 -800
 Entry Wire Line
-	7950 4100 7850 4200
+	8800 -1000 8700 -900
 Entry Wire Line
-	7950 4000 7850 4100
+	8800 -1100 8700 -1000
 Entry Wire Line
-	7950 3900 7850 4000
+	8800 -1200 8700 -1100
 Entry Wire Line
-	7950 3800 7850 3900
+	8800 -1300 8700 -1200
 Entry Wire Line
-	7950 3700 7850 3800
+	8800 -1400 8700 -1300
 Entry Wire Line
-	7950 3600 7850 3700
+	8800 -1500 8700 -1400
 Entry Wire Line
-	7950 3500 7850 3600
+	8800 -1600 8700 -1500
 Entry Wire Line
-	7950 3300 7850 3400
+	8800 -1800 8700 -1700
 Entry Wire Line
-	7950 3200 7850 3300
+	8800 -1900 8700 -1800
 Entry Wire Line
-	7950 3100 7850 3200
+	8800 -2000 8700 -1900
 Entry Wire Line
-	7950 3000 7850 3100
+	8800 -2100 8700 -2000
 Entry Wire Line
-	7950 2900 7850 3000
+	8800 -2200 8700 -2100
 Entry Wire Line
-	7950 2800 7850 2900
+	8800 -2300 8700 -2200
 Entry Wire Line
-	7950 2700 7850 2800
+	8800 -2400 8700 -2300
 Entry Wire Line
-	7950 2600 7850 2700
+	8800 -2500 8700 -2400
 Entry Wire Line
-	7950 6000 7850 6100
+	8800 900  8700 1000
 Wire Bus Line
-	7850 6100 6850 6100
+	8700 1000 7700 1000
 Entry Wire Line
 	8400 6200 8300 6300
 Entry Wire Line
@@ -1291,9 +1287,423 @@ NoConn ~ 1200 6200
 NoConn ~ 1200 6300
 NoConn ~ 1200 6400
 Wire Wire Line
+	10450 6000 9700 6000
+Text Label 10450 6000 2    50   ~ 0
+SIPM_IN_A0
+Wire Wire Line
+	7950 6000 8700 6000
+Text Label 7950 6000 0    50   ~ 0
+SIPM_IN_A1
+Wire Wire Line
+	10450 5900 9700 5900
+Text Label 10450 5900 2    50   ~ 0
+SIPM_IN_A2
+Wire Wire Line
+	7950 5900 8700 5900
+Text Label 7950 5900 0    50   ~ 0
+SIPM_IN_A3
+Wire Wire Line
+	10450 5800 9700 5800
+Text Label 10450 5800 2    50   ~ 0
+SIPM_IN_A4
+Wire Wire Line
+	10450 5700 9700 5700
+Text Label 10450 5700 2    50   ~ 0
+SIPM_IN_A6
+Wire Wire Line
+	10450 5600 9700 5600
+Text Label 10450 5600 2    50   ~ 0
+SIPM_IN_A8
+Wire Wire Line
+	10450 5500 9700 5500
+Text Label 10450 5500 2    50   ~ 0
+SIPM_IN_A10
+Wire Wire Line
+	10450 5400 9700 5400
+Text Label 10450 5400 2    50   ~ 0
+SIPM_IN_A12
+Wire Wire Line
+	10450 5300 9700 5300
+Text Label 10450 5300 2    50   ~ 0
+SIPM_IN_A14
+Wire Wire Line
+	7950 5800 8700 5800
+Text Label 7950 5800 0    50   ~ 0
+SIPM_IN_A5
+Wire Wire Line
+	7950 5700 8700 5700
+Text Label 7950 5700 0    50   ~ 0
+SIPM_IN_A7
+Text Label 8800 0    0    50   ~ 0
+SIPM_IN_A8
+Text Label 8800 -100 0    50   ~ 0
+SIPM_IN_A9
+Wire Wire Line
+	7950 5600 8700 5600
+Text Label 7950 5600 0    50   ~ 0
+SIPM_IN_A9
+Text Label 7950 5600 0    50   ~ 0
+SIPM_IN_A9
+Wire Wire Line
+	7950 5500 8700 5500
+Text Label 7950 5500 0    50   ~ 0
+SIPM_IN_A11
+Wire Wire Line
+	7950 5400 8700 5400
+Text Label 7950 5400 0    50   ~ 0
+SIPM_IN_A13
+Wire Wire Line
+	7950 5300 8700 5300
+Text Label 7950 5300 0    50   ~ 0
+SIPM_IN_A15
+Wire Wire Line
+	10450 5100 9700 5100
+Text Label 10450 5100 2    50   ~ 0
+SIPM_IN_A16
+Wire Wire Line
+	7950 5100 8700 5100
+Text Label 7950 5100 0    50   ~ 0
+SIPM_IN_A17
+Wire Wire Line
+	10450 5000 9700 5000
+Text Label 10450 5000 2    50   ~ 0
+SIPM_IN_A18
+Wire Wire Line
+	7950 5000 8700 5000
+Text Label 7950 5000 0    50   ~ 0
+SIPM_IN_A19
+Wire Wire Line
+	10450 4900 9700 4900
+Text Label 10450 4900 2    50   ~ 0
+SIPM_IN_A20
+Wire Wire Line
+	7950 4900 8700 4900
+Text Label 7950 4900 0    50   ~ 0
+SIPM_IN_A21
+Wire Wire Line
+	10450 4800 9700 4800
+Text Label 10450 4800 2    50   ~ 0
+SIPM_IN_A22
+Wire Wire Line
+	7950 4800 8700 4800
+Text Label 7950 4800 0    50   ~ 0
+SIPM_IN_A23
+Wire Wire Line
+	10450 4700 9700 4700
+Text Label 10450 4700 2    50   ~ 0
+SIPM_IN_A24
+Wire Wire Line
+	7950 4700 8700 4700
+Text Label 7950 4700 0    50   ~ 0
+SIPM_IN_A25
+Wire Wire Line
+	10450 4600 9700 4600
+Text Label 10450 4600 2    50   ~ 0
+SIPM_IN_A26
+Wire Wire Line
+	7950 4600 8700 4600
+Text Label 7950 4600 0    50   ~ 0
+SIPM_IN_A27
+Wire Wire Line
+	10450 4500 9700 4500
+Text Label 10450 4500 2    50   ~ 0
+SIPM_IN_A28
+Wire Wire Line
+	7950 4500 8700 4500
+Text Label 7950 4500 0    50   ~ 0
+SIPM_IN_A29
+Wire Wire Line
+	10450 4400 9700 4400
+Text Label 10450 4400 2    50   ~ 0
+SIPM_IN_A30
+Wire Wire Line
+	7950 4400 8700 4400
+Text Label 7950 4400 0    50   ~ 0
+SIPM_IN_A31
+Text Label 10450 4200 2    50   ~ 0
+SIPM_IN_B0
+Wire Wire Line
+	9700 4200 10450 4200
+Text Label 7950 4200 0    50   ~ 0
+SIPM_IN_B1
+Wire Wire Line
+	8700 4200 7950 4200
+Text Label 10450 4100 2    50   ~ 0
+SIPM_IN_B2
+Wire Wire Line
+	9700 4100 10450 4100
+Text Label 10450 4000 2    50   ~ 0
+SIPM_IN_B4
+Text Label 7950 4100 0    50   ~ 0
+SIPM_IN_B3
+Wire Wire Line
+	8700 4100 7950 4100
+Wire Wire Line
+	9700 4000 10450 4000
+Text Label 7950 4000 0    50   ~ 0
+SIPM_IN_B5
+Wire Wire Line
+	8700 4000 7950 4000
+Text Label 10450 3900 2    50   ~ 0
+SIPM_IN_B6
+Wire Wire Line
+	9700 3900 10450 3900
+Text Label 7950 3900 0    50   ~ 0
+SIPM_IN_B7
+Wire Wire Line
+	8700 3900 7950 3900
+Text Label 10450 3800 2    50   ~ 0
+SIPM_IN_B8
+Wire Wire Line
+	9700 3800 10450 3800
+Text Label 7950 3800 0    50   ~ 0
+SIPM_IN_B9
+Wire Wire Line
+	8700 3800 7950 3800
+Text Label 7950 3700 0    50   ~ 0
+SIPM_IN_B11
+Text Label 10450 3700 2    50   ~ 0
+SIPM_IN_B10
+Wire Wire Line
+	9700 3700 10450 3700
+Wire Wire Line
+	8700 3700 7950 3700
+Text Label 10450 3600 2    50   ~ 0
+SIPM_IN_B12
+Wire Wire Line
+	9700 3600 10450 3600
+Text Label 7950 3600 0    50   ~ 0
+SIPM_IN_B13
+Wire Wire Line
+	8700 3600 7950 3600
+Text Label 10450 3500 2    50   ~ 0
+SIPM_IN_B14
+Wire Wire Line
+	9700 3500 10450 3500
+Text Label 7950 3500 0    50   ~ 0
+SIPM_IN_B15
+Wire Wire Line
+	8700 3500 7950 3500
+Text Label 10450 3300 2    50   ~ 0
+SIPM_IN_B16
+Wire Wire Line
+	9700 3300 10450 3300
+Text Label 7950 3300 0    50   ~ 0
+SIPM_IN_B17
+Wire Wire Line
+	8700 3300 7950 3300
+Text Label 10450 3200 2    50   ~ 0
+SIPM_IN_B18
+Wire Wire Line
+	9700 3200 10450 3200
+Text Label 7950 3200 0    50   ~ 0
+SIPM_IN_B19
+Wire Wire Line
+	8700 3200 7950 3200
+Text Label 10450 3100 2    50   ~ 0
+SIPM_IN_B20
+Wire Wire Line
+	9700 3100 10450 3100
+Text Label 7950 3100 0    50   ~ 0
+SIPM_IN_B21
+Wire Wire Line
+	8700 3100 7950 3100
+Text Label 10450 3000 2    50   ~ 0
+SIPM_IN_B22
+Wire Wire Line
+	9700 3000 10450 3000
+Text Label 7950 3000 0    50   ~ 0
+SIPM_IN_B23
+Wire Wire Line
+	8700 3000 7950 3000
+Text Label 10450 2900 2    50   ~ 0
+SIPM_IN_B24
+Wire Wire Line
+	9700 2900 10450 2900
+Text Label 7950 2900 0    50   ~ 0
+SIPM_IN_B25
+Wire Wire Line
+	8700 2900 7950 2900
+Text Label 10450 2800 2    50   ~ 0
+SIPM_IN_B26
+Wire Wire Line
+	9700 2800 10450 2800
+Text Label 7950 2800 0    50   ~ 0
+SIPM_IN_B27
+Wire Wire Line
+	8700 2800 7950 2800
+Text Label 10450 2700 2    50   ~ 0
+SIPM_IN_B28
+Wire Wire Line
+	9700 2700 10450 2700
+Text Label 10450 2600 2    50   ~ 0
+SIPM_IN_B30
+Text Label 7950 2700 0    50   ~ 0
+SIPM_IN_B29
+Wire Wire Line
+	8700 2700 7950 2700
+Wire Wire Line
+	9700 2600 10450 2600
+Text Label 7950 2600 0    50   ~ 0
+SIPM_IN_B31
+Wire Wire Line
+	8700 2600 7950 2600
+Text HLabel 6850 6100 0    50   Output ~ 0
+SIPM_IN_A[0..31]
+Entry Wire Line
+	7950 5900 7850 6000
+Entry Wire Line
+	7950 5800 7850 5900
+Entry Wire Line
+	7950 5700 7850 5800
+Entry Wire Line
+	7950 5600 7850 5700
+Entry Wire Line
+	7950 5500 7850 5600
+Entry Wire Line
+	7950 5400 7850 5500
+Entry Wire Line
+	7950 5300 7850 5400
+Entry Wire Line
+	7950 5100 7850 5200
+Entry Wire Line
+	7950 5000 7850 5100
+Entry Wire Line
+	7950 4900 7850 5000
+Entry Wire Line
+	7950 4800 7850 4900
+Entry Wire Line
+	7950 4700 7850 4800
+Entry Wire Line
+	7950 4600 7850 4700
+Entry Wire Line
+	7950 4500 7850 4600
+Entry Wire Line
+	7950 4400 7850 4500
+Entry Wire Line
+	7950 6000 7850 6100
+Wire Bus Line
+	7850 6100 6850 6100
+Text HLabel 11550 6100 2    50   Output ~ 0
+SIPM_IN_A[0..31]
+Entry Wire Line
+	10450 5900 10550 6000
+Entry Wire Line
+	10450 5800 10550 5900
+Entry Wire Line
+	10450 5700 10550 5800
+Entry Wire Line
+	10450 5600 10550 5700
+Entry Wire Line
+	10450 5500 10550 5600
+Entry Wire Line
+	10450 5400 10550 5500
+Entry Wire Line
+	10450 5300 10550 5400
+Entry Wire Line
+	10450 5100 10550 5200
+Entry Wire Line
+	10450 5000 10550 5100
+Entry Wire Line
+	10450 4900 10550 5000
+Entry Wire Line
+	10450 4800 10550 4900
+Entry Wire Line
+	10450 4700 10550 4800
+Entry Wire Line
+	10450 4600 10550 4700
+Entry Wire Line
+	10450 4500 10550 4600
+Entry Wire Line
+	10450 4400 10550 4500
+Entry Wire Line
+	10450 6000 10550 6100
+Wire Bus Line
+	10550 6100 11550 6100
+Text HLabel 6850 4300 0    50   Output ~ 0
+SIPM_IN_B[0..31]
+Wire Bus Line
+	7850 4300 6850 4300
+Entry Wire Line
+	7950 4200 7850 4300
+Entry Wire Line
+	7950 2600 7850 2700
+Entry Wire Line
+	7950 2700 7850 2800
+Entry Wire Line
+	7950 2800 7850 2900
+Entry Wire Line
+	7950 2900 7850 3000
+Entry Wire Line
+	7950 3000 7850 3100
+Entry Wire Line
+	7950 3100 7850 3200
+Entry Wire Line
+	7950 3200 7850 3300
+Entry Wire Line
+	7950 3300 7850 3400
+Entry Wire Line
+	7950 3500 7850 3600
+Entry Wire Line
+	7950 3600 7850 3700
+Entry Wire Line
+	7950 3700 7850 3800
+Entry Wire Line
+	7950 3800 7850 3900
+Entry Wire Line
+	7950 3900 7850 4000
+Entry Wire Line
+	7950 4000 7850 4100
+Entry Wire Line
+	7950 4100 7850 4200
+Text HLabel 11550 4300 2    50   Output ~ 0
+SIPM_IN_B[0..31]
+Wire Bus Line
+	10550 4300 11550 4300
+Entry Wire Line
+	10450 4200 10550 4300
+Entry Wire Line
+	10450 2600 10550 2700
+Entry Wire Line
+	10450 2700 10550 2800
+Entry Wire Line
+	10450 2800 10550 2900
+Entry Wire Line
+	10450 2900 10550 3000
+Entry Wire Line
+	10450 3000 10550 3100
+Entry Wire Line
+	10450 3100 10550 3200
+Entry Wire Line
+	10450 3200 10550 3300
+Entry Wire Line
+	10450 3300 10550 3400
+Entry Wire Line
+	10450 3500 10550 3600
+Entry Wire Line
+	10450 3600 10550 3700
+Entry Wire Line
+	10450 3700 10550 3800
+Entry Wire Line
+	10450 3800 10550 3900
+Entry Wire Line
+	10450 3900 10550 4000
+Entry Wire Line
+	10450 4000 10550 4100
+Entry Wire Line
+	10450 4100 10550 4200
+Wire Wire Line
 	9700 6300 10300 6300
 Wire Bus Line
-	10550 2700 10550 6100
+	7850 4500 7850 6100
 Wire Bus Line
-	7850 2700 7850 6100
+	10550 4500 10550 6100
+Wire Bus Line
+	7850 2700 7850 4300
+Wire Bus Line
+	10550 2700 10550 4300
+Wire Bus Line
+	11950 -2450 11950 950 
+Wire Bus Line
+	8700 -2400 8700 1000
 $EndSCHEMATC
