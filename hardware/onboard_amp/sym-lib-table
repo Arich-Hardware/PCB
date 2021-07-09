@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name amp_norm-rescue)(type Legacy)(uri ${KIPRJMOD}/amp_norm-rescue.lib)(options "")(descr ""))
-  (lib (name amplib)(type Legacy)(uri /home/linyan/Documents/emphatic/Hardware/PCB/hardware/libraries/amplib.lib)(options "")(descr ""))
+  (lib (name amplib)(type Legacy)(uri ${KIPRJMOD}/../libraries/amplib.lib)(options "")(descr ""))
 )
