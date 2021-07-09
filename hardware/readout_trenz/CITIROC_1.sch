@@ -235,12 +235,8 @@ Text Label 13350 8250 0    50   ~ 0
 ADC_SERIAL[0..3]
 Text Label 13200 8150 0    50   ~ 0
 ADC_SERIAL0
-Text Label 13200 7950 0    50   ~ 0
-ADC_SERIAL1
 Text Label 13200 7850 0    50   ~ 0
 ADC_SERIAL2
-Text Label 13200 7750 0    50   ~ 0
-ADC_SERIAL3
 Text HLabel 14050 8250 2    50   Input ~ 0
 ADC_SERIAL[0..3]
 Wire Wire Line
@@ -341,8 +337,6 @@ Wire Wire Line
 Wire Wire Line
 	10350 7450 10600 7450
 Wire Wire Line
-	10600 7350 10300 7350
-Wire Wire Line
 	10300 7650 10600 7650
 Wire Wire Line
 	10600 7750 10450 7750
@@ -350,19 +344,9 @@ Connection ~ 10950 7750
 Wire Wire Line
 	10950 7750 10800 7750
 Connection ~ 11050 7650
-Wire Wire Line
-	10800 7650 11050 7650
 Connection ~ 11150 7550
-Wire Wire Line
-	11150 7550 10800 7550
 Connection ~ 11250 7450
-Wire Wire Line
-	10800 7450 11250 7450
 Connection ~ 11350 7350
-Wire Wire Line
-	11350 7350 10800 7350
-Wire Wire Line
-	10800 7250 11500 7250
 $Comp
 L Device:R_Small R102
 U 1 1 61BCD359
@@ -474,8 +458,6 @@ $EndComp
 Connection ~ 10850 7850
 Wire Wire Line
 	10800 7850 10850 7850
-Wire Wire Line
-	10600 7850 10350 7850
 $Comp
 L Device:R_Small R108
 U 1 1 60C983F4
@@ -682,8 +664,6 @@ Wire Wire Line
 Wire Wire Line
 	11050 7650 11500 7650
 Wire Wire Line
-	10950 7750 11500 7750
-Wire Wire Line
 	10850 7850 11500 7850
 Wire Wire Line
 	11150 8400 11250 8400
@@ -826,12 +806,6 @@ F 8 "732-12236-1-ND" H 10950 8050 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10850 8150 10850 7850
-Wire Wire Line
-	11050 8150 11050 7650
-Wire Wire Line
-	11250 8150 11250 7450
-Wire Wire Line
 	11350 8150 11350 8400
 Wire Wire Line
 	11350 8400 11250 8400
@@ -845,8 +819,6 @@ Wire Wire Line
 	10950 7950 10950 7750
 Wire Wire Line
 	11150 7950 11150 7550
-Wire Wire Line
-	11350 7950 11350 7350
 Wire Wire Line
 	10350 7850 10350 8300
 Wire Wire Line
@@ -1230,8 +1202,6 @@ Wire Wire Line
 Wire Wire Line
 	10250 7450 10300 7450
 Wire Wire Line
-	10250 7250 10550 7250
-Wire Wire Line
 	10250 8300 10350 8300
 $Comp
 L power:GNDA #PWR0142
@@ -1338,8 +1308,6 @@ Wire Wire Line
 Wire Wire Line
 	8450 9950 8950 9950
 Wire Wire Line
-	8450 7150 8450 9950
-Wire Wire Line
 	8750 10350 8950 10350
 Wire Wire Line
 	8750 7150 8750 10350
@@ -1433,24 +1401,6 @@ Wire Wire Line
 	6500 7150 6500 7350
 Wire Wire Line
 	6400 7250 8950 7250
-$Comp
-L readout:ADS7955 U20
-U 1 1 61BCD360
-P 12350 7150
-AR Path="/60BB4A14/61BCD360" Ref="U20"  Part="1" 
-AR Path="/60BB4C00/61BCD360" Ref="U12"  Part="1" 
-F 0 "U12" H 12600 7300 50  0000 C CNN
-F 1 "ADS7955" H 12600 7200 50  0000 C CNN
-F 2 "Package_SO:TSSOP-30_4.4x7.8mm_P0.5mm" H 12600 7450 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/ads7950.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1617477435304" H 12600 7450 50  0001 C CNN
-F 4 "296-23507-5-ND" H 12350 7150 50  0001 C CNN "Supplier P/N"
-F 5 "ADS7955SDBT" H 12350 7150 50  0001 C CNN "MFN"
-F 6 "$6.74" H 12350 7150 50  0001 C CNN "Item Cost"
-F 7 "Texas Instruments" H 12350 7150 50  0001 C CNN "Manufacturer"
-F 8 "Digi-Key" H 12350 7150 50  0001 C CNN "Supplier "
-	1    12350 7150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6550 11000 6700 11000
 Connection ~ 6550 11000
@@ -3165,8 +3115,6 @@ Text HLabel 11000 6450 0    50   Input ~ 0
 OUT
 Wire Wire Line
 	11500 7950 11450 7950
-Wire Wire Line
-	11450 6700 11450 7950
 Connection ~ 6400 11000
 Wire Wire Line
 	7300 11000 7450 11000
@@ -5078,20 +5026,6 @@ F 3 "" H 2250 3750 50  0001 C CNN
 	1    2250 3750
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	16800 3600 16800 3950
-Wire Bus Line
-	13300 7850 13300 8250
-Wire Bus Line
-	15750 5150 15750 5450
-Wire Bus Line
-	7850 4350 7850 4950
-Wire Bus Line
-	7850 2850 7850 3750
-Wire Bus Line
-	4600 7100 4600 10250
-Wire Bus Line
-	14800 1450 14800 4550
 $Comp
 L readout:CITIROC1A U?
 U 1 1 60DD86C5
@@ -5116,4 +5050,70 @@ F 7 "Weeroc" H 4700 3400 50  0001 C CNN "Manufacturer"
 $EndComp
 Text HLabel 7350 3750 0    50   Input ~ 0
 SH_Ctrl[0..9]
+Wire Bus Line
+	16800 3600 16800 3950
+Wire Bus Line
+	13300 7850 13300 8250
+Wire Bus Line
+	15750 5150 15750 5450
+Wire Bus Line
+	7850 4350 7850 4950
+Wire Bus Line
+	7850 2850 7850 3750
+Wire Bus Line
+	4600 7100 4600 10250
+Wire Bus Line
+	14800 1450 14800 4550
+Wire Wire Line
+	8450 7150 8450 9950
+Wire Wire Line
+	10800 7650 11050 7650
+Wire Wire Line
+	11350 7350 10800 7350
+Wire Wire Line
+	10600 7850 10350 7850
+Wire Wire Line
+	11050 8150 11050 7650
+Wire Wire Line
+	11250 8150 11250 7450
+Wire Wire Line
+	10250 7250 10550 7250
+Wire Wire Line
+	10600 7350 10300 7350
+Wire Wire Line
+	10850 8150 10850 7850
+Wire Wire Line
+	11150 7550 10800 7550
+Wire Wire Line
+	10800 7450 11250 7450
+Wire Wire Line
+	10800 7250 11500 7250
+Wire Wire Line
+	11450 6700 11450 7950
+Wire Wire Line
+	11350 7950 11350 7350
+Wire Wire Line
+	10950 7750 11500 7750
+$Comp
+L readout:ADS7955 U20
+U 1 1 61BCD360
+P 12350 7150
+AR Path="/60BB4A14/61BCD360" Ref="U20"  Part="1" 
+AR Path="/60BB4C00/61BCD360" Ref="U12"  Part="1" 
+F 0 "U12" H 12600 7300 50  0000 C CNN
+F 1 "ADS7955" H 12600 7200 50  0000 C CNN
+F 2 "Package_SO:TSSOP-30_4.4x7.8mm_P0.5mm" H 12600 7450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/ads7950.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1617477435304" H 12600 7450 50  0001 C CNN
+F 4 "296-23507-5-ND" H 12350 7150 50  0001 C CNN "Supplier P/N"
+F 5 "ADS7955SDBT" H 12350 7150 50  0001 C CNN "MFN"
+F 6 "$6.74" H 12350 7150 50  0001 C CNN "Item Cost"
+F 7 "Texas Instruments" H 12350 7150 50  0001 C CNN "Manufacturer"
+F 8 "Digi-Key" H 12350 7150 50  0001 C CNN "Supplier "
+	1    12350 7150
+	1    0    0    -1  
+$EndComp
+Text Label 13200 7950 0    50   ~ 0
+ADC_SERIAL1
+Text Label 13200 7750 0    50   ~ 0
+ADC_SERIAL3
 $EndSCHEMATC
