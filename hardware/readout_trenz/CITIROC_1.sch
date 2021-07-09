@@ -5050,20 +5050,6 @@ F 7 "Weeroc" H 4700 3400 50  0001 C CNN "Manufacturer"
 $EndComp
 Text HLabel 7350 3750 0    50   Input ~ 0
 SH_Ctrl[0..9]
-Wire Bus Line
-	16800 3600 16800 3950
-Wire Bus Line
-	13300 7850 13300 8250
-Wire Bus Line
-	15750 5150 15750 5450
-Wire Bus Line
-	7850 4350 7850 4950
-Wire Bus Line
-	7850 2850 7850 3750
-Wire Bus Line
-	4600 7100 4600 10250
-Wire Bus Line
-	14800 1450 14800 4550
 Wire Wire Line
 	8450 7150 8450 9950
 Wire Wire Line
@@ -5116,4 +5102,18 @@ Text Label 13200 7950 0    50   ~ 0
 ADC_SERIAL1
 Text Label 13200 7750 0    50   ~ 0
 ADC_SERIAL3
+Wire Bus Line
+	16800 3600 16800 3950
+Wire Bus Line
+	13300 7850 13300 8250
+Wire Bus Line
+	15750 5150 15750 5450
+Wire Bus Line
+	7850 4350 7850 4950
+Wire Bus Line
+	7850 2850 7850 3750
+Wire Bus Line
+	4600 7100 4600 10250
+Wire Bus Line
+	14800 1450 14800 4550
 $EndSCHEMATC
