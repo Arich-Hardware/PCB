@@ -1,0 +1,79 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Conn_Coaxial-Connector-Breakout_Board-rescue
+#
+DEF Conn_Coaxial-Connector-Breakout_Board-rescue J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Conn_Coaxial-Connector-Breakout_Board-rescue" 115 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# GND-power-Breakout_Board-rescue
+#
+DEF GND-power-Breakout_Board-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-power-Breakout_Board-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# OPA621-OpAmp
+#
+DEF OPA621-OpAmp U 0 40 Y Y 1 F N
+F0 "U" 100 0 50 H V C CNN
+F1 "OPA621-OpAmp" 100 0 50 H V C CNN
+F2 "" 100 0 50 H I C CNN
+F3 "" 100 0 50 H I C CNN
+DRAW
+P 4 0 1 0 0 300 0 -300 500 0 0 300 N
+X Inverting_Input 2 -100 200 100 R 50 50 1 1 I
+X Non-Inverting_Input 3 -100 -200 100 R 50 50 1 1 I
+X VEE 4 250 -250 100 U 50 50 1 1 I
+X OUTPUT 6 600 0 100 L 50 50 1 1 O
+X VCC 7 250 250 100 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# THS4304D
+#
+DEF THS4304D U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "THS4304D" 300 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+X NC 1 -100 100 100 D 50 50 1 1 N N
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X - 4 -100 -300 150 U 50 50 1 1 W
+X NC 5 0 100 100 D 50 50 1 1 N N
+X ~ 6 300 0 100 L 50 50 1 1 O
+X + 7 -100 300 150 D 50 50 1 1 W
+X NC 8 0 -100 100 U 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+#End Library
