@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name mod)(type KiCad)(uri /home/linyan/Documents/emphatic/Hardware/PCB/hardware/mod)(options "")(descr ""))
+  (lib (name mod)(type KiCad)(uri ${KIPRJMOD}/../mod)(options "")(descr ""))
 )
