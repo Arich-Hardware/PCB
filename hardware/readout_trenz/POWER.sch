@@ -176,15 +176,8 @@ Wire Wire Line
 Wire Wire Line
 	6600 2100 6350 2100
 Wire Wire Line
-	6350 5100 6500 5100
-Connection ~ 6350 5100
-Wire Wire Line
-	6350 5100 6350 5300
-Wire Wire Line
 	6350 4100 6500 4100
 Connection ~ 6350 4100
-Wire Wire Line
-	6350 4100 6350 5100
 $Comp
 L Device:R R9
 U 1 1 60F71B32
@@ -790,7 +783,7 @@ Wire Wire Line
 	6150 5100 6150 5000
 Connection ~ 6150 5000
 Wire Wire Line
-	6150 5000 6500 5000
+	6150 5000 6400 5000
 $Comp
 L Device:C_Small C11
 U 1 1 61FC80DF
@@ -1370,6 +1363,15 @@ Wire Wire Line
 Connection ~ 6350 1450
 Wire Wire Line
 	6350 1450 6350 2100
+Wire Wire Line
+	6350 4100 6350 5300
+Wire Wire Line
+	6500 5100 6400 5100
+Wire Wire Line
+	6400 5100 6400 5000
 Wire Bus Line
 	3100 5650 3100 5950
+Connection ~ 6400 5000
+Wire Wire Line
+	6400 5000 6500 5000
 $EndSCHEMATC
