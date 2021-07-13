@@ -113,109 +113,6 @@ Text Label 6150 6900 2    50   ~ 0
 -VCC
 Text Label 6150 6800 2    50   ~ 0
 VCC
-Text Label 7300 2750 2    50   ~ 0
-SIG2
-Wire Wire Line
-	8700 2750 8600 2750
-Connection ~ 8700 2750
-Wire Wire Line
-	8600 2750 8500 2750
-Connection ~ 8600 2750
-Wire Wire Line
-	8500 2750 8400 2750
-Connection ~ 8500 2750
-Wire Wire Line
-	8400 2750 8300 2750
-Connection ~ 8400 2750
-Wire Wire Line
-	8300 2750 8200 2750
-Connection ~ 8300 2750
-Wire Wire Line
-	8200 2750 8100 2750
-Connection ~ 8200 2750
-Wire Wire Line
-	8100 2750 8000 2750
-Connection ~ 8100 2750
-Wire Wire Line
-	8000 2750 7900 2750
-Connection ~ 8000 2750
-Wire Wire Line
-	7900 2750 7800 2750
-Connection ~ 7900 2750
-Wire Wire Line
-	7800 2750 7700 2750
-Connection ~ 7800 2750
-Wire Wire Line
-	7700 2750 7600 2750
-Connection ~ 7700 2750
-Wire Wire Line
-	7600 2750 7500 2750
-Connection ~ 7600 2750
-Wire Wire Line
-	7500 2750 7400 2750
-Connection ~ 7500 2750
-Wire Wire Line
-	7400 2750 7300 2750
-Connection ~ 7400 2750
-Wire Wire Line
-	8800 2750 8700 2750
-Wire Wire Line
-	10300 2750 10400 2750
-Connection ~ 10300 2750
-Wire Wire Line
-	10200 2750 10300 2750
-Connection ~ 10200 2750
-Wire Wire Line
-	10100 2750 10200 2750
-Connection ~ 10100 2750
-Wire Wire Line
-	10000 2750 10100 2750
-Connection ~ 10000 2750
-Wire Wire Line
-	9900 2750 10000 2750
-Connection ~ 9900 2750
-Wire Wire Line
-	9800 2750 9900 2750
-Connection ~ 9800 2750
-Wire Wire Line
-	9700 2750 9800 2750
-Connection ~ 9700 2750
-Wire Wire Line
-	9600 2750 9700 2750
-Connection ~ 9600 2750
-Wire Wire Line
-	9500 2750 9600 2750
-Connection ~ 9500 2750
-Wire Wire Line
-	9400 2750 9500 2750
-Connection ~ 9400 2750
-Wire Wire Line
-	9300 2750 9400 2750
-Connection ~ 9300 2750
-Wire Wire Line
-	9200 2750 9300 2750
-Connection ~ 9200 2750
-Wire Wire Line
-	9100 2750 9200 2750
-Connection ~ 9100 2750
-Wire Wire Line
-	9000 2750 9100 2750
-Connection ~ 9000 2750
-Wire Wire Line
-	8900 2750 9000 2750
-$Comp
-L Connector_Generic:Conn_02x32_Odd_Even J7
-U 1 1 60E62E77
-P 8900 2450
-F 0 "J7" V 8904 763 50  0000 R CNN
-F 1 "2x32_Odd_Even" V 8995 763 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical_SMD" H 8900 2450 50  0001 C CNN
-F 3 "~" H 8900 2450 50  0001 C CNN
-	1    8900 2450
-	0    1    1    0   
-$EndComp
-Text Label 10400 2750 0    50   ~ 0
-SIG1
 $Comp
 L Connector_Generic:Conn_02x32_Odd_Even J6
 U 1 1 60F58498
@@ -227,68 +124,6 @@ F 3 "~" H 8900 1550 50  0001 C CNN
 	1    8900 1550
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	10400 1750 10400 2250
-Wire Wire Line
-	10300 1750 10300 2250
-Wire Wire Line
-	10200 1750 10200 2250
-Wire Wire Line
-	10100 2250 10100 1750
-Wire Wire Line
-	10000 1750 10000 2250
-Wire Wire Line
-	9900 1750 9900 2250
-Wire Wire Line
-	9800 1750 9800 2250
-Wire Wire Line
-	9700 2250 9700 1750
-Wire Wire Line
-	9600 1750 9600 2250
-Wire Wire Line
-	9500 1750 9500 2250
-Wire Wire Line
-	9400 1750 9400 2250
-Wire Wire Line
-	9300 2250 9300 1750
-Wire Wire Line
-	9200 1750 9200 2250
-Wire Wire Line
-	9100 1750 9100 2250
-Wire Wire Line
-	9000 1750 9000 2250
-Wire Wire Line
-	8900 2250 8900 1750
-Wire Wire Line
-	8800 1750 8800 2250
-Wire Wire Line
-	8700 1750 8700 2250
-Wire Wire Line
-	8600 1750 8600 2250
-Wire Wire Line
-	8500 2250 8500 1750
-Wire Wire Line
-	8400 1750 8400 2250
-Wire Wire Line
-	8300 1750 8300 2250
-Wire Wire Line
-	8200 1750 8200 2250
-Wire Wire Line
-	8100 2250 8100 1750
-Wire Wire Line
-	8000 1750 8000 2250
-Wire Wire Line
-	7900 1750 7900 2250
-Wire Wire Line
-	7800 1750 7800 2250
-Wire Wire Line
-	7700 2250 7700 1750
-Wire Wire Line
-	7600 1750 7600 2250
-Wire Wire Line
-	7500 1750 7500 2250
-Wire Wire Line
-	7400 1750 7400 2250
 Wire Wire Line
 	7300 2250 7300 1750
 NoConn ~ 7300 1250
@@ -371,7 +206,7 @@ U 1 1 60E64FCD
 P 6350 6900
 F 0 "J5" H 6430 6892 50  0000 L CNN
 F 1 "Conn_01x04" H 6430 6801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left" H 6350 6900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 6350 6900 50  0001 C CNN
 F 3 "~" H 6350 6900 50  0001 C CNN
 	1    6350 6900
 	1    0    0    -1  
@@ -1368,5 +1203,170 @@ F 2 "" H 3550 1900 50  0001 C CNN
 F 3 "" H 3550 1900 50  0001 C CNN
 	1    3550 1900
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2250 7700 1750
+Wire Wire Line
+	10400 1750 10400 2250
+Wire Wire Line
+	10300 1750 10300 2250
+Wire Wire Line
+	7600 1750 7600 2250
+Wire Wire Line
+	10200 1750 10200 2250
+Wire Wire Line
+	10100 2250 10100 1750
+Wire Wire Line
+	10000 1750 10000 2250
+Wire Wire Line
+	9900 1750 9900 2250
+Wire Wire Line
+	9800 1750 9800 2250
+Wire Wire Line
+	9700 2250 9700 1750
+Wire Wire Line
+	9600 1750 9600 2250
+Wire Wire Line
+	9500 1750 9500 2250
+Wire Wire Line
+	9400 1750 9400 2250
+Wire Wire Line
+	9300 2250 9300 1750
+Wire Wire Line
+	7500 1750 7500 2250
+Wire Wire Line
+	9200 1750 9200 2250
+Wire Wire Line
+	9000 1750 9000 2250
+Wire Wire Line
+	8900 2250 8900 1750
+Wire Wire Line
+	8800 1750 8800 2250
+Wire Wire Line
+	8700 1750 8700 2250
+Wire Wire Line
+	8500 2250 8500 1750
+Wire Wire Line
+	8400 1750 8400 2250
+Wire Wire Line
+	8300 1750 8300 2250
+Wire Wire Line
+	7400 1750 7400 2250
+Wire Wire Line
+	8200 1750 8200 2250
+Wire Wire Line
+	8100 2250 8100 1750
+Wire Wire Line
+	8000 1750 8000 2250
+Wire Wire Line
+	7900 1750 7900 2250
+Wire Wire Line
+	7800 1750 7800 2250
+Wire Wire Line
+	8600 1750 8600 2250
+Wire Wire Line
+	9100 1750 9100 2250
+Text Label 10400 2750 0    50   ~ 0
+SIG1
+Text Label 7300 2750 2    50   ~ 0
+SIG2
+Wire Wire Line
+	8800 2750 8700 2750
+Connection ~ 8700 2750
+Wire Wire Line
+	8700 2750 8600 2750
+Wire Wire Line
+	8600 2750 8500 2750
+Connection ~ 8500 2750
+Wire Wire Line
+	8500 2750 8400 2750
+Wire Wire Line
+	8400 2750 8300 2750
+Connection ~ 8400 2750
+Connection ~ 8300 2750
+Wire Wire Line
+	8300 2750 8200 2750
+Wire Wire Line
+	8200 2750 8100 2750
+Connection ~ 8200 2750
+Connection ~ 8100 2750
+Wire Wire Line
+	8100 2750 8000 2750
+Wire Wire Line
+	8000 2750 7900 2750
+Connection ~ 8000 2750
+Connection ~ 7900 2750
+Wire Wire Line
+	7900 2750 7800 2750
+Wire Wire Line
+	7800 2750 7700 2750
+Connection ~ 7800 2750
+Connection ~ 7700 2750
+Wire Wire Line
+	7700 2750 7600 2750
+Wire Wire Line
+	7600 2750 7500 2750
+Connection ~ 7600 2750
+Connection ~ 7500 2750
+Wire Wire Line
+	7500 2750 7400 2750
+Wire Wire Line
+	7400 2750 7300 2750
+Connection ~ 7400 2750
+Wire Wire Line
+	10300 2750 10400 2750
+Connection ~ 10300 2750
+Connection ~ 10200 2750
+Wire Wire Line
+	10200 2750 10300 2750
+Wire Wire Line
+	10100 2750 10200 2750
+Connection ~ 10100 2750
+Connection ~ 10000 2750
+Wire Wire Line
+	10000 2750 10100 2750
+Wire Wire Line
+	9900 2750 10000 2750
+Connection ~ 9900 2750
+Connection ~ 9800 2750
+Wire Wire Line
+	9800 2750 9900 2750
+Wire Wire Line
+	9700 2750 9800 2750
+Connection ~ 9700 2750
+Connection ~ 9600 2750
+Wire Wire Line
+	9600 2750 9700 2750
+Wire Wire Line
+	9500 2750 9600 2750
+Connection ~ 9500 2750
+Connection ~ 9400 2750
+Wire Wire Line
+	9400 2750 9500 2750
+Wire Wire Line
+	9300 2750 9400 2750
+Connection ~ 9300 2750
+Connection ~ 9200 2750
+Wire Wire Line
+	9200 2750 9300 2750
+Wire Wire Line
+	9100 2750 9200 2750
+Wire Wire Line
+	9000 2750 9100 2750
+Wire Wire Line
+	8900 2750 9000 2750
+Connection ~ 9000 2750
+Connection ~ 8600 2750
+Connection ~ 9100 2750
+$Comp
+L Connector_Generic:Conn_02x32_Odd_Even J7
+U 1 1 60E62E77
+P 8900 2550
+F 0 "J7" V 8904 863 50  0000 R CNN
+F 1 "2x32_Odd_Even" V 8995 863 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical_SMD" H 8900 2550 50  0001 C CNN
+F 3 "~" H 8900 2550 50  0001 C CNN
+	1    8900 2550
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC
