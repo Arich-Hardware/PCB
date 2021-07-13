@@ -2280,6 +2280,8 @@ Wire Wire Line
 	8800 5450 9300 5450
 Wire Wire Line
 	8800 4250 9300 4250
+Text Label 4700 5550 2    50   ~ 0
+MGT_RX2_P
 Wire Wire Line
 	16850 2350 18000 2350
 Wire Bus Line
@@ -2306,6 +2308,4 @@ Wire Bus Line
 	14800 3750 14800 5750
 Wire Bus Line
 	14800 1050 14800 3550
-Text Label 4700 5550 2    50   ~ 0
-MGT_RX2_P
 $EndSCHEMATC
