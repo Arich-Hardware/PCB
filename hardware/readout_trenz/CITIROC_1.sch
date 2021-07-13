@@ -353,7 +353,7 @@ U 1 1 61BCD359
 P 10700 7250
 AR Path="/60BB4A14/61BCD359" Ref="R102"  Part="1" 
 AR Path="/60BB4C00/61BCD359" Ref="R46"  Part="1" 
-F 0 "R46" H 10759 7296 50  0001 L CNN
+F 0 "R46" V 10700 7350 30  0000 L CNN
 F 1 "0" V 10700 7250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7250 50  0001 C CNN
@@ -371,7 +371,7 @@ U 1 1 61BCD308
 P 10700 7350
 AR Path="/60BB4A14/61BCD308" Ref="R103"  Part="1" 
 AR Path="/60BB4C00/61BCD308" Ref="R47"  Part="1" 
-F 0 "R47" H 10759 7396 50  0001 L CNN
+F 0 "R47" V 10700 7450 30  0000 L CNN
 F 1 "0" V 10700 7350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7350 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7350 50  0001 C CNN
@@ -389,7 +389,7 @@ U 1 1 61BCD2F5
 P 10700 7450
 AR Path="/60BB4A14/61BCD2F5" Ref="R104"  Part="1" 
 AR Path="/60BB4C00/61BCD2F5" Ref="R48"  Part="1" 
-F 0 "R48" H 10759 7496 50  0001 L CNN
+F 0 "R48" V 10700 7550 30  0000 L CNN
 F 1 "0" V 10700 7450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7450 50  0001 C CNN
@@ -407,7 +407,7 @@ U 1 1 61BCD2E5
 P 10700 7550
 AR Path="/60BB4A14/61BCD2E5" Ref="R105"  Part="1" 
 AR Path="/60BB4C00/61BCD2E5" Ref="R49"  Part="1" 
-F 0 "R49" H 10759 7596 50  0001 L CNN
+F 0 "R49" V 10700 7650 30  0000 L CNN
 F 1 "0" V 10700 7550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7550 50  0001 C CNN
@@ -425,7 +425,7 @@ U 1 1 6105293E
 P 10700 7650
 AR Path="/60BB4A14/6105293E" Ref="R106"  Part="1" 
 AR Path="/60BB4C00/6105293E" Ref="R50"  Part="1" 
-F 0 "R50" H 10759 7696 50  0001 L CNN
+F 0 "R50" V 10700 7750 30  0000 L CNN
 F 1 "0" V 10700 7650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7650 50  0001 C CNN
@@ -443,7 +443,7 @@ U 1 1 60C983F5
 P 10700 7750
 AR Path="/60BB4A14/60C983F5" Ref="R107"  Part="1" 
 AR Path="/60BB4C00/60C983F5" Ref="R51"  Part="1" 
-F 0 "R51" H 10759 7796 50  0001 L CNN
+F 0 "R51" V 10700 7850 30  0000 L CNN
 F 1 "0" V 10700 7750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7750 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7750 50  0001 C CNN
@@ -464,7 +464,7 @@ U 1 1 60C983F4
 P 10700 7850
 AR Path="/60BB4A14/60C983F4" Ref="R108"  Part="1" 
 AR Path="/60BB4C00/60C983F4" Ref="R52"  Part="1" 
-F 0 "R52" H 10759 7896 50  0001 L CNN
+F 0 "R52" V 10700 7950 30  0000 L CNN
 F 1 "0" V 10700 7850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7850 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7850 50  0001 C CNN
@@ -524,8 +524,8 @@ U 1 1 61198633
 P 10400 10550
 AR Path="/60BB4A14/61198633" Ref="C154"  Part="1" 
 AR Path="/60BB4C00/61198633" Ref="C71"  Part="1" 
-F 0 "C71" H 10492 10596 50  0001 L CNN
-F 1 "0.1uF" H 10300 10600 39  0000 L CNN
+F 0 "C71" H 10350 10500 30  0000 L CNN
+F 1 "0.1uF" H 10350 10600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10400 10550 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10400 10550 50  0001 C CNN
 F 4 "$0.1" H 10400 10550 50  0001 C CNN "Item Cost"
@@ -556,30 +556,12 @@ Wire Wire Line
 	8750 6550 9500 6550
 Connection ~ 8750 6550
 $Comp
-L Device:C_Small C149
-U 1 1 61BCD34B
-P 9600 6800
-AR Path="/60BB4A14/61BCD34B" Ref="C149"  Part="1" 
-AR Path="/60BB4C00/61BCD34B" Ref="C66"  Part="1" 
-F 0 "C66" H 9692 6846 50  0001 L CNN
-F 1 "0.1uF" H 9500 6850 39  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9600 6800 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9600 6800 50  0001 C CNN
-F 4 "$0.1" H 9600 6800 50  0001 C CNN "Item Cost"
-F 5 "885012206046" H 9600 6800 50  0001 C CNN "MFN"
-F 6 "Würth Elektronik" H 9600 6800 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 9600 6800 50  0001 C CNN "Supplier "
-F 8 "732-7965-1-ND" H 9600 6800 50  0001 C CNN "Supplier P/N"
-	1    9600 6800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C148
 U 1 1 61BCD32E
 P 9500 6700
 AR Path="/60BB4A14/61BCD32E" Ref="C148"  Part="1" 
 AR Path="/60BB4C00/61BCD32E" Ref="C65"  Part="1" 
-F 0 "C65" H 9592 6746 50  0001 L CNN
+F 0 "C65" V 9450 6550 30  0000 L CNN
 F 1 "0.1uF" H 9350 6750 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 6700 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9500 6700 50  0001 C CNN
@@ -597,7 +579,7 @@ U 1 1 61BCD356
 P 9700 6700
 AR Path="/60BB4A14/61BCD356" Ref="C150"  Part="1" 
 AR Path="/60BB4C00/61BCD356" Ref="C67"  Part="1" 
-F 0 "C67" H 9792 6746 50  0001 L CNN
+F 0 "C67" V 9750 6550 30  0000 L CNN
 F 1 "0.1uF" H 9700 6750 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 6700 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9700 6700 50  0001 C CNN
@@ -643,8 +625,8 @@ U 1 1 61BCD355
 P 10550 8050
 AR Path="/60BB4A14/61BCD355" Ref="C155"  Part="1" 
 AR Path="/60BB4C00/61BCD355" Ref="C72"  Part="1" 
-F 0 "C72" H 10642 8096 50  0001 L CNN
-F 1 "0.1uF" H 10550 8100 50  0000 L CNN
+F 0 "C72" H 10500 8000 30  0000 L CNN
+F 1 "0.1uF" H 10550 8100 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10550 8050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10550 8050 50  0001 C CNN
 F 4 "$0.1" H 10550 8050 50  0001 C CNN "Item Cost"
@@ -678,8 +660,8 @@ U 1 1 61BCD333
 P 11150 8050
 AR Path="/60BB4A14/61BCD333" Ref="C161"  Part="1" 
 AR Path="/60BB4C00/61BCD333" Ref="C78"  Part="1" 
-F 0 "C78" H 11242 8096 50  0001 L CNN
-F 1 "150pF" H 11050 8000 50  0000 L CNN
+F 0 "C78" H 11100 8100 30  0000 L CNN
+F 1 "150pF" H 11050 8000 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11150 8050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11150 8050 50  0001 C CNN
 F 4 "$0.1" H 11150 8050 50  0001 C CNN "Item Cost"
@@ -696,8 +678,8 @@ U 1 1 61BCD334
 P 11250 8250
 AR Path="/60BB4A14/61BCD334" Ref="C164"  Part="1" 
 AR Path="/60BB4C00/61BCD334" Ref="C81"  Part="1" 
-F 0 "C81" H 11342 8296 50  0001 L CNN
-F 1 "150pF" H 11150 8200 50  0000 L CNN
+F 0 "C81" H 11200 8300 30  0000 L CNN
+F 1 "150pF" H 11150 8200 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11250 8250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11250 8250 50  0001 C CNN
 F 4 "$0.1" H 11250 8250 50  0001 C CNN "Item Cost"
@@ -714,8 +696,8 @@ U 1 1 6119860B
 P 11350 8050
 AR Path="/60BB4A14/6119860B" Ref="C165"  Part="1" 
 AR Path="/60BB4C00/6119860B" Ref="C82"  Part="1" 
-F 0 "C82" H 11442 8096 50  0001 L CNN
-F 1 "150pF" H 11250 8000 50  0000 L CNN
+F 0 "C82" H 11300 8100 30  0000 L CNN
+F 1 "150pF" H 11250 8000 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11350 8050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11350 8050 50  0001 C CNN
 F 4 "$0.1" H 11350 8050 50  0001 C CNN "Item Cost"
@@ -752,8 +734,8 @@ U 1 1 61BCD34A
 P 11050 8250
 AR Path="/60BB4A14/61BCD34A" Ref="C159"  Part="1" 
 AR Path="/60BB4C00/61BCD34A" Ref="C76"  Part="1" 
-F 0 "C76" H 11142 8296 50  0001 L CNN
-F 1 "150pF" H 10950 8200 50  0000 L CNN
+F 0 "C76" H 11000 8300 30  0000 L CNN
+F 1 "150pF" H 10950 8200 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11050 8250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11050 8250 50  0001 C CNN
 F 4 "$0.1" H 11050 8250 50  0001 C CNN "Item Cost"
@@ -770,8 +752,8 @@ U 1 1 61BCD335
 P 10850 8250
 AR Path="/60BB4A14/61BCD335" Ref="C156"  Part="1" 
 AR Path="/60BB4C00/61BCD335" Ref="C73"  Part="1" 
-F 0 "C73" H 10942 8296 50  0001 L CNN
-F 1 "150pF" H 10750 8200 50  0000 L CNN
+F 0 "C73" H 10800 8300 30  0000 L CNN
+F 1 "150pF" H 10750 8200 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10850 8250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 10850 8250 50  0001 C CNN
 F 4 "$0.1" H 10850 8250 50  0001 C CNN "Item Cost"
@@ -793,8 +775,8 @@ U 1 1 60C983F1
 P 10950 8050
 AR Path="/60BB4A14/60C983F1" Ref="C158"  Part="1" 
 AR Path="/60BB4C00/60C983F1" Ref="C75"  Part="1" 
-F 0 "C75" H 11042 8096 50  0001 L CNN
-F 1 "150pF" H 10850 8000 50  0000 L CNN
+F 0 "C75" H 10900 8100 30  0000 L CNN
+F 1 "150pF" H 10850 8000 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10950 8050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 10950 8050 50  0001 C CNN
 F 4 "$0.1" H 10950 8050 50  0001 C CNN "Item Cost"
@@ -1481,8 +1463,8 @@ U 1 1 60C9838B
 P 6500 6750
 AR Path="/60BB4A14/60C9838B" Ref="C117"  Part="1" 
 AR Path="/60BB4C00/60C9838B" Ref="C34"  Part="1" 
-F 0 "C34" H 6550 6800 39  0001 L CNN
-F 1 "0.1uF" H 6450 6800 39  0000 L CNN
+F 0 "C34" V 6450 6600 30  0000 L CNN
+F 1 "0.1uF" V 6550 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6500 6750 50  0001 C CNN
 F 4 "$0.1" H 6500 6750 50  0001 C CNN "Item Cost"
@@ -1499,7 +1481,7 @@ U 1 1 60C983D9
 P 6500 7000
 AR Path="/60BB4A14/60C983D9" Ref="R71"  Part="1" 
 AR Path="/60BB4C00/60C983D9" Ref="R15"  Part="1" 
-F 0 "R15" H 6550 7000 39  0001 L CNN
+F 0 "R15" V 6450 6800 30  0000 L CNN
 F 1 "49.9" V 6500 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6500 7000 50  0001 C CNN
@@ -1517,8 +1499,8 @@ U 1 1 61BCD35E
 P 6650 6750
 AR Path="/60BB4A14/61BCD35E" Ref="C119"  Part="1" 
 AR Path="/60BB4C00/61BCD35E" Ref="C36"  Part="1" 
-F 0 "C36" H 6700 6800 39  0001 L CNN
-F 1 "0.1uF" H 6600 6800 39  0000 L CNN
+F 0 "C36" V 6600 6600 30  0000 L CNN
+F 1 "0.1uF" V 6700 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6650 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6650 6750 50  0001 C CNN
 F 4 "$0.1" H 6650 6750 50  0001 C CNN "Item Cost"
@@ -1535,7 +1517,7 @@ U 1 1 61BCD322
 P 6650 7000
 AR Path="/60BB4A14/61BCD322" Ref="R73"  Part="1" 
 AR Path="/60BB4C00/61BCD322" Ref="R17"  Part="1" 
-F 0 "R17" H 6700 7000 39  0001 L CNN
+F 0 "R17" V 6600 6800 30  0000 L CNN
 F 1 "49.9" V 6650 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6580 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6650 7000 50  0001 C CNN
@@ -1553,8 +1535,8 @@ U 1 1 61BCD30B
 P 6800 6750
 AR Path="/60BB4A14/61BCD30B" Ref="C121"  Part="1" 
 AR Path="/60BB4C00/61BCD30B" Ref="C38"  Part="1" 
-F 0 "C38" H 6850 6800 39  0001 L CNN
-F 1 "0.1uF" H 6750 6800 39  0000 L CNN
+F 0 "C38" V 6750 6600 30  0000 L CNN
+F 1 "0.1uF" V 6850 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6800 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6800 6750 50  0001 C CNN
 F 4 "$0.1" H 6800 6750 50  0001 C CNN "Item Cost"
@@ -1566,48 +1548,12 @@ F 8 "732-7532-1-ND" H 6800 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R75
-U 1 1 60C9838A
-P 6800 7000
-AR Path="/60BB4A14/60C9838A" Ref="R75"  Part="1" 
-AR Path="/60BB4C00/60C9838A" Ref="R19"  Part="1" 
-F 0 "R19" H 6850 7000 39  0001 L CNN
-F 1 "49.9" V 6800 6950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 7000 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6800 7000 50  0001 C CNN
-F 4 "$0.1" H 6800 7000 50  0001 C CNN "Item Cost"
-F 5 "AF0402FR-0749R9L" H 6800 7000 50  0001 C CNN "MFN"
-F 6 "Yageo" H 6800 7000 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 6800 7000 50  0001 C CNN "Supplier "
-F 8 "13-AF0402FR-0749R9LCT-ND" H 6800 7000 50  0001 C CNN "Supplier P/N"
-	1    6800 7000
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C_Small C123
-U 1 1 60C98371
-P 6950 6750
-AR Path="/60BB4A14/60C98371" Ref="C123"  Part="1" 
-AR Path="/60BB4C00/60C98371" Ref="C40"  Part="1" 
-F 0 "C40" H 7000 6800 39  0001 L CNN
-F 1 "0.1uF" H 6900 6800 39  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6950 6750 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6950 6750 50  0001 C CNN
-F 4 "$0.1" H 6950 6750 50  0001 C CNN "Item Cost"
-F 5 "885012205037" H 6950 6750 50  0001 C CNN "MFN"
-F 6 "Würth Elektronik" H 6950 6750 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 6950 6750 50  0001 C CNN "Supplier "
-F 8 "732-7532-1-ND" H 6950 6750 50  0001 C CNN "Supplier P/N"
-	1    6950 6750
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R77
 U 1 1 6105F0E0
 P 6950 7000
 AR Path="/60BB4A14/6105F0E0" Ref="R77"  Part="1" 
 AR Path="/60BB4C00/6105F0E0" Ref="R21"  Part="1" 
-F 0 "R21" H 7000 7000 39  0001 L CNN
+F 0 "R21" V 6900 6800 30  0000 L CNN
 F 1 "49.9" V 6950 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6880 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6950 7000 50  0001 C CNN
@@ -1625,8 +1571,8 @@ U 1 1 60C98370
 P 7100 6750
 AR Path="/60BB4A14/60C98370" Ref="C125"  Part="1" 
 AR Path="/60BB4C00/60C98370" Ref="C42"  Part="1" 
-F 0 "C42" H 7150 6800 39  0001 L CNN
-F 1 "0.1uF" H 7050 6800 39  0000 L CNN
+F 0 "C42" V 7050 6600 30  0000 L CNN
+F 1 "0.1uF" V 7150 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7100 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7100 6750 50  0001 C CNN
 F 4 "$0.1" H 7100 6750 50  0001 C CNN "Item Cost"
@@ -1643,7 +1589,7 @@ U 1 1 6105F0DF
 P 7100 7000
 AR Path="/60BB4A14/6105F0DF" Ref="R79"  Part="1" 
 AR Path="/60BB4C00/6105F0DF" Ref="R23"  Part="1" 
-F 0 "R23" H 7150 7000 39  0001 L CNN
+F 0 "R23" V 7050 6800 30  0000 L CNN
 F 1 "49.9" V 7100 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7100 7000 50  0001 C CNN
@@ -1661,8 +1607,8 @@ U 1 1 6105F0DE
 P 7250 6750
 AR Path="/60BB4A14/6105F0DE" Ref="C127"  Part="1" 
 AR Path="/60BB4C00/6105F0DE" Ref="C44"  Part="1" 
-F 0 "C44" H 7300 6800 39  0001 L CNN
-F 1 "0.1uF" H 7200 6800 39  0000 L CNN
+F 0 "C44" V 7200 6600 30  0000 L CNN
+F 1 "0.1uF" V 7300 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7250 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7250 6750 50  0001 C CNN
 F 4 "$0.1" H 7250 6750 50  0001 C CNN "Item Cost"
@@ -1679,7 +1625,7 @@ U 1 1 61BCD35D
 P 7250 7000
 AR Path="/60BB4A14/61BCD35D" Ref="R81"  Part="1" 
 AR Path="/60BB4C00/61BCD35D" Ref="R25"  Part="1" 
-F 0 "R25" H 7300 7000 39  0001 L CNN
+F 0 "R25" V 7200 6800 30  0000 L CNN
 F 1 "49.9" V 7250 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7180 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7250 7000 50  0001 C CNN
@@ -1697,8 +1643,8 @@ U 1 1 61BCD351
 P 7400 6750
 AR Path="/60BB4A14/61BCD351" Ref="C129"  Part="1" 
 AR Path="/60BB4C00/61BCD351" Ref="C46"  Part="1" 
-F 0 "C46" H 7450 6800 39  0001 L CNN
-F 1 "0.1uF" H 7350 6800 39  0000 L CNN
+F 0 "C46" V 7350 6600 30  0000 L CNN
+F 1 "0.1uF" V 7450 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7400 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7400 6750 50  0001 C CNN
 F 4 "$0.1" H 7400 6750 50  0001 C CNN "Item Cost"
@@ -1715,7 +1661,7 @@ U 1 1 6119861D
 P 7400 7000
 AR Path="/60BB4A14/6119861D" Ref="R83"  Part="1" 
 AR Path="/60BB4C00/6119861D" Ref="R27"  Part="1" 
-F 0 "R27" H 7450 7000 39  0001 L CNN
+F 0 "R27" V 7350 6800 30  0000 L CNN
 F 1 "49.9" V 7400 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7330 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7400 7000 50  0001 C CNN
@@ -1733,8 +1679,8 @@ U 1 1 6119861C
 P 7550 6750
 AR Path="/60BB4A14/6119861C" Ref="C131"  Part="1" 
 AR Path="/60BB4C00/6119861C" Ref="C48"  Part="1" 
-F 0 "C48" H 7600 6800 39  0001 L CNN
-F 1 "0.1uF" H 7500 6800 39  0000 L CNN
+F 0 "C48" V 7500 6600 30  0000 L CNN
+F 1 "0.1uF" V 7600 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7550 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7550 6750 50  0001 C CNN
 F 4 "$0.1" H 7550 6750 50  0001 C CNN "Item Cost"
@@ -1751,7 +1697,7 @@ U 1 1 61198637
 P 7550 7000
 AR Path="/60BB4A14/61198637" Ref="R85"  Part="1" 
 AR Path="/60BB4C00/61198637" Ref="R29"  Part="1" 
-F 0 "R29" H 7600 7000 39  0001 L CNN
+F 0 "R29" V 7500 6800 30  0000 L CNN
 F 1 "49.9" V 7550 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7480 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7550 7000 50  0001 C CNN
@@ -1769,8 +1715,8 @@ U 1 1 61BCD309
 P 7700 6750
 AR Path="/60BB4A14/61BCD309" Ref="C133"  Part="1" 
 AR Path="/60BB4C00/61BCD309" Ref="C50"  Part="1" 
-F 0 "C50" H 7750 6800 39  0001 L CNN
-F 1 "0.1uF" H 7650 6800 39  0000 L CNN
+F 0 "C50" V 7650 6600 30  0000 L CNN
+F 1 "0.1uF" V 7750 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7700 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7700 6750 50  0001 C CNN
 F 4 "$0.1" H 7700 6750 50  0001 C CNN "Item Cost"
@@ -1787,7 +1733,7 @@ U 1 1 61BCD329
 P 7700 7000
 AR Path="/60BB4A14/61BCD329" Ref="R87"  Part="1" 
 AR Path="/60BB4C00/61BCD329" Ref="R31"  Part="1" 
-F 0 "R31" H 7750 7000 39  0001 L CNN
+F 0 "R31" V 7650 6800 30  0000 L CNN
 F 1 "49.9" V 7700 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7630 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7700 7000 50  0001 C CNN
@@ -1805,8 +1751,8 @@ U 1 1 61BCD348
 P 7850 6750
 AR Path="/60BB4A14/61BCD348" Ref="C135"  Part="1" 
 AR Path="/60BB4C00/61BCD348" Ref="C52"  Part="1" 
-F 0 "C52" H 7900 6800 39  0001 L CNN
-F 1 "0.1uF" H 7800 6800 39  0000 L CNN
+F 0 "C52" V 7800 6600 30  0000 L CNN
+F 1 "0.1uF" V 7900 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7850 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7850 6750 50  0001 C CNN
 F 4 "$0.1" H 7850 6750 50  0001 C CNN "Item Cost"
@@ -1823,7 +1769,7 @@ U 1 1 61BCD2FF
 P 7850 7000
 AR Path="/60BB4A14/61BCD2FF" Ref="R89"  Part="1" 
 AR Path="/60BB4C00/61BCD2FF" Ref="R33"  Part="1" 
-F 0 "R33" H 7900 7000 39  0001 L CNN
+F 0 "R33" V 7800 6800 30  0000 L CNN
 F 1 "49.9" V 7850 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7780 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7850 7000 50  0001 C CNN
@@ -1841,8 +1787,8 @@ U 1 1 610892B1
 P 8750 6750
 AR Path="/60BB4A14/610892B1" Ref="C147"  Part="1" 
 AR Path="/60BB4C00/610892B1" Ref="C64"  Part="1" 
-F 0 "C64" H 8800 6800 39  0001 L CNN
-F 1 "0.1uF" H 8700 6800 39  0000 L CNN
+F 0 "C64" V 8700 6600 30  0000 L CNN
+F 1 "0.1uF" V 8800 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8750 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8750 6750 50  0001 C CNN
 F 4 "$0.1" H 8750 6750 50  0001 C CNN "Item Cost"
@@ -1859,8 +1805,8 @@ U 1 1 61BCD327
 P 8600 6750
 AR Path="/60BB4A14/61BCD327" Ref="C145"  Part="1" 
 AR Path="/60BB4C00/61BCD327" Ref="C62"  Part="1" 
-F 0 "C62" H 8650 6800 39  0001 L CNN
-F 1 "0.1uF" H 8550 6800 39  0000 L CNN
+F 0 "C62" V 8550 6600 30  0000 L CNN
+F 1 "0.1uF" V 8650 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8600 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8600 6750 50  0001 C CNN
 F 4 "$0.1" H 8600 6750 50  0001 C CNN "Item Cost"
@@ -1877,8 +1823,8 @@ U 1 1 61BCD328
 P 8450 6750
 AR Path="/60BB4A14/61BCD328" Ref="C143"  Part="1" 
 AR Path="/60BB4C00/61BCD328" Ref="C60"  Part="1" 
-F 0 "C60" H 8500 6800 39  0001 L CNN
-F 1 "0.1uF" H 8400 6800 39  0000 L CNN
+F 0 "C60" V 8400 6600 30  0000 L CNN
+F 1 "0.1uF" V 8500 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8450 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8450 6750 50  0001 C CNN
 F 4 "$0.1" H 8450 6750 50  0001 C CNN "Item Cost"
@@ -1895,8 +1841,8 @@ U 1 1 61BCD33E
 P 8300 6750
 AR Path="/60BB4A14/61BCD33E" Ref="C141"  Part="1" 
 AR Path="/60BB4C00/61BCD33E" Ref="C58"  Part="1" 
-F 0 "C58" H 8350 6800 39  0001 L CNN
-F 1 "0.1uF" H 8250 6800 39  0000 L CNN
+F 0 "C58" V 8250 6600 30  0000 L CNN
+F 1 "0.1uF" V 8350 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8300 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8300 6750 50  0001 C CNN
 F 4 "$0.1" H 8300 6750 50  0001 C CNN "Item Cost"
@@ -1913,8 +1859,8 @@ U 1 1 61BCD31C
 P 8150 6750
 AR Path="/60BB4A14/61BCD31C" Ref="C139"  Part="1" 
 AR Path="/60BB4C00/61BCD31C" Ref="C56"  Part="1" 
-F 0 "C56" H 8200 6800 39  0001 L CNN
-F 1 "0.1uF" H 8100 6800 39  0000 L CNN
+F 0 "C56" V 8100 6600 30  0000 L CNN
+F 1 "0.1uF" V 8200 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8150 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8150 6750 50  0001 C CNN
 F 4 "$0.1" H 8150 6750 50  0001 C CNN "Item Cost"
@@ -1931,8 +1877,8 @@ U 1 1 60C983A7
 P 8000 6750
 AR Path="/60BB4A14/60C983A7" Ref="C137"  Part="1" 
 AR Path="/60BB4C00/60C983A7" Ref="C54"  Part="1" 
-F 0 "C54" H 8050 6800 39  0001 L CNN
-F 1 "0.1uF" H 7950 6800 39  0000 L CNN
+F 0 "C54" V 7950 6600 30  0000 L CNN
+F 1 "0.1uF" V 8050 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8000 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8000 6750 50  0001 C CNN
 F 4 "$0.1" H 8000 6750 50  0001 C CNN "Item Cost"
@@ -1949,7 +1895,7 @@ U 1 1 61BCD2F2
 P 8000 7000
 AR Path="/60BB4A14/61BCD2F2" Ref="R91"  Part="1" 
 AR Path="/60BB4C00/61BCD2F2" Ref="R35"  Part="1" 
-F 0 "R35" H 8050 7000 39  0001 L CNN
+F 0 "R35" V 7950 6800 30  0000 L CNN
 F 1 "49.9" V 8000 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7930 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8000 7000 50  0001 C CNN
@@ -1967,7 +1913,7 @@ U 1 1 61198604
 P 8150 7000
 AR Path="/60BB4A14/61198604" Ref="R93"  Part="1" 
 AR Path="/60BB4C00/61198604" Ref="R37"  Part="1" 
-F 0 "R37" H 8200 7000 39  0001 L CNN
+F 0 "R37" V 8100 6800 30  0000 L CNN
 F 1 "49.9" V 8150 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8080 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8150 7000 50  0001 C CNN
@@ -1985,7 +1931,7 @@ U 1 1 61198603
 P 8300 7000
 AR Path="/60BB4A14/61198603" Ref="R95"  Part="1" 
 AR Path="/60BB4C00/61198603" Ref="R39"  Part="1" 
-F 0 "R39" H 8350 7000 39  0001 L CNN
+F 0 "R39" V 8250 6800 30  0000 L CNN
 F 1 "49.9" V 8300 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8300 7000 50  0001 C CNN
@@ -2003,7 +1949,7 @@ U 1 1 6119863D
 P 8450 7000
 AR Path="/60BB4A14/6119863D" Ref="R97"  Part="1" 
 AR Path="/60BB4C00/6119863D" Ref="R41"  Part="1" 
-F 0 "R41" H 8500 7000 39  0001 L CNN
+F 0 "R41" V 8400 6800 30  0000 L CNN
 F 1 "49.9" V 8450 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8380 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8450 7000 50  0001 C CNN
@@ -2021,7 +1967,7 @@ U 1 1 61BCD2F1
 P 8600 7000
 AR Path="/60BB4A14/61BCD2F1" Ref="R99"  Part="1" 
 AR Path="/60BB4C00/61BCD2F1" Ref="R43"  Part="1" 
-F 0 "R43" H 8650 7000 39  0001 L CNN
+F 0 "R43" V 8550 6800 30  0000 L CNN
 F 1 "49.9" V 8600 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8530 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8600 7000 50  0001 C CNN
@@ -2039,7 +1985,7 @@ U 1 1 611985E6
 P 8750 7000
 AR Path="/60BB4A14/611985E6" Ref="R101"  Part="1" 
 AR Path="/60BB4C00/611985E6" Ref="R45"  Part="1" 
-F 0 "R45" H 8800 7000 39  0001 L CNN
+F 0 "R45" V 8700 6800 30  0000 L CNN
 F 1 "49.9" V 8750 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8680 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8750 7000 50  0001 C CNN
@@ -2057,7 +2003,7 @@ U 1 1 61BCD2FE
 P 8650 10850
 AR Path="/60BB4A14/61BCD2FE" Ref="C146"  Part="1" 
 AR Path="/60BB4C00/61BCD2FE" Ref="C63"  Part="1" 
-F 0 "C63" H 8700 10900 39  0001 L CNN
+F 0 "C63" H 8600 10800 30  0000 L CNN
 F 1 "0.1uF" H 8600 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8650 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8650 10850 50  0001 C CNN
@@ -2075,7 +2021,7 @@ U 1 1 60C983C2
 P 8500 10850
 AR Path="/60BB4A14/60C983C2" Ref="C144"  Part="1" 
 AR Path="/60BB4C00/60C983C2" Ref="C61"  Part="1" 
-F 0 "C61" H 8550 10900 39  0001 L CNN
+F 0 "C61" H 8450 10800 30  0000 L CNN
 F 1 "0.1uF" H 8450 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8500 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8500 10850 50  0001 C CNN
@@ -2088,30 +2034,12 @@ F 8 "732-7532-1-ND" H 8500 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R98
-U 1 1 61BCD33C
-P 8500 10600
-AR Path="/60BB4A14/61BCD33C" Ref="R98"  Part="1" 
-AR Path="/60BB4C00/61BCD33C" Ref="R42"  Part="1" 
-F 0 "R42" H 8550 10600 39  0001 L CNN
-F 1 "49.9" V 8500 10550 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 8430 10600 50  0001 C CNN
-F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8500 10600 50  0001 C CNN
-F 4 "$0.1" H 8500 10600 50  0001 C CNN "Item Cost"
-F 5 "AF0402FR-0749R9L" H 8500 10600 50  0001 C CNN "MFN"
-F 6 "Yageo" H 8500 10600 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 8500 10600 50  0001 C CNN "Supplier "
-F 8 "13-AF0402FR-0749R9LCT-ND" H 8500 10600 50  0001 C CNN "Supplier P/N"
-	1    8500 10600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C142
 U 1 1 61BCD326
 P 8350 10850
 AR Path="/60BB4A14/61BCD326" Ref="C142"  Part="1" 
 AR Path="/60BB4C00/61BCD326" Ref="C59"  Part="1" 
-F 0 "C59" H 8400 10900 39  0001 L CNN
+F 0 "C59" H 8300 10800 30  0000 L CNN
 F 1 "0.1uF" H 8300 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8350 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8350 10850 50  0001 C CNN
@@ -2129,7 +2057,7 @@ U 1 1 611985E4
 P 8350 10600
 AR Path="/60BB4A14/611985E4" Ref="R96"  Part="1" 
 AR Path="/60BB4C00/611985E4" Ref="R40"  Part="1" 
-F 0 "R40" H 8400 10600 39  0001 L CNN
+F 0 "R40" V 8300 10700 30  0000 L CNN
 F 1 "49.9" V 8350 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8280 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8350 10600 50  0001 C CNN
@@ -2147,7 +2075,7 @@ U 1 1 60C98389
 P 8200 10850
 AR Path="/60BB4A14/60C98389" Ref="C140"  Part="1" 
 AR Path="/60BB4C00/60C98389" Ref="C57"  Part="1" 
-F 0 "C57" H 8250 10900 39  0001 L CNN
+F 0 "C57" H 8150 10800 30  0000 L CNN
 F 1 "0.1uF" H 8150 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8200 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8200 10850 50  0001 C CNN
@@ -2165,7 +2093,7 @@ U 1 1 60C98388
 P 8200 10600
 AR Path="/60BB4A14/60C98388" Ref="R94"  Part="1" 
 AR Path="/60BB4C00/60C98388" Ref="R38"  Part="1" 
-F 0 "R38" H 8250 10600 39  0001 L CNN
+F 0 "R38" V 8150 10700 30  0000 L CNN
 F 1 "49.9" V 8200 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8130 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8200 10600 50  0001 C CNN
@@ -2183,7 +2111,7 @@ U 1 1 61BCD32A
 P 8050 10850
 AR Path="/60BB4A14/61BCD32A" Ref="C138"  Part="1" 
 AR Path="/60BB4C00/61BCD32A" Ref="C55"  Part="1" 
-F 0 "C55" H 8100 10900 39  0001 L CNN
+F 0 "C55" H 8000 10800 30  0000 L CNN
 F 1 "0.1uF" H 8000 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8050 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8050 10850 50  0001 C CNN
@@ -2201,7 +2129,7 @@ U 1 1 611985E3
 P 8050 10600
 AR Path="/60BB4A14/611985E3" Ref="R92"  Part="1" 
 AR Path="/60BB4C00/611985E3" Ref="R36"  Part="1" 
-F 0 "R36" H 8100 10600 39  0001 L CNN
+F 0 "R36" V 8000 10700 30  0000 L CNN
 F 1 "49.9" V 8050 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7980 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8050 10600 50  0001 C CNN
@@ -2219,7 +2147,7 @@ U 1 1 61BCD2D8
 P 7900 10850
 AR Path="/60BB4A14/61BCD2D8" Ref="C136"  Part="1" 
 AR Path="/60BB4C00/61BCD2D8" Ref="C53"  Part="1" 
-F 0 "C53" H 7950 10900 39  0001 L CNN
+F 0 "C53" H 7850 10800 30  0000 L CNN
 F 1 "0.1uF" H 7850 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7900 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7900 10850 50  0001 C CNN
@@ -2237,7 +2165,7 @@ U 1 1 60C983C1
 P 7900 10600
 AR Path="/60BB4A14/60C983C1" Ref="R90"  Part="1" 
 AR Path="/60BB4C00/60C983C1" Ref="R34"  Part="1" 
-F 0 "R34" H 7950 10600 39  0001 L CNN
+F 0 "R34" V 7850 10700 30  0000 L CNN
 F 1 "49.9" V 7900 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7830 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7900 10600 50  0001 C CNN
@@ -2255,7 +2183,7 @@ U 1 1 61BCD34E
 P 7750 10850
 AR Path="/60BB4A14/61BCD34E" Ref="C134"  Part="1" 
 AR Path="/60BB4C00/61BCD34E" Ref="C51"  Part="1" 
-F 0 "C51" H 7800 10900 39  0001 L CNN
+F 0 "C51" H 7700 10800 30  0000 L CNN
 F 1 "0.1uF" H 7700 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7750 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7750 10850 50  0001 C CNN
@@ -2273,7 +2201,7 @@ U 1 1 61BCD33F
 P 7750 10600
 AR Path="/60BB4A14/61BCD33F" Ref="R88"  Part="1" 
 AR Path="/60BB4C00/61BCD33F" Ref="R32"  Part="1" 
-F 0 "R32" H 7800 10600 39  0001 L CNN
+F 0 "R32" V 7700 10700 30  0000 L CNN
 F 1 "49.9" V 7750 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7680 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7750 10600 50  0001 C CNN
@@ -2291,7 +2219,7 @@ U 1 1 60C9839C
 P 7600 10850
 AR Path="/60BB4A14/60C9839C" Ref="C132"  Part="1" 
 AR Path="/60BB4C00/60C9839C" Ref="C49"  Part="1" 
-F 0 "C49" H 7650 10900 39  0001 L CNN
+F 0 "C49" H 7550 10800 30  0000 L CNN
 F 1 "0.1uF" H 7550 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7600 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7600 10850 50  0001 C CNN
@@ -2309,7 +2237,7 @@ U 1 1 60C9839B
 P 7600 10600
 AR Path="/60BB4A14/60C9839B" Ref="R86"  Part="1" 
 AR Path="/60BB4C00/60C9839B" Ref="R30"  Part="1" 
-F 0 "R30" H 7650 10600 39  0001 L CNN
+F 0 "R30" V 7550 10700 30  0000 L CNN
 F 1 "49.9" V 7600 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7530 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7600 10600 50  0001 C CNN
@@ -2327,7 +2255,7 @@ U 1 1 61BCD2ED
 P 7450 10850
 AR Path="/60BB4A14/61BCD2ED" Ref="C130"  Part="1" 
 AR Path="/60BB4C00/61BCD2ED" Ref="C47"  Part="1" 
-F 0 "C47" H 7500 10900 39  0001 L CNN
+F 0 "C47" H 7400 10800 30  0000 L CNN
 F 1 "0.1uF" H 7400 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7450 10850 50  0001 C CNN
@@ -2345,7 +2273,7 @@ U 1 1 60C983E8
 P 7450 10600
 AR Path="/60BB4A14/60C983E8" Ref="R84"  Part="1" 
 AR Path="/60BB4C00/60C983E8" Ref="R28"  Part="1" 
-F 0 "R28" H 7500 10600 39  0001 L CNN
+F 0 "R28" V 7400 10700 30  0000 L CNN
 F 1 "49.9" V 7450 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7380 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7450 10600 50  0001 C CNN
@@ -2363,7 +2291,7 @@ U 1 1 60C983D2
 P 7300 10850
 AR Path="/60BB4A14/60C983D2" Ref="C128"  Part="1" 
 AR Path="/60BB4C00/60C983D2" Ref="C45"  Part="1" 
-F 0 "C45" H 7350 10900 39  0001 L CNN
+F 0 "C45" H 7250 10800 30  0000 L CNN
 F 1 "0.1uF" H 7250 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7300 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7300 10850 50  0001 C CNN
@@ -2381,7 +2309,7 @@ U 1 1 61BCD345
 P 7300 10600
 AR Path="/60BB4A14/61BCD345" Ref="R82"  Part="1" 
 AR Path="/60BB4C00/61BCD345" Ref="R26"  Part="1" 
-F 0 "R26" H 7350 10600 39  0001 L CNN
+F 0 "R26" V 7250 10700 30  0000 L CNN
 F 1 "49.9" V 7300 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7230 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7300 10600 50  0001 C CNN
@@ -2399,7 +2327,7 @@ U 1 1 60C983D1
 P 7150 10850
 AR Path="/60BB4A14/60C983D1" Ref="C126"  Part="1" 
 AR Path="/60BB4C00/60C983D1" Ref="C43"  Part="1" 
-F 0 "C43" H 7200 10900 39  0001 L CNN
+F 0 "C43" H 7100 10800 30  0000 L CNN
 F 1 "0.1uF" H 7100 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7150 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7150 10850 50  0001 C CNN
@@ -2417,7 +2345,7 @@ U 1 1 61089269
 P 7150 10600
 AR Path="/60BB4A14/61089269" Ref="R80"  Part="1" 
 AR Path="/60BB4C00/61089269" Ref="R24"  Part="1" 
-F 0 "R24" H 7200 10600 39  0001 L CNN
+F 0 "R24" V 7100 10700 30  0000 L CNN
 F 1 "49.9" V 7150 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7150 10600 50  0001 C CNN
@@ -2435,7 +2363,7 @@ U 1 1 61BCD32F
 P 7000 10850
 AR Path="/60BB4A14/61BCD32F" Ref="C124"  Part="1" 
 AR Path="/60BB4C00/61BCD32F" Ref="C41"  Part="1" 
-F 0 "C41" H 7050 10900 39  0001 L CNN
+F 0 "C41" H 6950 10800 30  0000 L CNN
 F 1 "0.1uF" H 6950 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7000 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7000 10850 50  0001 C CNN
@@ -2453,7 +2381,7 @@ U 1 1 61BCD2EB
 P 7000 10600
 AR Path="/60BB4A14/61BCD2EB" Ref="R78"  Part="1" 
 AR Path="/60BB4C00/61BCD2EB" Ref="R22"  Part="1" 
-F 0 "R22" H 7050 10600 39  0001 L CNN
+F 0 "R22" V 6950 10700 30  0000 L CNN
 F 1 "49.9" V 7000 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6930 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7000 10600 50  0001 C CNN
@@ -2471,7 +2399,7 @@ U 1 1 61BCD344
 P 6850 10850
 AR Path="/60BB4A14/61BCD344" Ref="C122"  Part="1" 
 AR Path="/60BB4C00/61BCD344" Ref="C39"  Part="1" 
-F 0 "C39" H 6900 10900 39  0001 L CNN
+F 0 "C39" H 6800 10800 30  0000 L CNN
 F 1 "0.1uF" H 6800 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6850 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6850 10850 50  0001 C CNN
@@ -2489,7 +2417,7 @@ U 1 1 61BCD303
 P 6850 10600
 AR Path="/60BB4A14/61BCD303" Ref="R76"  Part="1" 
 AR Path="/60BB4C00/61BCD303" Ref="R20"  Part="1" 
-F 0 "R20" H 6900 10600 39  0001 L CNN
+F 0 "R20" V 6800 10700 30  0000 L CNN
 F 1 "49.9" V 6850 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6850 10600 50  0001 C CNN
@@ -2507,7 +2435,7 @@ U 1 1 61BCD31B
 P 6700 10850
 AR Path="/60BB4A14/61BCD31B" Ref="C120"  Part="1" 
 AR Path="/60BB4C00/61BCD31B" Ref="C37"  Part="1" 
-F 0 "C37" H 6750 10900 39  0001 L CNN
+F 0 "C37" H 6650 10800 30  0000 L CNN
 F 1 "0.1uF" H 6650 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6700 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6700 10850 50  0001 C CNN
@@ -2525,7 +2453,7 @@ U 1 1 61198613
 P 6700 10600
 AR Path="/60BB4A14/61198613" Ref="R74"  Part="1" 
 AR Path="/60BB4C00/61198613" Ref="R18"  Part="1" 
-F 0 "R18" H 6750 10600 39  0001 L CNN
+F 0 "R18" V 6650 10700 30  0000 L CNN
 F 1 "49.9" V 6700 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6630 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6700 10600 50  0001 C CNN
@@ -2543,7 +2471,7 @@ U 1 1 61BCD2FB
 P 6550 10850
 AR Path="/60BB4A14/61BCD2FB" Ref="C118"  Part="1" 
 AR Path="/60BB4C00/61BCD2FB" Ref="C35"  Part="1" 
-F 0 "C35" H 6600 10900 39  0001 L CNN
+F 0 "C35" H 6500 10800 30  0000 L CNN
 F 1 "0.1uF" H 6500 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6550 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6550 10850 50  0001 C CNN
@@ -2561,7 +2489,7 @@ U 1 1 60C983BF
 P 6550 10600
 AR Path="/60BB4A14/60C983BF" Ref="R72"  Part="1" 
 AR Path="/60BB4C00/60C983BF" Ref="R16"  Part="1" 
-F 0 "R16" H 6600 10600 39  0001 L CNN
+F 0 "R16" V 6500 10700 30  0000 L CNN
 F 1 "49.9" V 6550 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6550 10600 50  0001 C CNN
@@ -2574,30 +2502,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 6550 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C116
-U 1 1 6119861F
-P 6400 10850
-AR Path="/60BB4A14/6119861F" Ref="C116"  Part="1" 
-AR Path="/60BB4C00/6119861F" Ref="C33"  Part="1" 
-F 0 "C33" H 6450 10900 39  0001 L CNN
-F 1 "0.1uF" H 6350 10900 39  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 10850 50  0001 C CNN
-F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6400 10850 50  0001 C CNN
-F 4 "$0.1" H 6400 10850 50  0001 C CNN "Item Cost"
-F 5 "885012205037" H 6400 10850 50  0001 C CNN "MFN"
-F 6 "Würth Elektronik" H 6400 10850 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 6400 10850 50  0001 C CNN "Supplier "
-F 8 "732-7532-1-ND" H 6400 10850 50  0001 C CNN "Supplier P/N"
-	1    6400 10850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R70
 U 1 1 61BCD31E
 P 6400 10600
 AR Path="/60BB4A14/61BCD31E" Ref="R70"  Part="1" 
 AR Path="/60BB4C00/61BCD31E" Ref="R14"  Part="1" 
-F 0 "R14" H 6450 10600 39  0001 L CNN
+F 0 "R14" V 6350 10700 30  0000 L CNN
 F 1 "49.9" V 6400 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6330 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6400 10600 50  0001 C CNN
@@ -2619,7 +2529,7 @@ AR Path="/60BB4A14/61BCD35B" Ref="U15"  Part="3"
 AR Path="/60BB4C00/61BCD35B" Ref="U7"  Part="3" 
 F 0 "U7" H 9900 7300 50  0000 C CNN
 F 1 "CITIROC1A" H 10000 7200 50  0000 C CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 9000 7300 50  0001 C CNN
+F 2 "readout_trenz:QFP-160_26x26_Pitch0.65mm" H 9000 7300 50  0001 C CNN
 F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 9000 7300 50  0001 C CNN
 F 4 "Weeroc" H 9600 7150 50  0001 C CNN "Manufacturer"
 	3    9600 7150
@@ -2677,7 +2587,7 @@ AR Path="/60BB4A14/61BCD2DB" Ref="U15"  Part="2"
 AR Path="/60BB4C00/61BCD2DB" Ref="U7"  Part="2" 
 F 0 "U7" H 13525 -2773 50  0000 C CNN
 F 1 "CITIROC1A" H 13525 -2864 50  0000 C CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 13000 1600 50  0001 C CNN
+F 2 "readout_trenz:QFP-160_26x26_Pitch0.65mm" H 13000 1600 50  0001 C CNN
 F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 13000 1600 50  0001 C CNN
 F 4 "Weeroc" H 13600 1450 50  0001 C CNN "Manufacturer"
 	2    13600 1450
@@ -3046,7 +2956,7 @@ U 1 1 61BCD343
 P 8650 10600
 AR Path="/60BB4A14/61BCD343" Ref="R100"  Part="1" 
 AR Path="/60BB4C00/61BCD343" Ref="R44"  Part="1" 
-F 0 "R44" H 8700 10600 39  0001 L CNN
+F 0 "R44" V 8600 10700 30  0000 L CNN
 F 1 "49.9" V 8650 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8650 10600 50  0001 C CNN
@@ -5039,7 +4949,7 @@ AR Path="/60BB4C00/60DD86C5" Ref="U7"  Part="1"
 AR Path="/60BB4A14/60DD86C5" Ref="U15"  Part="1" 
 F 0 "U7" V 2400 3050 50  0000 L CNN
 F 1 "CITIROC1A" V 2500 3050 50  0000 L CNN
-F 2 "Package_QFP:LQFP-160_24x24mm_P0.5mm" H 4100 3550 50  0001 C CNN
+F 2 "readout_trenz:QFP-160_26x26_Pitch0.65mm" H 4100 3550 50  0001 C CNN
 F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 4100 3550 50  0001 C CNN
 F 4 "" V 4700 3400 50  0001 C CNN "Item Cost"
 F 5 "" V 4700 3400 50  0001 C CNN "MFN"
@@ -5102,6 +5012,96 @@ Text Label 13200 7950 0    50   ~ 0
 ADC_SERIAL1
 Text Label 13200 7750 0    50   ~ 0
 ADC_SERIAL3
+$Comp
+L Device:R R75
+U 1 1 60C9838A
+P 6800 7000
+AR Path="/60BB4A14/60C9838A" Ref="R75"  Part="1" 
+AR Path="/60BB4C00/60C9838A" Ref="R19"  Part="1" 
+F 0 "R19" V 6750 6800 30  0000 L CNN
+F 1 "49.9" V 6800 6950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 7000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6800 7000 50  0001 C CNN
+F 4 "$0.1" H 6800 7000 50  0001 C CNN "Item Cost"
+F 5 "AF0402FR-0749R9L" H 6800 7000 50  0001 C CNN "MFN"
+F 6 "Yageo" H 6800 7000 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6800 7000 50  0001 C CNN "Supplier "
+F 8 "13-AF0402FR-0749R9LCT-ND" H 6800 7000 50  0001 C CNN "Supplier P/N"
+	1    6800 7000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C123
+U 1 1 60C98371
+P 6950 6750
+AR Path="/60BB4A14/60C98371" Ref="C123"  Part="1" 
+AR Path="/60BB4C00/60C98371" Ref="C40"  Part="1" 
+F 0 "C40" V 6900 6600 30  0000 L CNN
+F 1 "0.1uF" V 7000 6600 30  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6950 6750 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6950 6750 50  0001 C CNN
+F 4 "$0.1" H 6950 6750 50  0001 C CNN "Item Cost"
+F 5 "885012205037" H 6950 6750 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6950 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6950 6750 50  0001 C CNN "Supplier "
+F 8 "732-7532-1-ND" H 6950 6750 50  0001 C CNN "Supplier P/N"
+	1    6950 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C149
+U 1 1 61BCD34B
+P 9600 6800
+AR Path="/60BB4A14/61BCD34B" Ref="C149"  Part="1" 
+AR Path="/60BB4C00/61BCD34B" Ref="C66"  Part="1" 
+F 0 "C66" V 9550 6650 30  0000 L CNN
+F 1 "0.1uF" H 9500 6850 39  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9600 6800 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9600 6800 50  0001 C CNN
+F 4 "$0.1" H 9600 6800 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 9600 6800 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 9600 6800 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9600 6800 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 9600 6800 50  0001 C CNN "Supplier P/N"
+	1    9600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C116
+U 1 1 6119861F
+P 6400 10850
+AR Path="/60BB4A14/6119861F" Ref="C116"  Part="1" 
+AR Path="/60BB4C00/6119861F" Ref="C33"  Part="1" 
+F 0 "C33" H 6350 10800 30  0000 L CNN
+F 1 "0.1uF" H 6350 10900 39  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 10850 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6400 10850 50  0001 C CNN
+F 4 "$0.1" H 6400 10850 50  0001 C CNN "Item Cost"
+F 5 "885012205037" H 6400 10850 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 6400 10850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6400 10850 50  0001 C CNN "Supplier "
+F 8 "732-7532-1-ND" H 6400 10850 50  0001 C CNN "Supplier P/N"
+	1    6400 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R98
+U 1 1 61BCD33C
+P 8500 10600
+AR Path="/60BB4A14/61BCD33C" Ref="R98"  Part="1" 
+AR Path="/60BB4C00/61BCD33C" Ref="R42"  Part="1" 
+F 0 "R42" V 8450 10700 30  0000 L CNN
+F 1 "49.9" V 8500 10550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8430 10600 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8500 10600 50  0001 C CNN
+F 4 "$0.1" H 8500 10600 50  0001 C CNN "Item Cost"
+F 5 "AF0402FR-0749R9L" H 8500 10600 50  0001 C CNN "MFN"
+F 6 "Yageo" H 8500 10600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8500 10600 50  0001 C CNN "Supplier "
+F 8 "13-AF0402FR-0749R9LCT-ND" H 8500 10600 50  0001 C CNN "Supplier P/N"
+	1    8500 10600
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	16800 3600 16800 3950
 Wire Bus Line
