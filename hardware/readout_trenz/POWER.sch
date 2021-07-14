@@ -1072,14 +1072,14 @@ F 3 "~" H 3900 2400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J4
+L Connector_Generic:Conn_02x04_Odd_Even J4
 U 1 1 60D96BF9
-P 2300 5950
-F 0 "J4" H 2350 6367 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 2350 6276 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2300 5950 50  0001 C CNN
-F 3 "~" H 2300 5950 50  0001 C CNN
-	1    2300 5950
+P 2300 5850
+F 0 "J4" H 2350 6267 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2350 6176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2300 5850 50  0001 C CNN
+F 3 "~" H 2300 5850 50  0001 C CNN
+	1    2300 5850
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1142,8 +1142,6 @@ F 3 "" H 1900 6200 50  0001 C CNN
 	1    1900 6200
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 2000 6150
-NoConn ~ 2500 6150
 $Comp
 L Device:LED_Small D2
 U 1 1 60F5AAEC
@@ -1369,9 +1367,9 @@ Wire Wire Line
 	6500 5100 6400 5100
 Wire Wire Line
 	6400 5100 6400 5000
-Wire Bus Line
-	3100 5650 3100 5950
 Connection ~ 6400 5000
 Wire Wire Line
 	6400 5000 6500 5000
+Wire Bus Line
+	3100 5650 3100 5950
 $EndSCHEMATC

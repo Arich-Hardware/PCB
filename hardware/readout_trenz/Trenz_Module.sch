@@ -2282,6 +2282,20 @@ Wire Wire Line
 	8800 4250 9300 4250
 Text Label 4700 5550 2    50   ~ 0
 MGT_RX2_P
+NoConn ~ 10500 2450
+NoConn ~ 10500 2350
+NoConn ~ 10500 2150
+NoConn ~ 10500 2050
+NoConn ~ 10500 1550
+NoConn ~ 10500 1450
+NoConn ~ 10500 1250
+NoConn ~ 10500 1150
+NoConn ~ 9300 1150
+NoConn ~ 9300 1250
+NoConn ~ 9300 1750
+NoConn ~ 9300 1850
+NoConn ~ 9300 2050
+NoConn ~ 9300 2150
 Wire Wire Line
 	16850 2350 18000 2350
 Wire Bus Line
