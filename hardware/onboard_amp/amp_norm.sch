@@ -13,9 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 9900 4950
-NoConn ~ 9900 5050
-Text Label 9900 4850 2    50   ~ 0
+Text Label 9900 4950 2    50   ~ 0
 -VCC
 Text Label 9900 4750 2    50   ~ 0
 VCC
@@ -352,7 +350,7 @@ U 1 1 6104FD7C
 P 8900 2750
 F 0 "J4" V 8904 1063 50  0000 R CNN
 F 1 "2x32_Odd_Even" V 8995 1063 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical_SMD" H 8900 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical" H 8900 2750 50  0001 C CNN
 F 3 "~" H 8900 2750 50  0001 C CNN
 	1    8900 2750
 	0    1    1    0   
@@ -684,5 +682,27 @@ F 2 "Capacitor_SMD:C_1206_3216Metric" H 5400 4050 50  0001 C CNN
 F 3 "~" H 5400 4050 50  0001 C CNN
 	1    5400 4050
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60EF4D19
+P 9900 4850
+F 0 "#PWR0101" H 9900 4600 50  0001 C CNN
+F 1 "GND" V 9905 4722 50  0000 R CNN
+F 2 "" H 9900 4850 50  0001 C CNN
+F 3 "" H 9900 4850 50  0001 C CNN
+	1    9900 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60EF501F
+P 9900 5050
+F 0 "#PWR0102" H 9900 4800 50  0001 C CNN
+F 1 "GND" V 9905 4922 50  0000 R CNN
+F 2 "" H 9900 5050 50  0001 C CNN
+F 3 "" H 9900 5050 50  0001 C CNN
+	1    9900 5050
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
