@@ -344,61 +344,6 @@ Wire Wire Line
 	10300 2050 10300 2550
 Wire Wire Line
 	10400 2050 10400 2550
-$Comp
-L Connector_Generic:Conn_02x32_Odd_Even J4
-U 1 1 6104FD7C
-P 8900 2750
-F 0 "J4" V 8904 1063 50  0000 R CNN
-F 1 "2x32_Odd_Even" V 8995 1063 50  0000 R CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical" H 8900 2750 50  0001 C CNN
-F 3 "~" H 8900 2750 50  0001 C CNN
-	1    8900 2750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10400 3050 10300 3050
-Connection ~ 9000 3050
-Wire Wire Line
-	9000 3050 8900 3050
-Connection ~ 9100 3050
-Wire Wire Line
-	9100 3050 9000 3050
-Connection ~ 9200 3050
-Wire Wire Line
-	9200 3050 9100 3050
-Connection ~ 9300 3050
-Wire Wire Line
-	9300 3050 9200 3050
-Connection ~ 9400 3050
-Wire Wire Line
-	9400 3050 9300 3050
-Connection ~ 9500 3050
-Wire Wire Line
-	9500 3050 9400 3050
-Connection ~ 9600 3050
-Wire Wire Line
-	9600 3050 9500 3050
-Connection ~ 9700 3050
-Wire Wire Line
-	9700 3050 9600 3050
-Connection ~ 9800 3050
-Wire Wire Line
-	9800 3050 9700 3050
-Connection ~ 9900 3050
-Wire Wire Line
-	9900 3050 9800 3050
-Connection ~ 10000 3050
-Wire Wire Line
-	10000 3050 9900 3050
-Connection ~ 10100 3050
-Wire Wire Line
-	10100 3050 10000 3050
-Connection ~ 10200 3050
-Wire Wire Line
-	10200 3050 10100 3050
-Connection ~ 10300 3050
-Wire Wire Line
-	10300 3050 10200 3050
 Text Label 10400 3050 0    50   ~ 0
 SIG3
 Text Label 7300 2050 2    50   ~ 0
@@ -416,22 +361,6 @@ F 3 "~" H 8900 1850 50  0001 C CNN
 	1    8900 1850
 	0    1    -1   0   
 $EndComp
-NoConn ~ 8800 3050
-NoConn ~ 8700 3050
-NoConn ~ 8600 3050
-NoConn ~ 8500 3050
-NoConn ~ 8400 3050
-NoConn ~ 8300 3050
-NoConn ~ 8200 3050
-NoConn ~ 8100 3050
-NoConn ~ 8000 3050
-NoConn ~ 7900 3050
-NoConn ~ 7800 3050
-NoConn ~ 7700 3050
-NoConn ~ 7600 3050
-NoConn ~ 7500 3050
-NoConn ~ 7400 3050
-NoConn ~ 7300 3050
 NoConn ~ 7400 2050
 NoConn ~ 7500 2050
 NoConn ~ 7600 2050
@@ -447,22 +376,6 @@ NoConn ~ 8500 2050
 NoConn ~ 8600 2050
 NoConn ~ 8700 2050
 NoConn ~ 8800 2050
-NoConn ~ 8800 2550
-NoConn ~ 8700 2550
-NoConn ~ 8600 2550
-NoConn ~ 8500 2550
-NoConn ~ 8400 2550
-NoConn ~ 8300 2550
-NoConn ~ 8200 2550
-NoConn ~ 8100 2550
-NoConn ~ 8000 2550
-NoConn ~ 7900 2550
-NoConn ~ 7800 2550
-NoConn ~ 7700 2550
-NoConn ~ 7600 2550
-NoConn ~ 7500 2550
-NoConn ~ 7400 2550
-NoConn ~ 7300 2550
 $Comp
 L Device:C C5
 U 1 1 612504A5
@@ -705,4 +618,59 @@ F 3 "" H 9900 5050 50  0001 C CNN
 	1    9900 5050
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	8900 3050 9000 3050
+$Comp
+L Connector_Generic:Conn_02x16_Odd_Even J4
+U 1 1 60F08B30
+P 9700 2850
+F 0 "J4" V 9704 1963 50  0000 R CNN
+F 1 "Conn_02x16_Odd_Even" V 9795 1963 50  0000 R CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x16_P2.00mm_Vertical_SMD" H 9700 2850 50  0001 C CNN
+F 3 "~" H 9700 2850 50  0001 C CNN
+	1    9700 2850
+	0    1    -1   0   
+$EndComp
+Connection ~ 9000 3050
+Wire Wire Line
+	9000 3050 9100 3050
+Connection ~ 9100 3050
+Wire Wire Line
+	9100 3050 9200 3050
+Connection ~ 9200 3050
+Wire Wire Line
+	9200 3050 9300 3050
+Connection ~ 9300 3050
+Wire Wire Line
+	9300 3050 9400 3050
+Connection ~ 9400 3050
+Wire Wire Line
+	9400 3050 9500 3050
+Connection ~ 9500 3050
+Wire Wire Line
+	9500 3050 9600 3050
+Connection ~ 9600 3050
+Wire Wire Line
+	9600 3050 9700 3050
+Connection ~ 9700 3050
+Wire Wire Line
+	9700 3050 9800 3050
+Connection ~ 9800 3050
+Wire Wire Line
+	9800 3050 9900 3050
+Connection ~ 9900 3050
+Wire Wire Line
+	9900 3050 10000 3050
+Connection ~ 10000 3050
+Wire Wire Line
+	10000 3050 10100 3050
+Connection ~ 10100 3050
+Wire Wire Line
+	10100 3050 10200 3050
+Connection ~ 10200 3050
+Wire Wire Line
+	10200 3050 10300 3050
+Connection ~ 10300 3050
+Wire Wire Line
+	10300 3050 10400 3050
 $EndSCHEMATC
