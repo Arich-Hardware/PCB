@@ -250,18 +250,18 @@ F 3 "" H 17800 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
-	11600 3750 11500 3850
-Entry Wire Line
-	11600 3650 11500 3750
-Entry Wire Line
-	11600 3550 11500 3650
-Entry Wire Line
-	11600 3450 11500 3550
-Entry Wire Line
 	11600 3250 11500 3350
+Entry Wire Line
+	11600 3150 11500 3250
+Entry Wire Line
+	11600 3050 11500 3150
+Entry Wire Line
+	11600 2950 11500 3050
+Entry Wire Line
+	11600 2850 11500 2950
 Wire Bus Line
-	11600 2950 12100 2950
-Text HLabel 12100 2950 2    50   Output ~ 0
+	11600 2550 12100 2550
+Text HLabel 12100 2550 2    50   Output ~ 0
 SH_Ctrl_B[0..9]
 Wire Wire Line
 	10500 5650 11000 5650
@@ -280,15 +280,15 @@ TDO
 Text Label 11000 5350 2    50   ~ 0
 TDI
 Entry Wire Line
-	8300 5750 8200 5650
+	11500 4850 11600 4750
 Entry Wire Line
-	8300 5850 8200 5750
+	11500 4950 11600 4850
 Entry Wire Line
-	8300 5550 8200 5450
+	11500 4650 11600 4550
 Entry Wire Line
-	8300 5650 8200 5550
+	11500 4750 11600 4650
 Wire Bus Line
-	8200 5450 7700 5450
+	11600 4550 12100 4550
 Wire Wire Line
 	17350 2550 16850 2550
 Entry Wire Line
@@ -304,77 +304,77 @@ Fast_trig_B[0..3]
 Entry Wire Line
 	17450 2450 17350 2550
 Entry Wire Line
-	11600 3850 11500 3950
+	11600 3450 11500 3550
 Entry Wire Line
-	11600 3950 11500 4050
+	11600 3550 11500 3650
 Entry Wire Line
-	11600 3150 11500 3250
+	11600 2750 11500 2850
 Entry Wire Line
-	11600 3050 11500 3150
+	11600 2650 11500 2750
 Entry Wire Line
-	11600 2950 11500 3050
+	11600 2550 11500 2650
 Wire Bus Line
-	11600 2550 12100 2550
+	11600 4050 12100 4050
 Entry Wire Line
-	11500 2750 11600 2650
+	11500 4250 11600 4150
 Entry Wire Line
-	11500 2850 11600 2750
+	11500 4450 11600 4350
 Entry Wire Line
-	11500 2950 11600 2850
-Text HLabel 12100 2550 2    50   Output ~ 0
+	11500 4550 11600 4450
+Text HLabel 12100 4050 2    50   Output ~ 0
 ADC_SERIAL_B[0..3]
+Entry Wire Line
+	8200 4350 8300 4450
+Entry Wire Line
+	8200 4250 8300 4350
+Entry Wire Line
+	8200 4150 8300 4250
+Entry Wire Line
+	8200 3950 8300 4050
+Entry Wire Line
+	8200 3850 8300 3950
+Wire Bus Line
+	8200 3550 7700 3550
+Text HLabel 7700 3550 0    50   Output ~ 0
+SH_Ctrl_A[0..9]
+Entry Wire Line
+	8200 4450 8300 4550
+Entry Wire Line
+	8200 4550 8300 4650
 Entry Wire Line
 	8200 3750 8300 3850
 Entry Wire Line
 	8200 3650 8300 3750
 Entry Wire Line
 	8200 3550 8300 3650
-Entry Wire Line
-	8200 3450 8300 3550
-Entry Wire Line
-	8200 3250 8300 3350
-Wire Bus Line
-	8200 2950 7700 2950
-Text HLabel 7700 2950 0    50   Output ~ 0
-SH_Ctrl_A[0..9]
-Entry Wire Line
-	8200 3850 8300 3950
-Entry Wire Line
-	8200 3950 8300 4050
-Entry Wire Line
-	8200 3150 8300 3250
-Entry Wire Line
-	8200 3050 8300 3150
-Entry Wire Line
-	8200 2950 8300 3050
 Wire Wire Line
-	8550 2650 9300 2650
-Text HLabel 7950 2550 0    50   Output ~ 0
+	11500 3750 10500 3750
+Text HLabel 12100 3650 2    50   Output ~ 0
 ADC_SERIAL_A[0..3]
-Text Label 8550 2650 0    50   ~ 0
+Text Label 11500 3750 2    50   ~ 0
 ADC_SERIAL_A0
 Entry Wire Line
-	8550 2650 8450 2550
+	11500 3750 11600 3650
 Wire Bus Line
-	8450 2550 7950 2550
+	11600 3650 12100 3650
 Wire Wire Line
-	8550 2950 9300 2950
+	11500 4050 10500 4050
 Wire Wire Line
-	8550 2850 9300 2850
+	11500 3950 10500 3950
 Wire Wire Line
-	8550 2750 9300 2750
-Text Label 8550 2750 0    50   ~ 0
+	11500 3850 10500 3850
+Text Label 11500 3850 2    50   ~ 0
 ADC_SERIAL_A1
 Entry Wire Line
-	8550 2950 8450 2850
+	11500 4050 11600 3950
 Entry Wire Line
-	8550 2850 8450 2750
+	11500 3950 11600 3850
 Entry Wire Line
-	8550 2750 8450 2650
-Text Label 11500 2650 2    50   ~ 0
+	11500 3850 11600 3750
+Text Label 11500 4150 2    50   ~ 0
 ADC_SERIAL_B0
 Wire Wire Line
-	11500 2650 10500 2650
+	11500 4150 10500 4150
 Wire Wire Line
 	1600 2250 2100 2250
 Wire Wire Line
@@ -524,26 +524,34 @@ Wire Wire Line
 	5100 5650 5100 5750
 Wire Wire Line
 	5300 5650 5300 5850
-Text Label 11500 3750 2    50   ~ 0
-SH_Ctrl_B6
-Text Label 11500 3850 2    50   ~ 0
-SH_Ctrl_B7
-Text Label 11500 3950 2    50   ~ 0
-SH_Ctrl_B8
-Text Label 11500 4050 2    50   ~ 0
-SH_Ctrl_B9
-Text Label 11500 3650 2    50   ~ 0
-SH_Ctrl_B5
-Text Label 11500 3550 2    50   ~ 0
-SH_Ctrl_B4
-Text Label 11500 3350 2    50   ~ 0
-SH_Ctrl_B3
 Text Label 11500 3250 2    50   ~ 0
-SH_Ctrl_B2
+SH_Ctrl_B6
+Text Label 11500 3350 2    50   ~ 0
+SH_Ctrl_B7
+Text Label 11500 3550 2    50   ~ 0
+SH_Ctrl_B8
+Text Label 11500 3650 2    50   ~ 0
+SH_Ctrl_B9
 Text Label 11500 3150 2    50   ~ 0
-SH_Ctrl_B1
+SH_Ctrl_B5
 Text Label 11500 3050 2    50   ~ 0
+SH_Ctrl_B4
+Text Label 11500 2950 2    50   ~ 0
+SH_Ctrl_B3
+Text Label 11500 2850 2    50   ~ 0
+SH_Ctrl_B2
+Text Label 11500 2750 2    50   ~ 0
+SH_Ctrl_B1
+Text Label 11500 2650 2    50   ~ 0
 SH_Ctrl_B0
+Wire Wire Line
+	10500 4250 11500 4250
+Wire Wire Line
+	10500 4450 11500 4450
+Wire Wire Line
+	10500 4550 11500 4550
+Wire Wire Line
+	10500 2650 11500 2650
 Wire Wire Line
 	10500 2750 11500 2750
 Wire Wire Line
@@ -563,39 +571,21 @@ Wire Wire Line
 Wire Wire Line
 	10500 3650 11500 3650
 Wire Wire Line
-	10500 3750 11500 3750
+	11500 4650 10500 4650
 Wire Wire Line
-	10500 3850 11500 3850
+	11500 4750 10500 4750
 Wire Wire Line
-	10500 3950 11500 3950
+	11500 4850 10500 4850
 Wire Wire Line
-	10500 4050 11500 4050
-Wire Wire Line
-	8300 5550 9300 5550
-Wire Wire Line
-	8300 5650 9300 5650
-Wire Wire Line
-	8300 5750 9300 5750
-Wire Wire Line
-	8300 5850 9300 5850
+	11500 4950 10500 4950
 Entry Wire Line
-	11500 2650 11600 2550
-Text Label 11500 2950 2    50   ~ 0
+	11500 4150 11600 4050
+Text Label 11500 4550 2    50   ~ 0
 ADC_SERIAL_B3
-Text Label 8550 2850 0    50   ~ 0
+Text Label 11500 3950 2    50   ~ 0
 ADC_SERIAL_A2
-Text Label 8550 2950 0    50   ~ 0
+Text Label 11500 4050 2    50   ~ 0
 ADC_SERIAL_A3
-Wire Wire Line
-	8300 3050 9300 3050
-Wire Wire Line
-	8300 3150 9300 3150
-Wire Wire Line
-	8300 3250 9300 3250
-Wire Wire Line
-	8300 3350 9300 3350
-Wire Wire Line
-	8300 3550 9300 3550
 Wire Wire Line
 	8300 3650 9300 3650
 Wire Wire Line
@@ -606,29 +596,39 @@ Wire Wire Line
 	8300 3950 9300 3950
 Wire Wire Line
 	8300 4050 9300 4050
-Text Label 8300 3050 0    50   ~ 0
-SH_Ctrl_A0
-Text Label 8300 3150 0    50   ~ 0
-SH_Ctrl_A1
-Text Label 8300 3250 0    50   ~ 0
-SH_Ctrl_A2
-Text Label 8300 3350 0    50   ~ 0
-SH_Ctrl_A3
-Text Label 8300 3550 0    50   ~ 0
-SH_Ctrl_A4
+Wire Wire Line
+	8300 4250 9300 4250
+Wire Wire Line
+	8300 4350 9300 4350
+Wire Wire Line
+	8300 4450 9300 4450
+Wire Wire Line
+	8300 4550 9300 4550
+Wire Wire Line
+	8300 4650 9300 4650
 Text Label 8300 3650 0    50   ~ 0
-SH_Ctrl_A5
+SH_Ctrl_A0
 Text Label 8300 3750 0    50   ~ 0
-SH_Ctrl_A6
+SH_Ctrl_A1
 Text Label 8300 3850 0    50   ~ 0
-SH_Ctrl_A7
+SH_Ctrl_A2
 Text Label 8300 3950 0    50   ~ 0
-SH_Ctrl_A8
+SH_Ctrl_A3
 Text Label 8300 4050 0    50   ~ 0
+SH_Ctrl_A4
+Text Label 8300 4250 0    50   ~ 0
+SH_Ctrl_A5
+Text Label 8300 4350 0    50   ~ 0
+SH_Ctrl_A6
+Text Label 8300 4450 0    50   ~ 0
+SH_Ctrl_A7
+Text Label 8300 4550 0    50   ~ 0
+SH_Ctrl_A8
+Text Label 8300 4650 0    50   ~ 0
 SH_Ctrl_A9
-Text Label 11500 2850 2    50   ~ 0
+Text Label 11500 4450 2    50   ~ 0
 ADC_SERIAL_B2
-Text Label 11500 2750 2    50   ~ 0
+Text Label 11500 4250 2    50   ~ 0
 ADC_SERIAL_B1
 $Comp
 L power:+1V8 #PWR?
@@ -648,18 +648,18 @@ Wire Wire Line
 $Comp
 L power:+1V8 #PWR?
 U 1 1 61119E3F
-P 8100 4150
+P 9050 4150
 AR Path="/61119E3F" Ref="#PWR?"  Part="1" 
 AR Path="/60D04563/61119E3F" Ref="#PWR092"  Part="1" 
-F 0 "#PWR092" H 8100 4000 50  0001 C CNN
-F 1 "+1V8" H 8115 4323 50  0000 C CNN
-F 2 "" H 8100 4150 50  0001 C CNN
-F 3 "" H 8100 4150 50  0001 C CNN
-	1    8100 4150
+F 0 "#PWR092" H 9050 4000 50  0001 C CNN
+F 1 "+1V8" H 9050 4300 50  0000 C CNN
+F 2 "" H 9050 4150 50  0001 C CNN
+F 3 "" H 9050 4150 50  0001 C CNN
+	1    9050 4150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 4150 8100 4150
+	9300 4150 9050 4150
 $Comp
 L power:GNDD #PWR093
 U 1 1 614234A6
@@ -905,8 +905,8 @@ F 3 "" H 10500 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	9300 5350 9100 5350
-Text HLabel 9100 5350 0    50   Output ~ 0
+	9300 5850 9100 5850
+Text HLabel 9100 5850 0    50   Output ~ 0
 ENABLE
 $Comp
 L power:GNDD #PWR094
@@ -1029,69 +1029,61 @@ F 3 "" H 10500 4350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10500 4550 11500 4550
+	9300 2850 8300 2850
 Wire Wire Line
-	10500 4650 11500 4650
+	9300 2950 8300 2950
 Wire Wire Line
-	10500 4750 11500 4750
+	9300 3050 8300 3050
 Wire Wire Line
-	10500 4850 11500 4850
+	9300 3150 8300 3150
 Wire Wire Line
-	10500 4950 11500 4950
+	9300 3250 8300 3250
 Wire Wire Line
-	10500 5050 11500 5050
+	9300 3350 8300 3350
 Wire Wire Line
-	10500 5150 11500 5150
+	9300 3550 8300 3550
 Wire Wire Line
-	10500 4450 11500 4450
+	9300 2750 8300 2750
 Wire Wire Line
-	10500 4250 11500 4250
+	9300 2650 8300 2650
 Entry Wire Line
-	11600 5050 11500 5150
+	8200 3450 8300 3550
 Entry Wire Line
-	11600 4950 11500 5050
+	8200 3250 8300 3350
 Entry Wire Line
-	11600 4850 11500 4950
+	8200 3150 8300 3250
 Entry Wire Line
-	11600 4750 11500 4850
+	8200 3050 8300 3150
 Entry Wire Line
-	11600 4650 11500 4750
+	8200 2950 8300 3050
 Entry Wire Line
-	11600 4550 11500 4650
+	8200 2850 8300 2950
 Entry Wire Line
-	11600 4450 11500 4550
+	8200 2750 8300 2850
 Entry Wire Line
-	11600 4350 11500 4450
+	8200 2650 8300 2750
 Entry Wire Line
-	11600 4150 11500 4250
+	8200 2550 8300 2650
 Wire Bus Line
-	11600 4150 12100 4150
-Text Label 11500 4250 2    50   ~ 0
+	8200 2550 7700 2550
+Text Label 8300 2650 0    50   ~ 0
 Serial_ctrl_B0
-Text Label 11500 4450 2    50   ~ 0
+Text Label 8300 2750 0    50   ~ 0
 Serial_ctrl_B1
-Text Label 11500 4550 2    50   ~ 0
+Text Label 8300 2850 0    50   ~ 0
 Serial_ctrl_B2
-Text Label 11500 4750 2    50   ~ 0
+Text Label 8300 3050 0    50   ~ 0
 Serial_ctrl_B4
-Text Label 11500 4850 2    50   ~ 0
+Text Label 8300 3150 0    50   ~ 0
 Serial_ctrl_B5
-Text Label 11500 4950 2    50   ~ 0
+Text Label 8300 3250 0    50   ~ 0
 Serial_ctrl_B6
-Text Label 11500 5050 2    50   ~ 0
+Text Label 8300 3350 0    50   ~ 0
 Serial_ctrl_B7
-Text Label 11500 5150 2    50   ~ 0
+Text Label 8300 3550 0    50   ~ 0
 Serial_ctrl_B8
-Text HLabel 12100 4150 2    50   Output ~ 0
+Text HLabel 7700 2550 0    50   Output ~ 0
 Serial_ctrl_B[0..8]
-Wire Wire Line
-	9300 4550 8300 4550
-Wire Wire Line
-	9300 4650 8300 4650
-Wire Wire Line
-	9300 4750 8300 4750
-Wire Wire Line
-	9300 4850 8300 4850
 Wire Wire Line
 	9300 4950 8300 4950
 Wire Wire Line
@@ -1099,9 +1091,25 @@ Wire Wire Line
 Wire Wire Line
 	9300 5150 8300 5150
 Wire Wire Line
-	9300 4450 8300 4450
+	9300 5350 8300 5350
 Wire Wire Line
-	9300 4350 8300 4350
+	9300 5450 8300 5450
+Wire Wire Line
+	9300 5550 8300 5550
+Wire Wire Line
+	9300 5650 8300 5650
+Wire Wire Line
+	9300 4850 8300 4850
+Wire Wire Line
+	9300 4750 8300 4750
+Entry Wire Line
+	8200 5550 8300 5650
+Entry Wire Line
+	8200 5450 8300 5550
+Entry Wire Line
+	8200 5350 8300 5450
+Entry Wire Line
+	8200 5250 8300 5350
 Entry Wire Line
 	8200 5050 8300 5150
 Entry Wire Line
@@ -1112,45 +1120,37 @@ Entry Wire Line
 	8200 4750 8300 4850
 Entry Wire Line
 	8200 4650 8300 4750
-Entry Wire Line
-	8200 4550 8300 4650
-Entry Wire Line
-	8200 4450 8300 4550
-Entry Wire Line
-	8200 4350 8300 4450
-Entry Wire Line
-	8200 4250 8300 4350
 Wire Bus Line
-	8200 4250 7700 4250
-Text Label 8300 4350 0    50   ~ 0
-Serial_ctrl_A0
-Text Label 8300 4450 0    50   ~ 0
-Serial_ctrl_A1
-Text Label 8300 4550 0    50   ~ 0
-Serial_ctrl_A2
-Text Label 8300 4650 0    50   ~ 0
-Serial_ctrl_A3
+	8200 4650 7700 4650
 Text Label 8300 4750 0    50   ~ 0
-Serial_ctrl_A4
+Serial_ctrl_A0
 Text Label 8300 4850 0    50   ~ 0
-Serial_ctrl_A5
+Serial_ctrl_A1
 Text Label 8300 4950 0    50   ~ 0
-Serial_ctrl_A6
+Serial_ctrl_A2
 Text Label 8300 5050 0    50   ~ 0
-Serial_ctrl_A7
+Serial_ctrl_A3
 Text Label 8300 5150 0    50   ~ 0
-Serial_ctrl_A8
-Text HLabel 7700 4250 0    50   Output ~ 0
-Serial_ctrl_A[0..8]
-Text HLabel 7700 5450 0    50   Output ~ 0
-Fast_trig_A[0..3]
+Serial_ctrl_A4
+Text Label 8300 5350 0    50   ~ 0
+Serial_ctrl_A5
+Text Label 8300 5450 0    50   ~ 0
+Serial_ctrl_A6
 Text Label 8300 5550 0    50   ~ 0
-Fast_trig_A0
+Serial_ctrl_A7
 Text Label 8300 5650 0    50   ~ 0
+Serial_ctrl_A8
+Text HLabel 7700 4650 0    50   Output ~ 0
+Serial_ctrl_A[0..8]
+Text HLabel 12100 4550 2    50   Output ~ 0
+Fast_trig_A[0..3]
+Text Label 11500 4650 2    50   ~ 0
+Fast_trig_A0
+Text Label 11500 4750 2    50   ~ 0
 Fast_trig_A1
-Text Label 8300 5750 0    50   ~ 0
+Text Label 11500 4850 2    50   ~ 0
 Fast_trig_A2
-Text Label 8300 5850 0    50   ~ 0
+Text Label 11500 4950 2    50   ~ 0
 Fast_trig_A3
 Text Label 17350 2050 2    50   ~ 0
 Fast_trig_B0
@@ -1754,7 +1754,7 @@ Wire Wire Line
 	17800 1850 17650 1850
 Wire Wire Line
 	17400 1950 16850 1950
-Text Label 11500 4650 2    50   ~ 0
+Text Label 8300 2950 0    50   ~ 0
 Serial_ctrl_B3
 Wire Wire Line
 	17650 1850 17650 1900
@@ -2266,20 +2266,20 @@ Text Label 17350 3650 2    50   ~ 0
 TEST4
 Text Label 17350 3550 2    50   ~ 0
 TEST3
-Text Label 11000 4150 2    50   ~ 0
+Text Label 11000 5050 2    50   ~ 0
 TEST0
-Text Label 8800 5450 0    50   ~ 0
-TEST2
-Text Label 8800 4250 0    50   ~ 0
+Text Label 11000 5150 2    50   ~ 0
 TEST1
+Text Label 8800 5750 0    50   ~ 0
+TEST2
 Wire Wire Line
 	17350 3550 16850 3550
 Wire Wire Line
-	11000 4150 10500 4150
+	11000 5050 10500 5050
 Wire Wire Line
-	8800 5450 9300 5450
+	11000 5150 10500 5150
 Wire Wire Line
-	8800 4250 9300 4250
+	8800 5750 9300 5750
 Text Label 4700 5550 2    50   ~ 0
 MGT_RX2_P
 NoConn ~ 10500 2450
@@ -2299,23 +2299,23 @@ NoConn ~ 9300 2150
 Wire Wire Line
 	16850 2350 18000 2350
 Wire Bus Line
-	8200 5450 8200 5750
+	11600 4550 11600 4850
 Wire Bus Line
 	17450 1950 17450 2450
 Wire Bus Line
-	11600 2550 11600 2850
+	11600 4050 11600 4450
 Wire Bus Line
-	8450 2550 8450 2850
+	11600 3650 11600 3950
 Wire Bus Line
 	17700 1050 17700 1750
 Wire Bus Line
-	8200 4250 8200 5050
+	11600 2550 11600 3550
 Wire Bus Line
-	11600 4150 11600 5050
+	8200 3550 8200 4550
 Wire Bus Line
-	8200 2950 8200 3950
+	8200 4650 8200 5550
 Wire Bus Line
-	11600 2950 11600 3950
+	8200 2550 8200 3450
 Wire Bus Line
 	17700 3750 17700 5850
 Wire Bus Line
