@@ -282,38 +282,6 @@ F 3 "" H 2100 4400 50  0001 C CNN
 	1    2100 4400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10400 1550
-NoConn ~ 10300 1550
-NoConn ~ 10200 1550
-NoConn ~ 10100 1550
-NoConn ~ 10000 1550
-NoConn ~ 9900 1550
-NoConn ~ 9800 1550
-NoConn ~ 9700 1550
-NoConn ~ 9600 1550
-NoConn ~ 9500 1550
-NoConn ~ 9400 1550
-NoConn ~ 9300 1550
-NoConn ~ 9200 1550
-NoConn ~ 9100 1550
-NoConn ~ 9000 1550
-NoConn ~ 8900 1550
-NoConn ~ 8800 1550
-NoConn ~ 8700 1550
-NoConn ~ 8600 1550
-NoConn ~ 8500 1550
-NoConn ~ 8400 1550
-NoConn ~ 8300 1550
-NoConn ~ 8200 1550
-NoConn ~ 8100 1550
-NoConn ~ 8000 1550
-NoConn ~ 7900 1550
-NoConn ~ 7800 1550
-NoConn ~ 7700 1550
-NoConn ~ 7600 1550
-NoConn ~ 7500 1550
-NoConn ~ 7400 1550
-NoConn ~ 7300 1550
 Wire Wire Line
 	8900 2550 8900 2050
 Wire Wire Line
@@ -673,4 +641,108 @@ Wire Wire Line
 Connection ~ 10300 3050
 Wire Wire Line
 	10300 3050 10400 3050
+Wire Wire Line
+	10400 1550 10300 1550
+Connection ~ 7400 1550
+Wire Wire Line
+	7400 1550 7300 1550
+Connection ~ 7500 1550
+Wire Wire Line
+	7500 1550 7400 1550
+Connection ~ 7600 1550
+Wire Wire Line
+	7600 1550 7500 1550
+Connection ~ 7700 1550
+Wire Wire Line
+	7700 1550 7600 1550
+Connection ~ 7800 1550
+Wire Wire Line
+	7800 1550 7700 1550
+Connection ~ 7900 1550
+Wire Wire Line
+	7900 1550 7800 1550
+Connection ~ 8000 1550
+Wire Wire Line
+	8000 1550 7900 1550
+Connection ~ 8100 1550
+Wire Wire Line
+	8100 1550 8000 1550
+Connection ~ 8200 1550
+Wire Wire Line
+	8200 1550 8100 1550
+Connection ~ 8300 1550
+Wire Wire Line
+	8300 1550 8200 1550
+Connection ~ 8400 1550
+Wire Wire Line
+	8400 1550 8300 1550
+Connection ~ 8500 1550
+Wire Wire Line
+	8500 1550 8400 1550
+Connection ~ 8600 1550
+Wire Wire Line
+	8600 1550 8500 1550
+Connection ~ 8700 1550
+Wire Wire Line
+	8700 1550 8600 1550
+Connection ~ 8800 1550
+Wire Wire Line
+	8800 1550 8700 1550
+Connection ~ 8900 1550
+Wire Wire Line
+	8900 1550 8800 1550
+Connection ~ 9000 1550
+Wire Wire Line
+	9000 1550 8900 1550
+Connection ~ 9100 1550
+Wire Wire Line
+	9100 1550 9000 1550
+Connection ~ 9200 1550
+Wire Wire Line
+	9200 1550 9100 1550
+Connection ~ 9300 1550
+Wire Wire Line
+	9300 1550 9200 1550
+Connection ~ 9400 1550
+Wire Wire Line
+	9400 1550 9300 1550
+Connection ~ 9500 1550
+Wire Wire Line
+	9500 1550 9400 1550
+Connection ~ 9600 1550
+Wire Wire Line
+	9600 1550 9500 1550
+Connection ~ 9700 1550
+Wire Wire Line
+	9700 1550 9600 1550
+Connection ~ 9800 1550
+Wire Wire Line
+	9800 1550 9700 1550
+Connection ~ 9900 1550
+Wire Wire Line
+	9900 1550 9800 1550
+Connection ~ 10000 1550
+Wire Wire Line
+	10000 1550 9900 1550
+Connection ~ 10100 1550
+Wire Wire Line
+	10100 1550 10000 1550
+Connection ~ 10200 1550
+Wire Wire Line
+	10200 1550 10100 1550
+Connection ~ 10300 1550
+Wire Wire Line
+	10300 1550 10200 1550
+$Comp
+L power:GND #PWR0103
+U 1 1 60F3435A
+P 10400 1550
+F 0 "#PWR0103" H 10400 1300 50  0001 C CNN
+F 1 "GND" V 10405 1422 50  0000 R CNN
+F 2 "" H 10400 1550 50  0001 C CNN
+F 3 "" H 10400 1550 50  0001 C CNN
+	1    10400 1550
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10400 1550
 $EndSCHEMATC
