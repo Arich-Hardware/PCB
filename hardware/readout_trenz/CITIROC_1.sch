@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 19000 12000
 encoding utf-8
-Sheet 7 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -261,9 +261,9 @@ U 1 1 60CED89A
 P 15550 5000
 AR Path="/605DF89A/60CED89A" Ref="R?"  Part="1" 
 AR Path="/60C32D5A/60CED89A" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60CED89A" Ref="R116"  Part="1" 
-AR Path="/60BB4C00/60CED89A" Ref="R60"  Part="1" 
-F 0 "R116" V 15620 5046 50  0000 L CNN
+AR Path="/60BB4A14/60CED89A" Ref="R117"  Part="1" 
+AR Path="/60BB4C00/60CED89A" Ref="R61"  Part="1" 
+F 0 "R61" V 15620 5046 50  0000 L CNN
 F 1 "1k" V 15550 4950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 15480 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 15550 5000 50  0001 C CNN
@@ -281,9 +281,9 @@ U 1 1 60CED0B7
 P 15450 5000
 AR Path="/605DF89A/60CED0B7" Ref="R?"  Part="1" 
 AR Path="/60C32D5A/60CED0B7" Ref="R?"  Part="1" 
-AR Path="/60BB4A14/60CED0B7" Ref="R115"  Part="1" 
-AR Path="/60BB4C00/60CED0B7" Ref="R59"  Part="1" 
-F 0 "R115" V 15520 5046 50  0000 L CNN
+AR Path="/60BB4A14/60CED0B7" Ref="R116"  Part="1" 
+AR Path="/60BB4C00/60CED0B7" Ref="R60"  Part="1" 
+F 0 "R60" V 15520 5046 50  0000 L CNN
 F 1 "1k" V 15450 4950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 15380 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 15450 5000 50  0001 C CNN
@@ -348,12 +348,12 @@ Connection ~ 11150 7550
 Connection ~ 11250 7450
 Connection ~ 11350 7350
 $Comp
-L Device:R_Small R102
+L Device:R_Small R103
 U 1 1 61BCD359
 P 10700 7250
-AR Path="/60BB4A14/61BCD359" Ref="R102"  Part="1" 
-AR Path="/60BB4C00/61BCD359" Ref="R46"  Part="1" 
-F 0 "R102" V 10700 7350 30  0000 L CNN
+AR Path="/60BB4A14/61BCD359" Ref="R103"  Part="1" 
+AR Path="/60BB4C00/61BCD359" Ref="R47"  Part="1" 
+F 0 "R47" V 10700 7350 30  0000 L CNN
 F 1 "0" V 10700 7250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7250 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7250 50  0001 C CNN
@@ -366,12 +366,12 @@ F 8 "311-0.0HRCT-ND" H 10700 7250 50  0001 C CNN "Supplier P/N"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R103
+L Device:R_Small R104
 U 1 1 61BCD308
 P 10700 7350
-AR Path="/60BB4A14/61BCD308" Ref="R103"  Part="1" 
-AR Path="/60BB4C00/61BCD308" Ref="R47"  Part="1" 
-F 0 "R103" V 10700 7450 30  0000 L CNN
+AR Path="/60BB4A14/61BCD308" Ref="R104"  Part="1" 
+AR Path="/60BB4C00/61BCD308" Ref="R48"  Part="1" 
+F 0 "R48" V 10700 7450 30  0000 L CNN
 F 1 "0" V 10700 7350 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7350 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7350 50  0001 C CNN
@@ -384,12 +384,12 @@ F 8 "311-0.0HRCT-ND" H 10700 7350 50  0001 C CNN "Supplier P/N"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R104
+L Device:R_Small R105
 U 1 1 61BCD2F5
 P 10700 7450
-AR Path="/60BB4A14/61BCD2F5" Ref="R104"  Part="1" 
-AR Path="/60BB4C00/61BCD2F5" Ref="R48"  Part="1" 
-F 0 "R104" V 10700 7550 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2F5" Ref="R105"  Part="1" 
+AR Path="/60BB4C00/61BCD2F5" Ref="R49"  Part="1" 
+F 0 "R49" V 10700 7550 30  0000 L CNN
 F 1 "0" V 10700 7450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7450 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7450 50  0001 C CNN
@@ -402,12 +402,12 @@ F 8 "311-0.0HRCT-ND" H 10700 7450 50  0001 C CNN "Supplier P/N"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R105
+L Device:R_Small R106
 U 1 1 61BCD2E5
 P 10700 7550
-AR Path="/60BB4A14/61BCD2E5" Ref="R105"  Part="1" 
-AR Path="/60BB4C00/61BCD2E5" Ref="R49"  Part="1" 
-F 0 "R105" V 10700 7650 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2E5" Ref="R106"  Part="1" 
+AR Path="/60BB4C00/61BCD2E5" Ref="R50"  Part="1" 
+F 0 "R50" V 10700 7650 30  0000 L CNN
 F 1 "0" V 10700 7550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7550 50  0001 C CNN
@@ -420,12 +420,12 @@ F 8 "311-0.0HRCT-ND" H 10700 7550 50  0001 C CNN "Supplier P/N"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R106
+L Device:R_Small R107
 U 1 1 6105293E
 P 10700 7650
-AR Path="/60BB4A14/6105293E" Ref="R106"  Part="1" 
-AR Path="/60BB4C00/6105293E" Ref="R50"  Part="1" 
-F 0 "R106" V 10700 7750 30  0000 L CNN
+AR Path="/60BB4A14/6105293E" Ref="R107"  Part="1" 
+AR Path="/60BB4C00/6105293E" Ref="R51"  Part="1" 
+F 0 "R51" V 10700 7750 30  0000 L CNN
 F 1 "0" V 10700 7650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7650 50  0001 C CNN
@@ -438,12 +438,12 @@ F 8 "311-0.0HRCT-ND" H 10700 7650 50  0001 C CNN "Supplier P/N"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R107
+L Device:R_Small R108
 U 1 1 60C983F5
 P 10700 7750
-AR Path="/60BB4A14/60C983F5" Ref="R107"  Part="1" 
-AR Path="/60BB4C00/60C983F5" Ref="R51"  Part="1" 
-F 0 "R107" V 10700 7850 30  0000 L CNN
+AR Path="/60BB4A14/60C983F5" Ref="R108"  Part="1" 
+AR Path="/60BB4C00/60C983F5" Ref="R52"  Part="1" 
+F 0 "R52" V 10700 7850 30  0000 L CNN
 F 1 "0" V 10700 7750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7750 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7750 50  0001 C CNN
@@ -459,12 +459,12 @@ Connection ~ 10850 7850
 Wire Wire Line
 	10800 7850 10850 7850
 $Comp
-L Device:R_Small R108
+L Device:R_Small R109
 U 1 1 60C983F4
 P 10700 7850
-AR Path="/60BB4A14/60C983F4" Ref="R108"  Part="1" 
-AR Path="/60BB4C00/60C983F4" Ref="R52"  Part="1" 
-F 0 "R108" V 10700 7950 30  0000 L CNN
+AR Path="/60BB4A14/60C983F4" Ref="R109"  Part="1" 
+AR Path="/60BB4C00/60C983F4" Ref="R53"  Part="1" 
+F 0 "R53" V 10700 7950 30  0000 L CNN
 F 1 "0" V 10700 7850 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7850 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7850 50  0001 C CNN
@@ -486,13 +486,13 @@ Wire Wire Line
 Wire Wire Line
 	10400 10450 10400 9450
 $Comp
-L power:GNDA #PWR0146
+L power:GND #PWR0148
 U 1 1 60C983F3
 P 10400 10650
-AR Path="/60BB4A14/60C983F3" Ref="#PWR0146"  Part="1" 
-AR Path="/60BB4C00/60C983F3" Ref="#PWR060"  Part="1" 
-F 0 "#PWR0146" H 10400 10400 50  0001 C CNN
-F 1 "GNDA" H 10400 10500 50  0000 C CNB
+AR Path="/60BB4A14/60C983F3" Ref="#PWR0148"  Part="1" 
+AR Path="/60BB4C00/60C983F3" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 10400 10400 50  0001 C CNN
+F 1 "GND" H 10400 10500 50  0000 C CNB
 F 2 "" H 10400 10650 50  0001 C CNN
 F 3 "" H 10400 10650 50  0001 C CNN
 	1    10400 10650
@@ -519,12 +519,12 @@ Wire Wire Line
 Wire Wire Line
 	10250 9350 10550 9350
 $Comp
-L Device:C_Small C154
+L Device:C_Small C156
 U 1 1 61198633
 P 10400 10550
-AR Path="/60BB4A14/61198633" Ref="C154"  Part="1" 
-AR Path="/60BB4C00/61198633" Ref="C71"  Part="1" 
-F 0 "C154" H 10350 10500 30  0000 L CNN
+AR Path="/60BB4A14/61198633" Ref="C156"  Part="1" 
+AR Path="/60BB4C00/61198633" Ref="C73"  Part="1" 
+F 0 "C73" H 10350 10500 30  0000 L CNN
 F 1 "0.1uF" H 10350 10600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10400 10550 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10400 10550 50  0001 C CNN
@@ -556,12 +556,12 @@ Wire Wire Line
 	8750 6550 9500 6550
 Connection ~ 8750 6550
 $Comp
-L Device:C_Small C148
+L Device:C_Small C150
 U 1 1 61BCD32E
 P 9500 6700
-AR Path="/60BB4A14/61BCD32E" Ref="C148"  Part="1" 
-AR Path="/60BB4C00/61BCD32E" Ref="C65"  Part="1" 
-F 0 "C148" V 9450 6550 30  0000 L CNN
+AR Path="/60BB4A14/61BCD32E" Ref="C150"  Part="1" 
+AR Path="/60BB4C00/61BCD32E" Ref="C67"  Part="1" 
+F 0 "C67" V 9450 6550 30  0000 L CNN
 F 1 "0.1uF" H 9350 6750 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9500 6700 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9500 6700 50  0001 C CNN
@@ -574,12 +574,12 @@ F 8 "732-7965-1-ND" H 9500 6700 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C150
+L Device:C_Small C152
 U 1 1 61BCD356
 P 9700 6700
-AR Path="/60BB4A14/61BCD356" Ref="C150"  Part="1" 
-AR Path="/60BB4C00/61BCD356" Ref="C67"  Part="1" 
-F 0 "C150" V 9750 6550 30  0000 L CNN
+AR Path="/60BB4A14/61BCD356" Ref="C152"  Part="1" 
+AR Path="/60BB4C00/61BCD356" Ref="C69"  Part="1" 
+F 0 "C69" V 9750 6550 30  0000 L CNN
 F 1 "0.1uF" H 9700 6750 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9700 6700 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9700 6700 50  0001 C CNN
@@ -620,12 +620,12 @@ Wire Wire Line
 Wire Wire Line
 	10550 8150 10550 8400
 $Comp
-L Device:C_Small C155
+L Device:C_Small C157
 U 1 1 61BCD355
 P 10550 8050
-AR Path="/60BB4A14/61BCD355" Ref="C155"  Part="1" 
-AR Path="/60BB4C00/61BCD355" Ref="C72"  Part="1" 
-F 0 "C155" H 10500 8000 30  0000 L CNN
+AR Path="/60BB4A14/61BCD355" Ref="C157"  Part="1" 
+AR Path="/60BB4C00/61BCD355" Ref="C74"  Part="1" 
+F 0 "C74" H 10500 8000 30  0000 L CNN
 F 1 "0.1uF" H 10550 8100 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10550 8050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10550 8050 50  0001 C CNN
@@ -655,12 +655,12 @@ Wire Wire Line
 Wire Wire Line
 	11050 8400 11150 8400
 $Comp
-L Device:C_Small C161
+L Device:C_Small C163
 U 1 1 61BCD333
 P 11150 8050
-AR Path="/60BB4A14/61BCD333" Ref="C161"  Part="1" 
-AR Path="/60BB4C00/61BCD333" Ref="C78"  Part="1" 
-F 0 "C161" H 11100 8100 30  0000 L CNN
+AR Path="/60BB4A14/61BCD333" Ref="C163"  Part="1" 
+AR Path="/60BB4C00/61BCD333" Ref="C80"  Part="1" 
+F 0 "C80" H 11100 8100 30  0000 L CNN
 F 1 "150pF" H 11050 8000 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11150 8050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11150 8050 50  0001 C CNN
@@ -673,12 +673,12 @@ F 8 "732-12236-1-ND" H 11150 8050 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C164
+L Device:C_Small C166
 U 1 1 61BCD334
 P 11250 8250
-AR Path="/60BB4A14/61BCD334" Ref="C164"  Part="1" 
-AR Path="/60BB4C00/61BCD334" Ref="C81"  Part="1" 
-F 0 "C164" H 11200 8300 30  0000 L CNN
+AR Path="/60BB4A14/61BCD334" Ref="C166"  Part="1" 
+AR Path="/60BB4C00/61BCD334" Ref="C83"  Part="1" 
+F 0 "C83" H 11200 8300 30  0000 L CNN
 F 1 "150pF" H 11150 8200 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11250 8250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11250 8250 50  0001 C CNN
@@ -691,12 +691,12 @@ F 8 "732-12236-1-ND" H 11250 8250 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C165
+L Device:C_Small C167
 U 1 1 6119860B
 P 11350 8050
-AR Path="/60BB4A14/6119860B" Ref="C165"  Part="1" 
-AR Path="/60BB4C00/6119860B" Ref="C82"  Part="1" 
-F 0 "C165" H 11300 8100 30  0000 L CNN
+AR Path="/60BB4A14/6119860B" Ref="C167"  Part="1" 
+AR Path="/60BB4C00/6119860B" Ref="C84"  Part="1" 
+F 0 "C84" H 11300 8100 30  0000 L CNN
 F 1 "150pF" H 11250 8000 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11350 8050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11350 8050 50  0001 C CNN
@@ -709,13 +709,13 @@ F 8 "732-12236-1-ND" H 11350 8050 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0151
+L power:GND #PWR0153
 U 1 1 61BCD2EC
 P 10850 8450
-AR Path="/60BB4A14/61BCD2EC" Ref="#PWR0151"  Part="1" 
-AR Path="/60BB4C00/61BCD2EC" Ref="#PWR065"  Part="1" 
-F 0 "#PWR0151" H 10850 8200 50  0001 C CNN
-F 1 "GNDA" H 10850 8300 50  0000 C CNB
+AR Path="/60BB4A14/61BCD2EC" Ref="#PWR0153"  Part="1" 
+AR Path="/60BB4C00/61BCD2EC" Ref="#PWR068"  Part="1" 
+F 0 "#PWR068" H 10850 8200 50  0001 C CNN
+F 1 "GND" H 10850 8300 50  0000 C CNB
 F 2 "" H 10850 8450 50  0001 C CNN
 F 3 "" H 10850 8450 50  0001 C CNN
 	1    10850 8450
@@ -729,12 +729,12 @@ Wire Wire Line
 	11050 8350 11050 8400
 Connection ~ 11050 8400
 $Comp
-L Device:C_Small C159
+L Device:C_Small C161
 U 1 1 61BCD34A
 P 11050 8250
-AR Path="/60BB4A14/61BCD34A" Ref="C159"  Part="1" 
-AR Path="/60BB4C00/61BCD34A" Ref="C76"  Part="1" 
-F 0 "C159" H 11000 8300 30  0000 L CNN
+AR Path="/60BB4A14/61BCD34A" Ref="C161"  Part="1" 
+AR Path="/60BB4C00/61BCD34A" Ref="C78"  Part="1" 
+F 0 "C78" H 11000 8300 30  0000 L CNN
 F 1 "150pF" H 10950 8200 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11050 8250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 11050 8250 50  0001 C CNN
@@ -747,12 +747,12 @@ F 8 "732-12236-1-ND" H 11050 8250 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C156
+L Device:C_Small C158
 U 1 1 61BCD335
 P 10850 8250
-AR Path="/60BB4A14/61BCD335" Ref="C156"  Part="1" 
-AR Path="/60BB4C00/61BCD335" Ref="C73"  Part="1" 
-F 0 "C156" H 10800 8300 30  0000 L CNN
+AR Path="/60BB4A14/61BCD335" Ref="C158"  Part="1" 
+AR Path="/60BB4C00/61BCD335" Ref="C75"  Part="1" 
+F 0 "C75" H 10800 8300 30  0000 L CNN
 F 1 "150pF" H 10750 8200 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10850 8250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 10850 8250 50  0001 C CNN
@@ -770,12 +770,12 @@ Wire Wire Line
 	10850 8400 10950 8400
 Connection ~ 10850 8400
 $Comp
-L Device:C_Small C158
+L Device:C_Small C160
 U 1 1 60C983F1
 P 10950 8050
-AR Path="/60BB4A14/60C983F1" Ref="C158"  Part="1" 
-AR Path="/60BB4C00/60C983F1" Ref="C75"  Part="1" 
-F 0 "C158" H 10900 8100 30  0000 L CNN
+AR Path="/60BB4A14/60C983F1" Ref="C160"  Part="1" 
+AR Path="/60BB4C00/60C983F1" Ref="C77"  Part="1" 
+F 0 "C77" H 10900 8100 30  0000 L CNN
 F 1 "150pF" H 10850 8000 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10950 8050 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206103.pdf" H 10950 8050 50  0001 C CNN
@@ -822,25 +822,25 @@ SPI to LVDS bank
 Wire Wire Line
 	12350 6850 12350 6900
 $Comp
-L power:GNDA #PWR0121
+L power:GND #PWR0123
 U 1 1 61BCD342
 P 750 3750
-AR Path="/60BB4A14/61BCD342" Ref="#PWR0121"  Part="1" 
-AR Path="/60BB4C00/61BCD342" Ref="#PWR035"  Part="1" 
-F 0 "#PWR0121" H 750 3500 50  0001 C CNN
-F 1 "GNDA" H 750 3600 50  0000 C CNB
+AR Path="/60BB4A14/61BCD342" Ref="#PWR0123"  Part="1" 
+AR Path="/60BB4C00/61BCD342" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 750 3500 50  0001 C CNN
+F 1 "GND" H 750 3600 50  0000 C CNB
 F 2 "" H 750 3750 50  0001 C CNN
 F 3 "" H 750 3750 50  0001 C CNN
 	1    750  3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C97
+L Device:C_Small C99
 U 1 1 61BCD341
 P 750 3650
-AR Path="/60BB4A14/61BCD341" Ref="C97"  Part="1" 
-AR Path="/60BB4C00/61BCD341" Ref="C14"  Part="1" 
-F 0 "C97" H 842 3696 50  0000 L CNN
+AR Path="/60BB4A14/61BCD341" Ref="C99"  Part="1" 
+AR Path="/60BB4C00/61BCD341" Ref="C16"  Part="1" 
+F 0 "C16" H 842 3696 50  0000 L CNN
 F 1 "1uF" H 842 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 750 3650 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012106010.pdf" H 750 3650 50  0001 C CNN
@@ -853,12 +853,12 @@ F 8 "732-7907-1-ND" H 750 3650 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C99
+L Device:C_Small C101
 U 1 1 61BCD324
 P 2250 3650
-AR Path="/60BB4A14/61BCD324" Ref="C99"  Part="1" 
-AR Path="/60BB4C00/61BCD324" Ref="C16"  Part="1" 
-F 0 "C99" H 2342 3696 50  0000 L CNN
+AR Path="/60BB4A14/61BCD324" Ref="C101"  Part="1" 
+AR Path="/60BB4C00/61BCD324" Ref="C18"  Part="1" 
+F 0 "C18" H 2342 3696 50  0000 L CNN
 F 1 "1uF" H 2342 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2250 3650 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012106010.pdf" H 2250 3650 50  0001 C CNN
@@ -871,25 +871,25 @@ F 8 "732-7907-1-ND" H 2250 3650 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0122
+L power:GND #PWR0124
 U 1 1 61BCD306
 P 1200 3750
-AR Path="/60BB4A14/61BCD306" Ref="#PWR0122"  Part="1" 
-AR Path="/60BB4C00/61BCD306" Ref="#PWR036"  Part="1" 
-F 0 "#PWR0122" H 1200 3500 50  0001 C CNN
-F 1 "GNDA" H 1200 3600 50  0000 C CNB
+AR Path="/60BB4A14/61BCD306" Ref="#PWR0124"  Part="1" 
+AR Path="/60BB4C00/61BCD306" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 1200 3500 50  0001 C CNN
+F 1 "GND" H 1200 3600 50  0000 C CNB
 F 2 "" H 1200 3750 50  0001 C CNN
 F 3 "" H 1200 3750 50  0001 C CNN
 	1    1200 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C98
+L Device:C_Small C100
 U 1 1 61BCD305
 P 1200 3650
-AR Path="/60BB4A14/61BCD305" Ref="C98"  Part="1" 
-AR Path="/60BB4C00/61BCD305" Ref="C15"  Part="1" 
-F 0 "C98" H 1292 3696 50  0000 L CNN
+AR Path="/60BB4A14/61BCD305" Ref="C100"  Part="1" 
+AR Path="/60BB4C00/61BCD305" Ref="C17"  Part="1" 
+F 0 "C17" H 1292 3696 50  0000 L CNN
 F 1 "1uF" H 1292 3605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1200 3650 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012106010.pdf" H 1200 3650 50  0001 C CNN
@@ -902,38 +902,38 @@ F 8 "732-7907-1-ND" H 1200 3650 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0163
+L power:GND #PWR0164
 U 1 1 6119862E
 P 13850 9300
-AR Path="/60BB4A14/6119862E" Ref="#PWR0163"  Part="1" 
-AR Path="/60BB4C00/6119862E" Ref="#PWR077"  Part="1" 
-F 0 "#PWR0163" H 13850 9050 50  0001 C CNN
-F 1 "GNDA" H 13850 9150 50  0000 C CNB
+AR Path="/60BB4A14/6119862E" Ref="#PWR0164"  Part="1" 
+AR Path="/60BB4C00/6119862E" Ref="#PWR079"  Part="1" 
+F 0 "#PWR079" H 13850 9050 50  0001 C CNN
+F 1 "GND" H 13850 9150 50  0000 C CNB
 F 2 "" H 13850 9300 50  0001 C CNN
 F 3 "" H 13850 9300 50  0001 C CNN
 	1    13850 9300
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0161
+L power:GND #PWR0162
 U 1 1 610892DB
 P 12850 10800
-AR Path="/60BB4A14/610892DB" Ref="#PWR0161"  Part="1" 
-AR Path="/60BB4C00/610892DB" Ref="#PWR075"  Part="1" 
-F 0 "#PWR0161" H 12850 10550 50  0001 C CNN
-F 1 "GNDA" H 12850 10650 50  0000 C CNB
+AR Path="/60BB4A14/610892DB" Ref="#PWR0162"  Part="1" 
+AR Path="/60BB4C00/610892DB" Ref="#PWR077"  Part="1" 
+F 0 "#PWR077" H 12850 10550 50  0001 C CNN
+F 1 "GND" H 12850 10650 50  0000 C CNB
 F 2 "" H 12850 10800 50  0001 C CNN
 F 3 "" H 12850 10800 50  0001 C CNN
 	1    12850 10800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C169
+L Device:C_Small C171
 U 1 1 61BCD336
 P 12850 10700
-AR Path="/60BB4A14/61BCD336" Ref="C169"  Part="1" 
-AR Path="/60BB4C00/61BCD336" Ref="C86"  Part="1" 
-F 0 "C169" H 12942 10746 50  0000 L CNN
+AR Path="/60BB4A14/61BCD336" Ref="C171"  Part="1" 
+AR Path="/60BB4C00/61BCD336" Ref="C88"  Part="1" 
+F 0 "C88" H 12942 10746 50  0000 L CNN
 F 1 "10uF" H 12942 10655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12850 10700 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 12850 10700 50  0001 C CNN
@@ -956,12 +956,12 @@ Wire Wire Line
 Wire Wire Line
 	12900 9550 12900 9600
 $Comp
-L Device:R R113
+L Device:R R114
 U 1 1 6108928D
 P 12900 9400
-AR Path="/60BB4A14/6108928D" Ref="R113"  Part="1" 
-AR Path="/60BB4C00/6108928D" Ref="R57"  Part="1" 
-F 0 "R113" H 13000 9400 50  0000 C CNN
+AR Path="/60BB4A14/6108928D" Ref="R114"  Part="1" 
+AR Path="/60BB4C00/6108928D" Ref="R58"  Part="1" 
+F 0 "R58" H 13050 9400 50  0000 C CNN
 F 1 "1k" V 12900 9400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 12830 9400 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 12900 9400 50  0001 C CNN
@@ -979,7 +979,7 @@ U 1 1 61BCD32D
 P 12900 9100
 AR Path="/60BB4A14/61BCD32D" Ref="RV2"  Part="1" 
 AR Path="/60BB4C00/61BCD32D" Ref="RV1"  Part="1" 
-F 0 "RV2" H 13100 9200 50  0000 R CNN
+F 0 "RV1" H 13100 9200 50  0000 R CNN
 F 1 "10k" V 12900 9150 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal" H 12900 9100 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/3296.pdf" H 12900 9100 50  0001 C CNN
@@ -992,12 +992,12 @@ F 8 "3296Z-103LF-ND" H 12900 9100 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R114
+L Device:R R115
 U 1 1 61BCD354
 P 13200 9100
-AR Path="/60BB4A14/61BCD354" Ref="R114"  Part="1" 
-AR Path="/60BB4C00/61BCD354" Ref="R58"  Part="1" 
-F 0 "R114" V 13300 9100 50  0000 C CNN
+AR Path="/60BB4A14/61BCD354" Ref="R115"  Part="1" 
+AR Path="/60BB4C00/61BCD354" Ref="R59"  Part="1" 
+F 0 "R59" V 13300 9100 50  0000 C CNN
 F 1 "470k" V 13200 9100 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 13130 9100 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 13200 9100 50  0001 C CNN
@@ -1010,26 +1010,26 @@ F 8 "311-470KFRCT-ND" H 13200 9100 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDA #PWR0162
+L power:GND #PWR0163
 U 1 1 61BCD353
 P 12900 9600
-AR Path="/60BB4A14/61BCD353" Ref="#PWR0162"  Part="1" 
-AR Path="/60BB4C00/61BCD353" Ref="#PWR076"  Part="1" 
-F 0 "#PWR0162" H 12900 9350 50  0001 C CNN
-F 1 "GNDA" H 12900 9450 50  0000 C CNB
+AR Path="/60BB4A14/61BCD353" Ref="#PWR0163"  Part="1" 
+AR Path="/60BB4C00/61BCD353" Ref="#PWR078"  Part="1" 
+F 0 "#PWR078" H 12900 9350 50  0001 C CNN
+F 1 "GND" H 12900 9450 50  0000 C CNB
 F 2 "" H 12900 9600 50  0001 C CNN
 F 3 "" H 12900 9600 50  0001 C CNN
 	1    12900 9600
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0159
+L power:GND #PWR0160
 U 1 1 60C983B1
 P 12650 9350
-AR Path="/60BB4A14/60C983B1" Ref="#PWR0159"  Part="1" 
-AR Path="/60BB4C00/60C983B1" Ref="#PWR073"  Part="1" 
-F 0 "#PWR0159" H 12650 9100 50  0001 C CNN
-F 1 "GNDA" H 12650 9200 50  0000 C CNB
+AR Path="/60BB4A14/60C983B1" Ref="#PWR0160"  Part="1" 
+AR Path="/60BB4C00/60C983B1" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 12650 9100 50  0001 C CNN
+F 1 "GND" H 12650 9200 50  0000 C CNB
 F 2 "" H 12650 9350 50  0001 C CNN
 F 3 "" H 12650 9350 50  0001 C CNN
 	1    12650 9350
@@ -1039,12 +1039,12 @@ Connection ~ 12650 8900
 Wire Wire Line
 	12650 9150 12650 8900
 $Comp
-L Device:C_Small C168
+L Device:C_Small C170
 U 1 1 60C983B0
 P 12650 9250
-AR Path="/60BB4A14/60C983B0" Ref="C168"  Part="1" 
-AR Path="/60BB4C00/60C983B0" Ref="C85"  Part="1" 
-F 0 "C168" H 12742 9296 50  0000 L CNN
+AR Path="/60BB4A14/60C983B0" Ref="C170"  Part="1" 
+AR Path="/60BB4C00/60C983B0" Ref="C87"  Part="1" 
+F 0 "C87" H 12742 9296 50  0000 L CNN
 F 1 "10uF" H 12742 9205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12650 9250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012107010.pdf" H 12650 9250 50  0001 C CNN
@@ -1059,12 +1059,12 @@ $EndComp
 Wire Wire Line
 	12650 8900 12650 8650
 $Comp
-L Reference_Voltage:REF5025ID U21
+L Reference_Voltage:REF5025ID U22
 U 1 1 61BCD34C
 P 13750 9000
-AR Path="/60BB4A14/61BCD34C" Ref="U21"  Part="1" 
-AR Path="/60BB4C00/61BCD34C" Ref="U13"  Part="1" 
-F 0 "U21" H 13900 9350 50  0000 C CNN
+AR Path="/60BB4A14/61BCD34C" Ref="U22"  Part="1" 
+AR Path="/60BB4C00/61BCD34C" Ref="U14"  Part="1" 
+F 0 "U14" H 13900 9350 50  0000 C CNN
 F 1 "REF5025" H 13900 9250 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 13675 8750 50  0001 L CIN
 F 3 "https://www.ti.com/lit/ds/symlink/ref5025-ep.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1617653432745" H 13700 9000 50  0001 C CIN
@@ -1101,12 +1101,12 @@ Wire Wire Line
 Wire Wire Line
 	12350 8800 12350 8650
 $Comp
-L power:GNDD #PWR0158
+L power:GND #PWR0159
 U 1 1 611985EF
 P 12350 8800
-AR Path="/60BB4A14/611985EF" Ref="#PWR0158"  Part="1" 
-AR Path="/60BB4C00/611985EF" Ref="#PWR072"  Part="1" 
-F 0 "#PWR0158" H 12350 8550 50  0001 C CNN
+AR Path="/60BB4A14/611985EF" Ref="#PWR0159"  Part="1" 
+AR Path="/60BB4C00/611985EF" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 12350 8550 50  0001 C CNN
 F 1 "GNDD" H 12354 8645 50  0000 C CNN
 F 2 "" H 12350 8800 50  0001 C CNN
 F 3 "" H 12350 8800 50  0001 C CNN
@@ -1135,26 +1135,26 @@ Wire Wire Line
 Wire Wire Line
 	11950 8750 12050 8750
 $Comp
-L power:GNDA #PWR0156
+L power:GND #PWR0157
 U 1 1 60C983CE
 P 11450 8800
-AR Path="/60BB4A14/60C983CE" Ref="#PWR0156"  Part="1" 
-AR Path="/60BB4C00/60C983CE" Ref="#PWR070"  Part="1" 
-F 0 "#PWR0156" H 11450 8550 50  0001 C CNN
-F 1 "GNDA" H 11450 8650 50  0000 C CNB
+AR Path="/60BB4A14/60C983CE" Ref="#PWR0157"  Part="1" 
+AR Path="/60BB4C00/60C983CE" Ref="#PWR072"  Part="1" 
+F 0 "#PWR072" H 11450 8550 50  0001 C CNN
+F 1 "GND" H 11450 8650 50  0000 C CNB
 F 2 "" H 11450 8800 50  0001 C CNN
 F 3 "" H 11450 8800 50  0001 C CNN
 	1    11450 8800
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR0149
+L power:GND #PWR0151
 U 1 1 61165CA5
 P 10650 9050
-AR Path="/60BB4A14/61165CA5" Ref="#PWR0149"  Part="1" 
-AR Path="/60BB4C00/61165CA5" Ref="#PWR063"  Part="1" 
-F 0 "#PWR0149" H 10650 8800 50  0001 C CNN
-F 1 "GNDA" H 10650 8900 50  0000 C CNB
+AR Path="/60BB4A14/61165CA5" Ref="#PWR0151"  Part="1" 
+AR Path="/60BB4C00/61165CA5" Ref="#PWR066"  Part="1" 
+F 0 "#PWR066" H 10650 8800 50  0001 C CNN
+F 1 "GND" H 10650 8900 50  0000 C CNB
 F 2 "" H 10650 9050 50  0001 C CNN
 F 3 "" H 10650 9050 50  0001 C CNN
 	1    10650 9050
@@ -1163,12 +1163,12 @@ $EndComp
 Wire Wire Line
 	10450 8850 10250 8850
 $Comp
-L Connector:Conn_Coaxial J14
+L Connector:Conn_Coaxial J19
 U 1 1 61BCD361
 P 10650 8850
-AR Path="/60BB4A14/61BCD361" Ref="J14"  Part="1" 
+AR Path="/60BB4A14/61BCD361" Ref="J19"  Part="1" 
 AR Path="/60BB4C00/61BCD361" Ref="J7"  Part="1" 
-F 0 "J14" H 10750 8825 50  0000 L CNN
+F 0 "J7" H 10750 8825 50  0000 L CNN
 F 1 "BNC" H 10750 8734 50  0000 L CNN
 F 2 "readout_trenz:lemo-EPB.00.250.NTN" H 10650 8850 50  0001 C CNN
 F 3 " ~" H 10650 8850 50  0001 C CNN
@@ -1186,13 +1186,13 @@ Wire Wire Line
 Wire Wire Line
 	10250 8300 10350 8300
 $Comp
-L power:GNDA #PWR0142
+L power:GND #PWR0144
 U 1 1 61BCD323
 P 6200 6650
-AR Path="/60BB4A14/61BCD323" Ref="#PWR0142"  Part="1" 
-AR Path="/60BB4C00/61BCD323" Ref="#PWR056"  Part="1" 
-F 0 "#PWR0142" H 6200 6400 50  0001 C CNN
-F 1 "GNDA" H 6200 6500 50  0000 C CNB
+AR Path="/60BB4A14/61BCD323" Ref="#PWR0144"  Part="1" 
+AR Path="/60BB4C00/61BCD323" Ref="#PWR059"  Part="1" 
+F 0 "#PWR059" H 6200 6400 50  0001 C CNN
+F 1 "GND" H 6200 6500 50  0000 C CNB
 F 2 "" H 6200 6650 50  0001 C CNN
 F 3 "" H 6200 6650 50  0001 C CNN
 	1    6200 6650
@@ -1458,12 +1458,12 @@ Wire Wire Line
 Wire Wire Line
 	6400 10950 6400 11000
 $Comp
-L Device:C_Small C117
+L Device:C_Small C119
 U 1 1 60C9838B
 P 6500 6750
-AR Path="/60BB4A14/60C9838B" Ref="C117"  Part="1" 
-AR Path="/60BB4C00/60C9838B" Ref="C34"  Part="1" 
-F 0 "C117" V 6450 6600 30  0000 L CNN
+AR Path="/60BB4A14/60C9838B" Ref="C119"  Part="1" 
+AR Path="/60BB4C00/60C9838B" Ref="C36"  Part="1" 
+F 0 "C36" V 6450 6600 30  0000 L CNN
 F 1 "0.1uF" V 6550 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6500 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6500 6750 50  0001 C CNN
@@ -1476,12 +1476,12 @@ F 8 "732-7532-1-ND" H 6500 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R71
+L Device:R R72
 U 1 1 60C983D9
 P 6500 7000
-AR Path="/60BB4A14/60C983D9" Ref="R71"  Part="1" 
-AR Path="/60BB4C00/60C983D9" Ref="R15"  Part="1" 
-F 0 "R71" V 6450 6800 30  0000 L CNN
+AR Path="/60BB4A14/60C983D9" Ref="R72"  Part="1" 
+AR Path="/60BB4C00/60C983D9" Ref="R16"  Part="1" 
+F 0 "R16" V 6450 6800 30  0000 L CNN
 F 1 "49.9" V 6500 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6430 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6500 7000 50  0001 C CNN
@@ -1494,12 +1494,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 6500 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C119
+L Device:C_Small C121
 U 1 1 61BCD35E
 P 6650 6750
-AR Path="/60BB4A14/61BCD35E" Ref="C119"  Part="1" 
-AR Path="/60BB4C00/61BCD35E" Ref="C36"  Part="1" 
-F 0 "C119" V 6600 6600 30  0000 L CNN
+AR Path="/60BB4A14/61BCD35E" Ref="C121"  Part="1" 
+AR Path="/60BB4C00/61BCD35E" Ref="C38"  Part="1" 
+F 0 "C38" V 6600 6600 30  0000 L CNN
 F 1 "0.1uF" V 6700 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6650 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6650 6750 50  0001 C CNN
@@ -1512,12 +1512,12 @@ F 8 "732-7532-1-ND" H 6650 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R73
+L Device:R R74
 U 1 1 61BCD322
 P 6650 7000
-AR Path="/60BB4A14/61BCD322" Ref="R73"  Part="1" 
-AR Path="/60BB4C00/61BCD322" Ref="R17"  Part="1" 
-F 0 "R73" V 6600 6800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD322" Ref="R74"  Part="1" 
+AR Path="/60BB4C00/61BCD322" Ref="R18"  Part="1" 
+F 0 "R18" V 6600 6800 30  0000 L CNN
 F 1 "49.9" V 6650 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6580 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6650 7000 50  0001 C CNN
@@ -1530,12 +1530,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 6650 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C121
+L Device:C_Small C123
 U 1 1 61BCD30B
 P 6800 6750
-AR Path="/60BB4A14/61BCD30B" Ref="C121"  Part="1" 
-AR Path="/60BB4C00/61BCD30B" Ref="C38"  Part="1" 
-F 0 "C121" V 6750 6600 30  0000 L CNN
+AR Path="/60BB4A14/61BCD30B" Ref="C123"  Part="1" 
+AR Path="/60BB4C00/61BCD30B" Ref="C40"  Part="1" 
+F 0 "C40" V 6750 6600 30  0000 L CNN
 F 1 "0.1uF" V 6850 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6800 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6800 6750 50  0001 C CNN
@@ -1548,12 +1548,12 @@ F 8 "732-7532-1-ND" H 6800 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R77
+L Device:R R78
 U 1 1 6105F0E0
 P 6950 7000
-AR Path="/60BB4A14/6105F0E0" Ref="R77"  Part="1" 
-AR Path="/60BB4C00/6105F0E0" Ref="R21"  Part="1" 
-F 0 "R77" V 6900 6800 30  0000 L CNN
+AR Path="/60BB4A14/6105F0E0" Ref="R78"  Part="1" 
+AR Path="/60BB4C00/6105F0E0" Ref="R22"  Part="1" 
+F 0 "R22" V 6900 6800 30  0000 L CNN
 F 1 "49.9" V 6950 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6880 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6950 7000 50  0001 C CNN
@@ -1566,12 +1566,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 6950 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C125
+L Device:C_Small C127
 U 1 1 60C98370
 P 7100 6750
-AR Path="/60BB4A14/60C98370" Ref="C125"  Part="1" 
-AR Path="/60BB4C00/60C98370" Ref="C42"  Part="1" 
-F 0 "C125" V 7050 6600 30  0000 L CNN
+AR Path="/60BB4A14/60C98370" Ref="C127"  Part="1" 
+AR Path="/60BB4C00/60C98370" Ref="C44"  Part="1" 
+F 0 "C44" V 7050 6600 30  0000 L CNN
 F 1 "0.1uF" V 7150 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7100 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7100 6750 50  0001 C CNN
@@ -1584,12 +1584,12 @@ F 8 "732-7532-1-ND" H 7100 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R79
+L Device:R R80
 U 1 1 6105F0DF
 P 7100 7000
-AR Path="/60BB4A14/6105F0DF" Ref="R79"  Part="1" 
-AR Path="/60BB4C00/6105F0DF" Ref="R23"  Part="1" 
-F 0 "R79" V 7050 6800 30  0000 L CNN
+AR Path="/60BB4A14/6105F0DF" Ref="R80"  Part="1" 
+AR Path="/60BB4C00/6105F0DF" Ref="R24"  Part="1" 
+F 0 "R24" V 7050 6800 30  0000 L CNN
 F 1 "49.9" V 7100 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7030 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7100 7000 50  0001 C CNN
@@ -1602,12 +1602,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7100 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C127
+L Device:C_Small C129
 U 1 1 6105F0DE
 P 7250 6750
-AR Path="/60BB4A14/6105F0DE" Ref="C127"  Part="1" 
-AR Path="/60BB4C00/6105F0DE" Ref="C44"  Part="1" 
-F 0 "C127" V 7200 6600 30  0000 L CNN
+AR Path="/60BB4A14/6105F0DE" Ref="C129"  Part="1" 
+AR Path="/60BB4C00/6105F0DE" Ref="C46"  Part="1" 
+F 0 "C46" V 7200 6600 30  0000 L CNN
 F 1 "0.1uF" V 7300 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7250 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7250 6750 50  0001 C CNN
@@ -1620,12 +1620,12 @@ F 8 "732-7532-1-ND" H 7250 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R81
+L Device:R R82
 U 1 1 61BCD35D
 P 7250 7000
-AR Path="/60BB4A14/61BCD35D" Ref="R81"  Part="1" 
-AR Path="/60BB4C00/61BCD35D" Ref="R25"  Part="1" 
-F 0 "R81" V 7200 6800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD35D" Ref="R82"  Part="1" 
+AR Path="/60BB4C00/61BCD35D" Ref="R26"  Part="1" 
+F 0 "R26" V 7200 6800 30  0000 L CNN
 F 1 "49.9" V 7250 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7180 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7250 7000 50  0001 C CNN
@@ -1638,12 +1638,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7250 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C129
+L Device:C_Small C131
 U 1 1 61BCD351
 P 7400 6750
-AR Path="/60BB4A14/61BCD351" Ref="C129"  Part="1" 
-AR Path="/60BB4C00/61BCD351" Ref="C46"  Part="1" 
-F 0 "C129" V 7350 6600 30  0000 L CNN
+AR Path="/60BB4A14/61BCD351" Ref="C131"  Part="1" 
+AR Path="/60BB4C00/61BCD351" Ref="C48"  Part="1" 
+F 0 "C48" V 7350 6600 30  0000 L CNN
 F 1 "0.1uF" V 7450 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7400 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7400 6750 50  0001 C CNN
@@ -1656,12 +1656,12 @@ F 8 "732-7532-1-ND" H 7400 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R83
+L Device:R R84
 U 1 1 6119861D
 P 7400 7000
-AR Path="/60BB4A14/6119861D" Ref="R83"  Part="1" 
-AR Path="/60BB4C00/6119861D" Ref="R27"  Part="1" 
-F 0 "R83" V 7350 6800 30  0000 L CNN
+AR Path="/60BB4A14/6119861D" Ref="R84"  Part="1" 
+AR Path="/60BB4C00/6119861D" Ref="R28"  Part="1" 
+F 0 "R28" V 7350 6800 30  0000 L CNN
 F 1 "49.9" V 7400 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7330 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7400 7000 50  0001 C CNN
@@ -1674,12 +1674,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7400 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C131
+L Device:C_Small C133
 U 1 1 6119861C
 P 7550 6750
-AR Path="/60BB4A14/6119861C" Ref="C131"  Part="1" 
-AR Path="/60BB4C00/6119861C" Ref="C48"  Part="1" 
-F 0 "C131" V 7500 6600 30  0000 L CNN
+AR Path="/60BB4A14/6119861C" Ref="C133"  Part="1" 
+AR Path="/60BB4C00/6119861C" Ref="C50"  Part="1" 
+F 0 "C50" V 7500 6600 30  0000 L CNN
 F 1 "0.1uF" V 7600 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7550 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7550 6750 50  0001 C CNN
@@ -1692,12 +1692,12 @@ F 8 "732-7532-1-ND" H 7550 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R85
+L Device:R R86
 U 1 1 61198637
 P 7550 7000
-AR Path="/60BB4A14/61198637" Ref="R85"  Part="1" 
-AR Path="/60BB4C00/61198637" Ref="R29"  Part="1" 
-F 0 "R85" V 7500 6800 30  0000 L CNN
+AR Path="/60BB4A14/61198637" Ref="R86"  Part="1" 
+AR Path="/60BB4C00/61198637" Ref="R30"  Part="1" 
+F 0 "R30" V 7500 6800 30  0000 L CNN
 F 1 "49.9" V 7550 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7480 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7550 7000 50  0001 C CNN
@@ -1710,12 +1710,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7550 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C133
+L Device:C_Small C135
 U 1 1 61BCD309
 P 7700 6750
-AR Path="/60BB4A14/61BCD309" Ref="C133"  Part="1" 
-AR Path="/60BB4C00/61BCD309" Ref="C50"  Part="1" 
-F 0 "C133" V 7650 6600 30  0000 L CNN
+AR Path="/60BB4A14/61BCD309" Ref="C135"  Part="1" 
+AR Path="/60BB4C00/61BCD309" Ref="C52"  Part="1" 
+F 0 "C52" V 7650 6600 30  0000 L CNN
 F 1 "0.1uF" V 7750 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7700 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7700 6750 50  0001 C CNN
@@ -1728,12 +1728,12 @@ F 8 "732-7532-1-ND" H 7700 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R87
+L Device:R R88
 U 1 1 61BCD329
 P 7700 7000
-AR Path="/60BB4A14/61BCD329" Ref="R87"  Part="1" 
-AR Path="/60BB4C00/61BCD329" Ref="R31"  Part="1" 
-F 0 "R87" V 7650 6800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD329" Ref="R88"  Part="1" 
+AR Path="/60BB4C00/61BCD329" Ref="R32"  Part="1" 
+F 0 "R32" V 7650 6800 30  0000 L CNN
 F 1 "49.9" V 7700 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7630 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7700 7000 50  0001 C CNN
@@ -1746,12 +1746,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7700 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C135
+L Device:C_Small C137
 U 1 1 61BCD348
 P 7850 6750
-AR Path="/60BB4A14/61BCD348" Ref="C135"  Part="1" 
-AR Path="/60BB4C00/61BCD348" Ref="C52"  Part="1" 
-F 0 "C135" V 7800 6600 30  0000 L CNN
+AR Path="/60BB4A14/61BCD348" Ref="C137"  Part="1" 
+AR Path="/60BB4C00/61BCD348" Ref="C54"  Part="1" 
+F 0 "C54" V 7800 6600 30  0000 L CNN
 F 1 "0.1uF" V 7900 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7850 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7850 6750 50  0001 C CNN
@@ -1764,12 +1764,12 @@ F 8 "732-7532-1-ND" H 7850 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R89
+L Device:R R90
 U 1 1 61BCD2FF
 P 7850 7000
-AR Path="/60BB4A14/61BCD2FF" Ref="R89"  Part="1" 
-AR Path="/60BB4C00/61BCD2FF" Ref="R33"  Part="1" 
-F 0 "R89" V 7800 6800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2FF" Ref="R90"  Part="1" 
+AR Path="/60BB4C00/61BCD2FF" Ref="R34"  Part="1" 
+F 0 "R34" V 7800 6800 30  0000 L CNN
 F 1 "49.9" V 7850 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7780 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7850 7000 50  0001 C CNN
@@ -1782,12 +1782,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7850 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C147
+L Device:C_Small C149
 U 1 1 610892B1
 P 8750 6750
-AR Path="/60BB4A14/610892B1" Ref="C147"  Part="1" 
-AR Path="/60BB4C00/610892B1" Ref="C64"  Part="1" 
-F 0 "C147" V 8700 6600 30  0000 L CNN
+AR Path="/60BB4A14/610892B1" Ref="C149"  Part="1" 
+AR Path="/60BB4C00/610892B1" Ref="C66"  Part="1" 
+F 0 "C66" V 8700 6600 30  0000 L CNN
 F 1 "0.1uF" V 8800 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8750 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8750 6750 50  0001 C CNN
@@ -1800,12 +1800,12 @@ F 8 "732-7532-1-ND" H 8750 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C145
+L Device:C_Small C147
 U 1 1 61BCD327
 P 8600 6750
-AR Path="/60BB4A14/61BCD327" Ref="C145"  Part="1" 
-AR Path="/60BB4C00/61BCD327" Ref="C62"  Part="1" 
-F 0 "C145" V 8550 6600 30  0000 L CNN
+AR Path="/60BB4A14/61BCD327" Ref="C147"  Part="1" 
+AR Path="/60BB4C00/61BCD327" Ref="C64"  Part="1" 
+F 0 "C64" V 8550 6600 30  0000 L CNN
 F 1 "0.1uF" V 8650 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8600 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8600 6750 50  0001 C CNN
@@ -1818,12 +1818,12 @@ F 8 "732-7532-1-ND" H 8600 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C143
+L Device:C_Small C145
 U 1 1 61BCD328
 P 8450 6750
-AR Path="/60BB4A14/61BCD328" Ref="C143"  Part="1" 
-AR Path="/60BB4C00/61BCD328" Ref="C60"  Part="1" 
-F 0 "C143" V 8400 6600 30  0000 L CNN
+AR Path="/60BB4A14/61BCD328" Ref="C145"  Part="1" 
+AR Path="/60BB4C00/61BCD328" Ref="C62"  Part="1" 
+F 0 "C62" V 8400 6600 30  0000 L CNN
 F 1 "0.1uF" V 8500 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8450 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8450 6750 50  0001 C CNN
@@ -1836,12 +1836,12 @@ F 8 "732-7532-1-ND" H 8450 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C141
+L Device:C_Small C143
 U 1 1 61BCD33E
 P 8300 6750
-AR Path="/60BB4A14/61BCD33E" Ref="C141"  Part="1" 
-AR Path="/60BB4C00/61BCD33E" Ref="C58"  Part="1" 
-F 0 "C141" V 8250 6600 30  0000 L CNN
+AR Path="/60BB4A14/61BCD33E" Ref="C143"  Part="1" 
+AR Path="/60BB4C00/61BCD33E" Ref="C60"  Part="1" 
+F 0 "C60" V 8250 6600 30  0000 L CNN
 F 1 "0.1uF" V 8350 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8300 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8300 6750 50  0001 C CNN
@@ -1854,12 +1854,12 @@ F 8 "732-7532-1-ND" H 8300 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C139
+L Device:C_Small C141
 U 1 1 61BCD31C
 P 8150 6750
-AR Path="/60BB4A14/61BCD31C" Ref="C139"  Part="1" 
-AR Path="/60BB4C00/61BCD31C" Ref="C56"  Part="1" 
-F 0 "C139" V 8100 6600 30  0000 L CNN
+AR Path="/60BB4A14/61BCD31C" Ref="C141"  Part="1" 
+AR Path="/60BB4C00/61BCD31C" Ref="C58"  Part="1" 
+F 0 "C58" V 8100 6600 30  0000 L CNN
 F 1 "0.1uF" V 8200 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8150 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8150 6750 50  0001 C CNN
@@ -1872,12 +1872,12 @@ F 8 "732-7532-1-ND" H 8150 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C137
+L Device:C_Small C139
 U 1 1 60C983A7
 P 8000 6750
-AR Path="/60BB4A14/60C983A7" Ref="C137"  Part="1" 
-AR Path="/60BB4C00/60C983A7" Ref="C54"  Part="1" 
-F 0 "C137" V 7950 6600 30  0000 L CNN
+AR Path="/60BB4A14/60C983A7" Ref="C139"  Part="1" 
+AR Path="/60BB4C00/60C983A7" Ref="C56"  Part="1" 
+F 0 "C56" V 7950 6600 30  0000 L CNN
 F 1 "0.1uF" V 8050 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8000 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8000 6750 50  0001 C CNN
@@ -1890,12 +1890,12 @@ F 8 "732-7532-1-ND" H 8000 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R91
+L Device:R R92
 U 1 1 61BCD2F2
 P 8000 7000
-AR Path="/60BB4A14/61BCD2F2" Ref="R91"  Part="1" 
-AR Path="/60BB4C00/61BCD2F2" Ref="R35"  Part="1" 
-F 0 "R91" V 7950 6800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2F2" Ref="R92"  Part="1" 
+AR Path="/60BB4C00/61BCD2F2" Ref="R36"  Part="1" 
+F 0 "R36" V 7950 6800 30  0000 L CNN
 F 1 "49.9" V 8000 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7930 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8000 7000 50  0001 C CNN
@@ -1908,12 +1908,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 8000 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R93
+L Device:R R94
 U 1 1 61198604
 P 8150 7000
-AR Path="/60BB4A14/61198604" Ref="R93"  Part="1" 
-AR Path="/60BB4C00/61198604" Ref="R37"  Part="1" 
-F 0 "R93" V 8100 6800 30  0000 L CNN
+AR Path="/60BB4A14/61198604" Ref="R94"  Part="1" 
+AR Path="/60BB4C00/61198604" Ref="R38"  Part="1" 
+F 0 "R38" V 8100 6800 30  0000 L CNN
 F 1 "49.9" V 8150 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8080 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8150 7000 50  0001 C CNN
@@ -1926,12 +1926,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 8150 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R95
+L Device:R R96
 U 1 1 61198603
 P 8300 7000
-AR Path="/60BB4A14/61198603" Ref="R95"  Part="1" 
-AR Path="/60BB4C00/61198603" Ref="R39"  Part="1" 
-F 0 "R95" V 8250 6800 30  0000 L CNN
+AR Path="/60BB4A14/61198603" Ref="R96"  Part="1" 
+AR Path="/60BB4C00/61198603" Ref="R40"  Part="1" 
+F 0 "R40" V 8250 6800 30  0000 L CNN
 F 1 "49.9" V 8300 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8230 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8300 7000 50  0001 C CNN
@@ -1944,12 +1944,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 8300 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R97
+L Device:R R98
 U 1 1 6119863D
 P 8450 7000
-AR Path="/60BB4A14/6119863D" Ref="R97"  Part="1" 
-AR Path="/60BB4C00/6119863D" Ref="R41"  Part="1" 
-F 0 "R97" V 8400 6800 30  0000 L CNN
+AR Path="/60BB4A14/6119863D" Ref="R98"  Part="1" 
+AR Path="/60BB4C00/6119863D" Ref="R42"  Part="1" 
+F 0 "R42" V 8400 6800 30  0000 L CNN
 F 1 "49.9" V 8450 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8380 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8450 7000 50  0001 C CNN
@@ -1962,12 +1962,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 8450 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R99
+L Device:R R100
 U 1 1 61BCD2F1
 P 8600 7000
-AR Path="/60BB4A14/61BCD2F1" Ref="R99"  Part="1" 
-AR Path="/60BB4C00/61BCD2F1" Ref="R43"  Part="1" 
-F 0 "R99" V 8550 6800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2F1" Ref="R100"  Part="1" 
+AR Path="/60BB4C00/61BCD2F1" Ref="R44"  Part="1" 
+F 0 "R44" V 8550 6800 30  0000 L CNN
 F 1 "49.9" V 8600 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8530 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8600 7000 50  0001 C CNN
@@ -1980,12 +1980,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 8600 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R101
+L Device:R R102
 U 1 1 611985E6
 P 8750 7000
-AR Path="/60BB4A14/611985E6" Ref="R101"  Part="1" 
-AR Path="/60BB4C00/611985E6" Ref="R45"  Part="1" 
-F 0 "R101" V 8700 6800 30  0000 L CNN
+AR Path="/60BB4A14/611985E6" Ref="R102"  Part="1" 
+AR Path="/60BB4C00/611985E6" Ref="R46"  Part="1" 
+F 0 "R46" V 8700 6800 30  0000 L CNN
 F 1 "49.9" V 8750 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8680 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8750 7000 50  0001 C CNN
@@ -1998,12 +1998,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 8750 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C146
+L Device:C_Small C148
 U 1 1 61BCD2FE
 P 8650 10850
-AR Path="/60BB4A14/61BCD2FE" Ref="C146"  Part="1" 
-AR Path="/60BB4C00/61BCD2FE" Ref="C63"  Part="1" 
-F 0 "C146" H 8600 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2FE" Ref="C148"  Part="1" 
+AR Path="/60BB4C00/61BCD2FE" Ref="C65"  Part="1" 
+F 0 "C65" H 8600 10800 30  0000 L CNN
 F 1 "0.1uF" H 8600 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8650 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8650 10850 50  0001 C CNN
@@ -2016,12 +2016,12 @@ F 8 "732-7532-1-ND" H 8650 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C144
+L Device:C_Small C146
 U 1 1 60C983C2
 P 8500 10850
-AR Path="/60BB4A14/60C983C2" Ref="C144"  Part="1" 
-AR Path="/60BB4C00/60C983C2" Ref="C61"  Part="1" 
-F 0 "C144" H 8450 10800 30  0000 L CNN
+AR Path="/60BB4A14/60C983C2" Ref="C146"  Part="1" 
+AR Path="/60BB4C00/60C983C2" Ref="C63"  Part="1" 
+F 0 "C63" H 8450 10800 30  0000 L CNN
 F 1 "0.1uF" H 8450 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8500 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8500 10850 50  0001 C CNN
@@ -2034,12 +2034,12 @@ F 8 "732-7532-1-ND" H 8500 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C142
+L Device:C_Small C144
 U 1 1 61BCD326
 P 8350 10850
-AR Path="/60BB4A14/61BCD326" Ref="C142"  Part="1" 
-AR Path="/60BB4C00/61BCD326" Ref="C59"  Part="1" 
-F 0 "C142" H 8300 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD326" Ref="C144"  Part="1" 
+AR Path="/60BB4C00/61BCD326" Ref="C61"  Part="1" 
+F 0 "C61" H 8300 10800 30  0000 L CNN
 F 1 "0.1uF" H 8300 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8350 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8350 10850 50  0001 C CNN
@@ -2052,12 +2052,12 @@ F 8 "732-7532-1-ND" H 8350 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R96
+L Device:R R97
 U 1 1 611985E4
 P 8350 10600
-AR Path="/60BB4A14/611985E4" Ref="R96"  Part="1" 
-AR Path="/60BB4C00/611985E4" Ref="R40"  Part="1" 
-F 0 "R96" V 8300 10700 30  0000 L CNN
+AR Path="/60BB4A14/611985E4" Ref="R97"  Part="1" 
+AR Path="/60BB4C00/611985E4" Ref="R41"  Part="1" 
+F 0 "R41" V 8300 10700 30  0000 L CNN
 F 1 "49.9" V 8350 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8280 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8350 10600 50  0001 C CNN
@@ -2070,12 +2070,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 8350 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C140
+L Device:C_Small C142
 U 1 1 60C98389
 P 8200 10850
-AR Path="/60BB4A14/60C98389" Ref="C140"  Part="1" 
-AR Path="/60BB4C00/60C98389" Ref="C57"  Part="1" 
-F 0 "C140" H 8150 10800 30  0000 L CNN
+AR Path="/60BB4A14/60C98389" Ref="C142"  Part="1" 
+AR Path="/60BB4C00/60C98389" Ref="C59"  Part="1" 
+F 0 "C59" H 8150 10800 30  0000 L CNN
 F 1 "0.1uF" H 8150 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8200 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8200 10850 50  0001 C CNN
@@ -2088,12 +2088,12 @@ F 8 "732-7532-1-ND" H 8200 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R94
+L Device:R R95
 U 1 1 60C98388
 P 8200 10600
-AR Path="/60BB4A14/60C98388" Ref="R94"  Part="1" 
-AR Path="/60BB4C00/60C98388" Ref="R38"  Part="1" 
-F 0 "R94" V 8150 10700 30  0000 L CNN
+AR Path="/60BB4A14/60C98388" Ref="R95"  Part="1" 
+AR Path="/60BB4C00/60C98388" Ref="R39"  Part="1" 
+F 0 "R39" V 8150 10700 30  0000 L CNN
 F 1 "49.9" V 8200 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8130 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8200 10600 50  0001 C CNN
@@ -2106,12 +2106,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 8200 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C138
+L Device:C_Small C140
 U 1 1 61BCD32A
 P 8050 10850
-AR Path="/60BB4A14/61BCD32A" Ref="C138"  Part="1" 
-AR Path="/60BB4C00/61BCD32A" Ref="C55"  Part="1" 
-F 0 "C138" H 8000 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD32A" Ref="C140"  Part="1" 
+AR Path="/60BB4C00/61BCD32A" Ref="C57"  Part="1" 
+F 0 "C57" H 8000 10800 30  0000 L CNN
 F 1 "0.1uF" H 8000 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8050 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 8050 10850 50  0001 C CNN
@@ -2124,12 +2124,12 @@ F 8 "732-7532-1-ND" H 8050 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R92
+L Device:R R93
 U 1 1 611985E3
 P 8050 10600
-AR Path="/60BB4A14/611985E3" Ref="R92"  Part="1" 
-AR Path="/60BB4C00/611985E3" Ref="R36"  Part="1" 
-F 0 "R92" V 8000 10700 30  0000 L CNN
+AR Path="/60BB4A14/611985E3" Ref="R93"  Part="1" 
+AR Path="/60BB4C00/611985E3" Ref="R37"  Part="1" 
+F 0 "R37" V 8000 10700 30  0000 L CNN
 F 1 "49.9" V 8050 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7980 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8050 10600 50  0001 C CNN
@@ -2142,12 +2142,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 8050 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C136
+L Device:C_Small C138
 U 1 1 61BCD2D8
 P 7900 10850
-AR Path="/60BB4A14/61BCD2D8" Ref="C136"  Part="1" 
-AR Path="/60BB4C00/61BCD2D8" Ref="C53"  Part="1" 
-F 0 "C136" H 7850 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2D8" Ref="C138"  Part="1" 
+AR Path="/60BB4C00/61BCD2D8" Ref="C55"  Part="1" 
+F 0 "C55" H 7850 10800 30  0000 L CNN
 F 1 "0.1uF" H 7850 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7900 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7900 10850 50  0001 C CNN
@@ -2160,12 +2160,12 @@ F 8 "732-7532-1-ND" H 7900 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R90
+L Device:R R91
 U 1 1 60C983C1
 P 7900 10600
-AR Path="/60BB4A14/60C983C1" Ref="R90"  Part="1" 
-AR Path="/60BB4C00/60C983C1" Ref="R34"  Part="1" 
-F 0 "R90" V 7850 10700 30  0000 L CNN
+AR Path="/60BB4A14/60C983C1" Ref="R91"  Part="1" 
+AR Path="/60BB4C00/60C983C1" Ref="R35"  Part="1" 
+F 0 "R35" V 7850 10700 30  0000 L CNN
 F 1 "49.9" V 7900 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7830 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7900 10600 50  0001 C CNN
@@ -2178,12 +2178,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7900 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C134
+L Device:C_Small C136
 U 1 1 61BCD34E
 P 7750 10850
-AR Path="/60BB4A14/61BCD34E" Ref="C134"  Part="1" 
-AR Path="/60BB4C00/61BCD34E" Ref="C51"  Part="1" 
-F 0 "C134" H 7700 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD34E" Ref="C136"  Part="1" 
+AR Path="/60BB4C00/61BCD34E" Ref="C53"  Part="1" 
+F 0 "C53" H 7700 10800 30  0000 L CNN
 F 1 "0.1uF" H 7700 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7750 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7750 10850 50  0001 C CNN
@@ -2196,12 +2196,12 @@ F 8 "732-7532-1-ND" H 7750 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R88
+L Device:R R89
 U 1 1 61BCD33F
 P 7750 10600
-AR Path="/60BB4A14/61BCD33F" Ref="R88"  Part="1" 
-AR Path="/60BB4C00/61BCD33F" Ref="R32"  Part="1" 
-F 0 "R88" V 7700 10700 30  0000 L CNN
+AR Path="/60BB4A14/61BCD33F" Ref="R89"  Part="1" 
+AR Path="/60BB4C00/61BCD33F" Ref="R33"  Part="1" 
+F 0 "R33" V 7700 10700 30  0000 L CNN
 F 1 "49.9" V 7750 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7680 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7750 10600 50  0001 C CNN
@@ -2214,12 +2214,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7750 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C132
+L Device:C_Small C134
 U 1 1 60C9839C
 P 7600 10850
-AR Path="/60BB4A14/60C9839C" Ref="C132"  Part="1" 
-AR Path="/60BB4C00/60C9839C" Ref="C49"  Part="1" 
-F 0 "C132" H 7550 10800 30  0000 L CNN
+AR Path="/60BB4A14/60C9839C" Ref="C134"  Part="1" 
+AR Path="/60BB4C00/60C9839C" Ref="C51"  Part="1" 
+F 0 "C51" H 7550 10800 30  0000 L CNN
 F 1 "0.1uF" H 7550 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7600 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7600 10850 50  0001 C CNN
@@ -2232,12 +2232,12 @@ F 8 "732-7532-1-ND" H 7600 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R86
+L Device:R R87
 U 1 1 60C9839B
 P 7600 10600
-AR Path="/60BB4A14/60C9839B" Ref="R86"  Part="1" 
-AR Path="/60BB4C00/60C9839B" Ref="R30"  Part="1" 
-F 0 "R86" V 7550 10700 30  0000 L CNN
+AR Path="/60BB4A14/60C9839B" Ref="R87"  Part="1" 
+AR Path="/60BB4C00/60C9839B" Ref="R31"  Part="1" 
+F 0 "R31" V 7550 10700 30  0000 L CNN
 F 1 "49.9" V 7600 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7530 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7600 10600 50  0001 C CNN
@@ -2250,12 +2250,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7600 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C130
+L Device:C_Small C132
 U 1 1 61BCD2ED
 P 7450 10850
-AR Path="/60BB4A14/61BCD2ED" Ref="C130"  Part="1" 
-AR Path="/60BB4C00/61BCD2ED" Ref="C47"  Part="1" 
-F 0 "C130" H 7400 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2ED" Ref="C132"  Part="1" 
+AR Path="/60BB4C00/61BCD2ED" Ref="C49"  Part="1" 
+F 0 "C49" H 7400 10800 30  0000 L CNN
 F 1 "0.1uF" H 7400 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7450 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7450 10850 50  0001 C CNN
@@ -2268,12 +2268,12 @@ F 8 "732-7532-1-ND" H 7450 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R84
+L Device:R R85
 U 1 1 60C983E8
 P 7450 10600
-AR Path="/60BB4A14/60C983E8" Ref="R84"  Part="1" 
-AR Path="/60BB4C00/60C983E8" Ref="R28"  Part="1" 
-F 0 "R84" V 7400 10700 30  0000 L CNN
+AR Path="/60BB4A14/60C983E8" Ref="R85"  Part="1" 
+AR Path="/60BB4C00/60C983E8" Ref="R29"  Part="1" 
+F 0 "R29" V 7400 10700 30  0000 L CNN
 F 1 "49.9" V 7450 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7380 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7450 10600 50  0001 C CNN
@@ -2286,12 +2286,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7450 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C128
+L Device:C_Small C130
 U 1 1 60C983D2
 P 7300 10850
-AR Path="/60BB4A14/60C983D2" Ref="C128"  Part="1" 
-AR Path="/60BB4C00/60C983D2" Ref="C45"  Part="1" 
-F 0 "C128" H 7250 10800 30  0000 L CNN
+AR Path="/60BB4A14/60C983D2" Ref="C130"  Part="1" 
+AR Path="/60BB4C00/60C983D2" Ref="C47"  Part="1" 
+F 0 "C47" H 7250 10800 30  0000 L CNN
 F 1 "0.1uF" H 7250 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7300 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7300 10850 50  0001 C CNN
@@ -2304,12 +2304,12 @@ F 8 "732-7532-1-ND" H 7300 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R82
+L Device:R R83
 U 1 1 61BCD345
 P 7300 10600
-AR Path="/60BB4A14/61BCD345" Ref="R82"  Part="1" 
-AR Path="/60BB4C00/61BCD345" Ref="R26"  Part="1" 
-F 0 "R82" V 7250 10700 30  0000 L CNN
+AR Path="/60BB4A14/61BCD345" Ref="R83"  Part="1" 
+AR Path="/60BB4C00/61BCD345" Ref="R27"  Part="1" 
+F 0 "R27" V 7250 10700 30  0000 L CNN
 F 1 "49.9" V 7300 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7230 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7300 10600 50  0001 C CNN
@@ -2322,12 +2322,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7300 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C126
+L Device:C_Small C128
 U 1 1 60C983D1
 P 7150 10850
-AR Path="/60BB4A14/60C983D1" Ref="C126"  Part="1" 
-AR Path="/60BB4C00/60C983D1" Ref="C43"  Part="1" 
-F 0 "C126" H 7100 10800 30  0000 L CNN
+AR Path="/60BB4A14/60C983D1" Ref="C128"  Part="1" 
+AR Path="/60BB4C00/60C983D1" Ref="C45"  Part="1" 
+F 0 "C45" H 7100 10800 30  0000 L CNN
 F 1 "0.1uF" H 7100 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7150 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7150 10850 50  0001 C CNN
@@ -2340,12 +2340,12 @@ F 8 "732-7532-1-ND" H 7150 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R80
+L Device:R R81
 U 1 1 61089269
 P 7150 10600
-AR Path="/60BB4A14/61089269" Ref="R80"  Part="1" 
-AR Path="/60BB4C00/61089269" Ref="R24"  Part="1" 
-F 0 "R80" V 7100 10700 30  0000 L CNN
+AR Path="/60BB4A14/61089269" Ref="R81"  Part="1" 
+AR Path="/60BB4C00/61089269" Ref="R25"  Part="1" 
+F 0 "R25" V 7100 10700 30  0000 L CNN
 F 1 "49.9" V 7150 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 7080 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7150 10600 50  0001 C CNN
@@ -2358,12 +2358,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7150 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C124
+L Device:C_Small C126
 U 1 1 61BCD32F
 P 7000 10850
-AR Path="/60BB4A14/61BCD32F" Ref="C124"  Part="1" 
-AR Path="/60BB4C00/61BCD32F" Ref="C41"  Part="1" 
-F 0 "C124" H 6950 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD32F" Ref="C126"  Part="1" 
+AR Path="/60BB4C00/61BCD32F" Ref="C43"  Part="1" 
+F 0 "C43" H 6950 10800 30  0000 L CNN
 F 1 "0.1uF" H 6950 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7000 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 7000 10850 50  0001 C CNN
@@ -2376,12 +2376,12 @@ F 8 "732-7532-1-ND" H 7000 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R78
+L Device:R R79
 U 1 1 61BCD2EB
 P 7000 10600
-AR Path="/60BB4A14/61BCD2EB" Ref="R78"  Part="1" 
-AR Path="/60BB4C00/61BCD2EB" Ref="R22"  Part="1" 
-F 0 "R78" V 6950 10700 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2EB" Ref="R79"  Part="1" 
+AR Path="/60BB4C00/61BCD2EB" Ref="R23"  Part="1" 
+F 0 "R23" V 6950 10700 30  0000 L CNN
 F 1 "49.9" V 7000 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6930 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 7000 10600 50  0001 C CNN
@@ -2394,12 +2394,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 7000 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C122
+L Device:C_Small C124
 U 1 1 61BCD344
 P 6850 10850
-AR Path="/60BB4A14/61BCD344" Ref="C122"  Part="1" 
-AR Path="/60BB4C00/61BCD344" Ref="C39"  Part="1" 
-F 0 "C122" H 6800 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD344" Ref="C124"  Part="1" 
+AR Path="/60BB4C00/61BCD344" Ref="C41"  Part="1" 
+F 0 "C41" H 6800 10800 30  0000 L CNN
 F 1 "0.1uF" H 6800 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6850 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6850 10850 50  0001 C CNN
@@ -2412,12 +2412,12 @@ F 8 "732-7532-1-ND" H 6850 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R76
+L Device:R R77
 U 1 1 61BCD303
 P 6850 10600
-AR Path="/60BB4A14/61BCD303" Ref="R76"  Part="1" 
-AR Path="/60BB4C00/61BCD303" Ref="R20"  Part="1" 
-F 0 "R76" V 6800 10700 30  0000 L CNN
+AR Path="/60BB4A14/61BCD303" Ref="R77"  Part="1" 
+AR Path="/60BB4C00/61BCD303" Ref="R21"  Part="1" 
+F 0 "R21" V 6800 10700 30  0000 L CNN
 F 1 "49.9" V 6850 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6780 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6850 10600 50  0001 C CNN
@@ -2430,12 +2430,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 6850 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C120
+L Device:C_Small C122
 U 1 1 61BCD31B
 P 6700 10850
-AR Path="/60BB4A14/61BCD31B" Ref="C120"  Part="1" 
-AR Path="/60BB4C00/61BCD31B" Ref="C37"  Part="1" 
-F 0 "C120" H 6650 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD31B" Ref="C122"  Part="1" 
+AR Path="/60BB4C00/61BCD31B" Ref="C39"  Part="1" 
+F 0 "C39" H 6650 10800 30  0000 L CNN
 F 1 "0.1uF" H 6650 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6700 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6700 10850 50  0001 C CNN
@@ -2448,12 +2448,12 @@ F 8 "732-7532-1-ND" H 6700 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R74
+L Device:R R75
 U 1 1 61198613
 P 6700 10600
-AR Path="/60BB4A14/61198613" Ref="R74"  Part="1" 
-AR Path="/60BB4C00/61198613" Ref="R18"  Part="1" 
-F 0 "R74" V 6650 10700 30  0000 L CNN
+AR Path="/60BB4A14/61198613" Ref="R75"  Part="1" 
+AR Path="/60BB4C00/61198613" Ref="R19"  Part="1" 
+F 0 "R19" V 6650 10700 30  0000 L CNN
 F 1 "49.9" V 6700 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6630 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6700 10600 50  0001 C CNN
@@ -2466,12 +2466,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 6700 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C118
+L Device:C_Small C120
 U 1 1 61BCD2FB
 P 6550 10850
-AR Path="/60BB4A14/61BCD2FB" Ref="C118"  Part="1" 
-AR Path="/60BB4C00/61BCD2FB" Ref="C35"  Part="1" 
-F 0 "C118" H 6500 10800 30  0000 L CNN
+AR Path="/60BB4A14/61BCD2FB" Ref="C120"  Part="1" 
+AR Path="/60BB4C00/61BCD2FB" Ref="C37"  Part="1" 
+F 0 "C37" H 6500 10800 30  0000 L CNN
 F 1 "0.1uF" H 6500 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6550 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6550 10850 50  0001 C CNN
@@ -2484,12 +2484,12 @@ F 8 "732-7532-1-ND" H 6550 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R72
+L Device:R R73
 U 1 1 60C983BF
 P 6550 10600
-AR Path="/60BB4A14/60C983BF" Ref="R72"  Part="1" 
-AR Path="/60BB4C00/60C983BF" Ref="R16"  Part="1" 
-F 0 "R72" V 6500 10700 30  0000 L CNN
+AR Path="/60BB4A14/60C983BF" Ref="R73"  Part="1" 
+AR Path="/60BB4C00/60C983BF" Ref="R17"  Part="1" 
+F 0 "R17" V 6500 10700 30  0000 L CNN
 F 1 "49.9" V 6550 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6480 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6550 10600 50  0001 C CNN
@@ -2502,12 +2502,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 6550 10600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R70
+L Device:R R71
 U 1 1 61BCD31E
 P 6400 10600
-AR Path="/60BB4A14/61BCD31E" Ref="R70"  Part="1" 
-AR Path="/60BB4C00/61BCD31E" Ref="R14"  Part="1" 
-F 0 "R70" V 6350 10700 30  0000 L CNN
+AR Path="/60BB4A14/61BCD31E" Ref="R71"  Part="1" 
+AR Path="/60BB4C00/61BCD31E" Ref="R15"  Part="1" 
+F 0 "R15" V 6350 10700 30  0000 L CNN
 F 1 "49.9" V 6400 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6330 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6400 10600 50  0001 C CNN
@@ -2525,10 +2525,10 @@ U 3 1 61BCD35B
 P 9600 7150
 AR Path="/61BCD35B" Ref="U?"  Part="3" 
 AR Path="/6076454A/61BCD35B" Ref="U?"  Part="3" 
-AR Path="/60BB4A14/61BCD35B" Ref="U15"  Part="3" 
-AR Path="/60BB4C00/61BCD35B" Ref="U7"  Part="3" 
-AR Path="/60D04563/61BCD35B" Ref="U7"  Part="3" 
-F 0 "U15" H 9900 7300 50  0000 C CNN
+AR Path="/60BB4A14/61BCD35B" Ref="U16"  Part="3" 
+AR Path="/60BB4C00/61BCD35B" Ref="U8"  Part="3" 
+AR Path="/60D04563/61BCD35B" Ref="U?"  Part="3" 
+F 0 "U8" H 9900 7300 50  0000 C CNN
 F 1 "CITIROC1A" H 10000 7200 50  0000 C CNN
 F 2 "readout_trenz:QFP-160_26x26_Pitch0.65mm" H 9000 7300 50  0001 C CNN
 F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 9000 7300 50  0001 C CNN
@@ -2539,17 +2539,17 @@ $EndComp
 Wire Wire Line
 	13650 1050 13650 1350
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 61BCD2E2
 P 14250 1150
 AR Path="/605605C8/61BCD2E2" Ref="#PWR?"  Part="1" 
 AR Path="/60548503/61BCD2E2" Ref="#PWR?"  Part="1" 
 AR Path="/605DF89A/61BCD2E2" Ref="#PWR?"  Part="1" 
 AR Path="/60C32D5A/61BCD2E2" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4A14/61BCD2E2" Ref="#PWR0164"  Part="1" 
-AR Path="/60BB4C00/61BCD2E2" Ref="#PWR078"  Part="1" 
-F 0 "#PWR0164" H 14250 900 50  0001 C CNN
-F 1 "GNDD" H 14250 1000 50  0000 C CNB
+AR Path="/60BB4A14/61BCD2E2" Ref="#PWR0165"  Part="1" 
+AR Path="/60BB4C00/61BCD2E2" Ref="#PWR080"  Part="1" 
+F 0 "#PWR080" H 14250 900 50  0001 C CNN
+F 1 "GND" H 14250 1000 50  0000 C CNB
 F 2 "" H 14250 1150 50  0001 C CNN
 F 3 "" H 14250 1150 50  0001 C CNN
 	1    14250 1150
@@ -2569,7 +2569,7 @@ AR Path="/605DF89A/61BCD2E1" Ref="TP?"  Part="1"
 AR Path="/60C32D5A/61BCD2E1" Ref="TP?"  Part="1" 
 AR Path="/60BB4A14/61BCD2E1" Ref="TP24"  Part="1" 
 AR Path="/60BB4C00/61BCD2E1" Ref="TP12"  Part="1" 
-F 0 "TP24" H 13950 1245 50  0000 C CNN
+F 0 "TP12" H 13950 1245 50  0000 C CNN
 F 1 "probe" H 13950 1154 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 13950 1050 50  0001 C CNN
 F 3 "~" H 13950 1050 50  0001 C CNN
@@ -2584,9 +2584,9 @@ AR Path="/60548503/61BCD2DB" Ref="U?"  Part="2"
 AR Path="/605DF89A/61BCD2DB" Ref="U?"  Part="2" 
 AR Path="/61BCD2DB" Ref="U?"  Part="2" 
 AR Path="/60C32D5A/61BCD2DB" Ref="U?"  Part="2" 
-AR Path="/60BB4A14/61BCD2DB" Ref="U15"  Part="2" 
-AR Path="/60BB4C00/61BCD2DB" Ref="U7"  Part="2" 
-F 0 "U15" H 13525 -2773 50  0000 C CNN
+AR Path="/60BB4A14/61BCD2DB" Ref="U16"  Part="2" 
+AR Path="/60BB4C00/61BCD2DB" Ref="U8"  Part="2" 
+F 0 "U8" H 13525 -2773 50  0000 C CNN
 F 1 "CITIROC1A" H 13525 -2864 50  0000 C CNN
 F 2 "readout_trenz:QFP-160_26x26_Pitch0.65mm" H 13000 1600 50  0001 C CNN
 F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 13000 1600 50  0001 C CNN
@@ -2607,7 +2607,7 @@ Wire Wire Line
 Wire Wire Line
 	5150 2950 5150 3150
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 60DD8723
 P 5150 3150
 AR Path="/60DD8723" Ref="#PWR?"  Part="1" 
@@ -2615,10 +2615,10 @@ AR Path="/603D0C5A/60DD8723" Ref="#PWR?"  Part="1"
 AR Path="/608039EA/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/6086954E/60943779/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/60DD8723" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD8723" Ref="#PWR041"  Part="1" 
-AR Path="/60BB4A14/60DD8723" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0127" H 5150 2900 50  0001 C CNN
-F 1 "GNDD" H 5150 3000 50  0000 C CNB
+AR Path="/60BB4C00/60DD8723" Ref="#PWR044"  Part="1" 
+AR Path="/60BB4A14/60DD8723" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR044" H 5150 2900 50  0001 C CNN
+F 1 "GND" H 5150 3000 50  0000 C CNN
 F 2 "" H 5150 3150 50  0001 C CNN
 F 3 "" H 5150 3150 50  0001 C CNN
 	1    5150 3150
@@ -2786,7 +2786,7 @@ Connection ~ 3400 2050
 Wire Wire Line
 	3400 2050 3400 1950
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 60DD86AD
 P 3150 5650
 AR Path="/60DD86AD" Ref="#PWR?"  Part="1" 
@@ -2794,17 +2794,17 @@ AR Path="/603D0C5A/60DD86AD" Ref="#PWR?"  Part="1"
 AR Path="/608039EA/60DD86AD" Ref="#PWR?"  Part="1" 
 AR Path="/6086954E/60943779/60DD86AD" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/60DD86AD" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD86AD" Ref="#PWR038"  Part="1" 
-AR Path="/60BB4A14/60DD86AD" Ref="#PWR0124"  Part="1" 
-F 0 "#PWR0124" H 3150 5400 50  0001 C CNN
-F 1 "GNDD" H 3150 5500 50  0000 C CNB
+AR Path="/60BB4C00/60DD86AD" Ref="#PWR041"  Part="1" 
+AR Path="/60BB4A14/60DD86AD" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR041" H 3150 5400 50  0001 C CNN
+F 1 "GND" H 3150 5500 50  0000 C CNB
 F 2 "" H 3150 5650 50  0001 C CNN
 F 3 "" H 3150 5650 50  0001 C CNN
 	1    3150 5650
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR?
+L power:GND #PWR?
 U 1 1 60DD86A7
 P 3400 5650
 AR Path="/60DD86A7" Ref="#PWR?"  Part="1" 
@@ -2812,10 +2812,10 @@ AR Path="/603D0C5A/60DD86A7" Ref="#PWR?"  Part="1"
 AR Path="/608039EA/60DD86A7" Ref="#PWR?"  Part="1" 
 AR Path="/6086954E/60943779/60DD86A7" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/60DD86A7" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DD86A7" Ref="#PWR039"  Part="1" 
-AR Path="/60BB4A14/60DD86A7" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 3400 5400 50  0001 C CNN
-F 1 "GNDA" H 3400 5500 50  0000 C CNB
+AR Path="/60BB4C00/60DD86A7" Ref="#PWR042"  Part="1" 
+AR Path="/60BB4A14/60DD86A7" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR042" H 3400 5400 50  0001 C CNN
+F 1 "GND" H 3400 5500 50  0000 C CNB
 F 2 "" H 3400 5650 50  0001 C CNN
 F 3 "" H 3400 5650 50  0001 C CNN
 	1    3400 5650
@@ -2859,14 +2859,14 @@ Wire Wire Line
 Wire Wire Line
 	4800 5350 4900 5350
 $Comp
-L power:GNDA #PWR?
+L power:GND #PWR?
 U 1 1 61BCD31A
 P 3600 800
 AR Path="/607ECAFE/61BCD31A" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/61BCD31A" Ref="#PWR040"  Part="1" 
-AR Path="/60BB4A14/61BCD31A" Ref="#PWR0126"  Part="1" 
-F 0 "#PWR0126" H 3600 550 50  0001 C CNN
-F 1 "GNDA" H 3605 627 50  0000 C CNN
+AR Path="/60BB4C00/61BCD31A" Ref="#PWR043"  Part="1" 
+AR Path="/60BB4A14/61BCD31A" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR043" H 3600 550 50  0001 C CNN
+F 1 "GND" H 3605 627 50  0000 C CNN
 F 2 "" H 3600 800 50  0001 C CNN
 F 3 "" H 3600 800 50  0001 C CNN
 	1    3600 800 
@@ -2877,9 +2877,9 @@ L Device:C_Small C?
 U 1 1 60DD8736
 P 4050 900
 AR Path="/607ECAFE/60DD8736" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/60DD8736" Ref="C17"  Part="1" 
-AR Path="/60BB4A14/60DD8736" Ref="C100"  Part="1" 
-F 0 "C100" H 3850 950 50  0000 L CNN
+AR Path="/60BB4C00/60DD8736" Ref="C19"  Part="1" 
+AR Path="/60BB4A14/60DD8736" Ref="C102"  Part="1" 
+F 0 "C19" H 3850 950 50  0000 L CNN
 F 1 "0.1uF" H 3800 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4050 900 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 4050 900 50  0001 C CNN
@@ -2896,9 +2896,9 @@ L Device:C_Small C?
 U 1 1 61BCD319
 P 4250 900
 AR Path="/607ECAFE/61BCD319" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61BCD319" Ref="C18"  Part="1" 
-AR Path="/60BB4A14/61BCD319" Ref="C101"  Part="1" 
-F 0 "C101" H 4050 950 50  0000 L CNN
+AR Path="/60BB4C00/61BCD319" Ref="C20"  Part="1" 
+AR Path="/60BB4A14/61BCD319" Ref="C103"  Part="1" 
+F 0 "C20" H 4050 950 50  0000 L CNN
 F 1 "0.1uF" H 4000 850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4250 900 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 4250 900 50  0001 C CNN
@@ -2952,12 +2952,12 @@ Connection ~ 8600 10150
 Connection ~ 8650 10250
 Connection ~ 8750 10350
 $Comp
-L Device:R R100
+L Device:R R101
 U 1 1 61BCD343
 P 8650 10600
-AR Path="/60BB4A14/61BCD343" Ref="R100"  Part="1" 
-AR Path="/60BB4C00/61BCD343" Ref="R44"  Part="1" 
-F 0 "R100" V 8600 10700 30  0000 L CNN
+AR Path="/60BB4A14/61BCD343" Ref="R101"  Part="1" 
+AR Path="/60BB4C00/61BCD343" Ref="R45"  Part="1" 
+F 0 "R45" V 8600 10700 30  0000 L CNN
 F 1 "49.9" V 8650 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8580 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8650 10600 50  0001 C CNN
@@ -3006,13 +3006,13 @@ Entry Wire Line
 Entry Wire Line
 	7950 5050 7850 4950
 $Comp
-L power:GNDA #PWR0153
+L power:GND #PWR0154
 U 1 1 61EB8B80
 P 11250 7000
-AR Path="/60BB4A14/61EB8B80" Ref="#PWR0153"  Part="1" 
-AR Path="/60BB4C00/61EB8B80" Ref="#PWR067"  Part="1" 
-F 0 "#PWR0153" H 11250 6750 50  0001 C CNN
-F 1 "GNDA" H 11250 6850 50  0000 C CNB
+AR Path="/60BB4A14/61EB8B80" Ref="#PWR0154"  Part="1" 
+AR Path="/60BB4C00/61EB8B80" Ref="#PWR069"  Part="1" 
+F 0 "#PWR069" H 11250 6750 50  0001 C CNN
+F 1 "GND" H 11250 6850 50  0000 C CNB
 F 2 "" H 11250 7000 50  0001 C CNN
 F 3 "" H 11250 7000 50  0001 C CNN
 	1    11250 7000
@@ -3030,13 +3030,13 @@ Connection ~ 6400 11000
 Wire Wire Line
 	7300 11000 7450 11000
 $Comp
-L power:GNDA #PWR0143
+L power:GND #PWR0145
 U 1 1 61BCD2F9
 P 6400 11050
-AR Path="/60BB4A14/61BCD2F9" Ref="#PWR0143"  Part="1" 
-AR Path="/60BB4C00/61BCD2F9" Ref="#PWR057"  Part="1" 
-F 0 "#PWR0143" H 6400 10800 50  0001 C CNN
-F 1 "GNDA" H 6400 10900 50  0000 C CNB
+AR Path="/60BB4A14/61BCD2F9" Ref="#PWR0145"  Part="1" 
+AR Path="/60BB4C00/61BCD2F9" Ref="#PWR060"  Part="1" 
+F 0 "#PWR060" H 6400 10800 50  0001 C CNN
+F 1 "GND" H 6400 10900 50  0000 C CNB
 F 2 "" H 6400 11050 50  0001 C CNN
 F 3 "" H 6400 11050 50  0001 C CNN
 	1    6400 11050
@@ -3071,12 +3071,12 @@ Text GLabel 11000 2000 1    50   Input ~ 0
 Text GLabel 10000 2000 1    50   Input ~ 0
 1.8V_CITIROC
 $Comp
-L readout:SN74AXC2T45DCTR U16
+L readout:SN74AXC2T45DCTR U17
 U 1 1 62002192
 P 10500 2300
-AR Path="/60BB4A14/62002192" Ref="U16"  Part="1" 
-AR Path="/60BB4C00/62002192" Ref="U8"  Part="1" 
-F 0 "U16" H 10500 2675 50  0000 C CNN
+AR Path="/60BB4A14/62002192" Ref="U17"  Part="1" 
+AR Path="/60BB4C00/62002192" Ref="U9"  Part="1" 
+F 0 "U9" H 10500 2675 50  0000 C CNN
 F 1 "SN74AXC2T45DCTR" H 10500 2584 50  0000 C CNN
 F 2 "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm" H 10500 2300 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74axc2t45.pdf?ts=1624298260694&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74AXC2T45DCTR" H 10500 2300 50  0001 C CNN
@@ -3094,13 +3094,13 @@ Wire Wire Line
 	10850 2450 10850 2600
 Connection ~ 10850 2600
 $Comp
-L power:GNDD #PWR0150
+L power:GND #PWR0152
 U 1 1 620021C4
 P 10850 2600
-AR Path="/60BB4A14/620021C4" Ref="#PWR0150"  Part="1" 
-AR Path="/60BB4C00/620021C4" Ref="#PWR064"  Part="1" 
-F 0 "#PWR0150" H 10850 2350 50  0001 C CNN
-F 1 "GNDD" H 10854 2445 50  0000 C CNN
+AR Path="/60BB4A14/620021C4" Ref="#PWR0152"  Part="1" 
+AR Path="/60BB4C00/620021C4" Ref="#PWR067"  Part="1" 
+F 0 "#PWR067" H 10850 2350 50  0001 C CNN
+F 1 "GND" H 10854 2445 50  0000 C CNN
 F 2 "" H 10850 2600 50  0001 C CNN
 F 3 "" H 10850 2600 50  0001 C CNN
 	1    10850 2600
@@ -3115,13 +3115,13 @@ Wire Wire Line
 Wire Wire Line
 	10850 3850 10850 3750
 $Comp
-L power:GNDD #PWR0147
+L power:GND #PWR0149
 U 1 1 62102F52
 P 10500 3850
-AR Path="/60BB4A14/62102F52" Ref="#PWR0147"  Part="1" 
-AR Path="/60BB4C00/62102F52" Ref="#PWR061"  Part="1" 
-F 0 "#PWR0147" H 10500 3600 50  0001 C CNN
-F 1 "GNDD" H 10504 3695 50  0000 C CNN
+AR Path="/60BB4A14/62102F52" Ref="#PWR0149"  Part="1" 
+AR Path="/60BB4C00/62102F52" Ref="#PWR064"  Part="1" 
+F 0 "#PWR064" H 10500 3600 50  0001 C CNN
+F 1 "GND" H 10504 3695 50  0000 C CNN
 F 2 "" H 10500 3850 50  0001 C CNN
 F 3 "" H 10500 3850 50  0001 C CNN
 	1    10500 3850
@@ -3131,12 +3131,12 @@ Connection ~ 10500 3850
 Wire Wire Line
 	10500 3850 10850 3850
 $Comp
-L readout:NLSV8T244 U17
+L readout:NLSV8T244 U18
 U 1 1 62102F64
 P 10500 3300
-AR Path="/60BB4A14/62102F64" Ref="U17"  Part="1" 
-AR Path="/60BB4C00/62102F64" Ref="U9"  Part="1" 
-F 0 "U17" H 10500 3950 50  0000 C CNN
+AR Path="/60BB4A14/62102F64" Ref="U18"  Part="1" 
+AR Path="/60BB4C00/62102F64" Ref="U10"  Part="1" 
+F 0 "U10" H 10500 3950 50  0000 C CNN
 F 1 "NLSV8T244" H 10500 3850 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 10500 3300 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nlsv8t244-d.pdf" H 10500 3300 50  0001 C CNN
@@ -3158,13 +3158,13 @@ Wire Wire Line
 Wire Wire Line
 	10850 5350 10850 5250
 $Comp
-L power:GNDD #PWR0148
+L power:GND #PWR0150
 U 1 1 629D29F8
 P 10500 5350
-AR Path="/60BB4A14/629D29F8" Ref="#PWR0148"  Part="1" 
-AR Path="/60BB4C00/629D29F8" Ref="#PWR062"  Part="1" 
-F 0 "#PWR0148" H 10500 5100 50  0001 C CNN
-F 1 "GNDD" H 10504 5195 50  0000 C CNN
+AR Path="/60BB4A14/629D29F8" Ref="#PWR0150"  Part="1" 
+AR Path="/60BB4C00/629D29F8" Ref="#PWR065"  Part="1" 
+F 0 "#PWR065" H 10500 5100 50  0001 C CNN
+F 1 "GND" H 10504 5195 50  0000 C CNN
 F 2 "" H 10500 5350 50  0001 C CNN
 F 3 "" H 10500 5350 50  0001 C CNN
 	1    10500 5350
@@ -3174,12 +3174,12 @@ Connection ~ 10500 5350
 Wire Wire Line
 	10500 5350 10850 5350
 $Comp
-L readout:NLSV8T244 U18
+L readout:NLSV8T244 U19
 U 1 1 629D2A0A
 P 10500 4800
-AR Path="/60BB4A14/629D2A0A" Ref="U18"  Part="1" 
-AR Path="/60BB4C00/629D2A0A" Ref="U10"  Part="1" 
-F 0 "U18" H 10500 5475 50  0000 C CNN
+AR Path="/60BB4A14/629D2A0A" Ref="U19"  Part="1" 
+AR Path="/60BB4C00/629D2A0A" Ref="U11"  Part="1" 
+F 0 "U11" H 10500 5475 50  0000 C CNN
 F 1 "NLSV8T244" H 10500 5384 50  0000 C CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 10500 4800 50  0001 C CNN
 F 3 "https://www.onsemi.com/pdf/datasheet/nlsv8t244-d.pdf" H 10500 4800 50  0001 C CNN
@@ -3330,9 +3330,9 @@ L Device:C_Small C?
 U 1 1 6113E8CE
 P 14050 8700
 AR Path="/62251D77/6113E8CE" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/6113E8CE" Ref="C87"  Part="1" 
-AR Path="/60BB4A14/6113E8CE" Ref="C170"  Part="1" 
-F 0 "C170" V 14100 8450 50  0000 L CNN
+AR Path="/60BB4C00/6113E8CE" Ref="C89"  Part="1" 
+AR Path="/60BB4A14/6113E8CE" Ref="C172"  Part="1" 
+F 0 "C89" V 14100 8450 50  0000 L CNN
 F 1 "0.1uF" V 14000 8450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14050 8700 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 14050 8700 50  0001 C CNN
@@ -3345,14 +3345,14 @@ F 8 "732-7965-1-ND" H 14050 8700 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 6113E8D4
 P 14250 8700
 AR Path="/62251D77/6113E8D4" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/6113E8D4" Ref="#PWR079"  Part="1" 
-AR Path="/60BB4A14/6113E8D4" Ref="#PWR0165"  Part="1" 
-F 0 "#PWR0165" H 14250 8450 50  0001 C CNN
-F 1 "GNDD" H 14254 8545 50  0000 C CNN
+AR Path="/60BB4C00/6113E8D4" Ref="#PWR081"  Part="1" 
+AR Path="/60BB4A14/6113E8D4" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR081" H 14250 8450 50  0001 C CNN
+F 1 "GND" H 14254 8545 50  0000 C CNN
 F 2 "" H 14250 8700 50  0001 C CNN
 F 3 "" H 14250 8700 50  0001 C CNN
 	1    14250 8700
@@ -3367,9 +3367,9 @@ L Device:C_Small C?
 U 1 1 611CBAD7
 P 11200 4350
 AR Path="/62251D77/611CBAD7" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/611CBAD7" Ref="C80"  Part="1" 
-AR Path="/60BB4A14/611CBAD7" Ref="C163"  Part="1" 
-F 0 "C163" H 11292 4396 50  0000 L CNN
+AR Path="/60BB4C00/611CBAD7" Ref="C82"  Part="1" 
+AR Path="/60BB4A14/611CBAD7" Ref="C165"  Part="1" 
+F 0 "C82" H 11292 4396 50  0000 L CNN
 F 1 "0.1uF" H 11292 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 4350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 11200 4350 50  0001 C CNN
@@ -3382,14 +3382,14 @@ F 8 "732-7965-1-ND" H 11200 4350 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 611CBADD
 P 11400 4350
 AR Path="/62251D77/611CBADD" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/611CBADD" Ref="#PWR069"  Part="1" 
-AR Path="/60BB4A14/611CBADD" Ref="#PWR0155"  Part="1" 
-F 0 "#PWR0155" H 11400 4100 50  0001 C CNN
-F 1 "GNDD" H 11404 4195 50  0000 C CNN
+AR Path="/60BB4C00/611CBADD" Ref="#PWR071"  Part="1" 
+AR Path="/60BB4A14/611CBADD" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR071" H 11400 4100 50  0001 C CNN
+F 1 "GND" H 11404 4195 50  0000 C CNN
 F 2 "" H 11400 4350 50  0001 C CNN
 F 3 "" H 11400 4350 50  0001 C CNN
 	1    11400 4350
@@ -3404,9 +3404,9 @@ L Device:C_Small C?
 U 1 1 6124B075
 P 11200 2850
 AR Path="/62251D77/6124B075" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/6124B075" Ref="C79"  Part="1" 
-AR Path="/60BB4A14/6124B075" Ref="C162"  Part="1" 
-F 0 "C162" V 11300 2750 50  0000 L CNN
+AR Path="/60BB4C00/6124B075" Ref="C81"  Part="1" 
+AR Path="/60BB4A14/6124B075" Ref="C164"  Part="1" 
+F 0 "C81" V 11300 2750 50  0000 L CNN
 F 1 "0.1uF" V 11250 2600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11200 2850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 11200 2850 50  0001 C CNN
@@ -3419,14 +3419,14 @@ F 8 "732-7965-1-ND" H 11200 2850 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 6124B07B
 P 11400 2850
 AR Path="/62251D77/6124B07B" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/6124B07B" Ref="#PWR068"  Part="1" 
-AR Path="/60BB4A14/6124B07B" Ref="#PWR0154"  Part="1" 
-F 0 "#PWR0154" H 11400 2600 50  0001 C CNN
-F 1 "GNDD" H 11404 2695 50  0000 C CNN
+AR Path="/60BB4C00/6124B07B" Ref="#PWR070"  Part="1" 
+AR Path="/60BB4A14/6124B07B" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR070" H 11400 2600 50  0001 C CNN
+F 1 "GND" H 11404 2695 50  0000 C CNN
 F 2 "" H 11400 2850 50  0001 C CNN
 F 3 "" H 11400 2850 50  0001 C CNN
 	1    11400 2850
@@ -3441,9 +3441,9 @@ L Device:C_Small C?
 U 1 1 615A9353
 P 9800 4350
 AR Path="/62251D77/615A9353" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/615A9353" Ref="C69"  Part="1" 
-AR Path="/60BB4A14/615A9353" Ref="C152"  Part="1" 
-F 0 "C152" H 9892 4396 50  0000 L CNN
+AR Path="/60BB4C00/615A9353" Ref="C71"  Part="1" 
+AR Path="/60BB4A14/615A9353" Ref="C154"  Part="1" 
+F 0 "C71" H 9892 4396 50  0000 L CNN
 F 1 "0.1uF" H 9892 4305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9800 4350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9800 4350 50  0001 C CNN
@@ -3456,14 +3456,14 @@ F 8 "732-7965-1-ND" H 9800 4350 50  0001 C CNN "Supplier P/N"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 615A9359
 P 9600 4350
 AR Path="/62251D77/615A9359" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/615A9359" Ref="#PWR059"  Part="1" 
-AR Path="/60BB4A14/615A9359" Ref="#PWR0145"  Part="1" 
-F 0 "#PWR0145" H 9600 4100 50  0001 C CNN
-F 1 "GNDD" H 9604 4195 50  0000 C CNN
+AR Path="/60BB4C00/615A9359" Ref="#PWR062"  Part="1" 
+AR Path="/60BB4A14/615A9359" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR062" H 9600 4100 50  0001 C CNN
+F 1 "GND" H 9604 4195 50  0000 C CNN
 F 2 "" H 9600 4350 50  0001 C CNN
 F 3 "" H 9600 4350 50  0001 C CNN
 	1    9600 4350
@@ -3478,9 +3478,9 @@ L Device:C_Small C?
 U 1 1 6162B78B
 P 9800 2850
 AR Path="/62251D77/6162B78B" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/6162B78B" Ref="C68"  Part="1" 
-AR Path="/60BB4A14/6162B78B" Ref="C151"  Part="1" 
-F 0 "C151" V 9750 2900 50  0000 L CNN
+AR Path="/60BB4C00/6162B78B" Ref="C70"  Part="1" 
+AR Path="/60BB4A14/6162B78B" Ref="C153"  Part="1" 
+F 0 "C70" V 9750 2900 50  0000 L CNN
 F 1 "0.1uF" V 9900 2700 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9800 2850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9800 2850 50  0001 C CNN
@@ -3493,14 +3493,14 @@ F 8 "732-7965-1-ND" H 9800 2850 50  0001 C CNN "Supplier P/N"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 6162B791
 P 9600 2850
 AR Path="/62251D77/6162B791" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/6162B791" Ref="#PWR058"  Part="1" 
-AR Path="/60BB4A14/6162B791" Ref="#PWR0144"  Part="1" 
-F 0 "#PWR0144" H 9600 2600 50  0001 C CNN
-F 1 "GNDD" H 9604 2695 50  0000 C CNN
+AR Path="/60BB4C00/6162B791" Ref="#PWR061"  Part="1" 
+AR Path="/60BB4A14/6162B791" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR061" H 9600 2600 50  0001 C CNN
+F 1 "GND" H 9604 2695 50  0000 C CNN
 F 2 "" H 9600 2850 50  0001 C CNN
 F 3 "" H 9600 2850 50  0001 C CNN
 	1    9600 2850
@@ -3517,9 +3517,9 @@ L Device:C_Small C?
 U 1 1 616B06C2
 P 10100 2600
 AR Path="/62251D77/616B06C2" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/616B06C2" Ref="C70"  Part="1" 
-AR Path="/60BB4A14/616B06C2" Ref="C153"  Part="1" 
-F 0 "C153" V 10200 2550 50  0000 L CNN
+AR Path="/60BB4C00/616B06C2" Ref="C72"  Part="1" 
+AR Path="/60BB4A14/616B06C2" Ref="C155"  Part="1" 
+F 0 "C72" V 10200 2550 50  0000 L CNN
 F 1 "0.1uF" V 10000 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10100 2600 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10100 2600 50  0001 C CNN
@@ -3548,9 +3548,9 @@ L Device:C_Small C?
 U 1 1 60DE0182
 P 12550 6900
 AR Path="/62251D77/60DE0182" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/60DE0182" Ref="C84"  Part="1" 
-AR Path="/60BB4A14/60DE0182" Ref="C167"  Part="1" 
-F 0 "C167" H 12642 6946 50  0000 L CNN
+AR Path="/60BB4C00/60DE0182" Ref="C86"  Part="1" 
+AR Path="/60BB4A14/60DE0182" Ref="C169"  Part="1" 
+F 0 "C86" H 12642 6946 50  0000 L CNN
 F 1 "0.1uF" H 12642 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12550 6900 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 12550 6900 50  0001 C CNN
@@ -3563,14 +3563,14 @@ F 8 "732-7965-1-ND" H 12550 6900 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 60DE018C
 P 12750 6900
 AR Path="/62251D77/60DE018C" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60DE018C" Ref="#PWR074"  Part="1" 
-AR Path="/60BB4A14/60DE018C" Ref="#PWR0160"  Part="1" 
-F 0 "#PWR0160" H 12750 6650 50  0001 C CNN
-F 1 "GNDD" H 12754 6745 50  0000 C CNN
+AR Path="/60BB4C00/60DE018C" Ref="#PWR076"  Part="1" 
+AR Path="/60BB4A14/60DE018C" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR076" H 12750 6650 50  0001 C CNN
+F 1 "GND" H 12754 6745 50  0000 C CNN
 F 2 "" H 12750 6900 50  0001 C CNN
 F 3 "" H 12750 6900 50  0001 C CNN
 	1    12750 6900
@@ -3584,14 +3584,14 @@ Connection ~ 12350 6900
 Wire Wire Line
 	12350 6900 12350 7050
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 60E85734
 P 12250 6900
 AR Path="/62251D77/60E85734" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/60E85734" Ref="#PWR071"  Part="1" 
-AR Path="/60BB4A14/60E85734" Ref="#PWR0157"  Part="1" 
-F 0 "#PWR0157" H 12250 6650 50  0001 C CNN
-F 1 "GNDD" H 12300 6800 50  0000 C CNN
+AR Path="/60BB4C00/60E85734" Ref="#PWR073"  Part="1" 
+AR Path="/60BB4A14/60E85734" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR073" H 12250 6650 50  0001 C CNN
+F 1 "GND" H 12300 6800 50  0000 C CNN
 F 2 "" H 12250 6900 50  0001 C CNN
 F 3 "" H 12250 6900 50  0001 C CNN
 	1    12250 6900
@@ -3603,12 +3603,12 @@ Connection ~ 11950 6900
 Wire Wire Line
 	11950 6900 11950 6950
 $Comp
-L Device:R_Small R109
+L Device:R_Small R110
 U 1 1 60F38BE1
 P 11250 6550
-AR Path="/60BB4A14/60F38BE1" Ref="R109"  Part="1" 
-AR Path="/60BB4C00/60F38BE1" Ref="R53"  Part="1" 
-F 0 "R109" H 11309 6596 50  0000 L CNN
+AR Path="/60BB4A14/60F38BE1" Ref="R110"  Part="1" 
+AR Path="/60BB4C00/60F38BE1" Ref="R54"  Part="1" 
+F 0 "R54" H 11309 6596 50  0000 L CNN
 F 1 "10k" H 11309 6505 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 11250 6550 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 11250 6550 50  0001 C CNN
@@ -3621,12 +3621,12 @@ F 8 "541-3983-1-ND" H 11250 6550 50  0001 C CNN "Supplier P/N"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R110
+L Device:R_Small R111
 U 1 1 60F3F258
 P 11250 6850
-AR Path="/60BB4A14/60F3F258" Ref="R110"  Part="1" 
-AR Path="/60BB4C00/60F3F258" Ref="R54"  Part="1" 
-F 0 "R110" H 11309 6896 50  0000 L CNN
+AR Path="/60BB4A14/60F3F258" Ref="R111"  Part="1" 
+AR Path="/60BB4C00/60F3F258" Ref="R55"  Part="1" 
+F 0 "R55" H 11309 6896 50  0000 L CNN
 F 1 "10k" H 11309 6805 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 11250 6850 50  0001 C CNN
 F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 11250 6850 50  0001 C CNN
@@ -3646,12 +3646,12 @@ Connection ~ 11250 6700
 Wire Wire Line
 	11250 6700 11250 6750
 $Comp
-L readout:DS90LV027A U19
+L readout:DS90LV027A U20
 U 1 1 614974BE
 P 11550 2300
-AR Path="/60BB4A14/614974BE" Ref="U19"  Part="1" 
-AR Path="/60BB4C00/614974BE" Ref="U11"  Part="1" 
-F 0 "U19" H 11550 2675 50  0000 C CNN
+AR Path="/60BB4A14/614974BE" Ref="U20"  Part="1" 
+AR Path="/60BB4C00/614974BE" Ref="U12"  Part="1" 
+F 0 "U12" H 11550 2675 50  0000 C CNN
 F 1 "DS90LV027A" H 11550 2584 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 11550 2300 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ds90lv027a.pdf?ts=1624298607733&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDS90LV027ATM%252FNOPB%2526utm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-OPN_EN-cpc-store-google-wwe%2526utm_content%253DDevice%2526ds_k%253DDS90LV027ATM%252FNOPB%2526DCM%253Dyes%2526gclid%253DEAIaIQobChMI8Je45qep8QIVV-HICh3kjQY7EAAYASAAEgIUZvD_BwE%2526gclsrc%253Daw.ds" H 11550 2300 50  0001 C CNN
@@ -3670,9 +3670,9 @@ L Device:C_Small C?
 U 1 1 61E68820
 P 11100 2500
 AR Path="/62251D77/61E68820" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61E68820" Ref="C77"  Part="1" 
-AR Path="/60BB4A14/61E68820" Ref="C160"  Part="1" 
-F 0 "C160" H 11000 2550 50  0000 L CNN
+AR Path="/60BB4C00/61E68820" Ref="C79"  Part="1" 
+AR Path="/60BB4A14/61E68820" Ref="C162"  Part="1" 
+F 0 "C79" H 11000 2550 50  0000 L CNN
 F 1 "0.1uF" H 10950 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11100 2500 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 11100 2500 50  0001 C CNN
@@ -3725,9 +3725,9 @@ L Device:C_Small C?
 U 1 1 614B84D1
 P 5100 1350
 AR Path="/62251D77/614B84D1" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/614B84D1" Ref="C19"  Part="1" 
-AR Path="/60BB4A14/614B84D1" Ref="C102"  Part="1" 
-F 0 "C102" V 5150 1400 50  0000 L CNN
+AR Path="/60BB4C00/614B84D1" Ref="C21"  Part="1" 
+AR Path="/60BB4A14/614B84D1" Ref="C104"  Part="1" 
+F 0 "C21" V 5150 1400 50  0000 L CNN
 F 1 "0.1uF" V 5050 1350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 1350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 1350 50  0001 C CNN
@@ -3740,14 +3740,14 @@ F 8 "732-7965-1-ND" H 5100 1350 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 614B84DB
 P 5300 1350
 AR Path="/62251D77/614B84DB" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/614B84DB" Ref="#PWR042"  Part="1" 
-AR Path="/60BB4A14/614B84DB" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 5300 1100 50  0001 C CNN
-F 1 "GNDD" V 5300 1150 50  0000 C CNN
+AR Path="/60BB4C00/614B84DB" Ref="#PWR045"  Part="1" 
+AR Path="/60BB4A14/614B84DB" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR045" H 5300 1100 50  0001 C CNN
+F 1 "GND" V 5300 1150 50  0000 C CNN
 F 2 "" H 5300 1350 50  0001 C CNN
 F 3 "" H 5300 1350 50  0001 C CNN
 	1    5300 1350
@@ -3762,9 +3762,9 @@ L Device:C_Small C?
 U 1 1 615508B2
 P 5250 1450
 AR Path="/62251D77/615508B2" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/615508B2" Ref="C30"  Part="1" 
-AR Path="/60BB4A14/615508B2" Ref="C113"  Part="1" 
-F 0 "C113" V 5300 1450 50  0000 L CNN
+AR Path="/60BB4C00/615508B2" Ref="C32"  Part="1" 
+AR Path="/60BB4A14/615508B2" Ref="C115"  Part="1" 
+F 0 "C32" V 5300 1450 50  0000 L CNN
 F 1 "0.1uF" V 5200 1350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 1450 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5250 1450 50  0001 C CNN
@@ -3777,14 +3777,14 @@ F 8 "732-7965-1-ND" H 5250 1450 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 615508BC
 P 5450 1450
 AR Path="/62251D77/615508BC" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/615508BC" Ref="#PWR053"  Part="1" 
-AR Path="/60BB4A14/615508BC" Ref="#PWR0139"  Part="1" 
-F 0 "#PWR0139" H 5450 1200 50  0001 C CNN
-F 1 "GNDD" V 5450 1250 50  0000 C CNN
+AR Path="/60BB4C00/615508BC" Ref="#PWR056"  Part="1" 
+AR Path="/60BB4A14/615508BC" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR056" H 5450 1200 50  0001 C CNN
+F 1 "GND" V 5450 1250 50  0000 C CNN
 F 2 "" H 5450 1450 50  0001 C CNN
 F 3 "" H 5450 1450 50  0001 C CNN
 	1    5450 1450
@@ -3799,9 +3799,9 @@ L Device:C_Small C?
 U 1 1 615DC67C
 P 5100 1550
 AR Path="/62251D77/615DC67C" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/615DC67C" Ref="C20"  Part="1" 
-AR Path="/60BB4A14/615DC67C" Ref="C103"  Part="1" 
-F 0 "C103" V 5150 1600 50  0000 L CNN
+AR Path="/60BB4C00/615DC67C" Ref="C22"  Part="1" 
+AR Path="/60BB4A14/615DC67C" Ref="C105"  Part="1" 
+F 0 "C22" V 5150 1600 50  0000 L CNN
 F 1 "0.1uF" V 5050 1500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 1550 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 1550 50  0001 C CNN
@@ -3822,9 +3822,9 @@ L Device:C_Small C?
 U 1 1 615DC692
 P 5250 1650
 AR Path="/62251D77/615DC692" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/615DC692" Ref="C31"  Part="1" 
-AR Path="/60BB4A14/615DC692" Ref="C114"  Part="1" 
-F 0 "C114" V 5200 1500 50  0000 L CNN
+AR Path="/60BB4C00/615DC692" Ref="C33"  Part="1" 
+AR Path="/60BB4A14/615DC692" Ref="C116"  Part="1" 
+F 0 "C33" V 5200 1500 50  0000 L CNN
 F 1 "0.1uF" V 5150 1550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5250 1650 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5250 1650 50  0001 C CNN
@@ -3837,14 +3837,14 @@ F 8 "732-7965-1-ND" H 5250 1650 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 615DC69C
 P 5450 1650
 AR Path="/62251D77/615DC69C" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/615DC69C" Ref="#PWR054"  Part="1" 
-AR Path="/60BB4A14/615DC69C" Ref="#PWR0140"  Part="1" 
-F 0 "#PWR0140" H 5450 1400 50  0001 C CNN
-F 1 "GNDD" V 5450 1450 50  0000 C CNN
+AR Path="/60BB4C00/615DC69C" Ref="#PWR057"  Part="1" 
+AR Path="/60BB4A14/615DC69C" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR057" H 5450 1400 50  0001 C CNN
+F 1 "GND" V 5450 1450 50  0000 C CNN
 F 2 "" H 5450 1650 50  0001 C CNN
 F 3 "" H 5450 1650 50  0001 C CNN
 	1    5450 1650
@@ -3855,14 +3855,14 @@ Wire Wire Line
 Wire Wire Line
 	5150 1650 4900 1650
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 615DC686
 P 5300 1550
 AR Path="/62251D77/615DC686" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/615DC686" Ref="#PWR043"  Part="1" 
-AR Path="/60BB4A14/615DC686" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 5300 1300 50  0001 C CNN
-F 1 "GNDD" V 5300 1350 50  0000 C CNN
+AR Path="/60BB4C00/615DC686" Ref="#PWR046"  Part="1" 
+AR Path="/60BB4A14/615DC686" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR046" H 5300 1300 50  0001 C CNN
+F 1 "GND" V 5300 1350 50  0000 C CNN
 F 2 "" H 5300 1550 50  0001 C CNN
 F 3 "" H 5300 1550 50  0001 C CNN
 	1    5300 1550
@@ -3873,9 +3873,9 @@ L Device:C_Small C?
 U 1 1 6181504B
 P 5100 2350
 AR Path="/62251D77/6181504B" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/6181504B" Ref="C21"  Part="1" 
-AR Path="/60BB4A14/6181504B" Ref="C104"  Part="1" 
-F 0 "C104" H 5192 2396 50  0000 L CNN
+AR Path="/60BB4C00/6181504B" Ref="C23"  Part="1" 
+AR Path="/60BB4A14/6181504B" Ref="C106"  Part="1" 
+F 0 "C23" H 5192 2396 50  0000 L CNN
 F 1 "0.1uF" H 5192 2305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 2350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 2350 50  0001 C CNN
@@ -3888,14 +3888,14 @@ F 8 "732-7965-1-ND" H 5100 2350 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 61815055
 P 5300 2350
 AR Path="/62251D77/61815055" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/61815055" Ref="#PWR044"  Part="1" 
-AR Path="/60BB4A14/61815055" Ref="#PWR0130"  Part="1" 
-F 0 "#PWR0130" H 5300 2100 50  0001 C CNN
-F 1 "GNDD" H 5304 2195 50  0000 C CNN
+AR Path="/60BB4C00/61815055" Ref="#PWR047"  Part="1" 
+AR Path="/60BB4A14/61815055" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR047" H 5300 2100 50  0001 C CNN
+F 1 "GND" H 5304 2195 50  0000 C CNN
 F 2 "" H 5300 2350 50  0001 C CNN
 F 3 "" H 5300 2350 50  0001 C CNN
 	1    5300 2350
@@ -3910,9 +3910,9 @@ L Device:C_Small C?
 U 1 1 618AA82A
 P 5350 2850
 AR Path="/62251D77/618AA82A" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/618AA82A" Ref="C32"  Part="1" 
-AR Path="/60BB4A14/618AA82A" Ref="C115"  Part="1" 
-F 0 "C115" V 5400 2900 50  0000 L CNN
+AR Path="/60BB4C00/618AA82A" Ref="C34"  Part="1" 
+AR Path="/60BB4A14/618AA82A" Ref="C117"  Part="1" 
+F 0 "C34" V 5400 2900 50  0000 L CNN
 F 1 "0.1uF" V 5250 2750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 2850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5350 2850 50  0001 C CNN
@@ -3925,14 +3925,14 @@ F 8 "732-7965-1-ND" H 5350 2850 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 618AA834
 P 5550 2850
 AR Path="/62251D77/618AA834" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/618AA834" Ref="#PWR055"  Part="1" 
-AR Path="/60BB4A14/618AA834" Ref="#PWR0141"  Part="1" 
-F 0 "#PWR0141" H 5550 2600 50  0001 C CNN
-F 1 "GNDD" H 5554 2695 50  0000 C CNN
+AR Path="/60BB4C00/618AA834" Ref="#PWR058"  Part="1" 
+AR Path="/60BB4A14/618AA834" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR058" H 5550 2600 50  0001 C CNN
+F 1 "GND" H 5554 2695 50  0000 C CNN
 F 2 "" H 5550 2850 50  0001 C CNN
 F 3 "" H 5550 2850 50  0001 C CNN
 	1    5550 2850
@@ -3948,9 +3948,9 @@ L Device:C_Small C?
 U 1 1 6193B029
 P 5100 3400
 AR Path="/62251D77/6193B029" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/6193B029" Ref="C22"  Part="1" 
-AR Path="/60BB4A14/6193B029" Ref="C105"  Part="1" 
-F 0 "C105" V 5050 3450 50  0000 L CNN
+AR Path="/60BB4C00/6193B029" Ref="C24"  Part="1" 
+AR Path="/60BB4A14/6193B029" Ref="C107"  Part="1" 
+F 0 "C24" V 5050 3450 50  0000 L CNN
 F 1 "0.1uF" V 4950 3300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 3400 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 3400 50  0001 C CNN
@@ -3963,14 +3963,14 @@ F 8 "732-7965-1-ND" H 5100 3400 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 6193B033
 P 5300 3400
 AR Path="/62251D77/6193B033" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/6193B033" Ref="#PWR045"  Part="1" 
-AR Path="/60BB4A14/6193B033" Ref="#PWR0131"  Part="1" 
-F 0 "#PWR0131" H 5300 3150 50  0001 C CNN
-F 1 "GNDD" H 5304 3245 50  0000 C CNN
+AR Path="/60BB4C00/6193B033" Ref="#PWR048"  Part="1" 
+AR Path="/60BB4A14/6193B033" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR048" H 5300 3150 50  0001 C CNN
+F 1 "GND" H 5304 3245 50  0000 C CNN
 F 2 "" H 5300 3400 50  0001 C CNN
 F 3 "" H 5300 3400 50  0001 C CNN
 	1    5300 3400
@@ -3985,9 +3985,9 @@ L Device:C_Small C?
 U 1 1 619D2DEA
 P 5100 3750
 AR Path="/62251D77/619D2DEA" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/619D2DEA" Ref="C23"  Part="1" 
-AR Path="/60BB4A14/619D2DEA" Ref="C106"  Part="1" 
-F 0 "C106" V 5050 3800 50  0000 L CNN
+AR Path="/60BB4C00/619D2DEA" Ref="C25"  Part="1" 
+AR Path="/60BB4A14/619D2DEA" Ref="C108"  Part="1" 
+F 0 "C25" V 5050 3800 50  0000 L CNN
 F 1 "0.1uF" V 4950 3650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 3750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 3750 50  0001 C CNN
@@ -4000,14 +4000,14 @@ F 8 "732-7965-1-ND" H 5100 3750 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 619D2DF4
 P 5300 3750
 AR Path="/62251D77/619D2DF4" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/619D2DF4" Ref="#PWR046"  Part="1" 
-AR Path="/60BB4A14/619D2DF4" Ref="#PWR0132"  Part="1" 
-F 0 "#PWR0132" H 5300 3500 50  0001 C CNN
-F 1 "GNDD" H 5304 3595 50  0000 C CNN
+AR Path="/60BB4C00/619D2DF4" Ref="#PWR049"  Part="1" 
+AR Path="/60BB4A14/619D2DF4" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR049" H 5300 3500 50  0001 C CNN
+F 1 "GND" H 5304 3595 50  0000 C CNN
 F 2 "" H 5300 3750 50  0001 C CNN
 F 3 "" H 5300 3750 50  0001 C CNN
 	1    5300 3750
@@ -4022,9 +4022,9 @@ L Device:C_Small C?
 U 1 1 61A644B8
 P 5100 3950
 AR Path="/62251D77/61A644B8" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61A644B8" Ref="C24"  Part="1" 
-AR Path="/60BB4A14/61A644B8" Ref="C107"  Part="1" 
-F 0 "C107" V 5050 4000 50  0000 L CNN
+AR Path="/60BB4C00/61A644B8" Ref="C26"  Part="1" 
+AR Path="/60BB4A14/61A644B8" Ref="C109"  Part="1" 
+F 0 "C26" V 5050 4000 50  0000 L CNN
 F 1 "0.1uF" V 4950 3850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 3950 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 3950 50  0001 C CNN
@@ -4037,14 +4037,14 @@ F 8 "732-7965-1-ND" H 5100 3950 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 61A644C2
 P 5300 3950
 AR Path="/62251D77/61A644C2" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/61A644C2" Ref="#PWR047"  Part="1" 
-AR Path="/60BB4A14/61A644C2" Ref="#PWR0133"  Part="1" 
-F 0 "#PWR0133" H 5300 3700 50  0001 C CNN
-F 1 "GNDD" H 5304 3795 50  0000 C CNN
+AR Path="/60BB4C00/61A644C2" Ref="#PWR050"  Part="1" 
+AR Path="/60BB4A14/61A644C2" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR050" H 5300 3700 50  0001 C CNN
+F 1 "GND" H 5304 3795 50  0000 C CNN
 F 2 "" H 5300 3950 50  0001 C CNN
 F 3 "" H 5300 3950 50  0001 C CNN
 	1    5300 3950
@@ -4059,9 +4059,9 @@ L Device:C_Small C?
 U 1 1 61AF8BAF
 P 5100 4450
 AR Path="/62251D77/61AF8BAF" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61AF8BAF" Ref="C25"  Part="1" 
-AR Path="/60BB4A14/61AF8BAF" Ref="C108"  Part="1" 
-F 0 "C108" V 5050 4500 50  0000 L CNN
+AR Path="/60BB4C00/61AF8BAF" Ref="C27"  Part="1" 
+AR Path="/60BB4A14/61AF8BAF" Ref="C110"  Part="1" 
+F 0 "C27" V 5050 4500 50  0000 L CNN
 F 1 "0.1uF" V 4950 4350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 4450 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 4450 50  0001 C CNN
@@ -4074,14 +4074,14 @@ F 8 "732-7965-1-ND" H 5100 4450 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 61AF8BB9
 P 5300 4450
 AR Path="/62251D77/61AF8BB9" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/61AF8BB9" Ref="#PWR048"  Part="1" 
-AR Path="/60BB4A14/61AF8BB9" Ref="#PWR0134"  Part="1" 
-F 0 "#PWR0134" H 5300 4200 50  0001 C CNN
-F 1 "GNDD" H 5304 4295 50  0000 C CNN
+AR Path="/60BB4C00/61AF8BB9" Ref="#PWR051"  Part="1" 
+AR Path="/60BB4A14/61AF8BB9" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR051" H 5300 4200 50  0001 C CNN
+F 1 "GND" H 5304 4295 50  0000 C CNN
 F 2 "" H 5300 4450 50  0001 C CNN
 F 3 "" H 5300 4450 50  0001 C CNN
 	1    5300 4450
@@ -4096,9 +4096,9 @@ L Device:C_Small C?
 U 1 1 61AF8BC5
 P 5100 4650
 AR Path="/62251D77/61AF8BC5" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61AF8BC5" Ref="C26"  Part="1" 
-AR Path="/60BB4A14/61AF8BC5" Ref="C109"  Part="1" 
-F 0 "C109" V 5050 4700 50  0000 L CNN
+AR Path="/60BB4C00/61AF8BC5" Ref="C28"  Part="1" 
+AR Path="/60BB4A14/61AF8BC5" Ref="C111"  Part="1" 
+F 0 "C28" V 5050 4700 50  0000 L CNN
 F 1 "0.1uF" V 4950 4550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 4650 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 4650 50  0001 C CNN
@@ -4111,14 +4111,14 @@ F 8 "732-7965-1-ND" H 5100 4650 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 61AF8BCF
 P 5300 4650
 AR Path="/62251D77/61AF8BCF" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/61AF8BCF" Ref="#PWR049"  Part="1" 
-AR Path="/60BB4A14/61AF8BCF" Ref="#PWR0135"  Part="1" 
-F 0 "#PWR0135" H 5300 4400 50  0001 C CNN
-F 1 "GNDD" H 5304 4495 50  0000 C CNN
+AR Path="/60BB4C00/61AF8BCF" Ref="#PWR052"  Part="1" 
+AR Path="/60BB4A14/61AF8BCF" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR052" H 5300 4400 50  0001 C CNN
+F 1 "GND" H 5304 4495 50  0000 C CNN
 F 2 "" H 5300 4650 50  0001 C CNN
 F 3 "" H 5300 4650 50  0001 C CNN
 	1    5300 4650
@@ -4133,9 +4133,9 @@ L Device:C_Small C?
 U 1 1 61B9131B
 P 5100 5150
 AR Path="/62251D77/61B9131B" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61B9131B" Ref="C28"  Part="1" 
-AR Path="/60BB4A14/61B9131B" Ref="C111"  Part="1" 
-F 0 "C111" V 5050 5200 50  0000 L CNN
+AR Path="/60BB4C00/61B9131B" Ref="C30"  Part="1" 
+AR Path="/60BB4A14/61B9131B" Ref="C113"  Part="1" 
+F 0 "C30" V 5050 5200 50  0000 L CNN
 F 1 "0.1uF" V 4950 5050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 5150 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 5150 50  0001 C CNN
@@ -4148,14 +4148,14 @@ F 8 "732-7965-1-ND" H 5100 5150 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 61B91325
 P 5300 5150
 AR Path="/62251D77/61B91325" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/61B91325" Ref="#PWR051"  Part="1" 
-AR Path="/60BB4A14/61B91325" Ref="#PWR0137"  Part="1" 
-F 0 "#PWR0137" H 5300 4900 50  0001 C CNN
-F 1 "GNDD" H 5304 4995 50  0000 C CNN
+AR Path="/60BB4C00/61B91325" Ref="#PWR054"  Part="1" 
+AR Path="/60BB4A14/61B91325" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR054" H 5300 4900 50  0001 C CNN
+F 1 "GND" H 5304 4995 50  0000 C CNN
 F 2 "" H 5300 5150 50  0001 C CNN
 F 3 "" H 5300 5150 50  0001 C CNN
 	1    5300 5150
@@ -4170,9 +4170,9 @@ L Device:C_Small C?
 U 1 1 61B91331
 P 5100 5350
 AR Path="/62251D77/61B91331" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61B91331" Ref="C29"  Part="1" 
-AR Path="/60BB4A14/61B91331" Ref="C112"  Part="1" 
-F 0 "C112" V 5050 5400 50  0000 L CNN
+AR Path="/60BB4C00/61B91331" Ref="C31"  Part="1" 
+AR Path="/60BB4A14/61B91331" Ref="C114"  Part="1" 
+F 0 "C31" V 5050 5400 50  0000 L CNN
 F 1 "0.1uF" V 4950 5250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 5350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 5350 50  0001 C CNN
@@ -4185,14 +4185,14 @@ F 8 "732-7965-1-ND" H 5100 5350 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 61B9133B
 P 5300 5350
 AR Path="/62251D77/61B9133B" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/61B9133B" Ref="#PWR052"  Part="1" 
-AR Path="/60BB4A14/61B9133B" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 5300 5100 50  0001 C CNN
-F 1 "GNDD" H 5304 5195 50  0000 C CNN
+AR Path="/60BB4C00/61B9133B" Ref="#PWR055"  Part="1" 
+AR Path="/60BB4A14/61B9133B" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR055" H 5300 5100 50  0001 C CNN
+F 1 "GND" H 5304 5195 50  0000 C CNN
 F 2 "" H 5300 5350 50  0001 C CNN
 F 3 "" H 5300 5350 50  0001 C CNN
 	1    5300 5350
@@ -4208,9 +4208,9 @@ L Device:C_Small C?
 U 1 1 61C2B72C
 P 5100 4850
 AR Path="/62251D77/61C2B72C" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61C2B72C" Ref="C27"  Part="1" 
-AR Path="/60BB4A14/61C2B72C" Ref="C110"  Part="1" 
-F 0 "C110" V 5050 4900 50  0000 L CNN
+AR Path="/60BB4C00/61C2B72C" Ref="C29"  Part="1" 
+AR Path="/60BB4A14/61C2B72C" Ref="C112"  Part="1" 
+F 0 "C29" V 5050 4900 50  0000 L CNN
 F 1 "0.1uF" V 4950 4750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5100 4850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5100 4850 50  0001 C CNN
@@ -4223,14 +4223,14 @@ F 8 "732-7965-1-ND" H 5100 4850 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 61C2B736
 P 5300 4850
 AR Path="/62251D77/61C2B736" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/61C2B736" Ref="#PWR050"  Part="1" 
-AR Path="/60BB4A14/61C2B736" Ref="#PWR0136"  Part="1" 
-F 0 "#PWR0136" H 5300 4600 50  0001 C CNN
-F 1 "GNDD" H 5304 4695 50  0000 C CNN
+AR Path="/60BB4C00/61C2B736" Ref="#PWR053"  Part="1" 
+AR Path="/60BB4A14/61C2B736" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR053" H 5300 4600 50  0001 C CNN
+F 1 "GND" H 5304 4695 50  0000 C CNN
 F 2 "" H 5300 4850 50  0001 C CNN
 F 3 "" H 5300 4850 50  0001 C CNN
 	1    5300 4850
@@ -4245,12 +4245,12 @@ Entry Wire Line
 Entry Wire Line
 	7950 2850 7850 2950
 $Comp
-L Device:R_Small R112
+L Device:R_Small R113
 U 1 1 60DEBFAD
 P 12650 2300
-AR Path="/60BB4A14/60DEBFAD" Ref="R112"  Part="1" 
-AR Path="/60BB4C00/60DEBFAD" Ref="R56"  Part="1" 
-F 0 "R112" H 12709 2346 50  0001 L CNN
+AR Path="/60BB4A14/60DEBFAD" Ref="R113"  Part="1" 
+AR Path="/60BB4C00/60DEBFAD" Ref="R57"  Part="1" 
+F 0 "R57" H 12709 2346 50  0001 L CNN
 F 1 "100" V 12650 2250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12650 2300 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 12650 2300 50  0001 C CNN
@@ -4271,12 +4271,12 @@ Connection ~ 12750 2250
 Wire Wire Line
 	12750 2250 12850 2250
 $Comp
-L Device:R_Small R111
+L Device:R_Small R112
 U 1 1 61023A19
 P 12650 2000
-AR Path="/60BB4A14/61023A19" Ref="R111"  Part="1" 
-AR Path="/60BB4C00/61023A19" Ref="R55"  Part="1" 
-F 0 "R111" H 12709 2046 50  0001 L CNN
+AR Path="/60BB4A14/61023A19" Ref="R112"  Part="1" 
+AR Path="/60BB4C00/61023A19" Ref="R56"  Part="1" 
+F 0 "R56" H 12709 2046 50  0001 L CNN
 F 1 "100" V 12650 1950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12650 2000 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 12650 2000 50  0001 C CNN
@@ -4345,9 +4345,9 @@ L Device:C_Small C?
 U 1 1 61D1660F
 P 10900 2500
 AR Path="/62251D77/61D1660F" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61D1660F" Ref="C74"  Part="1" 
-AR Path="/60BB4A14/61D1660F" Ref="C157"  Part="1" 
-F 0 "C157" H 10800 2550 50  0000 L CNN
+AR Path="/60BB4C00/61D1660F" Ref="C76"  Part="1" 
+AR Path="/60BB4A14/61D1660F" Ref="C159"  Part="1" 
+F 0 "C76" H 10800 2550 50  0000 L CNN
 F 1 "0.1uF" H 10750 2450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10900 2500 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 10900 2500 50  0001 C CNN
@@ -4410,9 +4410,9 @@ L Device:C_Small C?
 U 1 1 61394F24
 P 15750 3350
 AR Path="/62251D77/61394F24" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61394F24" Ref="C89"  Part="1" 
-AR Path="/60BB4A14/61394F24" Ref="C172"  Part="1" 
-F 0 "C172" H 15842 3396 50  0000 L CNN
+AR Path="/60BB4C00/61394F24" Ref="C91"  Part="1" 
+AR Path="/60BB4A14/61394F24" Ref="C174"  Part="1" 
+F 0 "C91" H 15842 3396 50  0000 L CNN
 F 1 "0.1uF" H 15842 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15750 3350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 15750 3350 50  0001 C CNN
@@ -4501,9 +4501,9 @@ L Device:C_Small C?
 U 1 1 61521F7F
 P 15350 3350
 AR Path="/62251D77/61521F7F" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/61521F7F" Ref="C88"  Part="1" 
-AR Path="/60BB4A14/61521F7F" Ref="C171"  Part="1" 
-F 0 "C171" H 15442 3396 50  0000 L CNN
+AR Path="/60BB4C00/61521F7F" Ref="C90"  Part="1" 
+AR Path="/60BB4A14/61521F7F" Ref="C173"  Part="1" 
+F 0 "C90" H 15442 3396 50  0000 L CNN
 F 1 "0.1uF" H 15442 3305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15350 3350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 15350 3350 50  0001 C CNN
@@ -4518,14 +4518,14 @@ $EndComp
 Wire Wire Line
 	15250 3350 15150 3350
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 61521F85
 P 15550 3350
 AR Path="/62251D77/61521F85" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/61521F85" Ref="#PWR080"  Part="1" 
-AR Path="/60BB4A14/61521F85" Ref="#PWR0166"  Part="1" 
-F 0 "#PWR0166" H 15550 3100 50  0001 C CNN
-F 1 "GNDD" H 15554 3195 50  0000 C CNN
+AR Path="/60BB4C00/61521F85" Ref="#PWR082"  Part="1" 
+AR Path="/60BB4A14/61521F85" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR082" H 15550 3100 50  0001 C CNN
+F 1 "GND" H 15554 3195 50  0000 C CNN
 F 2 "" H 15550 3350 50  0001 C CNN
 F 3 "" H 15550 3350 50  0001 C CNN
 	1    15550 3350
@@ -4718,7 +4718,7 @@ U 1 1 60EE5C11
 P 10550 9350
 AR Path="/60BB4A14/60EE5C11" Ref="TP13"  Part="1" 
 AR Path="/60BB4C00/60EE5C11" Ref="TP1"  Part="1" 
-F 0 "TP13" V 10550 9550 50  0000 L CNN
+F 0 "TP1" V 10550 9550 50  0000 L CNN
 F 1 "TestPoint" V 10550 9750 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9350 50  0001 C CNN
 F 3 "~" H 10750 9350 50  0001 C CNN
@@ -4731,7 +4731,7 @@ U 1 1 613F78F7
 P 10550 9450
 AR Path="/60BB4A14/613F78F7" Ref="TP14"  Part="1" 
 AR Path="/60BB4C00/613F78F7" Ref="TP2"  Part="1" 
-F 0 "TP14" V 10550 9650 50  0000 L CNN
+F 0 "TP2" V 10550 9650 50  0000 L CNN
 F 1 "TestPoint" V 10550 9850 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9450 50  0001 C CNN
 F 3 "~" H 10750 9450 50  0001 C CNN
@@ -4744,7 +4744,7 @@ U 1 1 6146C6B6
 P 10550 9550
 AR Path="/60BB4A14/6146C6B6" Ref="TP15"  Part="1" 
 AR Path="/60BB4C00/6146C6B6" Ref="TP3"  Part="1" 
-F 0 "TP15" V 10550 9750 50  0000 L CNN
+F 0 "TP3" V 10550 9750 50  0000 L CNN
 F 1 "TestPoint" V 10550 9950 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9550 50  0001 C CNN
 F 3 "~" H 10750 9550 50  0001 C CNN
@@ -4757,7 +4757,7 @@ U 1 1 6146C6C0
 P 10550 9650
 AR Path="/60BB4A14/6146C6C0" Ref="TP16"  Part="1" 
 AR Path="/60BB4C00/6146C6C0" Ref="TP4"  Part="1" 
-F 0 "TP16" V 10550 9850 50  0000 L CNN
+F 0 "TP4" V 10550 9850 50  0000 L CNN
 F 1 "TestPoint" V 10550 10050 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9650 50  0001 C CNN
 F 3 "~" H 10750 9650 50  0001 C CNN
@@ -4770,7 +4770,7 @@ U 1 1 614E3957
 P 10550 9750
 AR Path="/60BB4A14/614E3957" Ref="TP17"  Part="1" 
 AR Path="/60BB4C00/614E3957" Ref="TP5"  Part="1" 
-F 0 "TP17" V 10550 9950 50  0000 L CNN
+F 0 "TP5" V 10550 9950 50  0000 L CNN
 F 1 "TestPoint" V 10550 10150 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9750 50  0001 C CNN
 F 3 "~" H 10750 9750 50  0001 C CNN
@@ -4783,7 +4783,7 @@ U 1 1 614E3961
 P 10550 9850
 AR Path="/60BB4A14/614E3961" Ref="TP18"  Part="1" 
 AR Path="/60BB4C00/614E3961" Ref="TP6"  Part="1" 
-F 0 "TP18" V 10550 10050 50  0000 L CNN
+F 0 "TP6" V 10550 10050 50  0000 L CNN
 F 1 "TestPoint" V 10550 10250 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9850 50  0001 C CNN
 F 3 "~" H 10750 9850 50  0001 C CNN
@@ -4796,7 +4796,7 @@ U 1 1 614E396B
 P 10550 9950
 AR Path="/60BB4A14/614E396B" Ref="TP19"  Part="1" 
 AR Path="/60BB4C00/614E396B" Ref="TP7"  Part="1" 
-F 0 "TP19" V 10550 10150 50  0000 L CNN
+F 0 "TP7" V 10550 10150 50  0000 L CNN
 F 1 "TestPoint" V 10550 10350 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 9950 50  0001 C CNN
 F 3 "~" H 10750 9950 50  0001 C CNN
@@ -4809,7 +4809,7 @@ U 1 1 614E3975
 P 10550 10050
 AR Path="/60BB4A14/614E3975" Ref="TP20"  Part="1" 
 AR Path="/60BB4C00/614E3975" Ref="TP8"  Part="1" 
-F 0 "TP20" V 10550 10250 50  0000 L CNN
+F 0 "TP8" V 10550 10250 50  0000 L CNN
 F 1 "TestPoint" V 10550 10450 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 10050 50  0001 C CNN
 F 3 "~" H 10750 10050 50  0001 C CNN
@@ -4822,7 +4822,7 @@ U 1 1 61569E00
 P 10550 10150
 AR Path="/60BB4A14/61569E00" Ref="TP21"  Part="1" 
 AR Path="/60BB4C00/61569E00" Ref="TP9"  Part="1" 
-F 0 "TP21" V 10550 10350 50  0000 L CNN
+F 0 "TP9" V 10550 10350 50  0000 L CNN
 F 1 "TestPoint" V 10550 10550 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 10150 50  0001 C CNN
 F 3 "~" H 10750 10150 50  0001 C CNN
@@ -4835,7 +4835,7 @@ U 1 1 61569E0A
 P 10550 10250
 AR Path="/60BB4A14/61569E0A" Ref="TP22"  Part="1" 
 AR Path="/60BB4C00/61569E0A" Ref="TP10"  Part="1" 
-F 0 "TP22" V 10550 10450 50  0000 L CNN
+F 0 "TP10" V 10550 10450 50  0000 L CNN
 F 1 "TestPoint" V 10550 10650 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 10250 50  0001 C CNN
 F 3 "~" H 10750 10250 50  0001 C CNN
@@ -4848,7 +4848,7 @@ U 1 1 61569E14
 P 10550 10350
 AR Path="/60BB4A14/61569E14" Ref="TP23"  Part="1" 
 AR Path="/60BB4C00/61569E14" Ref="TP11"  Part="1" 
-F 0 "TP23" V 10550 10550 50  0000 L CNN
+F 0 "TP11" V 10550 10550 50  0000 L CNN
 F 1 "TestPoint" V 10550 10750 50  0000 L CNN
 F 2 "readout_trenz:TestPoint_Pad_30x30mils" H 10750 10350 50  0001 C CNN
 F 3 "~" H 10750 10350 50  0001 C CNN
@@ -4866,14 +4866,14 @@ Wire Wire Line
 Wire Wire Line
 	15900 4250 15900 4150
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 6150AE27
 P 15550 4250
 AR Path="/62251D77/6150AE27" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/6150AE27" Ref="#PWR0152"  Part="1" 
-AR Path="/60BB4A14/6150AE27" Ref="#PWR0167"  Part="1" 
-F 0 "#PWR0167" H 15550 4000 50  0001 C CNN
-F 1 "GNDD" H 15554 4095 50  0000 C CNN
+AR Path="/60BB4C00/6150AE27" Ref="#PWR083"  Part="1" 
+AR Path="/60BB4A14/6150AE27" Ref="#PWR0168"  Part="1" 
+F 0 "#PWR083" H 15550 4000 50  0001 C CNN
+F 1 "GND" H 15554 4095 50  0000 C CNN
 F 2 "" H 15550 4250 50  0001 C CNN
 F 3 "" H 15550 4250 50  0001 C CNN
 	1    15550 4250
@@ -4883,12 +4883,12 @@ Connection ~ 15550 4250
 Wire Wire Line
 	15550 4250 15900 4250
 $Comp
-L readout:SN74AXC2T45DCTR U22
+L readout:SN74AXC2T45DCTR U23
 U 1 1 61709DF3
 P 15550 4000
-AR Path="/60BB4A14/61709DF3" Ref="U22"  Part="1" 
-AR Path="/60BB4C00/61709DF3" Ref="U14"  Part="1" 
-F 0 "U22" H 15550 4375 50  0000 C CNN
+AR Path="/60BB4A14/61709DF3" Ref="U23"  Part="1" 
+AR Path="/60BB4C00/61709DF3" Ref="U15"  Part="1" 
+F 0 "U15" H 15550 4375 50  0000 C CNN
 F 1 "SN74AXC2T45DCTR" H 15550 4284 50  0000 C CNN
 F 2 "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm" H 15550 4000 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn74axc2t45.pdf?ts=1624298260694&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DSN74AXC2T45DCTR" H 15550 4000 50  0001 C CNN
@@ -4905,9 +4905,9 @@ L Device:C_Small C?
 U 1 1 60E8572A
 P 12150 6900
 AR Path="/62251D77/60E8572A" Ref="C?"  Part="1" 
-AR Path="/60BB4C00/60E8572A" Ref="C83"  Part="1" 
-AR Path="/60BB4A14/60E8572A" Ref="C166"  Part="1" 
-F 0 "C166" H 12242 6946 50  0000 L CNN
+AR Path="/60BB4C00/60E8572A" Ref="C85"  Part="1" 
+AR Path="/60BB4A14/60E8572A" Ref="C168"  Part="1" 
+F 0 "C85" H 12242 6946 50  0000 L CNN
 F 1 "0.1uF" H 12242 6855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12150 6900 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 12150 6900 50  0001 C CNN
@@ -4920,7 +4920,7 @@ F 8 "732-7965-1-ND" H 12150 6900 50  0001 C CNN "Supplier P/N"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GNDD #PWR?
+L power:GND #PWR?
 U 1 1 610BF3C0
 P 2250 3750
 AR Path="/610BF3C0" Ref="#PWR?"  Part="1" 
@@ -4928,10 +4928,10 @@ AR Path="/603D0C5A/610BF3C0" Ref="#PWR?"  Part="1"
 AR Path="/608039EA/610BF3C0" Ref="#PWR?"  Part="1" 
 AR Path="/6086954E/60943779/610BF3C0" Ref="#PWR?"  Part="1" 
 AR Path="/607ECAFE/610BF3C0" Ref="#PWR?"  Part="1" 
-AR Path="/60BB4C00/610BF3C0" Ref="#PWR0123"  Part="1" 
-AR Path="/60BB4A14/610BF3C0" Ref="#PWR0168"  Part="1" 
-F 0 "#PWR0168" H 2250 3500 50  0001 C CNN
-F 1 "GNDD" H 2250 3600 50  0000 C CNB
+AR Path="/60BB4C00/610BF3C0" Ref="#PWR040"  Part="1" 
+AR Path="/60BB4A14/610BF3C0" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR040" H 2250 3500 50  0001 C CNN
+F 1 "GND" H 2250 3600 50  0000 C CNB
 F 2 "" H 2250 3750 50  0001 C CNN
 F 3 "" H 2250 3750 50  0001 C CNN
 	1    2250 3750
@@ -4946,9 +4946,9 @@ AR Path="/603D0C5A/60DD86C5" Ref="U?"  Part="1"
 AR Path="/608039EA/60DD86C5" Ref="U?"  Part="1" 
 AR Path="/6086954E/60943779/60DD86C5" Ref="U?"  Part="1" 
 AR Path="/607ECAFE/60DD86C5" Ref="U?"  Part="1" 
-AR Path="/60BB4C00/60DD86C5" Ref="U7"  Part="1" 
-AR Path="/60BB4A14/60DD86C5" Ref="U15"  Part="1" 
-F 0 "U15" V 2400 3050 50  0000 L CNN
+AR Path="/60BB4C00/60DD86C5" Ref="U8"  Part="1" 
+AR Path="/60BB4A14/60DD86C5" Ref="U16"  Part="1" 
+F 0 "U8" V 2400 3050 50  0000 L CNN
 F 1 "CITIROC1A" V 2500 3050 50  0000 L CNN
 F 2 "readout_trenz:QFP-160_26x26_Pitch0.65mm" H 4100 3550 50  0001 C CNN
 F 3 "http://gauss.bu.edu/svn/emphatic-doco/Docs/CITIROC1A%20-%20Datasheet%20V2.5.pdf" H 4100 3550 50  0001 C CNN
@@ -4992,12 +4992,12 @@ Wire Wire Line
 Wire Wire Line
 	10950 7750 11500 7750
 $Comp
-L readout:ADS7955 U20
+L readout:ADS7955 U21
 U 1 1 61BCD360
 P 12350 7150
-AR Path="/60BB4A14/61BCD360" Ref="U20"  Part="1" 
-AR Path="/60BB4C00/61BCD360" Ref="U12"  Part="1" 
-F 0 "U20" H 12600 7300 50  0000 C CNN
+AR Path="/60BB4A14/61BCD360" Ref="U21"  Part="1" 
+AR Path="/60BB4C00/61BCD360" Ref="U13"  Part="1" 
+F 0 "U13" H 12600 7300 50  0000 C CNN
 F 1 "ADS7955" H 12600 7200 50  0000 C CNN
 F 2 "Package_SO:TSSOP-30_4.4x7.8mm_P0.5mm" H 12600 7450 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/ads7950.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1617477435304" H 12600 7450 50  0001 C CNN
@@ -5014,12 +5014,12 @@ ADC_SERIAL1
 Text Label 13200 7750 0    50   ~ 0
 ADC_SERIAL3
 $Comp
-L Device:R R75
+L Device:R R76
 U 1 1 60C9838A
 P 6800 7000
-AR Path="/60BB4A14/60C9838A" Ref="R75"  Part="1" 
-AR Path="/60BB4C00/60C9838A" Ref="R19"  Part="1" 
-F 0 "R75" V 6750 6800 30  0000 L CNN
+AR Path="/60BB4A14/60C9838A" Ref="R76"  Part="1" 
+AR Path="/60BB4C00/60C9838A" Ref="R20"  Part="1" 
+F 0 "R20" V 6750 6800 30  0000 L CNN
 F 1 "49.9" V 6800 6950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 6730 7000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 6800 7000 50  0001 C CNN
@@ -5032,12 +5032,12 @@ F 8 "13-AF0402FR-0749R9LCT-ND" H 6800 7000 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C123
+L Device:C_Small C125
 U 1 1 60C98371
 P 6950 6750
-AR Path="/60BB4A14/60C98371" Ref="C123"  Part="1" 
-AR Path="/60BB4C00/60C98371" Ref="C40"  Part="1" 
-F 0 "C123" V 6900 6600 30  0000 L CNN
+AR Path="/60BB4A14/60C98371" Ref="C125"  Part="1" 
+AR Path="/60BB4C00/60C98371" Ref="C42"  Part="1" 
+F 0 "C42" V 6900 6600 30  0000 L CNN
 F 1 "0.1uF" V 7000 6600 30  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6950 6750 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6950 6750 50  0001 C CNN
@@ -5050,12 +5050,12 @@ F 8 "732-7532-1-ND" H 6950 6750 50  0001 C CNN "Supplier P/N"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C149
+L Device:C_Small C151
 U 1 1 61BCD34B
 P 9600 6800
-AR Path="/60BB4A14/61BCD34B" Ref="C149"  Part="1" 
-AR Path="/60BB4C00/61BCD34B" Ref="C66"  Part="1" 
-F 0 "C149" V 9550 6650 30  0000 L CNN
+AR Path="/60BB4A14/61BCD34B" Ref="C151"  Part="1" 
+AR Path="/60BB4C00/61BCD34B" Ref="C68"  Part="1" 
+F 0 "C68" V 9550 6650 30  0000 L CNN
 F 1 "0.1uF" H 9500 6850 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9600 6800 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 9600 6800 50  0001 C CNN
@@ -5068,12 +5068,12 @@ F 8 "732-7965-1-ND" H 9600 6800 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C116
+L Device:C_Small C118
 U 1 1 6119861F
 P 6400 10850
-AR Path="/60BB4A14/6119861F" Ref="C116"  Part="1" 
-AR Path="/60BB4C00/6119861F" Ref="C33"  Part="1" 
-F 0 "C116" H 6350 10800 30  0000 L CNN
+AR Path="/60BB4A14/6119861F" Ref="C118"  Part="1" 
+AR Path="/60BB4C00/6119861F" Ref="C35"  Part="1" 
+F 0 "C35" H 6350 10800 30  0000 L CNN
 F 1 "0.1uF" H 6350 10900 39  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6400 10850 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012205037.pdf" H 6400 10850 50  0001 C CNN
@@ -5086,12 +5086,12 @@ F 8 "732-7532-1-ND" H 6400 10850 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R98
+L Device:R R99
 U 1 1 61BCD33C
 P 8500 10600
-AR Path="/60BB4A14/61BCD33C" Ref="R98"  Part="1" 
-AR Path="/60BB4C00/61BCD33C" Ref="R42"  Part="1" 
-F 0 "R98" V 8450 10700 30  0000 L CNN
+AR Path="/60BB4A14/61BCD33C" Ref="R99"  Part="1" 
+AR Path="/60BB4C00/61BCD33C" Ref="R43"  Part="1" 
+F 0 "R43" V 8450 10700 30  0000 L CNN
 F 1 "49.9" V 8500 10550 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 8430 10600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 8500 10600 50  0001 C CNN

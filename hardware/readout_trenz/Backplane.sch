@@ -102,10 +102,10 @@ Connection ~ 9800 6100
 Wire Wire Line
 	9800 2500 9800 3400
 $Comp
-L power:+3.3V #PWR084
+L power:+3.3V #PWR086
 U 1 1 6100ADFC
 P 10300 6300
-F 0 "#PWR084" H 10300 6150 50  0001 C CNN
+F 0 "#PWR086" H 10300 6150 50  0001 C CNN
 F 1 "+3.3V" H 10450 6350 50  0000 C CNN
 F 2 "" H 10300 6300 50  0001 C CNN
 F 3 "" H 10300 6300 50  0001 C CNN
@@ -113,22 +113,22 @@ F 3 "" H 10300 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR083
+L power:GND #PWR085
 U 1 1 613F0EC5
 P 9800 6450
-F 0 "#PWR083" H 9800 6200 50  0001 C CNN
-F 1 "GNDA" H 9805 6277 50  0000 C CNN
+F 0 "#PWR085" H 9800 6200 50  0001 C CNN
+F 1 "GND" H 9805 6277 50  0000 C CNN
 F 2 "" H 9800 6450 50  0001 C CNN
 F 3 "" H 9800 6450 50  0001 C CNN
 	1    9800 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDA #PWR082
+L power:GND #PWR084
 U 1 1 613F1248
 P 8600 6450
-F 0 "#PWR082" H 8600 6200 50  0001 C CNN
-F 1 "GNDA" H 8605 6277 50  0000 C CNN
+F 0 "#PWR084" H 8600 6200 50  0001 C CNN
+F 1 "GND" H 8605 6277 50  0000 C CNN
 F 2 "" H 8600 6450 50  0001 C CNN
 F 3 "" H 8600 6450 50  0001 C CNN
 	1    8600 6450
@@ -171,13 +171,13 @@ Wire Wire Line
 Text HLabel 8550 6300 0    50   Output ~ 0
 OUT
 $Comp
-L readout:ERF8-060-05.0-L-DV J8
+L readout:ERF8-060-05.0-L-DV J11
 U 1 1 60C1AFA4
 P 9200 5450
-AR Path="/60C946F3/60C1AFA4" Ref="J8"  Part="1" 
+AR Path="/60C946F3/60C1AFA4" Ref="J11"  Part="1" 
 AR Path="/60CAE390/60C1AFA4" Ref="J?"  Part="1" 
 AR Path="/60C1AFA4" Ref="J?"  Part="1" 
-F 0 "J8" H 9200 8650 50  0000 C CNN
+F 0 "J11" H 9200 8650 50  0000 C CNN
 F 1 "ERM8-060-05.0-L-DV" H 9200 8550 50  0000 C CNN
 F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 9200 5450 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 9200 5450 50  0001 L BNN
@@ -240,13 +240,13 @@ NoConn ~ 15700 6700
 NoConn ~ 15700 6600
 NoConn ~ 15700 6500
 $Comp
-L readout:ERF8-060-05.0-L-DV J19
+L readout:ERF8-060-05.0-L-DV J13
 U 1 1 60F461B6
 P 15200 5450
-AR Path="/60C946F3/60F461B6" Ref="J19"  Part="1" 
+AR Path="/60C946F3/60F461B6" Ref="J13"  Part="1" 
 AR Path="/60CAE390/60F461B6" Ref="J?"  Part="1" 
 AR Path="/60F461B6" Ref="J?"  Part="1" 
-F 0 "J19" H 15200 8650 50  0000 C CNN
+F 0 "J13" H 15200 8650 50  0000 C CNN
 F 1 "ERM8-060-05.0-L-DV" H 15200 8550 50  0000 C CNN
 F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 15200 5450 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 15200 5450 50  0001 L BNN
@@ -379,13 +379,13 @@ NoConn ~ 14200 6700
 NoConn ~ 14200 6600
 NoConn ~ 14200 6500
 $Comp
-L readout:ERF8-060-05.0-L-DV J18
+L readout:ERF8-060-05.0-L-DV J12
 U 1 1 60FDC334
 P 13700 5450
-AR Path="/60C946F3/60FDC334" Ref="J18"  Part="1" 
+AR Path="/60C946F3/60FDC334" Ref="J12"  Part="1" 
 AR Path="/60CAE390/60FDC334" Ref="J?"  Part="1" 
 AR Path="/60FDC334" Ref="J?"  Part="1" 
-F 0 "J18" H 13700 8650 50  0000 C CNN
+F 0 "J12" H 13700 8650 50  0000 C CNN
 F 1 "ERM8-060-05.0-L-DV" H 13700 8550 50  0000 C CNN
 F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 13700 5450 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 13700 5450 50  0001 L BNN
@@ -518,13 +518,13 @@ NoConn ~ 5200 6700
 NoConn ~ 5200 6600
 NoConn ~ 5200 6500
 $Comp
-L readout:ERF8-060-05.0-L-DV J17
+L readout:ERF8-060-05.0-L-DV J10
 U 1 1 60FE4F9A
 P 4700 5450
-AR Path="/60C946F3/60FE4F9A" Ref="J17"  Part="1" 
+AR Path="/60C946F3/60FE4F9A" Ref="J10"  Part="1" 
 AR Path="/60CAE390/60FE4F9A" Ref="J?"  Part="1" 
 AR Path="/60FE4F9A" Ref="J?"  Part="1" 
-F 0 "J17" H 4700 8650 50  0000 C CNN
+F 0 "J10" H 4700 8650 50  0000 C CNN
 F 1 "ERM8-060-05.0-L-DV" H 4700 8550 50  0000 C CNN
 F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 4700 5450 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 4700 5450 50  0001 L BNN
@@ -657,13 +657,13 @@ NoConn ~ 3700 6700
 NoConn ~ 3700 6600
 NoConn ~ 3700 6500
 $Comp
-L readout:ERF8-060-05.0-L-DV J16
+L readout:ERF8-060-05.0-L-DV J9
 U 1 1 60FE5021
 P 3200 5450
-AR Path="/60C946F3/60FE5021" Ref="J16"  Part="1" 
+AR Path="/60C946F3/60FE5021" Ref="J9"  Part="1" 
 AR Path="/60CAE390/60FE5021" Ref="J?"  Part="1" 
 AR Path="/60FE5021" Ref="J?"  Part="1" 
-F 0 "J16" H 3200 8650 50  0000 C CNN
+F 0 "J9" H 3200 8650 50  0000 C CNN
 F 1 "ERM8-060-05.0-L-DV" H 3200 8550 50  0000 C CNN
 F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 3200 5450 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 3200 5450 50  0001 L BNN
@@ -796,13 +796,13 @@ NoConn ~ 2200 6700
 NoConn ~ 2200 6600
 NoConn ~ 2200 6500
 $Comp
-L readout:ERF8-060-05.0-L-DV J15
+L readout:ERF8-060-05.0-L-DV J8
 U 1 1 60FFA541
 P 1700 5450
-AR Path="/60C946F3/60FFA541" Ref="J15"  Part="1" 
+AR Path="/60C946F3/60FFA541" Ref="J8"  Part="1" 
 AR Path="/60CAE390/60FFA541" Ref="J?"  Part="1" 
 AR Path="/60FFA541" Ref="J?"  Part="1" 
-F 0 "J15" H 1700 8650 50  0000 C CNN
+F 0 "J8" H 1700 8650 50  0000 C CNN
 F 1 "ERM8-060-05.0-L-DV" H 1700 8550 50  0000 C CNN
 F 2 "readout_trenz:ERM8-060-XX-X-D-RA" H 1700 5450 50  0001 L BNN
 F 3 "http://suddendocs.samtec.com/prints/erm8-xxx-xx-x-d-ra-xx-footprint.pdf" H 1700 5450 50  0001 L BNN
