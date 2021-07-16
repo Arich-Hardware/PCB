@@ -1707,4 +1707,48 @@ Wire Wire Line
 Connection ~ 6250 4050
 Wire Wire Line
 	6250 4050 6400 4050
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60E18C43
+P 4500 6500
+F 0 "H1" H 4600 6546 50  0000 L CNN
+F 1 "MountingHole" H 4600 6455 50  0000 L CNN
+F 2 "Arich_SiPM_Footprints:SMTSO-nut-0-80" H 4500 6500 50  0001 C CNN
+F 3 "~" H 4500 6500 50  0001 C CNN
+	1    4500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60E1B16D
+P 4500 6750
+F 0 "H2" H 4600 6796 50  0000 L CNN
+F 1 "MountingHole" H 4600 6705 50  0000 L CNN
+F 2 "Arich_SiPM_Footprints:SMTSO-nut-0-80" H 4500 6750 50  0001 C CNN
+F 3 "~" H 4500 6750 50  0001 C CNN
+	1    4500 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60E1BBA7
+P 4500 7000
+F 0 "H3" H 4600 7046 50  0000 L CNN
+F 1 "MountingHole" H 4600 6955 50  0000 L CNN
+F 2 "Arich_SiPM_Footprints:SMTSO-nut-0-80" H 4500 7000 50  0001 C CNN
+F 3 "~" H 4500 7000 50  0001 C CNN
+	1    4500 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60E1C52C
+P 4500 7250
+F 0 "H4" H 4600 7296 50  0000 L CNN
+F 1 "MountingHole" H 4600 7205 50  0000 L CNN
+F 2 "Arich_SiPM_Footprints:SMTSO-nut-0-80" H 4500 7250 50  0001 C CNN
+F 3 "~" H 4500 7250 50  0001 C CNN
+	1    4500 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
