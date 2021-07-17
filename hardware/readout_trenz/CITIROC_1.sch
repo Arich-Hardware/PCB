@@ -2571,7 +2571,7 @@ AR Path="/60BB4A14/61BCD2E1" Ref="TP24"  Part="1"
 AR Path="/60BB4C00/61BCD2E1" Ref="TP12"  Part="1" 
 F 0 "TP12" H 13950 1245 50  0000 C CNN
 F 1 "probe" H 13950 1154 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left" H 13950 1050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right" H 13950 1050 50  0001 C CNN
 F 3 "~" H 13950 1050 50  0001 C CNN
 	1    13950 1050
 	1    0    0    -1  
