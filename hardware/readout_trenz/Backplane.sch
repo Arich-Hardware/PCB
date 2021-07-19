@@ -158,7 +158,7 @@ Wire Bus Line
 	8300 6500 7800 6500
 Text Label 8300 6500 2    50   ~ 0
 BIAS[1..4]
-Text HLabel 7800 6500 0    50   Input ~ 0
+Text HLabel 7850 6500 0    50   Input ~ 0
 BIAS[1..4]
 Wire Bus Line
 	10100 6500 10100 6300
@@ -166,10 +166,8 @@ Wire Bus Line
 	10100 6500 10600 6500
 Wire Bus Line
 	8300 6500 8300 6300
-Wire Wire Line
-	8700 6300 8550 6300
-Text HLabel 8550 6300 0    50   Output ~ 0
-OUT
+Text HLabel 6850 6550 0    50   Output ~ 0
+SIPM_TEMP
 $Comp
 L readout:ERF8-060-05.0-L-DV J11
 U 1 1 60C1AFA4
@@ -1296,8 +1294,71 @@ Entry Wire Line
 	10450 4000 10550 4100
 Entry Wire Line
 	10450 4100 10550 4200
+$Comp
+L power:GND #PWR?
+U 1 1 60FE12FE
+P 7050 6850
+AR Path="/60BB4A14/60FE12FE" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/60FE12FE" Ref="#PWR?"  Part="1" 
+AR Path="/60C946F3/60FE12FE" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 7050 6600 50  0001 C CNN
+F 1 "GND" H 7050 6700 50  0000 C CNB
+F 2 "" H 7050 6850 50  0001 C CNN
+F 3 "" H 7050 6850 50  0001 C CNN
+	1    7050 6850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 6800 7050 6850
+$Comp
+L Device:R_Small R?
+U 1 1 60FE130C
+P 7050 6400
+AR Path="/60BB4A14/60FE130C" Ref="R?"  Part="1" 
+AR Path="/60BB4C00/60FE130C" Ref="R?"  Part="1" 
+AR Path="/60C946F3/60FE130C" Ref="R54"  Part="1" 
+F 0 "R54" H 7109 6446 50  0000 L CNN
+F 1 "10k" H 7109 6355 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7050 6400 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 7050 6400 50  0001 C CNN
+F 4 "$0.1" H 7050 6400 50  0001 C CNN "Item Cost"
+F 5 "CRCW120610K0FKEAC" H 7050 6400 50  0001 C CNN "MFN"
+F 6 "Vishay Dale" H 7050 6400 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7050 6400 50  0001 C CNN "Supplier "
+F 8 "541-3983-1-ND" H 7050 6400 50  0001 C CNN "Supplier P/N"
+	1    7050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60FE1317
+P 7050 6700
+AR Path="/60BB4A14/60FE1317" Ref="R?"  Part="1" 
+AR Path="/60BB4C00/60FE1317" Ref="R?"  Part="1" 
+AR Path="/60C946F3/60FE1317" Ref="R55"  Part="1" 
+F 0 "R55" H 7109 6746 50  0000 L CNN
+F 1 "10k" H 7109 6655 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7050 6700 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 7050 6700 50  0001 C CNN
+F 4 "$0.1" H 7050 6700 50  0001 C CNN "Item Cost"
+F 5 "CRCW120610K0FKEAC" H 7050 6700 50  0001 C CNN "MFN"
+F 6 "Vishay Dale" H 7050 6700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7050 6700 50  0001 C CNN "Supplier "
+F 8 "541-3983-1-ND" H 7050 6700 50  0001 C CNN "Supplier P/N"
+	1    7050 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 6500 7050 6550
+Wire Wire Line
+	7050 6550 6850 6550
+Connection ~ 7050 6550
+Wire Wire Line
+	7050 6550 7050 6600
 Wire Wire Line
 	9700 6300 10300 6300
+Wire Wire Line
+	7050 6300 8700 6300
 Wire Bus Line
 	7850 4500 7850 6100
 Wire Bus Line

@@ -1551,6 +1551,164 @@ Wire Wire Line
 	6250 1700 6250 2700
 Connection ~ 6250 1700
 Connection ~ 6250 2700
+$Comp
+L power:GND #PWR?
+U 1 1 61019132
+P 3600 6900
+AR Path="/60BB4A14/61019132" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/61019132" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/61019132" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 3600 6650 50  0001 C CNN
+F 1 "GND" H 3600 6750 50  0000 C CNB
+F 2 "" H 3600 6900 50  0001 C CNN
+F 3 "" H 3600 6900 50  0001 C CNN
+	1    3600 6900
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 3300 6600
+Wire Wire Line
+	4800 6500 4550 6500
+Wire Wire Line
+	4550 6500 4100 6500
+Connection ~ 4550 6500
+Wire Wire Line
+	4550 6550 4550 6500
+Wire Wire Line
+	4550 7150 4550 7200
+$Comp
+L Device:R R?
+U 1 1 61019143
+P 4550 7000
+AR Path="/60BB4A14/61019143" Ref="R?"  Part="1" 
+AR Path="/60BB4C00/61019143" Ref="R?"  Part="1" 
+AR Path="/62251D77/61019143" Ref="R58"  Part="1" 
+F 0 "R58" H 4700 7000 50  0000 C CNN
+F 1 "1k" V 4550 7000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4480 7000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4550 7000 50  0001 C CNN
+F 4 "$0.1" H 4550 7000 50  0001 C CNN "Item Cost"
+F 5 "RC0805FR-071KL" H 4550 7000 50  0001 C CNN "MFN"
+F 6 "Yageo" H 4550 7000 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4550 7000 50  0001 C CNN "Supplier "
+F 8 "311-1.00KCRCT-ND" H 4550 7000 50  0001 C CNN "Supplier P/N"
+	1    4550 7000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV?
+U 1 1 6101914E
+P 4550 6700
+AR Path="/60BB4A14/6101914E" Ref="RV?"  Part="1" 
+AR Path="/60BB4C00/6101914E" Ref="RV?"  Part="1" 
+AR Path="/62251D77/6101914E" Ref="RV1"  Part="1" 
+F 0 "RV1" H 4750 6800 50  0000 R CNN
+F 1 "10k" V 4550 6750 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal" H 4550 6700 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/3296.pdf" H 4550 6700 50  0001 C CNN
+F 4 "$2.41" H 4550 6700 50  0001 C CNN "Item Cost"
+F 5 "3296Z-1-103LF" H 4550 6700 50  0001 C CNN "MFN"
+F 6 "Bourns Inc." H 4550 6700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4550 6700 50  0001 C CNN "Supplier "
+F 8 "3296Z-103LF-ND" H 4550 6700 50  0001 C CNN "Supplier P/N"
+	1    4550 6700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61019159
+P 4250 6700
+AR Path="/60BB4A14/61019159" Ref="R?"  Part="1" 
+AR Path="/60BB4C00/61019159" Ref="R?"  Part="1" 
+AR Path="/62251D77/61019159" Ref="R59"  Part="1" 
+F 0 "R59" V 4350 6700 50  0000 C CNN
+F 1 "470k" V 4250 6700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4180 6700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 4250 6700 50  0001 C CNN
+F 4 "$0.1" H 4250 6700 50  0001 C CNN "Item Cost"
+F 5 "RC1206FR-07470KL" H 4250 6700 50  0001 C CNN "MFN"
+F 6 "Yageo" H 4250 6700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4250 6700 50  0001 C CNN "Supplier "
+F 8 "311-470KFRCT-ND" H 4250 6700 50  0001 C CNN "Supplier P/N"
+	1    4250 6700
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6101915F
+P 4550 7200
+AR Path="/60BB4A14/6101915F" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/6101915F" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/6101915F" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 4550 6950 50  0001 C CNN
+F 1 "GND" H 4550 7050 50  0000 C CNB
+F 2 "" H 4550 7200 50  0001 C CNN
+F 3 "" H 4550 7200 50  0001 C CNN
+	1    4550 7200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Reference_Voltage:REF5025ID U?
+U 1 1 6101916A
+P 3700 6600
+AR Path="/60BB4A14/6101916A" Ref="U?"  Part="1" 
+AR Path="/60BB4C00/6101916A" Ref="U?"  Part="1" 
+AR Path="/62251D77/6101916A" Ref="U14"  Part="1" 
+F 0 "U14" H 3850 6950 50  0000 C CNN
+F 1 "REF5025" H 3850 6850 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3625 6350 50  0001 L CIN
+F 3 "https://www.ti.com/lit/ds/symlink/ref5025-ep.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1617653432745" H 3650 6600 50  0001 C CIN
+F 4 "296-22203-5-ND" H 3700 6600 50  0001 C CNN "Supplier P/N"
+F 5 "REF5025AID" H 3700 6600 50  0001 C CNN "MFN"
+F 6 "$4.05" H 3700 6600 50  0001 C CNN "Item Cost"
+F 7 "Texas Instruments" H 3700 6600 50  0001 C CNN "Manufacturer"
+F 8 "Digi-Key" H 3700 6600 50  0001 C CNN "Supplier "
+	1    3700 6600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 6150 0    50   Input ~ 0
+3.3V_CITIROC
+Wire Wire Line
+	3600 6150 3600 6300
+$Comp
+L Device:C_Small C89
+U 1 1 61019179
+P 3400 6300
+AR Path="/62251D77/61019179" Ref="C89"  Part="1" 
+AR Path="/60BB4C00/61019179" Ref="C?"  Part="1" 
+AR Path="/60BB4A14/61019179" Ref="C?"  Part="1" 
+F 0 "C89" V 3450 6050 50  0000 L CNN
+F 1 "0.1uF" V 3350 6050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3400 6300 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 3400 6300 50  0001 C CNN
+F 4 "$0.1" H 3400 6300 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 3400 6300 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 3400 6300 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 3400 6300 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 3400 6300 50  0001 C CNN "Supplier P/N"
+	1    3400 6300
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0166
+U 1 1 6101917F
+P 3200 6300
+AR Path="/62251D77/6101917F" Ref="#PWR0166"  Part="1" 
+AR Path="/60BB4C00/6101917F" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4A14/6101917F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0166" H 3200 6050 50  0001 C CNN
+F 1 "GND" H 3204 6145 50  0000 C CNN
+F 2 "" H 3200 6300 50  0001 C CNN
+F 3 "" H 3200 6300 50  0001 C CNN
+	1    3200 6300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3300 6300 3200 6300
+Wire Wire Line
+	3500 6300 3600 6300
+Connection ~ 3600 6300
 Wire Bus Line
 	3000 5250 3000 5550
+Text GLabel 4800 6500 2    50   Output ~ 0
+ADC_VREF
 $EndSCHEMATC
