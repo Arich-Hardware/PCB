@@ -1707,8 +1707,8 @@ Wire Wire Line
 Wire Wire Line
 	3500 6300 3600 6300
 Connection ~ 3600 6300
-Wire Bus Line
-	3000 5250 3000 5550
 Text GLabel 4800 6500 2    50   Output ~ 0
 ADC_VREF
+Wire Bus Line
+	3000 5250 3000 5550
 $EndSCHEMATC
