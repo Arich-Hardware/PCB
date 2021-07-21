@@ -102,7 +102,7 @@ AR Path="/60BC24EA/60DE6B69" Ref="J?"  Part="1"
 AR Path="/60D04563/60DE6B69" Ref="J14"  Part="1" 
 F 0 "J14" H 1150 2950 50  0000 C CNN
 F 1 "Digilent JTAG header" H 1150 2850 50  0000 C CNN
-F 2 "readout_slice:87832-1420" H 1300 2450 50  0001 C CNN
+F 2 "readout_trenz:87832-1420" H 1300 2450 50  0001 C CNN
 F 3 "~" H 1300 2450 50  0001 C CNN
 	1    1300 2450
 	1    0    0    -1  
