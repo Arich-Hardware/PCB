@@ -165,52 +165,8 @@ Wire Wire Line
 	1700 2050 1700 2150
 Wire Wire Line
 	1700 2150 1600 2150
-$Comp
-L power:GND #PWR?
-U 1 1 60DFEC46
-P 3700 2650
-AR Path="/60DFEC46" Ref="#PWR?"  Part="1" 
-AR Path="/608B2FC0/60DFEC46" Ref="#PWR?"  Part="1" 
-AR Path="/60AD0200/60B2D848/60DFEC46" Ref="#PWR?"  Part="1" 
-AR Path="/607155C8/60DFEC46" Ref="#PWR?"  Part="1" 
-AR Path="/606EBC4D/60DFEC46" Ref="#PWR?"  Part="1" 
-AR Path="/60BC2588/60DFEC46" Ref="#PWR?"  Part="1" 
-AR Path="/60D04563/60DFEC46" Ref="#PWR092"  Part="1" 
-F 0 "#PWR092" H 3700 2400 50  0001 C CNN
-F 1 "GND" H 3700 2500 50  0000 C CNN
-F 2 "" H 3700 2650 50  0001 C CNN
-F 3 "" H 3700 2650 50  0001 C CNN
-	1    3700 2650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3700 2650 3700 2550
-Wire Wire Line
-	3700 2550 3450 2550
-Wire Wire Line
-	3450 2250 3700 2250
-Wire Wire Line
-	3700 2250 3700 2150
 Text Notes 2850 1000 0    197  ~ 39
 Sparkfun FT232RL
-NoConn ~ 5750 2800
-NoConn ~ 5750 2700
-NoConn ~ 5750 2600
-NoConn ~ 5750 2500
-NoConn ~ 5750 2400
-NoConn ~ 5750 2300
-NoConn ~ 5750 2200
-NoConn ~ 5750 2100
-NoConn ~ 5750 2000
-NoConn ~ 4750 2000
-NoConn ~ 4750 2100
-NoConn ~ 4750 2200
-NoConn ~ 4750 2300
-NoConn ~ 4750 2400
-NoConn ~ 4750 2500
-NoConn ~ 4750 2600
-NoConn ~ 4750 2700
-NoConn ~ 4750 2800
 Wire Wire Line
 	9300 6050 9200 6050
 Wire Wire Line
@@ -404,14 +360,6 @@ Wire Wire Line
 Text Label 14900 6050 0    50   ~ 0
 UART_TO_MOD
 Text Label 14900 5950 0    50   ~ 0
-UART_FROM_MOD
-Wire Wire Line
-	3450 2350 4200 2350
-Wire Wire Line
-	3450 2450 4200 2450
-Text Label 4200 2350 2    50   ~ 0
-UART_TO_MOD
-Text Label 4200 2450 2    50   ~ 0
 UART_FROM_MOD
 Wire Wire Line
 	9300 1550 8800 1550
@@ -834,8 +782,6 @@ Text GLabel 5100 5650 1    50   Input ~ 0
 Text GLabel 5300 5650 1    50   Input ~ 0
 3.3V_SFP
 Text GLabel 1700 2050 1    50   Input ~ 0
-3.3V_TRENZ
-Text GLabel 3700 2150 1    50   Input ~ 0
 3.3V_TRENZ
 $Comp
 L power:GND #PWR0108
@@ -1265,54 +1211,6 @@ F 1 "TrenzSFP+cage" H 3550 6684 50  0000 C CNN
 F 2 "Connector:Connector_SFP_and_Cage" H 3550 5900 50  0001 C CNN
 F 3 "" H 3550 5900 50  0001 C CNN
 	1    3550 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:SparkfunFT232RL J15
-U 1 1 60F4B330
-P 3250 2400
-F 0 "J15" H 3332 2775 50  0000 C CNN
-F 1 "SparkfunFT232RL" H 3332 2684 50  0000 C CNN
-F 2 "readout_trenz:Sparkfun-FT232RL" H 3250 2400 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 3250 2400 50  0001 C CNN
-F 4 "$15.95" H 3250 2400 50  0001 C CNN "Item Cost"
-F 5 "BOB-12731" H 3250 2400 50  0001 C CNN "MFN"
-F 6 "SparkFun" H 3250 2400 50  0001 C CNN "Manufacturer"
-F 7 "SparkFun" H 3250 2400 50  0001 C CNN "Supplier "
-F 8 "FT232RL" H 3250 2400 50  0001 C CNN "Supplier P/N"
-	1    3250 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:SparkfunFT232RL J15
-U 2 1 60F4C1DA
-P 4550 2400
-F 0 "J15" H 4632 3025 50  0000 C CNN
-F 1 "SparkfunFT232RL" H 4632 2934 50  0000 C CNN
-F 2 "readout_trenz:Sparkfun-FT232RL" H 4550 2400 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 4550 2400 50  0001 C CNN
-F 4 "$15.95" H 4550 2400 50  0001 C CNN "Item Cost"
-F 5 "BOB-12731" H 4550 2400 50  0001 C CNN "MFN"
-F 6 "SparkFun" H 4550 2400 50  0001 C CNN "Manufacturer"
-F 7 "SparkFun" H 4550 2400 50  0001 C CNN "Supplier "
-F 8 "FT232RL" H 4550 2400 50  0001 C CNN "Supplier P/N"
-	2    4550 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L readout:SparkfunFT232RL J15
-U 3 1 611B52E0
-P 5550 2400
-F 0 "J15" H 5632 3025 50  0000 C CNN
-F 1 "SparkfunFT232RL" H 5632 2934 50  0000 C CNN
-F 2 "readout_trenz:Sparkfun-FT232RL" H 7450 2400 50  0001 C CNN
-F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" H 7450 2400 50  0001 C CNN
-F 4 "$15.95" H 5550 2400 50  0001 C CNN "Item Cost"
-F 5 "BOB-12731" H 5550 2400 50  0001 C CNN "MFN"
-F 6 "SparkFun" H 5550 2400 50  0001 C CNN "Manufacturer"
-F 7 "SparkFun" H 5550 2400 50  0001 C CNN "Supplier "
-F 8 "FT232RL" H 5550 2400 50  0001 C CNN "Supplier P/N"
-	3    5550 2400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2211,9 +2109,9 @@ TEST4
 Text Label 17350 3550 2    50   ~ 0
 TEST3
 Text Label 11000 5050 2    50   ~ 0
-TEST0
-Text Label 11000 5150 2    50   ~ 0
 TEST1
+Text Label 11000 5150 2    50   ~ 0
+TEST0
 Text Label 8800 5750 0    50   ~ 0
 TEST2
 Wire Wire Line
