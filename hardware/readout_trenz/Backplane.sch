@@ -102,17 +102,6 @@ Connection ~ 9800 6100
 Wire Wire Line
 	9800 2500 9800 3400
 $Comp
-L power:+3.3V #PWR086
-U 1 1 6100ADFC
-P 10300 6300
-F 0 "#PWR086" H 10300 6150 50  0001 C CNN
-F 1 "+3.3V" H 10450 6350 50  0000 C CNN
-F 2 "" H 10300 6300 50  0001 C CNN
-F 3 "" H 10300 6300 50  0001 C CNN
-	1    10300 6300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR085
 U 1 1 613F0EC5
 P 9800 6450
@@ -1355,6 +1344,8 @@ Wire Wire Line
 Connection ~ 7050 6550
 Wire Wire Line
 	7050 6550 7050 6600
+Text GLabel 10300 6300 2    50   Input ~ 0
+3.3V_SFP
 Wire Wire Line
 	9700 6300 10300 6300
 Wire Wire Line
