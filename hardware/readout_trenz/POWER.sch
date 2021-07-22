@@ -1119,22 +1119,6 @@ F 8 "732-5006-ND" H 7650 5100 50  0001 C CNN "Supplier P/N"
 	1    7650 5100
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:R_Small R11
-U 1 1 610C87A6
-P 7650 4800
-F 0 "R11" H 7709 4846 50  0000 L CNN
-F 1 "56" H 7709 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 4800 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 7650 4800 50  0001 C CNN
-F 4 "$0.1" H 7650 4800 50  0001 C CNN "Item Cost"
-F 5 "CRCW060356R0FKEAC" H 7650 4800 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7650 4800 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 7650 4800 50  0001 C CNN "Supplier "
-F 8 "541-5483-1-ND" H 7650 4800 50  0001 C CNN "Supplier P/N"
-	1    7650 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7650 4900 7650 5000
 Wire Wire Line
@@ -1159,22 +1143,6 @@ F 7 "Digi-Key" H 7650 6100 50  0001 C CNN "Supplier "
 F 8 "732-5006-ND" H 7650 6100 50  0001 C CNN "Supplier P/N"
 	1    7650 6100
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R12
-U 1 1 610D66CA
-P 7650 5800
-F 0 "R12" H 7709 5846 50  0000 L CNN
-F 1 "56" H 7709 5755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 5800 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 7650 5800 50  0001 C CNN
-F 4 "$0.1" H 7650 5800 50  0001 C CNN "Item Cost"
-F 5 "CRCW060356R0FKEAC" H 7650 5800 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7650 5800 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 7650 5800 50  0001 C CNN "Supplier "
-F 8 "541-5483-1-ND" H 7650 5800 50  0001 C CNN "Supplier P/N"
-	1    7650 5800
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7650 5900 7650 6000
@@ -1208,12 +1176,12 @@ P 7650 3800
 F 0 "R10" H 7709 3846 50  0000 L CNN
 F 1 "56" H 7709 3755 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 3800 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 7650 3800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 7650 3800 50  0001 C CNN
 F 4 "$0.1" H 7650 3800 50  0001 C CNN "Item Cost"
-F 5 "CRCW060356R0FKEAC" H 7650 3800 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 7650 3800 50  0001 C CNN "Manufacturer"
+F 5 "RT0603FRE0756RL" H 7650 3800 50  0001 C CNN "MFN"
+F 6 "Yageo" H 7650 3800 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7650 3800 50  0001 C CNN "Supplier "
-F 8 "541-5483-1-ND" H 7650 3800 50  0001 C CNN "Supplier P/N"
+F 8 "13-RT0603FRE0756RLCT-ND" H 7650 3800 50  0001 C CNN "Supplier P/N"
 	1    7650 3800
 	1    0    0    -1  
 $EndComp
@@ -1709,6 +1677,38 @@ Wire Wire Line
 Connection ~ 3600 6300
 Text GLabel 4800 6500 2    50   Output ~ 0
 ADC_VREF
+$Comp
+L Device:R_Small R11
+U 1 1 61015A5E
+P 7650 4800
+F 0 "R11" H 7709 4846 50  0000 L CNN
+F 1 "56" H 7709 4755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 4800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 7650 4800 50  0001 C CNN
+F 4 "$0.1" H 7650 4800 50  0001 C CNN "Item Cost"
+F 5 "RT0603FRE0756RL" H 7650 4800 50  0001 C CNN "MFN"
+F 6 "Yageo" H 7650 4800 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7650 4800 50  0001 C CNN "Supplier "
+F 8 "13-RT0603FRE0756RLCT-ND" H 7650 4800 50  0001 C CNN "Supplier P/N"
+	1    7650 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R12
+U 1 1 610363EB
+P 7650 5800
+F 0 "R12" H 7709 5846 50  0000 L CNN
+F 1 "56" H 7709 5755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7650 5800 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 7650 5800 50  0001 C CNN
+F 4 "$0.1" H 7650 5800 50  0001 C CNN "Item Cost"
+F 5 "RT0603FRE0756RL" H 7650 5800 50  0001 C CNN "MFN"
+F 6 "Yageo" H 7650 5800 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7650 5800 50  0001 C CNN "Supplier "
+F 8 "13-RT0603FRE0756RLCT-ND" H 7650 5800 50  0001 C CNN "Supplier P/N"
+	1    7650 5800
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	3000 5250 3000 5550
 $EndSCHEMATC

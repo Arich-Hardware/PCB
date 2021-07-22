@@ -35,14 +35,14 @@ L Device:R R2
 U 1 1 60C7B230
 P 5500 4150
 F 0 "R2" H 5570 4196 50  0000 L CNN
-F 1 "56" H 5570 4105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 4150 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 5500 4150 50  0001 C CNN
+F 1 "49.9" H 5570 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 4150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 5500 4150 50  0001 C CNN
 F 4 "$0.1" H 5500 4150 50  0001 C CNN "Item Cost"
-F 5 "CRCW060356R0FKEAC" H 5500 4150 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 5500 4150 50  0001 C CNN "Manufacturer"
+F 5 "AF0402FR-0749R9L" H 5500 4150 50  0001 C CNN "MFN"
+F 6 "Yageo" H 5500 4150 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 5500 4150 50  0001 C CNN "Supplier "
-F 8 "541-5483-1-ND" H 5500 4150 50  0001 C CNN "Supplier P/N"
+F 8 "13-AF0402FR-0749R9LCT-ND" H 5500 4150 50  0001 C CNN "Supplier P/N"
 	1    5500 4150
 	1    0    0    -1  
 $EndComp
@@ -137,14 +137,14 @@ L Device:R R1
 U 1 1 60C75BEA
 P 5500 3150
 F 0 "R1" H 5570 3196 50  0000 L CNN
-F 1 "56" H 5570 3105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5430 3150 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 5500 3150 50  0001 C CNN
+F 1 "49.9" H 5570 3105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5430 3150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-AF_51_RoHS_L_6.pdf" H 5500 3150 50  0001 C CNN
 F 4 "$0.1" H 5500 3150 50  0001 C CNN "Item Cost"
-F 5 "CRCW060356R0FKEAC" H 5500 3150 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 5500 3150 50  0001 C CNN "Manufacturer"
+F 5 "AF0402FR-0749R9L" H 5500 3150 50  0001 C CNN "MFN"
+F 6 "Yageo" H 5500 3150 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 5500 3150 50  0001 C CNN "Supplier "
-F 8 "541-5483-1-ND" H 5500 3150 50  0001 C CNN "Supplier P/N"
+F 8 "13-AF0402FR-0749R9LCT-ND" H 5500 3150 50  0001 C CNN "Supplier P/N"
 	1    5500 3150
 	1    0    0    -1  
 $EndComp

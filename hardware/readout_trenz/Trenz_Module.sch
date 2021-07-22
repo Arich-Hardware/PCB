@@ -850,24 +850,6 @@ Wire Wire Line
 	10500 5850 11150 5850
 Text GLabel 12150 5550 2    50   Input ~ 0
 3.3V_TRENZ
-$Comp
-L Device:R_Small R?
-U 1 1 610AD833
-P 11850 5550
-AR Path="/62251D77/610AD833" Ref="R?"  Part="1" 
-AR Path="/60D04563/610AD833" Ref="R67"  Part="1" 
-F 0 "R67" V 11750 5450 50  0000 L CNN
-F 1 "56" V 11850 5500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 5550 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 11850 5550 50  0001 C CNN
-F 4 "$0.1" H 11850 5550 50  0001 C CNN "Item Cost"
-F 5 "CRCW060356R0FKEAC" H 11850 5550 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 11850 5550 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 11850 5550 50  0001 C CNN "Supplier "
-F 8 "541-5483-1-ND" H 11850 5550 50  0001 C CNN "Supplier P/N"
-	1    11850 5550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	11450 5750 10500 5750
 $Comp
@@ -1158,42 +1140,6 @@ Wire Wire Line
 	18000 2900 18300 2900
 Wire Wire Line
 	18000 2350 18000 2900
-$Comp
-L Device:R_Small R?
-U 1 1 60E41B4D
-P 18700 2050
-AR Path="/62251D77/60E41B4D" Ref="R?"  Part="1" 
-AR Path="/60D04563/60E41B4D" Ref="R69"  Part="1" 
-F 0 "R69" V 18800 2000 50  0000 L CNN
-F 1 "56" V 18700 2000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18700 2050 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 18700 2050 50  0001 C CNN
-F 4 "$0.1" H 18700 2050 50  0001 C CNN "Item Cost"
-F 5 "CRCW060356R0FKEAC" H 18700 2050 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 18700 2050 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 18700 2050 50  0001 C CNN "Supplier "
-F 8 "541-5483-1-ND" H 18700 2050 50  0001 C CNN "Supplier P/N"
-	1    18700 2050
-	0    1    -1   0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 60E41B57
-P 18700 2700
-AR Path="/62251D77/60E41B57" Ref="R?"  Part="1" 
-AR Path="/60D04563/60E41B57" Ref="R70"  Part="1" 
-F 0 "R70" V 18800 2650 50  0000 L CNN
-F 1 "56" V 18700 2650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18700 2700 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/28773/crcwce3.pdf" H 18700 2700 50  0001 C CNN
-F 4 "$0.1" H 18700 2700 50  0001 C CNN "Item Cost"
-F 5 "CRCW060356R0FKEAC" H 18700 2700 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 18700 2700 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 18700 2700 50  0001 C CNN "Supplier "
-F 8 "541-5483-1-ND" H 18700 2700 50  0001 C CNN "Supplier P/N"
-	1    18700 2700
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	16850 2050 17350 2050
 Wire Wire Line
@@ -2080,24 +2026,6 @@ F 8 "DMN67D8L-7DICT-ND" H 11650 6400 50  0001 C CNN "Supplier P/N"
 	1    11650 6400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 611C22B2
-P 11850 6200
-AR Path="/62251D77/611C22B2" Ref="R?"  Part="1" 
-AR Path="/60D04563/611C22B2" Ref="R68"  Part="1" 
-F 0 "R68" V 11750 6100 50  0000 L CNN
-F 1 "4.99" V 11850 6150 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 6200 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" H 11850 6200 50  0001 C CNN
-F 4 "$0.1" H 11850 6200 50  0001 C CNN "Item Cost"
-F 5 "CRCW06034R99FNEA" H 11850 6200 50  0001 C CNN "MFN"
-F 6 "Vishay Dale" H 11850 6200 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 11850 6200 50  0001 C CNN "Supplier "
-F 8 "541-4.99HCT-ND" H 11850 6200 50  0001 C CNN "Supplier P/N"
-	1    11850 6200
-	0    1    1    0   
-$EndComp
 NoConn ~ 9300 2450
 NoConn ~ 9300 2350
 Text Notes 8950 2450 0    50   ~ 0
@@ -2194,6 +2122,78 @@ Entry Wire Line
 	11500 3850 11600 3750
 Wire Bus Line
 	11600 3650 12100 3650
+$Comp
+L Device:R_Small R?
+U 1 1 6104D37A
+P 18700 2700
+AR Path="/62251D77/6104D37A" Ref="R?"  Part="1" 
+AR Path="/60D04563/6104D37A" Ref="R70"  Part="1" 
+F 0 "R70" H 18759 2746 50  0000 L CNN
+F 1 "56" H 18759 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18700 2700 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 18700 2700 50  0001 C CNN
+F 4 "$0.1" H 18700 2700 50  0001 C CNN "Item Cost"
+F 5 "RT0603FRE0756RL" H 18700 2700 50  0001 C CNN "MFN"
+F 6 "Yageo" H 18700 2700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 18700 2700 50  0001 C CNN "Supplier "
+F 8 "13-RT0603FRE0756RLCT-ND" H 18700 2700 50  0001 C CNN "Supplier P/N"
+	1    18700 2700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61069147
+P 11850 5550
+AR Path="/62251D77/61069147" Ref="R?"  Part="1" 
+AR Path="/60D04563/61069147" Ref="R67"  Part="1" 
+F 0 "R67" H 11909 5596 50  0000 L CNN
+F 1 "56" H 11909 5505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 5550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 11850 5550 50  0001 C CNN
+F 4 "$0.1" H 11850 5550 50  0001 C CNN "Item Cost"
+F 5 "RT0603FRE0756RL" H 11850 5550 50  0001 C CNN "MFN"
+F 6 "Yageo" H 11850 5550 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11850 5550 50  0001 C CNN "Supplier "
+F 8 "13-RT0603FRE0756RLCT-ND" H 11850 5550 50  0001 C CNN "Supplier P/N"
+	1    11850 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 610B1B58
+P 11850 6200
+AR Path="/62251D77/610B1B58" Ref="R?"  Part="1" 
+AR Path="/60D04563/610B1B58" Ref="R68"  Part="1" 
+F 0 "R68" H 11909 6246 50  0000 L CNN
+F 1 "56" H 11909 6155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 6200 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 11850 6200 50  0001 C CNN
+F 4 "$0.1" H 11850 6200 50  0001 C CNN "Item Cost"
+F 5 "RT0603FRE0756RL" H 11850 6200 50  0001 C CNN "MFN"
+F 6 "Yageo" H 11850 6200 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11850 6200 50  0001 C CNN "Supplier "
+F 8 "13-RT0603FRE0756RLCT-ND" H 11850 6200 50  0001 C CNN "Supplier P/N"
+	1    11850 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6110B993
+P 18700 2050
+AR Path="/62251D77/6110B993" Ref="R?"  Part="1" 
+AR Path="/60D04563/6110B993" Ref="R69"  Part="1" 
+F 0 "R69" H 18759 2096 50  0000 L CNN
+F 1 "56" H 18759 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18700 2050 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 18700 2050 50  0001 C CNN
+F 4 "$0.1" H 18700 2050 50  0001 C CNN "Item Cost"
+F 5 "RT0603FRE0756RL" H 18700 2050 50  0001 C CNN "MFN"
+F 6 "Yageo" H 18700 2050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 18700 2050 50  0001 C CNN "Supplier "
+F 8 "13-RT0603FRE0756RLCT-ND" H 18700 2050 50  0001 C CNN "Supplier P/N"
+	1    18700 2050
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	16850 2350 18000 2350
 Wire Bus Line
