@@ -220,7 +220,7 @@ Wire Wire Line
 Wire Wire Line
 	13200 7950 13050 7950
 Wire Wire Line
-	15650 5550 14200 5550
+	15650 5550 15350 5550
 Wire Wire Line
 	14200 5450 15650 5450
 Wire Bus Line
@@ -263,7 +263,7 @@ AR Path="/605DF89A/60CED89A" Ref="R?"  Part="1"
 AR Path="/60C32D5A/60CED89A" Ref="R?"  Part="1" 
 AR Path="/60BB4A14/60CED89A" Ref="R117"  Part="1" 
 AR Path="/60BB4C00/60CED89A" Ref="R61"  Part="1" 
-F 0 "R61" V 15620 5046 50  0000 L CNN
+F 0 "R61" V 15550 5200 50  0000 L CNN
 F 1 "1k" V 15550 4950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 15480 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 15550 5000 50  0001 C CNN
@@ -283,7 +283,7 @@ AR Path="/605DF89A/60CED0B7" Ref="R?"  Part="1"
 AR Path="/60C32D5A/60CED0B7" Ref="R?"  Part="1" 
 AR Path="/60BB4A14/60CED0B7" Ref="R116"  Part="1" 
 AR Path="/60BB4C00/60CED0B7" Ref="R60"  Part="1" 
-F 0 "R60" V 15520 5046 50  0000 L CNN
+F 0 "R60" V 15450 5200 50  0000 L CNN
 F 1 "1k" V 15450 4950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 15380 5000 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 15450 5000 50  0001 C CNN
@@ -344,117 +344,9 @@ Connection ~ 11050 7650
 Connection ~ 11150 7550
 Connection ~ 11250 7450
 Connection ~ 11350 7350
-$Comp
-L Device:R_Small R104
-U 1 1 61BCD308
-P 10700 7350
-AR Path="/60BB4A14/61BCD308" Ref="R104"  Part="1" 
-AR Path="/60BB4C00/61BCD308" Ref="R48"  Part="1" 
-F 0 "R48" V 10700 7450 30  0000 L CNN
-F 1 "100" V 10700 7300 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7350 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 10700 7350 50  0001 C CNN
-F 4 "$0.01" H 10700 7350 50  0001 C CNN "Item Cost"
-F 5 "CR0603AFX-1000ELF" H 10700 7350 50  0001 C CNN "MFN"
-F 6 "Bourns Inc." H 10700 7350 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 10700 7350 50  0001 C CNN "Supplier "
-F 8 "118-CR0603AFX-1000ELFCT-ND" H 10700 7350 50  0001 C CNN "Supplier P/N"
-	1    10700 7350
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R105
-U 1 1 61BCD2F5
-P 10700 7450
-AR Path="/60BB4A14/61BCD2F5" Ref="R105"  Part="1" 
-AR Path="/60BB4C00/61BCD2F5" Ref="R49"  Part="1" 
-F 0 "R49" V 10700 7550 30  0000 L CNN
-F 1 "100" V 10700 7400 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7450 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 10700 7450 50  0001 C CNN
-F 4 "$0.01" H 10700 7450 50  0001 C CNN "Item Cost"
-F 5 "CR0603AFX-1000ELF" H 10700 7450 50  0001 C CNN "MFN"
-F 6 "Bourns Inc." H 10700 7450 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 10700 7450 50  0001 C CNN "Supplier "
-F 8 "118-CR0603AFX-1000ELFCT-ND" H 10700 7450 50  0001 C CNN "Supplier P/N"
-	1    10700 7450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R106
-U 1 1 61BCD2E5
-P 10700 7550
-AR Path="/60BB4A14/61BCD2E5" Ref="R106"  Part="1" 
-AR Path="/60BB4C00/61BCD2E5" Ref="R50"  Part="1" 
-F 0 "R50" V 10700 7650 30  0000 L CNN
-F 1 "100" V 10700 7500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7550 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 10700 7550 50  0001 C CNN
-F 4 "$0.01" H 10700 7550 50  0001 C CNN "Item Cost"
-F 5 "CR0603AFX-1000ELF" H 10700 7550 50  0001 C CNN "MFN"
-F 6 "Bourns Inc." H 10700 7550 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 10700 7550 50  0001 C CNN "Supplier "
-F 8 "118-CR0603AFX-1000ELFCT-ND" H 10700 7550 50  0001 C CNN "Supplier P/N"
-	1    10700 7550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R107
-U 1 1 6105293E
-P 10700 7650
-AR Path="/60BB4A14/6105293E" Ref="R107"  Part="1" 
-AR Path="/60BB4C00/6105293E" Ref="R51"  Part="1" 
-F 0 "R51" V 10700 7750 30  0000 L CNN
-F 1 "100" V 10700 7600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7650 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 10700 7650 50  0001 C CNN
-F 4 "$0.01" H 10700 7650 50  0001 C CNN "Item Cost"
-F 5 "CR0603AFX-1000ELF" H 10700 7650 50  0001 C CNN "MFN"
-F 6 "Bourns Inc." H 10700 7650 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 10700 7650 50  0001 C CNN "Supplier "
-F 8 "118-CR0603AFX-1000ELFCT-ND" H 10700 7650 50  0001 C CNN "Supplier P/N"
-	1    10700 7650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Small R108
-U 1 1 60C983F5
-P 10700 7750
-AR Path="/60BB4A14/60C983F5" Ref="R108"  Part="1" 
-AR Path="/60BB4C00/60C983F5" Ref="R52"  Part="1" 
-F 0 "R52" V 10700 7850 30  0000 L CNN
-F 1 "100" V 10700 7700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7750 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 10700 7750 50  0001 C CNN
-F 4 "$0.01" H 10700 7750 50  0001 C CNN "Item Cost"
-F 5 "CR0603AFX-1000ELF" H 10700 7750 50  0001 C CNN "MFN"
-F 6 "Bourns Inc." H 10700 7750 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 10700 7750 50  0001 C CNN "Supplier "
-F 8 "118-CR0603AFX-1000ELFCT-ND" H 10700 7750 50  0001 C CNN "Supplier P/N"
-	1    10700 7750
-	0    1    1    0   
-$EndComp
 Connection ~ 10850 7850
 Wire Wire Line
 	10800 7850 10850 7850
-$Comp
-L Device:R_Small R109
-U 1 1 60C983F4
-P 10700 7850
-AR Path="/60BB4A14/60C983F4" Ref="R109"  Part="1" 
-AR Path="/60BB4C00/60C983F4" Ref="R53"  Part="1" 
-F 0 "R53" V 10700 7950 30  0000 L CNN
-F 1 "100" V 10700 7800 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 7850 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 10700 7850 50  0001 C CNN
-F 4 "$0.01" H 10700 7850 50  0001 C CNN "Item Cost"
-F 5 "CR0603AFX-1000ELF" H 10700 7850 50  0001 C CNN "MFN"
-F 6 "Bourns Inc." H 10700 7850 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 10700 7850 50  0001 C CNN "Supplier "
-F 8 "118-CR0603AFX-1000ELFCT-ND" H 10700 7850 50  0001 C CNN "Supplier P/N"
-	1    10700 7850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10550 8400 10700 8400
 Wire Wire Line
@@ -961,22 +853,9 @@ Connection ~ 12150 8750
 Wire Wire Line
 	12550 8750 12550 8650
 Wire Wire Line
-	12150 8750 12550 8750
+	12150 8750 12350 8750
 Wire Wire Line
-	12350 8800 12350 8650
-$Comp
-L power:GND #PWR0159
-U 1 1 611985EF
-P 12350 8800
-AR Path="/60BB4A14/611985EF" Ref="#PWR0159"  Part="1" 
-AR Path="/60BB4C00/611985EF" Ref="#PWR074"  Part="1" 
-F 0 "#PWR074" H 12350 8550 50  0001 C CNN
-F 1 "GNDD" H 12354 8645 50  0000 C CNN
-F 2 "" H 12350 8800 50  0001 C CNN
-F 3 "" H 12350 8800 50  0001 C CNN
-	1    12350 8800
-	1    0    0    -1  
-$EndComp
+	12350 8750 12350 8650
 Connection ~ 11450 8750
 Wire Wire Line
 	11450 8800 11450 8750
@@ -4906,24 +4785,6 @@ Wire Wire Line
 Connection ~ 4850 5550
 Wire Wire Line
 	4850 5550 4900 5550
-$Comp
-L Device:R_Small R103
-U 1 1 61BCD359
-P 10700 8150
-AR Path="/60BB4A14/61BCD359" Ref="R103"  Part="1" 
-AR Path="/60BB4C00/61BCD359" Ref="R47"  Part="1" 
-F 0 "R47" V 10700 8250 30  0000 L CNN
-F 1 "100" V 10700 8100 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10700 8150 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/product-datasheets/crxxxxa.pdf" H 10700 8150 50  0001 C CNN
-F 4 "$0.01" H 10700 8150 50  0001 C CNN "Item Cost"
-F 5 "CR0603AFX-1000ELF" H 10700 8150 50  0001 C CNN "MFN"
-F 6 "Bourns Inc." H 10700 8150 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 10700 8150 50  0001 C CNN "Supplier "
-F 8 "118-CR0603AFX-1000ELFCT-ND" H 10700 8150 50  0001 C CNN "Supplier P/N"
-	1    10700 8150
-	-1   0    0    1   
-$EndComp
 Connection ~ 10550 7250
 Wire Wire Line
 	10550 7250 10600 7250
@@ -4949,6 +4810,183 @@ Wire Wire Line
 	10850 8000 10850 7850
 Wire Wire Line
 	10700 8250 10700 8400
+Connection ~ 10700 8400
+Wire Wire Line
+	10700 8400 10850 8400
+NoConn ~ 11500 7250
+Connection ~ 12350 8750
+Wire Wire Line
+	12350 8750 12550 8750
+$Comp
+L Device:R R?
+U 1 1 61153552
+P 15350 5000
+AR Path="/605DF89A/61153552" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/61153552" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/61153552" Ref="R111"  Part="1" 
+AR Path="/60BB4C00/61153552" Ref="R110"  Part="1" 
+F 0 "R110" V 15350 5200 50  0000 L CNN
+F 1 "1k" V 15350 4950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 15280 5000 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 15350 5000 50  0001 C CNN
+F 4 "$0.1" H 15350 5000 50  0001 C CNN "Item Cost"
+F 5 "RC0805FR-071KL" H 15350 5000 50  0001 C CNN "MFN"
+F 6 "Yageo" H 15350 5000 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 15350 5000 50  0001 C CNN "Supplier "
+F 8 "311-1.00KCRCT-ND" H 15350 5000 50  0001 C CNN "Supplier P/N"
+	1    15350 5000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15450 4800 15350 4800
+Wire Wire Line
+	15350 4800 15350 4850
+Connection ~ 15450 4800
+Wire Wire Line
+	15350 5150 15350 5550
+Connection ~ 15350 5550
+Wire Wire Line
+	15350 5550 14200 5550
+$Comp
+L Device:R_Small R?
+U 1 1 612FE307
+P 10700 7350
+AR Path="/605DF89A/612FE307" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/612FE307" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/612FE307" Ref="R104"  Part="1" 
+AR Path="/60BB4C00/612FE307" Ref="R48"  Part="1" 
+F 0 "R48" V 10700 7500 30  0000 L CNN
+F 1 "1k" V 10700 7300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10630 7350 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7350 50  0001 C CNN
+F 4 "$0.1" H 10700 7350 50  0001 C CNN "Item Cost"
+F 5 "RC0603JR-071KL" H 10700 7350 50  0001 C CNN "MFN"
+F 6 "Yageo" H 10700 7350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10700 7350 50  0001 C CNN "Supplier "
+F 8 "311-1.0KGRCT-ND" H 10700 7350 50  0001 C CNN "Supplier P/N"
+	1    10700 7350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 614869DB
+P 10700 8150
+AR Path="/605DF89A/614869DB" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/614869DB" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/614869DB" Ref="R103"  Part="1" 
+AR Path="/60BB4C00/614869DB" Ref="R47"  Part="1" 
+F 0 "R47" H 10650 8250 30  0000 L CNN
+F 1 "1k" V 10700 8100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10630 8150 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 8150 50  0001 C CNN
+F 4 "$0.1" H 10700 8150 50  0001 C CNN "Item Cost"
+F 5 "RC0603JR-071KL" H 10700 8150 50  0001 C CNN "MFN"
+F 6 "Yageo" H 10700 8150 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10700 8150 50  0001 C CNN "Supplier "
+F 8 "311-1.0KGRCT-ND" H 10700 8150 50  0001 C CNN "Supplier P/N"
+	1    10700 8150
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6150F888
+P 10700 7450
+AR Path="/605DF89A/6150F888" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/6150F888" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/6150F888" Ref="R105"  Part="1" 
+AR Path="/60BB4C00/6150F888" Ref="R49"  Part="1" 
+F 0 "R49" V 10700 7600 30  0000 L CNN
+F 1 "1k" V 10700 7400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10630 7450 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7450 50  0001 C CNN
+F 4 "$0.1" H 10700 7450 50  0001 C CNN "Item Cost"
+F 5 "RC0603JR-071KL" H 10700 7450 50  0001 C CNN "MFN"
+F 6 "Yageo" H 10700 7450 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10700 7450 50  0001 C CNN "Supplier "
+F 8 "311-1.0KGRCT-ND" H 10700 7450 50  0001 C CNN "Supplier P/N"
+	1    10700 7450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61579D35
+P 10700 7550
+AR Path="/605DF89A/61579D35" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/61579D35" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/61579D35" Ref="R106"  Part="1" 
+AR Path="/60BB4C00/61579D35" Ref="R50"  Part="1" 
+F 0 "R50" V 10700 7700 30  0000 L CNN
+F 1 "1k" V 10700 7500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10630 7550 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7550 50  0001 C CNN
+F 4 "$0.1" H 10700 7550 50  0001 C CNN "Item Cost"
+F 5 "RC0603JR-071KL" H 10700 7550 50  0001 C CNN "MFN"
+F 6 "Yageo" H 10700 7550 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10700 7550 50  0001 C CNN "Supplier "
+F 8 "311-1.0KGRCT-ND" H 10700 7550 50  0001 C CNN "Supplier P/N"
+	1    10700 7550
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 615E3C70
+P 10700 7650
+AR Path="/605DF89A/615E3C70" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/615E3C70" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/615E3C70" Ref="R107"  Part="1" 
+AR Path="/60BB4C00/615E3C70" Ref="R51"  Part="1" 
+F 0 "R51" V 10700 7800 30  0000 L CNN
+F 1 "1k" V 10700 7600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10630 7650 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7650 50  0001 C CNN
+F 4 "$0.1" H 10700 7650 50  0001 C CNN "Item Cost"
+F 5 "RC0603JR-071KL" H 10700 7650 50  0001 C CNN "MFN"
+F 6 "Yageo" H 10700 7650 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10700 7650 50  0001 C CNN "Supplier "
+F 8 "311-1.0KGRCT-ND" H 10700 7650 50  0001 C CNN "Supplier P/N"
+	1    10700 7650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 615E3C7F
+P 10700 7750
+AR Path="/605DF89A/615E3C7F" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/615E3C7F" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/615E3C7F" Ref="R108"  Part="1" 
+AR Path="/60BB4C00/615E3C7F" Ref="R52"  Part="1" 
+F 0 "R52" V 10700 7900 30  0000 L CNN
+F 1 "1k" V 10700 7700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10630 7750 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7750 50  0001 C CNN
+F 4 "$0.1" H 10700 7750 50  0001 C CNN "Item Cost"
+F 5 "RC0603JR-071KL" H 10700 7750 50  0001 C CNN "MFN"
+F 6 "Yageo" H 10700 7750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10700 7750 50  0001 C CNN "Supplier "
+F 8 "311-1.0KGRCT-ND" H 10700 7750 50  0001 C CNN "Supplier P/N"
+	1    10700 7750
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 615E3C8E
+P 10700 7850
+AR Path="/605DF89A/615E3C8E" Ref="R?"  Part="1" 
+AR Path="/60C32D5A/615E3C8E" Ref="R?"  Part="1" 
+AR Path="/60BB4A14/615E3C8E" Ref="R109"  Part="1" 
+AR Path="/60BB4C00/615E3C8E" Ref="R53"  Part="1" 
+F 0 "R53" V 10700 8000 30  0000 L CNN
+F 1 "1k" V 10700 7800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10630 7850 50  0001 C CNN
+F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" H 10700 7850 50  0001 C CNN
+F 4 "$0.1" H 10700 7850 50  0001 C CNN "Item Cost"
+F 5 "RC0603JR-071KL" H 10700 7850 50  0001 C CNN "MFN"
+F 6 "Yageo" H 10700 7850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10700 7850 50  0001 C CNN "Supplier "
+F 8 "311-1.0KGRCT-ND" H 10700 7850 50  0001 C CNN "Supplier P/N"
+	1    10700 7850
+	0    1    -1   0   
+$EndComp
 Wire Bus Line
 	16800 3600 16800 3950
 Wire Bus Line
@@ -4963,7 +5001,4 @@ Wire Bus Line
 	4600 7100 4600 10250
 Wire Bus Line
 	14800 1450 14800 4550
-Connection ~ 10700 8400
-Wire Wire Line
-	10700 8400 10850 8400
 $EndSCHEMATC

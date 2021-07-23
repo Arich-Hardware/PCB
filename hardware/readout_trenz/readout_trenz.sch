@@ -131,4 +131,204 @@ Wire Bus Line
 	2500 1250 3500 1250
 Wire Bus Line
 	2500 4250 3500 4250
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60FAE650
+P 9000 2950
+F 0 "H1" H 9100 2996 50  0000 L CNN
+F 1 "MountingHole" H 9100 2905 50  0000 L CNN
+F 2 "readout_trenz:MountingHole_0.11''" H 9000 2950 50  0001 C CNN
+F 3 "~" H 9000 2950 50  0001 C CNN
+	1    9000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60FAE6D8
+P 9000 4000
+F 0 "H2" H 9100 4046 50  0000 L CNN
+F 1 "MountingHole" H 9100 3955 50  0000 L CNN
+F 2 "readout_trenz:MountingHole_0.11''" H 9000 4000 50  0001 C CNN
+F 3 "~" H 9000 4000 50  0001 C CNN
+	1    9000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP27
+U 1 1 612E1733
+P 9000 4500
+F 0 "TP27" V 9000 4850 50  0000 C CNN
+F 1 "TestPoint" V 9104 4572 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 4500 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 4500 50  0001 C CNN
+F 4 "$0.42" H 9000 4500 50  0001 C CNN "Item Cost"
+F 5 "5001" H 9000 4500 50  0001 C CNN "MFN"
+F 6 "Keystone Electronics" H 9000 4500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9000 4500 50  0001 C CNN "Supplier "
+F 8 "36-5001-ND" H 9000 4500 50  0001 C CNN "Supplier P/N"
+	1    9000 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 4500 9500 4500
+Wire Wire Line
+	9500 4500 9500 4750
+Wire Wire Line
+	9500 6250 9000 6250
+Wire Wire Line
+	9000 6000 9500 6000
+Connection ~ 9500 6000
+Wire Wire Line
+	9500 6000 9500 6250
+Wire Wire Line
+	9000 5750 9500 5750
+Connection ~ 9500 5750
+Wire Wire Line
+	9500 5750 9500 6000
+Wire Wire Line
+	9000 5500 9500 5500
+Connection ~ 9500 5500
+Wire Wire Line
+	9500 5500 9500 5750
+Wire Wire Line
+	9000 5250 9500 5250
+Connection ~ 9500 5250
+Wire Wire Line
+	9500 5250 9500 5500
+Wire Wire Line
+	9000 5000 9500 5000
+Connection ~ 9500 5000
+Wire Wire Line
+	9500 5000 9500 5250
+Wire Wire Line
+	9000 4750 9500 4750
+Connection ~ 9500 4750
+Wire Wire Line
+	9500 4750 9500 5000
+Wire Wire Line
+	9500 6250 9500 6500
+Connection ~ 9500 6250
+$Comp
+L power:GND #PWR069
+U 1 1 612EC600
+P 9500 6500
+F 0 "#PWR069" H 9500 6250 50  0001 C CNN
+F 1 "GND" H 9505 6327 50  0000 C CNN
+F 2 "" H 9500 6500 50  0001 C CNN
+F 3 "" H 9500 6500 50  0001 C CNN
+	1    9500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP28
+U 1 1 612EFED2
+P 9000 4750
+F 0 "TP28" V 9000 5100 50  0000 C CNN
+F 1 "TestPoint" V 9104 4822 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 4750 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 4750 50  0001 C CNN
+F 4 "$0.42" H 9000 4750 50  0001 C CNN "Item Cost"
+F 5 "5001" H 9000 4750 50  0001 C CNN "MFN"
+F 6 "Keystone Electronics" H 9000 4750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9000 4750 50  0001 C CNN "Supplier "
+F 8 "36-5001-ND" H 9000 4750 50  0001 C CNN "Supplier P/N"
+	1    9000 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP29
+U 1 1 612F0649
+P 9000 5000
+F 0 "TP29" V 9000 5350 50  0000 C CNN
+F 1 "TestPoint" V 9104 5072 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 5000 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 5000 50  0001 C CNN
+F 4 "$0.42" H 9000 5000 50  0001 C CNN "Item Cost"
+F 5 "5001" H 9000 5000 50  0001 C CNN "MFN"
+F 6 "Keystone Electronics" H 9000 5000 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9000 5000 50  0001 C CNN "Supplier "
+F 8 "36-5001-ND" H 9000 5000 50  0001 C CNN "Supplier P/N"
+	1    9000 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP30
+U 1 1 612F0658
+P 9000 5250
+F 0 "TP30" V 9000 5600 50  0000 C CNN
+F 1 "TestPoint" V 9104 5322 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 5250 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 5250 50  0001 C CNN
+F 4 "$0.42" H 9000 5250 50  0001 C CNN "Item Cost"
+F 5 "5001" H 9000 5250 50  0001 C CNN "MFN"
+F 6 "Keystone Electronics" H 9000 5250 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9000 5250 50  0001 C CNN "Supplier "
+F 8 "36-5001-ND" H 9000 5250 50  0001 C CNN "Supplier P/N"
+	1    9000 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP31
+U 1 1 612F14A1
+P 9000 5500
+F 0 "TP31" V 9000 5850 50  0000 C CNN
+F 1 "TestPoint" V 9104 5572 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 5500 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 5500 50  0001 C CNN
+F 4 "$0.42" H 9000 5500 50  0001 C CNN "Item Cost"
+F 5 "5001" H 9000 5500 50  0001 C CNN "MFN"
+F 6 "Keystone Electronics" H 9000 5500 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9000 5500 50  0001 C CNN "Supplier "
+F 8 "36-5001-ND" H 9000 5500 50  0001 C CNN "Supplier P/N"
+	1    9000 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP32
+U 1 1 612F14B0
+P 9000 5750
+F 0 "TP32" V 9000 6100 50  0000 C CNN
+F 1 "TestPoint" V 9104 5822 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 5750 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 5750 50  0001 C CNN
+F 4 "$0.42" H 9000 5750 50  0001 C CNN "Item Cost"
+F 5 "5001" H 9000 5750 50  0001 C CNN "MFN"
+F 6 "Keystone Electronics" H 9000 5750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9000 5750 50  0001 C CNN "Supplier "
+F 8 "36-5001-ND" H 9000 5750 50  0001 C CNN "Supplier P/N"
+	1    9000 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP33
+U 1 1 612F14BF
+P 9000 6000
+F 0 "TP33" V 9000 6350 50  0000 C CNN
+F 1 "TestPoint" V 9104 6072 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 6000 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 6000 50  0001 C CNN
+F 4 "$0.42" H 9000 6000 50  0001 C CNN "Item Cost"
+F 5 "5001" H 9000 6000 50  0001 C CNN "MFN"
+F 6 "Keystone Electronics" H 9000 6000 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9000 6000 50  0001 C CNN "Supplier "
+F 8 "36-5001-ND" H 9000 6000 50  0001 C CNN "Supplier P/N"
+	1    9000 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP34
+U 1 1 612F14CE
+P 9000 6250
+F 0 "TP34" V 9000 6600 50  0000 C CNN
+F 1 "TestPoint" V 9104 6322 50  0000 C CNN
+F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 6250 50  0001 C CNN
+F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 6250 50  0001 C CNN
+F 4 "$0.42" H 9000 6250 50  0001 C CNN "Item Cost"
+F 5 "5001" H 9000 6250 50  0001 C CNN "MFN"
+F 6 "Keystone Electronics" H 9000 6250 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9000 6250 50  0001 C CNN "Supplier "
+F 8 "36-5001-ND" H 9000 6250 50  0001 C CNN "Supplier P/N"
+	1    9000 6250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
