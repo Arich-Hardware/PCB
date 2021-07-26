@@ -49,8 +49,8 @@ P 5300 6000
 AR Path="/6099D1B7/614DBB74" Ref="R?"  Part="1" 
 AR Path="/60AD0200/60AFD3C0/614DBB74" Ref="R?"  Part="1" 
 AR Path="/606EBC4D/614DBB74" Ref="R?"  Part="1" 
-AR Path="/60D04563/614DBB74" Ref="R66"  Part="1" 
-F 0 "R66" H 5400 6000 50  0000 C CNN
+AR Path="/60D04563/614DBB74" Ref="R68"  Part="1" 
+F 0 "R68" H 5400 6000 50  0000 C CNN
 F 1 "4.7k" V 5300 6000 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5230 6000 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" H 5300 6000 50  0001 C CNN
@@ -69,8 +69,8 @@ P 5100 5900
 AR Path="/6099D1B7/614DC8C2" Ref="R?"  Part="1" 
 AR Path="/60AD0200/60AFD3C0/614DC8C2" Ref="R?"  Part="1" 
 AR Path="/606EBC4D/614DC8C2" Ref="R?"  Part="1" 
-AR Path="/60D04563/614DC8C2" Ref="R65"  Part="1" 
-F 0 "R65" H 5200 5900 50  0000 C CNN
+AR Path="/60D04563/614DC8C2" Ref="R67"  Part="1" 
+F 0 "R67" H 5200 5900 50  0000 C CNN
 F 1 "4.7k" V 5100 5900 50  0000 C CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5030 5900 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" H 5100 5900 50  0001 C CNN
@@ -179,8 +179,8 @@ L Device:C_Small C?
 U 1 1 60E5BE10
 P 8950 6200
 AR Path="/60767640/60E5BE10" Ref="C?"  Part="1" 
-AR Path="/60D04563/60E5BE10" Ref="C98"  Part="1" 
-F 0 "C98" H 8858 6246 50  0000 R CNN
+AR Path="/60D04563/60E5BE10" Ref="C99"  Part="1" 
+F 0 "C99" H 8858 6246 50  0000 R CNN
 F 1 "47uF" H 8858 6155 50  0000 R CNB
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8950 6200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012107006.pdf" H 8950 6200 50  0001 C CNN
@@ -311,8 +311,6 @@ Text Label 2100 2550 2    50   ~ 0
 TDI
 Text Label 4700 5850 2    50   ~ 0
 SFP0_TX_FAULT
-Wire Wire Line
-	4050 5850 4700 5850
 Text Label 4700 5950 2    50   ~ 0
 SFP0_TX_DIS
 Wire Wire Line
@@ -323,16 +321,12 @@ Text Label 4700 6150 2    50   ~ 0
 SFP0_SCL
 Text Label 4700 6250 2    50   ~ 0
 SFP0_M-DEF0
-Wire Wire Line
-	4050 6250 4700 6250
 Text Label 4700 6350 2    50   ~ 0
 SFP0_RS0
 Wire Wire Line
 	4050 6350 4700 6350
 Text Label 4700 6450 2    50   ~ 0
 SFP0_LOS
-Wire Wire Line
-	4050 6450 4700 6450
 Text Label 4700 6550 2    50   ~ 0
 SFP0_RS1
 Wire Wire Line
@@ -431,9 +425,9 @@ Wire Notes Line
 Wire Notes Line
 	2350 500  2350 4350
 Wire Wire Line
-	5100 5650 5100 5750
+	5100 5350 5100 5750
 Wire Wire Line
-	5300 5650 5300 5850
+	5300 5350 5300 5850
 Text Label 11500 2950 2    50   ~ 0
 SH_Ctrl_B6
 Text Label 11500 2850 2    50   ~ 0
@@ -777,9 +771,9 @@ F 3 "" H 16850 5550 50  0001 C CNN
 $EndComp
 Text GLabel 8800 6050 0    50   Input ~ 0
 3.3V_TRENZ
-Text GLabel 5100 5650 1    50   Input ~ 0
+Text GLabel 5100 5350 1    50   Input ~ 0
 3.3V_SFP
-Text GLabel 5300 5650 1    50   Input ~ 0
+Text GLabel 5300 5350 1    50   Input ~ 0
 3.3V_SFP
 Text GLabel 1700 2050 1    50   Input ~ 0
 3.3V_TRENZ
@@ -1149,10 +1143,10 @@ Wire Wire Line
 Wire Wire Line
 	4050 5550 4700 5550
 $Comp
-L readout:TrenzSFP+cage J16
+L readout:TrenzSFP+cage J15
 U 1 1 60E7D4DA
 P 3550 5900
-F 0 "J16" H 3550 6775 50  0000 C CNN
+F 0 "J15" H 3550 6775 50  0000 C CNN
 F 1 "TrenzSFP+cage" H 3550 6684 50  0000 C CNN
 F 2 "Connector:Connector_SFP_and_Cage" H 3550 5900 50  0001 C CNN
 F 3 "" H 3550 5900 50  0001 C CNN
@@ -1180,10 +1174,10 @@ $EndComp
 Text GLabel 800  5250 1    50   Input ~ 0
 3.3V_SFP
 $Comp
-L Device:R_Small R63
+L Device:R_Small R64
 U 1 1 6108590E
 P 2200 5650
-F 0 "R63" H 2259 5696 50  0000 L CNN
+F 0 "R64" H 2259 5696 50  0000 L CNN
 F 1 "0.5" H 2259 5605 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2200 5650 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RL_Group_521_RoHS_L_2.pdf" H 2200 5650 50  0001 C CNN
@@ -1196,10 +1190,10 @@ F 8 "13-RL0603JR-070R5LCT-ND" H 2200 5650 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C94
+L Device:C_Small C95
 U 1 1 610863DC
 P 2200 5350
-F 0 "C94" H 2108 5396 50  0000 R CNN
+F 0 "C95" H 2108 5396 50  0000 R CNN
 F 1 "22uF" H 2108 5305 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 5350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012107011.pdf" H 2200 5350 50  0001 C CNN
@@ -1228,10 +1222,10 @@ F 8 "535-11602-1-ND" H 2000 5250 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C96
+L Device:C_Small C97
 U 1 1 610897D3
 P 2400 5350
-F 0 "C96" H 2492 5396 50  0000 L CNN
+F 0 "C97" H 2492 5396 50  0000 L CNN
 F 1 "0.1uF" H 2492 5305 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2400 5350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 2400 5350 50  0001 C CNN
@@ -1244,10 +1238,10 @@ F 8 "732-7965-1-ND" H 2400 5350 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R62
+L Device:R_Small R63
 U 1 1 610FD5E5
 P 1100 5250
-F 0 "R62" V 904 5250 50  0000 C CNN
+F 0 "R63" V 904 5250 50  0000 C CNN
 F 1 "0.1" V 995 5250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1100 5250 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDN0000/AOA0000C313.pdf" H 1100 5250 50  0001 C CNN
@@ -1285,10 +1279,10 @@ F 3 "" H 2050 5750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R64
+L Device:R_Small R65
 U 1 1 6125D48F
 P 2200 6600
-F 0 "R64" H 2259 6646 50  0000 L CNN
+F 0 "R65" H 2259 6646 50  0000 L CNN
 F 1 "0.5" H 2259 6555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2200 6600 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RL_Group_521_RoHS_L_2.pdf" H 2200 6600 50  0001 C CNN
@@ -1301,10 +1295,10 @@ F 8 "13-RL0603JR-070R5LCT-ND" H 2200 6600 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C95
+L Device:C_Small C96
 U 1 1 6125D499
 P 2200 6300
-F 0 "C95" H 2108 6346 50  0000 R CNN
+F 0 "C96" H 2108 6346 50  0000 R CNN
 F 1 "22uF" H 2108 6255 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2200 6300 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012107011.pdf" H 2200 6300 50  0001 C CNN
@@ -1333,10 +1327,10 @@ F 8 "535-11602-1-ND" H 2000 6200 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C97
+L Device:C_Small C98
 U 1 1 6125D4AD
 P 2400 6300
-F 0 "C97" H 2492 6346 50  0000 L CNN
+F 0 "C98" H 2492 6346 50  0000 L CNN
 F 1 "0.1uF" H 2492 6255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2400 6300 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 2400 6300 50  0001 C CNN
@@ -1349,10 +1343,10 @@ F 8 "732-7965-1-ND" H 2400 6300 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C93
+L Device:C_Small C94
 U 1 1 6125D4B7
 P 1800 6300
-F 0 "C93" H 1708 6346 50  0000 R CNN
+F 0 "C94" H 1708 6346 50  0000 R CNN
 F 1 "0.1uF" H 1708 6255 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1800 6300 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 1800 6300 50  0001 C CNN
@@ -1441,10 +1435,10 @@ Wire Wire Line
 Wire Wire Line
 	1800 5250 1900 5250
 $Comp
-L Device:C_Small C92
+L Device:C_Small C93
 U 1 1 610D18A0
 P 1800 5350
-F 0 "C92" H 1708 5396 50  0000 R CNN
+F 0 "C93" H 1708 5396 50  0000 R CNN
 F 1 "0.1uF" H 1708 5305 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1800 5350 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 1800 5350 50  0001 C CNN
@@ -2127,8 +2121,8 @@ L Device:R_Small R?
 U 1 1 6104D37A
 P 18700 2700
 AR Path="/62251D77/6104D37A" Ref="R?"  Part="1" 
-AR Path="/60D04563/6104D37A" Ref="R70"  Part="1" 
-F 0 "R70" H 18759 2746 50  0000 L CNN
+AR Path="/60D04563/6104D37A" Ref="R74"  Part="1" 
+F 0 "R74" H 18759 2746 50  0000 L CNN
 F 1 "56" H 18759 2655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18700 2700 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 18700 2700 50  0001 C CNN
@@ -2145,8 +2139,8 @@ L Device:R_Small R?
 U 1 1 61069147
 P 11850 5550
 AR Path="/62251D77/61069147" Ref="R?"  Part="1" 
-AR Path="/60D04563/61069147" Ref="R67"  Part="1" 
-F 0 "R67" H 11909 5596 50  0000 L CNN
+AR Path="/60D04563/61069147" Ref="R71"  Part="1" 
+F 0 "R71" H 11909 5596 50  0000 L CNN
 F 1 "56" H 11909 5505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 5550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 11850 5550 50  0001 C CNN
@@ -2163,8 +2157,8 @@ L Device:R_Small R?
 U 1 1 610B1B58
 P 11850 6200
 AR Path="/62251D77/610B1B58" Ref="R?"  Part="1" 
-AR Path="/60D04563/610B1B58" Ref="R68"  Part="1" 
-F 0 "R68" H 11909 6246 50  0000 L CNN
+AR Path="/60D04563/610B1B58" Ref="R72"  Part="1" 
+F 0 "R72" H 11909 6246 50  0000 L CNN
 F 1 "56" H 11909 6155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11850 6200 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 11850 6200 50  0001 C CNN
@@ -2181,8 +2175,8 @@ L Device:R_Small R?
 U 1 1 6110B993
 P 18700 2050
 AR Path="/62251D77/6110B993" Ref="R?"  Part="1" 
-AR Path="/60D04563/6110B993" Ref="R69"  Part="1" 
-F 0 "R69" H 18759 2096 50  0000 L CNN
+AR Path="/60D04563/6110B993" Ref="R73"  Part="1" 
+F 0 "R73" H 18759 2096 50  0000 L CNN
 F 1 "56" H 18759 2005 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18700 2050 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf" H 18700 2050 50  0001 C CNN
@@ -2193,6 +2187,125 @@ F 7 "Digi-Key" H 18700 2050 50  0001 C CNN "Supplier "
 F 8 "13-RT0603FRE0756RLCT-ND" H 18700 2050 50  0001 C CNN "Supplier P/N"
 	1    18700 2050
 	0    -1   -1   0   
+$EndComp
+Text GLabel 5500 5350 1    50   Input ~ 0
+1.8V_CITIROC
+$Comp
+L Device:R R?
+U 1 1 610B91FB
+P 5500 6100
+AR Path="/6099D1B7/610B91FB" Ref="R?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/610B91FB" Ref="R?"  Part="1" 
+AR Path="/606EBC4D/610B91FB" Ref="R?"  Part="1" 
+AR Path="/60D04563/610B91FB" Ref="R69"  Part="1" 
+F 0 "R69" H 5600 6100 50  0000 C CNN
+F 1 "4.7k" V 5500 6100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5430 6100 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" H 5500 6100 50  0001 C CNN
+F 4 "$0.1" H 5500 6100 50  0001 C CNN "Item Cost"
+F 5 "WR12X4701FTL" H 5500 6100 50  0001 C CNN "MFN"
+F 6 "Walsin Technology Corporation" H 5500 6100 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5500 6100 50  0001 C CNN "Supplier "
+F 8 "1292-WR12X4701FTLCT-ND" H 5500 6100 50  0001 C CNN "Supplier P/N"
+	1    5500 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 6250 5500 6250
+Wire Wire Line
+	5500 5950 5500 5350
+Text GLabel 4900 5350 1    50   Input ~ 0
+1.8V_CITIROC
+$Comp
+L Device:R R?
+U 1 1 61131C54
+P 4900 5700
+AR Path="/6099D1B7/61131C54" Ref="R?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/61131C54" Ref="R?"  Part="1" 
+AR Path="/606EBC4D/61131C54" Ref="R?"  Part="1" 
+AR Path="/60D04563/61131C54" Ref="R66"  Part="1" 
+F 0 "R66" H 5000 5700 50  0000 C CNN
+F 1 "4.7k" V 4900 5700 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4830 5700 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" H 4900 5700 50  0001 C CNN
+F 4 "$0.1" H 4900 5700 50  0001 C CNN "Item Cost"
+F 5 "WR12X4701FTL" H 4900 5700 50  0001 C CNN "MFN"
+F 6 "Walsin Technology Corporation" H 4900 5700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4900 5700 50  0001 C CNN "Supplier "
+F 8 "1292-WR12X4701FTLCT-ND" H 4900 5700 50  0001 C CNN "Supplier P/N"
+	1    4900 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5350 4900 5550
+Wire Wire Line
+	4050 5850 4900 5850
+$Comp
+L Device:R R?
+U 1 1 611E3BB8
+P 5700 6300
+AR Path="/6099D1B7/611E3BB8" Ref="R?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/611E3BB8" Ref="R?"  Part="1" 
+AR Path="/606EBC4D/611E3BB8" Ref="R?"  Part="1" 
+AR Path="/60D04563/611E3BB8" Ref="R70"  Part="1" 
+F 0 "R70" H 5800 6300 50  0000 C CNN
+F 1 "4.7k" V 5700 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5630 6300 50  0001 C CNN
+F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" H 5700 6300 50  0001 C CNN
+F 4 "$0.1" H 5700 6300 50  0001 C CNN "Item Cost"
+F 5 "WR12X4701FTL" H 5700 6300 50  0001 C CNN "MFN"
+F 6 "Walsin Technology Corporation" H 5700 6300 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5700 6300 50  0001 C CNN "Supplier "
+F 8 "1292-WR12X4701FTLCT-ND" H 5700 6300 50  0001 C CNN "Supplier P/N"
+	1    5700 6300
+	1    0    0    -1  
+$EndComp
+Text GLabel 5700 5350 1    50   Input ~ 0
+1.8V_CITIROC
+Wire Wire Line
+	5700 5350 5700 6150
+Wire Wire Line
+	4050 6450 5700 6450
+$Comp
+L Connector_Generic:Conn_01x03 J16
+U 1 1 6125D8D8
+P 5400 7050
+F 0 "J16" H 5480 7092 50  0000 L CNN
+F 1 "Conn_01x03" H 5480 7001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5400 7050 50  0001 C CNN
+F 3 "~" H 5400 7050 50  0001 C CNN
+	1    5400 7050
+	1    0    0    -1  
+$EndComp
+Text Label 4750 6950 0    50   ~ 0
+SFP0_SDA
+Text Label 4750 7050 0    50   ~ 0
+SFP0_SCL
+Wire Wire Line
+	5200 7050 4750 7050
+Wire Wire Line
+	5200 6950 4750 6950
+Wire Wire Line
+	5200 7150 5000 7150
+Wire Wire Line
+	5000 7150 5000 7200
+$Comp
+L power:GND #PWR?
+U 1 1 613069DF
+P 5000 7200
+AR Path="/613069DF" Ref="#PWR?"  Part="1" 
+AR Path="/608B2FC0/613069DF" Ref="#PWR?"  Part="1" 
+AR Path="/6099D1B7/613069DF" Ref="#PWR?"  Part="1" 
+AR Path="/60AD0200/60AFD3C0/613069DF" Ref="#PWR?"  Part="1" 
+AR Path="/606EBC4D/613069DF" Ref="#PWR?"  Part="1" 
+AR Path="/60BC24EA/613069DF" Ref="#PWR?"  Part="1" 
+AR Path="/60D04563/613069DF" Ref="#PWR092"  Part="1" 
+F 0 "#PWR092" H 5000 6950 50  0001 C CNN
+F 1 "GND" H 5004 7045 50  0000 C CNN
+F 2 "" H 5000 7200 50  0001 C CNN
+F 3 "" H 5000 7200 50  0001 C CNN
+	1    5000 7200
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	16850 2350 18000 2350
