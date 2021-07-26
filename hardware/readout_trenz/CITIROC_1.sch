@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 19000 12000
 encoding utf-8
-Sheet 4 7
+Sheet 7 7
 Title ""
 Date ""
 Rev ""
@@ -4926,7 +4926,7 @@ P 15350 5000
 AR Path="/62251D77/61354310" Ref="R?"  Part="1" 
 AR Path="/60BB4C00/61354310" Ref="R58"  Part="1" 
 AR Path="/60BB4A14/61354310" Ref="R116"  Part="1" 
-F 0 "R116" H 15300 4850 50  0000 L CNN
+F 0 "R116" H 15250 4750 50  0000 L CNN
 F 1 "4.7k" V 15350 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 15280 5000 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" H 15350 5000 50  0001 C CNN
@@ -4945,7 +4945,7 @@ P 15450 5000
 AR Path="/62251D77/613C11D7" Ref="R?"  Part="1" 
 AR Path="/60BB4C00/613C11D7" Ref="R59"  Part="1" 
 AR Path="/60BB4A14/613C11D7" Ref="R117"  Part="1" 
-F 0 "R117" H 15400 4850 50  0000 L CNN
+F 0 "R117" H 15350 4850 50  0000 L CNN
 F 1 "4.7k" V 15450 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 15380 5000 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" H 15450 5000 50  0001 C CNN
@@ -4964,7 +4964,7 @@ P 15550 5000
 AR Path="/62251D77/6142A8D4" Ref="R?"  Part="1" 
 AR Path="/60BB4C00/6142A8D4" Ref="R60"  Part="1" 
 AR Path="/60BB4A14/6142A8D4" Ref="R118"  Part="1" 
-F 0 "R118" H 15500 4850 50  0000 L CNN
+F 0 "R118" H 15400 4750 50  0000 L CNN
 F 1 "4.7k" V 15550 4900 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 15480 5000 50  0001 C CNN
 F 3 "http://www.passivecomponent.com/wp-content/uploads/chipR/ASC_WR.pdf" H 15550 5000 50  0001 C CNN
