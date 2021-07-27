@@ -308,4 +308,6 @@ Wire Wire Line
 	6000 3350 6000 3450
 Wire Wire Line
 	6000 3450 6150 3450
+Text Notes 4750 1425 0    75   ~ 0
+External clock/trigger
 $EndSCHEMATC

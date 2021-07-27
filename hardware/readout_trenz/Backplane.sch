@@ -1358,4 +1358,6 @@ Wire Bus Line
 	7850 2700 7850 4300
 Wire Bus Line
 	10550 2700 10550 4300
+Text Notes 8050 2075 0    100  ~ 0
+Direct connections to SiPM anode\n(SIPM_IN_xxx)
 $EndSCHEMATC

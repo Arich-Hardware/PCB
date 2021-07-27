@@ -4990,4 +4990,18 @@ Wire Bus Line
 	4600 7100 4600 10250
 Wire Bus Line
 	14800 1450 14800 4550
+Text Notes 2925 8800 0    75   ~ 0
+SiPM anode inputs
+Text Notes 6725 3300 0    75   ~ 0
+1.8V logic\nfrom FPGA
+Text Notes 10125 1050 0    75   ~ 0
+1.8V --> 3.3V\nLevel shifters
+Text Notes 11400 1025 0    75   ~ 0
+LVDS\ndriver
+Text Notes 17025 3175 0    75   ~ 0
+1.8V logic\nto FPGA
+Text Notes 15175 2425 0    75   ~ 0
+3.3V --> 1.8V \nlevel shifters
+Text Notes 14800 1125 0    75   ~ 0
+1.8V logic\nto FPGA
 $EndSCHEMATC

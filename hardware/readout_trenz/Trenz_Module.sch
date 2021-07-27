@@ -165,8 +165,6 @@ Wire Wire Line
 	1700 2050 1700 2150
 Wire Wire Line
 	1700 2150 1600 2150
-Text Notes 2850 1000 0    197  ~ 39
-Sparkfun FT232RL
 Wire Wire Line
 	9300 6050 9200 6050
 Wire Wire Line
@@ -804,11 +802,11 @@ F 3 "" H 9300 1650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Notes 650  1000 0    197  ~ 39
-USB/UART
+JTAG
 Text Notes 3150 4700 0    197  ~ 39
 SFP
 Text Notes 11150 900  0    197  ~ 39
-B2B CONNECTORS\n
+Trenz Artix-7 FPGA module
 $Comp
 L power:GND #PWR?
 U 1 1 6270375E
@@ -2022,8 +2020,6 @@ F 8 "DMN67D8L-7DICT-ND" H 11650 6400 50  0001 C CNN "Supplier P/N"
 $EndComp
 NoConn ~ 9300 2450
 NoConn ~ 9300 2350
-Text Notes 8950 2450 0    50   ~ 0
-Don't connect to Anything\n
 Wire Wire Line
 	16850 3650 17350 3650
 Text Label 17350 3650 2    50   ~ 0
@@ -2333,4 +2329,6 @@ Wire Bus Line
 	14800 3750 14800 5750
 Wire Bus Line
 	14800 1050 14800 3550
+Text Notes 2275 7525 0    75   ~ 0
+1000-BaseFX \nGigabit Ethernet
 $EndSCHEMATC
