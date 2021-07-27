@@ -26,7 +26,12 @@ P 4500 4000
 F 0 "J2" H 4428 4238 50  0000 C CNN
 F 1 "Conn_Coaxial" H 4428 4147 50  0000 C CNN
 F 2 "readout_trenz:lemo-EPB.00.250.NTN" H 4500 4000 50  0001 C CNN
-F 3 " ~" H 4500 4000 50  0001 C CNN
+F 3 "https://www.lemo.com/pdf/EPB.00.250.NTN.pdf" H 4500 4000 50  0001 C CNN
+F 4 "$20.34" H 4500 4000 50  0001 C CNN "Item Cost"
+F 5 "EPB.00.250.NTN" H 4500 4000 50  0001 C CNN "MFN"
+F 6 "LEMO" H 4500 4000 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4500 4000 50  0001 C CNN "Supplier "
+F 8 "1124-1424-ND" H 4500 4000 50  0001 C CNN "Supplier P/N"
 	1    4500 4000
 	-1   0    0    -1  
 $EndComp
@@ -155,7 +160,12 @@ P 4500 3000
 F 0 "J1" H 4428 3238 50  0000 C CNN
 F 1 "Conn_Coaxial" H 4428 3147 50  0000 C CNN
 F 2 "readout_trenz:lemo-EPB.00.250.NTN" H 4500 3000 50  0001 C CNN
-F 3 " ~" H 4500 3000 50  0001 C CNN
+F 3 "https://www.lemo.com/pdf/EPB.00.250.NTN.pdf" H 4500 3000 50  0001 C CNN
+F 4 "$20.34" H 4500 3000 50  0001 C CNN "Item Cost"
+F 5 "EPB.00.250.NTN" H 4500 3000 50  0001 C CNN "MFN"
+F 6 "LEMO" H 4500 3000 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4500 3000 50  0001 C CNN "Supplier "
+F 8 "1124-1424-ND" H 4500 3000 50  0001 C CNN "Supplier P/N"
 	1    4500 3000
 	-1   0    0    -1  
 $EndComp

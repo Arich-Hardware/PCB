@@ -524,28 +524,6 @@ Wire Wire Line
 Text GLabel 3600 3750 2    50   Output ~ 0
 5V_DAC
 $Comp
-L Connector_Generic:Conn_01x10 J5
-U 1 1 60D71C83
-P 2750 2000
-F 0 "J5" H 2700 2600 50  0000 L CNN
-F 1 "Conn_01x10" H 2550 2500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2750 2000 50  0001 C CNN
-F 3 "~" H 2750 2000 50  0001 C CNN
-	1    2750 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x10 J6
-U 1 1 60D74129
-P 3800 2000
-F 0 "J6" H 3718 2617 50  0000 C CNN
-F 1 "Conn_01x10" H 3718 2526 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 3800 2000 50  0001 C CNN
-F 3 "~" H 3800 2000 50  0001 C CNN
-	1    3800 2000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x04_Odd_Even J4
 U 1 1 60D96BF9
 P 2200 5450
@@ -1709,10 +1687,32 @@ F 8 "13-RT0603FRE0756RLCT-ND" H 7650 5800 50  0001 C CNN "Supplier P/N"
 	1    7650 5800
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	3000 5250 3000 5550
 Text Notes 3750 1250 0    100  ~ 0
 +3.6v
 Text Notes 2650 3150 0    50   ~ 0
 Optional DC/DC Buck Converter\ne.g. LTM4622 on mezzanine\n\nIf not using supply external 3.6V\non J6 and 12V on J5
+Wire Bus Line
+	3000 5250 3000 5550
+$Comp
+L readout:DC_TO_DC J5
+U 1 1 610608C1
+P 2750 2050
+F 0 "J5" H 2700 2750 50  0000 L CNN
+F 1 "DC_TO_DC" H 2600 2650 50  0000 L CNN
+F 2 "readout_trenz:DC_TO_DC" H 2750 2850 50  0001 C CNN
+F 3 "" H 2750 2850 50  0001 C CNN
+	1    2750 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:DC_TO_DC J5
+U 2 1 6106268A
+P 3800 2050
+F 0 "J5" H 3718 2725 50  0000 C CNN
+F 1 "DC_TO_DC" H 3718 2634 50  0000 C CNN
+F 2 "readout_trenz:DC_TO_DC" H 3800 2850 50  0001 C CNN
+F 3 "" H 3800 2850 50  0001 C CNN
+	2    3800 2050
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
