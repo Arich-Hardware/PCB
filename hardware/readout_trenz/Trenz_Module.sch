@@ -346,14 +346,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 6050 5100 6050
 Wire Wire Line
-	15650 6050 14900 6050
-Wire Wire Line
-	15650 5950 14900 5950
-Text Label 14900 6050 0    50   ~ 0
-UART_TO_MOD
-Text Label 14900 5950 0    50   ~ 0
-UART_FROM_MOD
-Wire Wire Line
 	9300 1550 8800 1550
 Text Label 8800 1550 0    50   ~ 0
 MGT_RX2_N
@@ -410,12 +402,12 @@ Wire Wire Line
 	8950 6050 9200 6050
 Text HLabel 17000 5150 2    50   Input ~ 0
 CLOCK
-Text HLabel 17000 5250 2    50   Input ~ 0
+Text HLabel 15500 6050 0    50   Input ~ 0
 TRIGGER
 Wire Wire Line
 	16850 5150 17000 5150
 Wire Wire Line
-	17000 5250 16850 5250
+	15500 6050 15650 6050
 Wire Notes Line
 	6300 500  6300 8050
 Wire Notes Line
@@ -1584,22 +1576,6 @@ F 8 "SAM14152CT-ND" H 9900 3600 50  0001 C CNN "Supplier P/N"
 	1    9900 3600
 	1    0    0    -1  
 $EndComp
-$Comp
-L readout:Trenz_Module J17
-U 2 1 60F5F22C
-P 16250 3600
-F 0 "J17" H 16250 6275 50  0000 C CNN
-F 1 "Trenz_Module" H 16250 6184 50  0000 C CNN
-F 2 "readout_trenz:Trenz_Module" H 17450 4850 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 17450 4850 50  0001 C CNN
-F 4 "$10.37" H 16250 3600 50  0001 C CNN "Item Cost"
-F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 16250 3600 50  0001 C CNN "MFN"
-F 6 "Samtec Inc." H 16250 3600 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 16250 3600 50  0001 C CNN "Supplier "
-F 8 "SAM14152CT-ND" H 16250 3600 50  0001 C CNN "Supplier P/N"
-	2    16250 3600
-	1    0    0    -1  
-$EndComp
 Text HLabel 18200 3750 2    50   Input ~ 0
 TRIG_OUT_A[0..31]
 Entry Wire Line
@@ -2303,8 +2279,106 @@ F 3 "" H 5000 7200 50  0001 C CNN
 	1    5000 7200
 	-1   0    0    -1  
 $EndComp
+Text Notes 2275 7525 0    75   ~ 0
+1000-BaseFX \nGigabit Ethernet
+$Comp
+L readout:Trenz_Module J17
+U 2 1 60F5F22C
+P 16250 3600
+F 0 "J17" H 16250 6275 50  0000 C CNN
+F 1 "Trenz_Module" H 16250 6184 50  0000 C CNN
+F 2 "readout_trenz:Trenz_Module" H 17450 4850 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 17450 4850 50  0001 C CNN
+F 4 "$10.37" H 16250 3600 50  0001 C CNN "Item Cost"
+F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 16250 3600 50  0001 C CNN "MFN"
+F 6 "Samtec Inc." H 16250 3600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 16250 3600 50  0001 C CNN "Supplier "
+F 8 "SAM14152CT-ND" H 16250 3600 50  0001 C CNN "Supplier P/N"
+	2    16250 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscillator:ASCO X?
+U 1 1 61227A45
+P 18250 5250
+F 0 "X?" H 17806 5296 50  0000 R CNN
+F 1 "ASA2-25.000MHZ" H 17806 5205 50  0000 R CNN
+F 2 "Oscillator:Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm" H 18350 4900 50  0001 C CNN
+F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 18025 5375 50  0001 C CNN
+	1    18250 5250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	18650 5250 18800 5250
+Wire Wire Line
+	18800 5250 18800 5100
+Wire Wire Line
+	18800 5250 18800 5400
+Connection ~ 18800 5250
+$Comp
+L Device:R_Small R?
+U 1 1 61296D95
+P 18800 5000
+F 0 "R?" H 18859 5046 50  0000 L CNN
+F 1 "DNP" H 18859 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18800 5000 50  0001 C CNN
+F 3 "~" H 18800 5000 50  0001 C CNN
+	1    18800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61297BFA
+P 18800 5500
+F 0 "R?" H 18859 5546 50  0000 L CNN
+F 1 "0" H 18859 5455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18800 5500 50  0001 C CNN
+F 3 "~" H 18800 5500 50  0001 C CNN
+	1    18800 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18800 5600 18800 5700
+Wire Wire Line
+	18800 4900 18800 4800
+$Comp
+L power:GND #PWR?
+U 1 1 61310358
+P 18800 5700
+AR Path="/62251D77/61310358" Ref="#PWR?"  Part="1" 
+AR Path="/60D04563/61310358" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18800 5450 50  0001 C CNN
+F 1 "GND" H 18950 5650 50  0000 C CNN
+F 2 "" H 18800 5700 50  0001 C CNN
+F 3 "" H 18800 5700 50  0001 C CNN
+	1    18800 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61336226
+P 18250 5700
+AR Path="/62251D77/61336226" Ref="#PWR?"  Part="1" 
+AR Path="/60D04563/61336226" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 18250 5450 50  0001 C CNN
+F 1 "GND" H 18400 5650 50  0000 C CNN
+F 2 "" H 18250 5700 50  0001 C CNN
+F 3 "" H 18250 5700 50  0001 C CNN
+	1    18250 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18250 5550 18250 5700
+Wire Wire Line
+	18250 4950 18250 4800
+Text GLabel 18800 4800 1    50   Input ~ 0
+1.8V_CITIROC
+Text GLabel 18250 4800 1    50   Input ~ 0
+1.8V_CITIROC
 Wire Wire Line
 	16850 2350 18000 2350
+Wire Wire Line
+	16850 5250 17850 5250
 Wire Bus Line
 	11600 4550 11600 4850
 Wire Bus Line
@@ -2329,6 +2403,4 @@ Wire Bus Line
 	14800 3750 14800 5750
 Wire Bus Line
 	14800 1050 14800 3550
-Text Notes 2275 7525 0    75   ~ 0
-1000-BaseFX \nGigabit Ethernet
 $EndSCHEMATC
