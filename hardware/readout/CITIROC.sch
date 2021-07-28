@@ -133,6 +133,16 @@ Text HLabel 7100 1050 0    50   Input ~ 0
 CCTL[0..7]
 Text Label 9500 5100 0    50   ~ 0
 CCTL7
+Wire Wire Line
+	3450 3700 3750 3700
+Wire Wire Line
+	8850 1400 8850 1050
+Wire Wire Line
+	8850 1050 9200 1050
 Wire Bus Line
 	7500 1050 7500 5200
+Text HLabel 9200 1050 2    50   Output ~ 0
+D_PROBE
+Text HLabel 3750 3700 2    50   Output ~ 0
+A_PROBE
 $EndSCHEMATC

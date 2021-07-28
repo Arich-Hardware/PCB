@@ -87,6 +87,22 @@ Entry Wire Line
 	3250 3300 3150 3200
 Entry Wire Line
 	3250 3400 3150 3300
+Wire Wire Line
+	3650 2100 3050 2100
+Wire Wire Line
+	3650 2200 3050 2200
+Wire Wire Line
+	4850 2400 5050 2400
+Wire Wire Line
+	4850 2500 5050 2500
+Text HLabel 5050 2400 2    50   Output ~ 0
+DATA_TX_P
+Text HLabel 5050 2500 2    50   Output ~ 0
+DATA_TX_N
 Wire Bus Line
 	3150 2450 3150 3300
+Text HLabel 3050 2100 0    50   Input ~ 0
+DATA_RX_P
+Text HLabel 3050 2200 0    50   Input ~ 0
+DATA_RX_N
 $EndSCHEMATC
