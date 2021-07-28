@@ -1,0 +1,84 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4000 1450 1150 900 
+U 6101708B
+F0 "CITIROC" 50
+F1 "CITIROC.sch" 50
+F2 "TRIG[0..31]" O R 5150 1600 50 
+F3 "SIPM[0..31]" I L 4000 1600 50 
+F4 "CCTL[0..7]" I L 4000 1750 50 
+$EndSheet
+$Sheet
+S 2200 1450 1200 3600
+U 610170A0
+F0 "backplane_conn" 50
+F1 "backplane_conn.sch" 50
+F2 "BIAS[1..4]" I L 2200 1750 50 
+F3 "SIPM_TEMP" O L 2200 4050 50 
+F4 "SIPM_IN_A[0..31]" O R 3400 1600 50 
+F5 "SIPM_IN_B[0..31]" O R 3400 2950 50 
+F6 "SIPM_IN_C[0..31]" O R 3400 4300 50 
+$EndSheet
+$Sheet
+S 4000 2800 1150 900 
+U 610421A2
+F0 "sheet610421A2" 50
+F1 "CITIROC.sch" 50
+F2 "TRIG[0..31]" O R 5150 2950 50 
+F3 "SIPM[0..31]" I L 4000 2950 50 
+F4 "CCTL[0..7]" I L 4000 3100 50 
+$EndSheet
+$Sheet
+S 4000 4150 1150 900 
+U 610421EF
+F0 "sheet610421EF" 50
+F1 "CITIROC.sch" 50
+F2 "TRIG[0..31]" O R 5150 4300 50 
+F3 "SIPM[0..31]" I L 4000 4300 50 
+F4 "CCTL[0..7]" I L 4000 4450 50 
+$EndSheet
+Wire Bus Line
+	3400 1600 4000 1600
+Wire Bus Line
+	3400 2950 4000 2950
+Wire Bus Line
+	3400 4300 4000 4300
+Text HLabel 6300 4550 2    50   Output ~ 0
+TRIG[0..95]
+Wire Bus Line
+	5150 1600 5650 1600
+Wire Bus Line
+	5150 2950 5650 2950
+Wire Bus Line
+	5150 4300 5650 4300
+Entry Bus Bus
+	5650 1600 5750 1700
+Entry Bus Bus
+	5650 2950 5750 3050
+Entry Bus Bus
+	5650 4300 5750 4400
+Wire Bus Line
+	5750 4550 6300 4550
+Text Label 5600 1600 2    50   ~ 0
+TRIG[0..31]
+Text Label 5650 2950 2    50   ~ 0
+TRIG[32..63]
+Text Label 5650 4300 2    50   ~ 0
+TRIG[64..95]
+Wire Bus Line
+	5750 1700 5750 4550
+$EndSCHEMATC

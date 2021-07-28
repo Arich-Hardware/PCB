@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name readout)(type Legacy)(uri ${KIPRJMOD}/../libraries/readout.lib)(options "")(descr ""))
+)

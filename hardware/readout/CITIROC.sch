@@ -1,0 +1,138 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L readout:CITIROC1A U1
+U 1 1 61017738
+P 6150 3650
+AR Path="/61016FDD/6101708B/61017738" Ref="U1"  Part="1" 
+AR Path="/61016FDD/610421A2/61017738" Ref="U2"  Part="1" 
+AR Path="/61016FDD/610421EF/61017738" Ref="U3"  Part="1" 
+F 0 "U1" V 8423 3100 50  0000 C CNN
+F 1 "CITIROC1A" V 8514 3100 50  0000 C CNN
+F 2 "" H 5550 3800 50  0001 C CNN
+F 3 "" H 5550 3800 50  0001 C CNN
+	1    6150 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L readout:CITIROC1A U1
+U 2 1 6101A264
+P 8800 1500
+AR Path="/61016FDD/6101708B/6101A264" Ref="U1"  Part="2" 
+AR Path="/61016FDD/610421A2/6101A264" Ref="U2"  Part="2" 
+AR Path="/61016FDD/610421EF/6101A264" Ref="U3"  Part="2" 
+F 0 "U1" H 8725 -2723 50  0000 C CNN
+F 1 "CITIROC1A" H 8725 -2814 50  0000 C CNN
+F 2 "" H 8200 1650 50  0001 C CNN
+F 3 "" H 8200 1650 50  0001 C CNN
+	2    8800 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:CITIROC1A U1
+U 3 1 6101D6C7
+P 2800 2000
+AR Path="/61016FDD/6101708B/6101D6C7" Ref="U1"  Part="3" 
+AR Path="/61016FDD/610421A2/6101D6C7" Ref="U2"  Part="3" 
+AR Path="/61016FDD/610421EF/6101D6C7" Ref="U3"  Part="3" 
+F 0 "U1" H 2800 -1323 50  0000 C CNN
+F 1 "CITIROC1A" H 2800 -1414 50  0000 C CNN
+F 2 "" H 2200 2150 50  0001 C CNN
+F 3 "" H 2200 2150 50  0001 C CNN
+	3    2800 2000
+	1    0    0    -1  
+$EndComp
+Text Label 9500 1600 0    50   ~ 0
+TRIG0
+Wire Wire Line
+	9400 1600 9800 1600
+Text Label 9500 4700 0    50   ~ 0
+TRIG31
+Wire Wire Line
+	9400 4700 9800 4700
+Text HLabel 10500 1500 2    50   Output ~ 10
+TRIG[0..31]
+Entry Wire Line
+	9800 1600 9900 1500
+Entry Wire Line
+	9800 4700 9900 4600
+Wire Bus Line
+	9900 4600 9900 1500
+Wire Bus Line
+	9900 1500 10500 1500
+Text HLabel 1150 2000 0    50   Input ~ 10
+SIPM[0..31]
+Wire Wire Line
+	2150 2100 1600 2100
+Text Label 1700 2100 0    50   ~ 0
+SIPM0
+Entry Wire Line
+	1600 2100 1500 2000
+Wire Wire Line
+	2150 5200 1600 5200
+Text Label 1700 5200 0    50   ~ 0
+SIPM31
+Entry Wire Line
+	1600 5200 1500 5100
+Wire Bus Line
+	1500 5100 1500 2000
+Wire Bus Line
+	1500 2000 1150 2000
+Wire Wire Line
+	8050 5100 7600 5100
+Wire Wire Line
+	8050 5200 7600 5200
+Wire Wire Line
+	8050 5300 7600 5300
+Wire Wire Line
+	9400 5100 9800 5100
+Wire Wire Line
+	8050 3100 7600 3100
+Wire Wire Line
+	8050 2600 7600 2600
+Wire Wire Line
+	8050 1800 7600 1800
+Wire Wire Line
+	8050 1600 7600 1600
+Text Label 7650 1600 0    50   ~ 0
+CCTL0
+Text Label 7650 1800 0    50   ~ 0
+CCTL1
+Text Label 7650 5300 0    50   ~ 0
+CCTL6
+Entry Wire Line
+	7500 1500 7600 1600
+Entry Wire Line
+	7500 1700 7600 1800
+Entry Wire Line
+	7500 2500 7600 2600
+Entry Wire Line
+	7500 3000 7600 3100
+Entry Wire Line
+	7500 5000 7600 5100
+Entry Wire Line
+	7500 5100 7600 5200
+Entry Wire Line
+	7500 5200 7600 5300
+Wire Bus Line
+	7500 1050 7100 1050
+Text HLabel 7100 1050 0    50   Input ~ 0
+CCTL[0..7]
+Text Label 9500 5100 0    50   ~ 0
+CCTL7
+Wire Bus Line
+	7500 1050 7500 5200
+$EndSCHEMATC
