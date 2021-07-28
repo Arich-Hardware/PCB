@@ -314,26 +314,14 @@ Text Label 2100 2550 2    50   ~ 0
 TDI
 Text Label 4700 5850 2    50   ~ 0
 SFP0_TX_FAULT
-Text Label 5000 7800 2    50   ~ 0
-SFP0_TX_DIS
-Wire Wire Line
-	4350 7800 5000 7800
 Text Label 4700 6050 2    50   ~ 0
 SFP0_SDA
 Text Label 4700 6150 2    50   ~ 0
 SFP0_SCL
 Text Label 4700 6250 2    50   ~ 0
 SFP0_M-DEF0
-Text Label 4000 7800 2    50   ~ 0
-SFP0_RS0
-Wire Wire Line
-	3350 7800 4000 7800
 Text Label 4700 6450 2    50   ~ 0
 SFP0_LOS
-Text Label 6000 7800 2    50   ~ 0
-SFP0_RS1
-Wire Wire Line
-	5350 7800 6000 7800
 Wire Wire Line
 	4050 5650 4700 5650
 Text Label 4700 5650 2    50   ~ 0
@@ -370,26 +358,14 @@ Text Label 17600 3150 2    50   ~ 0
 SFP0_TX_FAULT
 Wire Wire Line
 	16850 3150 17600 3150
-Text Label 5100 7900 2    50   ~ 0
-SFP0_TX_DIS
-Wire Wire Line
-	4350 7900 5100 7900
 Text Label 17600 3050 2    50   ~ 0
 SFP0_M-DEF0
 Wire Wire Line
 	16850 3050 17600 3050
-Text Label 4100 7900 2    50   ~ 0
-SFP0_RS0
-Wire Wire Line
-	3350 7900 4100 7900
 Text Label 17600 2750 2    50   ~ 0
 SFP0_LOS
 Wire Wire Line
 	16850 2750 17600 2750
-Text Label 6100 7900 2    50   ~ 0
-SFP0_RS1
-Wire Wire Line
-	5350 7900 6100 7900
 Wire Wire Line
 	8800 6050 8950 6050
 Wire Wire Line
@@ -399,12 +375,12 @@ Wire Wire Line
 	8950 6050 9200 6050
 Text HLabel 17000 5350 2    50   Input ~ 0
 CLOCK
-Text HLabel 15500 6050 0    50   Input ~ 0
+Text HLabel 17000 2650 2    50   Input ~ 0
 TRIGGER
 Wire Wire Line
 	16850 5350 17000 5350
 Wire Wire Line
-	15500 6050 15650 6050
+	17000 2650 16850 2650
 Wire Notes Line
 	6300 500  6300 8050
 Wire Notes Line
@@ -790,7 +766,7 @@ F 3 "" H 9300 1650 50  0001 C CNN
 	1    9300 1650
 	0    1    1    0   
 $EndComp
-Text Notes 650  1000 0    197  ~ 39
+Text Notes 650  1000 0    200  ~ 40
 JTAG
 Text Notes 3150 4700 0    197  ~ 39
 SFP
@@ -2307,6 +2283,11 @@ F 0 "X1" H 17856 5496 50  0000 R CNN
 F 1 "ASA2-25.000MHZ" H 17856 5405 50  0000 R CNN
 F 2 "readout_trenz:ASA2-25.000MHZ" H 18400 5100 50  0001 C CNN
 F 3 "https://abracon.com/Oscillators/ASCO.pdf" H 18075 5575 50  0001 C CNN
+F 4 "$2.27" H 18300 5450 50  0001 C CNN "Item Cost"
+F 5 "ASA2-25.000MHZ-L-T" H 18300 5450 50  0001 C CNN "MFN"
+F 6 "Abracon LLC" H 18300 5450 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 18300 5450 50  0001 C CNN "Supplier "
+F 8 "535-11704-1-ND" H 18300 5450 50  0001 C CNN "Supplier P/N"
 	1    18300 5450
 	-1   0    0    -1  
 $EndComp
@@ -2447,6 +2428,152 @@ Wire Wire Line
 NoConn ~ 4050 5950
 NoConn ~ 4050 6350
 NoConn ~ 4050 6550
+$Comp
+L readout:SparkfunFT232RL J6
+U 1 1 612BD0AB
+P 3100 1950
+F 0 "J6" H 3182 2325 50  0000 C CNN
+F 1 "SparkfunFT232RL" H 3182 2234 50  0000 C CNN
+F 2 "readout_trenz:Sparkfun-FT232RL" H 5000 1950 50  0001 C CNN
+F 3 "https://cdn.sparkfun.com/datasheets/BreakoutBoards/DS_FT232R.pdf" H 5000 1950 50  0001 C CNN
+	1    3100 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 1700 1    50   Input ~ 0
+3.3V_SFP
+Wire Wire Line
+	3300 1800 3800 1800
+Wire Wire Line
+	3800 1800 3800 1700
+Wire Wire Line
+	3300 2100 3800 2100
+Wire Wire Line
+	3800 2100 3800 2200
+$Comp
+L power:GND #PWR0168
+U 1 1 610B64A8
+P 3800 2200
+F 0 "#PWR0168" H 3800 1950 50  0001 C CNN
+F 1 "GND" H 3805 2027 50  0000 C CNN
+F 2 "" H 3800 2200 50  0001 C CNN
+F 3 "" H 3800 2200 50  0001 C CNN
+	1    3800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:NTB0102-Q100 U23
+U 1 1 6112546E
+P 4650 1950
+F 0 "U23" H 4650 2325 50  0000 C CNN
+F 1 "NTB0102-Q100" H 4650 2234 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 4650 2250 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/NTB0102_Q100.pdf" H 4650 2250 50  0001 C CNN
+F 4 "$1.04" H 4650 1950 50  0001 C CNN "Item Cost"
+F 5 "NTB0102DP-Q100H" H 4650 1950 50  0001 C CNN "MFN"
+F 6 "NXP USA Inc." H 4650 1950 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4650 1950 50  0001 C CNN "Supplier "
+F 8 "568-12374-1-ND" H 4650 1950 50  0001 C CNN "Supplier P/N"
+	1    4650 1950
+	-1   0    0    -1  
+$EndComp
+Connection ~ 3800 1800
+Wire Wire Line
+	3800 1800 4300 1800
+Wire Wire Line
+	3300 1900 4300 1900
+Wire Wire Line
+	3300 2000 4300 2000
+Wire Wire Line
+	3800 2100 4300 2100
+Connection ~ 3800 2100
+Wire Wire Line
+	5000 2000 5750 2000
+Wire Wire Line
+	5000 1900 5750 1900
+Text Label 5750 1900 2    50   ~ 0
+USB_TO_TRENZ
+Text Label 5750 2000 2    50   ~ 0
+TRENZ_TO_USB
+$Comp
+L power:+1V8 #PWR?
+U 1 1 612CCB4C
+P 5250 1800
+AR Path="/612CCB4C" Ref="#PWR?"  Part="1" 
+AR Path="/60D04563/612CCB4C" Ref="#PWR0169"  Part="1" 
+F 0 "#PWR0169" H 5250 1650 50  0001 C CNN
+F 1 "+1V8" H 5265 1973 50  0000 C CNN
+F 2 "" H 5250 1800 50  0001 C CNN
+F 3 "" H 5250 1800 50  0001 C CNN
+	1    5250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 612F93E5
+P 5250 2100
+AR Path="/612F93E5" Ref="#PWR?"  Part="1" 
+AR Path="/60D04563/612F93E5" Ref="#PWR0170"  Part="1" 
+F 0 "#PWR0170" H 5250 1950 50  0001 C CNN
+F 1 "+1V8" H 5265 2273 50  0000 C CNN
+F 2 "" H 5250 2100 50  0001 C CNN
+F 3 "" H 5250 2100 50  0001 C CNN
+	1    5250 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 1800 5250 1800
+Wire Wire Line
+	5000 2100 5250 2100
+Wire Wire Line
+	15650 5950 14900 5950
+Wire Wire Line
+	15650 6050 14900 6050
+Text Label 14900 6050 0    50   ~ 0
+USB_TO_TRENZ
+Text Label 14900 5950 0    50   ~ 0
+TRENZ_TO_USB
+$Comp
+L readout:SparkfunFT232RL J6
+U 2 1 6142F057
+P 3050 3300
+F 0 "J6" H 3132 3925 50  0000 C CNN
+F 1 "SparkfunFT232RL" H 3132 3834 50  0000 C CNN
+F 2 "readout_trenz:Sparkfun-FT232RL" H 4950 3300 50  0001 C CNN
+F 3 "https://cdn.sparkfun.com/datasheets/BreakoutBoards/DS_FT232R.pdf" H 4950 3300 50  0001 C CNN
+	2    3050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L readout:SparkfunFT232RL J6
+U 3 1 6143058C
+P 5250 3300
+F 0 "J6" H 5332 3925 50  0000 C CNN
+F 1 "SparkfunFT232RL" H 5332 3834 50  0000 C CNN
+F 2 "readout_trenz:Sparkfun-FT232RL" H 7150 3300 50  0001 C CNN
+F 3 "https://cdn.sparkfun.com/datasheets/BreakoutBoards/DS_FT232R.pdf" H 7150 3300 50  0001 C CNN
+	3    5250 3300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3250 2900
+NoConn ~ 3250 3000
+NoConn ~ 3250 3100
+NoConn ~ 3250 3200
+NoConn ~ 3250 3300
+NoConn ~ 3250 3400
+NoConn ~ 3250 3500
+NoConn ~ 3250 3600
+NoConn ~ 3250 3700
+NoConn ~ 5450 3700
+NoConn ~ 5450 3600
+NoConn ~ 5450 3500
+NoConn ~ 5450 3400
+NoConn ~ 5450 3300
+NoConn ~ 5450 3200
+NoConn ~ 5450 3100
+NoConn ~ 5450 3000
+NoConn ~ 5450 2900
+Text Notes 3000 1000 0    200  ~ 40
+Sparkfun FT232RL
 Wire Wire Line
 	16850 2350 18000 2350
 Wire Bus Line
@@ -2473,15 +2600,4 @@ Wire Bus Line
 	14800 3750 14800 5750
 Wire Bus Line
 	14800 1050 14800 3550
-$Comp
-L readout:SparkfunFT232RL J?
-U 1 1 612BD0AB
-P 4150 2300
-F 0 "J?" H 4232 2675 50  0000 C CNN
-F 1 "SparkfunFT232RL" H 4232 2584 50  0000 C CNN
-F 2 "" H 6050 2300 50  0001 C CNN
-F 3 "" H 6050 2300 50  0001 C CNN
-	1    4150 2300
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
