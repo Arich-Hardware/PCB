@@ -154,10 +154,10 @@ F 3 "~" H 9000 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint GND1
 U 1 1 612E1733
 P 9000 4500
-F 0 "TP1" V 9000 4850 50  0000 C CNN
+F 0 "GND1" V 9000 4850 50  0000 C CNN
 F 1 "TestPoint" V 9104 4572 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 4500 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 4500 50  0001 C CNN
@@ -220,10 +220,10 @@ F 3 "" H 9500 6500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L Connector:TestPoint GND2
 U 1 1 612EFED2
 P 9000 4750
-F 0 "TP2" V 9000 5100 50  0000 C CNN
+F 0 "GND2" V 9000 5100 50  0000 C CNN
 F 1 "TestPoint" V 9104 4822 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 4750 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 4750 50  0001 C CNN
@@ -236,10 +236,10 @@ F 8 "36-5001-ND" H 9000 4750 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint GND3
 U 1 1 612F0649
 P 9000 5000
-F 0 "TP3" V 9000 5350 50  0000 C CNN
+F 0 "GND3" V 9000 5350 50  0000 C CNN
 F 1 "TestPoint" V 9104 5072 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 5000 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 5000 50  0001 C CNN
@@ -252,10 +252,10 @@ F 8 "36-5001-ND" H 9000 5000 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint GND4
 U 1 1 612F0658
 P 9000 5250
-F 0 "TP4" V 9000 5600 50  0000 C CNN
+F 0 "GND4" V 9000 5600 50  0000 C CNN
 F 1 "TestPoint" V 9104 5322 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 5250 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 5250 50  0001 C CNN
@@ -268,10 +268,10 @@ F 8 "36-5001-ND" H 9000 5250 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint GND5
 U 1 1 612F14A1
 P 9000 5500
-F 0 "TP5" V 9000 5850 50  0000 C CNN
+F 0 "GND5" V 9000 5850 50  0000 C CNN
 F 1 "TestPoint" V 9104 5572 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 5500 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 5500 50  0001 C CNN
@@ -284,10 +284,10 @@ F 8 "36-5001-ND" H 9000 5500 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint GND6
 U 1 1 612F14B0
 P 9000 5750
-F 0 "TP6" V 9000 6100 50  0000 C CNN
+F 0 "GND6" V 9000 6100 50  0000 C CNN
 F 1 "TestPoint" V 9104 5822 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 5750 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 5750 50  0001 C CNN
@@ -300,10 +300,10 @@ F 8 "36-5001-ND" H 9000 5750 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint GND7
 U 1 1 612F14BF
 P 9000 6000
-F 0 "TP7" V 9000 6350 50  0000 C CNN
+F 0 "GND7" V 9000 6350 50  0000 C CNN
 F 1 "TestPoint" V 9104 6072 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 6000 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 6000 50  0001 C CNN
@@ -316,10 +316,10 @@ F 8 "36-5001-ND" H 9000 6000 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint GND8
 U 1 1 612F14CE
 P 9000 6250
-F 0 "TP8" V 9000 6600 50  0000 C CNN
+F 0 "GND8" V 9000 6600 50  0000 C CNN
 F 1 "TestPoint" V 9104 6322 50  0000 C CNN
 F 2 "TestPoint:TestPoint_Keystone_5000-5004_Miniature" H 9200 6250 50  0001 C CNN
 F 3 "https://www.keyelco.com/userAssets/file/M65p56.pdf" H 9200 6250 50  0001 C CNN

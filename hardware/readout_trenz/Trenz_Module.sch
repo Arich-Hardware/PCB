@@ -1503,7 +1503,12 @@ AR Path="/60D04563/60EEE10D" Ref="J18"  Part="1"
 F 0 "J18" H 12600 2167 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 12600 2076 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 12550 1750 50  0001 C CNN
-F 3 "~" H 12550 1750 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129383.pdf?__cf_chl_jschl_tk__=pmd_f088d35ab8b380acf87f3d5264b2da4d1e131b8c-1627437568-0-gqNtZGzNAjijcnBszQdi" H 12550 1750 50  0001 C CNN
+F 4 "$0.26" H 12550 1750 50  0001 C CNN "Item Cost"
+F 5 "10129383-910002ALF" H 12550 1750 50  0001 C CNN "MFN"
+F 6 "Amphenol ICC (FCI)" H 12550 1750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 12550 1750 50  0001 C CNN "Supplier "
+F 8 "609-10129383-910002ALFCT-ND" H 12550 1750 50  0001 C CNN "Supplier P/N"
 	1    12550 1750
 	1    0    0    -1  
 $EndComp

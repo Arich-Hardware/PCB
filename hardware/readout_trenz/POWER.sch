@@ -179,7 +179,12 @@ P 4800 1600
 F 0 "JP1" H 4800 1864 50  0000 C CNN
 F 1 "Jumper" H 4800 1773 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4800 1600 50  0001 C CNN
-F 3 "~" H 4800 1600 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/C001XX_M20_Series_Connectors.pdf" H 4800 1600 50  0001 C CNN
+F 4 "$0.19" H 4800 1600 50  0001 C CNN "Item Cost"
+F 5 "M20-9990345" H 4800 1600 50  0001 C CNN "MFN"
+F 6 "Harwin Inc." H 4800 1600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4800 1600 50  0001 C CNN "Supplier "
+F 8 "952-2263-ND" H 4800 1600 50  0001 C CNN "Supplier P/N"
 	1    4800 1600
 	1    0    0    -1  
 $EndComp
@@ -199,7 +204,12 @@ P 4800 1800
 F 0 "JP2" H 4800 1750 50  0000 C CNN
 F 1 "Jumper" H 4800 1650 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4800 1800 50  0001 C CNN
-F 3 "~" H 4800 1800 50  0001 C CNN
+F 3 "https://cdn.harwin.com/pdfs/C001XX_M20_Series_Connectors.pdf" H 4800 1800 50  0001 C CNN
+F 4 "$0.19" H 4800 1800 50  0001 C CNN "Item Cost"
+F 5 "M20-9990345" H 4800 1800 50  0001 C CNN "MFN"
+F 6 "Harwin Inc." H 4800 1800 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4800 1800 50  0001 C CNN "Supplier "
+F 8 "952-2263-ND" H 4800 1800 50  0001 C CNN "Supplier P/N"
 	1    4800 1800
 	1    0    0    -1  
 $EndComp
@@ -530,7 +540,12 @@ P 2200 5450
 F 0 "J4" H 2250 5867 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 2250 5776 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2200 5450 50  0001 C CNN
-F 3 "~" H 2200 5450 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129383.pdf?__cf_chl_jschl_tk__=pmd_f088d35ab8b380acf87f3d5264b2da4d1e131b8c-1627437568-0-gqNtZGzNAjijcnBszQdi" H 2200 5450 50  0001 C CNN
+F 4 "$0.26" H 2200 5450 50  0001 C CNN "Item Cost"
+F 5 "10129383-910002ALF" H 2200 5450 50  0001 C CNN "MFN"
+F 6 "Amphenol ICC (FCI)" H 2200 5450 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2200 5450 50  0001 C CNN "Supplier "
+F 8 "609-10129383-910002ALFCT-ND" H 2200 5450 50  0001 C CNN "Supplier P/N"
 	1    2200 5450
 	-1   0    0    -1  
 $EndComp
@@ -1700,7 +1715,12 @@ P 2750 2050
 F 0 "J5" H 2700 2750 50  0000 L CNN
 F 1 "DC_TO_DC" H 2600 2650 50  0000 L CNN
 F 2 "readout_trenz:DC_TO_DC" H 2750 2850 50  0001 C CNN
-F 3 "" H 2750 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" H 2750 2850 50  0001 C CNN
+F 4 "$0.71" H 2750 2050 50  0001 C CNN "Item Cost"
+F 5 "PPPC052LFBN-RC" H 2750 2050 50  0001 C CNN "MFN"
+F 6 "Sullins Connector Solutions" H 2750 2050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2750 2050 50  0001 C CNN "Supplier "
+F 8 "S7108-ND" H 2750 2050 50  0001 C CNN "Supplier P/N"
 	1    2750 2050
 	1    0    0    -1  
 $EndComp
@@ -1711,7 +1731,12 @@ P 3800 2050
 F 0 "J5" H 3718 2725 50  0000 C CNN
 F 1 "DC_TO_DC" H 3718 2634 50  0000 C CNN
 F 2 "readout_trenz:DC_TO_DC" H 3800 2850 50  0001 C CNN
-F 3 "" H 3800 2850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Sullins%20PDFs/Female_Headers.100_DS.pdf" H 3800 2850 50  0001 C CNN
+F 4 "$0.71" H 3800 2050 50  0001 C CNN "Item Cost"
+F 5 "PPPC052LFBN-RC" H 3800 2050 50  0001 C CNN "MFN"
+F 6 "Sullins Connector Solutions" H 3800 2050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 3800 2050 50  0001 C CNN "Supplier "
+F 8 "S7108-ND" H 3800 2050 50  0001 C CNN "Supplier P/N"
 	2    3800 2050
 	-1   0    0    -1  
 $EndComp
