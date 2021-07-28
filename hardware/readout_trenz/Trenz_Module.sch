@@ -314,26 +314,26 @@ Text Label 2100 2550 2    50   ~ 0
 TDI
 Text Label 4700 5850 2    50   ~ 0
 SFP0_TX_FAULT
-Text Label 4700 5950 2    50   ~ 0
+Text Label 5000 7800 2    50   ~ 0
 SFP0_TX_DIS
 Wire Wire Line
-	4050 5950 4700 5950
+	4350 7800 5000 7800
 Text Label 4700 6050 2    50   ~ 0
 SFP0_SDA
 Text Label 4700 6150 2    50   ~ 0
 SFP0_SCL
 Text Label 4700 6250 2    50   ~ 0
 SFP0_M-DEF0
-Text Label 4700 6350 2    50   ~ 0
+Text Label 4000 7800 2    50   ~ 0
 SFP0_RS0
 Wire Wire Line
-	4050 6350 4700 6350
+	3350 7800 4000 7800
 Text Label 4700 6450 2    50   ~ 0
 SFP0_LOS
-Text Label 4700 6550 2    50   ~ 0
+Text Label 6000 7800 2    50   ~ 0
 SFP0_RS1
 Wire Wire Line
-	4050 6550 4700 6550
+	5350 7800 6000 7800
 Wire Wire Line
 	4050 5650 4700 5650
 Text Label 4700 5650 2    50   ~ 0
@@ -370,34 +370,26 @@ Text Label 17600 3150 2    50   ~ 0
 SFP0_TX_FAULT
 Wire Wire Line
 	16850 3150 17600 3150
-Text Label 17600 3250 2    50   ~ 0
+Text Label 5100 7900 2    50   ~ 0
 SFP0_TX_DIS
 Wire Wire Line
-	16850 3250 17600 3250
-Text Label 17600 3350 2    50   ~ 0
-SFP0_SDA
-Wire Wire Line
-	16850 3350 17600 3350
-Text Label 17600 3450 2    50   ~ 0
-SFP0_SCL
-Wire Wire Line
-	16850 3450 17600 3450
+	4350 7900 5100 7900
 Text Label 17600 3050 2    50   ~ 0
 SFP0_M-DEF0
 Wire Wire Line
 	16850 3050 17600 3050
-Text Label 17600 2950 2    50   ~ 0
+Text Label 4100 7900 2    50   ~ 0
 SFP0_RS0
 Wire Wire Line
-	16850 2950 17600 2950
+	3350 7900 4100 7900
 Text Label 17600 2750 2    50   ~ 0
 SFP0_LOS
 Wire Wire Line
 	16850 2750 17600 2750
-Text Label 17600 2650 2    50   ~ 0
+Text Label 6100 7900 2    50   ~ 0
 SFP0_RS1
 Wire Wire Line
-	16850 2650 17600 2650
+	5350 7900 6100 7900
 Wire Wire Line
 	8800 6050 8950 6050
 Wire Wire Line
@@ -2449,6 +2441,12 @@ Wire Wire Line
 	18000 5100 17900 5100
 Wire Wire Line
 	18200 5100 18300 5100
+Connection ~ 18300 5100
+Wire Wire Line
+	18300 5100 18300 5000
+NoConn ~ 4050 5950
+NoConn ~ 4050 6350
+NoConn ~ 4050 6550
 Wire Wire Line
 	16850 2350 18000 2350
 Wire Bus Line
@@ -2475,7 +2473,15 @@ Wire Bus Line
 	14800 3750 14800 5750
 Wire Bus Line
 	14800 1050 14800 3550
-Connection ~ 18300 5100
-Wire Wire Line
-	18300 5100 18300 5000
+$Comp
+L readout:SparkfunFT232RL J?
+U 1 1 612BD0AB
+P 4150 2300
+F 0 "J?" H 4232 2675 50  0000 C CNN
+F 1 "SparkfunFT232RL" H 4232 2584 50  0000 C CNN
+F 2 "" H 6050 2300 50  0001 C CNN
+F 3 "" H 6050 2300 50  0001 C CNN
+	1    4150 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

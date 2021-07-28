@@ -11212,7 +11212,7 @@
     (tags "capacitor handsolder")
     (path /60BB4C00/60C983F1)
     (attr smd)
-    (fp_text reference C79 (at 0 1.61 270) (layer F.SilkS)
+    (fp_text reference C79 (at 0.87 1.73 270) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_text value 150pF (at 0 1.43 270) (layer F.Fab)
