@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -37,4 +37,10 @@ Wire Bus Line
 	2750 1450 2050 1450
 Text Label 2200 1450 0    50   ~ 0
 TRIG[0..95]
+$Sheet
+S 1050 3000 1000 2850
+U 611127F4
+F0 "backplane" 50
+F1 "backplane.sch" 50
+$EndSheet
 $EndSCHEMATC
