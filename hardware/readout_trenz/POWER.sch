@@ -1703,7 +1703,7 @@ F 8 "13-RT0603FRE0756RLCT-ND" H 7650 5800 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 Text Notes 3750 1250 0    100  ~ 0
-+3.6v
++3.6V\n
 Text Notes 2650 3150 0    50   ~ 0
 Optional DC/DC Buck Converter\ne.g. LTM4622 on mezzanine\n\nIf not using supply external 3.6V\non J6 and 12V on J5
 $Comp
