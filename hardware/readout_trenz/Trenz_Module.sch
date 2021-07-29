@@ -792,14 +792,14 @@ P 11650 5750
 AR Path="/62251D77/62703768" Ref="Q?"  Part="1" 
 AR Path="/60D04563/62703768" Ref="Q4"  Part="1" 
 F 0 "Q4" H 11850 5750 50  0000 L CNN
-F 1 "DMN67D7L" H 11850 5650 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11850 5675 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 11650 5750 50  0001 L CNN
+F 1 "N-MOSFET" H 11850 5650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 11850 5675 50  0001 L CIN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf" H 11650 5750 50  0001 L CNN
 F 4 "$0.21" H 11650 5750 50  0001 C CNN "Item Cost"
-F 5 "DMN67D8L-7" H 11650 5750 50  0001 C CNN "MFN"
-F 6 "Diodes Inc." H 11650 5750 50  0001 C CNN "Manufacturer"
+F 5 "RE1C002UNTCL" H 11650 5750 50  0001 C CNN "MFN"
+F 6 "Rohm Semiconductor" H 11650 5750 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 11650 5750 50  0001 C CNN "Supplier "
-F 8 "DMN67D8L-7DICT-ND" H 11650 5750 50  0001 C CNN "Supplier P/N"
+F 8 "RE1C002UNTCLCT-ND" H 11650 5750 50  0001 C CNN "Supplier P/N"
 	1    11650 5750
 	1    0    0    -1  
 $EndComp
@@ -1027,14 +1027,14 @@ P 18500 2250
 AR Path="/62251D77/60E41B1F" Ref="Q?"  Part="1" 
 AR Path="/60D04563/60E41B1F" Ref="Q6"  Part="1" 
 F 0 "Q6" H 18700 2250 50  0000 L CNN
-F 1 "DMN67D7L" H 18700 2150 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 18700 2175 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 18500 2250 50  0001 L CNN
+F 1 "N-MOSFET" H 18700 2150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 18700 2175 50  0001 L CIN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf" H 18500 2250 50  0001 L CNN
 F 4 "$0.21" H 18500 2250 50  0001 C CNN "Item Cost"
-F 5 "DMN67D8L-7" H 18500 2250 50  0001 C CNN "MFN"
-F 6 "Diodes Inc." H 18500 2250 50  0001 C CNN "Manufacturer"
+F 5 "RE1C002UNTCL" H 18500 2250 50  0001 C CNN "MFN"
+F 6 "Rohm Semiconductor" H 18500 2250 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 18500 2250 50  0001 C CNN "Supplier "
-F 8 "DMN67D8L-7DICT-ND" H 18500 2250 50  0001 C CNN "Supplier P/N"
+F 8 "RE1C002UNTCLCT-ND" H 18500 2250 50  0001 C CNN "Supplier P/N"
 	1    18500 2250
 	1    0    0    -1  
 $EndComp
@@ -1080,14 +1080,14 @@ P 18500 2900
 AR Path="/62251D77/60E41B40" Ref="Q?"  Part="1" 
 AR Path="/60D04563/60E41B40" Ref="Q7"  Part="1" 
 F 0 "Q7" H 18700 2900 50  0000 L CNN
-F 1 "DMN67D7L" H 18700 2800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 18700 2825 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 18500 2900 50  0001 L CNN
+F 1 "N-MOSFET" H 18700 2800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 18700 2825 50  0001 L CIN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf" H 18500 2900 50  0001 L CNN
 F 4 "$0.21" H 18500 2900 50  0001 C CNN "Item Cost"
-F 5 "DMN67D8L-7" H 18500 2900 50  0001 C CNN "MFN"
-F 6 "Diodes Inc." H 18500 2900 50  0001 C CNN "Manufacturer"
+F 5 "RE1C002UNTCL" H 18500 2900 50  0001 C CNN "MFN"
+F 6 "Rohm Semiconductor" H 18500 2900 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 18500 2900 50  0001 C CNN "Supplier "
-F 8 "DMN67D8L-7DICT-ND" H 18500 2900 50  0001 C CNN "Supplier P/N"
+F 8 "RE1C002UNTCLCT-ND" H 18500 2900 50  0001 C CNN "Supplier P/N"
 	1    18500 2900
 	1    0    0    -1  
 $EndComp
@@ -1174,13 +1174,13 @@ U 1 1 610867A8
 P 2000 5250
 F 0 "L1" V 2185 5250 50  0000 C CNN
 F 1 "4.7uH" V 2094 5250 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2000 5250 50  0001 C CNN
-F 3 "https://abracon.com/Magnetics/new/AIML-0603.pdf" H 2000 5250 50  0001 C CNN
-F 4 "$0.1" H 2000 5250 50  0001 C CNN "Item Cost"
-F 5 "AIML-0603-4R7K-T" H 2000 5250 50  0001 C CNN "MFN"
-F 6 "Abracon LLC" H 2000 5250 50  0001 C CNN "Manufacturer"
+F 2 "readout_trenz:A914BYW-4R7M=P3" H 2000 5250 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0045_D52LC_reference.pdf" H 2000 5250 50  0001 C CNN
+F 4 "$0.98" H 2000 5250 50  0001 C CNN "Item Cost"
+F 5 "#A914BYW-4R7M=P3" H 2000 5250 50  0001 C CNN "MFN"
+F 6 "Murata Electronics" H 2000 5250 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 2000 5250 50  0001 C CNN "Supplier "
-F 8 "535-11602-1-ND" H 2000 5250 50  0001 C CNN "Supplier P/N"
+F 8 "490-#A914BYW-4R7M=P3CT-ND" H 2000 5250 50  0001 C CNN "Supplier P/N"
 	1    2000 5250
 	0    -1   -1   0   
 $EndComp
@@ -1279,13 +1279,13 @@ U 1 1 6125D4A3
 P 2000 6200
 F 0 "L2" V 2185 6200 50  0000 C CNN
 F 1 "4.7uH" V 2094 6200 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2000 6200 50  0001 C CNN
-F 3 "https://abracon.com/Magnetics/new/AIML-0603.pdf" H 2000 6200 50  0001 C CNN
-F 4 "$0.1" H 2000 6200 50  0001 C CNN "Item Cost"
-F 5 "AIML-0603-4R7K-T" H 2000 6200 50  0001 C CNN "MFN"
-F 6 "Abracon LLC" H 2000 6200 50  0001 C CNN "Manufacturer"
+F 2 "readout_trenz:A914BYW-4R7M=P3" H 2000 6200 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0045_D52LC_reference.pdf" H 2000 6200 50  0001 C CNN
+F 4 "$0.98" H 2000 6200 50  0001 C CNN "Item Cost"
+F 5 "#A914BYW-4R7M=P3" H 2000 6200 50  0001 C CNN "MFN"
+F 6 "Murata Electronics" H 2000 6200 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 2000 6200 50  0001 C CNN "Supplier "
-F 8 "535-11602-1-ND" H 2000 6200 50  0001 C CNN "Supplier P/N"
+F 8 "490-#A914BYW-4R7M=P3CT-ND" H 2000 6200 50  0001 C CNN "Supplier P/N"
 	1    2000 6200
 	0    -1   -1   0   
 $EndComp
@@ -1961,14 +1961,14 @@ P 11650 6400
 AR Path="/62251D77/611C22A7" Ref="Q?"  Part="1" 
 AR Path="/60D04563/611C22A7" Ref="Q5"  Part="1" 
 F 0 "Q5" H 11850 6400 50  0000 L CNN
-F 1 "DMN67D7L" H 11850 6300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11850 6325 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 11650 6400 50  0001 L CNN
+F 1 "N-MOSFET" H 11850 6300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 11850 6325 50  0001 L CIN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf" H 11650 6400 50  0001 L CNN
 F 4 "$0.21" H 11650 6400 50  0001 C CNN "Item Cost"
-F 5 "DMN67D8L-7" H 11650 6400 50  0001 C CNN "MFN"
-F 6 "Diodes Inc." H 11650 6400 50  0001 C CNN "Manufacturer"
+F 5 "RE1C002UNTCL" H 11650 6400 50  0001 C CNN "MFN"
+F 6 "Rohm Semiconductor" H 11650 6400 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 11650 6400 50  0001 C CNN "Supplier "
-F 8 "DMN67D8L-7DICT-ND" H 11650 6400 50  0001 C CNN "Supplier P/N"
+F 8 "RE1C002UNTCLCT-ND" H 11650 6400 50  0001 C CNN "Supplier P/N"
 	1    11650 6400
 	1    0    0    -1  
 $EndComp

@@ -697,14 +697,14 @@ P 7800 2100
 AR Path="/62251D77/612A108E" Ref="Q2"  Part="1" 
 AR Path="/60D04563/612A108E" Ref="Q?"  Part="1" 
 F 0 "Q2" H 8000 2100 50  0000 L CNN
-F 1 "DMN67D7L" H 8000 2000 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8000 2025 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 7800 2100 50  0001 L CNN
+F 1 "N-MOSFET" H 8000 2000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 8000 2025 50  0001 L CIN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf" H 7800 2100 50  0001 L CNN
 F 4 "$0.21" H 7800 2100 50  0001 C CNN "Item Cost"
-F 5 "DMN67D8L-7" H 7800 2100 50  0001 C CNN "MFN"
-F 6 "Diodes Inc." H 7800 2100 50  0001 C CNN "Manufacturer"
+F 5 "RE1C002UNTCL" H 7800 2100 50  0001 C CNN "MFN"
+F 6 "Rohm Semiconductor" H 7800 2100 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7800 2100 50  0001 C CNN "Supplier "
-F 8 "DMN67D8L-7DICT-ND" H 7800 2100 50  0001 C CNN "Supplier P/N"
+F 8 "RE1C002UNTCLCT-ND" H 7800 2100 50  0001 C CNN "Supplier P/N"
 	1    7800 2100
 	1    0    0    -1  
 $EndComp
@@ -792,14 +792,14 @@ P 6050 1050
 AR Path="/62251D77/60DD1453" Ref="Q1"  Part="1" 
 AR Path="/60D04563/60DD1453" Ref="Q?"  Part="1" 
 F 0 "Q1" H 6250 1050 50  0000 L CNN
-F 1 "DMN67D7L" H 6250 950 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6250 975 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 6050 1050 50  0001 L CNN
+F 1 "N-MOSFET" H 6250 950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 6250 975 50  0001 L CIN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf" H 6050 1050 50  0001 L CNN
 F 4 "$0.21" H 6050 1050 50  0001 C CNN "Item Cost"
-F 5 "DMN67D8L-7" H 6050 1050 50  0001 C CNN "MFN"
-F 6 "Diodes Inc." H 6050 1050 50  0001 C CNN "Manufacturer"
+F 5 "RE1C002UNTCL" H 6050 1050 50  0001 C CNN "MFN"
+F 6 "Rohm Semiconductor" H 6050 1050 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 6050 1050 50  0001 C CNN "Supplier "
-F 8 "DMN67D8L-7DICT-ND" H 6050 1050 50  0001 C CNN "Supplier P/N"
+F 8 "RE1C002UNTCLCT-ND" H 6050 1050 50  0001 C CNN "Supplier P/N"
 	1    6050 1050
 	-1   0    0    -1  
 $EndComp
@@ -860,14 +860,14 @@ P 7800 3100
 AR Path="/62251D77/611C52E1" Ref="Q3"  Part="1" 
 AR Path="/60D04563/611C52E1" Ref="Q?"  Part="1" 
 F 0 "Q3" H 8000 3100 50  0000 L CNN
-F 1 "DMN67D7L" H 8000 3000 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8000 3025 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMN67D8L.pdf" H 7800 3100 50  0001 L CNN
+F 1 "N-MOSFET" H 8000 3000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-416" H 8000 3025 50  0001 L CIN
+F 3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/re1c002untcl-e.pdf" H 7800 3100 50  0001 L CNN
 F 4 "$0.21" H 7800 3100 50  0001 C CNN "Item Cost"
-F 5 "DMN67D8L-7" H 7800 3100 50  0001 C CNN "MFN"
-F 6 "Diodes Inc." H 7800 3100 50  0001 C CNN "Manufacturer"
+F 5 "RE1C002UNTCL" H 7800 3100 50  0001 C CNN "MFN"
+F 6 "Rohm Semiconductor" H 7800 3100 50  0001 C CNN "Manufacturer"
 F 7 "Digi-Key" H 7800 3100 50  0001 C CNN "Supplier "
-F 8 "DMN67D8L-7DICT-ND" H 7800 3100 50  0001 C CNN "Supplier P/N"
+F 8 "RE1C002UNTCLCT-ND" H 7800 3100 50  0001 C CNN "Supplier P/N"
 	1    7800 3100
 	1    0    0    -1  
 $EndComp
@@ -1706,8 +1706,6 @@ Text Notes 3750 1250 0    100  ~ 0
 +3.6v
 Text Notes 2650 3150 0    50   ~ 0
 Optional DC/DC Buck Converter\ne.g. LTM4622 on mezzanine\n\nIf not using supply external 3.6V\non J6 and 12V on J5
-Wire Bus Line
-	3000 5250 3000 5550
 $Comp
 L readout:DC_TO_DC J5
 U 1 1 610608C1
@@ -1740,4 +1738,6 @@ F 8 "S7108-ND" H 3800 2050 50  0001 C CNN "Supplier P/N"
 	2    3800 2050
 	-1   0    0    -1  
 $EndComp
+Wire Bus Line
+	3000 5250 3000 5550
 $EndSCHEMATC
