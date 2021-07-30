@@ -1112,7 +1112,12 @@ P 3550 5900
 F 0 "J15" H 3550 6775 50  0000 C CNN
 F 1 "TrenzSFP+cage" H 3550 6684 50  0000 C CNN
 F 2 "Connector:Connector_SFP_and_Cage" H 3550 5900 50  0001 C CNN
-F 3 "" H 3550 5900 50  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=4-1773449-5&DocType=DS&DocLang=English" H 3550 5900 50  0001 C CNN
+F 4 "$2.65" H 3550 5900 50  0001 C CNN "Item Cost"
+F 5 "2227023-1, 1888247-1" H 3550 5900 50  0001 C CNN "MFN"
+F 6 "TE Connectivity AMP Connectors" H 3550 5900 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 3550 5900 50  0001 C CNN "Supplier "
+F 8 "A120615-ND, A97943CT-ND" H 3550 5900 50  0001 C CNN "Supplier P/N"
 	1    3550 5900
 	1    0    0    -1  
 $EndComp
@@ -1470,7 +1475,7 @@ AR Path="/60EEE10D" Ref="J?"  Part="1"
 AR Path="/60D04563/60EEE10D" Ref="J18"  Part="1" 
 F 0 "J18" H 12600 2167 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 12600 2076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" H 12550 1750 50  0001 C CNN
+F 2 "readout_trenz:10129383-910002ALF" H 12550 1750 50  0001 C CNN
 F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129383.pdf?__cf_chl_jschl_tk__=pmd_f088d35ab8b380acf87f3d5264b2da4d1e131b8c-1627437568-0-gqNtZGzNAjijcnBszQdi" H 12550 1750 50  0001 C CNN
 F 4 "$0.26" H 12550 1750 50  0001 C CNN "Item Cost"
 F 5 "10129383-910002ALF" H 12550 1750 50  0001 C CNN "MFN"
@@ -2223,7 +2228,12 @@ P 5400 7050
 F 0 "J16" H 5480 7092 50  0000 L CNN
 F 1 "Conn_01x03" H 5480 7001 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5400 7050 50  0001 C CNN
-F 3 "~" H 5400 7050 50  0001 C CNN
+F 3 "https://app.adam-tech.com/products/download/data_sheet/201605/ph1-xx-ua-data-sheet.pdf" H 5400 7050 50  0001 C CNN
+F 4 "$0.1" H 5400 7050 50  0001 C CNN "Item Cost"
+F 5 "PH1-01-UA" H 5400 7050 50  0001 C CNN "MFN"
+F 6 "Adam Tech" H 5400 7050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5400 7050 50  0001 C CNN "Supplier "
+F 8 "2057-PH1-01-UA-ND" H 5400 7050 50  0001 C CNN "Supplier P/N"
 	1    5400 7050
 	1    0    0    -1  
 $EndComp
@@ -2259,22 +2269,6 @@ F 3 "" H 5000 7200 50  0001 C CNN
 $EndComp
 Text Notes 2275 7525 0    75   ~ 0
 1000-BaseFX \nGigabit Ethernet
-$Comp
-L readout:Trenz_Module J17
-U 2 1 60F5F22C
-P 16250 3600
-F 0 "J17" H 16250 6275 50  0000 C CNN
-F 1 "Trenz_Module" H 16250 6184 50  0000 C CNN
-F 2 "readout_trenz:Trenz_Module" H 17450 4850 50  0001 C CNN
-F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 17450 4850 50  0001 C CNN
-F 4 "$10.37" H 16250 3600 50  0001 C CNN "Item Cost"
-F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 16250 3600 50  0001 C CNN "MFN"
-F 6 "Samtec Inc." H 16250 3600 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 16250 3600 50  0001 C CNN "Supplier "
-F 8 "SAM14152CT-ND" H 16250 3600 50  0001 C CNN "Supplier P/N"
-	2    16250 3600
-	1    0    0    -1  
-$EndComp
 $Comp
 L Oscillator:ASCO X1
 U 1 1 61227A45
@@ -2436,10 +2430,15 @@ F 0 "J6" H 3182 2325 50  0000 C CNN
 F 1 "SparkfunFT232RL" H 3182 2234 50  0000 C CNN
 F 2 "readout_trenz:Sparkfun-FT232RL" H 5000 1950 50  0001 C CNN
 F 3 "https://cdn.sparkfun.com/datasheets/BreakoutBoards/DS_FT232R.pdf" H 5000 1950 50  0001 C CNN
+F 4 "$15.95" H 3100 1950 50  0001 C CNN "Item Cost"
+F 5 "BOB-12731" H 3100 1950 50  0001 C CNN "MFN"
+F 6 "SparkFun Electronics" H 3100 1950 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 3100 1950 50  0001 C CNN "Supplier "
+F 8 "1568-1195-ND" H 3100 1950 50  0001 C CNN "Supplier P/N"
 	1    3100 1950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3800 1700 1    50   Input ~ 0
+Text GLabel 3800 1600 1    50   Input ~ 0
 3.3V_SFP
 Wire Wire Line
 	3300 1800 3800 1800
@@ -2497,14 +2496,14 @@ TRENZ_TO_USB
 $Comp
 L power:+1V8 #PWR?
 U 1 1 612CCB4C
-P 5250 1800
+P 5250 1600
 AR Path="/612CCB4C" Ref="#PWR?"  Part="1" 
 AR Path="/60D04563/612CCB4C" Ref="#PWR0169"  Part="1" 
-F 0 "#PWR0169" H 5250 1650 50  0001 C CNN
-F 1 "+1V8" H 5265 1973 50  0000 C CNN
-F 2 "" H 5250 1800 50  0001 C CNN
-F 3 "" H 5250 1800 50  0001 C CNN
-	1    5250 1800
+F 0 "#PWR0169" H 5250 1450 50  0001 C CNN
+F 1 "+1V8" H 5265 1773 50  0000 C CNN
+F 2 "" H 5250 1600 50  0001 C CNN
+F 3 "" H 5250 1600 50  0001 C CNN
+	1    5250 1600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2520,8 +2519,6 @@ F 3 "" H 5250 2100 50  0001 C CNN
 	1    5250 2100
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5000 1800 5250 1800
 Wire Wire Line
 	5000 2100 5250 2100
 Wire Wire Line
@@ -2540,6 +2537,11 @@ F 0 "J6" H 3132 3925 50  0000 C CNN
 F 1 "SparkfunFT232RL" H 3132 3834 50  0000 C CNN
 F 2 "readout_trenz:Sparkfun-FT232RL" H 4950 3300 50  0001 C CNN
 F 3 "https://cdn.sparkfun.com/datasheets/BreakoutBoards/DS_FT232R.pdf" H 4950 3300 50  0001 C CNN
+F 4 "$15.95" H 3050 3300 50  0001 C CNN "Item Cost"
+F 5 "BOB-12731" H 3050 3300 50  0001 C CNN "MFN"
+F 6 "SparkFun Electronics" H 3050 3300 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 3050 3300 50  0001 C CNN "Supplier "
+F 8 "1568-1195-ND" H 3050 3300 50  0001 C CNN "Supplier P/N"
 	2    3050 3300
 	1    0    0    -1  
 $EndComp
@@ -2551,6 +2553,11 @@ F 0 "J6" H 5332 3925 50  0000 C CNN
 F 1 "SparkfunFT232RL" H 5332 3834 50  0000 C CNN
 F 2 "readout_trenz:Sparkfun-FT232RL" H 7150 3300 50  0001 C CNN
 F 3 "https://cdn.sparkfun.com/datasheets/BreakoutBoards/DS_FT232R.pdf" H 7150 3300 50  0001 C CNN
+F 4 "$15.95" H 5250 3300 50  0001 C CNN "Item Cost"
+F 5 "BOB-12731" H 5250 3300 50  0001 C CNN "MFN"
+F 6 "SparkFun Electronics" H 5250 3300 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5250 3300 50  0001 C CNN "Supplier "
+F 8 "1568-1195-ND" H 5250 3300 50  0001 C CNN "Supplier P/N"
 	3    5250 3300
 	1    0    0    -1  
 $EndComp
@@ -2574,6 +2581,94 @@ NoConn ~ 5450 3000
 NoConn ~ 5450 2900
 Text Notes 3000 1000 0    200  ~ 40
 Sparkfun FT232RL
+$Comp
+L Device:C_Small C?
+U 1 1 610FCA31
+P 4000 1700
+AR Path="/62251D77/610FCA31" Ref="C?"  Part="1" 
+AR Path="/60BB4C00/610FCA31" Ref="C?"  Part="1" 
+AR Path="/60BB4A14/610FCA31" Ref="C?"  Part="1" 
+AR Path="/60D04563/610FCA31" Ref="C177"  Part="1" 
+F 0 "C177" V 4100 1750 50  0000 L CNN
+F 1 "0.1uF" V 3950 1450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4000 1700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 4000 1700 50  0001 C CNN
+F 4 "$0.1" H 4000 1700 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 4000 1700 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 4000 1700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4000 1700 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 4000 1700 50  0001 C CNN "Supplier P/N"
+	1    4000 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 610FCA3B
+P 4200 1700
+AR Path="/62251D77/610FCA3B" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/610FCA3B" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4A14/610FCA3B" Ref="#PWR?"  Part="1" 
+AR Path="/60D04563/610FCA3B" Ref="#PWR0171"  Part="1" 
+F 0 "#PWR0171" H 4200 1450 50  0001 C CNN
+F 1 "GND" V 4300 1650 50  0000 C CNN
+F 2 "" H 4200 1700 50  0001 C CNN
+F 3 "" H 4200 1700 50  0001 C CNN
+	1    4200 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 1700 4200 1700
+Wire Wire Line
+	3900 1700 3800 1700
+Connection ~ 3800 1700
+Wire Wire Line
+	3800 1700 3800 1600
+Wire Wire Line
+	5000 1800 5250 1800
+Wire Wire Line
+	5250 1800 5250 1700
+$Comp
+L Device:C_Small C?
+U 1 1 61237EED
+P 5450 1700
+AR Path="/62251D77/61237EED" Ref="C?"  Part="1" 
+AR Path="/60BB4C00/61237EED" Ref="C?"  Part="1" 
+AR Path="/60BB4A14/61237EED" Ref="C?"  Part="1" 
+AR Path="/60D04563/61237EED" Ref="C178"  Part="1" 
+F 0 "C178" V 5550 1750 50  0000 L CNN
+F 1 "0.1uF" V 5400 1450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 1700 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 5450 1700 50  0001 C CNN
+F 4 "$0.1" H 5450 1700 50  0001 C CNN "Item Cost"
+F 5 "885012206046" H 5450 1700 50  0001 C CNN "MFN"
+F 6 "Würth Elektronik" H 5450 1700 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 5450 1700 50  0001 C CNN "Supplier "
+F 8 "732-7965-1-ND" H 5450 1700 50  0001 C CNN "Supplier P/N"
+	1    5450 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61237EF7
+P 5650 1700
+AR Path="/62251D77/61237EF7" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/61237EF7" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4A14/61237EF7" Ref="#PWR?"  Part="1" 
+AR Path="/60D04563/61237EF7" Ref="#PWR0172"  Part="1" 
+F 0 "#PWR0172" H 5650 1450 50  0001 C CNN
+F 1 "GND" V 5750 1650 50  0000 C CNN
+F 2 "" H 5650 1700 50  0001 C CNN
+F 3 "" H 5650 1700 50  0001 C CNN
+	1    5650 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 1700 5650 1700
+Wire Wire Line
+	5350 1700 5250 1700
+Connection ~ 5250 1700
+Wire Wire Line
+	5250 1700 5250 1600
 Wire Wire Line
 	16850 2350 18000 2350
 Wire Bus Line
@@ -2600,4 +2695,20 @@ Wire Bus Line
 	14800 3750 14800 5750
 Wire Bus Line
 	14800 1050 14800 3550
+$Comp
+L readout:Trenz_Module J17
+U 2 1 60F5F22C
+P 16250 3600
+F 0 "J17" H 16250 6275 50  0000 C CNN
+F 1 "Trenz_Module" H 16250 6184 50  0000 C CNN
+F 2 "readout_trenz:Trenz_Module" H 17450 4850 50  0001 C CNN
+F 3 "http://suddendocs.samtec.com/catalog_english/lshm_dv.pdf" H 17450 4850 50  0001 C CNN
+F 4 "$10.37" H 16250 3600 50  0001 C CNN "Item Cost"
+F 5 "LSHM-150-04.0-F-DV-A-S-K-TR" H 16250 3600 50  0001 C CNN "MFN"
+F 6 "Samtec Inc." H 16250 3600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 16250 3600 50  0001 C CNN "Supplier "
+F 8 "SAM14152CT-ND" H 16250 3600 50  0001 C CNN "Supplier P/N"
+	2    16250 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
