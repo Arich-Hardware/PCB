@@ -188,49 +188,8 @@ F 3 "~" H 2650 3500 50  0001 C CNN
 	1    2450 3500
 	1    0    0    -1  
 $EndComp
-Text Label 600  3425 0    50   ~ 0
-VCC
-Wire Wire Line
-	600  3350 600  3450
-Wire Wire Line
-	600  3750 600  3825
-Wire Wire Line
-	1500 3050 600  3050
 Wire Wire Line
 	1500 3050 1500 3325
-$Comp
-L power:GND #PWR01
-U 1 1 60FDA3EC
-P 600 3825
-F 0 "#PWR01" H 600 3575 50  0001 C CNN
-F 1 "GND" H 605 3652 50  0000 C CNN
-F 2 "" H 600 3825 50  0001 C CNN
-F 3 "" H 600 3825 50  0001 C CNN
-	1    600  3825
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 60FD9A35
-P 600 3600
-F 0 "R2" H 670 3646 50  0000 L CNN
-F 1 "4.7 k" H 670 3555 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 530 3600 50  0001 C CNN
-F 3 "~" H 600 3600 50  0001 C CNN
-	1    600  3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 60FD947D
-P 600 3200
-F 0 "R1" H 670 3246 50  0000 L CNN
-F 1 "4.7 k" H 670 3155 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 530 3200 50  0001 C CNN
-F 3 "~" H 600 3200 50  0001 C CNN
-	1    600  3200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2350 3500 2450 3500
 Text Label 1500 2600 0    50   ~ 0
@@ -239,8 +198,6 @@ Wire Wire Line
 	4200 2575 4750 2575
 Text Notes 2075 3000 0    50   ~ 0
 ADJ 0-2.5V
-Text Notes 1150 3025 0    50   ~ 0
-2.7mA
 Wire Wire Line
 	1850 3050 2200 3050
 Connection ~ 1850 3050
@@ -402,7 +359,7 @@ L Device:R_POT_US RV1
 U 1 1 60C28257
 P 2200 3500
 F 0 "RV1" H 2375 3800 50  0000 R CNN
-F 1 "10k" H 2375 3700 50  0000 R CNN
+F 1 "1k" H 2375 3700 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal" H 2200 3500 50  0001 C CNN
 F 3 "~" H 2200 3500 50  0001 C CNN
 	1    2200 3500
@@ -1124,4 +1081,6 @@ F 3 "" H 2125 1800 50  0001 C CNN
 $EndComp
 Text Label 2125 1500 0    50   ~ 0
 Vin
+Text Notes 1150 3025 0    50   ~ 0
+2.7mA
 $EndSCHEMATC
