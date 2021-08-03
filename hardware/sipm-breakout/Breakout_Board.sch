@@ -730,10 +730,11 @@ L Connector:Conn_Coaxial J7
 U 1 1 6040085F
 P 1575 875
 F 0 "J7" H 1503 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 1503 1022 50  0000 C CNN
+F 1 "DNP" H 1503 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 1575 875 50  0001 C CNN
 F 3 " ~" H 1575 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 1575 875 50  0001 C CNN "CatNo"
+F 4 "" H 1575 875 50  0001 C CNN "CatNo"
+F 5 "" H 1575 875 50  0001 C CNN "Supplier P/N"
 	1    1575 875 
 	-1   0    0    -1  
 $EndComp
@@ -742,10 +743,11 @@ L Connector:Conn_Coaxial J8
 U 1 1 60445465
 P 1875 875
 F 0 "J8" H 1803 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 1803 1022 50  0000 C CNN
+F 1 "DNP" H 1803 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 1875 875 50  0001 C CNN
 F 3 " ~" H 1875 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 1875 875 50  0001 C CNN "CatNo"
+F 4 "" H 1875 875 50  0001 C CNN "CatNo"
+F 5 "" H 1875 875 50  0001 C CNN "Supplier P/N"
 	1    1875 875 
 	-1   0    0    -1  
 $EndComp
@@ -754,10 +756,11 @@ L Connector:Conn_Coaxial J9
 U 1 1 60445BB6
 P 2175 875
 F 0 "J9" H 2103 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 2103 1022 50  0000 C CNN
+F 1 "DNP" H 2103 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 2175 875 50  0001 C CNN
 F 3 " ~" H 2175 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 2175 875 50  0001 C CNN "CatNo"
+F 4 "" H 2175 875 50  0001 C CNN "CatNo"
+F 5 "" H 2175 875 50  0001 C CNN "Supplier P/N"
 	1    2175 875 
 	-1   0    0    -1  
 $EndComp
@@ -766,10 +769,11 @@ L Connector:Conn_Coaxial J10
 U 1 1 60446437
 P 2475 875
 F 0 "J10" H 2403 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 2403 1022 50  0000 C CNN
+F 1 "DNP" H 2403 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 2475 875 50  0001 C CNN
 F 3 " ~" H 2475 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 2975 1225 50  0000 C CNN "CatNo"
+F 4 "" H 2975 1225 50  0000 C CNN "CatNo"
+F 5 "" H 2475 875 50  0001 C CNN "Supplier P/N"
 	1    2475 875 
 	-1   0    0    -1  
 $EndComp
@@ -830,10 +834,11 @@ L Connector:Conn_Coaxial J11
 U 1 1 604EBCA7
 P 6400 875
 F 0 "J11" H 6328 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 6328 1022 50  0000 C CNN
+F 1 "DNP" H 6328 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 6400 875 50  0001 C CNN
 F 3 " ~" H 6400 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 6400 875 50  0001 C CNN "CatNo"
+F 4 "" H 6400 875 50  0001 C CNN "CatNo"
+F 5 "" H 6400 875 50  0001 C CNN "Supplier P/N"
 	1    6400 875 
 	-1   0    0    -1  
 $EndComp
@@ -842,10 +847,11 @@ L Connector:Conn_Coaxial J12
 U 1 1 604EBCB1
 P 6700 875
 F 0 "J12" H 6628 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 6628 1022 50  0000 C CNN
+F 1 "DNP" H 6628 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 6700 875 50  0001 C CNN
 F 3 " ~" H 6700 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 6700 875 50  0001 C CNN "CatNo"
+F 4 "" H 6700 875 50  0001 C CNN "CatNo"
+F 5 "" H 6700 875 50  0001 C CNN "Supplier P/N"
 	1    6700 875 
 	-1   0    0    -1  
 $EndComp
@@ -854,10 +860,11 @@ L Connector:Conn_Coaxial J13
 U 1 1 604EBCBB
 P 7000 875
 F 0 "J13" H 6928 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 6928 1022 50  0000 C CNN
+F 1 "DNP" H 6928 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 7000 875 50  0001 C CNN
 F 3 " ~" H 7000 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 7000 875 50  0001 C CNN "CatNo"
+F 4 "" H 7000 875 50  0001 C CNN "CatNo"
+F 5 "" H 7000 875 50  0001 C CNN "Supplier P/N"
 	1    7000 875 
 	-1   0    0    -1  
 $EndComp
@@ -866,10 +873,10 @@ L Connector:Conn_Coaxial J14
 U 1 1 604EBCC5
 P 7300 875
 F 0 "J14" H 7228 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 7228 1022 50  0000 C CNN
+F 1 "DNP" H 7228 1022 50  0000 C CNN
 F 2 "Breakout_Board_Parts:lemo-EPB.00.250.NTN" H 7300 875 50  0001 C CNN
 F 3 " ~" H 7300 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 7300 875 50  0001 C CNN "CatNo"
+F 4 "" H 7300 875 50  0001 C CNN "CatNo"
 	1    7300 875 
 	-1   0    0    -1  
 $EndComp
@@ -937,7 +944,9 @@ F 0 "RN1" V 258 1825 50  0000 C CNN
 F 1 "R_Network08_US" V 349 1825 50  0000 C CNN
 F 2 "Breakout_Board_Parts:RPKG-9" V 1350 1825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 875 1825 50  0001 C CNN
-F 4 "752091103GP-ND" V 150 1775 50  0000 C CNN "CatNo"
+F 4 "" V 150 1775 50  0000 C CNN "CatNo"
+F 5 "Digi_key" H 875 1825 50  0001 C CNN "Supplier"
+F 6 "752091103GP-ND" H 875 1825 50  0001 C CNN "Supplier P/N"
 	1    875  1825
 	0    -1   1    0   
 $EndComp
@@ -961,7 +970,9 @@ F 0 "RN2" V 258 2850 50  0000 C CNN
 F 1 "R_Network08_US" V 349 2850 50  0000 C CNN
 F 2 "Breakout_Board_Parts:RPKG-9" V 1350 2850 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 875 2850 50  0001 C CNN
-F 4 "752091103GP-ND" H 875 2850 50  0001 C CNN "CatNo"
+F 4 "" H 875 2850 50  0001 C CNN "CatNo"
+F 5 "Digi_key" H 875 2850 50  0001 C CNN "Supplier"
+F 6 "752091103GP-ND" H 875 2850 50  0001 C CNN "Supplier P/N"
 	1    875  2850
 	0    -1   1    0   
 $EndComp
@@ -973,7 +984,9 @@ F 0 "RN3" V 258 3875 50  0000 C CNN
 F 1 "R_Network08_US" V 349 3875 50  0000 C CNN
 F 2 "Breakout_Board_Parts:RPKG-9" V 1350 3875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 875 3875 50  0001 C CNN
-F 4 "752091103GP-ND" H 875 3875 50  0001 C CNN "CatNo"
+F 4 "" H 875 3875 50  0001 C CNN "CatNo"
+F 5 "Digi_key" H 875 3875 50  0001 C CNN "Supplier"
+F 6 "752091103GP-ND" H 875 3875 50  0001 C CNN "Supplier P/N"
 	1    875  3875
 	0    -1   1    0   
 $EndComp
@@ -985,7 +998,9 @@ F 0 "RN4" V 258 4900 50  0000 C CNN
 F 1 "R_Network08_US" V 349 4900 50  0000 C CNN
 F 2 "Breakout_Board_Parts:RPKG-9" V 1350 4900 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 875 4900 50  0001 C CNN
-F 4 "752091103GP-ND" H 875 4900 50  0001 C CNN "CatNo"
+F 4 "" H 875 4900 50  0001 C CNN "CatNo"
+F 5 "Digi_key" H 875 4900 50  0001 C CNN "Supplier"
+F 6 "752091103GP-ND" H 875 4900 50  0001 C CNN "Supplier P/N"
 	1    875  4900
 	0    -1   1    0   
 $EndComp
@@ -1117,7 +1132,9 @@ F 0 "RN5" V 5183 1825 50  0000 C CNN
 F 1 "R_Network08_US" V 5274 1825 50  0000 C CNN
 F 2 "Breakout_Board_Parts:RPKG-9" V 6275 1825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 1825 50  0001 C CNN
-F 4 "752091103GP-ND" H 5800 1825 50  0001 C CNN "CatNo"
+F 4 "" H 5800 1825 50  0001 C CNN "CatNo"
+F 5 "Digi_key" H 5800 1825 50  0001 C CNN "Supplier"
+F 6 "752091103GP-ND" H 5800 1825 50  0001 C CNN "Supplier P/N"
 	1    5800 1825
 	0    -1   1    0   
 $EndComp
@@ -1137,7 +1154,9 @@ F 0 "RN6" V 5183 2850 50  0000 C CNN
 F 1 "R_Network08_US" V 5274 2850 50  0000 C CNN
 F 2 "Breakout_Board_Parts:RPKG-9" V 6275 2850 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 2850 50  0001 C CNN
-F 4 "752091103GP-ND" H 5800 2850 50  0001 C CNN "CatNo"
+F 4 "" H 5800 2850 50  0001 C CNN "CatNo"
+F 5 "Digi_key" H 5800 2850 50  0001 C CNN "Supplier"
+F 6 "752091103GP-ND" H 5800 2850 50  0001 C CNN "Supplier P/N"
 	1    5800 2850
 	0    -1   1    0   
 $EndComp
@@ -1149,7 +1168,9 @@ F 0 "RN7" V 5183 3875 50  0000 C CNN
 F 1 "R_Network08_US" V 5274 3875 50  0000 C CNN
 F 2 "Breakout_Board_Parts:RPKG-9" V 6275 3875 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 3875 50  0001 C CNN
-F 4 "752091103GP-ND" H 5800 3875 50  0001 C CNN "CatNo"
+F 4 "" H 5800 3875 50  0001 C CNN "CatNo"
+F 5 "Digi_key" H 5800 3875 50  0001 C CNN "Supplier"
+F 6 "752091103GP-ND" H 5800 3875 50  0001 C CNN "Supplier P/N"
 	1    5800 3875
 	0    -1   1    0   
 $EndComp
@@ -1161,7 +1182,9 @@ F 0 "RN8" V 5183 4900 50  0000 C CNN
 F 1 "R_Network08_US" V 5274 4900 50  0000 C CNN
 F 2 "Breakout_Board_Parts:RPKG-9" V 6275 4900 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5800 4900 50  0001 C CNN
-F 4 "752091103GP-ND" H 5800 4900 50  0001 C CNN "CatNo"
+F 4 "" H 5800 4900 50  0001 C CNN "CatNo"
+F 5 "Digi_key" H 5800 4900 50  0001 C CNN "Supplier"
+F 6 "752091103GP-ND" H 5800 4900 50  0001 C CNN "Supplier P/N"
 	1    5800 4900
 	0    -1   1    0   
 $EndComp
@@ -1345,6 +1368,9 @@ F 0 "J3" V 2879 7404 50  0000 L CNN
 F 1 "Conn_02x32_Odd_Even" V 2970 7404 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical_SMD" H 2875 5825 50  0001 C CNN
 F 3 "~" H 2875 5825 50  0001 C CNN
+F 4 "TMM-132-01-T-D-SM" H 2875 5825 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 2875 5825 50  0001 C CNN "Supplier"
+F 6 "SAM1171-32-ND" H 2875 5825 50  0001 C CNN "Supplier P/N"
 	1    2875 5825
 	0    -1   1    0   
 $EndComp
@@ -1480,6 +1506,9 @@ F 0 "J4" V 7704 7404 50  0000 L CNN
 F 1 "Conn_02x32_Odd_Even" V 7795 7404 50  0000 L CNN
 F 2 "Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical_SMD" H 7700 5825 50  0001 C CNN
 F 3 "~" H 7700 5825 50  0001 C CNN
+F 4 "TMM-132-01-T-D-SM" H 7700 5825 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 7700 5825 50  0001 C CNN "Supplier"
+F 6 "SAM1171-32-ND" H 7700 5825 50  0001 C CNN "Supplier P/N"
 	1    7700 5825
 	0    -1   1    0   
 $EndComp
@@ -1615,6 +1644,7 @@ F 0 "H1" H 5100 6824 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5100 6733 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5000 6775 50  0001 C CNN
 F 3 "~" H 5000 6775 50  0001 C CNN
+F 4 "DNP" H 5000 6775 50  0001 C CNN "CatNo"
 	1    5000 6775
 	1    0    0    -1  
 $EndComp
@@ -1626,6 +1656,7 @@ F 0 "H2" H 5350 6824 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5350 6733 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5250 6775 50  0001 C CNN
 F 3 "~" H 5250 6775 50  0001 C CNN
+F 4 "DNP" H 5250 6775 50  0001 C CNN "CatNo"
 	1    5250 6775
 	1    0    0    -1  
 $EndComp
@@ -1637,6 +1668,7 @@ F 0 "H3" H 5600 6824 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5600 6733 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5500 6775 50  0001 C CNN
 F 3 "~" H 5500 6775 50  0001 C CNN
+F 4 "DNP" H 5500 6775 50  0001 C CNN "CatNo"
 	1    5500 6775
 	1    0    0    -1  
 $EndComp
@@ -1648,6 +1680,7 @@ F 0 "H4" H 5850 6824 50  0000 L CNN
 F 1 "MountingHole_Pad" H 5850 6733 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4_Pad" H 5750 6775 50  0001 C CNN
 F 3 "~" H 5750 6775 50  0001 C CNN
+F 4 "DNP" H 5750 6775 50  0001 C CNN "CatNo"
 	1    5750 6775
 	1    0    0    -1  
 $EndComp
@@ -1754,6 +1787,9 @@ F 0 "J15" H 2703 7126 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 2703 7035 50  0000 L CNN
 F 2 "generic-test-pcb:Banana_Pomona_73099" H 2675 7100 50  0001 C CNN
 F 3 "~" H 2675 7100 50  0001 C CNN
+F 4 "73099-0" H 2675 7100 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 2675 7100 50  0001 C CNN "Supplier"
+F 6 "501-73099-0-ND" H 2675 7100 50  0001 C CNN "Supplier P/N"
 	1    2675 7100
 	1    0    0    -1  
 $EndComp
@@ -1765,6 +1801,9 @@ F 0 "J16" H 2703 7476 50  0000 L CNN
 F 1 "Conn_01x01_Female" H 2703 7385 50  0000 L CNN
 F 2 "generic-test-pcb:Banana_Pomona_73099" H 2675 7450 50  0001 C CNN
 F 3 "~" H 2675 7450 50  0001 C CNN
+F 4 "73099-0" H 2675 7450 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 2675 7450 50  0001 C CNN "Supplier"
+F 6 "501-73099-0-ND" H 2675 7450 50  0001 C CNN "Supplier P/N"
 	1    2675 7450
 	1    0    0    -1  
 $EndComp
@@ -1791,6 +1830,9 @@ F 0 "J5" H 1650 7517 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 1650 7426 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 1600 7200 50  0001 C CNN
 F 3 "~" H 1600 7200 50  0001 C CNN
+F 4 "PH2-08-UA" H 1600 7200 50  0001 C CNN "MFN"
+F 5 "Digi-Key" H 1600 7200 50  0001 C CNN "Supplier"
+F 6 "2057-PH2-08-UA-ND" H 1600 7200 50  0001 C CNN "Supplier P/N"
 	1    1600 7200
 	1    0    0    -1  
 $EndComp
@@ -1869,10 +1911,11 @@ L Connector:Conn_Coaxial J17
 U 1 1 6128AB56
 P 3175 875
 F 0 "J17" H 3103 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 3103 1022 50  0000 C CNN
+F 1 "DNP" H 3103 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 3175 875 50  0001 C CNN
 F 3 " ~" H 3175 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 3175 875 50  0001 C CNN "CatNo"
+F 4 "" H 3175 875 50  0001 C CNN "CatNo"
+F 5 "" H 3175 875 50  0001 C CNN "Supplier P/N"
 	1    3175 875 
 	-1   0    0    -1  
 $EndComp
@@ -1881,10 +1924,11 @@ L Connector:Conn_Coaxial J18
 U 1 1 6128AB61
 P 3475 875
 F 0 "J18" H 3403 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 3403 1022 50  0000 C CNN
+F 1 "DNP" H 3403 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 3475 875 50  0001 C CNN
 F 3 " ~" H 3475 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 3475 875 50  0001 C CNN "CatNo"
+F 4 "" H 3475 875 50  0001 C CNN "CatNo"
+F 5 "" H 3475 875 50  0001 C CNN "Supplier P/N"
 	1    3475 875 
 	-1   0    0    -1  
 $EndComp
@@ -1893,10 +1937,11 @@ L Connector:Conn_Coaxial J19
 U 1 1 6128AB6C
 P 3775 875
 F 0 "J19" H 3703 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 3703 1022 50  0000 C CNN
+F 1 "DNP" H 3703 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 3775 875 50  0001 C CNN
 F 3 " ~" H 3775 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 3775 875 50  0001 C CNN "CatNo"
+F 4 "" H 3775 875 50  0001 C CNN "CatNo"
+F 5 "" H 3775 875 50  0001 C CNN "Supplier P/N"
 	1    3775 875 
 	-1   0    0    -1  
 $EndComp
@@ -1905,10 +1950,11 @@ L Connector:Conn_Coaxial J20
 U 1 1 6128AB77
 P 4075 875
 F 0 "J20" H 4003 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 4003 1022 50  0000 C CNN
+F 1 "DNP" H 4003 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 4075 875 50  0001 C CNN
 F 3 " ~" H 4075 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 3500 875 50  0001 C CNN "CatNo"
+F 4 "" H 3500 875 50  0001 C CNN "CatNo"
+F 5 "" H 4075 875 50  0001 C CNN "Supplier P/N"
 	1    4075 875 
 	-1   0    0    -1  
 $EndComp
@@ -1961,10 +2007,11 @@ L Connector:Conn_Coaxial J21
 U 1 1 613804F2
 P 7775 875
 F 0 "J21" H 7703 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 7703 1022 50  0000 C CNN
+F 1 "DNP" H 7703 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 7775 875 50  0001 C CNN
 F 3 " ~" H 7775 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 7775 875 50  0001 C CNN "CatNo"
+F 4 "" H 7775 875 50  0001 C CNN "CatNo"
+F 5 "" H 7775 875 50  0001 C CNN "Supplier P/N"
 	1    7775 875 
 	-1   0    0    -1  
 $EndComp
@@ -1973,10 +2020,11 @@ L Connector:Conn_Coaxial J22
 U 1 1 613804FD
 P 8075 875
 F 0 "J22" H 8003 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 8003 1022 50  0000 C CNN
+F 1 "DNP" H 8003 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 8075 875 50  0001 C CNN
 F 3 " ~" H 8075 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 8075 875 50  0001 C CNN "CatNo"
+F 4 "" H 8075 875 50  0001 C CNN "CatNo"
+F 5 "" H 8075 875 50  0001 C CNN "Supplier P/N"
 	1    8075 875 
 	-1   0    0    -1  
 $EndComp
@@ -1985,10 +2033,11 @@ L Connector:Conn_Coaxial J23
 U 1 1 61380508
 P 8375 875
 F 0 "J23" H 8303 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 8303 1022 50  0000 C CNN
+F 1 "DNP" H 8303 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 8375 875 50  0001 C CNN
 F 3 " ~" H 8375 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 8375 875 50  0001 C CNN "CatNo"
+F 4 "" H 8375 875 50  0001 C CNN "CatNo"
+F 5 "" H 8375 875 50  0001 C CNN "Supplier P/N"
 	1    8375 875 
 	-1   0    0    -1  
 $EndComp
@@ -1997,10 +2046,11 @@ L Connector:Conn_Coaxial J24
 U 1 1 61380513
 P 8675 875
 F 0 "J24" H 8603 1113 50  0000 C CNN
-F 1 "Conn_Coaxial" H 8603 1022 50  0000 C CNN
+F 1 "DNP" H 8603 1022 50  0000 C CNN
 F 2 "Readout_Board_Parts:lemo-EPB.00.250.NTN" H 8675 875 50  0001 C CNN
 F 3 " ~" H 8675 875 50  0001 C CNN
-F 4 "1124-1424-ND" H 8100 875 50  0001 C CNN "CatNo"
+F 4 "" H 8100 875 50  0001 C CNN "CatNo"
+F 5 "" H 8675 875 50  0001 C CNN "Supplier P/N"
 	1    8675 875 
 	-1   0    0    -1  
 $EndComp

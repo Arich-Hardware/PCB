@@ -1,0 +1,10 @@
+Reference, Quantity, Value, Footprint, Datasheet, Item Cost, MFN, Supplier, Supplier P/N, CatNo
+H1 H2 H3 H4 ,4,"MountingHole_Pad","MountingHole:MountingHole_4.3mm_M4_Pad","~","","","","","DNP"
+J1 J2 ,2,"Conn_02x34_Odd_Even","Readout_Board_Parts:SAMTEC_CLM-134-02-F-D","http://suddendocs.samtec.com/catalog_english/clm_sm.pdf","$9.02","CLM-134-02-F-D","Digi-Key","CLM-134-02-F-D-ND",""
+J14 ,1,"DNP","Breakout_Board_Parts:lemo-EPB.00.250.NTN"," ~"
+J15 J16 ,2,"Conn_01x01_Female","generic-test-pcb:Banana_Pomona_73099","~","","73099-0","Digi-Key","501-73099-0-ND",""
+J3 J4 ,2,"Conn_02x32_Odd_Even","Connector_PinHeader_2.00mm:PinHeader_2x32_P2.00mm_Vertical_SMD","~","","TMM-132-01-T-D-SM","Digi-Key","SAM1171-32-ND",""
+J5 ,1,"Conn_02x04_Odd_Even","Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical","~","","PH2-08-UA","Digi-Key","2057-PH2-08-UA-ND",""
+J6 ,1,"Conn_01x04","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical","","$0.10","PH1-04-UA","Digi-Key","2057-PH1-04-UA-ND",""
+J7 J8 J9 J10 J11 J12 J13 J17 J18 J19 J20 J21 J22 J23 J24 ,15,"DNP","Readout_Board_Parts:lemo-EPB.00.250.NTN"," ~"
+RN1 RN2 RN3 RN4 RN5 RN6 RN7 RN8 ,8,"R_Network08_US","Breakout_Board_Parts:RPKG-9","http://www.vishay.com/docs/31509/csc.pdf","","","Digi_key","752091103GP-ND",""
