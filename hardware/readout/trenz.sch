@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 10 12
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,14 @@ $Comp
 L readout:Trenz_Module J2
 U 2 1 61019D1F
 P 6850 3650
-F 0 "J2" H 6850 6325 50  0000 C CNN
+AR Path="/61042CB4/61019D1F" Ref="J2"  Part="2" 
+AR Path="/611955AA/61019D1F" Ref="J?"  Part="2" 
+AR Path="/6109DB23/61019D1F" Ref="J?"  Part="2" 
+AR Path="/6109DD07/61019D1F" Ref="J?"  Part="2" 
+AR Path="/6109DD0E/61019D1F" Ref="J?"  Part="2" 
+AR Path="/6109E0BA/61019D1F" Ref="J?"  Part="2" 
+AR Path="/6109E0C1/61019D1F" Ref="J?"  Part="2" 
+F 0 "J?" H 6850 6325 50  0000 C CNN
 F 1 "Trenz_Module" H 6850 6234 50  0000 C CNN
 F 2 "" H 8050 4900 50  0001 C CNN
 F 3 "" H 8050 4900 50  0001 C CNN
@@ -30,7 +37,14 @@ $Comp
 L readout:Trenz_Module J2
 U 1 1 6101C3CD
 P 4250 3650
-F 0 "J2" H 4250 6325 50  0000 C CNN
+AR Path="/61042CB4/6101C3CD" Ref="J2"  Part="1" 
+AR Path="/611955AA/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/6109DB23/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/6109DD07/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/6109DD0E/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/6109E0BA/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/6109E0C1/6101C3CD" Ref="J?"  Part="1" 
+F 0 "J?" H 4250 6325 50  0000 C CNN
 F 1 "Trenz_Module" H 4250 6234 50  0000 C CNN
 F 2 "" H 5450 4900 50  0001 C CNN
 F 3 "" H 5450 4900 50  0001 C CNN
@@ -99,10 +113,10 @@ Text HLabel 5050 2400 2    50   Output ~ 0
 DATA_TX_P
 Text HLabel 5050 2500 2    50   Output ~ 0
 DATA_TX_N
-Wire Bus Line
-	3150 2450 3150 3300
 Text HLabel 3050 2100 0    50   Input ~ 0
 DATA_RX_P
 Text HLabel 3050 2200 0    50   Input ~ 0
 DATA_RX_N
+Wire Bus Line
+	3150 2450 3150 3300
 $EndSCHEMATC
