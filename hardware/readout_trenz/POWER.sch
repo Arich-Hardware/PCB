@@ -536,77 +536,77 @@ Text GLabel 3600 3750 2    50   Output ~ 0
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J4
 U 1 1 60D96BF9
-P 2200 5450
-F 0 "J4" H 2250 5867 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 2250 5776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2200 5450 50  0001 C CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129383.pdf?__cf_chl_jschl_tk__=pmd_f088d35ab8b380acf87f3d5264b2da4d1e131b8c-1627437568-0-gqNtZGzNAjijcnBszQdi" H 2200 5450 50  0001 C CNN
-F 4 "$0.26" H 2200 5450 50  0001 C CNN "Item Cost"
-F 5 "10129383-910002ALF" H 2200 5450 50  0001 C CNN "MFN"
-F 6 "Amphenol ICC (FCI)" H 2200 5450 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 2200 5450 50  0001 C CNN "Supplier "
-F 8 "609-10129383-910002ALFCT-ND" H 2200 5450 50  0001 C CNN "Supplier P/N"
-	1    2200 5450
+P 2350 4950
+F 0 "J4" H 2400 5367 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 2400 5276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2350 4950 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129383.pdf?__cf_chl_jschl_tk__=pmd_f088d35ab8b380acf87f3d5264b2da4d1e131b8c-1627437568-0-gqNtZGzNAjijcnBszQdi" H 2350 4950 50  0001 C CNN
+F 4 "$0.26" H 2350 4950 50  0001 C CNN "Item Cost"
+F 5 "10129383-910002ALF" H 2350 4950 50  0001 C CNN "MFN"
+F 6 "Amphenol ICC (FCI)" H 2350 4950 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2350 4950 50  0001 C CNN "Supplier "
+F 8 "609-10129383-910002ALFCT-ND" H 2350 4950 50  0001 C CNN "Supplier P/N"
+	1    2350 4950
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 5350 2400 5350
+	3050 4850 2550 4850
 Wire Wire Line
-	2900 5450 2400 5450
+	3050 4950 2550 4950
 Wire Wire Line
-	2900 5550 2400 5550
+	3050 5050 2550 5050
 Wire Wire Line
-	2900 5650 2400 5650
-Text Label 2900 5350 2    50   ~ 0
+	3050 5150 2550 5150
+Text Label 3050 4850 2    50   ~ 0
 BIAS1
-Text Label 2900 5450 2    50   ~ 0
+Text Label 3050 4950 2    50   ~ 0
 BIAS2
-Text Label 2900 5550 2    50   ~ 0
+Text Label 3050 5050 2    50   ~ 0
 BIAS3
-Text Label 2900 5650 2    50   ~ 0
+Text Label 3050 5150 2    50   ~ 0
 BIAS4
 Entry Wire Line
-	2900 5350 3000 5250
+	3050 4850 3150 4750
 Entry Wire Line
-	2900 5450 3000 5350
+	3050 4950 3150 4850
 Entry Wire Line
-	2900 5550 3000 5450
+	3050 5050 3150 4950
 Entry Wire Line
-	2900 5650 3000 5550
+	3050 5150 3150 5050
 Wire Bus Line
-	3000 5250 3500 5250
-Text Label 3000 5250 0    50   ~ 0
+	3150 4750 3650 4750
+Text Label 3150 4750 0    50   ~ 0
 BIAS[1..4]
-Text HLabel 3500 5250 2    50   Output ~ 0
+Text HLabel 3650 4750 2    50   Output ~ 0
 BIAS[1..4]
 Wire Wire Line
-	1900 5350 1800 5350
+	2050 4850 1950 4850
 Wire Wire Line
-	1800 5350 1800 5450
+	1950 4850 1950 4950
 Wire Wire Line
-	1900 5450 1800 5450
-Connection ~ 1800 5450
+	2050 4950 1950 4950
+Connection ~ 1950 4950
 Wire Wire Line
-	1800 5450 1800 5550
+	1950 4950 1950 5050
 Wire Wire Line
-	1900 5550 1800 5550
-Connection ~ 1800 5550
+	2050 5050 1950 5050
+Connection ~ 1950 5050
 Wire Wire Line
-	1800 5550 1800 5650
+	1950 5050 1950 5150
 Wire Wire Line
-	1900 5650 1800 5650
-Connection ~ 1800 5650
+	2050 5150 1950 5150
+Connection ~ 1950 5150
 Wire Wire Line
-	1800 5650 1800 5800
+	1950 5150 1950 5300
 $Comp
 L power:GND #PWR09
 U 1 1 60F19E32
-P 1800 5800
-F 0 "#PWR09" H 1800 5550 50  0001 C CNN
-F 1 "GNDA" H 1805 5627 50  0000 C CNN
-F 2 "" H 1800 5800 50  0001 C CNN
-F 3 "" H 1800 5800 50  0001 C CNN
-	1    1800 5800
+P 1950 5300
+F 0 "#PWR09" H 1950 5050 50  0001 C CNN
+F 1 "GNDA" H 1955 5127 50  0000 C CNN
+F 2 "" H 1950 5300 50  0001 C CNN
+F 3 "" H 1950 5300 50  0001 C CNN
+	1    1950 5300
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -1738,6 +1738,216 @@ F 8 "S7108-ND" H 3800 2050 50  0001 C CNN "Supplier P/N"
 	2    3800 2050
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Device:C C179
+U 1 1 615726F9
+P 850 6750
+F 0 "C179" H 750 6850 50  0000 L CNN
+F 1 "470uF" H 750 6650 50  0000 L CNN
+F 2 "" H 888 6600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1142.pdf" H 850 6750 50  0001 C CNN
+F 4 "$0.74" H 850 6750 50  0001 C CNN "Item Cost"
+F 5 "EEE-0JA471UAP" H 850 6750 50  0001 C CNN "MFN"
+F 6 "Panasonic Electronic Components" H 850 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 850 6750 50  0001 C CNN "Supplier "
+F 8 "PCE4564CT-ND" H 850 6750 50  0001 C CNN "Supplier P/N"
+	1    850  6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C180
+U 1 1 61574612
+P 1150 6750
+F 0 "C180" H 1050 6850 50  0000 L CNN
+F 1 "100uF" H 1050 6650 50  0000 L CNN
+F 2 "" H 1188 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 1150 6750 50  0001 C CNN
+F 4 "$0.35" H 1150 6750 50  0001 C CNN "Item Cost"
+F 5 "EEE-0JA101WR" H 1150 6750 50  0001 C CNN "MFN"
+F 6 "Panasonic Electronic Components" H 1150 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 1150 6750 50  0001 C CNN "Supplier "
+F 8 "PCE3853CT-ND" H 1150 6750 50  0001 C CNN "Supplier P/N"
+	1    1150 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6158178C
+P 1000 7000
+AR Path="/60BB4A14/6158178C" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/6158178C" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/6158178C" Ref="#PWR0173"  Part="1" 
+F 0 "#PWR0173" H 1000 6750 50  0001 C CNN
+F 1 "GND" H 1000 6850 50  0000 C CNB
+F 2 "" H 1000 7000 50  0001 C CNN
+F 3 "" H 1000 7000 50  0001 C CNN
+	1    1000 7000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 6500 1000 6550
+Wire Wire Line
+	1000 6550 850  6550
+Wire Wire Line
+	850  6550 850  6600
+Wire Wire Line
+	1000 6550 1150 6550
+Wire Wire Line
+	1150 6550 1150 6600
+Connection ~ 1000 6550
+Wire Wire Line
+	850  6900 850  6950
+Wire Wire Line
+	850  6950 1000 6950
+Wire Wire Line
+	1150 6950 1150 6900
+Wire Wire Line
+	1000 6950 1000 7000
+Connection ~ 1000 6950
+Wire Wire Line
+	1000 6950 1150 6950
+$Comp
+L Device:C C181
+U 1 1 615B41CF
+P 1450 6750
+F 0 "C181" H 1350 6850 50  0000 L CNN
+F 1 "470uF" H 1350 6650 50  0000 L CNN
+F 2 "" H 1488 6600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1142.pdf" H 1450 6750 50  0001 C CNN
+F 4 "$0.74" H 1450 6750 50  0001 C CNN "Item Cost"
+F 5 "EEE-0JA471UAP" H 1450 6750 50  0001 C CNN "MFN"
+F 6 "Panasonic Electronic Components" H 1450 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 1450 6750 50  0001 C CNN "Supplier "
+F 8 "PCE4564CT-ND" H 1450 6750 50  0001 C CNN "Supplier P/N"
+	1    1450 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C182
+U 1 1 615B41DE
+P 1750 6750
+F 0 "C182" H 1650 6850 50  0000 L CNN
+F 1 "100uF" H 1650 6650 50  0000 L CNN
+F 2 "" H 1788 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 1750 6750 50  0001 C CNN
+F 4 "$0.35" H 1750 6750 50  0001 C CNN "Item Cost"
+F 5 "EEE-0JA101WR" H 1750 6750 50  0001 C CNN "MFN"
+F 6 "Panasonic Electronic Components" H 1750 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 1750 6750 50  0001 C CNN "Supplier "
+F 8 "PCE3853CT-ND" H 1750 6750 50  0001 C CNN "Supplier P/N"
+	1    1750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615B41E8
+P 1600 7000
+AR Path="/60BB4A14/615B41E8" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/615B41E8" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/615B41E8" Ref="#PWR0174"  Part="1" 
+F 0 "#PWR0174" H 1600 6750 50  0001 C CNN
+F 1 "GND" H 1600 6850 50  0000 C CNB
+F 2 "" H 1600 7000 50  0001 C CNN
+F 3 "" H 1600 7000 50  0001 C CNN
+	1    1600 7000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6500 1600 6550
+Wire Wire Line
+	1600 6550 1450 6550
+Wire Wire Line
+	1450 6550 1450 6600
+Wire Wire Line
+	1600 6550 1750 6550
+Wire Wire Line
+	1750 6550 1750 6600
+Connection ~ 1600 6550
+Wire Wire Line
+	1450 6900 1450 6950
+Wire Wire Line
+	1450 6950 1600 6950
+Wire Wire Line
+	1750 6950 1750 6900
+Wire Wire Line
+	1600 6950 1600 7000
+Connection ~ 1600 6950
+Wire Wire Line
+	1600 6950 1750 6950
+Text GLabel 2200 6500 1    50   Input ~ 0
+3.3V_TRENZ
+$Comp
+L Device:C C183
+U 1 1 615CE3F6
+P 2050 6750
+F 0 "C183" H 1950 6850 50  0000 L CNN
+F 1 "470uF" H 1950 6650 50  0000 L CNN
+F 2 "" H 2088 6600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1142.pdf" H 2050 6750 50  0001 C CNN
+F 4 "$0.74" H 2050 6750 50  0001 C CNN "Item Cost"
+F 5 "EEE-0JA471UAP" H 2050 6750 50  0001 C CNN "MFN"
+F 6 "Panasonic Electronic Components" H 2050 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2050 6750 50  0001 C CNN "Supplier "
+F 8 "PCE4564CT-ND" H 2050 6750 50  0001 C CNN "Supplier P/N"
+	1    2050 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C184
+U 1 1 615CE405
+P 2350 6750
+F 0 "C184" H 2250 6850 50  0000 L CNN
+F 1 "100uF" H 2250 6650 50  0000 L CNN
+F 2 "" H 2388 6600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/S_Series,Type_V_Rev2018.pdf" H 2350 6750 50  0001 C CNN
+F 4 "$0.35" H 2350 6750 50  0001 C CNN "Item Cost"
+F 5 "EEE-0JA101WR" H 2350 6750 50  0001 C CNN "MFN"
+F 6 "Panasonic Electronic Components" H 2350 6750 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2350 6750 50  0001 C CNN "Supplier "
+F 8 "PCE3853CT-ND" H 2350 6750 50  0001 C CNN "Supplier P/N"
+	1    2350 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615CE40F
+P 2200 7000
+AR Path="/60BB4A14/615CE40F" Ref="#PWR?"  Part="1" 
+AR Path="/60BB4C00/615CE40F" Ref="#PWR?"  Part="1" 
+AR Path="/62251D77/615CE40F" Ref="#PWR0175"  Part="1" 
+F 0 "#PWR0175" H 2200 6750 50  0001 C CNN
+F 1 "GND" H 2200 6850 50  0000 C CNB
+F 2 "" H 2200 7000 50  0001 C CNN
+F 3 "" H 2200 7000 50  0001 C CNN
+	1    2200 7000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 6500 2200 6550
+Wire Wire Line
+	2200 6550 2050 6550
+Wire Wire Line
+	2050 6550 2050 6600
+Wire Wire Line
+	2200 6550 2350 6550
+Wire Wire Line
+	2350 6550 2350 6600
+Connection ~ 2200 6550
+Wire Wire Line
+	2050 6900 2050 6950
+Wire Wire Line
+	2050 6950 2200 6950
+Wire Wire Line
+	2350 6950 2350 6900
+Wire Wire Line
+	2200 6950 2200 7000
+Connection ~ 2200 6950
+Wire Wire Line
+	2200 6950 2350 6950
+Text GLabel 1000 6500 1    50   Input ~ 0
+1.8V_CITIROC_VHI
+Text GLabel 1600 6500 1    50   Input ~ 0
+3.3V_CITIROC
 Wire Bus Line
-	3000 5250 3000 5550
+	3150 4750 3150 5050
 $EndSCHEMATC

@@ -2307,11 +2307,11 @@ Wire Wire Line
 Wire Wire Line
 	4800 2950 5150 2950
 Wire Wire Line
-	5150 2950 5150 3150
+	5150 2950 5150 3000
 $Comp
 L power:GND #PWR?
 U 1 1 60DD8723
-P 5150 3150
+P 5150 3000
 AR Path="/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/603D0C5A/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/608039EA/60DD8723" Ref="#PWR?"  Part="1" 
@@ -2319,18 +2319,13 @@ AR Path="/6086954E/60943779/60DD8723" Ref="#PWR?"  Part="1"
 AR Path="/607ECAFE/60DD8723" Ref="#PWR?"  Part="1" 
 AR Path="/60BB4C00/60DD8723" Ref="#PWR049"  Part="1" 
 AR Path="/60BB4A14/60DD8723" Ref="#PWR0138"  Part="1" 
-F 0 "#PWR0138" H 5150 2900 50  0001 C CNN
-F 1 "GND" H 5150 3000 50  0000 C CNN
-F 2 "" H 5150 3150 50  0001 C CNN
-F 3 "" H 5150 3150 50  0001 C CNN
-	1    5150 3150
+F 0 "#PWR0138" H 5150 2750 50  0001 C CNN
+F 1 "GND" H 5150 2850 50  0000 C CNN
+F 2 "" H 5150 3000 50  0001 C CNN
+F 3 "" H 5150 3000 50  0001 C CNN
+	1    5150 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4900 5350 4900 5150
-Connection ~ 4900 5150
-Wire Wire Line
-	4900 5150 4900 4850
 Connection ~ 4900 4650
 Wire Wire Line
 	4900 4850 4800 4850
@@ -2351,16 +2346,7 @@ Wire Wire Line
 	4900 3950 4900 3750
 Connection ~ 4900 3750
 Wire Wire Line
-	4900 3750 4900 3400
-Wire Wire Line
 	4800 3750 4900 3750
-Connection ~ 4900 3400
-Wire Wire Line
-	4900 3400 4900 2350
-Wire Wire Line
-	4800 3400 4900 3400
-Wire Wire Line
-	4900 1650 4900 2350
 Connection ~ 3400 3750
 Connection ~ 3400 1850
 Wire Wire Line
@@ -2432,9 +2418,6 @@ Wire Wire Line
 	3400 4850 3400 4950
 Wire Wire Line
 	3500 4950 3400 4950
-Connection ~ 4900 2350
-Wire Wire Line
-	4800 2350 4900 2350
 Connection ~ 4900 1650
 Wire Wire Line
 	3400 3750 3500 3750
@@ -2554,8 +2537,6 @@ Wire Wire Line
 	4900 1350 4900 1450
 Wire Wire Line
 	4800 4450 4900 4450
-Wire Wire Line
-	4800 5150 4900 5150
 Wire Wire Line
 	4800 5350 4900 5350
 $Comp
@@ -3498,8 +3479,6 @@ F 3 "" H 5300 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 2350 5300 2350
-Wire Wire Line
-	5000 2350 4900 2350
 $Comp
 L Device:C_Small C?
 U 1 1 618AA82A
@@ -3574,7 +3553,7 @@ $EndComp
 Wire Wire Line
 	5200 3400 5300 3400
 Wire Wire Line
-	5000 3400 4900 3400
+	5000 3400 4950 3400
 $Comp
 L Device:C_Small C?
 U 1 1 619D2DEA
@@ -3758,8 +3737,6 @@ F 3 "" H 5300 5150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5200 5150 5300 5150
-Wire Wire Line
-	5000 5150 4900 5150
 $Comp
 L Device:C_Small C?
 U 1 1 61B91331
@@ -4019,9 +3996,9 @@ F 8 "732-7965-1-ND" H 15750 3350 50  0001 C CNN "Supplier P/N"
 	1    15750 3350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 15950 3250 1    50   Input ~ 0
-3.3V_CITIROC
 Text GLabel 15150 3250 1    50   Input ~ 0
+3.3V_CITIROC
+Text GLabel 15950 3250 1    50   Input ~ 0
 1.8V_CITIROC
 Entry Wire Line
 	14800 1450 14700 1550
@@ -4995,6 +4972,41 @@ Text Notes 15175 2425 0    75   ~ 0
 3.3V --> 1.8V \nlevel shifters
 Text Notes 14800 1125 0    75   ~ 0
 1.8V logic\nto FPGA
+Text GLabel 5400 5000 2    50   Input ~ 0
+3.3V_TRENZ
+Wire Wire Line
+	4900 4850 4900 5350
+Wire Wire Line
+	4800 5150 4950 5150
+Wire Wire Line
+	5400 5000 4950 5000
+Wire Wire Line
+	4950 5000 4950 5150
+Connection ~ 4950 5150
+Wire Wire Line
+	4950 5150 5000 5150
+Text GLabel 5400 3250 2    50   Input ~ 0
+3.3V_TRENZ
+Wire Wire Line
+	5400 3250 4950 3250
+Wire Wire Line
+	4950 3250 4950 3400
+Wire Wire Line
+	4950 3400 4800 3400
+Connection ~ 4950 3400
+Wire Wire Line
+	4900 1650 4900 3750
+Wire Wire Line
+	4800 2350 4950 2350
+Text GLabel 5400 2200 2    50   Input ~ 0
+3.3V_TRENZ
+Wire Wire Line
+	5400 2200 4950 2200
+Wire Wire Line
+	4950 2200 4950 2350
+Connection ~ 4950 2350
+Wire Wire Line
+	4950 2350 5000 2350
 Wire Bus Line
 	16800 3600 16800 3950
 Wire Bus Line
