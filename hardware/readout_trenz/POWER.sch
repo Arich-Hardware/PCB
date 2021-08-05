@@ -997,7 +997,7 @@ $EndComp
 Wire Wire Line
 	7200 4600 7300 4600
 Text GLabel 7900 5600 2    50   Output ~ 0
-3.3V_TRENZ
+3.3V_ANALOG
 Wire Wire Line
 	7200 5600 7300 5600
 Text GLabel 7900 4600 2    50   Output ~ 0
@@ -1627,7 +1627,7 @@ F 8 "Digi-Key" H 3700 6600 50  0001 C CNN "Supplier "
 	1    0    0    -1  
 $EndComp
 Text GLabel 3600 6150 0    50   Input ~ 0
-3.3V_CITIROC
+3.3V_ANALOG
 Wire Wire Line
 	3600 6150 3600 6300
 $Comp
@@ -1875,7 +1875,7 @@ Connection ~ 1600 6950
 Wire Wire Line
 	1600 6950 1750 6950
 Text GLabel 2200 6500 1    50   Input ~ 0
-3.3V_TRENZ
+3.3V_ANALOG
 $Comp
 L Device:C C183
 U 1 1 615CE3F6

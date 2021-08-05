@@ -733,13 +733,13 @@ F 3 "" H 16850 5550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8800 6050 0    50   Input ~ 0
-3.3V_TRENZ
+3.3V_ANALOG
 Text GLabel 5100 5350 1    50   Input ~ 0
 3.3V_SFP
 Text GLabel 5300 5350 1    50   Input ~ 0
 3.3V_SFP
 Text GLabel 1700 2050 1    50   Input ~ 0
-3.3V_TRENZ
+3.3V_ANALOG
 $Comp
 L power:GND #PWR0113
 U 1 1 61BDEF65
@@ -806,7 +806,7 @@ $EndComp
 Wire Wire Line
 	10500 5850 11150 5850
 Text GLabel 12150 5550 2    50   Input ~ 0
-3.3V_TRENZ
+3.3V_ANALOG
 Wire Wire Line
 	11450 5750 10500 5750
 $Comp
@@ -841,7 +841,7 @@ F 3 "" H 11750 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 12150 6200 2    50   Input ~ 0
-3.3V_TRENZ
+3.3V_ANALOG
 Wire Wire Line
 	11150 6400 11450 6400
 Wire Wire Line
@@ -1039,7 +1039,7 @@ F 8 "RE1C002UNTCLCT-ND" H 18500 2250 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 Text GLabel 19000 2050 2    50   Input ~ 0
-3.3V_TRENZ
+3.3V_ANALOG
 Wire Wire Line
 	18300 2250 16850 2250
 $Comp
@@ -1092,7 +1092,7 @@ F 8 "RE1C002UNTCLCT-ND" H 18500 2900 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 Text GLabel 19000 2700 2    50   Input ~ 0
-3.3V_TRENZ
+3.3V_ANALOG
 Wire Wire Line
 	18000 2900 18300 2900
 Wire Wire Line
