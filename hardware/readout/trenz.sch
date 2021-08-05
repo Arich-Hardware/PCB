@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 9 35
 Title ""
 Date ""
 Rev ""
@@ -24,6 +24,12 @@ AR Path="/6109DD07/61019D1F" Ref="J?"  Part="2"
 AR Path="/6109DD0E/61019D1F" Ref="J?"  Part="2" 
 AR Path="/6109E0BA/61019D1F" Ref="J?"  Part="2" 
 AR Path="/6109E0C1/61019D1F" Ref="J?"  Part="2" 
+AR Path="/61383376/613835BB/61019D1F" Ref="J?"  Part="2" 
+AR Path="/610F1616/613835BB/61019D1F" Ref="J?"  Part="2" 
+AR Path="/61119E97/613835BB/61019D1F" Ref="J?"  Part="2" 
+AR Path="/61119EA4/613835BB/61019D1F" Ref="J?"  Part="2" 
+AR Path="/6111A893/613835BB/61019D1F" Ref="J?"  Part="2" 
+AR Path="/6111A8A0/613835BB/61019D1F" Ref="J?"  Part="2" 
 F 0 "J?" H 8200 6325 50  0000 C CNN
 F 1 "Trenz_Module" H 8200 6234 50  0000 C CNN
 F 2 "" H 9400 4900 50  0001 C CNN
@@ -42,6 +48,12 @@ AR Path="/6109DD07/6101C3CD" Ref="J?"  Part="1"
 AR Path="/6109DD0E/6101C3CD" Ref="J?"  Part="1" 
 AR Path="/6109E0BA/6101C3CD" Ref="J?"  Part="1" 
 AR Path="/6109E0C1/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/61383376/613835BB/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/610F1616/613835BB/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/61119E97/613835BB/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/61119EA4/613835BB/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/6111A893/613835BB/6101C3CD" Ref="J?"  Part="1" 
+AR Path="/6111A8A0/613835BB/6101C3CD" Ref="J?"  Part="1" 
 F 0 "J?" H 3500 6325 50  0000 C CNN
 F 1 "Trenz_Module" H 3500 6234 50  0000 C CNN
 F 2 "" H 4700 4900 50  0001 C CNN
@@ -49,11 +61,11 @@ F 3 "" H 4700 4900 50  0001 C CNN
 	1    3500 3650
 	1    0    0    -1  
 $EndComp
-Text HLabel 3300 6500 0    50   Input ~ 0
+Text HLabel 1250 2550 0    50   Input ~ 0
 TRIG[0..95]
 Wire Bus Line
-	3300 6500 3850 6500
-Text Label 3400 6500 0    50   ~ 0
+	1250 2550 1800 2550
+Text Label 1350 2550 0    50   ~ 0
 TRIG[0..95]
 Entry Wire Line
 	2100 1100 2200 1200
@@ -735,6 +747,106 @@ Wire Bus Line
 	5600 5500 4900 5500
 Text Label 5600 5500 0    50   ~ 0
 TRIG[66..89]
+Entry Wire Line
+	9400 1100 9300 1200
+Entry Wire Line
+	9400 1200 9300 1300
+Entry Wire Line
+	9400 1300 9300 1400
+Entry Wire Line
+	9400 1400 9300 1500
+Entry Wire Line
+	9400 1500 9300 1600
+Entry Wire Line
+	9400 1600 9300 1700
+Entry Wire Line
+	9400 1700 9300 1800
+Entry Wire Line
+	9400 1800 9300 1900
+Entry Wire Line
+	9400 2000 9300 2100
+Entry Wire Line
+	9400 2100 9300 2200
+Entry Wire Line
+	9400 2200 9300 2300
+Entry Wire Line
+	9400 2300 9300 2400
+Entry Wire Line
+	9400 2400 9300 2500
+Entry Wire Line
+	9400 2500 9300 2600
+Entry Wire Line
+	9400 2600 9300 2700
+Entry Wire Line
+	9400 2700 9300 2800
+Wire Wire Line
+	9300 1200 8800 1200
+Wire Wire Line
+	9300 1300 8800 1300
+Wire Wire Line
+	9300 1400 8800 1400
+Wire Wire Line
+	9300 1500 8800 1500
+Wire Wire Line
+	9300 1600 8800 1600
+Wire Wire Line
+	9300 1700 8800 1700
+Wire Wire Line
+	9300 1800 8800 1800
+Wire Wire Line
+	9300 1900 8800 1900
+Wire Wire Line
+	9300 2100 8800 2100
+Wire Wire Line
+	9300 2200 8800 2200
+Wire Wire Line
+	9300 2300 8800 2300
+Wire Wire Line
+	9300 2400 8800 2400
+Wire Wire Line
+	9300 2500 8800 2500
+Wire Wire Line
+	9300 2600 8800 2600
+Wire Wire Line
+	9300 2700 8800 2700
+Wire Wire Line
+	9300 2800 8800 2800
+Text Label 8900 1200 0    50   ~ 0
+GPIO0
+Text Label 8900 1300 0    50   ~ 0
+GPIO1
+Text Label 8900 1400 0    50   ~ 0
+GPIO2
+Text Label 8900 1500 0    50   ~ 0
+GPIO3
+Text Label 8900 1600 0    50   ~ 0
+GPIO4
+Text Label 8900 1700 0    50   ~ 0
+GPIO5
+Text Label 8900 1800 0    50   ~ 0
+GPIO6
+Text Label 8900 1900 0    50   ~ 0
+GPIO7
+Text Label 8900 2100 0    50   ~ 0
+GPIO8
+Text Label 8900 2200 0    50   ~ 0
+GPIO9
+Text Label 8900 2300 0    50   ~ 0
+GPIO10
+Text Label 8900 2400 0    50   ~ 0
+GPIO11
+Text Label 8900 2500 0    50   ~ 0
+GPIO12
+Text Label 8900 2600 0    50   ~ 0
+GPIO13
+Text Label 8900 2700 0    50   ~ 0
+GPIO14
+Text Label 8900 2800 0    50   ~ 0
+GPIO15
+Wire Bus Line
+	9900 900  9400 900 
+Text HLabel 9900 900  2    50   Output ~ 0
+GPIO[0..15]
 Wire Bus Line
 	5100 1300 5100 2400
 Wire Bus Line
@@ -753,6 +865,8 @@ Wire Bus Line
 	7000 5000 7000 6400
 Wire Bus Line
 	9400 4900 9400 6200
+Wire Bus Line
+	9400 900  9400 2700
 Wire Bus Line
 	2100 2800 2100 5500
 Wire Bus Line
