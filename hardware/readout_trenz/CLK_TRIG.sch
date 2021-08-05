@@ -108,7 +108,7 @@ Wire Wire Line
 Text GLabel 6900 2600 1    50   Input ~ 0
 1.8V_CITIROC
 Text GLabel 6100 2600 1    50   Input ~ 0
-3.3V_CITIROC
+3.3V_ANALOG
 $Comp
 L power:GND #PWR04
 U 1 1 613558E3
