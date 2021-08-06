@@ -349,8 +349,8 @@ U 1 1 60C28257
 P 2200 3500
 F 0 "RV1" H 2375 3800 50  0000 R CNN
 F 1 "1k" H 2375 3700 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal" H 2200 3500 50  0001 C CNN
-F 3 "~" H 2200 3500 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal" H 2200 3500 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/3006.pdf" H 2200 3500 50  0001 C CNN
 	1    2200 3500
 	1    0    0    -1  
 $EndComp
@@ -1113,4 +1113,6 @@ F 3 "" H 4650 5725 50  0001 C CNN
 	1    4650 5725
 	1    0    0    -1  
 $EndComp
+Text Label 1500 3050 0    50   ~ 0
+VCC
 $EndSCHEMATC
