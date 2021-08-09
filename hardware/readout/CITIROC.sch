@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 35
+Sheet 9 38
 Title ""
 Date ""
 Rev ""
@@ -705,4 +705,6 @@ Wire Bus Line
 	10000 1300 10000 4600
 Wire Bus Line
 	1550 1800 1550 5100
+Text Notes 7050 6850 0    75   ~ 0
+EMPHATIC readout board\nCITIROC ASIC -- 1 of 18
 $EndSCHEMATC

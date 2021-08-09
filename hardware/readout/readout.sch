@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 35
+Sheet 1 38
 Title ""
 Date ""
 Rev ""
@@ -13,8 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3800 10150 0    75   ~ 0
-EMPHATIC Readout Board
+Text Notes 3800 10300 0    75   ~ 0
+EMPHATIC Readout Board\nTop level
 $Sheet
 S 1550 2000 1050 700 
 U 61195331
@@ -25,7 +25,7 @@ F3 "VDD" I L 1550 2150 50
 F4 "BIAS[1..12]" I L 1550 2450 50 
 F5 "TEMP[1..4]" O R 2600 2450 50 
 $EndSheet
-Text Notes 1250 1750 0    75   ~ 0
+Text Notes 1550 1750 0    75   ~ 0
 Each sheet represents\ntwo backplane connectors\ncarrying 192 SiPM inputs
 Text Notes 2550 950  0    75   ~ 0
 Each sheet represents\n3 CITIROC ASICS and\none Trenz FPGA module
@@ -53,6 +53,7 @@ F7 "MGT_TX_P0" O R 5350 2550 50
 F8 "MGT_TX_N0" O R 5350 2650 50 
 F9 "MGT_TX_P1" O R 5350 3150 50 
 F10 "MGT_TX_N1" O R 5350 3250 50 
+F11 "CTRL[0..3]" B R 5350 2750 50 
 $EndSheet
 Wire Bus Line
 	3300 2250 3300 2750
@@ -72,6 +73,7 @@ F7 "MGT_TX_P0" O R 5350 1000 50
 F8 "MGT_TX_N0" O R 5350 1100 50 
 F9 "MGT_TX_P1" O R 5350 1600 50 
 F10 "MGT_TX_N1" O R 5350 1700 50 
+F11 "CTRL[0..3]" B R 5350 1200 50 
 $EndSheet
 Wire Bus Line
 	3300 1200 3300 2050
@@ -137,6 +139,7 @@ F7 "MGT_TX_P0" O R 5350 5650 50
 F8 "MGT_TX_N0" O R 5350 5750 50 
 F9 "MGT_TX_P1" O R 5350 6250 50 
 F10 "MGT_TX_N1" O R 5350 6350 50 
+F11 "CTRL[0..3]" B R 5350 5850 50 
 $EndSheet
 Wire Bus Line
 	3300 5350 3300 5850
@@ -156,6 +159,7 @@ F7 "MGT_TX_P0" O R 5350 4100 50
 F8 "MGT_TX_N0" O R 5350 4200 50 
 F9 "MGT_TX_P1" O R 5350 4700 50 
 F10 "MGT_TX_N1" O R 5350 4800 50 
+F11 "CTRL[0..3]" B R 5350 4300 50 
 $EndSheet
 Wire Bus Line
 	3300 4300 3300 5150
@@ -221,6 +225,7 @@ F7 "MGT_TX_P0" O R 5350 8750 50
 F8 "MGT_TX_N0" O R 5350 8850 50 
 F9 "MGT_TX_P1" O R 5350 9350 50 
 F10 "MGT_TX_N1" O R 5350 9450 50 
+F11 "CTRL[0..3]" B R 5350 8950 50 
 $EndSheet
 Wire Bus Line
 	3300 8450 3300 8950
@@ -240,6 +245,7 @@ F7 "MGT_TX_P0" O R 5350 7200 50
 F8 "MGT_TX_N0" O R 5350 7300 50 
 F9 "MGT_TX_P1" O R 5350 7800 50 
 F10 "MGT_TX_N1" O R 5350 7900 50 
+F11 "CTRL[0..3]" B R 5350 7400 50 
 $EndSheet
 Wire Bus Line
 	3300 7400 3300 8250
@@ -347,11 +353,59 @@ Wire Wire Line
 Text Notes 6100 700  2    50   Italic 0
 Check TX/RX!
 $Sheet
-S 1150 9850 1700 750 
+S 1200 10150 1700 750 
 U 6110C8BB
 F0 "power" 50
 F1 "power.sch" 50
 $EndSheet
-Text Notes 2450 10300 2    150  ~ 30
+Text Notes 2500 10600 2    150  ~ 30
 POWER
+Wire Bus Line
+	5350 1200 6050 1200
+Wire Bus Line
+	6050 1200 6050 1750
+Text Label 6250 1750 0    50   ~ 0
+CTRL[0..3]
+Entry Wire Line
+	7600 1750 7700 1650
+Entry Wire Line
+	7450 1750 7550 1650
+Entry Wire Line
+	7300 1750 7400 1650
+Wire Wire Line
+	7700 1650 7700 800 
+Wire Wire Line
+	7700 800  7200 800 
+Wire Wire Line
+	7550 1650 7550 900 
+Wire Wire Line
+	7550 900  7200 900 
+Wire Wire Line
+	7400 1650 7400 1000
+Wire Wire Line
+	7400 1000 7200 1000
+Text Label 7400 1500 1    50   ~ 0
+CTRL2
+Text Label 7550 1500 1    50   ~ 0
+CTRL1
+Text Label 7700 1500 1    50   ~ 0
+CTRL0
+$Sheet
+S 6350 2400 850  700 
+U 61157F0F
+F0 "frontpanel" 50
+F1 "frontpanel.sch" 50
+F2 "CTRL[0..3]" B L 6350 2750 50 
+$EndSheet
+Wire Bus Line
+	6350 2750 5350 2750
+$Sheet
+S 800  3750 550  350 
+U 6115C3E5
+F0 "bias" 75
+F1 "bias.sch" 75
+F2 "BIAS" O R 1350 3900 50 
+$EndSheet
+Wire Bus Line
+	6050 1750 7600 1750
 $EndSCHEMATC

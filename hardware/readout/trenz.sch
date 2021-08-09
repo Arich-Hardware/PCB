@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 35
+Sheet 12 38
 Title ""
 Date ""
 Rev ""
@@ -847,6 +847,34 @@ Wire Bus Line
 	9900 900  9400 900 
 Text HLabel 9900 900  2    50   Output ~ 0
 GPIO[0..15]
+Entry Wire Line
+	9400 2900 9300 3000
+Entry Wire Line
+	9400 3000 9300 3100
+Entry Wire Line
+	9400 3100 9300 3200
+Entry Wire Line
+	9400 3200 9300 3300
+Wire Wire Line
+	9300 3000 8800 3000
+Wire Wire Line
+	9300 3100 8800 3100
+Wire Wire Line
+	9300 3200 8800 3200
+Wire Wire Line
+	9300 3300 8800 3300
+Text Label 8900 3000 0    50   ~ 0
+CTRL0
+Text Label 8900 3100 0    50   ~ 0
+CTRL1
+Text Label 8900 3200 0    50   ~ 0
+CTRL2
+Text Label 8900 3300 0    50   ~ 0
+CTRL3
+Text HLabel 9950 2800 2    50   Output ~ 0
+CTRL[0..3]
+Wire Bus Line
+	9950 2800 9400 2800
 Wire Bus Line
 	5100 1300 5100 2400
 Wire Bus Line
@@ -855,6 +883,8 @@ Wire Bus Line
 	1900 1000 1900 2100
 Wire Bus Line
 	2100 900  2100 2000
+Wire Bus Line
+	9400 2800 9400 3200
 Wire Bus Line
 	2300 5500 2300 6200
 Wire Bus Line
@@ -871,4 +901,6 @@ Wire Bus Line
 	2100 2800 2100 5500
 Wire Bus Line
 	4900 2800 4900 5500
+Text Notes 7100 6850 0    75   ~ 0
+EMPHATIC readout board\nTrenz TE0714 FPGA module -- 1 of 6
 $EndSCHEMATC

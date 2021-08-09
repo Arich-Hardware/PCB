@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 35 35
+Sheet 35 38
 Title ""
 Date ""
 Rev ""
@@ -478,4 +478,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 1300 5350 1600
 Connection ~ 5500 1300
+Text Notes 7050 6850 0    75   ~ 0
+EMPHATIC readout board\nSFP fiber optic transceiver -- 1 of 1
 $EndSCHEMATC
