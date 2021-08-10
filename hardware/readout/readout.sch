@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 1 38
+Sheet 1 56
 Title ""
 Date ""
 Rev ""
@@ -32,13 +32,13 @@ Each sheet represents\n3 CITIROC ASICS and\none Trenz FPGA module
 Entry Bus Bus
 	3200 2150 3300 2050
 Text Label 2650 2150 0    50   ~ 0
-SIPM[0..191]
+SIPMA[0..191]
 Entry Bus Bus
 	3300 2250 3200 2150
 Text Label 3400 2750 0    50   ~ 0
-SIPM[96..191]
+SIPMA[96..191]
 Text Label 3400 1200 0    50   ~ 0
-SIPM[0..95]
+SIPMA[0..95]
 $Sheet
 S 4050 2200 1300 1250
 U 61383376
@@ -118,13 +118,13 @@ $EndSheet
 Entry Bus Bus
 	3200 5250 3300 5150
 Text Label 2650 5250 0    50   ~ 0
-SIPM[0..191]
+SIPMB[0..191]
 Entry Bus Bus
 	3300 5350 3200 5250
 Text Label 3400 5850 0    50   ~ 0
-SIPM[96..191]
+SIPMB[96..191]
 Text Label 3400 4300 0    50   ~ 0
-SIPM[0..95]
+SIPMB[0..95]
 $Sheet
 S 4050 5300 1300 1250
 U 61119E97
@@ -204,13 +204,13 @@ $EndSheet
 Entry Bus Bus
 	3200 8350 3300 8250
 Text Label 2650 8350 0    50   ~ 0
-SIPM[0..191]
+SIPMC[0..191]
 Entry Bus Bus
 	3300 8450 3200 8350
 Text Label 3400 8950 0    50   ~ 0
-SIPM[96..191]
+SIPMC[96..191]
 Text Label 3400 7400 0    50   ~ 0
-SIPM[0..95]
+SIPMC[0..95]
 $Sheet
 S 4050 8400 1300 1250
 U 6111A893

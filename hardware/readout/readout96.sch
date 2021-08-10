@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 38
+Sheet 11 56
 Title ""
 Date ""
 Rev ""
@@ -319,6 +319,8 @@ Wire Bus Line
 	9150 4550 9950 4550
 Text HLabel 9950 4550 2    50   BiDi ~ 0
 CTRL[0..3]
+Text Notes 7100 6800 0    75   ~ 0
+EMPHATIC readout board\n96 channel readout group -- 1 of 6
 Wire Bus Line
 	9750 2800 9750 3950
 Wire Bus Line
@@ -331,6 +333,4 @@ Wire Bus Line
 	7000 2800 7000 3950
 Wire Bus Line
 	2900 2300 2900 5400
-Text Notes 7100 6800 0    75   ~ 0
-EMPHATIC readout board\n96 channel readout group -- 1 of 6
 $EndSCHEMATC

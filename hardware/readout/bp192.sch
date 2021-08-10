@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 11000 9000
 encoding utf-8
-Sheet 2 38
+Sheet 2 56
 Title ""
 Date ""
 Rev ""
@@ -1592,6 +1592,8 @@ Connection ~ 4300 2750
 Wire Wire Line
 	4300 1850 4300 950 
 Connection ~ 4300 1850
+Text Notes 6450 7600 0    75   ~ 0
+EMPHATIC readout board\nBackplane connector pair (1 of 3)
 Wire Bus Line
 	8900 750  8900 2450
 Wire Bus Line
@@ -1610,6 +1612,4 @@ Wire Bus Line
 	4850 750  4850 4350
 Wire Bus Line
 	2650 750  2650 4350
-Text Notes 6450 7600 0    75   ~ 0
-EMPHATIC readout board\nBackplane connector pair (1 of 3)
 $EndSCHEMATC
