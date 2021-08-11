@@ -2717,15 +2717,15 @@ Text GLabel 1200 3550 1    50   Input ~ 0
 Text GLabel 4900 1250 1    50   Input ~ 0
 3.3V_CITIROC
 Text GLabel 12850 10600 1    50   Input ~ 0
-3.3V_ANALOG
+3.3V_DIGITAL
 Text GLabel 12350 6850 1    50   Input ~ 0
 1.8V_CITIROC
 Text GLabel 11950 6850 1    50   Input ~ 0
-3.3V_ANALOG
+3.3V_DIGITAL
 Text GLabel 15700 4800 2    50   Input ~ 0
 1.8V_CITIROC
 Text GLabel 11000 2000 1    50   Input ~ 0
-3.3V_ANALOG
+3.3V_DIGITAL
 Text GLabel 10000 2000 1    50   Input ~ 0
 1.8V_CITIROC
 $Comp
@@ -3997,7 +3997,7 @@ F 8 "732-7965-1-ND" H 15750 3350 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 Text GLabel 15150 3250 1    50   Input ~ 0
-3.3V_ANALOG
+3.3V_DIGITAL
 Text GLabel 15950 3250 1    50   Input ~ 0
 1.8V_CITIROC
 Entry Wire Line
@@ -4973,7 +4973,7 @@ Text Notes 15175 2425 0    75   ~ 0
 Text Notes 14800 1125 0    75   ~ 0
 1.8V logic\nto FPGA
 Text GLabel 5400 5000 2    50   Input ~ 0
-3.3V_ANALOG
+3.3V_DIGITAL
 Wire Wire Line
 	4900 4850 4900 5350
 Wire Wire Line
@@ -4986,7 +4986,7 @@ Connection ~ 4950 5150
 Wire Wire Line
 	4950 5150 5000 5150
 Text GLabel 5400 3250 2    50   Input ~ 0
-3.3V_ANALOG
+3.3V_DIGITAL
 Wire Wire Line
 	5400 3250 4950 3250
 Wire Wire Line
@@ -4999,7 +4999,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 2350 4950 2350
 Text GLabel 5400 2200 2    50   Input ~ 0
-3.3V_ANALOG
+3.3V_DIGITAL
 Wire Wire Line
 	5400 2200 4950 2200
 Wire Wire Line
