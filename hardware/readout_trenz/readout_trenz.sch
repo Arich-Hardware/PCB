@@ -332,5 +332,5 @@ F 8 "36-5001-ND" H 9000 6250 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 Text Notes 6325 7100 0    75   ~ 0
-EMPHATIC Readout Board\n64 channel prototype
+EMPHATIC Readout Board     Rev A\n64 channel prototype
 $EndSCHEMATC

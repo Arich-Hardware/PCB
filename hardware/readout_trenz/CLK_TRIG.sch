@@ -24,7 +24,7 @@ L Connector:Conn_Coaxial J2
 U 1 1 60C7B226
 P 4500 4000
 F 0 "J2" H 4428 4238 50  0000 C CNN
-F 1 "Conn_Coaxial" H 4428 4147 50  0000 C CNN
+F 1 "DNP" H 4428 4147 50  0000 C CNN
 F 2 "readout_trenz:lemo-EPB.00.250.NTN" H 4500 4000 50  0001 C CNN
 F 3 "https://www.lemo.com/pdf/EPB.00.250.NTN.pdf" H 4500 4000 50  0001 C CNN
 F 4 "$20.34" H 4500 4000 50  0001 C CNN "Item Cost"
@@ -158,7 +158,7 @@ L Connector:Conn_Coaxial J1
 U 1 1 60C74CEF
 P 4500 3000
 F 0 "J1" H 4428 3238 50  0000 C CNN
-F 1 "Conn_Coaxial" H 4428 3147 50  0000 C CNN
+F 1 "DNP" H 4428 3147 50  0000 C CNN
 F 2 "readout_trenz:lemo-EPB.00.250.NTN" H 4500 3000 50  0001 C CNN
 F 3 "https://www.lemo.com/pdf/EPB.00.250.NTN.pdf" H 4500 3000 50  0001 C CNN
 F 4 "$20.34" H 4500 3000 50  0001 C CNN "Item Cost"
