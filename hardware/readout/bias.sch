@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 38 56
+Sheet 1 56
 Title ""
 Date ""
 Rev ""
@@ -13,12 +13,466 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 9950 3850 2    75   Output ~ 0
+Text HLabel 9000 3200 2    75   Output ~ 0
 BIAS
-Wire Wire Line
-	9950 3850 8750 3850
-Text Notes 9350 2400 2    75   ~ 0
-SiPM Bias voltage generator\n
 Text Notes 7150 6850 0    75   ~ 0
 EMPHATIC readout board\nBias voltage generator -- 1 of 1\n
+$Comp
+L A7585-test-board_Library:A7585D U?
+U 1 1 61290917
+P 5700 2700
+F 0 "U?" H 5700 3565 50  0000 C CNN
+F 1 "A7585D" H 5700 3474 50  0000 C CNN
+F 2 "A7585-test-board:A7585D_Board" H 5150 3500 50  0001 C CNN
+F 3 "" H 5150 3500 50  0001 C CNN
+	1    5700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61290923
+P 6850 3650
+F 0 "#PWR?" H 6850 3400 50  0001 C CNN
+F 1 "GND" H 6855 3477 50  0000 C CNN
+F 2 "" H 6850 3650 50  0001 C CNN
+F 3 "" H 6850 3650 50  0001 C CNN
+	1    6850 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2100 6850 2100
+Wire Wire Line
+	6850 2100 6850 3100
+Wire Wire Line
+	6650 3100 6850 3100
+Wire Wire Line
+	4550 2800 4550 3650
+Connection ~ 4550 2800
+Wire Wire Line
+	4750 2800 4550 2800
+Wire Wire Line
+	4550 2100 4550 2800
+$Comp
+L power:GND #PWR?
+U 1 1 61290930
+P 4550 3650
+F 0 "#PWR?" H 4550 3400 50  0001 C CNN
+F 1 "GND" H 4555 3477 50  0000 C CNN
+F 2 "" H 4550 3650 50  0001 C CNN
+F 3 "" H 4550 3650 50  0001 C CNN
+	1    4550 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2100 4750 2100
+$Comp
+L Device:LED D?
+U 1 1 61290937
+P 1350 2450
+F 0 "D?" V 1389 2332 50  0000 R CNN
+F 1 "LED" V 1298 2332 50  0000 R CNN
+F 2 "LED_THT:LED_D4.0mm" H 1350 2450 50  0001 C CNN
+F 3 "~" H 1350 2450 50  0001 C CNN
+	1    1350 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6129093D
+P 1750 2450
+F 0 "D?" V 1789 2332 50  0000 R CNN
+F 1 "LED" V 1698 2332 50  0000 R CNN
+F 2 "LED_THT:LED_D4.0mm" H 1750 2450 50  0001 C CNN
+F 3 "~" H 1750 2450 50  0001 C CNN
+	1    1750 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61290943
+P 1350 2900
+F 0 "R?" H 1418 2946 50  0000 L CNN
+F 1 "150" H 1418 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1390 2890 50  0001 C CNN
+F 3 "~" H 1350 2900 50  0001 C CNN
+	1    1350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61290949
+P 1750 2900
+F 0 "R?" H 1818 2946 50  0000 L CNN
+F 1 "150" H 1818 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1790 2890 50  0001 C CNN
+F 3 "~" H 1750 2900 50  0001 C CNN
+	1    1750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6129094F
+P 1350 3050
+F 0 "#PWR?" H 1350 2800 50  0001 C CNN
+F 1 "GND" H 1355 2877 50  0000 C CNN
+F 2 "" H 1350 3050 50  0001 C CNN
+F 3 "" H 1350 3050 50  0001 C CNN
+	1    1350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61290955
+P 1750 3050
+F 0 "#PWR?" H 1750 2800 50  0001 C CNN
+F 1 "GND" H 1755 2877 50  0000 C CNN
+F 2 "" H 1750 3050 50  0001 C CNN
+F 3 "" H 1750 3050 50  0001 C CNN
+	1    1750 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2750 1350 2600
+Wire Wire Line
+	1750 2750 1750 2600
+Wire Wire Line
+	1350 2300 1350 2200
+$Comp
+L Device:R_US R?
+U 1 1 6129095E
+P 2200 1900
+F 0 "R?" H 2268 1946 50  0000 L CNN
+F 1 "10K" H 2268 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 2240 1890 50  0001 C CNN
+F 3 "~" H 2200 1900 50  0001 C CNN
+	1    2200 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2400 2200 2450
+Wire Wire Line
+	2200 2400 2200 2050
+Connection ~ 2200 2400
+$Comp
+L power:VCC #PWR?
+U 1 1 6129096D
+P 1350 3700
+F 0 "#PWR?" H 1350 3550 50  0001 C CNN
+F 1 "VCC" H 1365 3873 50  0000 C CNN
+F 2 "" H 1350 3700 50  0001 C CNN
+F 3 "" H 1350 3700 50  0001 C CNN
+	1    1350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61290973
+P 1350 4300
+F 0 "#PWR?" H 1350 4050 50  0001 C CNN
+F 1 "GND" H 1355 4127 50  0000 C CNN
+F 2 "" H 1350 4300 50  0001 C CNN
+F 3 "" H 1350 4300 50  0001 C CNN
+	1    1350 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 61290979
+P 1550 4100
+F 0 "SW?" H 1400 4350 50  0000 C CNN
+F 1 "SW_SPDT" H 1350 4250 50  0000 C CNN
+F 2 "A7585-test-board:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm" H 1550 4100 50  0001 C CNN
+F 3 "~" H 1550 4100 50  0001 C CNN
+	1    1550 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 6129097F
+P 1350 3850
+F 0 "R?" H 1418 3896 50  0000 L CNN
+F 1 "10K" H 1418 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1390 3840 50  0001 C CNN
+F 3 "~" H 1350 3850 50  0001 C CNN
+	1    1350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 4200 1350 4300
+$Comp
+L Device:Jumper JP?
+U 1 1 61290986
+P 3150 3500
+F 0 "JP?" V 3150 3450 50  0000 R CNN
+F 1 "Jumper" V 3000 3450 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3150 3500 50  0001 C CNN
+F 3 "~" H 3150 3500 50  0001 C CNN
+	1    3150 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2550 4100 1750 4100
+Wire Wire Line
+	2550 2900 2550 4100
+Wire Wire Line
+	1350 2200 4750 2200
+Wire Wire Line
+	1750 2300 4750 2300
+Wire Wire Line
+	2200 2400 4750 2400
+Wire Wire Line
+	2550 2900 4750 2900
+Wire Wire Line
+	3150 3200 4750 3200
+$Comp
+L power:GND #PWR?
+U 1 1 61290993
+P 3150 3800
+F 0 "#PWR?" H 3150 3550 50  0001 C CNN
+F 1 "GND" H 3155 3627 50  0000 C CNN
+F 2 "" H 3150 3800 50  0001 C CNN
+F 3 "" H 3150 3800 50  0001 C CNN
+	1    3150 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1250 6750 1300
+Wire Wire Line
+	6750 2200 6650 2200
+Wire Wire Line
+	6650 2300 6750 2300
+Wire Wire Line
+	6750 2300 6750 2200
+Connection ~ 6750 2200
+Wire Wire Line
+	6650 2400 7150 2400
+Wire Wire Line
+	6650 3300 6750 3300
+Wire Wire Line
+	6750 3300 6750 3200
+Connection ~ 6750 3200
+Wire Wire Line
+	6750 3200 6650 3200
+Wire Wire Line
+	6650 3000 7200 3000
+Wire Wire Line
+	6650 2900 7300 2900
+Wire Wire Line
+	2900 3200 2900 3100
+$Comp
+L power:GND #PWR?
+U 1 1 612909B1
+P 2900 3800
+F 0 "#PWR?" H 2900 3550 50  0001 C CNN
+F 1 "GND" H 2905 3627 50  0000 C CNN
+F 2 "" H 2900 3800 50  0001 C CNN
+F 3 "" H 2900 3800 50  0001 C CNN
+	1    2900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 612909B7
+P 2900 3500
+F 0 "JP?" V 2900 3750 50  0000 R CNN
+F 1 "Jumper" V 2750 3800 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 3500 50  0001 C CNN
+F 3 "~" H 2900 3500 50  0001 C CNN
+	1    2900 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2900 3100 4750 3100
+Wire Wire Line
+	6850 3650 6850 3100
+Connection ~ 6850 3100
+$Comp
+L power:GND #PWR?
+U 1 1 612909C0
+P 6400 1750
+F 0 "#PWR?" H 6400 1500 50  0001 C CNN
+F 1 "GND" H 6405 1577 50  0000 C CNN
+F 2 "" H 6400 1750 50  0001 C CNN
+F 3 "" H 6400 1750 50  0001 C CNN
+	1    6400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1750 6400 1700
+Wire Wire Line
+	6400 1400 6400 1300
+Wire Wire Line
+	6400 1300 6750 1300
+Connection ~ 6750 1300
+Wire Wire Line
+	6750 1300 6750 2200
+$Comp
+L Device:C C?
+U 1 1 612909CB
+P 7450 1650
+F 0 "C?" H 7565 1696 50  0000 L CNN
+F 1 "0.1 uF" H 7565 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7488 1500 50  0001 C CNN
+F 3 "~" H 7450 1650 50  0001 C CNN
+	1    7450 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612909D1
+P 7450 1850
+F 0 "#PWR?" H 7450 1600 50  0001 C CNN
+F 1 "GND" H 7455 1677 50  0000 C CNN
+F 2 "" H 7450 1850 50  0001 C CNN
+F 3 "" H 7450 1850 50  0001 C CNN
+	1    7450 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1850 7450 1800
+$Comp
+L Device:C C?
+U 1 1 612909DB
+P 6400 1550
+F 0 "C?" H 6100 1600 50  0000 L CNN
+F 1 "0.1 uF" H 6050 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6438 1400 50  0001 C CNN
+F 3 "~" H 6400 1550 50  0001 C CNN
+	1    6400 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 7250 1250 0    50   ~ 0
+VDD is 1.8V to 5V for I2C\n
+Text Notes 5900 1250 0    50   ~ 0
+VSS is 6V to 28V
+Text Notes 2850 4250 0    50   ~ 0
+I2C address 1111xx\nJumper in = 1\nIdentified at power on
+Text Notes 1600 4550 0    50   ~ 0
+1: HV output is enabled\n0: HV output is disabled\n
+Wire Wire Line
+	7150 1250 7150 1500
+Wire Wire Line
+	6750 3200 9000 3200
+$Comp
+L power:GND #PWR?
+U 1 1 61290A7B
+P 2200 3050
+F 0 "#PWR?" H 2200 2800 50  0001 C CNN
+F 1 "GND" H 2205 2877 50  0000 C CNN
+F 2 "" H 2200 3050 50  0001 C CNN
+F 3 "" H 2200 3050 50  0001 C CNN
+	1    2200 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 61290A81
+P 2200 2750
+F 0 "JP?" V 2246 2662 50  0000 R CNN
+F 1 "Jumper" V 2155 2662 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2200 2750 50  0001 C CNN
+F 3 "~" H 2200 2750 50  0001 C CNN
+	1    2200 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 612B0A12
+P 7150 1250
+F 0 "#PWR?" H 7150 1100 50  0001 C CNN
+F 1 "+1V8" H 7165 1423 50  0000 C CNN
+F 2 "" H 7150 1250 50  0001 C CNN
+F 3 "" H 7150 1250 50  0001 C CNN
+	1    7150 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VSS #PWR?
+U 1 1 612B1902
+P 6750 1250
+F 0 "#PWR?" H 6750 1100 50  0001 C CNN
+F 1 "VSS" H 6765 1423 50  0000 C CNN
+F 2 "" H 6750 1250 50  0001 C CNN
+F 3 "" H 6750 1250 50  0001 C CNN
+	1    6750 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1500 7150 1500
+Connection ~ 7150 1500
+Wire Wire Line
+	7150 1500 7150 2400
+$Comp
+L Device:R_US R?
+U 1 1 612F487B
+P 8100 2150
+F 0 "R?" H 8168 2196 50  0000 L CNN
+F 1 "4.7k" H 8168 2105 50  0000 L CNN
+F 2 "" V 8140 2140 50  0001 C CNN
+F 3 "~" H 8100 2150 50  0001 C CNN
+	1    8100 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 612F508F
+P 8500 2150
+F 0 "R?" H 8568 2196 50  0000 L CNN
+F 1 "4.7k" H 8568 2105 50  0000 L CNN
+F 2 "" V 8540 2140 50  0001 C CNN
+F 3 "~" H 8500 2150 50  0001 C CNN
+	1    8500 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 2300 8100 2500
+Wire Wire Line
+	6650 2500 8100 2500
+Wire Wire Line
+	8500 2600 8500 2300
+Wire Wire Line
+	6650 2600 8500 2600
+Wire Wire Line
+	7450 1500 8100 1500
+Wire Wire Line
+	8100 1500 8100 2000
+Connection ~ 7450 1500
+Wire Wire Line
+	8100 1500 8500 1500
+Wire Wire Line
+	8500 1500 8500 2000
+Connection ~ 8100 1500
+Wire Wire Line
+	8100 2500 8950 2500
+Connection ~ 8100 2500
+Wire Wire Line
+	8500 2600 8950 2600
+Connection ~ 8500 2600
+Text HLabel 8950 2500 2    50   BiDi ~ 0
+I2C_SCL
+Text HLabel 8950 2600 2    50   BiDi ~ 0
+I2C_SDA
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6130F505
+P 2200 1750
+F 0 "#PWR?" H 2200 1600 50  0001 C CNN
+F 1 "+3.3V" H 2215 1923 50  0000 C CNN
+F 2 "" H 2200 1750 50  0001 C CNN
+F 3 "" H 2200 1750 50  0001 C CNN
+	1    2200 1750
+	1    0    0    -1  
+$EndComp
+Text Notes 8600 3050 2    75   ~ 0
+I/V monitor 0-5V
+Wire Wire Line
+	6650 2700 8950 2700
+Wire Wire Line
+	6650 2800 8950 2800
+Text HLabel 8950 2700 2    50   Output ~ 0
+UART_TX_5V
+Text HLabel 8950 2800 2    50   Input ~ 0
+UART_RX_5V
+Text Notes 10800 2700 2    75   ~ 0
+Use either I2C (1.8V)\nOr UART (5V)
 $EndSCHEMATC

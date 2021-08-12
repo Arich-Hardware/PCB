@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 54 56
+Sheet 1 56
 Title ""
 Date ""
 Rev ""
@@ -21,11 +21,706 @@ $Comp
 L readout:LTM4622 U?
 U 1 1 611351AD
 P 3650 3550
-F 0 "U?" H 3500 3897 79  0000 C CNN
-F 1 "LTM4622" H 3500 3762 79  0000 C CNN
+F 0 "U?" H 3900 3850 79  0000 C CNN
+F 1 "LTM4622" H 4100 3700 79  0000 C CNN
 F 2 "" H 3100 3700 79  0001 C CNN
 F 3 "" H 3100 3700 79  0001 C CNN
 	1    3650 3550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3750 3450 3750 3200
+Wire Wire Line
+	3750 3200 3650 3200
+Wire Wire Line
+	2500 3200 2500 3600
+Wire Wire Line
+	2500 3700 2750 3700
+Wire Wire Line
+	2750 3600 2500 3600
+Connection ~ 2500 3600
+Wire Wire Line
+	2500 3600 2500 3700
+Wire Wire Line
+	3450 3450 3450 3200
+Connection ~ 3450 3200
+Wire Wire Line
+	3450 3200 2500 3200
+Wire Wire Line
+	3550 3450 3550 3200
+Connection ~ 3550 3200
+Wire Wire Line
+	3550 3200 3450 3200
+Wire Wire Line
+	3650 3450 3650 3200
+Connection ~ 3650 3200
+Wire Wire Line
+	3650 3200 3550 3200
+Wire Wire Line
+	2750 4500 2500 4500
+Wire Wire Line
+	2500 4500 2500 5100
+$Comp
+L power:GND #PWR?
+U 1 1 61143A27
+P 2500 5150
+F 0 "#PWR?" H 2500 4900 50  0001 C CNN
+F 1 "GND" H 2505 4977 50  0000 C CNN
+F 2 "" H 2500 5150 50  0001 C CNN
+F 3 "" H 2500 5150 50  0001 C CNN
+	1    2500 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 5100 3450 5100
+Wire Wire Line
+	3750 5100 3750 4950
+Connection ~ 2500 5100
+Wire Wire Line
+	2500 5100 2500 5150
+Wire Wire Line
+	3650 4950 3650 5100
+Connection ~ 3650 5100
+Wire Wire Line
+	3650 5100 3750 5100
+Wire Wire Line
+	3550 4950 3550 5100
+Connection ~ 3550 5100
+Wire Wire Line
+	3550 5100 3650 5100
+Wire Wire Line
+	3450 4950 3450 5100
+Connection ~ 3450 5100
+Wire Wire Line
+	3450 5100 3550 5100
+Wire Wire Line
+	4250 3700 4400 3700
+Wire Wire Line
+	4400 3700 4400 3600
+Wire Wire Line
+	4400 3600 4250 3600
+Wire Wire Line
+	4250 3800 4400 3800
+Wire Wire Line
+	4400 3800 4400 3900
+Wire Wire Line
+	4400 3900 4250 3900
+$Comp
+L Device:C_Small C?
+U 1 1 61145EDD
+P 4800 3900
+F 0 "C?" H 4892 3946 50  0000 L CNN
+F 1 "47uF" H 4892 3855 50  0000 L CNN
+F 2 "" H 4800 3900 50  0001 C CNN
+F 3 "~" H 4800 3900 50  0001 C CNN
+	1    4800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6114620C
+P 5300 3900
+F 0 "C?" H 5392 3946 50  0000 L CNN
+F 1 "47uF" H 5392 3855 50  0000 L CNN
+F 2 "" H 5300 3900 50  0001 C CNN
+F 3 "~" H 5300 3900 50  0001 C CNN
+	1    5300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3800 4800 3800
+Connection ~ 4400 3800
+Wire Wire Line
+	5300 3450 5300 3600
+Wire Wire Line
+	3750 5100 4800 5100
+Wire Wire Line
+	4800 5100 4800 4900
+Connection ~ 3750 5100
+Wire Wire Line
+	4800 5100 5300 5100
+Wire Wire Line
+	5300 5100 5300 4000
+Connection ~ 4800 5100
+$Comp
+L Device:R_US R?
+U 1 1 6114810C
+P 4550 4700
+F 0 "R?" V 4650 4800 50  0000 C CNN
+F 1 "R_US" V 4650 4600 50  0000 C CNN
+F 2 "" V 4590 4690 50  0001 C CNN
+F 3 "~" H 4550 4700 50  0001 C CNN
+	1    4550 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 61148AF3
+P 4550 4900
+F 0 "R?" V 4600 5050 50  0000 C CNN
+F 1 "R_US" V 4600 4650 50  0000 C CNN
+F 2 "" V 4590 4890 50  0001 C CNN
+F 3 "~" H 4550 4900 50  0001 C CNN
+	1    4550 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 4700 4800 4700
+Connection ~ 4800 4700
+Wire Wire Line
+	4800 4700 4800 4000
+Wire Wire Line
+	4700 4900 4800 4900
+Connection ~ 4800 4900
+Wire Wire Line
+	4800 4900 4800 4700
+Wire Wire Line
+	4400 4900 4350 4900
+Wire Wire Line
+	4350 4900 4350 4800
+Wire Wire Line
+	4350 4800 4250 4800
+Wire Wire Line
+	4250 4700 4400 4700
+Wire Wire Line
+	4250 4400 5600 4400
+Wire Wire Line
+	4250 4500 5600 4500
+Text GLabel 4800 2900 1    50   Output ~ 0
++3.6V
+Text GLabel 5300 2900 1    50   Output ~ 0
++2.1V
+Wire Wire Line
+	5300 2900 5300 3450
+Connection ~ 5300 3450
+Wire Wire Line
+	4800 2900 4800 3250
+Connection ~ 4800 3800
+$Comp
+L Regulator_Linear:LT1963AxQ-3.3 U?
+U 1 1 6116E89F
+P 8450 2300
+F 0 "U?" H 8450 2667 50  0000 C CNN
+F 1 "LT1963AxQ-3.3" H 8450 2576 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 8450 1850 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 8450 1750 50  0001 C CNN
+F 4 "$6.69" H 8450 2300 50  0001 C CNN "Item Cost"
+F 5 "Analog Devices Inc." H 8450 2300 50  0001 C CNN "Manufacturer"
+F 6 "LT1963AEQ-3.3#PBF" H 8450 2300 50  0001 C CNN "MFN"
+F 7 "LT1963AEQ-3.3#PBF-ND" H 8450 2300 50  0001 C CNN "Supplier P/N"
+F 8 "Digi-Key" H 8450 2300 50  0001 C CNN "Supplier "
+	1    8450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6116E8A5
+P 8450 2600
+F 0 "#PWR?" H 8450 2350 50  0001 C CNN
+F 1 "GND" H 8454 2445 50  0000 C CNN
+F 2 "" H 8450 2600 50  0001 C CNN
+F 3 "" H 8450 2600 50  0001 C CNN
+	1    8450 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2200 9000 2200
+Wire Wire Line
+	9000 2200 9000 2300
+Wire Wire Line
+	9000 2300 8850 2300
+Connection ~ 9000 2200
+Wire Wire Line
+	8050 2200 7650 2200
+$Comp
+L Device:C_Small C?
+U 1 1 61181F50
+P 9300 2450
+F 0 "C?" H 9392 2496 50  0000 L CNN
+F 1 "10uF" H 9392 2405 50  0000 L CNN
+F 2 "" H 9300 2450 50  0001 C CNN
+F 3 "~" H 9300 2450 50  0001 C CNN
+	1    9300 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2350 9300 2200
+Wire Wire Line
+	9000 2200 9300 2200
+$Comp
+L Device:C_Small C?
+U 1 1 61182F4B
+P 7650 2450
+F 0 "C?" H 7742 2496 50  0000 L CNN
+F 1 "10uF" H 7742 2405 50  0000 L CNN
+F 2 "" H 7650 2450 50  0001 C CNN
+F 3 "~" H 7650 2450 50  0001 C CNN
+	1    7650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2350 7650 2200
+Connection ~ 7650 2200
+$Comp
+L power:GND #PWR?
+U 1 1 61183F74
+P 7650 2550
+F 0 "#PWR?" H 7650 2300 50  0001 C CNN
+F 1 "GND" H 7654 2395 50  0000 C CNN
+F 2 "" H 7650 2550 50  0001 C CNN
+F 3 "" H 7650 2550 50  0001 C CNN
+	1    7650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611844DC
+P 9300 2550
+F 0 "#PWR?" H 9300 2300 50  0001 C CNN
+F 1 "GND" H 9304 2395 50  0000 C CNN
+F 2 "" H 9300 2550 50  0001 C CNN
+F 3 "" H 9300 2550 50  0001 C CNN
+	1    9300 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2300 7050 2300
+Wire Wire Line
+	5300 3450 6250 3450
+Wire Wire Line
+	6250 2200 7650 2200
+$Comp
+L Regulator_Linear:LT1963AxQ-3.3 U?
+U 1 1 611A237B
+P 8450 3350
+F 0 "U?" H 8450 3717 50  0000 C CNN
+F 1 "LT1963AxQ-3.3" H 8450 3626 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 8450 2900 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 8450 2800 50  0001 C CNN
+F 4 "$6.69" H 8450 3350 50  0001 C CNN "Item Cost"
+F 5 "Analog Devices Inc." H 8450 3350 50  0001 C CNN "Manufacturer"
+F 6 "LT1963AEQ-3.3#PBF" H 8450 3350 50  0001 C CNN "MFN"
+F 7 "LT1963AEQ-3.3#PBF-ND" H 8450 3350 50  0001 C CNN "Supplier P/N"
+F 8 "Digi-Key" H 8450 3350 50  0001 C CNN "Supplier "
+	1    8450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611A2461
+P 8450 3650
+F 0 "#PWR?" H 8450 3400 50  0001 C CNN
+F 1 "GND" H 8454 3495 50  0000 C CNN
+F 2 "" H 8450 3650 50  0001 C CNN
+F 3 "" H 8450 3650 50  0001 C CNN
+	1    8450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3250 9000 3250
+Wire Wire Line
+	9000 3250 9000 3350
+Wire Wire Line
+	9000 3350 8850 3350
+Connection ~ 9000 3250
+Wire Wire Line
+	8050 3250 7650 3250
+$Comp
+L Device:C_Small C?
+U 1 1 611A2470
+P 9300 3500
+F 0 "C?" H 9392 3546 50  0000 L CNN
+F 1 "10uF" H 9392 3455 50  0000 L CNN
+F 2 "" H 9300 3500 50  0001 C CNN
+F 3 "~" H 9300 3500 50  0001 C CNN
+	1    9300 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3400 9300 3250
+Wire Wire Line
+	9000 3250 9300 3250
+$Comp
+L Device:C_Small C?
+U 1 1 611A247C
+P 7650 3500
+F 0 "C?" H 7742 3546 50  0000 L CNN
+F 1 "10uF" H 7742 3455 50  0000 L CNN
+F 2 "" H 7650 3500 50  0001 C CNN
+F 3 "~" H 7650 3500 50  0001 C CNN
+	1    7650 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3400 7650 3250
+Connection ~ 7650 3250
+$Comp
+L power:GND #PWR?
+U 1 1 611A2488
+P 7650 3600
+F 0 "#PWR?" H 7650 3350 50  0001 C CNN
+F 1 "GND" H 7654 3445 50  0000 C CNN
+F 2 "" H 7650 3600 50  0001 C CNN
+F 3 "" H 7650 3600 50  0001 C CNN
+	1    7650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611A2492
+P 9300 3600
+F 0 "#PWR?" H 9300 3350 50  0001 C CNN
+F 1 "GND" H 9304 3445 50  0000 C CNN
+F 2 "" H 9300 3600 50  0001 C CNN
+F 3 "" H 9300 3600 50  0001 C CNN
+	1    9300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 3350 7050 3350
+Wire Wire Line
+	6250 3250 7650 3250
+Wire Wire Line
+	6250 3250 6250 2200
+$Comp
+L Regulator_Linear:LT1963AxQ-3.3 U?
+U 1 1 611AAAFE
+P 8450 4400
+F 0 "U?" H 8450 4767 50  0000 C CNN
+F 1 "LT1963AxQ-3.3" H 8450 4676 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 8450 3950 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 8450 3850 50  0001 C CNN
+F 4 "$6.69" H 8450 4400 50  0001 C CNN "Item Cost"
+F 5 "Analog Devices Inc." H 8450 4400 50  0001 C CNN "Manufacturer"
+F 6 "LT1963AEQ-3.3#PBF" H 8450 4400 50  0001 C CNN "MFN"
+F 7 "LT1963AEQ-3.3#PBF-ND" H 8450 4400 50  0001 C CNN "Supplier P/N"
+F 8 "Digi-Key" H 8450 4400 50  0001 C CNN "Supplier "
+	1    8450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611AAC48
+P 8450 4700
+F 0 "#PWR?" H 8450 4450 50  0001 C CNN
+F 1 "GND" H 8454 4545 50  0000 C CNN
+F 2 "" H 8450 4700 50  0001 C CNN
+F 3 "" H 8450 4700 50  0001 C CNN
+	1    8450 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 4300 9000 4300
+Wire Wire Line
+	9000 4300 9000 4400
+Wire Wire Line
+	9000 4400 8850 4400
+Connection ~ 9000 4300
+Wire Wire Line
+	8050 4300 7650 4300
+$Comp
+L Device:C_Small C?
+U 1 1 611AAC57
+P 9300 4550
+F 0 "C?" H 9392 4596 50  0000 L CNN
+F 1 "10uF" H 9392 4505 50  0000 L CNN
+F 2 "" H 9300 4550 50  0001 C CNN
+F 3 "~" H 9300 4550 50  0001 C CNN
+	1    9300 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 4450 9300 4300
+Wire Wire Line
+	9000 4300 9300 4300
+$Comp
+L Device:C_Small C?
+U 1 1 611AAC63
+P 7650 4550
+F 0 "C?" H 7742 4596 50  0000 L CNN
+F 1 "10uF" H 7742 4505 50  0000 L CNN
+F 2 "" H 7650 4550 50  0001 C CNN
+F 3 "~" H 7650 4550 50  0001 C CNN
+	1    7650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4450 7650 4300
+Connection ~ 7650 4300
+$Comp
+L power:GND #PWR?
+U 1 1 611AAC6F
+P 7650 4650
+F 0 "#PWR?" H 7650 4400 50  0001 C CNN
+F 1 "GND" H 7654 4495 50  0000 C CNN
+F 2 "" H 7650 4650 50  0001 C CNN
+F 3 "" H 7650 4650 50  0001 C CNN
+	1    7650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611AAC79
+P 9300 4650
+F 0 "#PWR?" H 9300 4400 50  0001 C CNN
+F 1 "GND" H 9304 4495 50  0000 C CNN
+F 2 "" H 9300 4650 50  0001 C CNN
+F 3 "" H 9300 4650 50  0001 C CNN
+	1    9300 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 4400 7050 4400
+Wire Wire Line
+	6250 4300 7650 4300
+$Comp
+L Regulator_Linear:LT1963AxQ-3.3 U?
+U 1 1 611AAC8B
+P 8450 5450
+F 0 "U?" H 8450 5817 50  0000 C CNN
+F 1 "LT1963AxQ-3.3" H 8450 5726 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 8450 5000 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/1963aff.pdf" H 8450 4900 50  0001 C CNN
+F 4 "$6.69" H 8450 5450 50  0001 C CNN "Item Cost"
+F 5 "Analog Devices Inc." H 8450 5450 50  0001 C CNN "Manufacturer"
+F 6 "LT1963AEQ-3.3#PBF" H 8450 5450 50  0001 C CNN "MFN"
+F 7 "LT1963AEQ-3.3#PBF-ND" H 8450 5450 50  0001 C CNN "Supplier P/N"
+F 8 "Digi-Key" H 8450 5450 50  0001 C CNN "Supplier "
+	1    8450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611AAC95
+P 8450 5750
+F 0 "#PWR?" H 8450 5500 50  0001 C CNN
+F 1 "GND" H 8454 5595 50  0000 C CNN
+F 2 "" H 8450 5750 50  0001 C CNN
+F 3 "" H 8450 5750 50  0001 C CNN
+	1    8450 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 5350 9000 5350
+Wire Wire Line
+	9000 5350 9000 5450
+Wire Wire Line
+	9000 5450 8850 5450
+Connection ~ 9000 5350
+Wire Wire Line
+	8050 5350 7650 5350
+$Comp
+L Device:C_Small C?
+U 1 1 611AACA4
+P 9300 5600
+F 0 "C?" H 9392 5646 50  0000 L CNN
+F 1 "10uF" H 9392 5555 50  0000 L CNN
+F 2 "" H 9300 5600 50  0001 C CNN
+F 3 "~" H 9300 5600 50  0001 C CNN
+	1    9300 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5500 9300 5350
+Wire Wire Line
+	9000 5350 9300 5350
+$Comp
+L Device:C_Small C?
+U 1 1 611AACB0
+P 7650 5600
+F 0 "C?" H 7742 5646 50  0000 L CNN
+F 1 "10uF" H 7742 5555 50  0000 L CNN
+F 2 "" H 7650 5600 50  0001 C CNN
+F 3 "~" H 7650 5600 50  0001 C CNN
+	1    7650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 5500 7650 5350
+Connection ~ 7650 5350
+$Comp
+L power:GND #PWR?
+U 1 1 611AACBC
+P 7650 5700
+F 0 "#PWR?" H 7650 5450 50  0001 C CNN
+F 1 "GND" H 7654 5545 50  0000 C CNN
+F 2 "" H 7650 5700 50  0001 C CNN
+F 3 "" H 7650 5700 50  0001 C CNN
+	1    7650 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 611AACC6
+P 9300 5700
+F 0 "#PWR?" H 9300 5450 50  0001 C CNN
+F 1 "GND" H 9304 5545 50  0000 C CNN
+F 2 "" H 9300 5700 50  0001 C CNN
+F 3 "" H 9300 5700 50  0001 C CNN
+	1    9300 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 5450 7050 5450
+Wire Wire Line
+	6250 5350 7650 5350
+Wire Wire Line
+	6250 5350 6250 4300
+Connection ~ 6250 4300
+Wire Wire Line
+	6250 4300 6250 3450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 611F0AC8
+P 9300 4300
+F 0 "#PWR?" H 9300 4150 50  0001 C CNN
+F 1 "+3.3V" H 9315 4473 50  0000 C CNN
+F 2 "" H 9300 4300 50  0001 C CNN
+F 3 "" H 9300 4300 50  0001 C CNN
+	1    9300 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 9300 4300
+$Comp
+L power:+3.3VA #PWR?
+U 1 1 611F18D2
+P 9300 5350
+F 0 "#PWR?" H 9300 5200 50  0001 C CNN
+F 1 "+3.3VA" H 9315 5523 50  0000 C CNN
+F 2 "" H 9300 5350 50  0001 C CNN
+F 3 "" H 9300 5350 50  0001 C CNN
+	1    9300 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 9300 5350
+$Comp
+L power:+1V8 #PWR?
+U 1 1 611F3D8D
+P 9300 2200
+F 0 "#PWR?" H 9300 2050 50  0001 C CNN
+F 1 "+1V8" H 9315 2373 50  0000 C CNN
+F 2 "" H 9300 2200 50  0001 C CNN
+F 3 "" H 9300 2200 50  0001 C CNN
+	1    9300 2200
+	1    0    0    -1  
+$EndComp
+Connection ~ 9300 2200
+$Comp
+L readout:+1V8A #PWR?
+U 1 1 6121C137
+P 9300 3250
+F 0 "#PWR?" H 9300 3100 50  0001 C CNN
+F 1 "+1V8A" H 9315 3423 50  0000 C CNN
+F 2 "" H 9300 3250 50  0001 C CNN
+F 3 "" H 9300 3250 50  0001 C CNN
+	1    9300 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 9300 3250
+Wire Wire Line
+	6250 3250 4800 3250
+Connection ~ 6250 3250
+Connection ~ 4800 3250
+Wire Wire Line
+	4800 3250 4800 3800
+Wire Wire Line
+	4400 3600 5300 3600
+Connection ~ 4400 3600
+Connection ~ 5300 3600
+Wire Wire Line
+	5300 3600 5300 3800
+Wire Wire Line
+	7050 5450 7050 4400
+Wire Wire Line
+	7050 1900 5800 1900
+Connection ~ 7050 2300
+Wire Wire Line
+	7050 2300 7050 1900
+Connection ~ 7050 3350
+Wire Wire Line
+	7050 3350 7050 2300
+Connection ~ 7050 4400
+Wire Wire Line
+	7050 4400 7050 3350
+Text HLabel 5800 1900 0    50   Input ~ 0
+PWR_EN
+$Comp
+L Connector:Conn_Coaxial_Power J?
+U 1 1 612D8926
+P 1500 3400
+F 0 "J?" V 1375 3350 50  0000 C CNN
+F 1 "Conn_Coaxial_Power" H 1588 3305 50  0001 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1500 3350 50  0001 C CNN
+F 3 "~" H 1500 3350 50  0001 C CNN
+	1    1500 3400
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612D892C
+P 1750 3400
+F 0 "#PWR?" H 1750 3150 50  0001 C CNN
+F 1 "GND" H 1755 3227 50  0000 C CNN
+F 2 "" H 1750 3400 50  0001 C CNN
+F 3 "" H 1750 3400 50  0001 C CNN
+	1    1750 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3400 1750 3400
+$Comp
+L power:VSS #PWR?
+U 1 1 612D8933
+P 1400 3200
+F 0 "#PWR?" H 1400 3050 50  0001 C CNN
+F 1 "VSS" H 1415 3373 50  0000 C CNN
+F 2 "" H 1400 3200 50  0001 C CNN
+F 3 "" H 1400 3200 50  0001 C CNN
+	1    1400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3200 1400 3400
+Connection ~ 1400 3400
+$Comp
+L Device:LED D?
+U 1 1 612D893B
+P 1400 4050
+F 0 "D?" V 1439 3932 50  0000 R CNN
+F 1 "LED" V 1348 3932 50  0000 R CNN
+F 2 "LED_THT:LED_D4.0mm" H 1400 4050 50  0001 C CNN
+F 3 "~" H 1400 4050 50  0001 C CNN
+	1    1400 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 612D8941
+P 1400 4500
+F 0 "R?" H 1468 4546 50  0000 L CNN
+F 1 "450" H 1468 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1440 4490 50  0001 C CNN
+F 3 "~" H 1400 4500 50  0001 C CNN
+	1    1400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 612D8947
+P 1400 4650
+F 0 "#PWR?" H 1400 4400 50  0001 C CNN
+F 1 "GND" H 1405 4477 50  0000 C CNN
+F 2 "" H 1400 4650 50  0001 C CNN
+F 3 "" H 1400 4650 50  0001 C CNN
+	1    1400 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4350 1400 4200
+Wire Wire Line
+	1400 3400 1400 3900
+Wire Wire Line
+	2500 3200 1400 3200
+Connection ~ 2500 3200
+Connection ~ 1400 3200
 $EndSCHEMATC
