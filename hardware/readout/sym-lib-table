@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name readout)(type Legacy)(uri ${KIPRJMOD}/../libraries/readout.lib)(options "")(descr ""))
+  (lib (name A7585-test-board_Library)(type Legacy)(uri ${KIPRJMOD}/../libraries/A7585-test-board_Library.lib)(options "")(descr ""))
 )

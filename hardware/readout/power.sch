@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 56
+Sheet 54 56
 Title ""
 Date ""
 Rev ""
@@ -182,10 +182,6 @@ Wire Wire Line
 	4350 4800 4250 4800
 Wire Wire Line
 	4250 4700 4400 4700
-Wire Wire Line
-	4250 4400 5600 4400
-Wire Wire Line
-	4250 4500 5600 4500
 Text GLabel 4800 2900 1    50   Output ~ 0
 +3.6V
 Text GLabel 5300 2900 1    50   Output ~ 0
@@ -630,18 +626,14 @@ Connection ~ 5300 3600
 Wire Wire Line
 	5300 3600 5300 3800
 Wire Wire Line
-	7050 5450 7050 4400
+	7050 5450 7050 4500
 Wire Wire Line
 	7050 1900 5800 1900
 Connection ~ 7050 2300
 Wire Wire Line
 	7050 2300 7050 1900
-Connection ~ 7050 3350
 Wire Wire Line
 	7050 3350 7050 2300
-Connection ~ 7050 4400
-Wire Wire Line
-	7050 4400 7050 3350
 Text HLabel 5800 1900 0    50   Input ~ 0
 PWR_EN
 $Comp
@@ -723,4 +715,20 @@ Wire Wire Line
 	2500 3200 1400 3200
 Connection ~ 2500 3200
 Connection ~ 1400 3200
+Wire Wire Line
+	4250 4500 7050 4500
+Connection ~ 7050 4500
+Wire Wire Line
+	7050 4500 7050 4400
+Wire Wire Line
+	6000 4400 6000 3800
+Wire Wire Line
+	6000 3800 7050 3800
+Wire Wire Line
+	7050 3800 7050 3350
+Wire Wire Line
+	4250 4400 6000 4400
+Connection ~ 7050 3350
+Text Notes 2650 6100 0    75   ~ 0
+Think about power enables,\ncheck voltage compat, pull-ups?\n\nAdd LEDs, testpoints
 $EndSCHEMATC
