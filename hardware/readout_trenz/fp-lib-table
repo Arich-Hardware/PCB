@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name readout_slice)(type KiCad)(uri ${KIPRJMOD}/../mod/readout_slice.pretty)(options "")(descr ""))
   (lib (name readout_trenz)(type KiCad)(uri ${KIPRJMOD}/../mod/readout_trenz.pretty)(options "")(descr ""))
-  (lib (name Readout_Board_Parts)(type KiCad)(uri ${KIPRJMOD}/../mod/mod/Readout_Board_Parts.pretty)(options "")(descr ""))
+  (lib (name Readout_Board_Parts)(type KiCad)(uri ${KIPRJMOD}/../mod/Readout_Board_Parts.pretty)(options "")(descr ""))
 )
