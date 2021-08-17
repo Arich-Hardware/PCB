@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 56
+Sheet 18 56
 Title ""
 Date ""
 Rev ""
@@ -14,23 +14,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L readout:Trenz_Module J2
+L readout:Trenz_Module J?
 U 2 1 61019D1F
 P 8200 3650
-AR Path="/61042CB4/61019D1F" Ref="J2"  Part="2" 
+AR Path="/61042CB4/61019D1F" Ref="J?"  Part="2" 
 AR Path="/611955AA/61019D1F" Ref="J?"  Part="2" 
 AR Path="/6109DB23/61019D1F" Ref="J?"  Part="2" 
 AR Path="/6109DD07/61019D1F" Ref="J?"  Part="2" 
 AR Path="/6109DD0E/61019D1F" Ref="J?"  Part="2" 
 AR Path="/6109E0BA/61019D1F" Ref="J?"  Part="2" 
 AR Path="/6109E0C1/61019D1F" Ref="J?"  Part="2" 
-AR Path="/61383376/613835BB/61019D1F" Ref="J?"  Part="2" 
-AR Path="/610F1616/613835BB/61019D1F" Ref="J?"  Part="2" 
-AR Path="/61119E97/613835BB/61019D1F" Ref="J?"  Part="2" 
-AR Path="/61119EA4/613835BB/61019D1F" Ref="J?"  Part="2" 
-AR Path="/6111A893/613835BB/61019D1F" Ref="J?"  Part="2" 
-AR Path="/6111A8A0/613835BB/61019D1F" Ref="J?"  Part="2" 
-F 0 "J?" H 8200 6325 50  0000 C CNN
+AR Path="/61383376/613835BB/61019D1F" Ref="J3"  Part="2" 
+AR Path="/610F1616/613835BB/61019D1F" Ref="J4"  Part="2" 
+AR Path="/61119E97/613835BB/61019D1F" Ref="J7"  Part="2" 
+AR Path="/61119EA4/613835BB/61019D1F" Ref="J8"  Part="2" 
+AR Path="/6111A893/613835BB/61019D1F" Ref="J11"  Part="2" 
+AR Path="/6111A8A0/613835BB/61019D1F" Ref="J12"  Part="2" 
+F 0 "J12" H 8200 6325 50  0000 C CNN
 F 1 "Trenz_Module" H 8200 6234 50  0000 C CNN
 F 2 "" H 9400 4900 50  0001 C CNN
 F 3 "" H 9400 4900 50  0001 C CNN
@@ -38,23 +38,23 @@ F 3 "" H 9400 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L readout:Trenz_Module J2
+L readout:Trenz_Module J?
 U 1 1 6101C3CD
 P 3500 3650
-AR Path="/61042CB4/6101C3CD" Ref="J2"  Part="1" 
+AR Path="/61042CB4/6101C3CD" Ref="J?"  Part="1" 
 AR Path="/611955AA/6101C3CD" Ref="J?"  Part="1" 
 AR Path="/6109DB23/6101C3CD" Ref="J?"  Part="1" 
 AR Path="/6109DD07/6101C3CD" Ref="J?"  Part="1" 
 AR Path="/6109DD0E/6101C3CD" Ref="J?"  Part="1" 
 AR Path="/6109E0BA/6101C3CD" Ref="J?"  Part="1" 
 AR Path="/6109E0C1/6101C3CD" Ref="J?"  Part="1" 
-AR Path="/61383376/613835BB/6101C3CD" Ref="J?"  Part="1" 
-AR Path="/610F1616/613835BB/6101C3CD" Ref="J?"  Part="1" 
-AR Path="/61119E97/613835BB/6101C3CD" Ref="J?"  Part="1" 
-AR Path="/61119EA4/613835BB/6101C3CD" Ref="J?"  Part="1" 
-AR Path="/6111A893/613835BB/6101C3CD" Ref="J?"  Part="1" 
-AR Path="/6111A8A0/613835BB/6101C3CD" Ref="J?"  Part="1" 
-F 0 "J?" H 3500 6325 50  0000 C CNN
+AR Path="/61383376/613835BB/6101C3CD" Ref="J3"  Part="1" 
+AR Path="/610F1616/613835BB/6101C3CD" Ref="J4"  Part="1" 
+AR Path="/61119E97/613835BB/6101C3CD" Ref="J7"  Part="1" 
+AR Path="/61119EA4/613835BB/6101C3CD" Ref="J8"  Part="1" 
+AR Path="/6111A893/613835BB/6101C3CD" Ref="J11"  Part="1" 
+AR Path="/6111A8A0/613835BB/6101C3CD" Ref="J12"  Part="1" 
+F 0 "J12" H 3500 6325 50  0000 C CNN
 F 1 "Trenz_Module" H 3500 6234 50  0000 C CNN
 F 2 "" H 4700 4900 50  0001 C CNN
 F 3 "" H 4700 4900 50  0001 C CNN
@@ -872,9 +872,51 @@ CTRL2
 Text Label 8900 3300 0    50   ~ 0
 CTRL3
 Text HLabel 9950 2800 2    50   Output ~ 0
-CTRL[0..3]
+CTRL[0..11]
 Wire Bus Line
 	9950 2800 9400 2800
+Text Notes 7100 6850 0    75   ~ 0
+EMPHATIC readout board\nTrenz TE0714 FPGA module -- 1 of 6
+Entry Wire Line
+	9400 3300 9300 3400
+Entry Wire Line
+	9400 3400 9300 3500
+Entry Wire Line
+	9400 3500 9300 3600
+Entry Wire Line
+	9400 3600 9300 3700
+Wire Wire Line
+	9300 3400 8800 3400
+Wire Wire Line
+	9300 3500 8800 3500
+Wire Wire Line
+	9300 3600 8800 3600
+Wire Wire Line
+	9300 3700 8800 3700
+Text Label 8900 3400 0    50   ~ 0
+CTRL4
+Text Label 8900 3500 0    50   ~ 0
+CTRL5
+Text Label 8900 3600 0    50   ~ 0
+CTRL6
+Text Label 8900 3700 0    50   ~ 0
+CTRL7
+Wire Wire Line
+	7600 3000 7100 3000
+Wire Wire Line
+	7600 3100 7100 3100
+Wire Wire Line
+	7600 3200 7100 3200
+Wire Wire Line
+	7600 3300 7100 3300
+Text Label 7150 3000 0    50   ~ 0
+CTRL8
+Text Label 7150 3100 0    50   ~ 0
+CTRL9
+Text Label 7150 3200 0    50   ~ 0
+CTRL10
+Text Label 7150 3300 0    50   ~ 0
+CTRL11
 Wire Bus Line
 	5100 1300 5100 2400
 Wire Bus Line
@@ -884,13 +926,13 @@ Wire Bus Line
 Wire Bus Line
 	2100 900  2100 2000
 Wire Bus Line
-	9400 2800 9400 3200
-Wire Bus Line
 	2300 5500 2300 6200
 Wire Bus Line
 	7000 4000 7000 4700
 Wire Bus Line
 	9400 4000 9400 4700
+Wire Bus Line
+	9400 2800 9400 3600
 Wire Bus Line
 	7000 5000 7000 6400
 Wire Bus Line
@@ -901,6 +943,6 @@ Wire Bus Line
 	2100 2800 2100 5500
 Wire Bus Line
 	4900 2800 4900 5500
-Text Notes 7100 6850 0    75   ~ 0
-EMPHATIC readout board\nTrenz TE0714 FPGA module -- 1 of 6
+Text Notes 1950 7050 0    75   ~ 0
+All pins named Bnn_Lnn_xx (and RLED, GLED) may be swapped as\nneeded to optimise layout.  Note that there are 6\ncopies of this sheet and all should be identical.
 $EndSCHEMATC

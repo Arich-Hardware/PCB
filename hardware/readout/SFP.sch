@@ -59,8 +59,8 @@ AR Path="/60AD0200/60AFD3C0/610F81BA" Ref="#PWR?"  Part="1"
 AR Path="/606EBC4D/610F81BA" Ref="#PWR?"  Part="1" 
 AR Path="/60BC24EA/610F81BA" Ref="#PWR?"  Part="1" 
 AR Path="/60D04563/610F81BA" Ref="#PWR?"  Part="1" 
-AR Path="/61127036/610F81BA" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4000 3350 50  0001 C CNN
+AR Path="/61127036/610F81BA" Ref="#PWR0463"  Part="1" 
+F 0 "#PWR0463" H 4000 3350 50  0001 C CNN
 F 1 "GND" H 4004 3445 50  0000 C CNN
 F 2 "" H 4000 3600 50  0001 C CNN
 F 3 "" H 4000 3600 50  0001 C CNN
@@ -72,10 +72,10 @@ SFP
 Wire Wire Line
 	5100 2450 6300 2450
 $Comp
-L readout:TrenzSFP+cage J?
+L readout:TrenzSFP+cage J13
 U 1 1 610F81C9
 P 4600 2800
-F 0 "J?" H 4600 3675 50  0000 C CNN
+F 0 "J13" H 4600 3675 50  0000 C CNN
 F 1 "TrenzSFP+cage" H 4600 3584 50  0000 C CNN
 F 2 "Connector:Connector_SFP_and_Cage" H 4600 2800 50  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=4-1773449-5&DocType=DS&DocLang=English" H 4600 2800 50  0001 C CNN
@@ -88,10 +88,10 @@ F 8 "A120615-ND, A97943CT-ND" H 4600 2800 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R595
 U 1 1 610F81D5
 P 3250 2550
-F 0 "R?" H 3309 2596 50  0000 L CNN
+F 0 "R595" H 3309 2596 50  0000 L CNN
 F 1 "0.5" H 3309 2505 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 2550 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RL_Group_521_RoHS_L_2.pdf" H 3250 2550 50  0001 C CNN
@@ -104,12 +104,12 @@ F 8 "13-RL0603JR-070R5LCT-ND" H 3250 2550 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1047
 U 1 1 610F81E0
 P 3250 2250
-F 0 "C?" H 3158 2296 50  0000 R CNN
+F 0 "C1047" H 3158 2296 50  0000 R CNN
 F 1 "22uF" H 3158 2205 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 2250 50  0001 C CNN
+F 2 "" H 3250 2250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012107011.pdf" H 3250 2250 50  0001 C CNN
 F 4 "$0.59" H 3250 2250 50  0001 C CNN "Item Cost"
 F 5 "885012107011" H 3250 2250 50  0001 C CNN "MFN"
@@ -120,10 +120,10 @@ F 8 "732-7621-1-ND" H 3250 2250 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Small L?
+L Device:L_Small L1
 U 1 1 610F81EB
 P 3050 2150
-F 0 "L?" V 3235 2150 50  0000 C CNN
+F 0 "L1" V 3235 2150 50  0000 C CNN
 F 1 "4.7uH" V 3144 2150 50  0000 C CNN
 F 2 "readout_trenz:A914BYW-4R7M=P3" H 3050 2150 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0045_D52LC_reference.pdf" H 3050 2150 50  0001 C CNN
@@ -136,12 +136,12 @@ F 8 "490-#A914BYW-4R7M=P3CT-ND" H 3050 2150 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1049
 U 1 1 610F81F6
 P 3450 2250
-F 0 "C?" H 3542 2296 50  0000 L CNN
+F 0 "C1049" H 3542 2296 50  0000 L CNN
 F 1 "0.1uF" H 3542 2205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 2250 50  0001 C CNN
+F 2 "" H 3450 2250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 3450 2250 50  0001 C CNN
 F 4 "$0.1" H 3450 2250 50  0001 C CNN "Item Cost"
 F 5 "885012206046" H 3450 2250 50  0001 C CNN "MFN"
@@ -169,8 +169,8 @@ AR Path="/60AD0200/60AFD3C0/610F820B" Ref="#PWR?"  Part="1"
 AR Path="/606EBC4D/610F820B" Ref="#PWR?"  Part="1" 
 AR Path="/60BC24EA/610F820B" Ref="#PWR?"  Part="1" 
 AR Path="/60D04563/610F820B" Ref="#PWR?"  Part="1" 
-AR Path="/61127036/610F820B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3100 2400 50  0001 C CNN
+AR Path="/61127036/610F820B" Ref="#PWR0461"  Part="1" 
+F 0 "#PWR0461" H 3100 2400 50  0001 C CNN
 F 1 "GND" H 3104 2495 50  0000 C CNN
 F 2 "" H 3100 2650 50  0001 C CNN
 F 3 "" H 3100 2650 50  0001 C CNN
@@ -178,10 +178,10 @@ F 3 "" H 3100 2650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R596
 U 1 1 610F8216
 P 3250 3500
-F 0 "R?" H 3309 3546 50  0000 L CNN
+F 0 "R596" H 3309 3546 50  0000 L CNN
 F 1 "0.5" H 3309 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3250 3500 50  0001 C CNN
 F 3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RL_Group_521_RoHS_L_2.pdf" H 3250 3500 50  0001 C CNN
@@ -194,12 +194,12 @@ F 8 "13-RL0603JR-070R5LCT-ND" H 3250 3500 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1048
 U 1 1 610F8221
 P 3250 3200
-F 0 "C?" H 3158 3246 50  0000 R CNN
+F 0 "C1048" H 3158 3246 50  0000 R CNN
 F 1 "22uF" H 3158 3155 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3250 3200 50  0001 C CNN
+F 2 "" H 3250 3200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012107011.pdf" H 3250 3200 50  0001 C CNN
 F 4 "$0.59" H 3250 3200 50  0001 C CNN "Item Cost"
 F 5 "885012107011" H 3250 3200 50  0001 C CNN "MFN"
@@ -210,10 +210,10 @@ F 8 "732-7621-1-ND" H 3250 3200 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Small L?
+L Device:L_Small L2
 U 1 1 610F822C
 P 3050 3100
-F 0 "L?" V 3235 3100 50  0000 C CNN
+F 0 "L2" V 3235 3100 50  0000 C CNN
 F 1 "4.7uH" V 3144 3100 50  0000 C CNN
 F 2 "readout_trenz:A914BYW-4R7M=P3" H 3050 3100 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243B-0045_D52LC_reference.pdf" H 3050 3100 50  0001 C CNN
@@ -226,12 +226,12 @@ F 8 "490-#A914BYW-4R7M=P3CT-ND" H 3050 3100 50  0001 C CNN "Supplier P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1050
 U 1 1 610F8237
 P 3450 3200
-F 0 "C?" H 3542 3246 50  0000 L CNN
+F 0 "C1050" H 3542 3246 50  0000 L CNN
 F 1 "0.1uF" H 3542 3155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 3200 50  0001 C CNN
+F 2 "" H 3450 3200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 3450 3200 50  0001 C CNN
 F 4 "$0.1" H 3450 3200 50  0001 C CNN "Item Cost"
 F 5 "885012206046" H 3450 3200 50  0001 C CNN "MFN"
@@ -242,12 +242,12 @@ F 8 "732-7965-1-ND" H 3450 3200 50  0001 C CNN "Supplier P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1046
 U 1 1 610F8242
 P 2850 3200
-F 0 "C?" H 2758 3246 50  0000 R CNN
+F 0 "C1046" H 2758 3246 50  0000 R CNN
 F 1 "0.1uF" H 2758 3155 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2850 3200 50  0001 C CNN
+F 2 "" H 2850 3200 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 2850 3200 50  0001 C CNN
 F 4 "$0.1" H 2850 3200 50  0001 C CNN "Item Cost"
 F 5 "885012206046" H 2850 3200 50  0001 C CNN "MFN"
@@ -286,8 +286,8 @@ AR Path="/60AD0200/60AFD3C0/610F8252" Ref="#PWR?"  Part="1"
 AR Path="/606EBC4D/610F8252" Ref="#PWR?"  Part="1" 
 AR Path="/60BC24EA/610F8252" Ref="#PWR?"  Part="1" 
 AR Path="/60D04563/610F8252" Ref="#PWR?"  Part="1" 
-AR Path="/61127036/610F8252" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3100 3350 50  0001 C CNN
+AR Path="/61127036/610F8252" Ref="#PWR0462"  Part="1" 
+F 0 "#PWR0462" H 3100 3350 50  0001 C CNN
 F 1 "GND" H 3104 3445 50  0000 C CNN
 F 2 "" H 3100 3600 50  0001 C CNN
 F 3 "" H 3100 3600 50  0001 C CNN
@@ -330,12 +330,12 @@ Wire Wire Line
 Wire Wire Line
 	2850 2150 2950 2150
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1045
 U 1 1 610F8275
 P 2850 2250
-F 0 "C?" H 2758 2296 50  0000 R CNN
+F 0 "C1045" H 2758 2296 50  0000 R CNN
 F 1 "0.1uF" H 2758 2205 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2850 2250 50  0001 C CNN
+F 2 "" H 2850 2250 50  0001 C CNN
 F 3 "https://www.we-online.de/katalog/datasheet/885012206046.pdf" H 2850 2250 50  0001 C CNN
 F 4 "$0.1" H 2850 2250 50  0001 C CNN "Item Cost"
 F 5 "885012206046" H 2850 2250 50  0001 C CNN "MFN"
@@ -356,8 +356,8 @@ AR Path="/60AD0200/60AFD3C0/610F827B" Ref="#PWR?"  Part="1"
 AR Path="/606EBC4D/610F827B" Ref="#PWR?"  Part="1" 
 AR Path="/60BC24EA/610F827B" Ref="#PWR?"  Part="1" 
 AR Path="/60D04563/610F827B" Ref="#PWR?"  Part="1" 
-AR Path="/61127036/610F827B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4600 3350 50  0001 C CNN
+AR Path="/61127036/610F827B" Ref="#PWR0464"  Part="1" 
+F 0 "#PWR0464" H 4600 3350 50  0001 C CNN
 F 1 "GND" H 4604 3445 50  0000 C CNN
 F 2 "" H 4600 3600 50  0001 C CNN
 F 3 "" H 4600 3600 50  0001 C CNN
@@ -380,10 +380,10 @@ RX_P
 Text HLabel 6300 2550 2    50   Input ~ 0
 RX_N
 $Comp
-L power:+1V8 #PWR?
+L power:+1V8 #PWR0465
 U 1 1 610E125D
 P 5650 1250
-F 0 "#PWR?" H 5650 1100 50  0001 C CNN
+F 0 "#PWR0465" H 5650 1100 50  0001 C CNN
 F 1 "+1V8" H 5665 1423 50  0000 C CNN
 F 2 "" H 5650 1250 50  0001 C CNN
 F 3 "" H 5650 1250 50  0001 C CNN
@@ -401,10 +401,10 @@ Wire Wire Line
 Wire Wire Line
 	6300 3350 5650 3350
 $Comp
-L Device:R_US R?
+L Device:R_US R597
 U 1 1 610F4A56
 P 5350 1750
-F 0 "R?" V 5400 1500 50  0000 L CNN
+F 0 "R597" V 5400 1500 50  0000 L CNN
 F 1 "4.7k" V 5400 1950 50  0000 L CNN
 F 2 "" V 5390 1740 50  0001 C CNN
 F 3 "~" H 5350 1750 50  0001 C CNN
@@ -412,10 +412,10 @@ F 3 "~" H 5350 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L Device:R_US R598
 U 1 1 610F8D31
 P 5500 1750
-F 0 "R?" V 5550 1500 50  0000 L CNN
+F 0 "R598" V 5550 1500 50  0000 L CNN
 F 1 "4.7k" V 5550 1950 50  0000 L CNN
 F 2 "" V 5540 1740 50  0001 C CNN
 F 3 "~" H 5500 1750 50  0001 C CNN
@@ -423,10 +423,10 @@ F 3 "~" H 5500 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_US R?
+L Device:R_US R599
 U 1 1 610F914A
 P 5650 1750
-F 0 "R?" V 5700 1500 50  0000 L CNN
+F 0 "R599" V 5700 1500 50  0000 L CNN
 F 1 "4.7k" V 5700 1950 50  0000 L CNN
 F 2 "" V 5690 1740 50  0001 C CNN
 F 3 "~" H 5650 1750 50  0001 C CNN
@@ -451,10 +451,10 @@ Wire Wire Line
 NoConn ~ 5100 2950
 NoConn ~ 5100 3050
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR0460
 U 1 1 611013AA
 P 2450 1700
-F 0 "#PWR?" H 2450 1550 50  0001 C CNN
+F 0 "#PWR0460" H 2450 1550 50  0001 C CNN
 F 1 "+3.3V" H 2465 1873 50  0000 C CNN
 F 2 "" H 2450 1700 50  0001 C CNN
 F 3 "" H 2450 1700 50  0001 C CNN

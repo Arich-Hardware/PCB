@@ -22,12 +22,12 @@ AR Path="/611127F4/61112853/61123729" Ref="J?"  Part="1"
 AR Path="/61123729" Ref="J?"  Part="1" 
 AR Path="/611127F4/611924E5/61123729" Ref="J?"  Part="1" 
 AR Path="/611127F4/61192572/61123729" Ref="J?"  Part="1" 
-AR Path="/61195331/61123729" Ref="J?"  Part="1" 
+AR Path="/61195331/61123729" Ref="J1"  Part="1" 
 AR Path="/61195337/61123729" Ref="J?"  Part="1" 
 AR Path="/6119533D/61123729" Ref="J?"  Part="1" 
-AR Path="/61119E87/61123729" Ref="J?"  Part="1" 
-AR Path="/6111A883/61123729" Ref="J?"  Part="1" 
-F 0 "J?" H 3750 7117 50  0000 C CNN
+AR Path="/61119E87/61123729" Ref="J5"  Part="1" 
+AR Path="/6111A883/61123729" Ref="J9"  Part="1" 
+F 0 "J9" H 3750 7117 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 3750 7026 50  0000 C CNN
 F 2 "" H 3750 3900 50  0001 C CNN
 F 3 "" H 3750 3900 50  0001 C CNN
@@ -75,12 +75,12 @@ AR Path="/611127F4/61112853/6112374B" Ref="#PWR?"  Part="1"
 AR Path="/6112374B" Ref="#PWR?"  Part="1" 
 AR Path="/611127F4/611924E5/6112374B" Ref="#PWR?"  Part="1" 
 AR Path="/611127F4/61192572/6112374B" Ref="#PWR?"  Part="1" 
-AR Path="/61195331/6112374B" Ref="#PWR?"  Part="1" 
+AR Path="/61195331/6112374B" Ref="#PWR02"  Part="1" 
 AR Path="/61195337/6112374B" Ref="#PWR?"  Part="1" 
 AR Path="/6119533D/6112374B" Ref="#PWR?"  Part="1" 
-AR Path="/61119E87/6112374B" Ref="#PWR?"  Part="1" 
-AR Path="/6111A883/6112374B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4300 6750 50  0001 C CNN
+AR Path="/61119E87/6112374B" Ref="#PWR0155"  Part="1" 
+AR Path="/6111A883/6112374B" Ref="#PWR0308"  Part="1" 
+F 0 "#PWR0308" H 4300 6750 50  0001 C CNN
 F 1 "GND" H 4305 6827 50  0000 C CNN
 F 2 "" H 4300 7000 50  0001 C CNN
 F 3 "" H 4300 7000 50  0001 C CNN
@@ -96,12 +96,12 @@ AR Path="/611127F4/61112853/61123751" Ref="#PWR?"  Part="1"
 AR Path="/61123751" Ref="#PWR?"  Part="1" 
 AR Path="/611127F4/611924E5/61123751" Ref="#PWR?"  Part="1" 
 AR Path="/611127F4/61192572/61123751" Ref="#PWR?"  Part="1" 
-AR Path="/61195331/61123751" Ref="#PWR?"  Part="1" 
+AR Path="/61195331/61123751" Ref="#PWR01"  Part="1" 
 AR Path="/61195337/61123751" Ref="#PWR?"  Part="1" 
 AR Path="/6119533D/61123751" Ref="#PWR?"  Part="1" 
-AR Path="/61119E87/61123751" Ref="#PWR?"  Part="1" 
-AR Path="/6111A883/61123751" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3150 6725 50  0001 C CNN
+AR Path="/61119E87/61123751" Ref="#PWR0154"  Part="1" 
+AR Path="/6111A883/61123751" Ref="#PWR0307"  Part="1" 
+F 0 "#PWR0307" H 3150 6725 50  0001 C CNN
 F 1 "GND" H 3155 6802 50  0000 C CNN
 F 2 "" H 3150 6975 50  0001 C CNN
 F 3 "" H 3150 6975 50  0001 C CNN
@@ -109,13 +109,13 @@ F 3 "" H 3150 6975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4600 4650 2    50   ~ 0
-BIAS2
+BIAS
 Text Label 4600 4850 2    50   ~ 0
-BIAS4
+BIAS
 Text Label 2850 4650 0    50   ~ 0
-BIAS1
+BIAS
 Text Label 2850 4850 0    50   ~ 0
-BIAS3
+BIAS
 $Comp
 L readout:ERF8-060-05.0-L-DV J?
 U 1 1 6112D059
@@ -125,12 +125,12 @@ AR Path="/611127F4/61112853/6112D059" Ref="J?"  Part="1"
 AR Path="/6112D059" Ref="J?"  Part="1" 
 AR Path="/611127F4/611924E5/6112D059" Ref="J?"  Part="1" 
 AR Path="/611127F4/61192572/6112D059" Ref="J?"  Part="1" 
-AR Path="/61195331/6112D059" Ref="J?"  Part="1" 
+AR Path="/61195331/6112D059" Ref="J2"  Part="1" 
 AR Path="/61195337/6112D059" Ref="J?"  Part="1" 
 AR Path="/6119533D/6112D059" Ref="J?"  Part="1" 
-AR Path="/61119E87/6112D059" Ref="J?"  Part="1" 
-AR Path="/6111A883/6112D059" Ref="J?"  Part="1" 
-F 0 "J?" H 7800 7217 50  0000 C CNN
+AR Path="/61119E87/6112D059" Ref="J6"  Part="1" 
+AR Path="/6111A883/6112D059" Ref="J10"  Part="1" 
+F 0 "J10" H 7800 7217 50  0000 C CNN
 F 1 "ERF8-060-05.0-L-DV" H 7800 7126 50  0000 C CNN
 F 2 "" H 7800 4000 50  0001 C CNN
 F 3 "" H 7800 4000 50  0001 C CNN
@@ -1256,11 +1256,11 @@ Connection ~ 7250 3950
 Wire Wire Line
 	7300 2750 6900 2750
 Wire Wire Line
-	8300 2750 8800 2750
+	8300 2750 8650 2750
 Text Label 8450 2750 0    50   ~ 0
-BIAS6
+BIAS
 Text Label 6950 2750 0    50   ~ 0
-BIAS5
+BIAS
 Wire Wire Line
 	7300 2850 6900 2850
 Wire Wire Line
@@ -1272,11 +1272,9 @@ Wire Wire Line
 Text Label 6950 2850 0    50   ~ 0
 TEMP2
 Text Label 6950 2950 0    50   ~ 0
-BIAS7
-Text Label 8450 2850 0    50   ~ 0
-VDD
+BIAS
 Text Label 8450 2950 0    50   ~ 0
-BIAS8
+BIAS
 Wire Wire Line
 	7300 6650 7250 6650
 Connection ~ 7250 6650
@@ -1293,127 +1291,35 @@ Wire Wire Line
 Wire Wire Line
 	8300 6750 8800 6750
 Wire Wire Line
-	8300 6850 8800 6850
-Wire Wire Line
 	8300 6950 8800 6950
 Wire Wire Line
 	2750 4850 3250 4850
 Wire Wire Line
 	2750 4650 3250 4650
 Wire Wire Line
-	4250 4750 4750 4750
-Wire Wire Line
 	4250 4650 4750 4650
 Wire Wire Line
 	4250 4850 4750 4850
-Text Label 4400 4750 0    50   ~ 0
-VDD
 Text Label 2850 4750 0    50   ~ 0
 TEMP1
 Wire Wire Line
 	3250 4750 2750 4750
 Text Label 6900 6750 0    50   ~ 0
-BIAS9
+BIAS
 Text Label 8400 6750 0    50   ~ 0
-BIAS10
+BIAS
 Text Label 6900 6950 0    50   ~ 0
-BIAS11
+BIAS
 Text Label 8400 6950 0    50   ~ 0
-BIAS12
+BIAS
 Text Label 6900 6850 0    50   ~ 0
 TEMP3
-Text Label 8400 6850 0    50   ~ 0
-VDD
 Text HLabel 9800 3750 2    50   Output ~ 10
 SIPM[0..191]
 Wire Bus Line
 	9800 3750 9200 3750
 Text Label 9250 3750 0    50   ~ 0
 SIPM[0..191]
-Entry Wire Line
-	1700 1250 1800 1350
-Entry Wire Line
-	1700 1350 1800 1450
-Entry Wire Line
-	1700 1450 1800 1550
-Entry Wire Line
-	1700 1550 1800 1650
-Entry Wire Line
-	1700 1650 1800 1750
-Entry Wire Line
-	1700 1750 1800 1850
-Entry Wire Line
-	1700 1850 1800 1950
-Entry Wire Line
-	1700 1950 1800 2050
-Entry Wire Line
-	1700 2050 1800 2150
-Entry Wire Line
-	1700 2150 1800 2250
-Entry Wire Line
-	1700 2250 1800 2350
-Entry Wire Line
-	1700 2350 1800 2450
-Wire Wire Line
-	1800 1350 2300 1350
-Wire Wire Line
-	1800 1450 2300 1450
-Wire Wire Line
-	1800 1550 2300 1550
-Wire Wire Line
-	1800 1650 2300 1650
-Wire Wire Line
-	1800 1750 2300 1750
-Wire Wire Line
-	1800 1850 2300 1850
-Wire Wire Line
-	1800 1950 2300 1950
-Wire Wire Line
-	1800 2050 2300 2050
-Wire Wire Line
-	1800 2150 2300 2150
-Wire Wire Line
-	1800 2250 2300 2250
-Wire Wire Line
-	1800 2350 2300 2350
-Wire Wire Line
-	1800 2450 2300 2450
-Text Label 1900 1350 0    50   ~ 0
-BIAS1
-Text Label 1900 1450 0    50   ~ 0
-BIAS2
-Text Label 1900 1550 0    50   ~ 0
-BIAS3
-Text Label 1900 1650 0    50   ~ 0
-BIAS4
-Text Label 1900 1750 0    50   ~ 0
-BIAS5
-Text Label 1900 1850 0    50   ~ 0
-BIAS6
-Text Label 1900 1950 0    50   ~ 0
-BIAS7
-Text Label 1900 2050 0    50   ~ 0
-BIAS8
-Text Label 1900 2150 0    50   ~ 0
-BIAS9
-Text Label 1900 2250 0    50   ~ 0
-BIAS10
-Text Label 1900 2350 0    50   ~ 0
-BIAS11
-Text Label 1900 2450 0    50   ~ 0
-BIAS12
-Wire Bus Line
-	1200 1050 1700 1050
-Text Label 1250 1050 0    50   ~ 0
-BIAS[1..12]
-Text HLabel 1200 750  0    50   Input ~ 0
-VDD
-Text HLabel 1200 1050 0    50   Input ~ 0
-BIAS[1..12]
-Wire Wire Line
-	1200 750  1700 750 
-Text Label 1400 750  0    50   ~ 0
-VDD
 $Comp
 L power:GND #PWR?
 U 1 1 612666AB
@@ -1423,12 +1329,12 @@ AR Path="/611127F4/61112853/612666AB" Ref="#PWR?"  Part="1"
 AR Path="/612666AB" Ref="#PWR?"  Part="1" 
 AR Path="/611127F4/611924E5/612666AB" Ref="#PWR?"  Part="1" 
 AR Path="/611127F4/61192572/612666AB" Ref="#PWR?"  Part="1" 
-AR Path="/61195331/612666AB" Ref="#PWR?"  Part="1" 
+AR Path="/61195331/612666AB" Ref="#PWR04"  Part="1" 
 AR Path="/61195337/612666AB" Ref="#PWR?"  Part="1" 
 AR Path="/6119533D/612666AB" Ref="#PWR?"  Part="1" 
-AR Path="/61119E87/612666AB" Ref="#PWR?"  Part="1" 
-AR Path="/6111A883/612666AB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7250 6800 50  0001 C CNN
+AR Path="/61119E87/612666AB" Ref="#PWR0157"  Part="1" 
+AR Path="/6111A883/612666AB" Ref="#PWR0310"  Part="1" 
+F 0 "#PWR0310" H 7250 6800 50  0001 C CNN
 F 1 "GND" H 7350 7050 50  0000 C CNN
 F 2 "" H 7250 7050 50  0001 C CNN
 F 3 "" H 7250 7050 50  0001 C CNN
@@ -1444,12 +1350,12 @@ AR Path="/611127F4/61112853/6130A8CC" Ref="#PWR?"  Part="1"
 AR Path="/6130A8CC" Ref="#PWR?"  Part="1" 
 AR Path="/611127F4/611924E5/6130A8CC" Ref="#PWR?"  Part="1" 
 AR Path="/611127F4/61192572/6130A8CC" Ref="#PWR?"  Part="1" 
-AR Path="/61195331/6130A8CC" Ref="#PWR?"  Part="1" 
+AR Path="/61195331/6130A8CC" Ref="#PWR05"  Part="1" 
 AR Path="/61195337/6130A8CC" Ref="#PWR?"  Part="1" 
 AR Path="/6119533D/6130A8CC" Ref="#PWR?"  Part="1" 
-AR Path="/61119E87/6130A8CC" Ref="#PWR?"  Part="1" 
-AR Path="/6111A883/6130A8CC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8350 6800 50  0001 C CNN
+AR Path="/61119E87/6130A8CC" Ref="#PWR0158"  Part="1" 
+AR Path="/6111A883/6130A8CC" Ref="#PWR0311"  Part="1" 
+F 0 "#PWR0311" H 8350 6800 50  0001 C CNN
 F 1 "GND" H 8450 7050 50  0000 C CNN
 F 2 "" H 8350 7050 50  0001 C CNN
 F 3 "" H 8350 7050 50  0001 C CNN
@@ -1460,11 +1366,11 @@ Wire Wire Line
 	8350 7050 8350 6650
 Connection ~ 8350 6650
 Text HLabel 9800 4050 2    50   Output ~ 0
-TEMP[1..4]
+TEMP[1..3]
 Wire Bus Line
 	9800 4050 9200 4050
 Text Label 9250 4050 0    50   ~ 0
-TEMP[1..4]
+TEMP[1..3]
 Wire Wire Line
 	4250 1750 4750 1750
 Wire Wire Line
@@ -1594,12 +1500,70 @@ Wire Wire Line
 Connection ~ 4300 1850
 Text Notes 6450 7600 0    75   ~ 0
 EMPHATIC readout board\nBackplane connector pair (1 of 3)
+Text HLabel 1200 1100 0    50   Input ~ 0
+BIAS
+Wire Wire Line
+	1200 1100 1700 1100
+Text Label 1400 1100 0    50   ~ 0
+BIAS
+$Comp
+L power:+1V8 #PWR03
+U 1 1 61217EE1
+P 5050 4650
+AR Path="/61195331/61217EE1" Ref="#PWR03"  Part="1" 
+AR Path="/61119E87/61217EE1" Ref="#PWR0156"  Part="1" 
+AR Path="/6111A883/61217EE1" Ref="#PWR0309"  Part="1" 
+F 0 "#PWR0309" H 5050 4500 50  0001 C CNN
+F 1 "+1V8" H 5065 4823 50  0000 C CNN
+F 2 "" H 5050 4650 50  0001 C CNN
+F 3 "" H 5050 4650 50  0001 C CNN
+	1    5050 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4650 5050 4750
+Wire Wire Line
+	4250 4750 5050 4750
+$Comp
+L power:+1V8 #PWR06
+U 1 1 61236ED5
+P 9000 2700
+AR Path="/61195331/61236ED5" Ref="#PWR06"  Part="1" 
+AR Path="/61119E87/61236ED5" Ref="#PWR0159"  Part="1" 
+AR Path="/6111A883/61236ED5" Ref="#PWR0312"  Part="1" 
+F 0 "#PWR0312" H 9000 2550 50  0001 C CNN
+F 1 "+1V8" H 9015 2873 50  0000 C CNN
+F 2 "" H 9000 2700 50  0001 C CNN
+F 3 "" H 9000 2700 50  0001 C CNN
+	1    9000 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 2850 8800 2700
+Wire Wire Line
+	8800 2700 9000 2700
+$Comp
+L power:+1V8 #PWR07
+U 1 1 61275F7C
+P 9100 6700
+AR Path="/61195331/61275F7C" Ref="#PWR07"  Part="1" 
+AR Path="/61119E87/61275F7C" Ref="#PWR0160"  Part="1" 
+AR Path="/6111A883/61275F7C" Ref="#PWR0313"  Part="1" 
+F 0 "#PWR0313" H 9100 6550 50  0001 C CNN
+F 1 "+1V8" H 9115 6873 50  0000 C CNN
+F 2 "" H 9100 6700 50  0001 C CNN
+F 3 "" H 9100 6700 50  0001 C CNN
+	1    9100 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 6700 9100 6850
+Wire Wire Line
+	8300 6850 9100 6850
 Wire Bus Line
 	8900 750  8900 2450
 Wire Bus Line
 	6700 750  6700 2450
-Wire Bus Line
-	1700 1050 1700 2350
 Wire Bus Line
 	4850 5150 4850 7050
 Wire Bus Line
