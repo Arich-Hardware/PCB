@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name LED_Pulser-rescue)(type Legacy)(uri ${KIPRJMOD}/../../libraries/LED_Pulser-rescue.lib)(options "")(descr ""))
+  (lib (name "LED_Pulser-rescue")(type "Legacy")(uri "${KIPRJMOD}/../../libraries/LED_Pulser-rescue.lib")(options "")(descr ""))
+  (lib (name "LED_Pulser-cache")(type "Legacy")(uri "${KIPRJMOD}/LED_Pulser-cache.lib")(options "")(descr ""))
 )
